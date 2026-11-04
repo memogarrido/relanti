@@ -303,7 +303,7 @@ internal object Compute {
         val kmToExam = remainingTramos * Rules.KM_PER_TRAMO +
             if (semaforo.level == SemaforoLevel.VERDE) 0 else Rules.KM_FINAL_STRETCH
         val simsToday = sims.count { it.day == today }
-        val landscape = (next.tramo?.let { pack.etapa(it.etapa) } ?: currentEtapa)?.landscape ?: "ciudad"
+        val landscape = (next.tramo?.let { pack.etapa(it.etapa) } ?: currentEtapa)?.landscape?.lowercase()?.replace("ñ", "n") ?: "ciudad"
 
         return Snapshot(
             pack = pack,

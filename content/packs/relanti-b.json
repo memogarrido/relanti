@@ -1,110 +1,133 @@
 {
  "format": "relanti-pack",
  "schemaVersion": 1,
- "contentVersion": 1,
+ "contentVersion": 2,
+ "contentHash": "e13a2e6113baada3",
  "licence": "B",
- "placeholder": true,
+ "placeholder": false,
  "attribution": {
   "boe": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado",
   "boeUrl": "https://www.boe.es",
-  "consolidatedNotice": "Paquete de MUESTRA para pruebas: preguntas sin verificar."
+  "consolidatedNotice": "Las preguntas se basan en textos consolidados del BOE, de carácter meramente informativo. Solo la publicación oficial en el BOE tiene validez jurídica. Relanti no es una publicación oficial ni está vinculada a la DGT."
+ },
+ "sources": {
+  "RGC": {
+   "boe": "BOE-A-2003-23514",
+   "title": "Real Decreto 1428/2003, Reglamento General de Circulación",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514"
+  },
+  "LSV": {
+   "boe": "BOE-A-2015-11722",
+   "title": "Real Decreto Legislativo 6/2015, Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722"
+  },
+  "RGCond": {
+   "boe": "BOE-A-2009-9481",
+   "title": "Real Decreto 818/2009, Reglamento General de Conductores",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481"
+  },
+  "RGV": {
+   "boe": "BOE-A-1999-1826",
+   "title": "Real Decreto 2822/1998, Reglamento General de Vehículos",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826"
+  }
  },
  "etapas": [
   {
    "code": "SE",
-   "order": 1,
    "name": "Villaseñal",
    "topic": "Señales",
    "landscape": "ciudad",
-   "free": true
+   "free": true,
+   "order": 1
   },
   {
    "code": "PR",
-   "order": 2,
    "name": "Cruce de la Prioridad",
    "topic": "Prioridad",
    "landscape": "ciudad",
-   "free": true
+   "free": true,
+   "order": 2
   },
   {
    "code": "VE",
-   "order": 3,
    "name": "Recta de la Velocidad",
    "topic": "Velocidad",
    "landscape": "meseta",
-   "free": true
+   "free": true,
+   "order": 3
   },
   {
    "code": "AD",
-   "order": 4,
    "name": "Paso del Adelanto",
    "topic": "Adelantamientos",
-   "landscape": "costa",
-   "free": false
+   "landscape": "meseta",
+   "free": false,
+   "order": 4
   },
   {
    "code": "PA",
-   "order": 5,
    "name": "Plaza del Aparcamiento",
    "topic": "Parada y estacionamiento",
    "landscape": "ciudad",
-   "free": false
+   "free": false,
+   "order": 5
   },
   {
    "code": "AL",
-   "order": 6,
    "name": "Faro Nocturno",
-   "topic": "Alumbrado",
-   "landscape": "montana",
-   "free": false
+   "topic": "Alumbrado y visibilidad",
+   "landscape": "montaña",
+   "free": false,
+   "order": 6
   },
   {
    "code": "VH",
-   "order": 7,
    "name": "Taller",
-   "topic": "Vehículos",
-   "landscape": "meseta",
-   "free": false
+   "topic": "El vehículo",
+   "landscape": "ciudad",
+   "free": false,
+   "order": 7
   },
   {
    "code": "FH",
-   "order": 8,
    "name": "Mirador Alerta",
    "topic": "Factores de riesgo",
-   "landscape": "montana",
-   "free": false
+   "landscape": "montaña",
+   "free": false,
+   "order": 8
   },
   {
    "code": "PS",
-   "order": 9,
    "name": "Área PAS",
-   "topic": "Seguridad pasiva",
+   "topic": "Seguridad pasiva y accidentes",
    "landscape": "costa",
-   "free": false
+   "free": false,
+   "order": 9
   },
   {
    "code": "PP",
-   "order": 10,
    "name": "Oficina de Puntos",
    "topic": "Permisos y puntos",
    "landscape": "ciudad",
-   "free": false
+   "free": false,
+   "order": 10
   },
   {
    "code": "EC",
-   "order": 11,
    "name": "Valle Eco",
    "topic": "Conducción eficiente",
    "landscape": "costa",
-   "free": false
+   "free": false,
+   "order": 11
   },
   {
    "code": "EX",
-   "order": 12,
    "name": "Centro de examen",
    "topic": "Simulacros",
-   "landscape": "meseta",
-   "free": false
+   "landscape": "ciudad",
+   "free": false,
+   "order": 12
   }
  ],
  "tramos": [
@@ -112,107 +135,1084 @@
    "code": "SE-101",
    "etapa": "SE",
    "order": 1,
-   "title": "Señales de peligro",
+   "title": "Prioridad entre señales y agentes",
    "truco": "T-SE-101"
-  },
-  {
-   "code": "SE-102",
-   "etapa": "SE",
-   "order": 2,
-   "title": "Prohibición y obligación",
-   "truco": "T-SE-102"
   },
   {
    "code": "PR-101",
    "etapa": "PR",
    "order": 1,
-   "title": "Intersecciones y glorietas",
+   "title": "Intersecciones sin señalizar",
    "truco": "T-PR-101"
+  },
+  {
+   "code": "PR-102",
+   "etapa": "PR",
+   "order": 2,
+   "title": "Glorietas",
+   "truco": "T-PR-102"
   },
   {
    "code": "VE-101",
    "etapa": "VE",
    "order": 1,
-   "title": "Límites de velocidad",
+   "title": "Límites fuera de poblado",
    "truco": "T-VE-101"
   },
   {
-   "code": "AD-101",
-   "etapa": "AD",
+   "code": "VE-102",
+   "etapa": "VE",
+   "order": 2,
+   "title": "Ciudad y travesías",
+   "truco": "T-VE-102"
+  },
+  {
+   "code": "VE-103",
+   "etapa": "VE",
+   "order": 3,
+   "title": "Velocidad adecuada y distancia",
+   "truco": "T-VE-103"
+  },
+  {
+   "code": "FH-101",
+   "etapa": "FH",
    "order": 1,
-   "title": "Adelantar",
-   "truco": "T-AD-101"
+   "title": "Alcohol",
+   "truco": "T-FH-101"
+  },
+  {
+   "code": "FH-102",
+   "etapa": "FH",
+   "order": 2,
+   "title": "Drogas",
+   "truco": "T-FH-102"
+  },
+  {
+   "code": "PS-101",
+   "etapa": "PS",
+   "order": 1,
+   "title": "Cinturón",
+   "truco": "T-PS-101"
+  },
+  {
+   "code": "PP-101",
+   "etapa": "PP",
+   "order": 1,
+   "title": "El permiso por puntos",
+   "truco": "T-PP-101"
   }
  ],
  "trucos": [
   {
    "id": "T-SE-101",
-   "kind": "reading",
-   "title": "«Siempre» y «nunca» son señales de peligro.",
-   "body": "Las normas tienen excepciones: un agente manda más que un semáforo, y una señal más que la norma general.",
+   "kind": "memory",
+   "title": "De la persona al suelo",
+   "body": "Primero la persona, luego lo provisional, la luz, el poste y el suelo: agente, obras, semáforo, señal vertical y marca vial.",
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a133",
-    "ref": "RGC, art. 133",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "T-SE-102",
-   "kind": "memory",
-   "title": "Rojo prohíbe, azul obliga.",
-   "body": "Círculo con borde rojo: prohibición. Círculo azul: obligación. El color ya te da media respuesta.",
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a154",
-    "ref": "RGC, art. 154",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
+    "ref": "art. 133 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
    }
   },
   {
    "id": "T-PR-101",
    "kind": "memory",
-   "title": "Sin señales, manda la derecha.",
-   "body": "En un cruce sin señalizar cede a quien viene por tu derecha. En la glorieta manda quien ya está dentro.",
+   "title": "Mira a tu derecha",
+   "body": "Sin señales, pasa quien viene por tu derecha. Excepciones: asfalto sobre tierra, raíles, glorieta y autopista.",
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a57",
-    "ref": "RGC, art. 57",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
+    "ref": "art. 57 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-PR-102",
+   "kind": "memory",
+   "title": "Dentro manda",
+   "body": "En la glorieta y en la autopista, quien ya está dentro pasa primero. Tú entras cuando haya hueco.",
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a57",
+    "ref": "art. 57.1.c) y d) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
    }
   },
   {
    "id": "T-VE-101",
-   "kind": "reading",
-   "title": "La velocidad máxima es un techo, no un objetivo.",
-   "body": "Lluvia, niebla o una salida de colegio: casi siempre la respuesta es adaptar la velocidad.",
+   "kind": "memory",
+   "title": "Tres cifras de autopista",
+   "body": "En autopista: turismo 120 km/h, autobús 100 km/h, camión 90 km/h. En convencional, turismo y autobús 90 km/h; camión 80 km/h.",
+   "facts": [
+    "vmax.autobus.autopista",
+    "vmax.camion.autopista",
+    "vmax.camion.convencional",
+    "vmax.turismo.autopista",
+    "vmax.turismo.convencional"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a45",
-    "ref": "RGC, art. 45",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
    }
   },
   {
-   "id": "T-AD-101",
+   "id": "T-VE-102",
    "kind": "memory",
-   "title": "Ciclista: 1,5 metros.",
-   "body": "Para adelantar a un ciclista deja al menos 1,5 m: piensa en un ciclista con los brazos abiertos.",
+   "title": "Cuenta carriles",
+   "body": "En ciudad cuenta carriles por sentido: plataforma única 20 km/h, uno 30 km/h, dos o más 50 km/h. El carril bus no cuenta.",
+   "facts": [
+    "vmax.urbana.dos-carriles",
+    "vmax.urbana.plataforma-unica",
+    "vmax.urbana.un-carril"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a85",
-    "ref": "RGC, art. 85",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
+    "block": "a50",
+    "ref": "art. 50.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-VE-103",
+   "kind": "reading",
+   "title": "El límite es un techo",
+   "body": "Si la pregunta habla de lluvia, niebla o niños, la respuesta casi nunca es el límite: es ir más despacio.",
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a46",
+    "ref": "art. 46 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "fingerprint": "sha256:2479daa2fc259d37a18b341f4f0b9517166d0bc651522d3f5e36f40c3f34729e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-FH-101",
+   "kind": "memory",
+   "title": "En aire, la mitad",
+   "body": "La cifra en aire es la mitad que en sangre: 0,5 g/l → 0,25 mg/l. Noveles y profesionales: 0,3 g/l → 0,15 mg/l.",
+   "facts": [
+    "alcohol.especial.aire",
+    "alcohol.especial.sangre",
+    "alcohol.general.aire",
+    "alcohol.general.sangre"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-FH-102",
+   "kind": "reading",
+   "title": "Manos libres de verdad",
+   "body": "Sin manos y sin auriculares, sí. Con el móvil en la mano son 6 puntos menos.",
+   "facts": [
+    "puntos.movil-mano"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a18",
+    "ref": "art. 18.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "fingerprint": "sha256:c1cb5c34008495f962fcf703b407242af626178cce62bf3294586c04c8d13d78",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-PS-101",
+   "kind": "memory",
+   "title": "135 y detrás",
+   "body": "Hasta 135 cm, silla homologada y asiento trasero. Delante solo en tres casos, y si mira hacia atrás, sin airbag.",
+   "facts": [
+    "sri.estatura"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "T-PP-101",
+   "kind": "memory",
+   "title": "8, 12, 15",
+   "body": "Empiezas con 8 puntos, a los 2 años limpios tienes 12 puntos y el techo es 15 puntos.",
+   "facts": [
+    "puntos.inicial",
+    "puntos.maximo",
+    "puntos.novel",
+    "puntos.recuperar.anos"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "arts. 63 y 65 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  }
+ ],
+ "facts": [
+  {
+   "id": "alcohol.general.sangre",
+   "value": 0.5,
+   "unit": "g/l",
+   "label": "Tasa máxima de alcohol en sangre, conductores en general",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "alcohol.general.aire",
+   "value": 0.25,
+   "unit": "mg/l",
+   "label": "Tasa máxima de alcohol en aire espirado, conductores en general",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "alcohol.especial.sangre",
+   "value": 0.3,
+   "unit": "g/l",
+   "label": "Tasa máxima en sangre, profesionales y noveles (dos primeros años)",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "alcohol.especial.aire",
+   "value": 0.15,
+   "unit": "mg/l",
+   "label": "Tasa máxima en aire espirado, profesionales y noveles (dos primeros años)",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "alcohol.noveles.anos",
+   "value": 2,
+   "unit": "años",
+   "label": "Años tras obtener el permiso con la tasa reducida",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "alcohol.segunda-prueba.minutos",
+   "value": 10,
+   "unit": "minutos",
+   "label": "Tiempo mínimo entre la primera y la segunda prueba de aire espirado",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a23",
+    "ref": "art. 23.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a23",
+    "fingerprint": "sha256:6939ab437289906717054094000b974306f891f2ec28d7892534cd7d2b2ac316",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.inicial",
+   "value": 12,
+   "unit": "puntos",
+   "label": "Crédito inicial de puntos",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.novel",
+   "value": 8,
+   "unit": "puntos",
+   "label": "Crédito inicial de un permiso con tres años o menos de antigüedad",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.2 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.novel.anos",
+   "value": 3,
+   "unit": "años",
+   "label": "Antigüedad del permiso hasta la que se empieza con 8 puntos",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.2.a) LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.maximo",
+   "value": 15,
+   "unit": "puntos",
+   "label": "Máximo de puntos acumulables con bonificaciones",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.max-dia",
+   "value": 8,
+   "unit": "puntos",
+   "label": "Máximo de puntos que se pierden en un solo día (salvo ciertas muy graves)",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a64",
+    "ref": "art. 64.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a64",
+    "fingerprint": "sha256:6f9ddff6c042fe3eb7bb99cc845a95051191811fe1a5420b50c9460cb4410c8a",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.recuperar.anos",
+   "value": 2,
+   "unit": "años",
+   "label": "Años sin sanción para recuperar los 12 puntos",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "art. 65.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.curso.recupera",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Puntos que devuelve un curso de sensibilización y reeducación vial",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "art. 65.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.movil-mano",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Usar el móvil sujetándolo con la mano",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.8 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.drogas",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Conducir con presencia de drogas en el organismo",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.2 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.negarse-pruebas",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Negarse a las pruebas de alcohol o drogas",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.3 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.ciclista",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Adelantar a ciclistas poniéndolos en peligro o sin dejar 1,5 m",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.12 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.alcohol.alto",
+   "value": 6,
+   "unit": "puntos",
+   "label": "Alcohol en aire de más de 0,50 mg/l (general)",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.alcohol.medio",
+   "value": 4,
+   "unit": "puntos",
+   "label": "Alcohol en aire de más de 0,25 hasta 0,50 mg/l (general)",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.cinturon",
+   "value": 4,
+   "unit": "puntos",
+   "label": "No usar cinturón, sistema de retención infantil o casco",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.15 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.distancia",
+   "value": 4,
+   "unit": "puntos",
+   "label": "No mantener la distancia de seguridad",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.14 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.stop-rojo",
+   "value": 4,
+   "unit": "puntos",
+   "label": "Saltarse un stop, un ceda el paso o un semáforo en rojo",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.10 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.cambio-sentido",
+   "value": 3,
+   "unit": "puntos",
+   "label": "Cambio de sentido indebido",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.19 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.auriculares",
+   "value": 3,
+   "unit": "puntos",
+   "label": "Conducir con auriculares o manipulando el navegador",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.20 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.detector-radar",
+   "value": 3,
+   "unit": "puntos",
+   "label": "Llevar detector de radares",
+   "group": "baremo",
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.21 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "puntos.curso.seguro",
+   "value": 2,
+   "unit": "puntos",
+   "label": "Puntos que suma un curso de conducción segura y eficiente",
+   "group": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.5 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "sri.estatura",
+   "value": 135,
+   "unit": "cm",
+   "label": "Estatura hasta la que los menores usan sistema de retención infantil",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.turismo.autopista",
+   "value": 120,
+   "unit": "km/h",
+   "label": "Turismos y motocicletas, autopista y autovía",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.turismo.convencional",
+   "value": 90,
+   "unit": "km/h",
+   "label": "Turismos y motocicletas, carretera convencional",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.camion.autopista",
+   "value": 90,
+   "unit": "km/h",
+   "label": "Camiones, furgonetas y automóviles con remolque, autopista y autovía",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.camion.convencional",
+   "value": 80,
+   "unit": "km/h",
+   "label": "Camiones, furgonetas y automóviles con remolque, carretera convencional",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.autobus.autopista",
+   "value": 100,
+   "unit": "km/h",
+   "label": "Autobuses y derivados de turismo, autopista y autovía",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.autobus.convencional",
+   "value": 90,
+   "unit": "km/h",
+   "label": "Autobuses y derivados de turismo, carretera convencional",
+   "group": "vmax-fuera",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.convencional.separacion",
+   "value": 100,
+   "unit": "km/h",
+   "label": "Límite que puede fijar el titular en convencional con separación física de sentidos (turismos, motos)",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a).1.º RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.reduccion.escolar",
+   "value": 10,
+   "unit": "km/h",
+   "label": "Reducción para transporte escolar y de menores o mercancías peligrosas",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.autobus.de-pie",
+   "value": 80,
+   "unit": "km/h",
+   "label": "Autobús con pasajeros de pie o sin cinturones, cualquier vía fuera de poblado",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.ciclomotor",
+   "value": 45,
+   "unit": "km/h",
+   "label": "Ciclos, ciclomotores y cuadriciclos ligeros",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.e) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.sin-pavimentar",
+   "value": 30,
+   "unit": "km/h",
+   "label": "Vías sin pavimentar",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.f) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.plataforma-unica",
+   "value": 20,
+   "unit": "km/h",
+   "label": "Vía urbana con plataforma única de calzada y acera",
+   "group": "vmax-urbana",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.un-carril",
+   "value": 30,
+   "unit": "km/h",
+   "label": "Vía urbana de un único carril por sentido",
+   "group": "vmax-urbana",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.dos-carriles",
+   "value": 50,
+   "unit": "km/h",
+   "label": "Vía urbana de dos o más carriles por sentido",
+   "group": "vmax-urbana",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1.c) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.travesia",
+   "value": 50,
+   "unit": "km/h",
+   "label": "Travesías, todo tipo de vehículos",
+   "group": "vmax-urbana",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.5 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.autopista",
+   "value": 80,
+   "unit": "km/h",
+   "label": "Autopistas y autovías dentro de poblado",
+   "group": "vmax-urbana",
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.6 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.mercancias-peligrosas",
+   "value": 40,
+   "unit": "km/h",
+   "label": "Mercancías peligrosas en vías urbanas de dos o más carriles y travesías",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.4 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.urbana.ampliable",
+   "value": 50,
+   "unit": "km/h",
+   "label": "Máximo al que el ayuntamiento puede subir una vía de un carril por sentido",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmin.autopista",
+   "value": 60,
+   "unit": "km/h",
+   "label": "Velocidad mínima en autopistas y autovías",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a49",
+    "ref": "art. 49.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "fingerprint": "sha256:17c0d9a5ad6c49048d64b9036da1c46c20f09e861df187d69dcc42c98c5d1671",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "vmax.visibilidad-nula",
+   "value": 50,
+   "unit": "km/h",
+   "label": "Máximo al acercarse a intersecciones señalizadas con visibilidad prácticamente nula",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a46",
+    "ref": "art. 46.1.h) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "fingerprint": "sha256:2479daa2fc259d37a18b341f4f0b9517166d0bc651522d3f5e36f40c3f34729e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   }
+  },
+  {
+   "id": "distancia.pesados",
+   "value": 50,
+   "unit": "m",
+   "label": "Separación mínima fuera de poblado de vehículos de más de 3.500 kg o 10 m, para dejar adelantar",
+   "group": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a54",
+    "ref": "art. 54.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "fingerprint": "sha256:b4183799a7087f61c7f19554302b2740cae3fc81f24d93b202b9333a8f3b727b",
+    "checkedOn": "2026-11-04",
+    "note": null
    }
   }
  ],
@@ -220,882 +1220,2873 @@
   {
    "id": "SE-101-01",
    "tramo": "SE-101",
-   "question": "¿Qué forma tienen, en general, las señales de advertencia de peligro?",
+   "question": "¿Qué tiene preferencia sobre cualquier otra señal de circulación?",
    "options": [
-    "Circular con borde rojo",
-    "Triangular con borde rojo y un vértice hacia arriba",
-    "Cuadrada con fondo azul"
+    "Los semáforos",
+    "Las señales y órdenes de los agentes de tráfico",
+    "Las señales verticales"
    ],
    "answer": 1,
-   "explanation": "El triángulo con borde rojo avisa de un peligro más adelante.",
+   "explanation": "Lo primero son los agentes; luego la señalización circunstancial, los semáforos, las señales verticales y las marcas viales.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a149",
-    "ref": "RGC, art. 149",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a133",
+    "ref": "art. 133.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8147ae7b42"
   },
   {
    "id": "SE-101-02",
    "tramo": "SE-101",
-   "question": "Fuera de poblado, ¿a qué distancia del peligro se suelen colocar estas señales?",
+   "question": "En un cruce hay un semáforo en verde y, en el mismo poste, una señal de stop. ¿Qué obedeces?",
    "options": [
-    "Justo en el punto del peligro",
-    "Entre 150 y 250 metros antes",
-    "A 500 metros o más"
+    "La señal de stop",
+    "La que me parezca más prudente",
+    "El semáforo"
    ],
-   "answer": 1,
-   "explanation": "Te dan tiempo para reducir la velocidad antes de llegar.",
+   "answer": 2,
+   "explanation": "Los semáforos van por delante de las señales verticales en el orden de preferencia.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a149",
-    "ref": "RGC, art. 149",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a133",
+    "ref": "art. 133.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "fdc1ca6505"
   },
   {
    "id": "SE-101-03",
    "tramo": "SE-101",
-   "question": "Una señal de peligro con fondo amarillo indica que…",
+   "question": "Una marca vial en el suelo y una señal vertical dicen cosas distintas. ¿Cuál prevalece?",
    "options": [
-    "es provisional, normalmente por obras",
-    "solo vale de noche",
-    "es una recomendación"
+    "La marca vial",
+    "La señal vertical",
+    "Ninguna, decide el conductor"
    ],
-   "answer": 0,
-   "explanation": "El fondo amarillo es señalización circunstancial, como en obras.",
+   "answer": 1,
+   "explanation": "Las marcas viales son lo último del orden de preferencia; la señal vertical va antes.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a133",
-    "ref": "RGC, art. 133",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 133.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "498b286efb"
   },
   {
    "id": "SE-101-04",
    "tramo": "SE-101",
-   "question": "Al ver una señal de advertencia de peligro, debe…",
+   "question": "Por unas obras, una señal circunstancial te indica algo distinto de lo que marca un semáforo. ¿Qué haces?",
    "options": [
-    "mantener la velocidad",
-    "extremar la precaución y adaptar la velocidad",
-    "detenerse siempre"
+    "Sigo el semáforo",
+    "Sigo las marcas viales",
+    "Sigo la señalización circunstancial de las obras"
    ],
-   "answer": 1,
-   "explanation": "Avisan de un peligro: adapta la marcha; no obligan a parar.",
+   "answer": 2,
+   "explanation": "La señalización circunstancial que cambia el uso normal de la vía va antes que los semáforos.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a149",
-    "ref": "RGC, art. 149",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a133",
+    "ref": "art. 133.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "b9b7a94a41"
   },
   {
    "id": "SE-101-05",
    "tramo": "SE-101",
-   "question": "La señal de peligro con la silueta de dos niños avisa de…",
+   "question": "Dos señales verticales parecen contradecirse. ¿Cuál cumples?",
    "options": [
-    "un parque de atracciones",
-    "un lugar frecuentado por niños, como un colegio",
-    "un paso de peatones elevado"
+    "La que esté más cerca",
+    "La más permisiva",
+    "La más restrictiva"
    ],
-   "answer": 1,
-   "explanation": "Puede haber niños cruzando sin mirar.",
+   "answer": 2,
+   "explanation": "Entre señales del mismo tipo que se contradicen, manda la más restrictiva.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a149",
-    "ref": "RGC, art. 149",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a133",
+    "ref": "art. 133.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1641f503fe"
   },
   {
    "id": "SE-101-06",
    "tramo": "SE-101",
-   "question": "Si un agente le indica que avance y el semáforo está en rojo, ¿qué hace?",
+   "question": "¿Cuál es el orden de preferencia correcto de las señales, de más a menos importante?",
    "options": [
-    "Espero al verde",
-    "Avanzo: las indicaciones del agente prevalecen",
-    "Toco el claxon y espero"
+    "Agentes, señalización circunstancial, semáforos, señales verticales y marcas viales",
+    "Semáforos, agentes, señales verticales, marcas viales y señalización circunstancial",
+    "Agentes, semáforos, marcas viales, señales verticales y señalización circunstancial"
    ],
-   "answer": 1,
-   "explanation": "Primero el agente, luego la señalización circunstancial, semáforos, señales y marcas.",
+   "answer": 0,
+   "explanation": "Agentes, circunstancial y balizamiento, semáforos, verticales y, por último, marcas viales.",
    "image": null,
    "novedad": false,
+   "truco": "T-SE-101",
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a133",
-    "ref": "RGC, art. 133",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 133.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133",
+    "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "0a30010ddf"
   },
   {
    "id": "SE-101-07",
    "tramo": "SE-101",
-   "question": "Si una señal provisional de obras contradice a una señal fija, prevalece…",
+   "question": "Un agente te ordena detenerte en un cruce donde tienes el semáforo en verde. ¿Qué haces?",
    "options": [
-    "la señal fija",
-    "la provisional de obras",
-    "la que esté más cerca"
+    "Sigo, porque tengo el verde",
+    "Me detengo",
+    "Sigo si no hay peatones cruzando"
    ],
    "answer": 1,
-   "explanation": "La señalización circunstancial va por delante de la fija.",
+   "explanation": "En un cruce regulado por un agente, te detienes cuando él lo ordena, aunque el semáforo diga otra cosa.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a133",
-    "ref": "RGC, art. 133",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a56",
+    "ref": "art. 56.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a56",
+    "fingerprint": "sha256:1b706744297366d0601f7ccc3e06aeb44196acfae712df62220dec051f627f6d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "36e9ff801e"
   },
   {
    "id": "SE-101-08",
    "tramo": "SE-101",
-   "question": "La señal de «estrechamiento de calzada» avisa de que…",
+   "question": "Un coche de policía se coloca detrás de ti con las señales especiales y una luz roja intermitente hacia delante. ¿Qué haces?",
    "options": [
-    "la vía va a tener menos anchura",
-    "empieza una autovía",
-    "está prohibido adelantar"
-   ],
-   "answer": 0,
-   "explanation": "Prepárate para ajustar tu posición y velocidad.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a149",
-    "ref": "RGC, art. 149",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-01",
-   "tramo": "SE-102",
-   "question": "Las señales de prohibición suelen ser…",
-   "options": [
-    "triangulares con borde rojo",
-    "circulares con borde rojo",
-    "rectangulares con fondo verde"
+    "Me aparto a la derecha y sigo circulando",
+    "Me detengo con precaución a la derecha, delante del coche policial, y me quedo dentro",
+    "Me detengo y salgo del coche para hablar con el agente"
    ],
    "answer": 1,
-   "explanation": "Círculo con borde rojo: algo está prohibido.",
+   "explanation": "Esa luz roja hacia delante te pide parar a la derecha, delante de la policía, sin salir del vehículo.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a154",
-    "ref": "RGC, art. 154",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a69",
+    "ref": "art. 69 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a69",
+    "fingerprint": "sha256:75305d995ea11b989f1034bb0973977a6a1c615143c11d606c962de14c2dc576",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "db16d96152"
   },
   {
-   "id": "SE-102-02",
-   "tramo": "SE-102",
-   "question": "Las señales de obligación suelen ser…",
+   "id": "SE-101-09",
+   "tramo": "SE-101",
+   "question": "¿Deben cumplir las órdenes de los agentes los vehículos prioritarios en servicio urgente?",
    "options": [
-    "circulares con fondo azul",
-    "octogonales rojas",
-    "cuadradas con fondo blanco"
+    "No, en servicio urgente quedan exentos",
+    "Solo si circulan por poblado",
+    "Sí, siempre"
    ],
-   "answer": 0,
-   "explanation": "El círculo azul indica algo que debes hacer.",
+   "answer": 2,
+   "explanation": "Los prioritarios pueden saltarse otras normas con cuidado, pero las órdenes y señales de los agentes son siempre obligatorias.",
    "image": null,
    "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a155",
-    "ref": "RGC, art. 155",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-03",
-   "tramo": "SE-102",
-   "question": "Una señal circular blanca con una franja diagonal negra indica…",
-   "options": [
-    "el fin de una prohibición",
-    "una prohibición de giro",
-    "una zona peatonal"
-   ],
-   "answer": 0,
-   "explanation": "Las señales de fin de prohibición llevan la franja diagonal.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a154",
-    "ref": "RGC, art. 154",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-04",
-   "tramo": "SE-102",
-   "question": "Ante la señal de STOP debe…",
-   "options": [
-    "reducir y pasar si no viene nadie",
-    "detenerse siempre y ceder el paso",
-    "detenerse solo si hay tráfico"
-   ],
-   "answer": 1,
-   "explanation": "El STOP obliga a parar del todo, venga o no alguien.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a151",
-    "ref": "RGC, art. 151",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-05",
-   "tramo": "SE-102",
-   "question": "¿Qué forma tiene la señal de «ceda el paso»?",
-   "options": [
-    "Octogonal",
-    "Triangular con un vértice hacia abajo",
-    "Circular con borde rojo"
-   ],
-   "answer": 1,
-   "explanation": "Es la única señal triangular invertida.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a151",
-    "ref": "RGC, art. 151",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-06",
-   "tramo": "SE-102",
-   "question": "Una señal circular con borde rojo y el número 50 indica…",
-   "options": [
-    "velocidad mínima de 50 km/h",
-    "velocidad máxima de 50 km/h",
-    "velocidad recomendada de 50 km/h"
-   ],
-   "answer": 1,
-   "explanation": "Borde rojo prohíbe: no puedes pasar de 50.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a154",
-    "ref": "RGC, art. 154",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-07",
-   "tramo": "SE-102",
-   "question": "Una señal circular azul con el número 30 indica…",
-   "options": [
-    "velocidad máxima de 30 km/h",
-    "velocidad mínima obligatoria de 30 km/h",
-    "zona 30 recomendada"
-   ],
-   "answer": 1,
-   "explanation": "El azul obliga: no circules por debajo de 30 si nada lo impide.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a155",
-    "ref": "RGC, art. 155",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "SE-102-08",
-   "tramo": "SE-102",
-   "question": "Una señal de prohibición empieza a aplicarse…",
-   "options": [
-    "desde el lugar donde está colocada",
-    "100 metros después",
-    "en la siguiente intersección"
-   ],
-   "answer": 0,
-   "explanation": "Rige desde su emplazamiento.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a154",
-    "ref": "RGC, art. 154",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-01",
-   "tramo": "PR-101",
-   "question": "En una intersección sin señalizar, ¿quién tiene preferencia?",
-   "options": [
-    "El que viene por la izquierda",
-    "El que viene por la derecha",
-    "El vehículo más grande"
-   ],
-   "answer": 1,
-   "explanation": "Sin señales, cede a quien se aproxima por tu derecha.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a57",
-    "ref": "RGC, art. 57",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-02",
-   "tramo": "PR-101",
-   "question": "Al llegar a una glorieta, ¿quién tiene preferencia?",
-   "options": [
-    "Quien ya circula por la glorieta",
-    "Quien entra en ella",
-    "Quien viene por la derecha"
-   ],
-   "answer": 0,
-   "explanation": "Dentro de la glorieta tienen preferencia sobre los que entran.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a57",
-    "ref": "RGC, art. 57",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-03",
-   "tramo": "PR-101",
-   "question": "Una vía pavimentada se cruza con un camino de tierra. Preferencia:",
-   "options": [
-    "el camino de tierra",
-    "la vía pavimentada",
-    "quien llegue primero"
-   ],
-   "answer": 1,
-   "explanation": "Los que circulan por vía pavimentada tienen preferencia sobre los que salen de una sin pavimentar.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a57",
-    "ref": "RGC, art. 57",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-04",
-   "tramo": "PR-101",
-   "question": "Para entrar en una autovía desde un carril de aceleración debe…",
-   "options": [
-    "tener preferencia por estar acelerando",
-    "ceder el paso a quienes circulan por la autovía",
-    "detenerse siempre al final del carril"
-   ],
-   "answer": 1,
-   "explanation": "Te incorporas tú: cede el paso a quienes ya circulan.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a72",
-    "ref": "RGC, art. 72",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-05",
-   "tramo": "PR-101",
-   "question": "Al girar a la derecha, un ciclista sigue recto por el arcén. ¿Quién pasa primero?",
-   "options": [
-    "Usted, porque gira",
-    "El ciclista",
-    "Quien vaya más rápido"
-   ],
-   "answer": 1,
-   "explanation": "Al girar debes ceder el paso a los ciclistas que siguen recto.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a64",
-    "ref": "RGC, art. 64",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-06",
-   "tramo": "PR-101",
-   "question": "Una ambulancia con luces y sirena se acerca. Usted debe…",
-   "options": [
-    "seguir igual",
-    "facilitarle el paso apartándose",
-    "acelerar para no estorbar"
-   ],
-   "answer": 1,
-   "explanation": "Los vehículos en servicio de urgencia tienen prioridad.",
-   "image": null,
-   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a68",
-    "ref": "RGC, art. 68",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 68.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a68",
+    "fingerprint": "sha256:9d2dde9ddf0ce1a2d81bc66736eeb10d2c973b8a5a3159bfada26b6dad13e112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "9101fbb042"
   },
   {
-   "id": "PR-101-07",
+   "id": "PR-101-01",
    "tramo": "PR-101",
-   "question": "Con el semáforo en ámbar fijo, debe…",
+   "question": "Llegas a un cruce sin ninguna señal. ¿A quién cedes el paso?",
    "options": [
-    "acelerar para pasar",
-    "detenerse si puede hacerlo con seguridad",
-    "pasar siempre"
-   ],
-   "answer": 1,
-   "explanation": "Ámbar significa parar, salvo que no puedas hacerlo con seguridad.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a146",
-    "ref": "RGC, art. 146",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "PR-101-08",
-   "tramo": "PR-101",
-   "question": "En una intersección sin señalizar, los vehículos que circulan sobre raíles…",
-   "options": [
-    "tienen preferencia",
-    "deben ceder siempre",
-    "solo pasan con semáforo"
+    "A los vehículos que se acercan por mi derecha",
+    "A los vehículos que se acercan por mi izquierda",
+    "Al vehículo más grande"
    ],
    "answer": 0,
-   "explanation": "Tranvías y similares tienen preferencia en esos casos.",
+   "explanation": "Sin señales, se cede el paso a quien viene por la derecha, salvo las excepciones del art. 57.",
    "image": null,
    "novedad": false,
+   "truco": "T-PR-101",
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a57",
-    "ref": "RGC, art. 57",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 57.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8308cf9152"
+  },
+  {
+   "id": "PR-101-02",
+   "tramo": "PR-101",
+   "question": "En un cruce sin señales tú vienes por un camino de tierra y otro coche por una carretera asfaltada, a tu izquierda. ¿Quién pasa primero?",
+   "options": [
+    "El coche que circula por la vía asfaltada",
+    "Yo, porque él viene por mi izquierda",
+    "El que llegue antes al cruce"
+   ],
+   "answer": 0,
+   "explanation": "La vía pavimentada tiene preferencia sobre la que no lo está, venga por donde venga.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a57",
+    "ref": "art. 57.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "f03190bbe3"
+  },
+  {
+   "id": "PR-101-03",
+   "tramo": "PR-101",
+   "question": "En un cruce sin señales coincides con un tranvía. ¿Quién tiene prioridad?",
+   "options": [
+    "El que venga por la derecha",
+    "El tranvía",
+    "El turismo, si va más rápido"
+   ],
+   "answer": 1,
+   "explanation": "Los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a57",
+    "ref": "art. 57.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "5121085b30"
+  },
+  {
+   "id": "PR-101-04",
+   "tramo": "PR-101",
+   "question": "Ante una señal de ceda el paso, ¿a quién debes ceder?",
+   "options": [
+    "Solo a los que vienen por mi derecha",
+    "A todos los que circulen por la vía preferente, vengan por el lado que vengan",
+    "Solo a camiones y autobuses"
+   ],
+   "answer": 1,
+   "explanation": "Con ceda el paso o stop, cedes siempre a quien va por la vía preferente, por cualquier lado.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a56",
+    "ref": "art. 56.5 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a56",
+    "fingerprint": "sha256:1b706744297366d0601f7ccc3e06aeb44196acfae712df62220dec051f627f6d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "74f928cf11"
+  },
+  {
+   "id": "PR-101-05",
+   "tramo": "PR-101",
+   "question": "Llegas a un stop y no viene nadie por la vía preferente. ¿Qué haces?",
+   "options": [
+    "Reduzco la velocidad y sigo sin parar",
+    "Solo paro si hay tráfico",
+    "Me detengo por completo y luego continúo"
+   ],
+   "answer": 2,
+   "explanation": "El stop obliga a detenerse del todo siempre, aunque no venga nadie.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a56",
+    "ref": "art. 56.5 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a56",
+    "fingerprint": "sha256:1b706744297366d0601f7ccc3e06aeb44196acfae712df62220dec051f627f6d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8a5aba891c"
+  },
+  {
+   "id": "PR-101-06",
+   "tramo": "PR-101",
+   "question": "Tienes que ceder el paso. ¿Cómo lo muestras al otro conductor?",
+   "options": [
+    "Reduciendo poco a poco la velocidad con antelación",
+    "Frenando en el último momento",
+    "Haciendo ráfagas con las luces"
+   ],
+   "answer": 0,
+   "explanation": "Quien cede debe mostrarlo a tiempo, sobre todo reduciendo la velocidad de forma paulatina.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a58",
+    "ref": "art. 58.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a58",
+    "fingerprint": "sha256:0f5a8ce22edb57e12a97578f80fdadc6baf6ccf688d868938cc927c0cf031d62",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "d006d4bfe1"
+  },
+  {
+   "id": "PR-101-07",
+   "tramo": "PR-101",
+   "question": "Tienes prioridad, pero el tráfico al otro lado del cruce está parado y te quedarías dentro. ¿Qué haces?",
+   "options": [
+    "Entro, porque tengo prioridad",
+    "Espero antes del cruce hasta que haya sitio para salir",
+    "Entro y enciendo las luces de emergencia"
+   ],
+   "answer": 1,
+   "explanation": "Aunque tengas prioridad, no entres en un cruce o paso de peatones si vas a quedarte parado bloqueándolo.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a59",
+    "ref": "art. 59.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a59",
+    "fingerprint": "sha256:fa26ff80f622ee05511dadeb2d6abd3261e4e1654a3381b291218a13a2afb281",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "35c34a1354"
+  },
+  {
+   "id": "PR-101-08",
+   "tramo": "PR-101",
+   "question": "Te has quedado parado dentro de un cruce con semáforos y estás estorbando. ¿Qué haces?",
+   "options": [
+    "Espero a que el semáforo me dé paso",
+    "Salgo del cruce sin esperar a que se abra mi dirección, si no molesto a quien tiene paso",
+    "Doy marcha atrás para dejar libre el cruce"
+   ],
+   "answer": 1,
+   "explanation": "Si eres un obstáculo dentro del cruce, sal de él, siempre que no entorpezcas a quien circula con paso.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a59",
+    "ref": "art. 59.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a59",
+    "fingerprint": "sha256:fa26ff80f622ee05511dadeb2d6abd3261e4e1654a3381b291218a13a2afb281",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8be2b3d76c"
+  },
+  {
+   "id": "PR-101-09",
+   "tramo": "PR-101",
+   "question": "Circulas por una vía señalizada como calzada con prioridad. Un coche llega por tu derecha desde otra vía. ¿Quién pasa?",
+   "options": [
+    "Yo",
+    "El que viene por mi derecha",
+    "El que llegó primero"
+   ],
+   "answer": 0,
+   "explanation": "Quien va por la calzada con prioridad pasa antes que los que llegan de otra vía, aunque vengan por la derecha.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a56",
+    "ref": "art. 56.4 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a56",
+    "fingerprint": "sha256:1b706744297366d0601f7ccc3e06aeb44196acfae712df62220dec051f627f6d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1c7268a2bb"
+  },
+  {
+   "id": "PR-102-01",
+   "tramo": "PR-102",
+   "question": "En una glorieta sin señales, ¿quién tiene preferencia?",
+   "options": [
+    "Los que ya circulan dentro de la glorieta",
+    "Los que quieren entrar, si vienen por la derecha",
+    "Los vehículos más grandes"
+   ],
+   "answer": 0,
+   "explanation": "En las glorietas, quien ya está en la vía circular tiene preferencia sobre quien quiere entrar.",
+   "image": null,
+   "novedad": false,
+   "truco": "T-PR-102",
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a57",
+    "ref": "art. 57.1.c) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "d2d1dc6c69"
+  },
+  {
+   "id": "PR-102-02",
+   "tramo": "PR-102",
+   "question": "Te incorporas a una autovía desde el carril de aceleración. ¿Quién tiene preferencia?",
+   "options": [
+    "Yo, porque llego por su derecha",
+    "Los que ya circulan por la autovía",
+    "El que vaya más rápido"
+   ],
+   "answer": 1,
+   "explanation": "Quien circula por la autopista o autovía tiene preferencia sobre quien quiere entrar.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a57",
+    "ref": "art. 57.1.d) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a57",
+    "fingerprint": "sha256:d219d114d8addbc1aa4ce1fbce359c9983f7fa88591d4aabc8bcc0750af7b6ee",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "3fb239454a"
+  },
+  {
+   "id": "PR-102-03",
+   "tramo": "PR-102",
+   "question": "En un tramo estrecho sin señales no caben dos vehículos a la vez. ¿Quién pasa primero?",
+   "options": [
+    "El que venga por la derecha",
+    "El vehículo más pequeño",
+    "El que haya entrado primero en el tramo"
+   ],
+   "answer": 2,
+   "explanation": "En estrechamientos sin señalizar, tiene preferencia quien entró primero.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a60",
+    "ref": "art. 60.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a60",
+    "fingerprint": "sha256:9c8638d091043167248505760039ee6d3eb996bee3ae93935be6f121dce3630d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "6a3fd345ae"
+  },
+  {
+   "id": "PR-102-04",
+   "tramo": "PR-102",
+   "question": "En ese tramo estrecho no está claro quién entró primero. ¿Quién tiene preferencia?",
+   "options": [
+    "El vehículo con más dificultades para maniobrar",
+    "El que vaya más rápido",
+    "Siempre el turismo"
+   ],
+   "answer": 0,
+   "explanation": "En caso de duda, pasa el que tiene más dificultad de maniobra, según el orden del art. 62.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a60",
+    "ref": "art. 60.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a60",
+    "fingerprint": "sha256:9c8638d091043167248505760039ee6d3eb996bee3ae93935be6f121dce3630d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "e6a187d68e"
+  },
+  {
+   "id": "PR-102-05",
+   "tramo": "PR-102",
+   "question": "En un estrechamiento, un turismo y un autobús de viajeros se encuentran y uno debe dar marcha atrás. ¿Quién tiene preferencia?",
+   "options": [
+    "El autobús",
+    "El turismo",
+    "El que tenga que retroceder menos distancia"
+   ],
+   "answer": 0,
+   "explanation": "En el orden de preferencia, los de transporte colectivo de viajeros van antes que los turismos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a62",
+    "ref": "art. 62.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a62",
+    "fingerprint": "sha256:9425b3b466a4333a9bd725783059c5f4177c8bba15194db2b0d44f3770e2078d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "2a9b8ca743"
+  },
+  {
+   "id": "PR-102-06",
+   "tramo": "PR-102",
+   "question": "Giras para entrar en otra calle y hay peatones cruzándola, aunque no haya paso de peatones. ¿Qué haces?",
+   "options": [
+    "Paso yo, porque no hay paso de peatones",
+    "Toco el claxon para avisarles y paso",
+    "Les dejo pasar"
+   ],
+   "answer": 2,
+   "explanation": "Al girar, los peatones que cruzan la vía en la que entras tienen prioridad, haya o no paso señalizado.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a65",
+    "ref": "art. 65.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a65",
+    "fingerprint": "sha256:7bfb0d92a586269b1b0763d9ff23b7e58f76582abf9c3adddeeba149e83722da",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "824f2cb62e"
+  },
+  {
+   "id": "PR-102-07",
+   "tramo": "PR-102",
+   "question": "Unos peatones acaban de bajar de un autobús en su parada y están entre el autobús y la acera. ¿Quién tiene prioridad?",
+   "options": [
+    "Los vehículos que circulan",
+    "Los peatones",
+    "Depende de si hay semáforo"
+   ],
+   "answer": 1,
+   "explanation": "Los peatones que suben o han bajado de un autobús en su parada, entre este y la acera, tienen prioridad.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a65",
+    "ref": "art. 65.1.d) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a65",
+    "fingerprint": "sha256:7bfb0d92a586269b1b0763d9ff23b7e58f76582abf9c3adddeeba149e83722da",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "38ad90763a"
+  },
+  {
+   "id": "PR-102-08",
+   "tramo": "PR-102",
+   "question": "¿Cuándo es un vehículo prioritario una ambulancia?",
+   "options": [
+    "Siempre que lleve rotulado que es una ambulancia",
+    "En servicio urgente, avisando con la señal luminosa y la acústica a la vez",
+    "Cuando lleva un paciente, aunque no esté en servicio urgente"
+   ],
+   "answer": 1,
+   "explanation": "Es prioritaria en servicio urgente y avisando con luces y sirena especiales a la vez.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a68",
+    "ref": "art. 68.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a68",
+    "fingerprint": "sha256:9d2dde9ddf0ce1a2d81bc66736eeb10d2c973b8a5a3159bfada26b6dad13e112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8f7bf50a83"
+  },
+  {
+   "id": "PR-102-09",
+   "tramo": "PR-102",
+   "question": "Oyes detrás de ti la sirena de un vehículo prioritario. ¿Qué haces?",
+   "options": [
+    "Acelero para no estorbarle",
+    "Le facilito el paso, apartándome a la derecha o deteniéndome si hace falta",
+    "Sigo igual y que me adelante él"
+   ],
+   "answer": 1,
+   "explanation": "Al percibir sus señales, apártate normalmente a la derecha o detente si es preciso para dejarle pasar.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a69",
+    "ref": "art. 69 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a69",
+    "fingerprint": "sha256:75305d995ea11b989f1034bb0973977a6a1c615143c11d606c962de14c2dc576",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "71d403aa13"
   },
   {
    "id": "VE-101-01",
    "tramo": "VE-101",
-   "question": "¿Velocidad máxima de un turismo en autopista o autovía?",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular un turismo por una autopista?",
    "options": [
     "100 km/h",
-    "120 km/h",
-    "130 km/h"
+    "90 km/h",
+    "120 km/h"
    ],
-   "answer": 1,
-   "explanation": "120 km/h para turismos y motos.",
+   "answer": 2,
+   "explanation": "El límite genérico para un turismo en una autopista es 120 km/h (tabla del art. 48.1.a del RGC).",
    "image": null,
    "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.turismo.autopista"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a48",
-    "ref": "RGC, art. 48",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "6d3e70f719"
   },
   {
    "id": "VE-101-02",
    "tramo": "VE-101",
-   "question": "¿Velocidad máxima de un turismo en una carretera convencional?",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular un turismo por una carretera convencional?",
+   "options": [
+    "80 km/h",
+    "100 km/h",
+    "90 km/h"
+   ],
+   "answer": 2,
+   "explanation": "El límite genérico para un turismo en una carretera convencional es 90 km/h (tabla del art. 48.1.a del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.turismo.convencional"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "d697b5db85"
+  },
+  {
+   "id": "VE-101-03",
+   "tramo": "VE-101",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular un camión por una autovía?",
+   "options": [
+    "90 km/h",
+    "80 km/h",
+    "100 km/h"
+   ],
+   "answer": 0,
+   "explanation": "El límite genérico para un camión en una autovía es 90 km/h (tabla del art. 48.1.a del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.camion.autopista"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8840ad695f"
+  },
+  {
+   "id": "VE-101-04",
+   "tramo": "VE-101",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular una furgoneta por una carretera convencional?",
    "options": [
     "80 km/h",
     "90 km/h",
     "100 km/h"
    ],
-   "answer": 1,
-   "explanation": "En convencionales el máximo para turismos es 90 km/h.",
+   "answer": 0,
+   "explanation": "El límite genérico para una furgoneta en una carretera convencional es 80 km/h (tabla del art. 48.1.a del RGC).",
    "image": null,
    "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.camion.convencional"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a48",
-    "ref": "RGC, art. 48",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "589b76b66d"
   },
   {
-   "id": "VE-101-03",
+   "id": "VE-101-05",
    "tramo": "VE-101",
-   "question": "En una calle con un solo carril por sentido, el límite general es…",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular un autobús por una autovía?",
+   "options": [
+    "100 km/h",
+    "90 km/h",
+    "80 km/h"
+   ],
+   "answer": 0,
+   "explanation": "El límite genérico para un autobús en una autovía es 100 km/h (tabla del art. 48.1.a del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.autobus.autopista"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1b9f98b414"
+  },
+  {
+   "id": "VE-101-06",
+   "tramo": "VE-101",
+   "question": "Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular un autobús por una carretera convencional?",
+   "options": [
+    "80 km/h",
+    "100 km/h",
+    "90 km/h"
+   ],
+   "answer": 2,
+   "explanation": "El límite genérico para un autobús en una carretera convencional es 90 km/h (tabla del art. 48.1.a del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-101",
+   "template": "vmax-fuera-poblado",
+   "facts": [
+    "vmax.autobus.convencional"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "52d76eb7e5"
+  },
+  {
+   "id": "VE-101-07",
+   "tramo": "VE-101",
+   "question": "En una carretera convencional con los dos sentidos separados físicamente, ¿qué límite puede fijar el titular de la vía para turismos y motos?",
+   "options": [
+    "110 km/h",
+    "100 km/h",
+    "120 km/h"
+   ],
+   "answer": 1,
+   "explanation": "Con separación física entre sentidos, el titular puede subir el límite de turismos y motos hasta 100 km/h.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.convencional.separacion"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a).1.º RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "92b9c05dff"
+  },
+  {
+   "id": "VE-101-08",
+   "tramo": "VE-101",
+   "question": "Un autobús lleva pasajeros de pie, porque está autorizado. ¿A qué velocidad máxima puede ir por una autovía?",
+   "options": [
+    "80 km/h",
+    "90 km/h",
+    "100 km/h"
+   ],
+   "answer": 0,
+   "explanation": "Con pasajeros de pie, o sin cinturones, un autobús no pasa de 80 km/h en ninguna vía fuera de poblado.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.autobus.de-pie"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "f09add27bd"
+  },
+  {
+   "id": "VE-101-09",
+   "tramo": "VE-101",
+   "question": "¿Cómo cambia la velocidad máxima de un vehículo que hace transporte escolar?",
+   "options": [
+    "Se reduce en 10 km/h",
+    "Se reduce en 20 km/h",
+    "No cambia"
+   ],
+   "answer": 0,
+   "explanation": "El transporte escolar y de menores, y el de mercancías peligrosas, resta 10 km/h al límite de su vehículo y vía.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.reduccion.escolar"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a49b7daf40"
+  },
+  {
+   "id": "VE-101-10",
+   "tramo": "VE-101",
+   "question": "¿Cuál es la velocidad máxima en un camino sin pavimentar?",
+   "options": [
+    "30 km/h",
+    "40 km/h",
+    "50 km/h"
+   ],
+   "answer": 0,
+   "explanation": "En vías sin pavimentar el máximo es 30 km/h, para cualquier vehículo.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.sin-pavimentar"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.f) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a61833dfd0"
+  },
+  {
+   "id": "VE-101-11",
+   "tramo": "VE-101",
+   "question": "¿A qué velocidad máxima puede circular un ciclomotor de dos ruedas fuera de poblado?",
+   "options": [
+    "45 km/h",
+    "40 km/h",
+    "50 km/h"
+   ],
+   "answer": 0,
+   "explanation": "Ciclos, ciclomotores y cuadriciclos ligeros tienen un máximo de 45 km/h fuera de poblado.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.ciclomotor"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.e) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "b21f4ea2aa"
+  },
+  {
+   "id": "VE-101-12",
+   "tramo": "VE-101",
+   "question": "Vas a adelantar a un camión en una carretera convencional. ¿Puedes superar el límite de velocidad mientras adelantas?",
+   "options": [
+    "Sí, hasta 20 km/h más",
+    "Sí, si el vehículo adelantado va por debajo del límite",
+    "No, el límite se respeta también durante el adelantamiento"
+   ],
+   "answer": 2,
+   "explanation": "Las velocidades máximas no deben rebasarse. El margen de 20 km/h para adelantar se suprimió en 2022.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": "El art. 51 RGC"
+   },
+   "rev": "440c5bb4ef"
+  },
+  {
+   "id": "VE-101-13",
+   "tramo": "VE-101",
+   "question": "Conduces un turismo que arrastra un remolque. ¿Cuál es tu velocidad máxima en autopista?",
+   "options": [
+    "100 km/h",
+    "90 km/h",
+    "120 km/h"
+   ],
+   "answer": 1,
+   "explanation": "Un automóvil con remolque va en la misma columna que camiones y furgonetas, 90 km/h en autopista.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.camion.autopista"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a48",
+    "ref": "art. 48.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a48",
+    "fingerprint": "sha256:93f13c7f987f4e7e080ce57817d92e740333f54dc6f552b7e3a529a36b43be5c",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "0905b38b30"
+  },
+  {
+   "id": "VE-102-01",
+   "tramo": "VE-102",
+   "question": "En poblado y sin señales específicas, ¿cuál es el límite de velocidad en una calle de plataforma única donde calzada y acera están al mismo nivel?",
+   "options": [
+    "30 km/h",
+    "20 km/h",
+    "50 km/h"
+   ],
+   "answer": 1,
+   "explanation": "Plataforma única: 20 km/h (art. 50 del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-102",
+   "template": "vmax-urbana",
+   "facts": [
+    "vmax.urbana.plataforma-unica"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "0670704f73"
+  },
+  {
+   "id": "VE-102-02",
+   "tramo": "VE-102",
+   "question": "En poblado y sin señales específicas, ¿cuál es el límite de velocidad en una calle con un solo carril por sentido?",
    "options": [
     "20 km/h",
     "30 km/h",
     "50 km/h"
    ],
    "answer": 1,
-   "explanation": "Un carril por sentido en ciudad: 30.",
+   "explanation": "Un carril por sentido: 30 km/h (art. 50 del RGC).",
    "image": null,
    "novedad": false,
+   "truco": "T-VE-102",
+   "template": "vmax-urbana",
+   "facts": [
+    "vmax.urbana.un-carril"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a50",
-    "ref": "RGC, art. 50",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 50.1.b) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "718bb6abef"
   },
   {
-   "id": "VE-101-04",
-   "tramo": "VE-101",
-   "question": "En una calle de plataforma única (calzada y acera al mismo nivel), el límite es…",
+   "id": "VE-102-03",
+   "tramo": "VE-102",
+   "question": "En poblado y sin señales específicas, ¿cuál es el límite de velocidad en una avenida con dos carriles en cada sentido?",
    "options": [
-    "20 km/h",
+    "50 km/h",
+    "30 km/h",
+    "20 km/h"
+   ],
+   "answer": 0,
+   "explanation": "Dos o más carriles por sentido: 50 km/h (art. 50 del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-102",
+   "template": "vmax-urbana",
+   "facts": [
+    "vmax.urbana.dos-carriles"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1.c) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "40d15650d3"
+  },
+  {
+   "id": "VE-102-04",
+   "tramo": "VE-102",
+   "question": "En poblado y sin señales específicas, ¿cuál es el límite de velocidad en una travesía?",
+   "options": [
+    "50 km/h",
+    "30 km/h",
+    "20 km/h"
+   ],
+   "answer": 0,
+   "explanation": "Travesía: 50 km/h (art. 50 del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-102",
+   "template": "vmax-urbana",
+   "facts": [
+    "vmax.travesia"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.5 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "9043bcd100"
+  },
+  {
+   "id": "VE-102-05",
+   "tramo": "VE-102",
+   "question": "En poblado y sin señales específicas, ¿cuál es el límite de velocidad en una autovía que pasa por dentro de la ciudad?",
+   "options": [
+    "50 km/h",
+    "80 km/h",
+    "30 km/h"
+   ],
+   "answer": 1,
+   "explanation": "Autopista o autovía dentro de poblado: 80 km/h (art. 50 del RGC).",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-102",
+   "template": "vmax-urbana",
+   "facts": [
+    "vmax.urbana.autopista"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.6 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "413ff5543d"
+  },
+  {
+   "id": "VE-102-06",
+   "tramo": "VE-102",
+   "question": "Una calle tiene dos carriles en tu sentido, pero uno es exclusivo para el autobús. ¿Cuál es el límite genérico?",
+   "options": [
+    "50 km/h",
     "30 km/h",
     "40 km/h"
    ],
+   "answer": 1,
+   "explanation": "Los carriles reservados o de transporte público no se cuentan, así que es una calle de un carril por sentido.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.urbana.un-carril"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "be61f7ef36"
+  },
+  {
+   "id": "VE-102-07",
+   "tramo": "VE-102",
+   "question": "¿Puede el ayuntamiento aumentar el límite de una calle con un único carril por sentido?",
+   "options": [
+    "Sí, hasta 50 km/h, con señalización específica",
+    "No, nunca puede superar 30 km/h",
+    "Sí, hasta 60 km/h, sin necesidad de señalizarlo"
+   ],
    "answer": 0,
-   "explanation": "Plataforma única: 20.",
+   "explanation": "Excepcionalmente, la autoridad municipal puede subirlo hasta 50 km/h, siempre con señales.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.urbana.ampliable"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a50",
-    "ref": "RGC, art. 50",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 50.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a52cd894b2"
   },
   {
-   "id": "VE-101-05",
-   "tramo": "VE-101",
-   "question": "En una calle con dos o más carriles por sentido, el límite general es…",
-   "options": [
-    "30 km/h",
-    "50 km/h",
-    "60 km/h"
-   ],
-   "answer": 1,
-   "explanation": "Dos o más carriles por sentido: 50.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a50",
-    "ref": "RGC, art. 50",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "VE-101-06",
-   "tramo": "VE-101",
-   "question": "Para adelantar en una carretera convencional, ¿puede superar el límite?",
-   "options": [
-    "Sí, en 20 km/h",
-    "No, nunca",
-    "Sí, si el adelantamiento es corto"
-   ],
-   "answer": 1,
-   "explanation": "Ya no existe el margen de 20 km/h para adelantar.",
-   "image": null,
-   "novedad": false,
-   "source": {
-    "law": "RGC",
-    "boe": "BOE-A-2003-23514",
-    "block": "a51",
-    "ref": "RGC, art. 51",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
-  },
-  {
-   "id": "VE-101-07",
-   "tramo": "VE-101",
-   "question": "En autopista, un turismo no debe circular, sin motivo, a menos de…",
+   "id": "VE-102-08",
+   "tramo": "VE-102",
+   "question": "¿A qué velocidad máxima circula por una travesía un vehículo que transporta mercancías peligrosas?",
    "options": [
     "40 km/h",
-    "60 km/h",
-    "80 km/h"
+    "50 km/h",
+    "30 km/h"
    ],
-   "answer": 1,
-   "explanation": "No vayas a menos de la mitad del límite genérico de la vía.",
+   "answer": 0,
+   "explanation": "En travesías y en calles de dos o más carriles por sentido, las mercancías peligrosas van como máximo a 40 km/h.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.urbana.mercancias-peligrosas"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.4 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "657aa027b8"
+  },
+  {
+   "id": "VE-102-09",
+   "tramo": "VE-102",
+   "question": "¿Quién puede rebajar los límites genéricos de velocidad de las calles de una ciudad?",
+   "options": [
+    "Solo la Dirección General de Tráfico",
+    "Cada conductor, según el tráfico que haya",
+    "La autoridad municipal, con señalización específica"
+   ],
+   "answer": 2,
+   "explanation": "Los límites urbanos genéricos los puede rebajar el ayuntamiento, siempre que lo señalice.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a50",
+    "ref": "art. 50.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50",
+    "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "d1ae33d371"
+  },
+  {
+   "id": "VE-103-01",
+   "tramo": "VE-103",
+   "question": "Además de respetar el límite, ¿cómo debes ajustar tu velocidad?",
+   "options": [
+    "Yendo al límite máximo para no entorpecer",
+    "Solo reduciendo si hay agentes en la vía",
+    "De forma que siempre puedas detenerte dentro de tu campo de visión"
+   ],
+   "answer": 2,
+   "explanation": "La velocidad se adapta a ti, la vía, el vehículo, el tiempo y el tráfico, para poder parar ante cualquier obstáculo que veas.",
+   "image": null,
+   "novedad": false,
+   "truco": "T-VE-103",
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a45",
+    "ref": "art. 45 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a45",
+    "fingerprint": "sha256:95768adfa8a55a8b1585bdc3808c3298a9ee7bcba5fa9960a1da420687154349",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a6cfee4c2a"
+  },
+  {
+   "id": "VE-103-02",
+   "tramo": "VE-103",
+   "question": "Si nada lo impide, ¿cuál es la velocidad mínima de un vehículo a motor en una autovía?",
+   "options": [
+    "50 km/h",
+    "70 km/h",
+    "60 km/h"
+   ],
+   "answer": 2,
+   "explanation": "En autopistas y autovías no se puede ir por debajo de 60 km/h sin causa justificada.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmin.autopista"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a49",
-    "ref": "RGC, art. 49",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 49.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "fingerprint": "sha256:17c0d9a5ad6c49048d64b9036da1c46c20f09e861df187d69dcc42c98c5d1671",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "9468c4389b"
   },
   {
-   "id": "VE-101-08",
-   "tramo": "VE-101",
-   "question": "La distancia de seguridad con el vehículo de delante debe permitirle…",
+   "id": "VE-103-03",
+   "tramo": "VE-103",
+   "question": "Fuera de autopistas y autovías, ¿qué velocidad mínima tienes que mantener?",
    "options": [
-    "adelantarle en cualquier momento",
-    "detenerse sin chocar si frena de golpe",
-    "ver su matrícula"
+    "La mitad de la velocidad genérica de esa vía para tu vehículo",
+    "Un tercio de la máxima de la vía",
+    "Ninguna, si no circulan otros vehículos"
    ],
-   "answer": 1,
-   "explanation": "Deja espacio para frenar sin colisionar.",
+   "answer": 0,
+   "explanation": "En las demás vías la mínima es la mitad de la genérica, aunque no haya más tráfico.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a49",
+    "ref": "art. 49.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "fingerprint": "sha256:17c0d9a5ad6c49048d64b9036da1c46c20f09e861df187d69dcc42c98c5d1671",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "33dfcd030e"
+  },
+  {
+   "id": "VE-103-04",
+   "tramo": "VE-103",
+   "question": "Tu vehículo no puede alcanzar la velocidad mínima y hay peligro de que te alcancen. ¿Qué debes hacer?",
+   "options": [
+    "Circular por el arcén con las luces de cruce",
+    "Avisar con el claxon a quien te siga",
+    "Circular con las luces de emergencia encendidas"
+   ],
+   "answer": 2,
+   "explanation": "Si no llegas a la mínima y hay riesgo de alcance, enciende la señal de emergencia mientras circulas.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a49",
+    "ref": "art. 49.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49",
+    "fingerprint": "sha256:17c0d9a5ad6c49048d64b9036da1c46c20f09e861df187d69dcc42c98c5d1671",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "afab7c47ef"
+  },
+  {
+   "id": "VE-103-05",
+   "tramo": "VE-103",
+   "question": "Te acercas a una intersección señalizada y la visibilidad es prácticamente nula. ¿A qué velocidad máxima puedes ir?",
+   "options": [
+    "50 km/h",
+    "40 km/h",
+    "60 km/h"
+   ],
+   "answer": 0,
+   "explanation": "En ese caso la velocidad no debe superar 50 km/h, y antes que eso, modera.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "vmax.visibilidad-nula"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a46",
+    "ref": "art. 46.1.h) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "fingerprint": "sha256:2479daa2fc259d37a18b341f4f0b9517166d0bc651522d3f5e36f40c3f34729e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "69d0775a4f"
+  },
+  {
+   "id": "VE-103-06",
+   "tramo": "VE-103",
+   "question": "Te acercas a un autobús escolar que está parado. ¿Qué haces?",
+   "options": [
+    "Mantener la velocidad, porque tienes prioridad",
+    "Moderar la velocidad y, si hace falta, detenerte",
+    "Adelantarlo rápido para no esperar"
+   ],
+   "answer": 1,
+   "explanation": "Junto a un autobús parado, sobre todo si es escolar, se modera la velocidad y se para si es preciso.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a46",
+    "ref": "art. 46.1.e) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a46",
+    "fingerprint": "sha256:2479daa2fc259d37a18b341f4f0b9517166d0bc651522d3f5e36f40c3f34729e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "46645637f4"
+  },
+  {
+   "id": "VE-103-07",
+   "tramo": "VE-103",
+   "question": "¿Qué distancia debes dejar con el vehículo que llevas delante?",
+   "options": [
+    "Siempre 50 metros",
+    "Un coche de largo por cada 10 km/h",
+    "La que te permita detenerte sin chocar si frena de golpe"
+   ],
+   "answer": 2,
+   "explanation": "Depende de la velocidad, la adherencia y los frenos. La medida es poder parar sin chocar si frena bruscamente.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
     "block": "a54",
-    "ref": "RGC, art. 54",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "ref": "art. 54.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "fingerprint": "sha256:b4183799a7087f61c7f19554302b2740cae3fc81f24d93b202b9333a8f3b727b",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "2196796f3c"
   },
   {
-   "id": "AD-101-01",
-   "tramo": "AD-101",
-   "question": "Al adelantar a un ciclista fuera de poblado, la separación lateral mínima es…",
+   "id": "VE-103-08",
+   "tramo": "VE-103",
+   "question": "Fuera de poblado, un camión de más de 3.500 kg va detrás de otro y no quiere adelantarlo. ¿Qué separación mínima debe dejar?",
    "options": [
-    "1 metro",
-    "1,5 metros",
-    "2 metros"
+    "25 m",
+    "50 m",
+    "100 m"
    ],
    "answer": 1,
-   "explanation": "1,5 m: piensa en un ciclista con los brazos abiertos.",
+   "explanation": "Los de más de 3.500 kg o 10 m dejan 50 m para que quien les siga pueda adelantarlos.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "distancia.pesados"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a85",
-    "ref": "RGC, art. 85",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a54",
+    "ref": "art. 54.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "fingerprint": "sha256:b4183799a7087f61c7f19554302b2740cae3fc81f24d93b202b9333a8f3b727b",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "55e8818be3"
   },
   {
-   "id": "AD-101-02",
-   "tramo": "AD-101",
-   "question": "Por regla general, se adelanta…",
+   "id": "VE-103-09",
+   "tramo": "VE-103",
+   "question": "¿En cuál de estos casos no se exige a un camión la separación de 50 m con el vehículo de delante?",
    "options": [
-    "por la derecha",
-    "por la izquierda",
-    "por donde haya más espacio"
+    "En poblado",
+    "En una carretera convencional de un carril por sentido",
+    "Por la noche"
    ],
-   "answer": 1,
-   "explanation": "Se adelanta por la izquierda, salvo excepciones.",
+   "answer": 0,
+   "explanation": "No se exige en poblado, donde está prohibido adelantar, con más de un carril en su sentido o con el tráfico saturado.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "distancia.pesados"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a82",
-    "ref": "RGC, art. 82",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a54",
+    "ref": "art. 54.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "fingerprint": "sha256:b4183799a7087f61c7f19554302b2740cae3fc81f24d93b202b9333a8f3b727b",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "9372a1eb1d"
   },
   {
-   "id": "AD-101-03",
-   "tramo": "AD-101",
-   "question": "Puede adelantar por la derecha a un vehículo que…",
+   "id": "VE-103-10",
+   "tramo": "VE-103",
+   "question": "¿Quién puede circular en grupo sin guardar la distancia de seguridad entre sí?",
    "options": [
-    "va despacio",
-    "ha indicado que gira a la izquierda y se ha desplazado",
-    "es un camión"
+    "Los turismos que viajan en caravana",
+    "Los ciclistas, extremando la atención",
+    "Las motocicletas de una misma ruta"
    ],
    "answer": 1,
-   "explanation": "Es una de las excepciones a adelantar por la izquierda.",
+   "explanation": "Solo a los ciclistas en grupo se les permite ir sin esa separación, con atención extra para no alcanzarse.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a82",
-    "ref": "RGC, art. 82",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a54",
+    "ref": "art. 54.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a54",
+    "fingerprint": "sha256:b4183799a7087f61c7f19554302b2740cae3fc81f24d93b202b9333a8f3b727b",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "474b264751"
   },
   {
-   "id": "AD-101-04",
-   "tramo": "AD-101",
-   "question": "En una curva de visibilidad reducida, adelantar está…",
+   "id": "VE-103-11",
+   "tramo": "VE-103",
+   "question": "Una señal fija un límite distinto del genérico de la vía. ¿Cuál cumples?",
    "options": [
-    "permitido si va rápido",
-    "prohibido si hay que invadir el sentido contrario",
-    "permitido de día"
+    "El genérico de la vía",
+    "El más alto de los dos",
+    "El de la señal"
    ],
-   "answer": 1,
-   "explanation": "Sin visibilidad suficiente no se adelanta invadiendo el otro sentido.",
+   "answer": 2,
+   "explanation": "Las velocidades que fijan las señales prevalecen sobre las máximas genéricas.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a87",
-    "ref": "RGC, art. 87",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a52",
+    "ref": "art. 52.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a52",
+    "fingerprint": "sha256:33e83827421f795816585c55ffe9f43079baa2d2632b52e70558f8df8ab7765f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "8f1ed6bf6b"
   },
   {
-   "id": "AD-101-05",
-   "tramo": "AD-101",
-   "question": "En un paso para peatones señalizado, adelantar está…",
+   "id": "FH-101-01",
+   "tramo": "FH-101",
+   "question": "Tienes el permiso desde hace más de dos años y conduces un turismo. ¿Cuál es tu tasa máxima de alcohol en aire espirado?",
    "options": [
-    "permitido si no hay peatones",
-    "prohibido",
-    "permitido a motos"
+    "0,25 mg/l",
+    "0,15 mg/l",
+    "0,5 mg/l"
    ],
-   "answer": 1,
-   "explanation": "No se adelanta en los pasos de peatones señalizados.",
+   "answer": 0,
+   "explanation": "La tasa general es 0,25 mg/l en aire espirado, que equivale a 0,5 g/l en sangre.",
    "image": null,
    "novedad": false,
+   "truco": "T-FH-101",
+   "template": null,
+   "facts": [
+    "alcohol.general.aire",
+    "alcohol.general.sangre"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a87",
-    "ref": "RGC, art. 87",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "f1c75b374e"
   },
   {
-   "id": "AD-101-06",
-   "tramo": "AD-101",
-   "question": "Si le están adelantando, usted debe…",
+   "id": "FH-101-02",
+   "tramo": "FH-101",
+   "question": "Para un conductor de turismo con más de dos años de permiso, ¿cuál es la tasa máxima de alcohol en sangre?",
    "options": [
-    "acelerar un poco",
-    "no aumentar la velocidad",
-    "frenar en seco"
+    "0,5 g/l",
+    "0,3 g/l",
+    "0,8 g/l"
    ],
-   "answer": 1,
-   "explanation": "El adelantado no debe aumentar la velocidad.",
+   "answer": 0,
+   "explanation": "En sangre, el límite general es 0,5 g/l.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "alcohol.general.sangre"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a86",
-    "ref": "RGC, art. 86",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "2fbda591e6"
   },
   {
-   "id": "AD-101-07",
-   "tramo": "AD-101",
-   "question": "Después de adelantar, vuelva a su carril…",
+   "id": "FH-101-03",
+   "tramo": "FH-101",
+   "question": "Acabas de sacarte el permiso B. ¿Qué tasa máxima de alcohol en aire espirado tienes?",
    "options": [
-    "cuanto antes, aunque esté cerca",
-    "de forma gradual, sin obligar al adelantado a frenar",
-    "solo tras 1 km"
+    "0,25 mg/l",
+    "0,15 mg/l",
+    "0,3 mg/l"
    ],
    "answer": 1,
-   "explanation": "Vuelve de forma progresiva y señalizándolo.",
+   "explanation": "Durante los dos primeros años del permiso, el máximo es 0,15 mg/l en aire (0,3 g/l en sangre).",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "alcohol.especial.aire",
+    "alcohol.especial.sangre"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a85",
-    "ref": "RGC, art. 85",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1d87be5152"
   },
   {
-   "id": "AD-101-08",
-   "tramo": "AD-101",
-   "question": "Antes de adelantar, lo primero es…",
+   "id": "FH-101-04",
+   "tramo": "FH-101",
+   "question": "¿Durante cuánto tiempo tiene un conductor novel la tasa de alcohol reducida?",
    "options": [
-    "tocar el claxon",
-    "comprobar que hay espacio y visibilidad suficientes",
-    "pegarse al de delante"
+    "El primer año tras obtener el permiso",
+    "Los 3 años siguientes a obtener el permiso",
+    "Los 2 años siguientes a obtener el permiso"
    ],
-   "answer": 1,
-   "explanation": "Asegúrate de poder hacerlo sin peligro antes de empezar.",
+   "answer": 2,
+   "explanation": "La tasa reducida se aplica los 2 años siguientes a la obtención del permiso.",
    "image": null,
    "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "alcohol.noveles.anos"
+   ],
    "source": {
     "law": "RGC",
     "boe": "BOE-A-2003-23514",
-    "block": "a84",
-    "ref": "RGC, art. 84",
-    "checkedOn": null,
-    "note": "MUESTRA: pregunta de prueba, artículo por verificar"
-   }
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "e48260f945"
+  },
+  {
+   "id": "FH-101-05",
+   "tramo": "FH-101",
+   "question": "¿Qué tasa máxima de alcohol en sangre tiene el conductor de un autobús de más de nueve plazas?",
+   "options": [
+    "0,5 g/l",
+    "0,3 g/l",
+    "0,25 g/l"
+   ],
+   "answer": 1,
+   "explanation": "Los conductores de viajeros de más de nueve plazas, mercancías de más de 3.500 kg y otros servicios tienen 0,3 g/l.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "alcohol.especial.sangre"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "efdf212c1b"
+  },
+  {
+   "id": "FH-101-06",
+   "tramo": "FH-101",
+   "question": "¿Se aplican las tasas máximas de alcohol a quien conduce una bicicleta?",
+   "options": [
+    "No, solo a los vehículos a motor",
+    "Solo si circula por autovía",
+    "Sí, igual que a los conductores de vehículos"
+   ],
+   "answer": 2,
+   "explanation": "El límite de alcohol se aplica también a los conductores de bicicletas.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a20",
+    "ref": "art. 20 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20",
+    "fingerprint": "sha256:50b4908e1d241496f2a8dade84dbf47b5422fb87fbc2acc0e992af3caa51b388",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "70b070c272"
+  },
+  {
+   "id": "FH-101-07",
+   "tramo": "FH-101",
+   "question": "¿Está obligado a hacer la prueba de alcohol un peatón implicado en un accidente?",
+   "options": [
+    "No, solo los conductores",
+    "Sí",
+    "Solo si ha resultado herido"
+   ],
+   "answer": 1,
+   "explanation": "Además de los conductores, cualquier usuario de la vía implicado en un accidente debe someterse a la prueba.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a21",
+    "ref": "art. 21 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a21",
+    "fingerprint": "sha256:2b41b5b1cd369e916bbac271de849766958c452f932c59cf2a39d33e6539e75d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a955eca4a7"
+  },
+  {
+   "id": "FH-101-08",
+   "tramo": "FH-101",
+   "question": "Si das positivo y te hacen una segunda prueba de aire, ¿cuánto tiempo mínimo debe pasar entre las dos?",
+   "options": [
+    "2 minutos",
+    "10 minutos",
+    "30 minutos"
+   ],
+   "answer": 1,
+   "explanation": "Tienes derecho a que entre la primera y la segunda prueba pasen al menos 10 minutos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "alcohol.segunda-prueba.minutos"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a23",
+    "ref": "art. 23.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a23",
+    "fingerprint": "sha256:6939ab437289906717054094000b974306f891f2ec28d7892534cd7d2b2ac316",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1c1c7f2785"
+  },
+  {
+   "id": "FH-101-09",
+   "tramo": "FH-101",
+   "question": "La primera prueba da por debajo del límite, pero muestras síntomas evidentes de haber bebido. ¿Qué ocurre?",
+   "options": [
+    "Nada, porque has dado por debajo",
+    "El agente te hace una segunda prueba",
+    "Te retiran el permiso en el momento"
+   ],
+   "answer": 1,
+   "explanation": "Con síntomas evidentes, aunque no se llegue al límite, el agente hace una segunda prueba de contraste.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a23",
+    "ref": "art. 23.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a23",
+    "fingerprint": "sha256:6939ab437289906717054094000b974306f891f2ec28d7892534cd7d2b2ac316",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "5eee3024be"
+  },
+  {
+   "id": "FH-101-10",
+   "tramo": "FH-101",
+   "question": "¿Puedes pedir que se contraste el resultado del etilómetro?",
+   "options": [
+    "No, el etilómetro es definitivo",
+    "Sí, soplando en un etilómetro propio",
+    "Sí, con un análisis de sangre, orina u otro parecido"
+   ],
+   "answer": 2,
+   "explanation": "A petición del interesado se pueden repetir las pruebas con análisis de sangre, orina u otros análogos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a22",
+    "ref": "art. 22.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a22",
+    "fingerprint": "sha256:8979d57d1eff827a256d050a4e542102c3757a8d51342f6c665f4b784220b292",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "4c8c33392d"
+  },
+  {
+   "id": "FH-102-01",
+   "tramo": "FH-102",
+   "question": "¿Puedes conducir después de tomar un medicamento que altera tu estado físico o mental?",
+   "options": [
+    "Sí, si es con receta",
+    "False",
+    "Sí, en trayectos cortos"
+   ],
+   "answer": 1,
+   "explanation": "No se puede circular bajo el efecto de medicamentos u otras sustancias que alteren el estado para conducir sin peligro.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a27",
+    "ref": "art. 27.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a27",
+    "fingerprint": "sha256:37acfedcdd9ce3ad0c2fb865f12a93cbdab856aded4a433eeeb6c7dfdd18214a",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "e6b8db8ae5"
+  },
+  {
+   "id": "FH-102-02",
+   "tramo": "FH-102",
+   "question": "¿Puedes hablar por el móvil mientras conduces?",
+   "options": [
+    "Sí, si vas despacio",
+    "Solo si no usas las manos ni auriculares",
+    "Sí, con un auricular en un solo oído"
+   ],
+   "answer": 1,
+   "explanation": "Solo se permite comunicarse sin emplear las manos ni usar cascos, auriculares o similares.",
+   "image": null,
+   "novedad": false,
+   "truco": "T-FH-102",
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a18",
+    "ref": "art. 18.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "fingerprint": "sha256:c1cb5c34008495f962fcf703b407242af626178cce62bf3294586c04c8d13d78",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "fe205d6036"
+  },
+  {
+   "id": "FH-102-03",
+   "tramo": "FH-102",
+   "question": "¿Se puede conducir con auriculares conectados a un reproductor de música?",
+   "options": [
+    "False",
+    "Sí, a volumen bajo",
+    "Sí, si solo llevas uno"
+   ],
+   "answer": 0,
+   "explanation": "Está prohibido conducir con cualquier auricular conectado a un aparato de sonido.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a18",
+    "ref": "art. 18.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "fingerprint": "sha256:c1cb5c34008495f962fcf703b407242af626178cce62bf3294586c04c8d13d78",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "51c72f326e"
+  },
+  {
+   "id": "FH-102-04",
+   "tramo": "FH-102",
+   "question": "Con el vehículo en marcha, ¿cuál de estas pantallas puedes usar?",
+   "options": [
+    "Un reproductor de vídeo",
+    "Una pantalla con acceso a internet",
+    "El navegador GPS"
+   ],
+   "answer": 2,
+   "explanation": "Pantallas con internet, televisión o vídeo son incompatibles con la atención; el GPS es una excepción.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a18",
+    "ref": "art. 18.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "fingerprint": "sha256:c1cb5c34008495f962fcf703b407242af626178cce62bf3294586c04c8d13d78",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "efa583c2df"
+  },
+  {
+   "id": "FH-102-05",
+   "tramo": "FH-102",
+   "question": "¿Cuál de estos aparatos se permite llevar en el coche?",
+   "options": [
+    "Un avisador que informa de dónde están los radares",
+    "Un detector de radares",
+    "Un inhibidor de radares"
+   ],
+   "answer": 0,
+   "explanation": "Inhibidores y detectores están prohibidos. Los avisadores de la posición de los radares están permitidos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a18",
+    "ref": "art. 18.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18",
+    "fingerprint": "sha256:c1cb5c34008495f962fcf703b407242af626178cce62bf3294586c04c8d13d78",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "5d2086a4c9"
+  },
+  {
+   "id": "FH-102-06",
+   "tramo": "FH-102",
+   "question": "¿Cuántos puntos se pierden por conducir sujetando el móvil con la mano?",
+   "options": [
+    "3 puntos",
+    "6 puntos",
+    "4 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Usar el móvil sujetándolo con la mano quita 6 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.movil-mano"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.8 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "3db69d7ad2"
+  },
+  {
+   "id": "FH-102-07",
+   "tramo": "FH-102",
+   "question": "¿Cuántos puntos se pierden por conducir con presencia de drogas en el organismo?",
+   "options": [
+    "6 puntos",
+    "4 puntos",
+    "2 puntos"
+   ],
+   "answer": 0,
+   "explanation": "Conducir con presencia de drogas en el organismo quita 6 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.drogas"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.2 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "456b8d1492"
+  },
+  {
+   "id": "FH-102-08",
+   "tramo": "FH-102",
+   "question": "Un agente te para por una infracción. ¿Te puede hacer también la prueba de alcohol?",
+   "options": [
+    "No, solo si hay un accidente",
+    "Solo si nota olor a alcohol",
+    "Sí"
+   ],
+   "answer": 2,
+   "explanation": "Los agentes pueden hacer la prueba a quien sea denunciado por cualquier infracción del reglamento.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a21",
+    "ref": "art. 21.c) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a21",
+    "fingerprint": "sha256:2b41b5b1cd369e916bbac271de849766958c452f932c59cf2a39d33e6539e75d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "26b3a3a537"
+  },
+  {
+   "id": "FH-102-09",
+   "tramo": "FH-102",
+   "question": "En un control preventivo, sin infracción ni síntomas, ¿te pueden hacer la prueba de alcohol?",
+   "options": [
+    "Sí",
+    "No, necesitan un motivo",
+    "Solo de noche"
+   ],
+   "answer": 0,
+   "explanation": "Los controles preventivos de alcoholemia ordenados por la autoridad pueden hacerse a cualquier conductor.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a21",
+    "ref": "art. 21.d) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a21",
+    "fingerprint": "sha256:2b41b5b1cd369e916bbac271de849766958c452f932c59cf2a39d33e6539e75d",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a3e7fd1fb9"
+  },
+  {
+   "id": "FH-102-10",
+   "tramo": "FH-102",
+   "question": "¿Cuántos puntos quita negarse a hacer la prueba de alcohol o drogas?",
+   "options": [
+    "4 puntos",
+    "6 puntos",
+    "3 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Negarse a las pruebas de alcohol o drogas quita 6 puntos, lo mismo que dar la tasa más alta.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.negarse-pruebas"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.3 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "e768654c24"
+  },
+  {
+   "id": "PS-101-01",
+   "tramo": "PS-101",
+   "question": "¿Hay que llevar el cinturón abrochado en ciudad?",
+   "options": [
+    "No, solo en carretera",
+    "Solo en los asientos delanteros",
+    "Sí, en vías urbanas e interurbanas"
+   ],
+   "answer": 2,
+   "explanation": "Conductor y ocupantes llevan el cinturón abrochado tanto en vías urbanas como interurbanas.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "1bf72e9599"
+  },
+  {
+   "id": "PS-101-02",
+   "tramo": "PS-101",
+   "question": "¿Hasta qué estatura deben usar los menores un sistema de retención infantil?",
+   "options": [
+    "Hasta 150 cm",
+    "Hasta 120 cm",
+    "Hasta 135 cm, inclusive"
+   ],
+   "answer": 2,
+   "explanation": "Los menores de 135 cm o menos deben usar un sistema de retención infantil homologado.",
+   "image": null,
+   "novedad": false,
+   "truco": "T-PS-101",
+   "template": null,
+   "facts": [
+    "sri.estatura"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.1 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "d344158e06"
+  },
+  {
+   "id": "PS-101-03",
+   "tramo": "PS-101",
+   "question": "En un turismo, ¿dónde deben ir los niños que necesitan sistema de retención infantil?",
+   "options": [
+    "En los asientos traseros, salvo excepciones",
+    "Donde decida el conductor",
+    "Delante, para tenerlos a la vista"
+   ],
+   "answer": 0,
+   "explanation": "En vehículos de hasta nueve plazas van detrás. Solo pueden ir delante en los casos que fija el art. 117.3.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "167cac2f36"
+  },
+  {
+   "id": "PS-101-04",
+   "tramo": "PS-101",
+   "question": "¿En cuál de estos casos puede ir delante un niño en su silla homologada?",
+   "options": [
+    "Cuando el viaje es corto",
+    "Cuando el niño lo prefiere",
+    "Cuando todos los asientos traseros están ocupados por otros menores"
+   ],
+   "answer": 2,
+   "explanation": "Puede ir delante si no hay asientos traseros, si están ocupados por otros menores o si no caben más sillas detrás.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "40475d5b4c"
+  },
+  {
+   "id": "PS-101-05",
+   "tramo": "PS-101",
+   "question": "Un niño viaja delante en una silla orientada hacia atrás. ¿Qué es obligatorio?",
+   "options": [
+    "Que el airbag frontal esté activado",
+    "Nada más, si la silla está homologada",
+    "Que el airbag frontal esté desactivado"
+   ],
+   "answer": 2,
+   "explanation": "Una silla hacia atrás en el asiento delantero solo se puede usar con el airbag frontal desactivado.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.3 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "a1d3e72e85"
+  },
+  {
+   "id": "PS-101-06",
+   "tramo": "PS-101",
+   "question": "¿Cómo se debe instalar un sistema de retención infantil?",
+   "options": [
+    "Como recomiende cualquier taller",
+    "Siempre con el cinturón, nunca con anclajes",
+    "Siguiendo las instrucciones de su fabricante"
+   ],
+   "answer": 2,
+   "explanation": "La silla se instala siempre según el manual o las instrucciones del fabricante.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a117",
+    "ref": "art. 117.4 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a117",
+    "fingerprint": "sha256:dc0888e3c4d27137dd69e118269b4bf64e55a0dbf80f437c5c8c2a4b6a87cf0e",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "834005ca84"
+  },
+  {
+   "id": "PS-101-07",
+   "tramo": "PS-101",
+   "question": "¿Cuándo puede el conductor ir sin el cinturón abrochado?",
+   "options": [
+    "En trayectos de menos de un kilómetro",
+    "Al hacer marcha atrás o al estacionar",
+    "Cuando circula por debajo de 30 km/h"
+   ],
+   "answer": 1,
+   "explanation": "El conductor está exento solo al hacer la maniobra de marcha atrás o de estacionamiento.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a119",
+    "ref": "art. 119.1.a) RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a119",
+    "fingerprint": "sha256:73e9cfde3496c391b7277c2b6689390f5e0bfa384584c95060a512a95c500192",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "94e2fbd9dc"
+  },
+  {
+   "id": "PS-101-08",
+   "tramo": "PS-101",
+   "question": "En un taxi que circula por ciudad, ¿puede viajar sin silla un niño que no llega a 135 cm?",
+   "options": [
+    "Sí, si va en un asiento trasero",
+    "No, nunca",
+    "Sí, en cualquier asiento"
+   ],
+   "answer": 0,
+   "explanation": "Los taxis en tráfico urbano pueden llevarlo sin sistema de retención, siempre en un asiento trasero.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "sri.estatura"
+   ],
+   "source": {
+    "law": "RGC",
+    "boe": "BOE-A-2003-23514",
+    "block": "a119",
+    "ref": "art. 119.2 RGC",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a119",
+    "fingerprint": "sha256:73e9cfde3496c391b7277c2b6689390f5e0bfa384584c95060a512a95c500192",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "2113f966e7"
+  },
+  {
+   "id": "PS-101-09",
+   "tramo": "PS-101",
+   "question": "¿Cuántos puntos se pierden por no llevar puesto el cinturón de seguridad?",
+   "options": [
+    "4 puntos",
+    "2 puntos",
+    "6 puntos"
+   ],
+   "answer": 0,
+   "explanation": "No usar, o usar mal, el cinturón, la silla infantil o el casco quita 4 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.cinturon"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.15 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "b42f3b6e31"
+  },
+  {
+   "id": "PP-101-01",
+   "tramo": "PP-101",
+   "question": "Obtienes tu primer permiso de conducir. ¿Con cuántos puntos empiezas?",
+   "options": [
+    "12 puntos",
+    "8 puntos",
+    "6 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Un permiso con 3 años o menos de antigüedad empieza con 8 puntos, salvo que ya tuvieras otro permiso con esa antigüedad.",
+   "image": null,
+   "novedad": false,
+   "truco": "T-PP-101",
+   "template": null,
+   "facts": [
+    "puntos.novel",
+    "puntos.novel.anos"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.2.a) LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "881f1fe295"
+  },
+  {
+   "id": "PP-101-02",
+   "tramo": "PP-101",
+   "question": "¿Cuál es el crédito inicial de puntos que se asigna con carácter general?",
+   "options": [
+    "12 puntos",
+    "8 puntos",
+    "15 puntos"
+   ],
+   "answer": 0,
+   "explanation": "Con carácter general se asignan 12 puntos; los permisos nuevos empiezan con 8 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.inicial",
+    "puntos.novel"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "37e6656a26"
+  },
+  {
+   "id": "PP-101-03",
+   "tramo": "PP-101",
+   "question": "¿Cuántos puntos puede llegar a acumular como máximo un conductor?",
+   "options": [
+    "12 puntos",
+    "15 puntos",
+    "20 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Sin sanciones se ganan bonificaciones hasta un máximo de 15 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.maximo"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "b57f9507d8"
+  },
+  {
+   "id": "PP-101-04",
+   "tramo": "PP-101",
+   "question": "Un conductor novel con 8 puntos pasa 2 años sin ninguna sanción firme que quite puntos. ¿Cuántos tiene ahora?",
+   "options": [
+    "8 puntos",
+    "15 puntos",
+    "12 puntos"
+   ],
+   "answer": 2,
+   "explanation": "Tras 2 años sin sanciones que quiten puntos, el novel pasa a tener 12 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.inicial",
+    "puntos.maximo",
+    "puntos.novel",
+    "puntos.recuperar.anos"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "art. 65.2 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "bf9010c476"
+  },
+  {
+   "id": "PP-101-05",
+   "tramo": "PP-101",
+   "question": "Has perdido algunos puntos. ¿Cuándo recuperas los 12 puntos?",
+   "options": [
+    "Tras 1 año, pase lo que pase",
+    "Tras 5 años",
+    "Tras 2 años sin sanciones firmes que quiten puntos"
+   ],
+   "answer": 2,
+   "explanation": "Si pasan 2 años sin sanciones firmes que quiten puntos, recuperas todo el crédito de 12 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.inicial",
+    "puntos.recuperar.anos"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "art. 65.1 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "3b06288257"
+  },
+  {
+   "id": "PP-101-06",
+   "tramo": "PP-101",
+   "question": "¿Cuántos puntos puedes recuperar con un curso de sensibilización y reeducación vial?",
+   "options": [
+    "Hasta 4 puntos",
+    "Hasta 6 puntos",
+    "Todos los perdidos"
+   ],
+   "answer": 1,
+   "explanation": "El curso devuelve hasta 6 puntos, y solo se puede hacer una vez cada dos años (cada año los profesionales).",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.curso.recupera"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a65",
+    "ref": "art. 65.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65",
+    "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "9c6af0934f"
+  },
+  {
+   "id": "PP-101-07",
+   "tramo": "PP-101",
+   "question": "Cometes varias infracciones el mismo día, ninguna de las muy graves que lo excluyen. ¿Cuántos puntos puedes perder como máximo?",
+   "options": [
+    "12 puntos",
+    "8 puntos",
+    "6 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Por acumulación en un solo día no se pierden más de 8 puntos, salvo ciertas infracciones muy graves.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.max-dia"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a64",
+    "ref": "art. 64.4 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a64",
+    "fingerprint": "sha256:6f9ddff6c042fe3eb7bb99cc845a95051191811fe1a5420b50c9460cb4410c8a",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "e67371cc5d"
+  },
+  {
+   "id": "PP-101-08",
+   "tramo": "PP-101",
+   "question": "Tienes el permiso B y el de moto A2. ¿Cuántos saldos de puntos tienes?",
+   "options": [
+    "Uno por cada permiso",
+    "Uno solo para todos los permisos",
+    "Uno para el coche y otro para la moto, pero se suman"
+   ],
+   "answer": 1,
+   "explanation": "El crédito de puntos es único para todas las autorizaciones de un mismo conductor.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": null,
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.3 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "2b29dc5d21"
+  },
+  {
+   "id": "PP-101-09",
+   "tramo": "PP-101",
+   "question": "¿Qué te aporta superar un curso de conducción segura y eficiente?",
+   "options": [
+    "Recuperar todos los puntos perdidos",
+    "2 puntos más, sin pasar de 15 puntos",
+    "Nada, solo es formación"
+   ],
+   "answer": 1,
+   "explanation": "El curso suma 2 puntos, si tienes saldo positivo, hasta un máximo de 15 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.curso.seguro",
+    "puntos.maximo"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "a63",
+    "ref": "art. 63.5 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63",
+    "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "c6638987ac"
+  },
+  {
+   "id": "PP-101-10",
+   "tramo": "PP-101",
+   "question": "¿Cuántos puntos quita pasar un semáforo en rojo?",
+   "options": [
+    "2 puntos",
+    "4 puntos",
+    "6 puntos"
+   ],
+   "answer": 1,
+   "explanation": "Saltarse un stop, un ceda el paso o un semáforo en rojo quita 4 puntos.",
+   "image": null,
+   "novedad": false,
+   "truco": null,
+   "template": null,
+   "facts": [
+    "puntos.stop-rojo"
+   ],
+   "source": {
+    "law": "LSV",
+    "boe": "BOE-A-2015-11722",
+    "block": "anii",
+    "ref": "anexo II.10 LSV",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anii",
+    "fingerprint": "sha256:43cca0d33ee43372f1b987610906bfe54e0521fff6bbea1fcf3aa8de662cd1bc",
+    "checkedOn": "2026-11-04",
+    "note": null
+   },
+   "rev": "15aa846dc1"
   }
  ]
 }

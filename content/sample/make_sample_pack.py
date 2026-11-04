@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Writes content/packs/relanti-b.json: a SMALL PLACEHOLDER pack for testing the apps.
+"""Writes a SMALL PLACEHOLDER pack (content/packs/relanti-b.json) for testing the apps.
+Superseded by the real pipeline output; only run this to get the sample back.
 
 These questions were written by hand to exercise the app. They are NOT checked
 against the BOE and must be replaced by the real pipeline's output
