@@ -406,6 +406,11 @@ Retrovisor queue, Puntos negros, Semáforo, Hoja de ruta</pre>
     <div class="st"><b>Fix</b><p>Claude drafts the updated items in a pull request and a person approves it. CI recompiles and runs every spec case against the new pack.</p></div>
     <div class="st"><b>Ship</b><p>Every app release bundles the latest pack. Optionally, the app checks <code>manifest.json</code> on a static CDN about once a day. It downloads a newer pack only if the signature verifies and its schema version matches the app, and the request carries no identifier. Firebase Hosting or Cloudflare R2 both work.</p></div>
   </div>
+  <div class="cols">
+    <div class="card"><h3>Fixing a question</h3><p>Edit the YAML, or a fact cell for template questions, in a pull request. CI recompiles the pack and runs the spec cases. On merge, a "Publish content" workflow you approve by hand uploads the pack to the <b>beta</b> channel, which TestFlight and internal builds read. After a check on a real phone, a second click promotes it to <b>stable</b>.</p></div>
+    <div class="card"><h3>Adding new questions</h3><p>New items or a new tramo go into <code>content/</code> with new ids, never renumbering old ones. They ship the same way and show up in their etapa on the next launch. Paid etapas are already in every pack, and the core opens them when the learner is entitled, so a purchase never needs a download.</p></div>
+    <div class="card"><h3>When an app release is needed</h3><p>Each pack declares a <code>schemaVersion</code>. New questions, fixes, trucos, images and copy only need a pack. A new question format or a new screen needs an app release, and older apps keep the last pack they understand.</p></div>
+  </div>
   <p class="note">Progress refers to item ids and records the <code>contentVersion</code> for each round, so a new pack never breaks history. A changed item counts as new for the Retrovisor, but tickets and points already earned stay.</p>
 </section>
 
@@ -451,9 +456,9 @@ Retrovisor queue, Puntos negros, Semáforo, Hoja de ruta</pre>
   <div class="tablewrap"><table>
     <thead><tr><th>Decision</th><th>Recommended</th><th>Alternative</th></tr></thead>
     <tbody>
-      <tr><td class="r">Where shared logic lives</td><td>KMP core, native UI</td><td>Write it twice with spec cases, as Volantón did</td></tr>
+      <tr class="done"><td class="r">Where shared logic lives</td><td><span class="tag t-ok">Decided</span> KMP core, native UI, no shared UI</td><td>Write it twice with spec cases, as Volantón did</td></tr>
       <tr><td class="r">Accounts</td><td>Optional, Firebase Auth (Apple + Google) and Firestore EU</td><td>Supabase Frankfurt, for EU-only hosting</td></tr>
-      <tr><td class="r">Firestore region</td><td><code>eur3</code> multi-region</td><td><code>europe-southwest1</code> Madrid, cheaper but single region</td></tr>
+      <tr><td class="r">Firestore region</td><td><span class="tag t-ok">Decided</span> EU region; <code>eur3</code> multi-region recommended</td><td><code>europe-southwest1</code> Madrid, cheaper but single region</td></tr>
       <tr><td class="r">Analytics</td><td>TelemetryDeck</td><td>PostHog EU, more power and more data</td></tr>
       <tr><td class="r">Consent</td><td>One card, both switches opt-in</td><td>Crash reports on by default, after legal advice</td></tr>
       <tr><td class="r">Content packs between releases</td><td>Yes, signed, from v1.1</td><td>Only with app releases</td></tr>
