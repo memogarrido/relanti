@@ -36,7 +36,10 @@ android {
     // Compose screens render on the JVM (Robolectric, native graphics) for playthroughs and screenshots.
     testOptions {
         unitTests.isIncludeAndroidResources = true
-        unitTests.all { it.systemProperty("robolectric.pixelCopyRenderMode", "hardware") }
+        unitTests.all {
+            it.systemProperty("robolectric.pixelCopyRenderMode", "hardware")
+            it.testLogging { exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL; events("failed") }
+        }
     }
 
     // The content pack and the shared renders, read from the repo so both apps use the same files.

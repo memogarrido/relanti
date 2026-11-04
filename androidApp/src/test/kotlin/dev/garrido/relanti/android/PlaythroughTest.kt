@@ -1,14 +1,12 @@
 package dev.garrido.relanti.android
 
 import android.graphics.Bitmap
-import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.compose.ui.test.SemanticsNodeInteraction
-import androidx.compose.ui.test.captureToImage
-import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.activity.ComponentActivity
+import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
-import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.semantics.SemanticsProperties
@@ -33,7 +31,7 @@ import java.io.File
 @Config(sdk = [34], qualifiers = "w393dp-h852dp-xxhdpi")
 class PlaythroughTest {
     @get:Rule
-    val rule = createComposeRule()
+    val rule = createAndroidComposeRule<ComponentActivity>()
 
     private val pack: String by lazy {
         generateSequence(File("").absoluteFile) { it.parentFile }
@@ -58,7 +56,14 @@ class PlaythroughTest {
     private fun shoot(name: String) {
         rule.waitForIdle()
         val dir = File("build/screenshots").apply { mkdirs() }
-        val bitmap = rule.onRoot().captureToImage().asAndroidBitmap()
+        // captureToImage times out under Robolectric; draw the window instead.
+        repeat(10) {
+            rule.mainClock.advanceTimeByFrame()
+            org.robolectric.shadows.ShadowLooper.idleMainLooper()
+        }
+        val root = rule.activity.window.decorView
+        val bitmap = Bitmap.createBitmap(root.width, root.height, Bitmap.Config.ARGB_8888)
+        root.draw(android.graphics.Canvas(bitmap))
         File(dir, "android-$name.png").outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }
     }
 
