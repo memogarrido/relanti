@@ -1,0 +1,201 @@
+<title>Turbo and Relanti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one road of sections; car drawings share one viewBox so size differences are real. */
+:root{
+  --bg:#EEF1F5;--surface:#FFFFFF;--ink:#1F232A;--ink2:#535A66;--ink3:#8A919C;--line:#D5DAE2;
+  --blue:#1A56B0;--blue-ink:#14438A;--blue-soft:#E2EBF8;--go:#1E8E52;--go-soft:#DDF2E6;--stop:#C8233A;--sunset:#EA5B2A;
+  --stage:#F7F8FA;--tarmac:#2B2F36;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;--body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --go:#3DBB78;--go-soft:#15301F;--stage:#222731;--tarmac:#3A3F48;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --go:#3DBB78;--go-soft:#15301F;--stage:#222731;--tarmac:#3A3F48;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:36px 64px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0;text-wrap:balance}
+h1{font-size:clamp(44px,8vw,78px);font-weight:800}
+h2{font-size:clamp(30px,4.4vw,42px);font-weight:800}
+h3{font-size:22px;font-weight:700}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.lede{font-size:20px;max-width:64ch}
+section{display:grid;gap:18px}
+.sub{color:var(--ink2);max-width:66ch}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:440px){.grid{grid-template-columns:1fr}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px 14px;display:grid;gap:6px;align-content:start}
+.tile .art{background:var(--stage);border-radius:10px;display:grid;place-items:end center;aspect-ratio:200/150;overflow:hidden}
+.tile .art svg{width:100%;height:100%;display:block}
+.tile b{font-family:var(--display);font-size:19px}
+.tile span{color:var(--ink2);font-size:15px}
+.pair{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+@media (max-width:820px){.pair{grid-template-columns:1fr}}
+.pair.rec{border:2px solid var(--go)}
+.duo{background:var(--stage);display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:0;padding:18px 14px 12px;position:relative}
+.duo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:12px;background:var(--tarmac)}
+.duo figure{margin:0;display:grid;justify-items:center;gap:4px;position:relative;z-index:1}
+.duo svg{width:100%;height:auto;display:block}
+.duo figcaption{font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:.04em;order:-1}
+.duo figcaption small{display:block;font-family:var(--body);font-weight:500;font-size:13px;color:var(--ink2);letter-spacing:0;text-align:center}
+.notes{padding:20px 22px;display:grid;gap:10px;align-content:start;min-width:0}
+.notes p{color:var(--ink2)}
+.tag{justify-self:start;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue-ink)}
+.tag.go{background:var(--go-soft);color:var(--go)}
+.flip{font-size:15px;color:var(--ink2);border-left:3px solid var(--line);padding-left:10px}
+.strip{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;gap:12px}
+.steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;overflow-x:auto}
+@media (max-width:700px){.steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.steps figure{margin:0;display:grid;gap:2px;justify-items:center;text-align:center}
+.steps svg{width:100%;height:auto;background:var(--stage);border-radius:10px}
+.steps b{font-family:var(--display);font-size:16px}
+.steps span{font-size:12.5px;color:var(--ink2);line-height:1.3}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:start}
+.card p{color:var(--ink2)}
+.callout{background:var(--go-soft);border-radius:14px;padding:18px 20px;display:grid;gap:8px}
+.callout p{color:var(--ink)}
+.foot{color:var(--ink3);font-size:14px}
+</style>
+
+<div class="wrap">
+<header style="display:grid;gap:14px">
+  <span class="eyebrow">Relanti · Character exploration 2 · 4 Nov 2026</span>
+  <h1>The Burbuja family</h1>
+  <p class="lede">Turbo stays a round micro car with headlight eyes and bonnet brows. This page pushes that shape in three directions (size, age, equipment), then asks what <em>Relanti</em> could be next to him: a second car, your own car, or something else.</p>
+</header>
+
+<section>
+  <div><span class="eyebrow">Part 1</span><h2>Turbo, six ways</h2></div>
+  <p class="sub">The same face on different bodies. All drawn at the same scale, so the small one really is small.</p>
+  <div class="grid" id="variants"></div>
+</section>
+
+<section>
+  <div><span class="eyebrow">Part 2</span><h2>What is Relanti?</h2></div>
+  <p class="sub">If the app is named after a second character, the pair should be a contrast that teaches something. Three contrasts, each readable both ways round.</p>
+  <div id="pairs" style="display:grid;gap:18px"></div>
+</section>
+
+<section>
+  <div><span class="eyebrow">Part 3</span><h2>Or Relanti is your car</h2></div>
+  <p class="sub">The idea I like most. Turbo is the veteran classic instructor. Relanti is the car you are given on day one: new, simple, nothing fitted. As your rango grows, Turbo fits one piece of kit, just like Volantón's owlet got a uniform piece at each rango. You pick its colour, as kids picked their owlet's plumage.</p>
+  <div class="strip">
+    <div class="steps" id="growth"></div>
+    <p class="foot" style="margin:0">One piece per rango, never taken away. Share cards show the car without the rango kit, so a shared picture never tells your level.</p>
+  </div>
+</section>
+
+<section>
+  <div><span class="eyebrow">Part 4</span><h2>Other options</h2></div>
+  <div class="cards">
+    <div class="card"><h3>Relanti is the caravan</h3><p>A little round caravan that Turbo tows. It is your Guantera on wheels: stickers on its sides, your collection inside. Charming for the road trip, and it keeps Turbo as the only face.</p></div>
+    <div class="card"><h3>Relanti is the road</h3><p>No second character. Relanti is the name of the road trip and the world (the Ruta Relanti), and Turbo is the only one who talks. Simplest to build and to explain.</p></div>
+    <div class="card"><h3>The hare and the tortoise, inverted</h3><p>Turbo is the slow, wise old car (the name is the joke) and Relanti is the twitchy little one who wants to rush. Turbo keeps telling him "a ralentí". Funny, but it puts the user's feelings in the sidekick.</p></div>
+    <div class="card"><h3>Two instructors, two modes</h3><p>Turbo leads study mode (tramos, trucos) and Relanti leads exam mode (simulacros), calm and strict like a real examiner. Clear, but two voices is more art and more copy to keep consistent.</p></div>
+  </div>
+</section>
+
+<div class="callout">
+  <span class="tag go">My recommendation</span>
+  <p><b>Old Turbo, new Relanti.</b> Turbo is the classic Burbuja instructor with chrome and an L sign, warm and wise. Relanti is your own new car, which starts simple and gets equipped as you progress. Together they cover old and new, simple and equipped, and they give the app a clear growth story that ends when you pass: Turbo takes off his L sign, and Relanti is ready for your first real road trip.</p>
+</div>
+<p class="foot">Sketches drawn in code to compare directions; the final art would be illustrated and rigged in layers. All shapes are invented, not based on a real model.</p>
+</div>
+
+<script>
+(function(){
+const C={mint:['#4CBFA6','#2E8F7A'],orange:['#EF6A32','#C24D1C'],sky:['#6FA8E8','#3E77B8'],cream:['#EFE3C8','#BFA97A'],coral:['#E8574F','#B83A33'],lilac:['#A98BD9','#7A5BB0'],lime:['#9CCB3B','#6E9520']};
+const LAMP='#FFF6D8',CHROME='#D8DCE2',TYRE='#24272C',GLASS='#BFD8F2',DARK='#3A3F48';
+function car(o){
+  const w=o.w||52, H=o.h||92, col=C[o.color||'mint'], era=o.era||'old', kit=o.kit||[], x=100, b=134, top=b-H;
+  const L=x-w, R=x+w, t=o.tilt||0, dy=o.dy||0, look=o.look||0, br=o.brow||0;
+  let s='';
+  // wheels
+  const ww=Math.max(16,w*0.36), wx=w-ww*0.55;
+  [x-wx,x+wx].forEach(cx=>{ s+=`<rect x="${cx-ww/2}" y="${b-8}" width="${ww}" height="22" rx="6" fill="${TYRE}"/>`;
+    if(era==='old') s+=`<rect x="${cx-ww/2+4}" y="${b+2}" width="${ww-8}" height="5" rx="2" fill="#F4F4F0"/>`; });
+  // big mirrors
+  if(kit.includes('mirrors')){ s+=`<ellipse cx="${L-6}" cy="${top+H*0.5}" rx="9" ry="6" fill="${col[0]}" stroke="${col[1]}" stroke-width="2"/><ellipse cx="${R+6}" cy="${top+H*0.5}" rx="9" ry="6" fill="${col[0]}" stroke="${col[1]}" stroke-width="2"/>`; }
+  // body
+  if(o.shape==='van'){
+    s+=`<rect x="${L}" y="${top}" width="${2*w}" height="${H}" rx="${Math.min(30,w*0.45)}" fill="${col[0]}"/>`;
+    s+=`<rect x="${x-w*0.78}" y="${top+H*0.1}" width="${w*1.56}" height="${H*0.3}" rx="12" fill="${GLASS}"/>`;
+    s+=`<rect x="${L}" y="${top+H*0.48}" width="${2*w}" height="6" fill="${col[1]}" opacity=".35"/>`;
+  } else {
+    s+=`<path d="M${L} ${b-14} Q${L-2} ${top+H*0.22} ${x} ${top} Q${R+2} ${top+H*0.22} ${R} ${b-14} Q${R} ${b} ${R-22} ${b} L${L+22} ${b} Q${L} ${b} ${L} ${b-14}Z" fill="${col[0]}"/>`;
+    s+=`<path d="M${x-w*0.66} ${top+H*0.4} Q${x-w*0.6} ${top+H*0.1} ${x} ${top+H*0.08} Q${x+w*0.6} ${top+H*0.1} ${x+w*0.66} ${top+H*0.4}Z" fill="${GLASS}"/>`;
+    if(era==='old') s+=`<path d="M${x} ${top+H*0.09} L${x} ${top+H*0.4}" stroke="${CHROME}" stroke-width="3"/>`;
+    s+=`<path d="M${x-w*0.4} ${top+H*0.16} Q${x-w*0.48} ${top+H*0.24} ${x-w*0.48} ${top+H*0.33}" stroke="#fff" stroke-width="3.5" opacity=".6" fill="none" stroke-linecap="round"/>`;
+  }
+  if(kit.includes('stripe')) s+=`<rect x="${x-6}" y="${top+H*0.41}" width="12" height="${H*0.45}" fill="#fff" opacity=".85"/>`;
+  // eyes
+  const r=Math.min(w*0.22,16), ey=top+H*0.62, ex=w*0.42;
+  [[x-ex,1],[x+ex,-1]].forEach(([cx,sg])=>{
+    if(era==='old'){ s+=`<circle cx="${cx}" cy="${ey}" r="${r+2.5}" fill="${CHROME}"/><circle cx="${cx}" cy="${ey}" r="${r}" fill="${LAMP}"/>`; }
+    else { s+=`<ellipse cx="${cx}" cy="${ey}" rx="${r*1.15}" ry="${r*0.85}" fill="${DARK}"/><ellipse cx="${cx}" cy="${ey}" rx="${r*0.95}" ry="${r*0.68}" fill="${LAMP}"/>`; }
+    if(o.happy){ s+=`<path d="M${cx-r*0.6} ${ey+2} Q${cx} ${ey-r*0.8} ${cx+r*0.6} ${ey+2}" fill="none" stroke="#1F232A" stroke-width="3.5" stroke-linecap="round"/>`; }
+    else { s+=`<circle cx="${cx+look}" cy="${ey+1}" r="${r*0.42}" fill="#1F232A"/><circle cx="${cx+look+r*0.15}" cy="${ey-r*0.15}" r="${r*0.14}" fill="#fff"/>`; }
+    // brows
+    const by=ey-r-7;
+    if(era==='old') s+=`<path d="M${cx-r-2} ${by+br*sg} Q${cx} ${by-6-Math.abs(br)} ${cx+r+2} ${by-br*sg}" fill="none" stroke="${col[1]}" stroke-width="4" stroke-linecap="round"/>`;
+    else s+=`<path d="M${cx-r} ${by+2+br*sg} L${cx+r} ${by+2-br*sg}" stroke="${LAMP}" stroke-width="3.5" stroke-linecap="round"/>`;
+  });
+  // bumper / grille
+  if(era==='old'){ s+=`<circle cx="${x}" cy="${ey+r*0.6}" r="3.5" fill="${CHROME}"/><path d="M${L+6} ${b-12} Q${x} ${b-2} ${R-6} ${b-12}" fill="none" stroke="${CHROME}" stroke-width="6" stroke-linecap="round"/>`; }
+  else { s+=`<rect x="${x-w*0.3}" y="${b-20}" width="${w*0.6}" height="7" rx="3.5" fill="${DARK}"/>`; }
+  if(kit.includes('fog')) [x-w*0.62,x+w*0.62].forEach(cx=>s+=`<circle cx="${cx}" cy="${b-17}" r="4.5" fill="#F5C02E" stroke="${DARK}" stroke-width="1.5"/>`);
+  if(kit.includes('sensors')) [x-w*0.45,x-w*0.15,x+w*0.15,x+w*0.45].forEach(cx=>s+=`<circle cx="${cx}" cy="${b-8}" r="1.8" fill="${DARK}"/>`);
+  if(kit.includes('plate')) s+=`<rect x="${x-14}" y="${b-11}" width="28" height="8" rx="1.5" fill="#fff" stroke="${DARK}" stroke-width="1"/>`;
+  // roof
+  let roof=top+ (o.shape==='van'?0:2);
+  if(kit.includes('rack')){ s+=`<rect x="${x-w*0.55}" y="${roof-6}" width="${w*1.1}" height="4" rx="2" fill="${DARK}"/><rect x="${x-w*0.45}" y="${roof-24}" width="${w*0.5}" height="18" rx="4" fill="#B8733A"/><rect x="${x+w*0.08}" y="${roof-18}" width="${w*0.36}" height="12" rx="3" fill="#5A8FD8"/>`; roof-=24; }
+  if(kit.includes('roofbox')){ s+=`<rect x="${x-w*0.5}" y="${roof-16}" width="${w}" height="14" rx="7" fill="${DARK}"/>`; roof-=16; }
+  if(kit.includes('antenna')) s+=`<path d="M${x+w*0.55} ${top+H*0.2} L${x+w*0.85} ${top-22}" stroke="${DARK}" stroke-width="2"/><circle cx="${x+w*0.85}" cy="${top-23}" r="3" fill="#E8574F"/>`;
+  if(o.sign!==false){ const sw=Math.max(26,w*0.6); s+=`<rect x="${x-sw/2}" y="${roof-16}" width="${sw}" height="15" rx="4" fill="#1A56B0" stroke="#fff" stroke-width="2"/><text x="${x}" y="${roof-4.5}" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="12" fill="#fff">${o.signText||'L'}</text>`; }
+  if(o.keys) s+=`<g transform="translate(${R+4} ${ey-6})"><circle r="7" fill="none" stroke="#F2B705" stroke-width="3"/><rect x="5" y="-2" width="14" height="4" rx="2" fill="#F2B705"/></g>`;
+  return `<svg viewBox="0 0 200 150" preserveAspectRatio="xMidYMax meet" role="img" aria-label="${o.label||'Car sketch'}"><ellipse cx="100" cy="148" rx="${w+8}" ry="4" fill="#000" opacity=".12"/><g transform="translate(0 ${dy}) rotate(${t} 100 140)">${s}</g></svg>`;
+}
+const V=[
+ ['Pequeñito','A tiny city car. Quick, nervous, very "turbo".',{w:38,h:70,color:'mint',look:3}],
+ ['Grandote','A big round van-bubble. Calm and safe to sit next to.',{w:76,h:118,color:'mint',shape:'van',kit:['mirrors']}],
+ ['Clásico','Chrome rims, split windscreen, whitewall tyres. Has seen everything.',{w:54,h:94,color:'mint',era:'old',kit:['plate']}],
+ ['Nuevo','LED eyes with light-strip brows, flush bumper. Eager and precise.',{w:54,h:90,color:'mint',era:'new',kit:['plate']}],
+ ['Sencillo','Nothing fitted, not even the L sign. Pure basics.',{w:52,h:90,color:'mint',era:'new',sign:false}],
+ ['Equipado','Roof rack with bags, fog lamps, antenna, parking sensors. Ready for the trip.',{w:54,h:92,color:'mint',era:'new',kit:['rack','fog','antenna','sensors','mirrors']}],
+];
+document.getElementById('variants').innerHTML=V.map(([n,d,o])=>`<div class="tile"><div class="art">${car(Object.assign({label:n},o))}</div><b>${n}</b><span>${d}</span></div>`).join('');
+
+const P=[
+ {title:'Pequeño y grande',a:['Turbo','tiny, quick',{w:38,h:70,color:'mint',look:4,brow:3}],b:['Relanti','big, unhurried',{w:74,h:116,color:'cream',shape:'van',era:'old',sign:false,look:-2}],
+  text:'Turbo is the small, quick one who loves the next tramo; Relanti is the big, calm van who reminds you to look in the mirror. Speed and calm, side by side, like the app\'s two halves: study and exam.',
+  flip:'Flipped: a huge Turbo (the name is the joke) and a tiny Relanti that idles everywhere.'},
+ {title:'Viejo y nuevo',rec:true,a:['Turbo','classic instructor',{w:56,h:96,color:'mint',era:'old',look:3}],b:['Relanti','your new car',{w:52,h:88,color:'orange',era:'new',sign:false,happy:true}],
+  text:'Turbo is the old autoescuela car with chrome and an L sign: he has taught thousands of people to drive. Relanti is brand new and is yours. The veteran teaches the newcomer, which is exactly the user\'s story.',
+  flip:'Flipped: a shiny new Turbo with every gadget teaching, and Relanti as the old family car you inherit.'},
+ {title:'Sencillo y equipado',a:['Turbo','fully equipped',{w:54,h:92,color:'mint',era:'new',kit:['roofbox','fog','antenna','sensors','mirrors'],look:2}],b:['Relanti','simple, no extras',{w:50,h:88,color:'sky',era:'new',sign:false,look:-2}],
+  text:'Turbo has every aid fitted and knows what each one is for (and what the exam says about it). Relanti has nothing, so you learn the rules first and earn the kit later. This one turns into the growth idea below.',
+  flip:'Flipped: Relanti is the equipped one, Turbo the bare old car that "only needs the rules".'},
+];
+document.getElementById('pairs').innerHTML=P.map(p=>`<article class="pair${p.rec?' rec':''}">
+  <div class="duo">${[p.a,p.b].map(([n,s,o])=>`<figure>${car(Object.assign({label:n},o))}<figcaption>${n}<small>${s}</small></figcaption></figure>`).join('')}</div>
+  <div class="notes"><span class="tag${p.rec?' go':''}">${p.rec?'Recommended · ':''}Contrast</span><h3>${p.title}</h3><p>${p.text}</p><p class="flip">${p.flip}</p></div></article>`).join('');
+
+const G=[
+ ['Copiloto','Plain new car, no plates yet',{w:50,h:88,color:'orange',era:'new',sign:false}],
+ ['Aprendiz','Number plate and the L',{w:50,h:88,color:'orange',era:'new',kit:['plate']}],
+ ['Rodando','Bigger mirrors',{w:50,h:88,color:'orange',era:'new',kit:['plate','mirrors'],sign:false}],
+ ['Conductor/a','Fog lamps and sensors',{w:50,h:88,color:'orange',era:'new',kit:['plate','mirrors','fog','sensors'],sign:false}],
+ ['Ruta larga','Roof rack and bags',{w:50,h:88,color:'orange',era:'new',kit:['plate','mirrors','fog','sensors','rack'],sign:false}],
+ ['¡Aprobado!','Antenna flag and the keys',{w:50,h:88,color:'orange',era:'new',kit:['plate','mirrors','fog','sensors','rack','antenna'],sign:false,happy:true,keys:true}],
+];
+document.getElementById('growth').innerHTML=G.map(([n,d,o])=>`<figure>${car(Object.assign({label:n},o))}<b>${n}</b><span>${d}</span></figure>`).join('');
+})();
+</script>
