@@ -67,7 +67,7 @@ def satnav(expr="idle", s=1.0, bg=None, mount=True):
     img = paint(img, route.filter(ImageFilter.GaussianBlur(6 * s)), SKYBLUE, .9)
     # eyes on the screen
     eyes = newmask()
-    for ex in (-260, 260):
+    for ex in ((-260, 260) if expr != "blank" else ()):
         if expr == "happy":
             e = Line([(ex - 120, -10), (ex, -130), (ex + 120, -10)], 70)
         elif expr == "recalc":
@@ -250,10 +250,12 @@ def windscreen(expr="idle", s=1.0, body_c=hx("2F9E8F")):
     return img
 
 # ------------------------------------------------- Relanti: your car, side view
-def relanti(kind="city", body_c=hx("E8574F"), kit=()):
-    img = canvas()
+def relanti(kind="city", body_c=hx("E8574F"), kit=(), bg=None):
+    img = canvas() if bg is None else bg
     s = 1.0
     E, R, Poly, Line, T = mk(s, 0, 120, 0)
+    if "underglow" in kit:
+        img = paint(img, E(-760, 400, 760, 600).filter(ImageFilter.GaussianBlur(70)), hx("3FD8FF"), .9)
     img = paint(img, E(-820, 440, 820, 560).filter(ImageFilter.GaussianBlur(50)), SHADOW + (255,), .3)
     if kind == "city":
         shell = [(-760, 360), (-780, 120), (-700, 20), (-380, -40), (-160, -330), (240, -330), (460, -60), (720, 20), (790, 140), (780, 360)]
@@ -269,25 +271,59 @@ def relanti(kind="city", body_c=hx("E8574F"), kit=()):
         wheels = (-500, 520)
     body = smooth(Poly(shell), 60)
     img = contact(img, body, 30, 40, .25, SHADOW)
-    img = inflate(img, body, body_c, depth=1.4, soft=150, shine=.4, gloss_pow=22)
+    dull = "dull" in kit
+    img = inflate(img, body, body_c, depth=1.4, soft=150, shine=.12 if dull else .4, gloss_pow=10 if dull else 22, ambient=.5 if dull else .42)
+    if "primer" in kit:
+        img = inflate(img, ImageChops.multiply(smooth(R(-80, -40, 300, 330, 40), 10), body), hx("9EA3A8"), depth=.4, soft=40, shine=.05)
+    if "spoiler" in kit and kind == "city":
+        img = contact(img, smooth(Poly([(300, -200), (600, -250), (610, -160), (360, -130)]), 10), 10, 16, .3, SHADOW)
+        img = inflate(img, smooth(Poly([(300, -200), (600, -250), (610, -160), (360, -130)]), 10), hx("2B2F36"), depth=.8, soft=20, shine=.5)
     for w in win:
         g = smooth(Poly(w), 24)
-        img = inflate(img, g, GLASS, depth=.4, soft=40, shine=.8, gloss_pow=50, ambient=.65)
+        img = inflate(img, g, hx("3A4656") if "tint" in kit else GLASS, depth=.4, soft=40, shine=.8, gloss_pow=50, ambient=.65)
+    if "Lplate" in kit:
+        a, b = win[-1][0], win[-1][2]
+        cx_, cy_ = (a[0] + b[0]) / 2, (a[1] + b[1]) / 2
+        img = paint(img, R(cx_ - 55, cy_ - 55, cx_ + 55, cy_ + 55, 14), hx("1A56B0"))
+        img = paint(img, T("L", cx_, cy_, 90), WHITE)
     img = paint(img, Line([(-700, 90), (720, 90)], 14), tuple(int(c * .8) for c in body_c[:3]) + (255,), .6)
     # lights
     img = inflate(img, smooth(Poly([(-790, 60), (-680, 40), (-690, 140), (-790, 150)]), 14), LAMP, depth=.6, soft=20, shine=.7)
     img = inflate(img, R(shell[-2][0] - 70, 60, shell[-2][0] + 10, 170, 20), hx("C8233A"), depth=.6, soft=20, shine=.7)
     if "roofbox" in kit:
         top = min(y for _, y in shell)
-        img = inflate(img, R(-260, top - 150, 420, top - 20, 70), hx("2B2F36"), depth=1, soft=50, shine=.4)
+        img = inflate(img, R(-240, top - 120, 400, top + 20, 70), hx("2B2F36"), depth=1, soft=50, shine=.4)
     if "stripe" in kit:
         img = paint(img, Line([(-740, 220), (760, 220)], 40), WHITE, .9)
+    if "fog" in kit:
+        img = inflate(img, E(-790, 230, -700, 300), hx("F5C02E"), depth=.6, soft=16, shine=.7)
     for wx in wheels:
         tyre = E(wx - 190, 160, wx + 190, 540)
         img = contact(img, tyre, 10, 20, .3, SHADOW)
         img = inflate(img, tyre, TYRE, depth=1.2, soft=70, shine=.25)
-        img = inflate(img, E(wx - 95, 255, wx + 95, 445), CHROME, depth=1, soft=40, shine=.8, gloss_pow=50)
+        if "rims" in kit:
+            img = inflate(img, E(wx - 130, 220, wx + 130, 480), hx("F2B705"), depth=1, soft=40, shine=.85, gloss_pow=50)
+            spokes = newmask()
+            for k in range(5):
+                a_ = math.radians(90 + k * 72)
+                ImageDraw.Draw(spokes).line([P(wx, 350, 1, 0, 120), P(wx + 120 * math.cos(a_), 350 + 120 * math.sin(a_), 1, 0, 120)], fill=255, width=34)
+            img = paint(img, spokes.filter(ImageFilter.GaussianBlur(2)), hx("2B2F36"), .85)
+            img = inflate(img, E(wx - 40, 310, wx + 40, 390), hx("F2B705"), depth=1, soft=20, shine=.8)
+        elif "steel" in kit:
+            img = inflate(img, E(wx - 95, 255, wx + 95, 445), hx("6B7077"), depth=.6, soft=40, shine=.2)
+        else:
+            img = inflate(img, E(wx - 95, 255, wx + 95, 445), CHROME, depth=1, soft=40, shine=.8, gloss_pow=50)
     return img
+
+
+STAGES = [
+    ("copiloto", hx("C9B79C"), ("dull", "primer", "steel")),
+    ("aprendiz", None, ("Lplate",)),
+    ("rodando", None, ("Lplate", "rims")),
+    ("conductor", None, ("Lplate", "rims", "tint", "stripe")),
+    ("rutalarga", None, ("Lplate", "rims", "tint", "stripe", "roofbox", "fog")),
+    ("leyenda", None, ("rims", "tint", "stripe", "roofbox", "fog", "spoiler", "underglow")),
+]
 
 
 # ------------------------------------------------ Driver's view: Turbo on the dash
@@ -349,6 +385,11 @@ if __name__ == "__main__":
         for e in exprs: save_small(toycar(e), f"toy-{e}")
     if "windscreen" in which:
         for e in exprs: save_small(windscreen(e), f"windscreen-{e}")
+    if "stages" in which:
+        for name, col, kit in STAGES:
+            save_small(relanti("city", col or hx("E8574F"), kit), f"stage-{name}")
+    if "blank" in which:
+        save_small(satnav("blank"), "satnav-blank", 900)
     if "dash" in which:
         for e in ["idle", "happy", "recalc", "explain", "curious"]: save_small(dashboard(e), f"dash-{e}", 900)
     if "relanti" in which:

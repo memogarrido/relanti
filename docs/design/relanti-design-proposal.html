@@ -197,9 +197,72 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 .sources{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--ink3)}
 .sources a{color:var(--ink2)}
 .foot{color:var(--ink3);font-size:14px;margin-top:36px}
+/* theme toggle */
+.themebar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;justify-content:flex-end;padding-block:10px 0}
+.themebar div{display:inline-flex;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;box-shadow:0 4px 14px -8px rgba(0,0,0,.3)}
+.themebar button{font:600 13px var(--body);border:0;background:transparent;color:var(--ink2);padding:5px 12px;border-radius:999px;cursor:pointer}
+.themebar button[aria-pressed="true"]{background:var(--blue);color:#fff}
+/* animated GPS */
+.gpsdemo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:center}
+@media (max-width:760px){.gpsdemo{grid-template-columns:1fr}}
+.gps{position:relative;width:100%;max-width:420px;aspect-ratio:1;border-radius:16px;overflow:hidden;background:#E6EBF2 center/cover no-repeat}
+.gps .eye{position:absolute;top:39.3%;width:8.3%;height:13.7%;margin-left:-4.15%;border-radius:999px;background:#F4FAFF;box-shadow:0 0 18px 6px rgba(127,196,255,.55);transform-origin:50% 60%;transition:transform .25s ease,border-radius .25s ease,height .25s ease,top .25s ease}
+.gps .eye.l{left:37.3%} .gps .eye.r{left:62.7%}
+.gps.blink .eye{animation:blink 3.6s infinite}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+.gps.curious .eye.l{transform:translate(18%,10%) scale(.85)} .gps.curious .eye.r{transform:translate(18%,-6%) scale(1.1)}
+.gps.curious{transform:rotate(-4deg)}
+.gps.happy .eye{height:5%;top:44%;border-radius:999px 999px 0 0;background:transparent;box-shadow:none;border:9px solid #F4FAFF;border-bottom:0}
+.gps.explain .eye{height:7%;top:44%}
+.gps.recalc .eye{height:12%;width:9%;background:transparent;border:8px solid #F4FAFF;border-right-color:transparent;box-shadow:0 0 14px 2px rgba(127,196,255,.5);animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.gps{transition:transform .3s ease}
+@media (prefers-reduced-motion:reduce){.gps .eye{animation:none!important;transition:none}.gps{transition:none}}
+.exbtns{display:flex;flex-wrap:wrap;gap:6px}
+.exbtns button{font:600 14px var(--body);border:1.5px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+.exbtns button[aria-pressed="true"]{border-color:var(--blue);background:var(--blue-soft);color:var(--blue-ink)}
+.names{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px}
+.names div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:2px}
+.names b{font-family:var(--display);font-size:22px}
+.names span{font-size:14px;color:var(--ink2)}
+.names div.rec{border:2px solid var(--go)}
+/* evolution */
+.evo{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+@media (max-width:760px){.evo{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.evo figure{margin:0;display:grid;gap:2px;justify-items:center;text-align:center}
+.evo img{width:100%;border-radius:10px;aspect-ratio:1;display:block}
+.evo b{font-family:var(--display);font-size:16px}
+.evo span{font-size:12.5px;color:var(--ink2);line-height:1.3}
+.evo .pts{font-family:var(--display);font-weight:800;font-size:13px;color:var(--blue-ink);background:var(--blue-soft);border-radius:4px;padding:0 6px}
+/* licence card */
+.carnet{background:linear-gradient(135deg,#F3E7F7,#DCEBFA);color:#1F232A;border-radius:14px;padding:14px 16px;display:grid;gap:10px;border:1px solid #CBD5E1;max-width:440px}
+.carnet .top{display:flex;justify-content:space-between;font-family:var(--display);font-weight:800;letter-spacing:.06em}
+.carnet .ptsrow{display:grid;grid-template-columns:repeat(15,1fr);gap:3px}
+.carnet .ptsrow i{aspect-ratio:1;border-radius:50%;background:#C9D2DE}
+.carnet .ptsrow i.on{background:#1A56B0}
+.carnet .ptsrow i.m8{box-shadow:0 0 0 2px #F2B705}
+/* exit signs */
+.exit{background:#1A56B0;color:#fff;border-radius:8px;box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 4px #1A56B0;padding:7px 10px;display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;font-family:var(--display);font-weight:700}
+.exit .no{background:#fff;color:#14438A;border-radius:4px;padding:0 6px;font-size:12px;line-height:1.5}
+.exit .dest{font-size:15px;line-height:1.1}
+.exit .dest small{display:block;font-size:11px;opacity:.85;font-family:var(--body);font-weight:500}
+.exit .arr{font-size:20px}
+.exit.toll{background:#5A606B;box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 4px #5A606B}
+.photo{border-radius:12px;overflow:hidden;position:relative;background:#BFD8F2}
+.photo svg{display:block;width:100%;height:auto}
+.photo .gpsc{position:absolute;right:6px;bottom:6px;width:46px;height:46px;border-radius:12px;background-size:175%;background-position:50% 36%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.pipeline{display:grid;gap:0;max-width:860px}
+.pstep{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.pstep:first-child{border-top:0}
+.pstep b{font-family:var(--display);font-size:18px;color:var(--blue-ink)}
+.pstep p{color:var(--ink2)}
+@media (max-width:560px){.pstep{grid-template-columns:1fr;gap:4px}}
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px}
+.road-free{border-top:6px solid #8A919C} .road-toll{border-top:6px solid #1A56B0}
 </style>
 
 <div class="wrap">
+<div class="themebar"><div role="group" aria-label="Theme"><button type="button" data-t="light">Claro</button><button type="button" data-t="dark">Oscuro</button><button type="button" data-t="" aria-pressed="true">Sistema</button></div></div>
 
 <header class="hero">
   <div class="gantry" role="img" aria-label="Motorway sign reading Relanti, Examen teórico B, 30 preguntas, 3 fallos">
@@ -208,13 +271,14 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
     <div class="sub">Tu road trip hasta el permiso, con Turbo en el salpicadero</div>
   </div>
   <div class="posts" aria-hidden="true"><i></i><i></i></div>
-  <p class="lede"><strong>Design proposal, v0.2 (4 Nov 2026).</strong> Relanti is a native iOS and Android app for passing the Spanish DGT theory exam for the B licence. It reuses Volantón's flow (one shell, levels you land on two different days, calm rewards, content as data) and replaces the airport with a road trip: one road with a stop for every topic, ending at the exam centre. You drive your own car, Relanti, and Turbo is the sat nav on its dashboard that guides you there.</p>
+  <p class="lede"><strong>Design proposal, v0.3 (4 Nov 2026).</strong> Relanti is a native iOS and Android app for passing the Spanish DGT theory exam for the B licence. It reuses Volantón's flow (one shell, levels you land on two different days, calm rewards, content as data) and replaces the airport with a road trip: one road with a stop for every topic, ending at the exam centre. You drive your own car, Relanti, and the GPS on its dashboard guides you there. Use the switch at the top to see the mocks in light or dark.</p>
   <div class="changes">
-    <div><b>New in v0.2: Turbo</b>The sat nav on your dashboard, rendered like Rumbo. "Recalculando…" on a miss, silent in simulacros.</div>
-    <div><b>New: Relanti is your car</b>You pick the body, colour and name, and earn kit as you progress.</div>
-    <div><b>New: one road, open exits</b>Every etapa is open from day one; a desvío keeps your place.</div>
-    <div><b>New: Trucos de Turbo</b>Reading, memory and "novedad" tips as our edge over question banks.</div>
-    <div><b>New: Guantera</b>Toll tickets on the sun visor, fridge magnets per etapa.</div>
+    <div><b>New in v0.3: Puntos del carnet</b>You earn 15 licence points as you master etapas, mirroring the real points system.</div>
+    <div><b>New: your car evolves</b>From a faded second-hand car to fully done up, one upgrade per points milestone.</div>
+    <div><b>New: animated GPS</b>His eyes are drawn in code on his screen, so they move smoothly in the app. Try the demo.</div>
+    <div><b>New: exit signs</b>Desvíos look like motorway exits. Paid etapas are toll roads.</div>
+    <div><b>New: keeping content up to date</b>A weekly check of the BOE's consolidated laws flags questions to review.</div>
+    <div><b>New: business model</b>Free national road and a one-time toll for the motorway.</div>
   </div>
 </header>
 
@@ -232,13 +296,13 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 <div class="road" aria-hidden="true"></div>
 
 <section id="personajes">
-  <div class="sec-head"><span class="pk"><b>PK 2</b> The characters</span><h2>Turbo guides, Relanti is yours</h2>
+  <div class="sec-head"><span class="pk"><b>PK 2</b> The characters</span><h2>The GPS guides, Relanti is yours</h2>
     <p class="prose">Two characters with two jobs: one instructs you and one you personalise. Turbo is drawn with the same puffy 3D script as Rumbo, now in <code>Scripts/turbo/turbo.py</code>.</p></div>
   <div class="charhero">
     <img src="img/dash-idle.jpg" alt="Driver's view at sunset with a motorway sign reading Examen 12 km and Turbo the sat nav on a red car's dashboard">
     <div style="display:grid;gap:14px;min-width:0">
-      <span class="tag t-ok">Decided · Turbo is the sat nav</span>
-      <h3 style="font-size:28px">Turbo, el GPS que te enseña</h3>
+      <span class="tag t-ok">Decided · the guide is the GPS</span>
+      <h3 style="font-size:28px">El GPS que te enseña</h3>
       <p class="prose">Turbo is the sat nav mounted on your dashboard, with glowing eyes on his screen and an L tag on top. He knows the route to the exam and talks the way a good instructor does, one short line at a time. A sat nav suits a single road, it can't be confused with your car, and "Recalculando…" gives him a calm, funny way to handle mistakes.</p>
       <div class="exprs">
         <figure><img src="img/satnav-idle.jpg" alt=""><span>Atento</span></figure>
@@ -249,22 +313,48 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       </div>
     </div>
   </div>
+  <div class="gpsdemo">
+    <div class="gps blink" id="gps" style="background-image:url(img/satnav-blank.jpg)" role="img" aria-label="The GPS character with animated eyes"><i class="eye l"></i><i class="eye r"></i></div>
+    <div style="display:grid;gap:12px;min-width:0">
+      <span class="tag">Live demo</span>
+      <h3>Eyes drawn in code, so they move</h3>
+      <p class="prose">The device is a rendered image and the eyes are drawn on top, like the screen of a real GPS. In the app they're a SwiftUI and Compose shape, so blinking, looking, the happy squint and the "Recalculando" spinner are smooth, cheap, and the same on both platforms. They follow Reduce Motion.</p>
+      <div class="exbtns" id="exbtns">
+        <button type="button" data-x="blink" aria-pressed="true">Atento</button><button type="button" data-x="curious">Curioso</button><button type="button" data-x="happy">¡Bien!</button><button type="button" data-x="explain">Explica</button><button type="button" data-x="recalc">Recalculando</button>
+      </div>
+    </div>
+  </div>
   <div class="cols">
-    <div class="card"><h3>Turbo's rules</h3><ul>
+    <div class="card"><h3>The GPS's rules</h3><ul>
       <li><b>One line at a time.</b> A truco is never longer than two lines.</li>
       <li><b>"Recalculando", never "mal".</b> Every miss gets the same calm line, the right answer and the truco.</li>
+      <li><b>Always in the corner.</b> On every question, photo or not, he sits in the corner with you.</li>
       <li><b>Silent in simulacros.</b> His screen shows only the clock, because the real exam gives no help.</li>
       <li><b>His screen does the work.</b> It can show eyes, a sign, a turn arrow or a speed.</li>
       <li><b>Never sad, never broken.</b> He has no low battery and no "you missed a day".</li>
       <li><b>Optional voice</b>, read aloud like a real sat nav.</li></ul></div>
-    <div class="card" style="gap:12px"><h3>Relanti, tu coche</h3><p>Seen side-on as it drives along the road, with no face. You choose the body, colour and name when you start. At each rango Turbo fits one piece of kit (number plate, bigger mirrors, fog lamps, roof rack, roof box), and nothing is ever taken away.</p>
-      <div class="cars">
-        <figure><img src="img/relanti-city.jpg" alt="Red city car"><b>Utilitario</b><span>Coral</span></figure>
-        <figure><img src="img/relanti-estate.jpg" alt="Blue estate with roof box"><b>Familiar</b><span>With roof box</span></figure>
-        <figure><img src="img/relanti-van.jpg" alt="Mint small van with stripe"><b>Furgo</b><span>With stripe</span></figure>
+    <div class="card"><h3>What do we call him?</h3><p>"Turbo" is crowded (there are driving schools called Turbo), and a GPS doesn't need a car-part name. Options:</p>
+      <div class="names">
+        <div class="rec"><b>Tú decides</b><span>The learner names their GPS during setup. "Turbo" is just the default, and the working name in these mocks.</span></div>
+        <div><b>Gepe</b><span>How many people say "GPS" out loud</span></div>
+        <div><b>Kilo</b><span>Short for kilómetro; counts your km</span></div>
+        <div><b>Brújula</b><span>The compass; warm and Spanish</span></div>
+        <div><b>Turbo</b><span>Keep it, inside the app only</span></div>
       </div></div>
   </div>
-  <div class="card"><h3>How we got here</h3><div class="journey"><span>Dog co-pilot</span><span>Car with headlight eyes</span><span>Burbuja micro car</span><span>Soft toy car</span><span>Windscreen eyes</span><span>Road-sign pictogram</span><span class="on">Sat nav</span></div><p>Every direction is rendered on the <a href="https://claude.ai/artifact/QzTS5JLRR8AY8vsmqGY3MG">Turbo renders</a> page, and the full flow with the sat nav is on <a href="https://claude.ai/artifact/Fq3rTgrc8SFdeYPtRndkpJ">Turbo on the dashboard</a>.</p></div>
+  <div class="card" style="gap:12px"><h3>Relanti, tu coche: it evolves as you study</h3>
+    <p>As with Volantón's owlet, you can see your car grow. You start with a faded second-hand car, and each points milestone fits one upgrade, so studying is how you do it up. Body, colour and name are yours from day one, and nothing is ever taken away.</p>
+    <div class="evo">
+      <figure><img src="img/stage-copiloto.jpg" alt="Faded beige second-hand car with a primer door and steel wheels"><span class="pts">0 pts</span><b>De segunda mano</b><span>Faded paint, primer door</span></figure>
+      <figure><img src="img/stage-aprendiz.jpg" alt="Car painted coral with an L sticker"><span class="pts">3 pts</span><b>Pintura nueva</b><span>Your colour and the L</span></figure>
+      <figure><img src="img/stage-rodando.jpg" alt="Coral car with gold alloy wheels"><span class="pts">6 pts</span><b>Llantas</b><span>Alloy wheels</span></figure>
+      <figure><img src="img/stage-conductor.jpg" alt="Coral car with tinted windows and a white stripe"><span class="pts">8 pts</span><b>Listo para el examen</b><span>Tinted windows, stripe</span></figure>
+      <figure><img src="img/stage-rutalarga.jpg" alt="Coral car with roof box and fog lamps"><span class="pts">12 pts</span><b>Ruta larga</b><span>Roof box, fog lamps</span></figure>
+      <figure><img src="img/stage-leyenda.jpg" alt="Fully done up coral car with spoiler and blue underglow"><span class="pts">15 pts</span><b>Carnet completo</b><span>Spoiler, underglow, L off</span></figure>
+    </div>
+    <p style="font-size:15px">Body types (utilitario, familiar, furgo) and colours are chosen at the start. Later we could unlock extra bodies, like a convertible or a classic, at milestones. Share cards show the car without its upgrades, so a shared picture never reveals your level.</p>
+  </div>
+  <div class="card"><h3>How we got here</h3><div class="journey"><span>Dog co-pilot</span><span>Car with headlight eyes</span><span>Burbuja micro car</span><span>Soft toy car</span><span>Windscreen eyes</span><span>Road-sign pictogram</span><span class="on">Sat nav</span></div><p>Every direction is rendered on the <a href="https://claude.ai/artifact/QzTS5JLRR8AY8vsmqGY3MG">Turbo renders</a> page, and the full flow with the GPS is on <a href="https://claude.ai/artifact/Fq3rTgrc8SFdeYPtRndkpJ">Turbo on the dashboard</a>.</p></div>
   <div class="cols">
     <div class="card"><span class="tag t-ok">Low risk so far</span><h3>Name: Relanti</h3><p>Web searches found no app, company or trademark called Relanti, and nothing in our sector. Register it early: an OEPM national mark is about 150 €, an EU mark about 850 €.</p></div>
     <div class="card"><span class="tag t-high">Crowded</span><h3>Name: Turbo</h3><p>"Turbo" is registered in many classes, and driving schools already use it: <em>Turbo Autoescuelas</em> (Navarra) and <em>Autoescola Turbo</em> (Catalonia). Keep Turbo as a character name only, never on the store listing or icon. That's the same approach that saved Rumbo.</p></div>
@@ -281,11 +371,11 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
     <thead><tr><th>Generic</th><th>Relanti</th><th>Meaning</th><th>Volantón had</th></tr></thead>
     <tbody>
       <tr><td>Home</td><td class="r">La Ruta</td><td>the view through your windscreen, km to the exam</td><td class="v">Aeropuerto</td></tr>
-      <tr><td>Guide</td><td class="r">Turbo</td><td>the sat nav on your dashboard</td><td class="v">Rumbo</td></tr>
+      <tr><td>Guide</td><td class="r">El GPS (name open)</td><td>the sat nav on your dashboard</td><td class="v">Rumbo</td></tr>
       <tr><td>Avatar</td><td class="r">Relanti, tu coche</td><td>your car: body, colour, name, kit</td><td class="v">Tu volantón</td></tr>
       <tr><td>Topic (tema)</td><td class="r">Etapa</td><td>a stop on the road, e.g. Villaseñal</td><td class="v">Continente</td></tr>
       <tr><td>Level</td><td class="r">Tramo (AD-102)</td><td>a stretch of road with a road number</td><td class="v">Vuelo (MT 204)</td></tr>
-      <tr class="new"><td>Leave the path</td><td class="r">Desvío</td><td>jump to any etapa, your place is kept</td><td class="v"></td></tr>
+      <tr class="new"><td>Leave the path</td><td class="r">Salida</td><td>a motorway exit sign to any etapa, your place is kept</td><td class="v"></td></tr>
       <tr class="new"><td>Wrong answer</td><td class="r">Recalculando…</td><td>Turbo's line on every miss</td><td class="v">Casi.</td></tr>
       <tr><td>Results screen</td><td class="r">Llegada</td><td>arrival at the end of the tramo</td><td class="v">Aterrizaje</td></tr>
       <tr><td>Level mastered</td><td class="r">Ticket de peaje</td><td>a toll ticket clipped to your sun visor</td><td class="v">Sello</td></tr>
@@ -294,6 +384,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <tr><td>Streak</td><td class="r">Días al volante</td><td>days behind the wheel</td><td class="v">Días de ruta</td></tr>
       <tr><td>Streak freeze</td><td class="r">Área de descanso</td><td>a rest stop that keeps the streak</td><td class="v">Escala</td></tr>
       <tr><td>Daily goal</td><td class="r">Hoja de ruta</td><td>today's plan</td><td class="v">Plan de vuelo</td></tr>
+      <tr class="new"><td>Mastery total</td><td class="r">Puntos del carnet</td><td>0 to 15 points, one per etapa plus exam milestones</td><td class="v">Sellos totales</td></tr>
       <tr><td>Rank</td><td class="r">Rango</td><td>Copiloto → Leyenda de la carretera</td><td class="v">Pasajero → Leyenda del cielo</td></tr>
       <tr><td>Spaced review</td><td class="r">Retrovisor</td><td>looking back at what you passed</td><td class="v">Vuelo de vuelta</td></tr>
       <tr><td>Most-missed questions</td><td class="r">Puntos negros</td><td>the DGT term for accident black spots</td><td class="v"></td></tr>
@@ -302,6 +393,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <tr><td>Exam readiness</td><td class="r">Semáforo</td><td>red, amber, green: are you ready?</td><td class="v"></td></tr>
       <tr><td>Level board</td><td class="r">Panel</td><td>a motorway variable-message panel</td><td class="v">Salidas</td></tr>
       <tr><td>Collection</td><td class="r">Guantera</td><td>sun visor of tickets, fridge of magnets, Trucos</td><td class="v">Maleta</td></tr>
+      <tr class="new"><td>Paid content</td><td class="r">Autopista de peaje</td><td>etapas unlocked by the one-time payment</td><td class="v">Familia</td></tr>
       <tr class="new"><td>Tips library</td><td class="r">Trucos de Turbo</td><td>every truco you've unlocked, to revise</td><td class="v">Trucos</td></tr>
     </tbody></table></div>
 </section>
@@ -309,7 +401,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 <div class="road" aria-hidden="true"></div>
 
 <section id="ruta">
-  <div class="sec-head"><span class="pk"><b>PK 4</b> The road</span><h2>One recommended road, every exit open</h2>
+  <div class="sec-head"><span class="pk"><b>PK 4</b> The road</span><h2>One recommended road, an exit to every etapa</h2>
     <p class="prose">Someone tired of speed limits should be able to go and do vehicle types. Research supports both a guided order and free choice:</p></div>
   <div class="cols">
     <div class="card"><h3>Choice helps motivation</h3><p>A meta-analysis of 41 studies (Patall, Cooper &amp; Robinson, 2008) found that choice raises motivation, effort and performance, especially with a few meaningful options.</p></div>
@@ -330,7 +422,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <text x="90" y="160" text-anchor="middle" class="slbl2">tramos in order</text><text x="90" y="176" text-anchor="middle" class="slbl2">inside each etapa</text>
     </svg>
   </div>
-  <div class="decided"><span class="eyebrow">Proposed</span><p>The road follows the order of the DGT's simplified manual, so it makes sense to anyone coming from an autoescuela. Every etapa is open from day one, and tapping any stop takes a desvío. Tramos go in order inside an etapa. After three rounds of the same etapa, Turbo suggests "¿Cambiamos de aires?" with two other etapas to choose from. Simulacros are always available.</p></div>
+  <div class="decided"><span class="eyebrow">Proposed</span><p>The road follows the order of the DGT's simplified manual, so it makes sense to anyone coming from an autoescuela. Every etapa has its own exit: the switch looks like a blue motorway exit sign ("Salida 7 · Taller · Tipos de vehículo"), and taking it keeps your place on the main road. Tramos go in order inside an etapa. After three rounds of the same etapa, Turbo suggests "¿Cambiamos de aires?" with two other etapas to choose from. Simulacros are always available.</p></div>
   <div class="tablewrap"><table>
     <thead><tr><th>Etapa (stop)</th><th>Code</th><th>DGT topics it covers</th></tr></thead>
     <tbody>
@@ -372,7 +464,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 <div class="road" aria-hidden="true"></div>
 
 <section id="pantallas">
-  <div class="sec-head"><span class="pk"><b>PK 6</b> Key screens</span><h2>Ten screens, one app</h2>
+  <div class="sec-head"><span class="pk"><b>PK 6</b> Key screens</span><h2>Twelve screens, one app</h2>
     <p class="prose">Tabs: <b>Ruta · Examen · Guantera · Yo</b>. Every tramo runs in the same question frame and ends in the same Llegada. Copy is in Castilian Spanish, as it would ship.</p></div>
   <div class="phones">
 
@@ -437,9 +529,28 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
     <figure class="ph"><div class="phone"><div class="scr"><div class="notch"></div><div class="pbody">
       <div class="view short" style="background-image:url(img/dash-curious.jpg)"></div>
       <div class="say"><div class="av" style="background-image:url(img/satnav-curious.jpg)"></div><div class="bubble">Llevas tres vueltas de velocidad. <b>¿Cambiamos de aires?</b></div></div>
-      <div class="choices"><div class="choice">Tipos de vehículos<span>VH · 6 min</span></div><div class="choice">Alumbrado<span>AL · 5 min</span></div><div class="choice" style="color:var(--ink2)">Seguir con velocidad<span>VE</span></div></div>
+      <div class="exit"><span class="no">7</span><span class="dest">Taller<small>Tipos de vehículo · 6 min</small></span><span class="arr">↗</span></div>
+      <div class="exit"><span class="no">6</span><span class="dest">Faro Nocturno<small>Alumbrado · 5 min</small></span><span class="arr">↗</span></div>
+      <div class="exit toll"><span class="no">10</span><span class="dest">Oficina de Puntos<small>Autopista de peaje</small></span><span class="arr">↗</span></div>
       </div></div></div>
-      <figcaption><b>7 · Un desvío</b>Any etapa is open. Turbo offers a change after three rounds of one topic and keeps your place on the main road.</figcaption></figure>
+      <figcaption><b>7 · Salidas</b>Desvíos look like motorway exit signs. After three rounds of one topic, the GPS offers two exits and keeps your place on the main road. Paid etapas show as a calm grey toll exit.</figcaption></figure>
+
+    <figure class="ph"><div class="phone"><div class="scr"><div class="notch"></div><div class="pbody">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:2px"><span class="lbl">PR-102 · 3 de 8</span><span class="lbl">Foto</span></div>
+      <div class="trail"><div class="done" style="width:30%"></div></div>
+      <div class="photo"><svg viewBox="0 0 240 150" role="img" aria-label="Road scene: a junction with a give way sign">
+        <rect width="240" height="150" fill="#BFD8F2"/><rect y="70" width="240" height="80" fill="#9DB27A"/>
+        <path d="M95 150 L118 70 L132 70 L170 150Z" fill="#3A3F48"/><path d="M0 108 L240 96 L240 116 L0 132Z" fill="#3A3F48"/>
+        <path d="M125 150 L125 140 M125 130 L125 122" stroke="#fff" stroke-width="2"/><path d="M98 120 L150 117" stroke="#fff" stroke-width="2.5" stroke-dasharray="5 4"/>
+        <line x1="176" y1="122" x2="176" y2="92" stroke="#6B7280" stroke-width="2.5"/><path d="M162 80 L190 80 L176 103Z" fill="#fff" stroke="#C8233A" stroke-width="4" stroke-linejoin="round"/>
+      </svg><div class="gpsc" style="background-image:url(img/satnav-idle.jpg)"></div></div>
+      <div class="q">Al llegar a esta intersección, ¿debe ceder el paso?</div>
+      <div class="opt"><b>A</b>Sí, a los que circulan por la vía transversal</div>
+      <div class="opt"><b>B</b>No, tengo prioridad</div>
+      <div class="opt"><b>C</b>Solo a los que vienen por la derecha</div>
+      </div></div></div>
+      <figcaption><b>8 · Pregunta con foto</b>The GPS sits in the photo's corner on every question, watching the road with you. His truco after a miss can point at the part of the picture that matters.</figcaption></figure>
+
 
     <figure class="ph"><div class="phone"><div class="scr exam"><div class="notch"></div><div class="pbody">
       <div class="mute"><div class="av" style="background-image:url(img/satnav-idle.jpg);border-color:#2C323C;filter:saturate(.3) brightness(.8)"></div><div style="display:grid"><span class="lbl" style="color:#7B8390">Turbo en silencio</span><span class="clock">18:42</span></div></div>
@@ -449,7 +560,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <div class="opt" style="background:#16181C;border-color:#4F8DF0;color:#E8EAEE"><b style="background:#4F8DF0;color:#fff">B</b>120 km/h</div>
       <div class="opt" style="background:#16181C;border-color:#2C323C;color:#E8EAEE"><b style="background:#2C323C;color:#E8EAEE">C</b>130 km/h</div>
       <span class="btn" style="background:#4F8DF0">Siguiente</span></div></div></div>
-      <figcaption><b>8 · Simulacro</b>The real format: 30 questions, 30 minutes, 3 mistakes at most. Turbo goes quiet and his screen shows only the clock. He reviews every mistake at the end.</figcaption></figure>
+      <figcaption><b>9 · Simulacro</b>The real format: 30 questions, 30 minutes, 3 mistakes at most. Turbo goes quiet and his screen shows only the clock. He reviews every mistake at the end.</figcaption></figure>
 
     <figure class="ph"><div class="phone"><div class="scr"><div class="notch"></div><div class="pbody">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px"><span style="font-family:var(--display);font-weight:800;font-size:24px">Guantera</span><span class="pill" style="border:1px solid var(--line)">38 de 96</span></div>
@@ -466,14 +577,25 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       </div>
       <div class="pc"><span class="lbl">Trucos de Turbo · Puntos negros</span><div style="font-weight:600">42 trucos · 6 preguntas que fallas a menudo</div></div>
       </div></div></div>
-      <figcaption><b>9 · Guantera</b>Toll tickets for each mastered tramo on the sun visor, and a fridge magnet for each finished etapa. Totals are visible, so collecting has an end.</figcaption></figure>
+      <figcaption><b>10 · Guantera</b>Toll tickets for each mastered tramo on the sun visor, and a fridge magnet for each finished etapa. Totals are visible, so collecting has an end.</figcaption></figure>
+
+    <figure class="ph"><div class="phone"><div class="scr"><div class="notch"></div><div class="pbody">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px"><span style="font-family:var(--display);font-weight:800;font-size:24px">Yo</span><span class="pill" style="border:1px solid var(--line)">Rango: Rodando</span></div>
+      <div class="carnet"><div class="top"><span>PERMISO B · RELANTI</span><span>7 / 15</span></div>
+        <div style="display:flex;gap:10px;align-items:center"><img src="img/stage-rodando.jpg" alt="" style="width:64px;height:64px;border-radius:10px"><div style="display:grid;font-size:12px;line-height:1.3"><b style="font-size:14px">El Rojito</b><span>Utilitario · Coral</span><span>Próxima mejora a 8 pts: lunas tintadas</span></div></div>
+        <div class="ptsrow"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="m8"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <span style="font-size:11px;color:#535A66">A los 8 puntos estás listo para el examen, como un novel con su carnet nuevo.</span></div>
+      <div class="pc"><span class="lbl">Cómo se ganan</span><div style="font-weight:600">1 punto por etapa completa · 3 por hitos de simulacro</div></div>
+      <div class="pc"><span class="lbl">Taller</span><div style="font-weight:600">Color, nombre y carrocería</div></div>
+      </div></div></div>
+      <figcaption><b>11 · Tu carnet</b>Your licence card with points from 0 to 15 and your car. Points only go up here, unlike real life, and the card explains the real system as you go.</figcaption></figure>
 
     <figure class="ph"><div class="phone"><div class="scr"><div class="notch"></div><div class="pbody">
       <div class="view" style="background-image:url(img/dash-happy.jpg)"><div class="hud"><span class="pill">¡APROBADO!</span></div></div>
       <div class="say"><div class="av" style="background-image:url(img/satnav-happy.jpg)"></div><div class="bubble"><b>Llegamos.</b> Ahora conduces tú. Yo me quedo en el salpicadero por si me necesitas.</div></div>
       <div class="pc"><span class="lbl">Desbloqueado</span><div style="font-weight:600">Modo novel: las normas de tu primer año</div></div>
       <span class="btn">Compartir postal</span></div></div></div>
-      <figcaption><b>10 · ¡Aprobado!</b>You tell the app you passed and the road reaches the exam sign. Turbo stays on for your novice year.</figcaption></figure>
+      <figcaption><b>12 · ¡Aprobado!</b>You tell the app you passed and the road reaches the exam sign. Turbo stays on for your novice year.</figcaption></figure>
   </div>
 </section>
 
@@ -513,8 +635,12 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 <section id="recompensas">
   <div class="sec-head"><span class="pk"><b>PK 9</b> Rewards</span><h2>Calm rewards for adults with a deadline</h2></div>
   <div class="cols">
+    <div class="card"><span class="tag t-ok">New · your idea</span><h3>Puntos del carnet</h3><p>Mastery is counted in licence points, 0 to 15. That's 12 points for the 12 etapas (one each when its magnet is earned) plus 3 for exam milestones: your first simulacro passed, three passed in a row, and a green traffic light. Car upgrades unlock at 3, 6, 8, 12 and 15 points.</p></div>
+    <div class="card"><h3>It teaches the real system</h3><p>In real life a new driver starts with <b>8 points</b>, reaches <b>12</b> after two years without losing any, then <b>14</b> and finally <b>15</b> after more clean years (RACE). Relanti mirrors it: at 8 you're ready for the exam, and 15 is a full licence. Unlike real life, points here are never taken away, and the card explains the difference.</p></div>
+  </div>
+  <div class="cols">
     <div class="card"><h3>Kept from Volantón</h3><ul>
-      <li><b>Three layers that never mix:</b> effort (km, rango, días al volante), mastery (tickets and magnets), real level (ITV and results).</li>
+      <li><b>Three layers that never mix:</b> effort (km, rango, días al volante), mastery (tickets, magnets and licence points), real level (ITV and results).</li>
       <li><b>Two-day mastery</b>, so cramming doesn't pay.</li>
       <li><b>No guilt copy.</b> A broken streak shows "Nueva ruta: día 1", and áreas de descanso keep the streak automatically.</li>
       <li><b>Nothing the user sees goes down.</b></li>
@@ -522,7 +648,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <li><b>No loot boxes, random prizes or limited-time offers.</b></li></ul></div>
     <div class="card"><h3>Changed for this audience</h3><ul>
       <li><b>The Guantera is two-level:</b> a toll ticket per tramo on the sun visor, a fridge magnet per etapa. Keyrings per etapa are the alternative.</li>
-      <li><b>Car kit per rango</b> instead of the owlet's uniform. Share cards hide the kit so they never reveal your level.</li>
+      <li><b>Car upgrades per points milestone</b> instead of the owlet's uniform. Studying is how you do up your car.</li>
       <li><b>A timer exists</b>, only in simulacros, because the real exam has one. It can be turned off.</li>
       <li><b>The exam date drives the plan</b> as km left on the road, never as a countdown.</li>
       <li><b>No parent gate</b>; the exam is 17+.</li></ul></div>
@@ -550,26 +676,72 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
 
 <div class="road" aria-hidden="true"></div>
 
+<section id="actualizar">
+  <div class="sec-head"><span class="pk"><b>PK 11</b> Keeping content current</span><h2>When the law changes, we know which questions to fix</h2>
+    <p class="prose">The BOE publishes consolidated laws through an open API, split into blocks (one per article), with every version dated. We can watch the three laws the exam is built on and know which of our questions an amendment affects.</p></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Law</th><th>BOE id</th><th>What it feeds</th></tr></thead>
+    <tbody>
+      <tr><td class="r">Reglamento General de Circulación (RD 1428/2003)</td><td><code>BOE-A-2003-23514</code></td><td>Signs, priority, speed, overtaking, parking, lights</td></tr>
+      <tr><td class="r">Ley sobre Tráfico (RDL 6/2015)</td><td><code>BOE-A-2015-11722</code></td><td>Definitions, points, offences, penalties</td></tr>
+      <tr><td class="r">Reglamento General de Conductores (RD 818/2009)</td><td><code>BOE-A-2009-9481</code></td><td>Licences, the exam, novice rules</td></tr>
+    </tbody></table></div>
+  <div class="card pipeline">
+    <div class="pstep"><b>1 · Question models</b><p>Numbers live in fact tables, not in question text: speeds by vehicle and road, alcohol limits, distances, ages, points. Questions are generated from templates over those tables, as Volantón's self-describing items were. When a speed changes, we change one cell and every question using it regenerates.</p></div>
+    <div class="pstep"><b>2 · Every item knows its source</b><p>Each question, fact and truco stores the BOE block it comes from (for example <code>BOE-A-2003-23514 · a48</code>), a fingerprint of that article's text, and the date it was checked.</p></div>
+    <div class="pstep"><b>3 · Weekly law watch</b><p>A scheduled GitHub Action reads each law's metadata and block index from <code>/datosabiertos/api/legislacion-consolidada/id/{id}</code>. When an article has a new version, it lists the affected items and opens an issue with the old and new text.</p></div>
+    <div class="pstep"><b>4 · Review, then ship</b><p>Claude drafts the updated items in a pull request, and a person approves it. Spec cases make sure both apps still agree. A DGT news watch (Revista DGT) feeds the "Novedad" trucos for changes that come from DGT practice rather than law.</p></div>
+    <div class="pstep"><b>5 · Delivery</b><p>Content ships inside each app release. Optionally, the app can download a signed content pack between releases, with no account. That would be the app's only network use, so the decision is yours.</p></div>
+  </div>
+  <p class="note">The BOE asks reusers to state that consolidated texts are for information only, and new versions appear 1 to 3 days after publication. Proposals still in parliament, like the 0.2 g/l alcohol limit, aren't in the BOE until they pass, so the DGT news watch covers those.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="negocio">
+  <div class="sec-head"><span class="pk"><b>PK 12</b> Business model</span><h2>A free national road, one toll for the motorway</h2>
+    <p class="prose">One payment, no subscription, with a real free part. The road metaphor gives it a name: the free roads are open to everyone, and a one-time toll opens the motorway.</p></div>
+  <div class="pricing">
+    <div class="card road-free"><span class="tag">Gratis · carretera nacional</span><ul>
+      <li>The first 3 etapas, complete: Señales, Prioridad, Velocidad</li>
+      <li>Their trucos, the Retrovisor and Puntos negros</li>
+      <li>One full simulacro a day</li>
+      <li>Your car, the GPS, licence points up to 3 and the first upgrade</li>
+      <li>Anything you started stays open forever</li></ul></div>
+    <div class="card road-toll"><span class="tag t-ok">Pago único · autopista</span><ul>
+      <li>All 12 etapas and every truco</li>
+      <li>Unlimited simulacros with full mistake review</li>
+      <li>All car upgrades and bodies</li>
+      <li>Content updates when the law changes, until you pass and through the novice year</li>
+      <li>Suggested price: 9,99 € to 14,99 € once</li></ul></div>
+    <div class="card"><span class="tag t-risk">Market check</span><p>Competitors mostly charge monthly: PracticaTest charges about 9,90 € to 19,90 € a month and TraficoTest from 0,99 € a day. DGT Pass charges 19 € once. Most learners study for 1 to 3 months, so a single payment under 15 € is cheaper than one month elsewhere. These prices come from one competitor's own comparison blog and should be checked in the stores.</p></div>
+  </div>
+  <div class="decided"><span class="eyebrow">Proposed</span><p>The paywall appears only as a grey "Autopista de peaje" exit sign and a calm card. There are no timers or fake discounts. The price shows in one place, Yo › Pase de autopista. We keep Volantón's "never lock what you started" rule.</p></div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
 <section id="abierto">
-  <div class="sec-head"><span class="pk"><b>PK 11</b> Next stops</span><h2>Decisions and open questions</h2></div>
+  <div class="sec-head"><span class="pk"><b>PK 13</b> Next stops</span><h2>Decisions and open questions</h2></div>
   <div class="cols">
     <div class="card"><span class="tag t-ok">Decided</span><ul>
-      <li>Road trip theme: one road, not a world</li>
-      <li>Two characters: Turbo guides, Relanti is yours</li>
-      <li>Turbo is the sat nav</li>
-      <li>Trucos de Turbo as a core feature</li>
-      <li>Colours from autopista, línea, atardecer, asfalto</li></ul></div>
+      <li>Road trip theme: one road, not a world; glossary as proposed</li>
+      <li>The guide is a GPS on the dashboard, with animated eyes</li>
+      <li>Relanti is your car, and it evolves as you study</li>
+      <li>Colours: Autopista, Línea, Atardecer, Asfalto</li>
+      <li>Trucos as our edge; the GPS is on every question</li>
+      <li>One-time payment with a free part</li></ul></div>
     <div class="card"><span class="tag t-risk">To confirm</span><ul>
-      <li>Palette A with C as dark mode</li>
-      <li>Every etapa open plus desvíos</li>
-      <li>Guantera: tickets plus magnets, or keyrings</li>
-      <li>Polish Turbo's final render and rig</li></ul></div>
+      <li>The GPS's name: you decide, Gepe, Kilo, Brújula or Turbo</li>
+      <li>Licence points (0 to 15) as the mastery total</li>
+      <li>Free tier: 3 etapas plus a daily simulacro</li>
+      <li>Price between 9,99 € and 14,99 €</li>
+      <li>Content packs between releases (network use)</li></ul></div>
     <div class="card"><span class="tag">Open</span><ul>
-      <li>Business model: one-time unlock, exam-season pass or free. Note that no content is locked in the current design.</li>
       <li>v1 scope: B licence only?</li>
       <li>Formal TMview and OEPM search; register Relanti</li>
       <li>Test the photo tip on real DGT questions</li>
-      <li>Repo skeleton (SwiftUI, Compose, shared content and spec)</li></ul></div>
+      <li>Repo skeleton: SwiftUI, Compose, shared content and spec, the law watch Action</li></ul></div>
   </div>
   <div class="card"><h3>Sources</h3><ul class="sources">
     <li><a href="https://claude.ai/artifact/TWwEfZGYRH3ZJdrpndq6ZV">How Volantón works: design report (4 Nov 2026)</a></li>
@@ -579,8 +751,25 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
     <li><a href="https://www.motor16.com/las-ultimas-noticias/tasa-alcohol-permitida-2026-dgt/">Motor16 (9 Oct 2026), alcohol limits and the lapsed 0.2 g/l proposal</a></li>
     <li><a href="https://www.ondavasca.com/las-diez-preguntas-mas-falladas-del-carnet-de-conducir/">Most-failed questions, Instituto Pons de Seguridad Vial data</a></li>
     <li><a href="https://practicatest.com/informacion/permisos-y-licencias/errores-mas-frecuentes-examen-teorico-dgt">Practicatest, common mistakes</a> · <a href="https://www.learndrivingtheory.com/en/spain/article/spanish-dgt-exam-traps-always-never-questions">always/never traps</a></li>
+    <li><a href="https://www.boe.es/datosabiertos/faq/consolidada.php?lang=es">BOE datos abiertos: consolidated legislation API</a></li>
+    <li><a href="https://www.race.es/cuantos-puntos-tiene-conductor-novel">RACE: points for novice drivers</a> · <a href="https://dgtpass.pages.dev/blog/best-dgt-test-apps.html">DGT app pricing comparison (a competitor's blog)</a></li>
     <li><a href="https://trustlocal.es/navarra/berrioplano/autoescuela/turbo-autoescuelas-berriozar/">Turbo Autoescuelas</a> · <a href="https://www.facebook.com/autoescolaturbo/">Autoescola Turbo</a></li></ul></div>
   <p class="foot">The mockups are illustrative. Article references in the examples need checking during content work. Renders are made with Scripts/turbo/turbo.py.</p>
 </section>
 
 </div>
+
+<script>
+(function(){
+  var root=document.documentElement, tb=document.querySelectorAll('.themebar button');
+  tb.forEach(function(b){b.addEventListener('click',function(){
+    var t=b.getAttribute('data-t'); if(t) root.setAttribute('data-theme',t); else root.removeAttribute('data-theme');
+    tb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+  })});
+  var gps=document.getElementById('gps'), eb=document.querySelectorAll('#exbtns button');
+  eb.forEach(function(b){b.addEventListener('click',function(){
+    gps.className='gps '+b.getAttribute('data-x');
+    eb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+  })});
+})();
+</script>
