@@ -64,24 +64,14 @@ struct GpsFace: View {
             ctx.fill(Path(roundedRect: rect, cornerRadius: ew * grow / 2), with: .color(Palette.glow))
         }
 
-        // A small smile under the eyes: the GPS is never sad.
-        func smile(_ r: Double = w * 0.075, from: Double = 25, to: Double = 155) {
-            var p = Path()
-            p.addArc(center: CGPoint(x: w * 0.51, y: w * 0.54), radius: r,
-                     startAngle: .degrees(from), endAngle: .degrees(to), clockwise: false)
-            ctx.stroke(p, with: .color(Palette.glow), style: StrokeStyle(lineWidth: ew * 0.42, lineCap: .round))
-        }
-
         switch mood {
         case .curious:
             eye(left, blink, dx: w * 0.015, dy: -w * 0.015)
             eye(right, blink, dx: w * 0.015, dy: -w * 0.02, grow: 1.15)
-            smile(w * 0.06)
         case .explain:
             let bob = still ? 0 : sin(t * 2.2) * w * 0.004
             eye(left, blink * 0.8, dx: -w * 0.02 + bob)
             eye(right, blink * 0.8, dx: -w * 0.02 + bob)
-            smile()
         case .happy:
             for c in [left, right] {
                 var p = Path()
@@ -89,7 +79,6 @@ struct GpsFace: View {
                          startAngle: .degrees(200), endAngle: .degrees(340), clockwise: false)
                 ctx.stroke(p, with: .color(Palette.glow), style: StrokeStyle(lineWidth: ew * 0.45, lineCap: .round))
             }
-            smile(w * 0.09, from: 15, to: 165)
         case .recalculando:
             let r = w * 0.09
             let c = CGPoint(x: w * 0.51, y: cy)
@@ -105,7 +94,6 @@ struct GpsFace: View {
         default:
             eye(left, blink)
             eye(right, blink)
-            smile()
         }
     }
 }

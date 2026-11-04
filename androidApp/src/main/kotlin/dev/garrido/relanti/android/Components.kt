@@ -127,26 +127,15 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
                     cornerRadius = CornerRadius(ew * grow / 2),
                 )
             }
-            // A small smile under the eyes: the GPS is never sad.
-            fun smile(r: Float = w * 0.075f, from: Float = 25f, sweep: Float = 130f) {
-                val c = Offset(w * 0.51f, w * 0.54f)
-                drawArc(
-                    glow, from, sweep, false,
-                    topLeft = Offset(c.x - r, c.y - r), size = Size(r * 2, r * 2),
-                    style = Stroke(width = ew * 0.42f, cap = StrokeCap.Round),
-                )
-            }
             when (mood) {
-                TurboMood.IDLE -> { eye(left, blink.value); eye(right, blink.value); smile() }
+                TurboMood.IDLE -> { eye(left, blink.value); eye(right, blink.value) }
                 TurboMood.CURIOUS -> {
                     eye(left, blink.value, w * 0.015f, -w * 0.015f)
                     eye(right, blink.value, w * 0.015f, -w * 0.02f, 1.15f)
-                    smile(w * 0.06f)
                 }
                 TurboMood.EXPLAIN -> {
                     eye(left, blink.value * 0.8f, -w * 0.02f + bob * w * 0.004f)
                     eye(right, blink.value * 0.8f, -w * 0.02f + bob * w * 0.004f)
-                    smile()
                 }
                 TurboMood.HAPPY -> {
                     listOf(left, right).forEach { c ->
@@ -157,7 +146,6 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
                             style = Stroke(width = ew * 0.45f, cap = StrokeCap.Round),
                         )
                     }
-                    smile(w * 0.09f, 15f, 150f)
                 }
                 TurboMood.RECALCULANDO -> {
                     val r = w * 0.09f
