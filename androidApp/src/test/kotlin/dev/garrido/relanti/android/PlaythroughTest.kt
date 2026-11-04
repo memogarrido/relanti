@@ -7,12 +7,13 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.printToString
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.semantics.SemanticsProperties
 import dev.garrido.relanti.core.Fixtures
 import dev.garrido.relanti.core.RelantiCore
-import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -90,15 +91,20 @@ class PlaythroughTest {
         rule.waitForIdle()
     }
 
+    /** Fails with the screen's semantics tree, so a CI log says what was there instead. */
+    private fun expect(t: String) {
+        if (!exists(t)) throw AssertionError("\"$t\" is not on screen:\n" + rule.onRoot(useUnmergedTree = true).printToString(maxDepth = 30))
+    }
+
     private fun exists(t: String): Boolean = rule.onAllNodesWithText(t, substring = true).fetchSemanticsNodes().isNotEmpty()
 
     @Test
     fun firstLaunchToLaRuta() {
         start(Fixtures.FRESH)
-        assertTrue(exists("Te llevo hasta el examen"))
+        expect("Te llevo hasta el examen")
         shoot("01-subir-al-coche")
         click("Arrancar")
-        assertTrue(exists("dice"))
+        expect("dice")
         shoot("02-la-ruta-dia-1")
     }
 
@@ -106,13 +112,13 @@ class PlaythroughTest {
     fun secondGoodDayEarnsTheTollTicket() {
         start(Fixtures.TICKET_READY)
         click("Arrancar")
-        assertTrue(exists("Entendido, ¡vamos!"))
+        expect("Entendido, ¡vamos!")
         shoot("03-truco")
         click("Entendido, ¡vamos!")
         shoot("04-pregunta")
         // One miss is still a good round.
         answer(right = false)
-        assertTrue(exists("Recalculando"))
+        expect("Recalculando")
         shoot("05-recalculando")
         click("Continuar")
         repeat(7) { i ->
@@ -120,12 +126,12 @@ class PlaythroughTest {
             if (i == 0) shoot("06-acierto")
             click(if (i == 6) "Llegar" else "Continuar")
         }
-        assertTrue(exists("Ticket de peaje"))
+        expect("Ticket de peaje")
         shoot("07-llegada-ticket")
         click("Guardar en el parasol")
         rule.onNodeWithTag("tab.Guantera").performClick()
         rule.waitForIdle()
-        assertTrue(exists("AUTOPISTA RELANTI"))
+        expect("AUTOPISTA RELANTI")
         shoot("08-guantera")
     }
 
