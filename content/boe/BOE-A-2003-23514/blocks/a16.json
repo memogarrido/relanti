@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a16",
+ "tipo": "precepto",
+ "titulo": "Artículo 16",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 16. Operaciones de carga y descarga.\nLas operaciones de carga o descarga deberán llevarse a cabo fuera de la vía.\nExcepcionalmente, cuando sea inexcusable efectuarlas en ésta, deberán realizarse sin ocasionar peligros ni perturbaciones graves al tránsito de otros usuarios y teniendo en cuenta las normas siguientes:\na) Se respetarán las disposiciones sobre paradas y estacionamientos, y, además, en poblado, las que dicten las autoridades municipales sobre horas y lugares adecuados.\nb) Se efectuarán, en lo posible, por el lado del vehículo más próximo al borde de la calzada.\nc) Se llevarán a cabo con medios suficientes para conseguir la máxima celeridad, y procurando evitar ruidos y molestias innecesarias. Queda prohibido depositar la mercancía en la calzada, arcén y zonas peatonales.\nd) Las operaciones de carga y descarga de mercancías molestas, nocivas, insalubres o peligrosas, así como las que entrañen especialidades en su manejo o estiba, se regirán, además, por las disposiciones específicas que regulan la materia.",
+ "fingerprint": "sha256:e22d653462d5b059af8261aaae56de3aa71b21183f7d08e2b1bf26fcdce22121",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a16"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ss2",
+ "tipo": "encabezado",
+ "titulo": "Subsección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Subsección 2.ª De las señales de reglamentación",
+ "fingerprint": "sha256:259bd2eac59a85ec8ba2344589b623f80ce936dca5d3bea299e182cca8e75739",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ss2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a8-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 8",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 8. Señalización de itinerarios.\nLos itinerarios deben señalizarse en los lugares peligrosos, incluso con la presencia de personal de la organización y con instrucciones precisas del responsable de seguridad vial. Las señalizaciones deberán ser retiradas o borradas una vez que pase el último participante y nunca serán colocadas de manera que provoquen confusión para la circulación rodada ajena a la actividad deportiva. Cuando las indicaciones se hagan sobre la calzada, se deberán utilizar materiales que se borren después de pocas horas.",
+ "fingerprint": "sha256:18e8e5f7b0b0c74991f9846c2ed285ee928b011324c74adc29585b49b40c86e3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a8-2"
+}

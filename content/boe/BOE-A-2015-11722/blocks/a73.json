@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a73",
+ "tipo": "precepto",
+ "titulo": "Artículo 73",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 73. Obtención de un nuevo permiso o licencia de conducción posterior a la sentencia penal de privación del derecho a conducir vehículos a motor.\n1. El titular de un permiso o licencia de conducción que haya perdido su vigencia de acuerdo con lo previsto en el artículo 47 del Código Penal, al haber sido condenado por sentencia firme a la pena de privación del derecho a conducir vehículos a motor y ciclomotores por tiempo superior a dos años, podrá obtener, una vez cumplida la condena, un permiso o licencia de conducción de la misma clase y con la misma antigüedad, de acuerdo con el procedimiento establecido en el artículo 71.2 para la pérdida de vigencia de la autorización por la pérdida total de los puntos asignados.\nEl permiso que se obtenga dispondrá de un saldo de 8 puntos.\n2. Si la condena es igual o inferior a dos años, para volver a conducir únicamente deberá acreditar haber superado con aprovechamiento el curso de reeducación y sensibilización vial al que hace referencia el primer párrafo del artículo 71.2.",
+ "fingerprint": "sha256:728700379d4743e598d4fa1b91123601bdf2c06ed04e8020fbc2df28d4db8af6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a73"
+}

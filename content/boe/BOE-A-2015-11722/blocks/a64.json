@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a64",
+ "tipo": "precepto",
+ "titulo": "Artículo 64",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 64. Pérdida de puntos.\n1. El número de puntos inicialmente asignado al titular de un permiso o licencia de conducción se verá reducido por cada sanción firme en vía administrativa que se le imponga por la comisión de infracciones graves o muy graves que lleven aparejada la pérdida de puntos, de acuerdo con el baremo establecido en los anexos II y IV.\n2. Cuando la Administración notifique la resolución por la que se sancione una infracción que lleve aparejada la pérdida de puntos, indicará expresamente cuál es el número de puntos que se restan y la forma expresa de conocer su saldo de puntos.\n3. La pérdida parcial o total, así como la recuperación de los puntos asignados, afectará al permiso o licencia de conducción cualquiera que sea su clase.\n4. Los conductores no perderán más de ocho puntos por acumulación de infracciones en un solo día, salvo que concurra alguna de las infracciones muy graves a que se refieren los párrafos a), c), d), e), f), g), h) e i) del artículo 77, en cuyo caso perderán el número total de puntos que correspondan.\n5. Cuando un conductor sea sancionado en firme en vía administrativa por la comisión de alguna de las infracciones graves o muy graves que se relacionan en los anexos II y IV, los puntos que corresponda descontar del crédito que posea en su permiso de conducción quedarán descontados de forma automática en el momento en que se proceda a la anotación de la citada infracción en el registro de conductores e infractores del Organismo Autónomo Jefatura Central de Tráfico quedando constancia en dicho registro del crédito total de puntos de que disponga el titular de la autorización. Transcurrido un año desde la firmeza de la sanción sin que la infracción de la que trae causa haya sido anotada, no procederá la detracción de puntos.\n6. La antigüedad permanece en los posteriores permisos o licencias de conducción obtenidos a consecuencia de la total extinción de los puntos inicialmente asignados a cada titular.",
+ "fingerprint": "sha256:6f9ddff6c042fe3eb7bb99cc845a95051191811fe1a5420b50c9460cb4410c8a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a64"
+}

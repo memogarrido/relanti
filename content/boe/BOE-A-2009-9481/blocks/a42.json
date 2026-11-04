@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a42",
+ "tipo": "precepto",
+ "titulo": "Artículo 42",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 42. Objeto de las pruebas de aptitud.\nTodo conductor de vehículos de motor o ciclomotores deberá poseer, para conducir con seguridad, las aptitudes psicofísicas y los conocimientos, habilidades, aptitudes y comportamientos que le permitan:\na) Manejar adecuadamente el vehículo y sus mandos para no comprometer la seguridad vial y conseguir una utilización responsable del vehículo.\nb) Dominar el vehículo con el fin de no crear situaciones peligrosas y reaccionar de forma apropiada cuando éstas se presenten.\nc) Discernir los peligros originados por la circulación y valorar su gravedad.\nd) Observar las disposiciones legales y reglamentarias en materia de tráfico, circulación de vehículos y seguridad vial, en particular las que tengan por objeto prevenir los accidentes de circulación y garantizar la fluidez y seguridad de la circulación.\ne) Tener un conocimiento razonado sobre mecánica y entretenimiento simple de las partes y dispositivos del vehículo que le permitan detectar los defectos técnicos más importantes de éste, en particular los que pongan en peligro la seguridad y de las medidas que se han de tomar para remediarlos debidamente.\nf) Tener en cuenta todos los factores que afectan al comportamiento de los conductores con el fin de conservar en todo momento la utilización plena de las aptitudes y capacidades necesarias para conducir con seguridad.\ng) Contribuir a la seguridad de todos los usuarios, en particular de los más débiles y los más expuestos al peligro, mediante una actitud respetuosa hacia el prójimo.\nh) Contribuir a la conservación del medio ambiente, evitando la contaminación.\ni) Auxiliar a las víctimas de accidentes de circulación, prestar a los heridos el auxilio que resulte más adecuado, según las circunstancias, tratando de evitar mayores peligros o daños, restablecer, en la medida de lo posible, la seguridad de la circulación y colaborar con la autoridad y sus agentes en el esclarecimiento de los hechos.",
+ "fingerprint": "sha256:ba9543ee01303cee2ce17bb7bc884e7dba2a04a6c791df00b507f4a8febcd876",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a42"
+}

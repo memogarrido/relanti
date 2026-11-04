@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a92",
+ "tipo": "precepto",
+ "titulo": "Artículo 92",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 92. Tablón Edictal de Sanciones de Tráfico (TESTRA).\n1. Con carácter previo y facultativo, las notificaciones a que se refiere el artículo anterior podrán practicarse también en el Tablón Edictal de Sanciones de Tráfico (TESTRA), que será gestionado por el organismo autónomo Jefatura Central de Tráfico.\n2. El funcionamiento, la gestión y la publicación en el TESTRA se hará conforme a lo dispuesto en la normativa de protección de datos de carácter personal y en la de acceso electrónico de los ciudadanos a los servicios públicos.",
+ "fingerprint": "sha256:423daba65be0f93973a957f8d40a7351c4cbf5cf5dfa655cf5ba63cc4a5b35d0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a92"
+}

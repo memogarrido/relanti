@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a78",
+ "tipo": "precepto",
+ "titulo": "Artículo 78",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 78. Infracciones en materia de aseguramiento obligatorio.\n1. Las infracciones derivadas del incumplimiento de la obligación de asegurar los vehículos a motor se regularán y sancionarán con arreglo a su legislación específica.\n2. Las estaciones de inspección técnica de vehículos requerirán la acreditación del seguro obligatorio en cada inspección ordinaria o extraordinaria del vehículo. El resultado de la inspección no podrá ser favorable en tanto no se verifique este requisito.",
+ "fingerprint": "sha256:4835b15b313a545ce7eaaaa028930c615dfffe1587d6eecd0d0d9e0399b79f60",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a78"
+}

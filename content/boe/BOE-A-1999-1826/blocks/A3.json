@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A3",
+ "tipo": "precepto",
+ "titulo": "3. Retrovisores para vehículos ciclomotores, ciclomotores con tres ruedas, motocicletas, motocicletas con sidecar, vehículos de tres ruedas o cuatriciclos",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "3. Retrovisores para vehículos ciclomotores, ciclomotores con tres ruedas, motocicletas, motocicletas con sidecar, vehículos de tres ruedas o cuatriciclos\nPara los vehículos mencionados, los campos de visión especificados en la reglamentación vigente se proveerán con el número mínimo de retrovisores obligatorios y con el número máximo de retrovisores opcionales que se indica en la tabla siguiente:\nCategoría del vehículo | Observaciones | Retrovisores interiores | Retrovisores exteriores\nIzquierdo | Derecho\nClase I | Clase L | Clase L\nCiclomotores de dos ruedas |  |  | 1 oblig. | 1 optativo\nCiclomotores de tres ruedasy cuatriciclosligeros | Si están equipados de carrocería que cubra total o parcialmente al conductor | 1 oblig. (1) | 1 oblig. | 1 optativo\nCiclomotores de tres ruedas y cuatriciclosligeros | Si NO están equipados de carrocería que cubra total o parcialmente al conductor |  | 1 oblig. | 1 optativo\nMotocicletas | Si la velocidad máxima es menor o igual de 100 Km/h |  | 1 oblig. | 1 optativo\nMotocicletas | Si la velocidad máxima es mayor de 100 Km/h |  | 1 oblig. | 1 oblig.\nMotocicletas | Si la velocidad máxima es menor o igual de 100 Km/h |  | 1 oblig. | 1 optativo\nMotocicletas | Si la velocidad máxima es mayor de 100 Km/h |  | 1 oblig. | 1 oblig.\nVehículos de tres ruedasy cuatriciclos | Si están equipados de carrocería que cubra total o parcialmente al conductor | 1 oblig. (1) | 1 oblig. | 1 optativo\nVehículos de tres ruedasy cuatriciclos | Si NO están equipados de carrocería que cubra total o parcialmente al conductor |  | 1 oblig. | 1 oblig.\n(1) No se exigirá el retrovisor interior cuando no sea posible cumplir los requisitos de visibilidad establecidos en la reglamentación vigente. En tal caso será obligatorio el retrovisor exterior de la derecha.",
+ "fingerprint": "sha256:e06b1d6823df465491dbcb406288071e6d33ec8077d81a19537d799489b6d249",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A3"
+}

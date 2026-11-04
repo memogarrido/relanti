@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a53",
+ "tipo": "precepto",
+ "titulo": "Artículo 53",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 53. Normas generales.\n1. El usuario de las vías está obligado a obedecer las señales de la circulación que establezcan una obligación o una prohibición y a adaptar su comportamiento al mensaje del resto de las señales reglamentarias que se encuentren en las vías por las que circula.\nA estos efectos, cuando la señal imponga una obligación de detención, el conductor del vehículo no puede reanudar su marcha hasta haber cumplido lo prescrito por la señal.\nEn los peajes dinámicos o telepeajes, los vehículos que los utilicen deberán estar provistos del medio técnico que posibilite su uso en condiciones operativas.\n2. Salvo circunstancias especiales que lo justifiquen, el usuario debe obedecer las prescripciones indicadas por las señales, aun cuando parezcan estar en contradicción con las normas de comportamiento en la circulación.",
+ "fingerprint": "sha256:ee77acf57a1cfa164213913a4fdfbbeae2be7b6f77bc199427d15b2e8e95b5d2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a53"
+}

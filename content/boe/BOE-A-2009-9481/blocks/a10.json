@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a10",
+ "tipo": "precepto",
+ "titulo": "Artículo 10",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 10. Variación de datos.\nCualquier variación de los datos que figuran en el permiso o licencia de conducción, así como la del domicilio de su titular, deberá ser comunicada por éste dentro del plazo de quince días, contados desde la fecha en que se produzca, a la Jefatura Provincial de Tráfico.",
+ "fingerprint": "sha256:3eae4f92aa7bb85fc68545d0295cca59e52dc9919408e59129c827758fe25c3e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a10"
+}

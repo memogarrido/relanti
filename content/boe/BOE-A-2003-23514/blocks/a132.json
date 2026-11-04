@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a132",
+ "tipo": "precepto",
+ "titulo": "Artículo 132",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 132. Obediencia de las señales.\n1. Todos los usuarios de las vías objeto de la ley están obligados a obedecer las señales de la circulación que establezcan una obligación o una prohibición y a adaptar su comportamiento al mensaje del resto de las señales reglamentarias que se encuentran en las vías por las que circulan.\nA estos efectos, cuando la señal imponga una obligación de detención, no podrá reanudar su marcha el conductor del vehículo así detenido hasta haber cumplido la prescripción que la señal establece.\nEn los peajes dinámicos o telepeajes, los vehículos que los utilicen deberán estar provistos del medio técnico que posibilite su uso en condiciones operativas.\n2. Salvo circunstancias especiales que lo justifiquen, los usuarios deben obedecer las prescripciones indicadas por las señales, aun cuando parezcan estar en contradicción con las normas de comportamiento en la circulación.\n3. Los usuarios deben obedecer las indicaciones de los semáforos y de las señales verticales de circulación situadas inmediatamente a su derecha, encima de la calzada o encima de su carril, y si no existen en los citados emplazamientos y pretendan girar a la izquierda o seguir de frente, las de los situados inmediatamente a su izquierda.\nSi existen semáforos o señales verticales de circulación con indicaciones distintas a la derecha y a la izquierda, quienes pretendan girar a la izquierda o seguir de frente solo deben obedecer las de los situados inmediatamente a su izquierda.",
+ "fingerprint": "sha256:68115d60e516cf999c0980b9e994fbcf3847b36b10483f562a24ec6b02f43583",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a132"
+}

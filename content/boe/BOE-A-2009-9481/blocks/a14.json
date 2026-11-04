@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a14",
+ "tipo": "precepto",
+ "titulo": "Artículo 14",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 14. Actuación de la Jefatura Provincial de Tráfico.\n1. Serán competentes para la resolución de este procedimiento las Jefaturas Provinciales de Tráfico.\n2. En todo caso, la privación por resolución judicial del derecho a conducir vehículos de motor y ciclomotores, la declaración de pérdida de vigencia a que se refiere el artículo 37, la intervención, medida cautelar o suspensión del permiso o licencia que se posea, tanto se hayan acordado en vía judicial o administrativa, serán causa para denegar el trámite solicitado, que no procederá hasta que se haya cumplido la pena o sanción, levantado la intervención o medida cautelar, o hayan transcurrido los plazos o acreditado los requisitos legalmente establecidos, según el trámite de que se trate.",
+ "fingerprint": "sha256:c3dfa147f899743de6e685e05a1cbbefce6ed2d727f2726b70c85c5d97f299a1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a14"
+}

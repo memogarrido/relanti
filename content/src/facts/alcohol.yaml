@@ -1,0 +1,31 @@
+facts:
+  - id: alcohol.general.sangre
+    value: 0.5
+    unit: g/l
+    label: Tasa máxima de alcohol en sangre, conductores en general
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["tasa de alcohol en sangre superior a 0,5 gramos por litro"]}
+  - id: alcohol.general.aire
+    value: 0.25
+    unit: mg/l
+    label: Tasa máxima de alcohol en aire espirado, conductores en general
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["alcohol en aire espirado superior a 0,25 miligramos por litro"]}
+  - id: alcohol.especial.sangre
+    value: 0.3
+    unit: g/l
+    label: Tasa máxima en sangre, profesionales y noveles (dos primeros años)
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["no podrán superar la tasa de alcohol en sangre de 0,3 gramos por litro"]}
+  - id: alcohol.especial.aire
+    value: 0.15
+    unit: mg/l
+    label: Tasa máxima en aire espirado, profesionales y noveles (dos primeros años)
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["ni de alcohol en aire espirado de 0,15 miligramos por litro"]}
+  - id: alcohol.noveles.anos
+    value: 2
+    unit: años
+    label: Años tras obtener el permiso con la tasa reducida
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["durante los dos años siguientes a la obtención del permiso"]}
+  - id: alcohol.segunda-prueba.minutos
+    value: 10
+    unit: minutos
+    label: Tiempo mínimo entre la primera y la segunda prueba de aire espirado
+    source: {law: RGC, block: a23, ref: art. 23.2 RGC, quote: ["medie un tiempo mínimo de 10 minutos"]}

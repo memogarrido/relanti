@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A1-3",
+ "tipo": "precepto",
+ "titulo": "1. Objeto y campo de aplicación",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "1. Objeto y campo de aplicación\n1.1 El presente Anexo tiene por objeto establecer los requisitos mínimos que han de cumplir los distintos dispositivos de protección contra un desplazamiento eventual de la carga así como los ensayos que han de efectuarse para determinar su idoneidad en el aseguramiento de la carga. Las disposiciones aquí indicadas se aplicarán a los dispositivos de protección contra un desplazamiento eventual de la carga y de aseguramiento de la misma, a instalar en vehículos cuyo plano de carga esté directamente limitado por una fila de asientos.",
+ "fingerprint": "sha256:30aaf73eb40e378dbad437208299ed89bc2adb25632eb4453ccde8bd13b3b5a8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A1-3"
+}

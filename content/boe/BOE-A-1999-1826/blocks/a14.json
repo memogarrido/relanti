@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a14",
+ "tipo": "precepto",
+ "titulo": "Artículo 14",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 14. Masas y dimensiones.\n1. No se permitirá la circulación de vehículos cuyas masas, dimensiones y presión sobre el pavimento superen a los establecidos en las disposiciones que se determinan en el anexo IX y en la reglamentación que se recoge en el anexo I.\n2. El órgano competente en materia de tráfico podrá conceder autorizaciones especiales y por un número limitado de circulaciones o por un plazo determinado, previo informe vinculante del titular de la vía, para los vehículos que, por sus características técnicas o por la carga indivisible que transportan, superen las masas y dimensiones máximas establecidas en las disposiciones que se determinan en el anexo IX y en la reglamentación que se recoge en el anexo I, previa comprobación de que se encuentran amparados por la autorización de transporte legalmente procedente\nA estos efectos, se entiende por carga indivisible aquella que para su transporte por carretera no puede dividirse en dos o más cargas sin coste o riesgo innecesario de daños y que, debido a sus dimensiones o masas, no pueda ser transportada por un vehículo de motor, remolque, tren de carretera o vehículo articulado que se ajuste en todos los sentidos a las masas y dimensiones máximas autorizadas.",
+ "fingerprint": "sha256:4824a96fa7be80b85acea906c75140c6f99982bfd4a24a27459f00d85681eebb",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a14"
+}

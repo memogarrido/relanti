@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-6",
+ "tipo": "precepto",
+ "titulo": "V-6",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-6. VEHÍCULO LARGO\n1. Indica que el vehículo o conjunto de vehículos tiene una longitud superior a 12 metros.\n2. Esta señal deberá estar colocada en la parte posterior del vehículo y centrada con respecto al eje del mismo. Esta placa podrá ser sustituida, cuando sea aconsejable para su mejor colocación, por dos de características análogas a la anterior, situadas simétricamente a ambos lados del eje del vehículo y tan cerca de sus bordes como sea posible. En todos los casos las placas se colocarán a una distancia del suelo entre 500 y 1.500 milímetros.\n3. Las dimensiones, color y características técnicas de esta señal son las que se indican a continuación:\nLÁMINA REFLECTANTE. | Color: Amarillo nivel 2.\nLÁMINA FLUORESCENTE. | Color: Rojo.\nMATERIAL DEL SUSTRATO. | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.\n4. Estas placas deberán estar homologadas de acuerdo con la reglamentación vigente que se recoge en el anexo I.",
+ "fingerprint": "sha256:e6dc480f4a81ed41c2da2ef419bc70ff531a58f3b3c224f22b5dceafe96d0f24",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-6"
+}

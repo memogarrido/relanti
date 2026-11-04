@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a81",
+ "tipo": "precepto",
+ "titulo": "Artículo 81",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 81. Graduación.\nLa cuantía de las multas establecidas en el artículo 80.1 y en el anexo IV podrá incrementarse en un 30 por ciento, en atención a la gravedad y trascendencia del hecho, los antecedentes del infractor y a su condición de reincidente, el peligro potencial creado para él mismo y para los demás usuarios de la vía y al criterio de proporcionalidad.\nLos criterios de graduación establecidos anteriormente serán asimismo de aplicación a las sanciones por las infracciones previstas en el artículo 77, párrafos n) a t), ambos incluidos.",
+ "fingerprint": "sha256:e25df32d63f41ebc82229f6cbb4967047fc30c5210abec985abca19b68bae2b3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a81"
+}

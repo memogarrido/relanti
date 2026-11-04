@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "ddunica",
+ "tipo": "precepto",
+ "titulo": "Disposición derogatoria única",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición derogatoria única. Derogación Normativa.\n1. Quedan derogados:\na) El Código de la Circulación, aprobado por Decreto de 25 de septiembre de 1934.\nb) El Real Decreto 772/1997, de 30 de mayo, por el que se aprueba el Reglamento General de Conductores.\nc) La Orden de 4 de diciembre de 2000, por la que se desarrolla el Capítulo III del Título II del Reglamento General de Conductores, aprobado por Real Decreto 772/1997, de 30 de mayo.\nd) La Orden INT/3452/2004, de 14 de octubre, por la que se establece la implantación progresiva del permiso de conducción en formato de tarjeta de plástico.\ne) La Orden INT/4151/2004, de 9 de diciembre, por la que se determinan los códigos comunitarios armonizados y los nacionales a consignar en los permisos y licencias de conducción.\n2. Se derogan, asimismo, cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este reglamento.",
+ "fingerprint": "sha256:9d243b07bc5d0b8de16fc76884701e7636ae2d3daffc1e7824594679507f4775",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#ddunica"
+}

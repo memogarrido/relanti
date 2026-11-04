@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a101",
+ "tipo": "precepto",
+ "titulo": "Artículo 101",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20211222"
+ },
+ "text": "Artículo 101. Notificaciones.\n1. A partir de los datos suministrados por el organismo autónomo Jefatura Central de Tráfico, los órganos competentes para sancionar en materia de tráfico podrán dirigir al presunto autor de la infracción una notificación en relación a las infracciones previstas en el artículo 98. A tal efecto, podrán utilizar los modelos previstos en el anexo VII.\n2. Las notificaciones se enviarán al presunto infractor en la lengua del documento de matriculación del vehículo si se tiene acceso al mismo, o en una de las lenguas oficiales del Estado de matriculación en otro caso.\n3. Las notificaciones deberán efectuarse personalmente al presunto infractor.",
+ "fingerprint": "sha256:cffc023af34aeafcd3e60fb42acd6859f1ef32c071880a6b3aa87ab8a2153a7d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a101"
+}

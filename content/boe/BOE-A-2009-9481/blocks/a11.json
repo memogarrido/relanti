@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a11",
+ "tipo": "precepto",
+ "titulo": "Artículo 11",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 11. Duplicados.\n1. Las Jefaturas Provinciales de Tráfico, previa solicitud de los interesados en el modelo oficial suscrito por el interesado, podrán expedir duplicados del permiso o la licencia de conducción en caso de sustracción, extravío o deterioro del original. También deberán expedir duplicados cuando los titulares comuniquen haber variado los datos a que se refiere el artículo anterior.\n2. A la solicitud de duplicado se acompañarán los documentos que se indican en el anexo III.\n3. El titular de un permiso o licencia de conducción al que se le hubiera expedido duplicado por sustracción o extravío deberá devolver el original de éste, cuando lo encuentre, a la Jefatura Provincial de Tráfico que lo hubiere expedido.\n4. La posesión del permiso o licencia original y de un duplicado de éstos dará lugar a la recogida inmediata del original para su remisión a la Jefatura Provincial de Tráfico que, de resultar falsa la causa alegada para obtener el duplicado, dará cuenta del hecho a la autoridad judicial por si pudiera ser determinante de responsabilidad penal.",
+ "fingerprint": "sha256:339b8f1baa434de46031b2bbfaef46f618fbf71c815391674c3bdb93d7881a2d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a11"
+}

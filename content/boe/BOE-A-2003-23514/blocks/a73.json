@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a73",
+ "tipo": "precepto",
+ "titulo": "Artículo 73",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 73. Obligación de los demás conductores de facilitar la maniobra.\n1. Con independencia de la obligación de los conductores de los vehículos que se incorporen a la circulación de cumplir las prescripciones del artículo anterior, los demás conductores facilitarán, en la medida de lo posible, dicha maniobra, especialmente si se trata de un vehículo de transporte colectivo de viajeros que pretende incorporarse a la circulación desde una parada señalizada (artículo 27 del texto articulado).\n2. En los poblados, con el fin de facilitar la circulación de los vehículos de transporte colectivo de viajeros, los conductores de los demás vehículos deberán desplazarse lateralmente, siempre que fuera posible, o reducir su velocidad, dando cumplimiento a lo dispuesto en el artículo 53, llegando a detenerse, si fuera preciso, para que los vehículos de transporte colectivo puedan efectuar la maniobra necesaria para proseguir su marcha a la salida de las paradas señalizadas como tales.\n3. Lo dispuesto en el apartado anterior no modifica la obligación que tienen los conductores de vehículos de transporte colectivo de viajeros de adoptar las precauciones necesarias para evitar todo riesgo de accidente, después de haber anunciado por medio de sus indicadores de dirección su propósito de reanudar la marcha.",
+ "fingerprint": "sha256:8e742b0ac9f0560db9a421c6d6e496f9600a66f92e56da4c551a4bb15086ed76",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a73"
+}

@@ -1,0 +1,977 @@
+{
+ "law": "BOE-A-1999-1826",
+ "titulo": "Real Decreto 2822/1998, de 23 de diciembre, por el que se aprueba el Reglamento General de Vehículos.",
+ "fecha_actualizacion": "20261001T072928Z",
+ "blocks": [
+  {
+   "id": "no",
+   "titulo": "",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "preambulo",
+   "titulo": "",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "aunico",
+   "titulo": "Artículo único",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "daprimera",
+   "titulo": "Disposición adicional primera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dasegunda",
+   "titulo": "Disposición adicional segunda",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "datercera",
+   "titulo": "Disposición adicional tercera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dtprimera",
+   "titulo": "Disposición transitoria primera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dtsegunda",
+   "titulo": "Disposición transitoria segunda",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dttercera",
+   "titulo": "Disposición transitoria tercera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dtcuaa",
+   "titulo": "Disposición transitoria cuarta",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dtquinta",
+   "titulo": "Disposición transitoria quinta",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dtsexta",
+   "titulo": "Disposición transitoria sexta",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ddprimera",
+   "titulo": "Disposición derogatoria primera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ddsegunda",
+   "titulo": "Disposición derogatoria segunda",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ddtercera",
+   "titulo": "Disposición derogatoria tercera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dfprimera",
+   "titulo": "Disposición final primera",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dfsegunda",
+   "titulo": "Disposición final segunda",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dftercera",
+   "titulo": "Disposición final tercera",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "dfcuaa",
+   "titulo": "Disposición final cuarta",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dfquinta",
+   "titulo": "Disposición final quinta",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "dfsexta",
+   "titulo": "Disposición final sexta",
+   "fecha_actualizacion": "19991230"
+  },
+  {
+   "id": "firma",
+   "titulo": "",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "reglamentogeneraldevehiculos",
+   "titulo": "REGLAMENTO GENERAL DE VEHÍCULOS",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ti",
+   "titulo": "TÍTULO I",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cunico",
+   "titulo": "CAPÍTULO ÚNICO",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a1",
+   "titulo": "Artículo 1",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a2",
+   "titulo": "Artículo 2",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "a3",
+   "titulo": "Artículo 3",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "a4",
+   "titulo": "Artículo 4",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "tii",
+   "titulo": "TÍTULO II",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ci",
+   "titulo": "CAPÍTULO I",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a5",
+   "titulo": "Artículo 5",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a6",
+   "titulo": "Artículo 6",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a7",
+   "titulo": "Artículo 7",
+   "fecha_actualizacion": "20100714"
+  },
+  {
+   "id": "a8",
+   "titulo": "Artículo 8",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a9",
+   "titulo": "Artículo 9",
+   "fecha_actualizacion": "20210317"
+  },
+  {
+   "id": "a10",
+   "titulo": "Artículo 10",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cii",
+   "titulo": "CAPÍTULO II",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a11",
+   "titulo": "Artículo 11",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a12",
+   "titulo": "Artículo 12",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a13",
+   "titulo": "Artículo 13",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a14",
+   "titulo": "Artículo 14",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a15",
+   "titulo": "Artículo 15",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a16",
+   "titulo": "Artículo 16",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a17",
+   "titulo": "Artículo 17",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a18",
+   "titulo": "Artículo 18",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a19",
+   "titulo": "Artículo 19",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a20",
+   "titulo": "Artículo 20",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "tiii",
+   "titulo": "TÍTULO III",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ci-2",
+   "titulo": "CAPÍTULO I",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a21",
+   "titulo": "Artículo 21",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cii-2",
+   "titulo": "CAPÍTULO II",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a22",
+   "titulo": "Artículo 22",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a2-2",
+   "titulo": "Artículo 22 bis",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "a23",
+   "titulo": "Artículo 23",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a24",
+   "titulo": "Artículo 24",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "tiv",
+   "titulo": "TÍTULO IV",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ci-3",
+   "titulo": "CAPÍTULO I",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a25",
+   "titulo": "Artículo 25",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a26",
+   "titulo": "Artículo 26",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cii-3",
+   "titulo": "CAPÍTULO II",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a27",
+   "titulo": "Artículo 27",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a28",
+   "titulo": "Artículo 28",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a29",
+   "titulo": "Artículo 29",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a30",
+   "titulo": "Artículo 30",
+   "fecha_actualizacion": "20171108"
+  },
+  {
+   "id": "ciii",
+   "titulo": "CAPÍTULO III",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a31",
+   "titulo": "Artículo 31",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "s1",
+   "titulo": "Sección 1",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a32",
+   "titulo": "Artículo 32",
+   "fecha_actualizacion": "20210414"
+  },
+  {
+   "id": "s2",
+   "titulo": "Sección 2",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a33",
+   "titulo": "Artículo 33",
+   "fecha_actualizacion": "20210414"
+  },
+  {
+   "id": "civ",
+   "titulo": "CAPÍTULO IV",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a34",
+   "titulo": "Artículo 34",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a35",
+   "titulo": "Artículo 35",
+   "fecha_actualizacion": "20210414"
+  },
+  {
+   "id": "a36",
+   "titulo": "Artículo 36",
+   "fecha_actualizacion": "20240918"
+  },
+  {
+   "id": "a37",
+   "titulo": "Artículo 37",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a38",
+   "titulo": "Artículo 38",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cv",
+   "titulo": "CAPÍTULO V",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a39",
+   "titulo": "Artículo 39",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a40",
+   "titulo": "Artículo 40",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a41",
+   "titulo": "Artículo 41",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cvi",
+   "titulo": "CAPÍTULO VI",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a42",
+   "titulo": "Artículo 42",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "s1-2",
+   "titulo": "Sección 1",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a43",
+   "titulo": "Artículo 43",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "s2-2",
+   "titulo": "Sección 2",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ss1",
+   "titulo": "Subsección 1",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a44",
+   "titulo": "Artículo 44",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a45",
+   "titulo": "Artículo 45",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a46",
+   "titulo": "Artículo 46",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a47",
+   "titulo": "Artículo 47",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ss2",
+   "titulo": "Subsección 2",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a48",
+   "titulo": "Artículo 48",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "s3",
+   "titulo": "Subsección 3",
+   "fecha_actualizacion": "20240918"
+  },
+  {
+   "id": "a4-2",
+   "titulo": "Artículo 48 bis",
+   "fecha_actualizacion": "20240918"
+  },
+  {
+   "id": "cvii",
+   "titulo": "CAPÍTULO VII",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a49",
+   "titulo": "Artículo 49",
+   "fecha_actualizacion": "20201023"
+  },
+  {
+   "id": "cviii",
+   "titulo": "CAPÍTULO VIII",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a50",
+   "titulo": "Artículo 50",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cix",
+   "titulo": "CAPÍTULO IX",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "a51",
+   "titulo": "Artículo 51",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ani",
+   "titulo": "ANEXO I",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anii",
+   "titulo": "ANEXO II",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "iia",
+   "titulo": "II A. Definiciones",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "iib",
+   "titulo": "II B. Clasificación por criterios de construcción",
+   "fecha_actualizacion": "20260529"
+  },
+  {
+   "id": "iic",
+   "titulo": "II C. Clasificación por criterios de utilización",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "iid",
+   "titulo": "II D. Servicio al que se destinan los vehículos",
+   "fecha_actualizacion": "20240918"
+  },
+  {
+   "id": "ie",
+   "titulo": "II E. Clasificación de los vehículos por su potencial contaminante",
+   "fecha_actualizacion": "20180731"
+  },
+  {
+   "id": "aniii",
+   "titulo": "ANEXO III",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-2",
+   "titulo": "1. Definiciones",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A2-2",
+   "titulo": "2. Retrovisores para vehículos de categorías M y N",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A3",
+   "titulo": "3. Retrovisores para vehículos ciclomotores, ciclomotores con tres ruedas, motocicletas, motocicletas con sidecar, vehículos de tres ruedas o cuatriciclos",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A4",
+   "titulo": "4. Retrovisores para los vehículos especiales, incluidos los agrícolas",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "aniv",
+   "titulo": "ANEXO IV",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anv",
+   "titulo": "ANEXO V",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anvi",
+   "titulo": "ANEXO VI",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-3",
+   "titulo": "1. Objeto y campo de aplicación",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A2-3",
+   "titulo": "2. Definiciones",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A3-2",
+   "titulo": "3. Requisitos",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A4-2",
+   "titulo": "4. Descripción de los ensayos",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anvii",
+   "titulo": "ANEXO VII",
+   "fecha_actualizacion": "20260529"
+  },
+  {
+   "id": "anviii",
+   "titulo": "ANEXO VIII",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-4",
+   "titulo": "1. Definiciones",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A2-4",
+   "titulo": "2. Categorías de vehículos y tipo de función de frenado que deben llevar",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anix",
+   "titulo": "ANEXO IX",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-5",
+   "titulo": "1. Definiciones",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "A2-5",
+   "titulo": "2. Masas máximas permitidas",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "A3-3",
+   "titulo": "3. Dimensiones máximas autorizadas a los vehículos para poder circular, incluida la carga",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "A4-3",
+   "titulo": "4. Masas remolcables para vehículos no agrícolas",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A5",
+   "titulo": "5. Masas remolcables para vehículos agrícolas",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A6-2",
+   "titulo": "6. Condiciones de circulación de los conjuntos en configuración euro-modular",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "A7",
+   "titulo": "7. Longitud máxima de vehículos o conjuntos de vehículos con mejoras aerodinámicas",
+   "fecha_actualizacion": "20170602"
+  },
+  {
+   "id": "anx",
+   "titulo": "ANEXO X",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-6",
+   "titulo": "1. Definiciones",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A2-6",
+   "titulo": "2. Dispositivos de alumbrado y señalización óptica",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "anxi",
+   "titulo": "ANEXO XI",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A1-7",
+   "titulo": "1. Materiales",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "A2-7",
+   "titulo": "2. Especificaciones",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "A3-4",
+   "titulo": "3. Muestras de prueba a presentar en el laboratorio",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A4-4",
+   "titulo": "4. Especificaciones de láminas reflectantes para las señales V-3 a V-15, V-20 y V-24",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "A5-2",
+   "titulo": "5. Especificaciones de color para las láminas fluorescentes",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "A6",
+   "titulo": "6. Ensayos de homologación para las placas correspondientes a las señales V-3 a V-15, V-20 y V-24",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-1",
+   "titulo": "V-1",
+   "fecha_actualizacion": "20180731"
+  },
+  {
+   "id": "v-2",
+   "titulo": "V-2",
+   "fecha_actualizacion": "20221221"
+  },
+  {
+   "id": "v-3",
+   "titulo": "V-3",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "v-4",
+   "titulo": "V-4",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-5",
+   "titulo": "V-5",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-6",
+   "titulo": "V-6",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-7",
+   "titulo": "V-7",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-8",
+   "titulo": "V-8",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "v-9",
+   "titulo": "V-9",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-10",
+   "titulo": "V-10",
+   "fecha_actualizacion": "20070123"
+  },
+  {
+   "id": "v-11",
+   "titulo": "V-11",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "v-12",
+   "titulo": "V-12",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-13",
+   "titulo": "V-13",
+   "fecha_actualizacion": "20110325"
+  },
+  {
+   "id": "v-14",
+   "titulo": "V-14",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-15",
+   "titulo": "V-15",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-16",
+   "titulo": "V-16",
+   "fecha_actualizacion": "20221221"
+  },
+  {
+   "id": "v-17",
+   "titulo": "V-17",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "v-18",
+   "titulo": "V-18",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "v-19",
+   "titulo": "V-19",
+   "fecha_actualizacion": "20080320"
+  },
+  {
+   "id": "v-20",
+   "titulo": "V-20",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-21",
+   "titulo": "V-21",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-22",
+   "titulo": "V-22",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-23",
+   "titulo": "V-23",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "v-24",
+   "titulo": "V-24",
+   "fecha_actualizacion": "20221221"
+  },
+  {
+   "id": "v2",
+   "titulo": "V-25",
+   "fecha_actualizacion": "20180731"
+  },
+  {
+   "id": "v2-2",
+   "titulo": "V-26",
+   "fecha_actualizacion": "20180731"
+  },
+  {
+   "id": "v2-3",
+   "titulo": "V-27",
+   "fecha_actualizacion": "20210317"
+  },
+  {
+   "id": "anxii",
+   "titulo": "ANEXO XII",
+   "fecha_actualizacion": "20260626"
+  },
+  {
+   "id": "anxiii",
+   "titulo": "ANEXO XIII",
+   "fecha_actualizacion": "20210414"
+  },
+  {
+   "id": "anxiv",
+   "titulo": "ANEXO XIV",
+   "fecha_actualizacion": "20060621"
+  },
+  {
+   "id": "anxv",
+   "titulo": "ANEXO XV",
+   "fecha_actualizacion": "20210414"
+  },
+  {
+   "id": "anxvi",
+   "titulo": "ANEXO XVI",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "i-2",
+   "titulo": "I. Vehículos en régimen de matrícula diplomática",
+   "fecha_actualizacion": "20001230"
+  },
+  {
+   "id": "ii-2",
+   "titulo": "II. Vehículos en régimen de matrícula turística",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "anxvii",
+   "titulo": "ANEXO XVII",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "i-3",
+   "titulo": "I. Permisos temporales para particulares",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "ii-3",
+   "titulo": "II. Permisos temporales para uso de empresas o entidades relacionadas con el vehículo",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "iii-2",
+   "titulo": "III. Pruebas o ensayos de investigación extraordinarios realizados por fabricantes/representantes legales, carroceros y Laboratorios Oficiales",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "iv",
+   "titulo": "IV. Permisos temporales para vehículos de museos y de colecciones museográficas",
+   "fecha_actualizacion": "20240918"
+  },
+  {
+   "id": "anxviii",
+   "titulo": "ANEXO XVIII",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "i-4",
+   "titulo": "I. Colores e inscripciones",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "ii-4",
+   "titulo": "II. Contraseñas de las placas",
+   "fecha_actualizacion": "20080223"
+  },
+  {
+   "id": "iii-3",
+   "titulo": "III. Número y ubicación de las placas",
+   "fecha_actualizacion": "20250723"
+  },
+  {
+   "id": "iv-2",
+   "titulo": "IV. Dimensiones y especificaciones de las placas y sus caracteres",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cuadro1",
+   "titulo": "Cuadro 1",
+   "fecha_actualizacion": "20260529"
+  },
+  {
+   "id": "cuadro2",
+   "titulo": "Cuadro 2",
+   "fecha_actualizacion": "20180731"
+  },
+  {
+   "id": "cuadro3",
+   "titulo": "Cuadro 3",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "cuadro4",
+   "titulo": "Cuadro 4",
+   "fecha_actualizacion": "19990126"
+  },
+  {
+   "id": "cuadro5",
+   "titulo": "Cuadro 5",
+   "fecha_actualizacion": "20100123"
+  },
+  {
+   "id": "ax",
+   "titulo": "ANEXO XIX",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "ax-2",
+   "titulo": "ANEXO XX",
+   "fecha_actualizacion": "20260130"
+  },
+  {
+   "id": "ax-3",
+   "titulo": "ANEXO XXI",
+   "fecha_actualizacion": "20260130"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a43",
+ "tipo": "precepto",
+ "titulo": "Artículo 43",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 43. Sentido de la circulación.\n1. Cuando en la vía existan refugios, isletas o dispositivos de guía, se circulará por la parte de la calzada que quede a la derecha de éstos, en el sentido de la marcha, salvo cuando estén situados en una vía de sentido único o dentro de la parte correspondiente a un solo sentido de circulación, en cuyo caso podrá hacerse por cualquiera de los dos lados (artículo 17 del texto articulado).\n2. En las plazas, glorietas y encuentros de vías los vehículos circularán dejando a su izquierda el centro de aquéllas.\n3. Los supuestos de circulación en sentido contrario al estipulado tendrán la consideración de infracciones muy graves, aunque no existan refugios, isletas o dispositivos de vía, conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:b9c7afd89d2aa95211e47f815cef931f076b62aa834a0d70eb845791a457ad28",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a43"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a83",
+ "tipo": "precepto",
+ "titulo": "Artículo 83",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 83. Garantías procedimentales.\n1. No se podrá imponer sanción alguna por las infracciones tipificadas en esta ley sino en virtud de procedimiento instruido con arreglo a lo dispuesto en este capítulo y, supletoriamente, en la normativa de procedimiento administrativo común.\n2. Los instrumentos, aparatos o medios y sistemas de medida que sean utilizados para la formulación de denuncias por infracciones a la normativa de tráfico, seguridad vial y circulación de vehículos a motor estarán sometidos a control metrológico en los términos establecidos por la normativa de metrología.",
+ "fingerprint": "sha256:00d537137191bd450d0f499a33cdbc5ec20b9deb1a1b5de76b821f64c6b9ab4a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a83"
+}

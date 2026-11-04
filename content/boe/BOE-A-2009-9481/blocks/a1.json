@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a1",
+ "tipo": "precepto",
+ "titulo": "Artículo 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 1. El permiso y la licencia de conducción.\n1. La conducción de vehículos de motor y ciclomotores por las vías y terrenos a que se refiere el artículo 2 del texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por Real Decreto Legislativo 339/1990, de 2 de marzo, exigirá haber obtenido previamente el permiso o la licencia de conducción, sin perjuicio de las habilitaciones complementarias que, además, en su caso, sean necesarias.\n2. Los permisos y licencias de conducción son de otorgamiento y contenido reglados y su concesión quedará condicionada a la verificación de que los conductores reúnen los requisitos de aptitud psicofísica y los conocimientos, habilidades, aptitudes y comportamientos exigidos para su obtención que se determinan en este reglamento.\n3. Cuando sea necesario, los permisos y licencias de conducción se podrán sustituir provisionalmente por autorizaciones temporales, las cuales surtirán idénticos efectos a los del permiso o licencia de conducción al que sustituyan.\n4. Ninguna persona podrá ser titular de más de un permiso o de una licencia de conducción expedido por un Estado miembro de la Unión Europea o por un Estado parte del Acuerdo sobre el Espacio Económico Europeo.\nEn el supuesto de que alguna persona esté en posesión de más de un permiso de conducción, le será retirado el que proceda en función de las circunstancias concurrentes, para su anulación, si está expedido en España, o para su remisión a las autoridades del Estado que lo hubiera expedido.",
+ "fingerprint": "sha256:0de6ef50b94d08a2861add2789ef0f402ffbb89fa1c4b23862b1559be356cc52",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a1"
+}

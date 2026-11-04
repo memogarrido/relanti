@@ -1,0 +1,46 @@
+name: Content · BOE snapshot sync
+
+# Refreshes content/boe/ (the local copy of the consolidated laws the questions
+# cite) and commits it back. Runs when the pipeline or sources change on a
+# branch, or by hand. The weekly change check lives in content-boe-watch.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Refetch every block
+        type: boolean
+        default: false
+  push:
+    branches-ignore: [main]
+    paths:
+      - content/src/sources.yaml
+      - content/pipeline/boe.py
+      - content/boe/.sync-request
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boe-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r content/requirements.txt
+      - name: Sync BOE snapshots
+        working-directory: content
+        run: python -m pipeline sync ${{ inputs.full && '--full' || '' }}
+      - name: Commit snapshots
+        run: |
+          git config user.name "relanti-content-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/boe
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "content: refresh BOE snapshots"
+          git push

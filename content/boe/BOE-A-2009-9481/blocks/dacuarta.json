@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dacuarta",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional cuarta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional cuarta. Transporte escolar o de menores.\nA los efectos del presente reglamento se entenderá por transporte escolar o de menores, los que se determinan como tales en el Real Decreto 443/2001, de 27 de abril, sobre condiciones de seguridad en el transporte escolar y de menores.",
+ "fingerprint": "sha256:440b52a42480039037d403ab5e72421f67691246c54cee8d0bb693c9d460bc02",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dacuarta"
+}

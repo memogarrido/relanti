@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a20",
+ "tipo": "precepto",
+ "titulo": "Artículo 20",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 20. Condicionamiento de los dispositivos en función del progreso técnico.\nLos dispositivos facultativos podrán pasar a ser considerados obligatorios en función del desarrollo del progreso técnico y de que la reglamentación así lo exija.",
+ "fingerprint": "sha256:514d7543ce26389248d44eb80f94ce0e8e6ac61762a8ca25aa7ef3387bd9d757",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a20"
+}

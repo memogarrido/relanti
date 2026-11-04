@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a113",
+ "tipo": "precepto",
+ "titulo": "Artículo 113",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 113. Anotación y cancelación.\n1. Las sanciones por infracciones graves y muy graves y la detracción de puntos deberán ser comunicadas al Registro de Conductores e Infractores del organismo autónomo Jefatura Central de Tráfico por la autoridad que la hubiera impuesto en el plazo de los quince días naturales siguientes a su firmeza en vía administrativa.\n2. Las autoridades judiciales comunicarán al Registro de Conductores e Infractores del organismo autónomo Jefatura Central de Tráfico, en el plazo de los quince días naturales siguientes a su firmeza, las penas de privación del derecho a conducir vehículos a motor y ciclomotores que se impongan por la comisión de delitos contra la seguridad vial.\n3. En el Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico quedarán reflejadas las sanciones firmes por infracciones graves y muy graves en las que un vehículo tanto matriculado en España como en el extranjero estuviese implicado y el impago de las mismas, en su caso. Estas anotaciones formarán parte del historial del vehículo.\n4. Las anotaciones se cancelarán de oficio, a efectos de antecedentes, una vez transcurridos tres años desde su total cumplimiento o prescripción.",
+ "fingerprint": "sha256:872cb9bb7def90cea8e9dd29e1a1d8535970b9c5b20df3624d1ff5c9434687cf",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a113"
+}

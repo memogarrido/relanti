@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a14",
+ "tipo": "precepto",
+ "titulo": "Artículo 14",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 14. Disposición de la carga.\n1. La carga transportada en un vehículo, así como los accesorios que se utilicen para su acondicionamiento o protección, deben estar dispuestos y, si fuera necesario, sujetos de tal forma que no puedan:\na) Arrastrar, caer total o parcialmente o desplazarse de manera peligrosa.\nb) Comprometer la estabilidad del vehículo.\nc) Producir ruido, polvo u otras molestias que puedan ser evitadas.\nd) Ocultar los dispositivos de alumbrado o de señalización luminosa, las placas o distintivos obligatorios y las advertencias manuales de sus conductores.\n2. El transporte de materias que produzcan polvo o puedan caer se efectuará siempre cubriéndolas total y eficazmente.\n3. El transporte de cargas molestas, nocivas, insalubres o peligrosas, así como las que entrañen especialidades en su acondicionamiento o estiba, se atendrá, además, a las normas específicas que regulan la materia.",
+ "fingerprint": "sha256:6932ff76dc46c6e21649692b4898c33cdf3967ca16aed88304364b787735e382",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14"
+}

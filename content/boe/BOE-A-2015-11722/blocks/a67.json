@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a67",
+ "tipo": "precepto",
+ "titulo": "Artículo 67",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 67. Otra documentación.\n1. Los vehículos, sus equipos y sus repuestos y accesorios deben estar previamente homologados o ser objeto de inspección técnica unitaria antes de ser admitidos a la circulación, en los términos que reglamentariamente se determine. Dichos vehículos han de ser identificables, ostentando grabados o troquelados, de forma legible e indeleble, las marcas y contraseñas que reglamentariamente sean exigibles con objeto de individualizarlos, autentificar su fabricación y especificar su empleo o posterior acoplamiento de elementos importantes.\n2. Los vehículos a motor, los ciclomotores y los remolques de masa máxima autorizada superior a la que reglamentariamente se determine, tendrán documentadas sus características técnicas esenciales en la tarjeta de inspección técnica, en la que se harán constar las reformas que se autoricen y la verificación de su estado de servicio y mantenimiento en los términos que reglamentariamente se determine.",
+ "fingerprint": "sha256:9b2fbb3a6012dfe9a7768423d7a5cadac9ab67e4e2e8a9532c1c3503a1ba0ee9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a67"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a48",
+ "tipo": "precepto",
+ "titulo": "Artículo 48",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 48. Tiempos de descanso y conducción.\nPor razones de seguridad podrán regularse los tiempos de conducción y descanso. También podrá exigirse la presencia de más de una persona habilitada para la conducción de un solo vehículo.",
+ "fingerprint": "sha256:5e36475b09f40a2375a06cde6a131b5b52aeaf231716fdaa15f88f3c38e560d8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a48"
+}

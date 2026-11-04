@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "daquinta",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional quinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional quinta. Notificaciones en comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor.\nLas comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor podrán sustituir las notificaciones en la Dirección Electrónica Vial por notificaciones a través de sus propias plataformas informáticas, para aquellos ciudadanos que opten por las mismas.\nLas administraciones locales pertenecientes a los ámbitos territoriales de las comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor podrán suscribir convenios de colaboración para efectuar las notificaciones telemáticas a través de las plataformas de notificación de la comunidad autónoma.",
+ "fingerprint": "sha256:e7c1d62f48e76bd090c10e370e7adca11e3bd8be489e492f72ab83bf2c6ebea1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#daquinta"
+}

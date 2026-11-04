@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a35",
+ "tipo": "precepto",
+ "titulo": "Artículo 35",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 35. Declaración de pérdida de vigencia.\n1. Se declarará la pérdida de vigencia de las autorizaciones administrativas cuyo titular no posea los requisitos para su otorgamiento o haya perdido totalmente su asignación de puntos. La resolución que declare la pérdida de vigencia deberá ser notificada en el plazo máximo de seis meses.\n2. La competencia para declarar la pérdida de vigencia corresponde al Jefe Provincial de Tráfico.",
+ "fingerprint": "sha256:622dcd653a4fb254c98483adeb8ef50447c9ab9229e54d7a2522be1ca2fc876f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a35"
+}

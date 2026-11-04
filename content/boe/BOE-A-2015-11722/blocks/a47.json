@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a47",
+ "tipo": "precepto",
+ "titulo": "Artículo 47",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 47. Cinturón, casco y restantes elementos de seguridad.\nEl conductor y ocupantes de vehículos a motor y ciclomotores están obligados a utilizar el cinturón de seguridad, el casco y demás elementos de protección en los términos que reglamentariamente se determine.\nEl conductor de un vehículo de movilidad personal estará obligado a utilizar casco de protección en los términos que reglamentariamente se determine.\nEl conductor y, en su caso, los ocupantes de bicicletas y ciclos en general estarán obligados a utilizar el casco de protección en las vías urbanas, interurbanas y travesías, en los términos que reglamentariamente se determine siendo obligatorio su uso por los menores de dieciséis años, y también por quienes circulen por vías interurbanas.\nReglamentariamente se fijarán las excepciones a lo previsto en este apartado.",
+ "fingerprint": "sha256:11ca9842088e260280e8dfb8186cb9767c995731789368fe14d5f73c3f700b7f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a47"
+}

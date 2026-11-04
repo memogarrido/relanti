@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a95",
+ "tipo": "precepto",
+ "titulo": "Artículo 95",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 95. Procedimiento sancionador ordinario.\n1. Notificada la denuncia, el interesado dispondrá de un plazo de veinte días naturales para formular las alegaciones que tenga por conveniente y proponer o aportar las pruebas que estime oportunas.\n2. Si las alegaciones formuladas aportan datos nuevos o distintos de los constatados por el agente denunciante, y siempre que se estime necesario por el instructor, se dará traslado de aquéllas al agente para que informe en el plazo de quince días naturales.\nEn todo caso, el instructor podrá acordar que se practiquen las pruebas que estime pertinentes para la averiguación y calificación de los hechos y para la determinación de las posibles responsabilidades. La denegación de la práctica de las pruebas deberá ser motivada, dejando constancia en el procedimiento sancionador.\n3. Concluida la instrucción del procedimiento sancionador, el órgano instructor elevará propuesta de resolución al órgano competente para sancionar para que dicte la resolución que proceda. Únicamente se dará traslado de la propuesta al interesado, para que pueda formular nuevas alegaciones en el plazo de quince días naturales, si figuran en el procedimiento sancionador o se han tenido en cuenta en la resolución otros hechos u otras alegaciones y pruebas diferentes a las aducidas por el interesado.\n4. Si el denunciado no formula alegaciones ni abona el importe de la multa en el plazo de veinte días naturales siguientes al de la notificación de la denuncia, ésta surtirá el efecto de acto resolutorio del procedimiento sancionador en los siguientes casos:\na) Infracciones leves en todos los casos.\nb) Infracciones graves que no supongan la detracción de puntos cuya notificación no se haya podido efectuar en el acto de la denuncia.\nc) Infracciones graves y muy graves cuya notificación se efectuase en el acto de la denuncia, supongan o no la detracción de puntos.\nEn estos supuestos, la sanción podrá ejecutarse transcurridos treinta días naturales desde la notificación de la denuncia.\n5. La terminación del procedimiento pone fin a la vía administrativa y la sanción se podrá ejecutar desde el día siguiente al transcurso de los treinta días antes indicados.",
+ "fingerprint": "sha256:650bd4f9e3a7b9f28a1abc89443956895d1eedb61e1c082565e56986e74e9c8a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a95"
+}

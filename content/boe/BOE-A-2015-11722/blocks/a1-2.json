@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a1-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 11 bis",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 11 bis. Obligaciones del titular de un sistema de conducción automatizado.\nEl titular del sistema de conducción automatizado de un vehículo deberá comunicar al Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico las capacidades o funcionalidades del sistema de conducción automatizada, así como su dominio de diseño operativo, en el momento de la matriculación, y con posterioridad, siempre que se produzca cualquier actualización del sistema a lo largo de la vida útil del vehículo.",
+ "fingerprint": "sha256:094cbe525575cbf3954808cd22505c9accc6ff16cc653e08c85ea4937ef1a37d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a1-2"
+}

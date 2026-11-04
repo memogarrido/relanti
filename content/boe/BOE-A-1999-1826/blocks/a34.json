@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a34",
+ "tipo": "precepto",
+ "titulo": "Artículo 34",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 34. Pérdida de vigencia del permiso o licencia.\nEl permiso o la licencia de circulación perderá su vigencia cuando el vehículo se dé de baja en el correspondiente Registro, a instancia de parte o por comprobarse que no es apto para la circulación, en la forma que se determina en este Reglamento.",
+ "fingerprint": "sha256:d83a43cd3b0d50e1f0a6190a6139a2ad05df0b3d6d644a24354733add497d9c6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a34"
+}

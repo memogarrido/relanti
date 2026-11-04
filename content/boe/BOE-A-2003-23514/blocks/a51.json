@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a51",
+ "tipo": "precepto",
+ "titulo": "Artículo 51",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 51. Velocidades máximas en adelantamientos.\n(Derogado).",
+ "fingerprint": "sha256:8aee4f0ca5e1ae2bb8655d86f08e11863b039d1d65e5eded30ba9171684a57ad",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a51"
+}

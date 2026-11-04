@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a5-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 5",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 5. Control de las pruebas deportivas.\nEl control y orden de la prueba, tanto por lo que respecta a los participantes como al resto de usuarios de la vía, estará encomendado a los agentes de la autoridad o al personal de la organización habilitado, que actuará siguiendo las directrices de los agentes o del responsable de seguridad vial.",
+ "fingerprint": "sha256:9c5e76db7049cd3df23bf34f58ef71d072e88e1f50c8125c465a7f7390adf444",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a5-2"
+}

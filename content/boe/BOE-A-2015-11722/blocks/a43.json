@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a43",
+ "tipo": "precepto",
+ "titulo": "Artículo 43",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 43. Uso obligatorio.\n1. Los vehículos que circulen entre la puesta y la salida del sol, o a cualquier hora del día en los túneles y demás tramos de vía afectados por la señal túnel, deben llevar encendido el alumbrado que corresponda, en los términos que reglamentariamente se determine.\n2. También deben llevar encendido durante el resto del día el alumbrado que reglamentariamente se establezca:\na) Las motocicletas.\nb) Los vehículos que circulen por un carril reversible o en sentido contrario al normalmente utilizado en la calzada donde se encuentre situado, bien sea un carril que les este exclusivamente reservado o bien abierto excepcionalmente a la circulación en dicho sentido.\n3. También es obligatorio utilizar el alumbrado que reglamentariamente se establezca cuando existan condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, como en caso de niebla, lluvia intensa, nevada, nubes de humo o de polvo o cualquier otra circunstancia análoga.\n4. Las bicicletas, además, estarán dotadas de elementos reflectantes homologados que reglamentariamente se determine. Cuando circule por vía interurbana y sea obligatorio el uso de alumbrado, el conductor de bicicleta debe llevar colocada, además, alguna prenda o elemento reflectante.",
+ "fingerprint": "sha256:7a7c7e45668a9d04f79e69aded3c98e02d3e09f4e918aaa0434f5e8b8e551b95",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a43"
+}

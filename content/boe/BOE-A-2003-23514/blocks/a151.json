@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a151",
+ "tipo": "precepto",
+ "titulo": "Artículo 151",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 151. Señales de prioridad.\n1. Las señales de prioridad están destinadas a poner en conocimiento de los usuarios de la vía reglas especiales de prioridad en las intersecciones o en los pasos estrechos.\n2. La nomenclatura y significado de las señales de prioridad son los siguientes:\nR-1. Ceda el paso. Obligación para todo conductor de ceder el paso en la próxima intersección a los vehículos que circulen por la vía a la que se aproxime o al carril al que pretende incorporarse.\nR-2. Detención obligatoria o stop. Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime.\nSi, por circunstancias excepcionales, desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, el conductor deberá detenerse de nuevo en el lugar desde donde tenga visibilidad, sin poner en peligro a ningún usuario de la vía.\nR-3. Calzada con prioridad. Indica a los conductores de los vehículos que circulen por una calzada su prioridad en las intersecciones sobre los vehículos que circulen por otra calzada.\nR-4. Fin de prioridad. Indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada.\nR-5. Prioridad en sentido contrario. Prohibición de entrada en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse.\nR-6. Prioridad respecto al sentido contrario. Indica a los conductores que, en un próximo paso estrecho, tienen prioridad con relación a los vehículos que circulen en sentido contrario.\n3. Aunque no responden a los requisitos del artículo 150.1, son también señales de prioridad las P-1, P-1 a, P-1 b, P-1 c, P-1 d, P-2, P-6, P-7 y P-8.",
+ "fingerprint": "sha256:cf59949c6fbd6b9d5f8791ae2c293ae00375d4af62bf73f1970b28d4256e5fff",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a151"
+}

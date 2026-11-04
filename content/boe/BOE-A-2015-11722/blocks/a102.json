@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a102",
+ "tipo": "precepto",
+ "titulo": "Artículo 102",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20151101"
+ },
+ "text": "Artículo 102. Documentos.\nEn los procedimientos sancionadores que se incoen como resultado del intercambio de información previsto en esta disposición, los documentos que se notifiquen al presunto infractor se enviarán en la lengua del documento de matriculación del vehículo o en uno de los idiomas oficiales del Estado de matriculación.",
+ "fingerprint": "sha256:7e9629a68d785cd851fbb02072ed26082b9480eafbf0a9dc2e292c75d3fe24b4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a102"
+}

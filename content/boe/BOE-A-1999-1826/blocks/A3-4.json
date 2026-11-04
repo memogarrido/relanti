@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A3-4",
+ "tipo": "precepto",
+ "titulo": "3. Muestras de prueba a presentar en el laboratorio",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "3. Muestras de prueba a presentar en el laboratorio\nSerán necesarias nueve muestras de prueba para realizar en el laboratorio los ensayos necesarios.",
+ "fingerprint": "sha256:a4d74fea0196ec1fe8bc0e211a7a24c2f6a3c04446de45d3a8d93b44877818c9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A3-4"
+}

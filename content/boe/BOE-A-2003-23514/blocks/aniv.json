@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "aniv",
+ "tipo": "encabezado",
+ "titulo": "ANEXO IV",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2006-15406",
+  "fecha_publicacion": "20060905",
+  "fecha_vigencia": "20060906"
+ },
+ "text": "ANEXO IV\nPictograma indicativo del uso obligatorio del cinturón de seguridad en los asientos de los vehículos destinados al transporte de personas de más de nueve plazas, incluido el conductor, en los que figure el mismo\n(Color: personaje blanco sobre fondo azul)",
+ "fingerprint": "sha256:fdfa98d206703b83900094994bd65668500ee44b61ef3f0e3bcc185dd750279e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#aniv"
+}

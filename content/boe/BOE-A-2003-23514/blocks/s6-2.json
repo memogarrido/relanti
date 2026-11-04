@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s6-2",
+ "tipo": "encabezado",
+ "titulo": "Sección 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 6.ª Supuestos excepcionales de ocupación del sentido contrario",
+ "fingerprint": "sha256:90bb2a0bb320b4db648f1b5cc4b0512b4ec0d12952d2dd85dba33a35e64e6005",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s6-2"
+}

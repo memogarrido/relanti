@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dtseptima",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria séptima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición transitoria séptima. Examinadores.\nEl personal examinador encargado de la calificación de las pruebas de control de aptitudes y comportamientos que venga desempeñando esta actividad con anterioridad a la entrada en vigor del anexo VIII, podrá seguir realizándola aún cuando no reúna los requisitos establecidos en los apartados A) y B) de dicho anexo.No obstante, para poder seguir ejerciendo esta actividad, deberá someterse a los requisitos de garantía de calidad y de formación periódica especificados en su apartado D).",
+ "fingerprint": "sha256:35cf688b50d1b2efcf7e6131b18f3a5e061e3ff812589baf3e97af1a2bd6d2dd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dtseptima"
+}

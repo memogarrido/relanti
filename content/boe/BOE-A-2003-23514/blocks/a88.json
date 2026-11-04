@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a88",
+ "tipo": "precepto",
+ "titulo": "Artículo 88",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 88. Vehículos inmovilizados.\n1. En el caso de que en la vía se encuentre inmovilizado un vehículo por causa de avería o accidente, o con motivo de la realización de un servicio de urgencia o de auxilio en vías públicas, de mantenimiento de las instalaciones y de la infraestructura de la vía, o funciones de regulación, ordenación y gestión del tráfico, y, en todo o en parte, ocupe la calzada en el carril del sentido de la marcha, los vehículos que lo rebasen deben mantener una anchura de seguridad de al menos 1,5 metros aunque para ello hayan de ocupar la parte de la calzada reservada al sentido contrario, y reducir la velocidad en al menos 20 km/h respecto al límite existente en la vía.\n2. Cuando en un tramo de vía en el que esté prohibido el adelantamiento se encuentre inmovilizado un vehículo que, en todo o en parte, ocupe la calzada en el carril del sentido de la marcha, salvo que la inmovilización venga impuesta por necesidades del tráfico, podrá ser rebasado, aunque para ello haya de ocupar la parte de la calzada reservada al sentido contrario, después de haberse cerciorado de que se puede realizar la maniobra sin peligro. Con idénticos requisitos se podrá adelantar a conductores de bicicletas y demás ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas y sus conjuntos cuando por la velocidad a que circulen puedan ser adelantados sin riesgo para ellos ni para la circulación en general.\n3. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 76.c) del texto refundido.",
+ "fingerprint": "sha256:eab38b188ea548de91daa6893470483ee91b1c40dc22606b8da7d990743b359c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a88"
+}

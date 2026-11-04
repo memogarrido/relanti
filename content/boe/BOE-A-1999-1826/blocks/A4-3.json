@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A4-3",
+ "tipo": "precepto",
+ "titulo": "4. Masas remolcables para vehículos no agrícolas",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "4. Masas remolcables para vehículos no agrícolas\n4.1 La masa máxima remolcable, para remolque, de un vehículo de categorías M y N no podrá superar:\n4.1.1 La masa máxima remolcable técnicamente admisible basada en la construcción del vehículo y/o de la resistencia del dispositivo de enganche en su caso.\n4.1.2 Según el freno del remolque:\n4.1.2.1 Para arrastrar remolques sin freno: la mitad de la tara del vehículo tractor, incrementada en 75 kg., no excediendo en ningún caso de 750 kg.\n4.1.2.2 Para arrastrar remolques con solo freno de inercia, la masa máxima autorizada del vehículo tractor (1,5 veces la M.M.A. si el vehículo a motor es todo terreno), no excediendo en ningún caso de 3.500 kg.\n4.1.2.3 Para arrastrar remolques con freno continuo:\nSi el vehículo a motor es de categoría M, igual que en el apartado 4.1.2.2.\nSi el vehículo a motor es de categoría N:\nCategoría N1: igual que en el apartado 4.1.2.2.\nCategoría N2 y N3: 1,5 veces la MMA del vehículo tractor.\n4.2 Carga vertical sobre el acoplamiento de los vehículos a motor:\nEn el caso de remolques de eje central, la carga vertical máxima autorizada sobre el acoplamiento del vehículo tractor, transmitida a través del dispositivo de tracción del remolque (cuando su carga esté uniformemente distribuida), no superará el menor de los valores siguientes: 10% de la masa máxima del remolque o 1.000 kg. Esta carga vertical se tendrá en cuenta para determinar la masa máxima autorizada del vehículo tractor y de su(s) eje(s) trasero(s).\n4.3 Masas máximas del conjunto tractor más remolque (MMC):\nLa masa máxima de un vehículo tractor, para formar un conjunto con remolque, será como máximo:\nMMC = MMA + MMR del vehículo tractor\nEste valor podrá estar limitado por los siguientes valores:\nMasa máxima del conjunto técnicamente admisible declarado por el fabricante, basada en su construcción.\nMasa máxima del conjunto legalmente admisible, cuando proceda.\n4.4 Masas máximas del conjunto tractor más semirremolque:\nLas MMA total y por ejes no deben sobrepasar los respectivos valores límites, que vendrán condicionados por la posición de la quinta rueda, así como no se debe sobrepasar la MMC.\nLa MMC de un vehículo tractor, para formar un conjunto con un semirremolque, podrá estar limitado por los siguientes valores:\nMasa máxima del conjunto técnicamente admisible declarado por el fabricante, basada en su construcción.\nMasa máxima del conjunto legalmente admisible.",
+ "fingerprint": "sha256:3ec45445892b1423760d5194e289b5adfecf2ac29cffff9ac747c5d4a8cad865",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A4-3"
+}

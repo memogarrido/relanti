@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dttercera",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición transitoria tercera. Dispositivos de retención.\nEl cumplimiento de las condiciones establecidas en el anexo VI de este Reglamento para los dispositivos de retención y aseguramiento de la carga, en los vehículos que puedan transportar simultáneamente personas y carga en un mismo habitáculo, será exigible a los vehículos que se matriculen a partir de un año desde la publicación en el «Boletín Oficial del Estado» del presente Reglamento.",
+ "fingerprint": "sha256:ea09ece87edfbf1c03b4792787434b06a05e52c0f7e4f02c260d8db73e6484bb",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dttercera"
+}

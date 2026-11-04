@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a72",
+ "tipo": "precepto",
+ "titulo": "Artículo 72",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 72. Suspensión cautelar.\nEn el curso de los procedimientos de declaración de nulidad, lesividad o pérdida de vigencia de las autorizaciones administrativas se acordará la suspensión cautelar de la autorización en cuestión cuando su mantenimiento entrañe un grave peligro para la seguridad del tráfico, en cuyo caso la autoridad que conozca del procedimiento ordenará, mediante resolución motivada, la intervención inmediata de la autorización y la práctica de cuantas medidas sean necesarias para impedir el efectivo ejercicio de la misma.",
+ "fingerprint": "sha256:771561142b47d4bf850872a7bb55a07a22ff6c45b65d8c23666142cd9ad41b3d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a72"
+}

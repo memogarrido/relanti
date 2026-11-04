@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ciii-2",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO III",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "CAPÍTULO III\nPrioridad de paso",
+ "fingerprint": "sha256:bc36d77c240b78adbbcf0f61cc6202e1a237ca0f1b4add6d89211b7fe60c68a2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ciii-2"
+}

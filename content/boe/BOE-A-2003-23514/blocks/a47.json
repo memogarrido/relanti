@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a47",
+ "tipo": "precepto",
+ "titulo": "Artículo 47",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 47. Velocidades máximas y mínimas.\nLos titulares de la vía fijarán, mediante el empleo de la señalización correspondiente, las limitaciones de velocidad específicas que correspondan con arreglo a las características del tramo de la vía. En defecto de señalización específica, se cumplirá la genérica establecida para cada vía.\nEl organismo autónomo Jefatura Central de Tráfico o, en su caso, la autoridad autonómica o local responsable de la regulación y control del tráfico, cuando las condiciones bajo las que se desarrolla la circulación así lo aconsejen, podrá fijar limitaciones de velocidad con carácter temporal mediante la correspondiente señalización circunstancial o variable.",
+ "fingerprint": "sha256:02617c3e70c33d77815a50f1b91ecd790bbd9ea1055786530f902b892c0c5ac6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a47"
+}

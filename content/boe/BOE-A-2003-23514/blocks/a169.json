@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a169",
+ "tipo": "precepto",
+ "titulo": "Artículo 169",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 169. Señales horizontales de circulación.\nLa nomenclatura de las señales horizontales de circulación es la siguiente:\na) Ceda el paso. Un triángulo, marcado sobre la calzada con el vértice opuesto al lado menor y dirigido hacia el vehículo que se acerca, indica a su conductor la obligación que tiene en la próxima intersección de ceder el paso a otros vehículos. Si el mencionado triángulo está situado en un carril delimitado por líneas longitudinales, la anterior obligación se refiere exclusivamente a los vehículos que circulen por el citado carril.\nb) Detención obligatoria o stop. El símbolo «stop», marcado sobre la calzada, indica al conductor la obligación de detener su vehículo ante una próxima línea de detención o, si esta no existiera, inmediatamente antes de la calzada a la que se aproxima, y de ceder el paso a los vehículos que circulen por esa calzada. Si el citado símbolo está situado en un carril delimitado por líneas longitudinales, la anterior obligación se refiere exclusivamente a los vehículos que circulen por el citado carril.\nc) Señal de limitación de velocidad. Indica que ningún vehículo debe sobrepasar la velocidad expresada en kilómetros por hora. Si la cifra está situada en un carril delimitado por líneas longitudinales, la anterior prohibición se refiere exclusivamente a los vehículos que circulen por el citado carril. La limitación establecida se aplica hasta la próxima señal de «Fin de limitación», «Fin de limitación de velocidad» u otra señal de velocidad máxima diferente.\nd) Flecha de selección de carriles. Una flecha situada en un carril delimitado por líneas longitudinales indica que todo conductor debe seguir la dirección, o una de las direcciones, indicada por la flecha en el carril en que aquél se halle o, si la señalización lo permite, cambiarse a otro carril. Esta flecha puede ir complementada con una inscripción de destino.\ne) Flecha de salida. Indica a los conductores el lugar donde pueden iniciar el cambio de carril para tomar una salida y la dirección propia de ésta.\nf) Flecha de fin de carril. Indica que el carril en que está situada termina próximamente y es preciso seguir su indicación.\ng) Flecha de retorno. Una flecha, situada aproximadamente en el eje de una calzada de doble sentido de circulación y que apunta hacia la derecha, anuncia la proximidad de una línea continua que implica la prohibición de circular por su izquierda, e indica, por tanto, que todo conductor debe circular con su vehículo cuanto antes por el carril a la derecha de la flecha.",
+ "fingerprint": "sha256:0b2e872fb2eb1d61859e35ba032de4b360bea3f6e6a4e0f101c9261afd678c80",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a169"
+}

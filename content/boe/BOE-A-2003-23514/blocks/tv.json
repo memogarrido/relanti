@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tv",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO V",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "TÍTULO V\nSeñales en los vehículos",
+ "fingerprint": "sha256:47908c6f1eb30913cb233f48dcd05969cf4bbb4638b7c14022974f7189b9434d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tv"
+}

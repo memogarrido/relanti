@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a42",
+ "tipo": "precepto",
+ "titulo": "Artículo 42",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 42. Normas generales.\n1. En casos justificados, la autoridad competente para expedir el permiso de circulación podrá conceder, en los términos que se fijan en este Reglamento, permisos temporales que autoricen la circulación provisional del vehículo, antes de su matriculación definitiva o mientras se tramita la misma.\n2. Los permisos temporales que autoricen la circulación de vehículos para la realización de pruebas, ensayos de investigación, exhibiciones o para su transporte, se ajustarán a las prescripciones que se establecen en el presente capítulo.",
+ "fingerprint": "sha256:7753fbc4fdb76f30c8d1ceaba7dee3f5281daadcbff7d18c94312d9c6f39be1a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a42"
+}

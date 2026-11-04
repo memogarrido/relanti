@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a29",
+ "tipo": "precepto",
+ "titulo": "Artículo 29",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 29. Norma general.\n1. Como norma general, y muy especialmente en las curvas y cambios de rasante de reducida visibilidad, los vehículos circularán en todas las vías objeto de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial por la derecha y lo más cerca posible del borde de la calzada, manteniendo la separación lateral suficiente para realizar el cruce con seguridad (artículo 13 del texto articulado).\nAun cuando no exista señalización expresa que los delimite, en los cambios de rasante y curvas de reducida visibilidad, todo conductor, salvo en los supuestos de rebasamiento previstos en el artículo 88, debe dejar completamente libre la mitad de la calzada que corresponda a los que puedan circular en sentido contrario.\n2. Los supuestos de circulación por la izquierda, en sentido contrario al estipulado en una vía de doble sentido de la circulación, tendrán la consideración de infracciones muy graves, conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:e18f15956ee5307fe6a8a22c2be3c6050dc7d751e2fa10d65abcc3258f267c4c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a29"
+}

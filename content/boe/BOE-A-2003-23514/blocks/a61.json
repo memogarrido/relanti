@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a61",
+ "tipo": "precepto",
+ "titulo": "Artículo 61",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 61. Paso de puentes u obras de paso señalizado.\n1. El orden de preferencia de paso por puentes u obras de paso cuya anchura no permita el cruce de vehículos se realizará conforme a la señalización que lo regule.\n2. En caso de encuentro de dos vehículos que no se puedan cruzar en puentes u obras de paso en uno de cuyos extremos se hubiera colocado la señal de prioridad en sentido contrario o la de ceda el paso, el que llegue por ese extremo habrá de retroceder para dejar paso al otro.\nEn ausencia de señalización, el orden de preferencia entre los distintos tipos de vehículos se ajustará a lo establecido en el artículo 62.\n3. Los vehículos que necesitan autorización especial para circular no podrán cruzarse en los puentes si el ancho de la calzada es inferior a seis metros, de suerte que para cada vehículo pueda contarse con un ancho de vía no inferior a tres metros. En caso de encuentro o cruce entre dichos vehículos, se estará a lo dispuesto en el apartado anterior.\n4. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:461bf13551154f0ce3ff900912c37a6f1167c535226887156bfc3754a38ff263",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a61"
+}

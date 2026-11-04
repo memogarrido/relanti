@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a34",
+ "tipo": "precepto",
+ "titulo": "Artículo 34",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 34. Cómputo de carriles.\nPara el cómputo de carriles, a efectos de lo dispuesto en los artículos anteriores, no se tendrán en cuenta los reservados a determinados vehículos o a ciertas maniobras de acuerdo con lo dispuesto en el artículo siguiente.",
+ "fingerprint": "sha256:fbc6a378ec97d47ead59aa1685f2f58efe2bb1fa2145396ce110612a4d617aea",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a34"
+}

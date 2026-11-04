@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a11",
+ "tipo": "precepto",
+ "titulo": "Artículo 11",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 11. Obligaciones del titular del vehículo y del conductor habitual.\n1. El titular de un vehículo tiene las siguientes obligaciones:\na) Facilitar a la Administración la identificación del conductor del vehículo en el momento de cometerse una infracción. Los datos facilitados deben incluir el número del permiso o licencia de conducción que permita la identificación en el Registro de Conductores e Infractores del organismo autónomo Jefatura Central de Tráfico.\nSi el conductor no figura inscrito en el aludido Registro de Conductores e Infractores, el titular deberá disponer de copia de la autorización administrativa que le habilite a conducir en España y facilitarla a la Administración cuando le sea requerida. Si el titular fuese una empresa de alquiler de vehículos sin conductor, la copia de la autorización administrativa podrá sustituirse por la copia del contrato de arrendamiento.\nb) Impedir que el vehículo sea conducido por quien nunca haya obtenido el permiso o la licencia de conducción correspondiente.\n2. El titular del vehículo puede comunicar al Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico la identidad del conductor habitual del mismo. En este supuesto, el titular queda exonerado de las obligaciones anteriores, que se trasladan al conductor habitual.\n3. Las obligaciones establecidas en el apartado 1 y la comunicación descrita en el apartado anterior corresponden al arrendatario a largo plazo del vehículo, en el supuesto de que haya constancia de éste en el Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico.\n4. El titular del vehículo en régimen de arrendamiento a largo plazo debe comunicar al Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico la identidad del arrendatario.",
+ "fingerprint": "sha256:21ef17fc93fb33ebe3bf225193027f8b194cd720a4b5f59bb7783345ad2e4028",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a11"
+}

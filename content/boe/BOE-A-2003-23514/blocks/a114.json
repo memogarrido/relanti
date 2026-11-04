@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a114",
+ "tipo": "precepto",
+ "titulo": "Artículo 114",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 114. Puertas.\n1. Se prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa inmovilización y abrirlas o apearse de aquél sin haberse cerciorado previamente de que ello no implica peligro o entorpecimiento para otros usuarios, especialmente cuando se refiere a conductores de bicicletas (artículo 45 del texto articulado).\n2. Como norma general, se entrará y saldrá del vehículo por el lado más próximo al borde de la vía y sólo cuando aquél se halle parado.\n3. Toda persona no autorizada se abstendrá de abrir las puertas de los vehículos destinados al transporte colectivo de viajeros, así como cerrarlas en las paradas, entorpeciendo la entrada de viajeros.",
+ "fingerprint": "sha256:fab5e413180b6e82206e52bb5053fa4b65411cb5731c3e12a366c69fce7403b9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a114"
+}

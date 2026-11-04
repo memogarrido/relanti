@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a52",
+ "tipo": "precepto",
+ "titulo": "Artículo 52",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 52. Publicidad.\nSe prohíbe la publicidad en relación con vehículos a motor que ofrezca en su argumentación escrita o verbal, en sus elementos sonoros o en sus imágenes incitación a la velocidad excesiva, a la conducción temeraria, a situaciones de peligro o cualquier otra circunstancia que suponga una conducta contraria a los principios de esta ley, o cuando dicha publicidad induzca al conductor a una falsa o no justificada sensación de seguridad.",
+ "fingerprint": "sha256:006fe164e127bbf4b3523d67edc499effab2000b4a001e115f944b23ffc3c623",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a52"
+}

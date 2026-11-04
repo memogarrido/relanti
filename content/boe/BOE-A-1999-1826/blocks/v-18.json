@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-18",
+ "tipo": "precepto",
+ "titulo": "V-18",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "V-18. ALUMBRADO DE TAXÍMETRO\n1. Es el destinado, en los automóviles de turismo de servicio público de viajeros, a iluminar el contador taxímetro tan pronto se produzca la bajada de bandera.\n2. Este dispositivo deberá tener una intensidad suficiente que permita su fácil lectura y no debe producir deslumbramiento para los demás usuarios de la vía pública\n3. No será obligatorio este alumbrado en el caso en que las cifras o letras del taxímetro sean autoluminosas.",
+ "fingerprint": "sha256:4d2336530514af9d89a9cfa6d90a2b6f693a45ca626aab71e59046b4c4dec670",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-18"
+}

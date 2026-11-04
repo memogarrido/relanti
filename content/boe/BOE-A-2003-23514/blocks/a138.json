@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a138",
+ "tipo": "precepto",
+ "titulo": "Artículo 138",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 138. Idioma de las señales.\nLas indicaciones escritas que se incluyan o acompañen a los paneles de señalización de las vías públicas, e inscripciones, figurarán en idioma castellano y, además, en la lengua oficial de la comunidad autónoma reconocida en el respectivo estatuto de autonomía, cuando la señal esté ubicada en el ámbito territorial de dicha comunidad.\nLos núcleos de población y demás topónimos serán designados en su denominación oficial y, cuando fuese necesario a efectos de identificación, en castellano.",
+ "fingerprint": "sha256:d75d29d302bfb36c7c2d69c7bcd40fa086a4043a7a77c46015c22799fed9e16f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a138"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a6",
+ "tipo": "precepto",
+ "titulo": "Artículo 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 6. Clases de licencia de conducción y edad requerida para obtenerla.\n1. La licencia de conducción, teniendo en cuenta los vehículos cuya conducción autoriza, será de las siguientes clases:\na) Para conducir vehículos para personas de movilidad reducida.\nLa edad mínima para obtenerla será de catorce años cumplidos. No obstante, hasta los dieciséis años cumplidos no autorizará a transportar pasajeros en el vehículo.\nNo se exigirá esta licencia a quien sea titular de un permiso de conducción de las clases A1 o B en vigor y en el caso de que su titular obtenga un permiso de alguna de estas clases, la licencia de conducción dejará de ser válida.\nb) Para conducir vehículos especiales agrícolas autopropulsados y sus conjuntos cuya masa o dimensiones máximas autorizadas no excedan de los límites establecidos para los vehículos ordinarios o cuya velocidad máxima por construcción no exceda de 45 km/h.\nLa edad mínima para obtenerla será de dieciséis años cumplidos.\nNo se exigirá esta licencia a quien sea titular de un permiso de conducción de la clase B en vigor y en el caso de que su titular obtenga un permiso de esta clase, la licencia de conducción dejará de ser válida.\n2. Si una persona fuera titular de más de una clase de licencia de conducción, todas ellas deberán constar en un único documento.",
+ "fingerprint": "sha256:c2610518e9493b2d0a92b9a48747674232666a1b31a4057b1ae879c302bb314f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a6"
+}

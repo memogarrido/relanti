@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a65",
+ "tipo": "precepto",
+ "titulo": "Artículo 65",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 65. Centros en los que se realizarán las pruebas y los ejercicios prácticos.\n1. Las pruebas teóricas de control de conocimientos se realizarán en el centro de exámenes que, atendidas las circunstancias y las posibilidades del servicio, determine la Jefatura Provincial de Tráfico a la que se hubiera dirigido la solicitud.\n2. Los ejercicios prácticos individuales sobre extinción de incendios y, en su caso, los de carga y descarga y aquellos otros cuya naturaleza lo requiera, se realizarán en el lugar y en las instalaciones, y con los medios autorizados que, a petición del Director del centro de formación, hayan sido fijados por la Jefatura Provincial de Tráfico al aprobar el curso.\nLos demás ejercicios prácticos individuales, tales como los de primeros auxilios y utilización de los distintivos de preseñalización de peligro, se realizarán en conexión con la formación teórica, en el aula donde se impartan las clases teóricas.",
+ "fingerprint": "sha256:821a0d709e571fcf5dccc4eec09ca2eb1d0eea82a29aacc7f633fd3ce98e51a4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a65"
+}

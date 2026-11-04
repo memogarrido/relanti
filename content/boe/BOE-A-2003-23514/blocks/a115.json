@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a115",
+ "tipo": "precepto",
+ "titulo": "Artículo 115",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 115. Apagado de motor.\n1. Aun cuando el conductor no abandone su puesto, deberá parar el motor siempre que el vehículo se encuentre detenido en el interior de un túnel o en lugar cerrado y durante la carga de combustible (artículo 46 del texto articulado).\n2. Todo conductor que se vea obligado a permanecer con su vehículo detenido en el interior de un túnel u otro lugar cerrado, por un período de tiempo superior a dos minutos, deberá interrumpir el funcionamiento del motor hasta que pueda proseguir la marcha, conservando encendido el alumbrado de posición.\n3. Para cargar combustible en el depósito de un vehículo, éste debe hallarse con el motor parado.\nLos propietarios de aparatos distribuidores de combustibles o empleados de estos últimos no podrán facilitar los combustibles para su carga si no está parado el motor y apagadas las luces de los vehículos, los sistemas eléctricos como la radio y los dispositivos emisores de radiación electromagnética como los teléfonos móviles.\n4. En ausencia de los propietarios de aparatos distribuidores de combustibles o empleados de estos últimos, el conductor del vehículo o, en su caso, la persona que vaya a cargar el combustible en el vehículo deberá cumplir los mismos requisitos establecidos en el apartado anterior.",
+ "fingerprint": "sha256:313574ca3a8f3a3db8257097a4d2567319f2d1b741afc0ca417c538fc0630e1f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a115"
+}

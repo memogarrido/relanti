@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a16",
+ "tipo": "precepto",
+ "titulo": "Artículo 16",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 16. Utilización de los carriles.\n1. El conductor de un automóvil, que no sea un vehículo para personas de movilidad reducida, o de un vehículo especial con la masa máxima autorizada que reglamentariamente se determine, debe circular por la calzada y no por el arcén, salvo por razones de emergencia, y debe, además, atenerse a las reglas siguientes:\na) En las calzadas con doble sentido de circulación y dos carriles, separados o no por marcas viales, debe circular por el de su derecha.\nb) En las calzadas con doble sentido de circulación y tres carriles, separados por marcas longitudinales discontinuas, debe circular también por el de su derecha, y en ningún caso por el situado más a su izquierda.\nc) Fuera de poblado, en las calzadas con más de un carril reservado para su sentido de marcha, debe circular normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga.\nCuando una de dichas calzadas tenga tres o más carriles en el sentido de su marcha, los conductores de camiones con masa máxima autorizada superior a la que reglamentariamente se determine, los de vehículos especiales que no estén obligados a circular por el arcén y los de conjuntos de vehículos de más de siete metros de longitud, deben circular normalmente por el situado más a su derecha, pudiendo utilizar el inmediato en las mismas circunstancias y con igual condición a las citadas en el párrafo anterior.\nd) Cuando se circule por calzadas de poblados con al menos dos carriles reservados para el mismo sentido, delimitados por marcas longitudinales, puede utilizar el que mejor convenga a su destino, pero no debe abandonarlo más que para prepararse a cambiar de dirección, adelantar, parar o estacionar.\n2. Para el cómputo de carriles, a efectos de lo dispuesto en el apartado anterior, no se tendrá en cuenta los destinados al tráfico lento ni los reservados a determinados vehículos, en los términos que reglamentariamente se determine.",
+ "fingerprint": "sha256:a86795c0d79e0843e8c7ee27e2daeb1df9150ceddd651fba6b19107d5fb31180",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a16"
+}

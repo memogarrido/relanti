@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a121",
+ "tipo": "precepto",
+ "titulo": "Artículo 121",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 121. Normas generales.\n1. Los peatones, y especialmente aquellos con movilidad reducida, o afectados por algún tipo de discapacidad, niños y niñas, o personas mayores, gozarán de prioridad de paso y estancia en las vías públicas, en los términos que se regulan en el presente reglamento.\nLos usuarios de la vía que circulen con cualquier tipo de vehículo deberán prestar especial cuidado para no poner en riesgo la integridad física de los peatones.\n2. La regulación del tránsito y estancia de los peatones en zonas urbanas se establece en el título VI, sin perjuicio de las normas de aplicación comunes del presente capítulo.",
+ "fingerprint": "sha256:1bb394e2917911522da4c8906a6cbc5c36db96988c81e40f273f77750938f54d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a121"
+}

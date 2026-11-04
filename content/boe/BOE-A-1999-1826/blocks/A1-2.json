@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A1-2",
+ "tipo": "precepto",
+ "titulo": "1. Definiciones",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "1. Definiciones\nA efectos de este Reglamento, se entiende por:\nRetrovisor: dispositivo que tiene por finalidad permitir, en el campo de visión definido en la reglamentación vigente que se recoge en el anexo 1, una visibilidad clara hacia atrás y hacia los lados del vehículo, exceptuándose los dispositivos complejos tales como los periscopios.\nRetrovisor interior: retrovisor que se destina a ser instalado en el interior del habitáculo.\nRetrovisor exterior: retrovisor que se destina a ser montado sobre un elemento de la superficie exterior del habitáculo.\nClase de retrovisor: el conjunto de los dispositivos que poseen una o varias caracteristicas o funciones comunes.\nSe clasifican como sigue:\nClase I: retrovisor interior con el campo de visión que se especifica en la reglamentación vigente.\nClase II y III: retrovisores exteriores principales con el campo de visión que se especifica en la reglamentación vigente. La clase II está destinada a las categorías de vehículos M2, M3, N2, N3, tractores agrícolas y demás vehículos especiales. La clase III está destinada a las categorías de vehiculos M1 y N1.\nClase IV: retrovisores exteriores gran angular con el campo de visión que se especifica en la reglamentación vigente.\nClase V: retrovisores exteriores de proximidad con el campo de visión que se especifica en la reglamentación vigente.\nClase L: retrovisores exteriores principales con el campo de visión que se especifica en la reglamentación vigente. La clase L está destinada a las categorías de vehículos siguientes: ciclomotores de dos y tres ruedas, motocicletas, motocicletas con sidecar, vehículos de tres ruedas y cuatriciclos.",
+ "fingerprint": "sha256:1e16cddfa897616f34d139a27dcacf3bfd516a3cb5536209bc7830de1f3b1e61",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A1-2"
+}

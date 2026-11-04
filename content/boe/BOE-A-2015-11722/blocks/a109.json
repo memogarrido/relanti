@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a109",
+ "tipo": "precepto",
+ "titulo": "Artículo 109",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 109. Ejecución de la sanción de suspensión de las autorizaciones.\nEl cumplimiento de la sanción de suspensión prevista en el artículo 80 se iniciará transcurrido un mes desde que haya adquirido firmeza en vía administrativa, y el período de suspensión de la misma se anotará en los correspondientes registros.",
+ "fingerprint": "sha256:54a47cc24b4d579cf557a303e0b603bc316187a3442a7fb440556dc794ed769b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a109"
+}

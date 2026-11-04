@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a107",
+ "tipo": "precepto",
+ "titulo": "Artículo 107",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 107. Limitaciones de disposición en las autorizaciones administrativas.\n1. El titular de un permiso o licencia de conducción no podrá efectuar ningún trámite relativo a los vehículos de los que fuese titular en el Registro de Vehículos del organismo autónomo Jefatura Central de Tráfico cuando figuren como impagadas en su historial de conductor cuatro sanciones firmes en vía administrativa por infracciones graves o muy graves.\n2. El titular de un vehículo no podrá efectuar ningún trámite relativo al mismo cuando figuren como impagadas en el historial del vehículo cuatro sanciones firmes en vía administrativa por infracciones graves o muy graves.\n3. Queda exceptuado de lo dispuesto en los apartados anteriores el trámite de baja temporal o definitiva de vehículos.",
+ "fingerprint": "sha256:70de34798379fe75adebcdf453b5294b69601d7da18e2227446fc98439956c78",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a107"
+}

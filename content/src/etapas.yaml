@@ -1,0 +1,102 @@
+# The road: 12 etapas in the order of the DGT's simplified manual (design proposal v0.4).
+# Tramo codes are etapa-1NN and are never renumbered. Only tramos that have
+# items are put in the pack; the rest is the plan.
+etapas:
+  - code: SE
+    name: Villaseñal
+    topic: Señales
+    landscape: ciudad
+    free: true
+    tramos:
+      - {code: SE-101, title: Prioridad entre señales y agentes, truco: T-SE-101}
+      - {code: SE-102, title: Semáforos}
+      - {code: SE-103, title: Señales de peligro}
+      - {code: SE-104, title: Señales de prohibición y obligación}
+      - {code: SE-105, title: Marcas viales}
+  - code: PR
+    name: Cruce de la Prioridad
+    topic: Prioridad
+    landscape: ciudad
+    free: true
+    tramos:
+      - {code: PR-101, title: Intersecciones sin señalizar, truco: T-PR-101}
+      - {code: PR-102, title: Glorietas, autopistas y caminos, truco: T-PR-102}
+      - {code: PR-103, title: Tramos estrechos y pendientes}
+  - code: VE
+    name: Recta de la Velocidad
+    topic: Velocidad
+    landscape: meseta
+    free: true
+    tramos:
+      - {code: VE-101, title: Límites fuera de poblado, truco: T-VE-101}
+      - {code: VE-102, title: Ciudad y travesías, truco: T-VE-102}
+      - {code: VE-103, title: Velocidad adecuada y distancia, truco: T-VE-103}
+  - code: AD
+    name: Paso del Adelanto
+    topic: Adelantamientos
+    landscape: meseta
+    free: false
+    tramos:
+      - {code: AD-101, title: Cómo adelantar}
+      - {code: AD-102, title: Dónde no adelantar}
+  - code: PA
+    name: Plaza del Aparcamiento
+    topic: Parada y estacionamiento
+    landscape: ciudad
+    free: false
+    tramos:
+      - {code: PA-101, title: Parar y estacionar}
+      - {code: PA-102, title: Marcha atrás y cambio de sentido}
+  - code: AL
+    name: Faro Nocturno
+    topic: Alumbrado y visibilidad
+    landscape: montaña
+    free: false
+    tramos:
+      - {code: AL-101, title: Luces de cruce y carretera}
+      - {code: AL-102, title: Niebla, lluvia y señales acústicas}
+  - code: VH
+    name: Taller
+    topic: El vehículo
+    landscape: ciudad
+    free: false
+    tramos:
+      - {code: VH-101, title: Documentación y seguro}
+      - {code: VH-102, title: ITV y neumáticos}
+  - code: FH
+    name: Mirador Alerta
+    topic: Factores de riesgo
+    landscape: montaña
+    free: false
+    tramos:
+      - {code: FH-101, title: Alcohol, truco: T-FH-101}
+      - {code: FH-102, title: Drogas, pruebas y distracciones, truco: T-FH-102}
+  - code: PS
+    name: Área PAS
+    topic: Seguridad pasiva y accidentes
+    landscape: costa
+    free: false
+    tramos:
+      - {code: PS-101, title: Cinturón, casco y sillas infantiles, truco: T-PS-101}
+      - {code: PS-102, title: En caso de accidente}
+  - code: PP
+    name: Oficina de Puntos
+    topic: Permisos y puntos
+    landscape: ciudad
+    free: false
+    tramos:
+      - {code: PP-101, title: El permiso por puntos, truco: T-PP-101}
+      - {code: PP-102, title: Infracciones y sanciones}
+  - code: EC
+    name: Valle Eco
+    topic: Conducción eficiente
+    landscape: costa
+    free: false
+    tramos:
+      - {code: EC-101, title: Conducción eficiente}
+  - code: EX
+    name: Centro de examen
+    topic: Simulacros
+    landscape: ciudad
+    free: false
+    tramos: []

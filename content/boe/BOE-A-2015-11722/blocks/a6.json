@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a6",
+ "tipo": "precepto",
+ "titulo": "Artículo 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 6. Organismo autónomo Jefatura Central de Tráfico.\n1. El Ministerio del Interior ejerce las competencias relacionadas en el artículo anterior a través del organismo autónomo Jefatura Central de Tráfico.\n2. Para el ejercicio de las competencias atribuidas al Ministerio del Interior en materia de regulación, ordenación, gestión y vigilancia del tráfico, así como para la denuncia de las infracciones a las normas contenidas en esta ley, y para las labores de protección y auxilio en las vías públicas o de uso público, actuará, en los términos que reglamentariamente se determine, la Guardia Civil, especialmente su Agrupación de Tráfico, que a estos efectos depende específicamente del organismo autónomo Jefatura Central de Tráfico.",
+ "fingerprint": "sha256:624b3c1fb5f4b4808c242de24d0290da78c14006cdaecca89959888f429d4d32",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a6"
+}

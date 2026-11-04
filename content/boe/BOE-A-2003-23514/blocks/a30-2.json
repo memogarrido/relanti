@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a30-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 30",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 30. Desarrollo de las marchas.\nLas marchas se desarrollarán con el tráfico abierto, sin perjuicio de que en ciertas circunstancias o momentos pueda considerarse la opción de cerrar al tráfico determinadas zonas mientras dura el paso de los ciclistas.",
+ "fingerprint": "sha256:2da3f3639b52d74424b28836747d2410afaaf9c8d0a141c3dd49dbff26f8dcc6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a30-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v2-3",
+ "tipo": "precepto",
+ "titulo": "V-27",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-4194",
+  "fecha_publicacion": "20210317",
+  "fecha_vigencia": "20210701"
+ },
+ "text": "V-27 TRIÁNGULO VIRTUAL\n1. La señal se activará en el sistema de a bordo del vehículo para advertir la presencia de un peligro próximo, cuando este hecho haya sido informado por un tercero a la plataforma de vehículo conectado de la Dirección General de Tráfico.\n2. Esta señal, de carácter voluntario, solo se visualizará en aquellos vehículos que estén conectados por medios telemáticos, de forma directa o a través de un proveedor de servicios, con el Punto de Acceso Nacional de Información de Tráfico y Movilidad.\n3. Las circunstancias señalizadas, los atributos, sus valores y la forma de interconexión con el punto de acceso nacional se definirán por Resolución del Director General de Tráfico.",
+ "fingerprint": "sha256:c5f8d387682b8f75fd9e5da61539b49437d30ad0248376d1ed13d86c85ffc8ae",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v2-3"
+}

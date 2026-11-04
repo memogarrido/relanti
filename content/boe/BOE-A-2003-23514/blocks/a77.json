@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a77",
+ "tipo": "precepto",
+ "titulo": "Artículo 77",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 77. Carril de deceleración.\nPara abandonar una autopista, autovía o cualquier otra vía, los conductores deberán circular con suficiente antelación por el carril más próximo a la salida y penetrar lo antes posible en el carril de deceleración, si existe.",
+ "fingerprint": "sha256:84720b59a8ebad784a139aaab92366abddfe304d589d2676ac7c41099c787f8a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a77"
+}

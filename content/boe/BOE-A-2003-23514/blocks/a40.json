@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a40",
+ "tipo": "precepto",
+ "titulo": "Artículo 40",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 40. Carriles reversibles.\n1. En las calzadas con doble sentido de la circulación, cuando las marcas dobles discontinuas delimiten un carril por ambos lados, indican que éste es reversible, es decir, que en él la circulación puede estar regulada en uno o en otro sentido mediante semáforos de carril u otros medios. Los conductores que circulen por dicho carril deberán llevar encendida, al menos, la luz de corto alcance o de cruce en sus vehículos tanto de día como de noche, de acuerdo con lo dispuesto en el artículo 104.\n2. Los supuestos de circulación en sentido contrario al estipulado tendrán la consideración de infracciones muy graves, conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:6bd7b3df20427bd435d8137e391a3a3681aefbfee80639568f8fa15a8efc2be6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a40"
+}

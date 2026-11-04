@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a112",
+ "tipo": "precepto",
+ "titulo": "Artículo 112",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 112. Prescripción y caducidad.\n1. El plazo de prescripción de las infracciones previstas en esta ley será de tres meses para las infracciones leves y de seis meses para las infracciones graves y muy graves.\nEl plazo de prescripción comenzará a contar a partir del mismo día en que los hechos se hubieran cometido.\n2. La prescripción se interrumpe por cualquier actuación administrativa de la que tenga conocimiento el denunciado o esté encaminada a averiguar su identidad o domicilio y se practique con otras administraciones, instituciones u organismos. También se interrumpe por la notificación efectuada de acuerdo con los artículos 89, 90 y 91.\nEl plazo de prescripción se reanudará si el procedimiento se paraliza durante más de un mes por causa no imputable al denunciado.\n3. Si no se hubiera producido la resolución sancionadora transcurrido un año desde la iniciación del procedimiento, se producirá su caducidad y se procederá al archivo de las actuaciones, a solicitud de cualquier interesado o de oficio por el órgano competente para dictar resolución.\nCuando la paralización del procedimiento se hubiera producido a causa del conocimiento de los hechos por la jurisdicción penal, el plazo de caducidad se suspenderá y, una vez haya adquirido firmeza la resolución judicial, se reanudará el cómputo del plazo de caducidad por el tiempo que restaba en el momento de acordar la suspensión.\n4. El plazo de prescripción de las sanciones consistentes en multa será de cuatro años y el de la suspensión prevista en el artículo 80 será de un año, computados desde el día siguiente a aquel en que adquiera firmeza la sanción en vía administrativa.\nEl cómputo y la interrupción del plazo de prescripción del derecho de la Administración para exigir el pago de las sanciones en vía de apremio consistentes en multa se regirán por lo dispuesto en la normativa tributaria.",
+ "fingerprint": "sha256:8cc2412d27ea6d7ff4fa966b59731cfb6804112cdb776b661ffcbabf6e32e871",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a112"
+}

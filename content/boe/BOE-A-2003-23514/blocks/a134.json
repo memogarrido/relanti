@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a134",
+ "tipo": "precepto",
+ "titulo": "Artículo 134",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 134. Catálogo oficial de señales de la circulación y marcas viales.\n1. El Catálogo oficial de señales de la circulación y marcas viales debe ajustarse a lo establecido en las reglamentaciones y recomendaciones internacionales en la materia.\n2. En dicho Catálogo se especificará necesariamente la forma, color, diseño y significado de las señales, así como las dimensiones de las mismas en función de cada tipo de vía y sistemas de colocación de las siguientes señales de circulación:\na) Señalización de tramos con obras o tareas de conservación.\nb) Señales de advertencia de peligro.\nc) Señales de reglamentación.\nd) Señales de indicación.\ne) Marcas viales.\n3. Las señales que pueden ser utilizadas en las vías objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial deberán cumplir las normas y especificaciones que se establecen en este reglamento y en Catálogo oficial de señales de la circulación y marcas viales.\n4. El Catálogo oficial de señales de la circulación y marcas viales se incluye en el anexo I.",
+ "fingerprint": "sha256:660b91f44dac4b257071be75d608d66d1a562c0c7f029c7ec4ec64fb246b0177",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a134"
+}

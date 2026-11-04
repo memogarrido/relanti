@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a166",
+ "tipo": "precepto",
+ "titulo": "Artículo 166",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 166. Objeto y clases.\n1. Las marcas sobre el pavimento, o marcas viales, tienen por objeto regular la circulación y advertir o guiar a los usuarios de la vía, y pueden emplearse solas o con otros medios de señalización, a fin de reforzar o precisar sus indicaciones.\n2. Las marcas viales pueden ser: marcas blancas longitudinales, marcas blancas transversales, señales horizontales de circulación, otras marcas e inscripciones de color blanco y marcas de otros colores.",
+ "fingerprint": "sha256:e8e348c9af59840a9ec09ba19518a0b03464991babd12d80d0f8b897318eed19",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a166"
+}

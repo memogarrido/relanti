@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "dfsegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición final segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Disposición final segunda. Facultades de desarrollo.\nSe faculta al Ministro del Interior para dictar, por sí o conjuntamente con los titulares de los restantes departamentos ministeriales afectados por razón de la materia, las disposiciones oportunas para la aplicación y desarrollo de lo establecido en este real decreto.",
+ "fingerprint": "sha256:a1aadf8713eff0ba18419b9ea327e4b29aa550416b2f4ddd034874e4bceb1165",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#dfsegunda"
+}

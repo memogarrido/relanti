@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dttercera",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria tercera",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2015-12572",
+  "fecha_publicacion": "20151121",
+  "fecha_vigencia": "20151231"
+ },
+ "text": "Disposición transitoria tercera. Licencia de conducción de ciclomotores y permisos de las clases A1 y A2.\nQuienes a la entrada en vigor de este reglamento sean titulares de una licencia de conducción de ciclomotores o de un permiso de conducción de las clases A1 o A2, obtenidos con anterioridad a la entrada en vigor del Reglamento General de Conductores, aprobado por el Real Decreto 772/1997, de 30 de mayo, estarán autorizados a conducir motocultores y tractores agrícolas y máquinas agrícolas automotrices cuya masa máxima autorizada no exceda de 1.000 kg y cuya velocidad máxima autorizada no exceda de 20 km/h, siempre que no lleven remolque.",
+ "fingerprint": "sha256:7c36e882a0459b67dc614d5a4561a72012ce565862b2475d50c06cfb7ab5e5e6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dttercera"
+}

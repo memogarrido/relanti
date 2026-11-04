@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-7",
+ "tipo": "precepto",
+ "titulo": "V-7",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-7. DISTINTIVO DE NACIONALIDAD ESPAÑOLA\n1. Indica que el vehículo está matriculado en España.\n2. Este distintivo deberá estar situado en la parte posterior del vehículo, inscrito en el mismo o en una placa separada.\nCuando el signo distintivo esté inscrito en una placa especial, ésta deberá ser fijada en posición vertical o casi vertical, y perpendicularmente al plano longitudinal mediano del vehículo. Si se adosa o pinta en el propio vehículo, deberá quedar en una superficie vertical o casi vertical.\n3. El signo distintivo de la nacionalidad española del vehículo consistirá en una letra E latina mayúscula pintada sobre una elipse, debiendo ajustarse sus dimensiones, color y características técnicas a lo que se indica a continuación:\nMATERIAL DEL SUSTRATO. | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal..",
+ "fingerprint": "sha256:36514fb8cff8e1baccb25d9276012df806a2ae4b378a47855b35f370e7d8f2c9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-7"
+}

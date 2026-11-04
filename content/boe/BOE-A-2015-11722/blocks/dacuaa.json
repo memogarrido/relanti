@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dacuaa",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional cuarta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional cuarta. Obligación de destinar las sanciones económicas a la financiación de seguridad vial, prevención de accidentes de tráfico y ayuda a las víctimas.\nEl importe de las sanciones económicas obtenidas por infracciones a esta ley, en el ámbito de la Administración General del Estado, se destinará íntegramente a la financiación de actuaciones y servicios en materia de seguridad vial, prevención de accidentes de tráfico y ayuda a las víctimas.",
+ "fingerprint": "sha256:b70f11fd2d8c5311b83afd4c15dfd396afdb5c3296dd6ff2cedb43c57f7af588",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dacuaa"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "cunico",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO ÚNICO",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "CAPÍTULO ÚNICO",
+ "fingerprint": "sha256:659e2910086b05b3e401df0de80e1993a0efefe94c6073db1cbe85202ffa1ad2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#cunico"
+}

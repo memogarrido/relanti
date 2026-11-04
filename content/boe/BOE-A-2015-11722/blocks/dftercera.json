@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dftercera",
+ "tipo": "precepto",
+ "titulo": "Disposición final tercera",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición final tercera. Habilitaciones al Ministro del Interior.\nSe habilita al Ministro del Interior para determinar:\na) la duración, el contenido y los requisitos de los cursos de sensibilización y reeducación vial.\nb) las condiciones para practicar la notificación en el TESTRA.\nc) los términos en los que el titular o el arrendatario a largo plazo comunicarán al Registro de Vehículos la identidad del conductor habitual\nd) los términos en los que el arrendatario a largo plazo comunicará al Registro de Vehículos la identidad del arrendatario.\ne) los términos en que se comunicará al Registro Nacional de Víctimas de Accidentes de Tráfico la información referente a las víctimas de accidentes de tráfico.\nf) la duración, el contenido y los requisitos de los cursos de conducción segura y eficiente, así como los mecanismos de certificación y control de los mismos.",
+ "fingerprint": "sha256:35713e00465bc46612844ab06873d02e8078b9c70f8f38bdcd6ab87f717b21d5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dftercera"
+}

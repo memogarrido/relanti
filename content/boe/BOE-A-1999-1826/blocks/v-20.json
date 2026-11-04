@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-20",
+ "tipo": "precepto",
+ "titulo": "V-20",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-20. PANEL PARA CARGAS QUE SOBRESALEN\n1. Indica que la carga del vehículo sobresale posteriormente.\n2. Cuando la carga sobresalga por detrás del vehículo deberá colocarse esta señal en el extremo posterior de la carga de manera que quede constantemente perpendicuar al eje del vehículo.\nCuando la carga sobresalga longitudinalmente por toda la anchura de la parte posterior del vehículo, se colocarán transversalmente dos paneles de señalización, cada uno en un extremo de la carga o de la anchura del material que sobresalga. Ambos paneles deberán colocarse de tal manera que formen una geometría de V invertida con franjas alternas rojas y blancas.\n3. Las dimensiones, color y características técnicas de esta señal son las que se indican a continuación:\nLÁMINA REFLECTANTE | Color: BLANCO Y ROJO NIVEL 2.\nMATERIAL DEL SUSTRATO | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.\nBORDÓN | Exteriormente a la superficie reflectante y en todo su contorno, las placas llevarán un reborde (bordón) redondeado según la figura adjunta.",
+ "fingerprint": "sha256:5288f28fa89329cd887ff917247ea14760520149f770ce0103a97b9eb9e8602c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-20"
+}

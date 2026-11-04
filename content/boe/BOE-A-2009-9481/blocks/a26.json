@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a26",
+ "tipo": "precepto",
+ "titulo": "Artículo 26",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 26. Requisitos para su obtención.\nPara obtener la autorización especial deberán cumplirse los siguientes requisitos:\na) Estar en posesión, con una antigüedad mínima de un año, del permiso de conducción ordinario en vigor de la clase B, al menos.\nb) Haber realizado con aprovechamiento un curso de formación inicial básico como conductor para el transporte de mercancías peligrosas en un centro de formación autorizado por la Dirección General de Tráfico.\nc) Ser declarado apto por la Jefatura Provincial de Tráfico en las correspondientes pruebas de aptitud.\nd) No estar privado por resolución judicial del derecho a conducir vehículos de motor y ciclomotores, ni hallarse sometido a suspensión o intervención administrativa del permiso que se posea.\ne) Reunir las aptitudes psicofísicas requeridas para obtener permiso de conducción de las clases señaladas en el artículo 45.1.b).\nf) Tener la residencia normal en España.",
+ "fingerprint": "sha256:35078a2f6c29908c8973b2e678d55519b4e8a0e1cf4587160c1ef00f87aceb9e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a26"
+}

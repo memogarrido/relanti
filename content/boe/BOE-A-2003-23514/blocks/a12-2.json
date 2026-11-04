@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a12-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 12",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 12. Requisitos de los responsables de la prueba.\nEl director ejecutivo y el responsable de seguridad vial de la prueba deportiva deberán ser mayores de edad y tener conocimientos de las normas de circulación, para lo que será suficiente poseer la licencia o el permiso de conducción en vigor, así como conocimiento del reglamento de la prueba.\nEl responsable de seguridad vial deberá indicar de modo preciso a cada uno de los miembros del personal auxiliar habilitado la función que deban desempeñar, de acuerdo con la memoria aprobada por la autoridad gubernativa competente.",
+ "fingerprint": "sha256:6413be874b36144907f0fd001432aed631bb31a43252333f5d2228780cbbad15",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12-2"
+}

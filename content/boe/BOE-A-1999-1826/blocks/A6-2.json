@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A6-2",
+ "tipo": "precepto",
+ "titulo": "6. Condiciones de circulación de los conjuntos en configuración euro-modular",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-15231",
+  "fecha_publicacion": "20250723",
+  "fecha_vigencia": "20250724"
+ },
+ "text": "6. Condiciones de circulación de los conjuntos en configuración euro-modular\nEl organismo autónomo Jefatura Central de Tráfico establecerá mediante resolución, que será publicada en el “Boletín Oficial del Estado”, los requisitos técnicos de los dispositivos de acoplamiento y de mejora de seguridad relativos al campo de visión, señalización, advertencia o prevención de situaciones de peligro y condiciones específicas de circulación que habrán de cumplir los conjuntos euro-modulares para poder circular por vías y terrenos públicos, aptos para la circulación, abiertos al tráfico general de usuarios. Esta resolución estará limitada, en todo caso, a dispositivos y elementos de seguridad disponibles en el mercado y homologados conforme a lo dispuesto en el artículo 5 de este Reglamento General de Vehículos.\nSu circulación quedará circunscrita a la red de itinerarios para la circulación de este tipo de conjuntos que cada órgano competente en regulación, ordenación y gestión del tráfico determine, previo informe vinculante de los titulares de las vías sobre las restricciones que deban tener en cuenta para el paso de los conjuntos euro-modulares como consecuencia de las limitaciones geométricas, estructurales o de cualquier otra índole existentes en su red.\nLos itinerarios por donde podrán circular los conjuntos euro-modulares, teniendo en cuenta las restricciones dispuestas por el titular de la vía, serán publicados en el “Boletín Oficial del Estado”.\nEn ningún caso, la carga que lleve un conjunto euro-modular podrá sobresalir de la proyección en planta de los vehículos que la porten, ni tampoco se podrán transportar mercancías peligrosas para cuyo traslado se requiera portar paneles de señalización de peligro reglamentario conforme al Acuerdo Europeo sobre Transporte de Mercancías Peligrosas por Carretera (ADR), debiendo siempre respetar las condiciones y limitaciones establecidas por este Acuerdo para su transporte.",
+ "fingerprint": "sha256:3ae95e54e2342accf9b11af9d3d1f1df55c641b23cc7d05cfc78cdbc6d4933dc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A6-2"
+}

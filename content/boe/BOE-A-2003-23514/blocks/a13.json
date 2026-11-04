@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a13",
+ "tipo": "precepto",
+ "titulo": "Artículo 13",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 13. Dimensiones del vehículo y su carga.\n1. En ningún caso, la longitud, anchura y altura de los vehículos y su carga excederá de la señalada en las normas reguladoras de los vehículos o para la vía por la que circulen.\n2. El transporte de cargas indivisibles que, inevitablemente, rebasen los límites señalados en el apartado anterior deberá realizarse mediante autorizaciones complementarias de circulación, que se regulan en el Reglamento General de Vehículos, conforme a las normas y condiciones de circulación que se establecen en el anexo III del presente reglamento.\n3. Las infracciones a las normas de este precepto serán sancionadas con arreglo a lo dispuesto en el artículo 67.2 del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:348bd41f1695d03fac872cabe43d1bbe039262298a9b4cd421b774a24c03ba8c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a13"
+}

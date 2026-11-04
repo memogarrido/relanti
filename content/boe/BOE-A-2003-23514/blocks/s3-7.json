@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-7",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Sección 3.ª Circulación de Vehículos Históricos",
+ "fingerprint": "sha256:efa811cdb3c44bfb8d709296617bf81d7474ade944a03bcc7d475820c11f342c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-7"
+}

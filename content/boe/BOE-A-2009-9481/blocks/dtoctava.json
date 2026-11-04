@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dtoctava",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria octava",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición transitoria octava. Límite de radio de acción para los permisos de conducción de las clases D1y D.\nEl límite de radio de acción de 50 kilómetros para los permisos de conducción de las clases D1 y D, establecido en el artículo 7.2 del Reglamento General de Conductores, aprobado por Real Decreto 772/1997, de 30 de mayo, aplicable a los permisos de conducción de esas clases obtenidos hasta el 10 de septiembre de 2008, así como el código nacional 101 a que se refiere la Orden INT/4151/2004, de 9 de diciembre, mediante el cual se consignará aquélla en el permiso de conducción, quedarán sin efecto a partir de la fecha señalada.",
+ "fingerprint": "sha256:5a7ec6b2691463fbf49ea4e7b33cdb45b2bb4641278d1ffbf85ec1676d403332",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dtoctava"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dasegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional segunda. No incremento de gasto público.\nLas medidas contenidas en esta norma se atenderán con los medios personales y materiales existentes y, en ningún caso, podrán generar incremento de gasto público.",
+ "fingerprint": "sha256:0cda04dae6986ba7dab7d3a27191830f1090ef7efa9d5a9118fc248316944c1f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dasegunda"
+}

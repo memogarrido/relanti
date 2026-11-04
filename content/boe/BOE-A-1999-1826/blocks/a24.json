@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a24",
+ "tipo": "precepto",
+ "titulo": "Artículo 24",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 24. Tranvías.\nLos dispositivos obligatorios de alumbrado, que se regulan en la reglamentación que se recoge en los anexos I y X, para los tranvías son los especificados a continuación:\nLuz de posición delantera.\nLuz de posición trasera.\nDispositivo luminoso delantero indicador del servicio.\nDispositivo luminoso trasero indicador del servicio.\nSi el tranvía llevase solamente una luz de posición delantera y una luz de posición trasera, estarán situadas en el plano longitudinal de simetría del vehículo.\nSi el tranvía llevase dos luces de posición delanteras y dos traseras, serán iguales y simétricas respecto al plano longitudinal de simetría del vehículo.",
+ "fingerprint": "sha256:154354b7d9b7ff8a99ae50dfd4c008f8071734da8e005321080530aae8a52205",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a24"
+}

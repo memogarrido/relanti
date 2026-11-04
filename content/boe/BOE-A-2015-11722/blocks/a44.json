@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a44",
+ "tipo": "precepto",
+ "titulo": "Artículo 44",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 44. Normas generales.\n1. El conductor está obligado a advertir al resto de los usuarios de la vía acerca de las maniobras que vaya a efectuar con su vehículo.\n2. Como norma general, dichas advertencias se harán utilizando la señalización luminosa del vehículo o, en su defecto, con el brazo, de acuerdo con lo que se determine reglamentariamente.\n3. Excepcionalmente o cuando así se prevea legal o reglamentariamente se podrán emplear señales acústicas, quedando prohibido su uso inmotivado o exagerado.\n4. Los vehículos de servicios de urgencia y otros vehículos especiales podrán utilizar otras señales ópticas y acústicas en los casos y en las condiciones que reglamentariamente se determinen.",
+ "fingerprint": "sha256:f23bd200f607c0f3a520dcedb039344bc7bba86d65055c5d41a316436a756d57",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a44"
+}

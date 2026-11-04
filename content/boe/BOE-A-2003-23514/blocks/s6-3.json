@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s6-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Sección 6.ª Tramos con obras o tareas de conservación",
+ "fingerprint": "sha256:62e74183f3b0e5295b219510f970d34adcac0b14367ba190621c8dd7c67a9074",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s6-3"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a26",
+ "tipo": "precepto",
+ "titulo": "Artículo 26",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 26. Cesión de paso e intersecciones.\n1. El conductor de un vehículo que tenga que ceder el paso a otro no debe iniciar o continuar su marcha o su maniobra, ni reemprenderlas, hasta asegurarse de que con ello no obliga al conductor del vehículo que tiene la preferencia a modificar bruscamente su trayectoria o su velocidad, y debe mostrar con suficiente antelación, por su forma de circular, y especialmente con la reducción paulatina de la velocidad, que efectivamente va a cederlo.\n2. Aun cuando tenga preferencia de paso, ningún conductor debe entrar con su vehículo en una intersección o en un paso para peatones si, previsiblemente, puede quedar detenido en ellos impidiendo u obstruyendo la circulación transversal.\n3. El conductor que tenga detenido su vehículo en una intersección regulada por semáforo, constituyendo un obstáculo para la circulación, debe salir de aquélla sin esperar a que se permita la circulación en la dirección que se propone tomar, siempre que al hacerlo no entorpezca la marcha de los demás usuarios que avancen en el sentido permitido.",
+ "fingerprint": "sha256:005eef1521ffd82d9c9fa03db51eac698eb6017b1ddc00d5b232a1207bd597e1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a26"
+}

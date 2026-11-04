@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "cii-4",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO II",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "CAPÍTULO II\nPreferencia entre señales",
+ "fingerprint": "sha256:05ac632fc82e21f8531202b9a37c1d44cd29373300f1477e6160f929b74fcf86",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#cii-4"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a99",
+ "tipo": "precepto",
+ "titulo": "Artículo 99",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 99. Alumbrados de posición y de gálibo.\n1. Todo vehículo que circule entre el ocaso y la salida del sol o bajo las condiciones a las que se refiere el artículo 106 y en el paso por túneles, pasos inferiores o tramos de vías afectados por la señal «Túnel» (S-5) deberá llevar encendidas las luces de posición y, si la anchura del vehículo excede de 2,10 metros, también la de gálibo.\n2. La circulación sin alumbrado en situaciones de falta o disminución de visibilidad tendrá la consideración de infracción grave, conforme se prevé en el artículo 65.4.e) del texto articulado.",
+ "fingerprint": "sha256:74e89063915f887fcf0f6ccc7ae6888de02bfc1bbd1c97115def041d9f81f1e9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a99"
+}

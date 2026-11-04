@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dfprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición final primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición final primera. Ejecución y desarrollo.\nSe faculta a los Ministros del Interior y de Industria y Energía para dictar o promover, por sí o conjuntamente con los titulares de los restantes Departamentos ministeriales afectados por razón de la materia, las disposiciones oportunas para la aplicación e interpretación de lo establecido en el presente Reglamento.",
+ "fingerprint": "sha256:57faad9f83a5ae3f0f6904346b13f18844ab002c27197a28c13dd744aae35cee",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dfprimera"
+}

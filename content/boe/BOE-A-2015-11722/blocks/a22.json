@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a22",
+ "tipo": "precepto",
+ "titulo": "Artículo 22",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 22. Distancias y velocidad exigible.\n1. Salvo en caso de inminente peligro, el conductor, para reducir considerablemente la velocidad de su vehículo, debe cerciorarse de que puede hacerlo sin riesgo para otros conductores y está obligado a advertirlo previamente y a realizarlo de forma que no produzca riesgo de colisión con los vehículos que circulan detrás del suyo, en los términos que reglamentariamente se determine.\n2. El conductor de un vehículo que circule detrás de otro debe dejar entre ambos un espacio libre que le permita detenerse, en caso de frenado brusco, sin colisionar con él, teniendo en cuenta especialmente la velocidad y las condiciones de adherencia y frenado. No obstante, se permite a los conductores de bicicletas circular en grupo sin mantener tal separación, poniendo en esta ocasión especial atención a fin de evitar alcances entre ellos.\n3. Además de lo dispuesto en el apartado anterior, la separación que debe guardar el conductor de un vehículo que circule detrás de otro sin señalar su propósito de adelantamiento debe ser tal que permita al que a su vez le siga adelantarlo con seguridad, excepto si se trata de ciclistas que circulan en grupo. Los vehículos con masa máxima superior a la que reglamentariamente se determine y los vehículos o conjuntos de vehículos de más de 10 metros de longitud total deben guardar, a estos efectos, una separación mínima de 50 metros.\n4. Lo dispuesto en el apartado anterior no es de aplicación:\na) En poblado.\nb) Donde esté prohibido el adelantamiento.\nc) Donde haya más de un carril destinado a la circulación en su mismo sentido.\nd) Cuando la intensidad de la circulación no permita el adelantamiento.\n5. Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, se hubiera autorizado por la autoridad competente.",
+ "fingerprint": "sha256:e60105a11d45189b2e0e80f459c123ede8abd59579b9f4a52b946f065fd37271",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a22"
+}

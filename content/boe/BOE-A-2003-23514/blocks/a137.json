@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a137",
+ "tipo": "precepto",
+ "titulo": "Artículo 137",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 137. Inscripciones.\n1. Para facilitar la interpretación de las señales, se podrá añadir una inscripción en un panel complementario rectangular colocado debajo de aquellas o en el interior de un panel rectangular que contenga la señal.\n2. Excepcionalmente, cuando las autoridades competentes estimen conveniente concretar el significado de una señal o de un símbolo o, respecto de las señales de reglamentación, limitar su alcance a ciertas categorías de usuarios de la vía o a determinados períodos, y no se pudieran dar las indicaciones necesarias por medio de un símbolo adicional o de cifras en las condiciones definidas en el Catálogo oficial de señales de la circulación y marcas viales, se colocará una inscripción debajo de la señal, en un panel complementario rectangular, sin perjuicio de la posibilidad de sustituir o completar esas inscripciones mediante uno o varios símbolos expresivos colocados en la misma placa.\nEn el caso de que la señal esté colocada en un cartel fijo o de mensaje variable, la inscripción a la que se hace referencia podrá ir situada junto a ella.",
+ "fingerprint": "sha256:1b879563568379178b4846b06d5bbd2eb0c394f0322a62b04b69c2f957b3dc32",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a137"
+}

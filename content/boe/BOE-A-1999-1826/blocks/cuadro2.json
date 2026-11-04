@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "cuadro2",
+ "tipo": "precepto",
+ "titulo": "Cuadro 2",
+ "versions": 4,
+ "latest": {
+  "id_norma": "BOE-A-2018-10856",
+  "fecha_publicacion": "20180731",
+  "fecha_vigencia": "20180801"
+ },
+ "text": "Cuadro 2\n1. Modelos de placas de matrícula ordinaria.",
+ "fingerprint": "sha256:c2feacf6849678466ae1db235c99dfee2af1fe759fb5ca701e6df1d74d0f9385",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#cuadro2"
+}

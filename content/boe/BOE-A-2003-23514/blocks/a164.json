@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a164",
+ "tipo": "precepto",
+ "titulo": "Artículo 164",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 164. Otras señales.\nOtras señales de indicación son las siguientes:\nS-900. Peligro de incendio. Advierte del peligro que representa encender un fuego.\nS-910. Extintor. Indica la situación de un extintor de incendios.\nS-920. Entrada a España. Indica que se ha entrado en territorio español por una carretera procedente de otro país.\nS-930. Confirmación del país. Indica el nombre del país hacia el que se dirige la carretera. La cifra en la parte inferior indica la distancia a la que se encuentra la frontera.\nS-940. Limitaciones de velocidad en España. Indica los límites genéricos de velocidad en las distintas clases de carreteras y en zona urbana en España.\nS-950. Radiofrecuencia de emisoras específicas de información sobre carreteras. Indica la frecuencia a que hay que conectar el receptor de radiofrecuencia para recibir información.\nS-960. Teléfono de emergencia. Indica la situación de un teléfono de emergencia.\nS-970. Apartadero. Indica la situación en un apartadero de un extintor de incendios y teléfono de emergencia.\nS-980. Salidas de emergencias. Indica la situación de una salida de emergencia.\nS-990. Cartel flecha indicativa señal de emergencia en túneles. Indica la dirección y distancia a una salida de emergencia.",
+ "fingerprint": "sha256:6deb615585e6775fbd2b22587b09da64606ee8356d16c7786c442b123c4aa081",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a164"
+}

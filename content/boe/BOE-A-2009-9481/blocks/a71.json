@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a71",
+ "tipo": "precepto",
+ "titulo": "Artículo 71",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 71. De las pruebas a realizar para prorrogar la vigencia de la autorización.\n1. Las normas establecidas en los artículos 63, 64 y 69 son igualmente aplicables a los conductores que, siendo titulares de una autorización administrativa especial en vigor, soliciten la prórroga de su vigencia por un nuevo período de cinco años.\n2. El nuevo período de vigencia de la autorización especial comenzará a partir de las fechas indicadas en el artículo 28.4.",
+ "fingerprint": "sha256:5f510b396901db35425ed5d6693f2c4fa20597b00732b04530c73965a1d334dd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a71"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a60",
+ "tipo": "precepto",
+ "titulo": "Artículo 60",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 60. Requisitos específicos.\nEn la realización de las pruebas de control de aptitudes y comportamientos para obtener permiso o licencia de conducción, según la clase de permiso o licencia solicitados, se utilizarán los vehículos que se establecen en el anexo VII. B).\nCuando la prueba venga impuesta en el correspondiente convenio de canje los vehículos deberán reunir los requisitos específicos que se establecen en el anexo VII. B).",
+ "fingerprint": "sha256:0e7d9e569d401ca5aa2b7b839b3e5644b9c941190c9db1a4ce2fb2567fde354a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a60"
+}

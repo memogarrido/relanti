@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "daprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional primera",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-24545",
+  "fecha_publicacion": "20251204",
+  "fecha_vigencia": "20251205"
+ },
+ "text": "Disposición adicional primera. Referencias normativas.\nLas referencias normativas efectuadas en otras disposiciones al texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo, se entenderán efectuadas a los preceptos correspondientes del texto refundido que se aprueba.\nEn particular las referencias al Consejo Superior de Trafico, Seguridad Vial y Movilidad Sostenible se entenderán realizadas al Consejo Superior de Tráfico y Seguridad Vial.",
+ "fingerprint": "sha256:b11b1c688630d3caf191bbf6212bc909ff9192c314d9b292e9900ef66ec1772b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#daprimera"
+}

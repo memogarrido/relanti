@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a11-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 11",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 11. Condición de los participantes.\nLos participantes que circulen fuera del espacio delimitado por los vehículos de señalización de inicio y fin de la prueba serán considerados usuarios normales de la vía, y no les será de aplicación esta normativa especial.",
+ "fingerprint": "sha256:be0f1dcdea9dba89b6c584f2e5ba3ca238367ab3bae2fe2a1567b40c4f9ad51f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a11-2"
+}

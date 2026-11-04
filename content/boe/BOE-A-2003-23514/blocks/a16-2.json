@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a16-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 16",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 16. Marchas ciclistas organizadas.\nLas normas establecidas en esta sección sólo regulan con carácter vinculante las marchas ciclistas organizadas.",
+ "fingerprint": "sha256:c619eb62fb1684dcd43cc662294451538572511b8f169837c555618f216dd587",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a16-2"
+}

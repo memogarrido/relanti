@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ti",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "TÍTULO I\nNormas generales de comportamiento en la circulación",
+ "fingerprint": "sha256:c7f9360dbf340507f494e7c41936ae9d2fc16e5013e2cac97ff927c1faf96a9a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ti"
+}

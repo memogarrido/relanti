@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a1",
+ "tipo": "precepto",
+ "titulo": "Artículo 1",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 1. Objeto.\n1. Esta Ley tiene por objeto regular el tráfico, la circulación de todos los vehículos y la seguridad vial.\n2. A tal efecto regula:\na) El ejercicio de las competencias que, de acuerdo con la Constitución Española y los estatutos de autonomía, corresponden en tales materias a la Administración General del Estado y a las comunidades autónomas que hayan recibido el traspaso de funciones y servicios en esta materia, así como la determinación de las que corresponden en todo caso a las entidades locales.\nb) Las normas de circulación para los vehículos, así como las que por razón de seguridad vial rigen para la circulación de peatones y animales por las vías de utilización general, estableciéndose a tal efecto los derechos y obligaciones de los usuarios de dichas vías.\nc) Los elementos de seguridad activa y pasiva y su régimen de utilización, así como las condiciones técnicas de los vehículos y de las actividades industriales que afectan de manera directa a la seguridad vial.\nd) Los criterios de señalización de las vías de utilización general.\ne) Las autorizaciones que, para garantizar la seguridad y fluidez de la circulación, otorga la Administración con carácter previo a la realización de actividades relacionadas con la circulación de vehículos, especialmente a motor, así como las medidas cautelares que adopte con el mismo fin.\nf) Las infracciones derivadas del incumplimiento de las normas establecidas y las sanciones aplicables a las mismas, así como el procedimiento sancionador en esta materia.",
+ "fingerprint": "sha256:eb50ba8032a735bc49d0006d122ea02f84621b30d903ad9f7ea28159f489f826",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a1"
+}

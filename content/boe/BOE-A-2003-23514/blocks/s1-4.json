@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-4",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Normas de prioridad en las intersecciones",
+ "fingerprint": "sha256:8b9459d4f4b4630c46ad5cdbd16f76033aaf50599c83b9eaaa4e1996e589b7ee",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-4"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "s1",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Sección 1.ª Transmisiones entre personas que no se dedican a la compraventa de vehículos",
+ "fingerprint": "sha256:8db28b325d4e1badac0ddf217a6d337d8ac49070258f91fe51780233cb97a41d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#s1"
+}

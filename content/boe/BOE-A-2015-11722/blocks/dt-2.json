@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dt-2",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria quinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición transitoria quinta. Consulta de las empresas de transporte y de las personas trabajadoras autónomas que tengan la condición de empleadoras sobre la habilitación para conducir de sus conductores profesionales.\nHasta que no se establezcan reglamentariamente los términos del acceso de las empresas dedicadas al transporte de personas o de mercancías y de las personas trabajadoras autónomas que tengan la condición de empleadoras, al sistema telemático del organismo autónomo Jefatura Central de Tráfico para conocer si sus conductores profesionales se encuentran legalmente habilitados para conducir podrán seguir consultando este dato conforme al procedimiento actual.",
+ "fingerprint": "sha256:cec3e99c2d6ed50a8e0474f358ce3a3a95546f375d050de81752463561248a0c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dt-2"
+}

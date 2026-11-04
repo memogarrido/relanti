@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dasegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición adicional segunda. Competencias de las Comunidades Autónomas.\nLo dispuesto en el presente Reglamento, de conformidad con lo establecido en el artículo 4 de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, se entenderá sin perjuicio de las competencias que tengan asumidas las Comunidades Autónomas a través de sus propios Estatutos.",
+ "fingerprint": "sha256:3f341b04a672c963a92348d6dcb4488b0d26c396d8ed9a1ea5a2bcf6834f11f7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dasegunda"
+}

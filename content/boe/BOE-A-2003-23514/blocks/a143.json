@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a143",
+ "tipo": "precepto",
+ "titulo": "Artículo 143",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 143. Tipos de semáforos.\n1. Los tipos de semáforos son:\na) Semáforos reservados para peatones.\nb) Semáforos circulares para vehículos.\nc) Semáforos cuadrados para vehículos, o de carril.\nd) Semáforos reservados a determinados vehículos.\n2. El significado de las luces de los distintos semáforos se regula en el apartado 4 del anexo I.",
+ "fingerprint": "sha256:9291f7f2aaf9f5c0003153f4cf2786957cf3f3566669155cece6b7bf9c6ed09a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a143"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a168",
+ "tipo": "precepto",
+ "titulo": "Artículo 168",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 168. Marcas blancas transversales.\nLa nomenclatura y significado de las marcas blancas transversales son los siguientes:\na) Marca transversal continua. Una línea continua, dispuesta a lo ancho de uno o varios carriles, es una línea de detención que indica que ningún vehículo o animal ni su carga debe franquearla en cumplimiento de la obligación impuesta por una señal horizontal o vertical de detención obligatoria, una señal de prohibición de pasar sin detenerse, un paso para peatones indicado por una marca vial, un semáforo o una señal de detención efectuada por un agente de la circulación o por la existencia de un paso a nivel o puente móvil.\nSi, por circunstancias excepcionales, desde el lugar donde se ha efectuado la detención no existe visibilidad suficiente, el conductor deberá detenerse de nuevo en el lugar desde donde tenga visibilidad, sin poner en peligro a ningún usuario de la vía.\nb) Marca transversal discontinua. Una línea discontinua dispuesta a lo ancho de uno o varios carriles es una línea de detención que indica que, salvo en circunstancias anormales que reduzcan la visibilidad, ningún vehículo o animal ni su carga deben franquearla, cuando tengan que ceder el paso, en cumplimiento de la obligación impuesta por una señal vertical u horizontal de «Ceda el paso», por una flecha verde de giro de un semáforo, o cuando no haya ninguna señal de prioridad por aplicación de las normas que rigen ésta.\nc) Marca de paso para peatones. Una serie de líneas de gran anchura, dispuestas sobre el pavimento de la calzada en bandas paralelas al eje de ésta y que forman un conjunto transversal a la calzada, indica un paso para peatones, donde los conductores de vehículos o animales deben dejarles paso. No podrán utilizarse líneas de otros colores que alternen con las blancas.\nd) Marca de paso para ciclistas. Una marca consistente en dos líneas transversales discontinuas y paralelas sobre la calzada indica un paso para ciclistas, donde éstos tienen preferencia.",
+ "fingerprint": "sha256:8c45acd23eb2b1d545d2202010b18ddba064e454e360e6ffa9a7c3729f4e9ac0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a168"
+}

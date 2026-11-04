@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a49",
+ "tipo": "precepto",
+ "titulo": "Artículo 49",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 49. Prueba de control de aptitudes y comportamientos en circulación en vías abiertas al tráfico general.\n1. Los aspirantes al permiso de conducción, excepto al de la clase AM, previamente a la realización de la prueba de control de aptitudes y comportamientos en circulación en vías abiertas al tráfico general, deberán demostrar, en cuanto sea compatible con el vehículo, que son capaces de prepararse para una conducción segura.\n2. Deberán efectuar obligatoriamente, con toda seguridad y con las precauciones necesarias, las operaciones indicadas en el anexo V. B). 4.\n3. En cada una de las situaciones de conducción, deberán demostrar soltura en el manejo de los diferentes mandos del vehículo y dominio para introducirse en la circulación con total seguridad.\nA lo largo de la prueba, deberán dar una impresión de seguridad. Los errores de conducción o un comportamiento peligroso que amenace la seguridad del vehículo de examen, sus pasajeros u otros usuarios de la vía, tanto si es necesaria como si no la intervención del examinador o acompañante, será causa suficiente para interrumpir la prueba y calificar su falta de aptitud. No obstante, el examinador podrá decidir la continuación de la prueba hasta que la detención del vehículo se pueda realizar de forma segura.\n4. Deberán, asimismo, mostrar un comportamiento prudente y cortés. Éste es un reflejo de la forma de conducir considerada en su globalidad que el examinador debe tener en cuenta para hacerse una idea general de su preparación. Será un criterio positivo una conducción flexible y dispuesta, aparte de segura, que tenga en cuenta las condiciones meteorológicas y de la vía pública, de los demás vehículos, los intereses de los demás usuarios de aquélla, especialmente de los más vulnerables, y una capacidad de anticipación.",
+ "fingerprint": "sha256:3863b0326a2cd23ecf358f004765c00dcb5388d821d6cc3817b5adae112a7921",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a49"
+}

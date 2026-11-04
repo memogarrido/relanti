@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a38",
+ "tipo": "precepto",
+ "titulo": "Artículo 38",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 38. Rehabilitación de los vehículos que han causado baja definitiva.\nEl titular o tercera persona que acredite suficientemente la propiedad de un vehículo que haya causado baja definitiva en el Registro podrá obtener de nuevo el permiso o licencia de circulación cuando lo solicite de la Jefatura de Tráfico de la provincia de su domicilio legal o de aquella en que fue matriculado el vehículo, acompañando los documentos que se indican en el anexo XV y siempre que el vehículo sea declarado apto para circular por el órgano competente en materia de Industria, previo reconocimiento del mismo dirigido a verificar que reúne las condiciones técnicas previstas en el presente Reglamento. La Jefatura de Tráfico que expida el permiso o licencia de circulación lo comunicará al Ayuntamiento del domicilio legal del titular del vehículo.",
+ "fingerprint": "sha256:3aa3e48cc4ae70382d8d7dc3a2c9c3e1dd962886056eac0575b3a8b0cbe24f14",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a38"
+}

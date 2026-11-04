@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a171",
+ "tipo": "precepto",
+ "titulo": "Artículo 171",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 171. Marcas de otros colores.\nLa nomenclatura y significado de marcas de otros colores son los siguientes:\na) Marca amarilla zigzag. Indica el lugar de la calzada en que el estacionamiento está prohibido a los vehículos en general, por estar reservado para algún uso especial que no implique larga permanencia de ningún vehículo. Generalmente se utilizará en zonas de parada (no estacionamiento) de autobuses o destinadas a la carga y descarga de vehículos.\nb) Marca amarilla longitudinal continua. Una línea continua de color amarillo, en el bordillo o junto al borde de la calzada, significa que la parada y el estacionamiento están prohibidos o sometidos a alguna restricción temporal, indicada por señales, en toda la longitud de la línea y en el lado en que esté dispuesta.\nc) Marca amarilla longitudinal discontinua. Una línea discontinua de color amarillo, en el bordillo o junto al borde de la calzada, significa que el estacionamiento está prohibido o sometido a alguna restricción temporal, indicada por señales, en toda la longitud de la línea y en el lado en que esté dispuesta.\nd) Cuadrícula de marcas amarillas. Un conjunto de líneas amarillas entrecruzadas recuerda a los conductores la prohibición establecida en el artículo 59.1.\ne) Damero blanco y rojo. Una cuadrícula de marcas blancas y rojas indica el lugar donde empieza una zona de frenado de emergencia y prohíbe la parada, el estacionamiento o la utilización de esta parte de la calzada con otros fines.\nf) Marcas azules. Las marcas que delimitan los lugares en que el estacionamiento está permitido, que sean de color azul en lugar del normal color blanco, indican que, en ciertos periodos del día, la duración del estacionamiento autorizado está limitada.",
+ "fingerprint": "sha256:801f69c7fb0855c618d191128301b359af85c0fc0be3203bd3dc409d06131ee9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a171"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dttercera",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición transitoria tercera. Límites de velocidad para vehículos de tres ruedas asimilados a motocicletas.\nHasta que se modifique el Reglamento General de Circulación, aprobado por el Real Decreto 1428/2003, de 21 de noviembre, y se fijen los límites de velocidad para los vehículos de tres ruedas asimilados a las motocicletas, estos vehículos tendrán los mismos límites de velocidad que se establecen en dicho Reglamento para las motocicletas de dos ruedas.",
+ "fingerprint": "sha256:7e04fdf9a13cdb3a5b19d3fbee49bcc38f825e36a9136245579ae2f8130830ea",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dttercera"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a156",
+ "tipo": "precepto",
+ "titulo": "Artículo 156",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 156. Señales de fin de prohibición o restricción.\nLa nomenclatura y significado de las señales de fin de prohibición o restricción son los siguientes:\nR-500. Fin de prohibiciones. Señala el lugar desde el que todas las prohibiciones específicas indicadas por anteriores señales de prohibición para vehículos en movimiento dejan de tener aplicación.\nR-501. Fin de la limitación de velocidad. Señala el lugar desde donde deja de ser aplicable una anterior señal de velocidad máxima.\nR-502. Fin de la prohibición de adelantamiento. Señala el lugar desde donde deja de ser aplicable una anterior señal de adelantamiento prohibido.\nR-503. Fin de la prohibición de adelantamiento para camiones. Señala el lugar desde donde deja de ser aplicable una anterior señal de adelantamiento prohibido para camiones.\nR-504. Fin de zona de estacionamiento limitado. Señala el lugar desde donde deja de ser aplicable una anterior señal de zona de estacionamiento limitado.\nR-505. Fin de vía reservada para ciclos. Señala el lugar desde donde deja de ser aplicable una anterior señal de vía reservada para ciclos.\nR-506. Fin de velocidad mínima. Señala el lugar desde donde deja de ser aplicable una anterior señal de velocidad mínima.",
+ "fingerprint": "sha256:544a61df4227d0356eafbc51ecea2827b22b7830a61ea650af00b8e8b47ee79c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a156"
+}

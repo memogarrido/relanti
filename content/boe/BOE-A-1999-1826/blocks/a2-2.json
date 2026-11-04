@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a2-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 22 bis",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-2140",
+  "fecha_publicacion": "20260130",
+  "fecha_vigencia": "20260130"
+ },
+ "text": "Artículo 22 bis. Vehículos de movilidad personal.\n1. Los vehículos de movilidad personal quedan exceptuados de obtener la autorización administrativa a la que hace referencia el apartado 1 del artículo 1.\n2. Para poder circular, los vehículos de movilidad personal deberán:\na) Disponer del certificado de circulación que garantice el cumplimiento de los requisitos técnicos exigibles por la normativa nacional e internacional y, específicamente, de los requisitos técnicos regulados en el anexo XXI.\nb) Inscribirse en el Registro Nacional de Vehículos, en su sección de Registro de Vehículos Personales Ligeros, de acuerdo con lo previsto en el anexo XX\nc) Disponer y exhibir reglamentariamente la etiqueta identificativa prevista en el anexo XX y la placa de marcaje de fabricante contemplada en el anexo XXI.",
+ "fingerprint": "sha256:18008c7d62b01ee229d24918d9f79763d99f0c102804457edb5be6d2db50a199",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a2-2"
+}

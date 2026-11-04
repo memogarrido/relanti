@@ -1,0 +1,52 @@
+# Trucos de Turbo: one idea, at most two lines. kind: reading | memory | novedad.
+trucos:
+  - id: T-SE-101
+    kind: memory
+    title: De la persona al suelo
+    body: "Primero la persona, luego lo provisional, la luz, el poste y el suelo: agente, obras, semáforo, señal vertical y marca vial."
+    source: {law: RGC, block: a133, ref: art. 133 RGC}
+  - id: T-PR-101
+    kind: memory
+    title: Mira a tu derecha
+    body: "Sin señales, pasa quien viene por tu derecha. Excepciones: asfalto sobre tierra, raíles, glorieta y autopista."
+    source: {law: RGC, block: a57, ref: art. 57 RGC}
+  - id: T-PR-102
+    kind: memory
+    title: Dentro manda
+    body: "En la glorieta y en la autopista, quien ya está dentro pasa primero. Tú entras cuando haya hueco."
+    source: {law: RGC, block: a57, ref: art. 57.1.c) y d) RGC}
+  - id: T-VE-101
+    kind: memory
+    title: Tres cifras de autopista
+    body: "En autopista: turismo {fact:vmax.turismo.autopista}, autobús {fact:vmax.autobus.autopista}, camión {fact:vmax.camion.autopista}. En convencional, turismo y autobús {fact:vmax.turismo.convencional}; camión {fact:vmax.camion.convencional}."
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC}
+  - id: T-VE-102
+    kind: memory
+    title: Cuenta carriles
+    body: "En ciudad cuenta carriles por sentido: plataforma única {fact:vmax.urbana.plataforma-unica}, uno {fact:vmax.urbana.un-carril}, dos o más {fact:vmax.urbana.dos-carriles}. El carril bus no cuenta."
+    source: {law: RGC, block: a50, ref: art. 50.1 RGC}
+  - id: T-VE-103
+    kind: reading
+    title: El límite es un techo
+    body: "Si la pregunta habla de lluvia, niebla o niños, la respuesta casi nunca es el límite: es ir más despacio."
+    source: {law: RGC, block: a46, ref: art. 46 RGC}
+  - id: T-FH-101
+    kind: memory
+    title: En aire, la mitad
+    body: "La cifra en aire es la mitad que en sangre: {fact:alcohol.general.sangre} → {fact:alcohol.general.aire}. Noveles y profesionales: {fact:alcohol.especial.sangre} → {fact:alcohol.especial.aire}."
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+  - id: T-FH-102
+    kind: reading
+    title: Manos libres de verdad
+    body: "Sin manos y sin auriculares, sí. Con el móvil en la mano son {fact:puntos.movil-mano} menos."
+    source: {law: RGC, block: a18, ref: art. 18.2 RGC}
+  - id: T-PS-101
+    kind: memory
+    title: "135 y detrás"
+    body: "Hasta {fact:sri.estatura}, silla homologada y asiento trasero. Delante solo en tres casos, y si mira hacia atrás, sin airbag."
+    source: {law: RGC, block: a117, ref: art. 117 RGC}
+  - id: T-PP-101
+    kind: memory
+    title: "8, 12, 15"
+    body: "Empiezas con {fact:puntos.novel}, a los {fact:puntos.recuperar.anos} limpios tienes {fact:puntos.inicial} y el techo es {fact:puntos.maximo}."
+    source: {law: LSV, block: a65, ref: arts. 63 y 65 LSV}

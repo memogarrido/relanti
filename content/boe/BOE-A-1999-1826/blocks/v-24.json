@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-24",
+ "tipo": "precepto",
+ "titulo": "V-24",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2022-21683",
+  "fecha_publicacion": "20221221",
+  "fecha_vigencia": "20221222"
+ },
+ "text": "V-24 VEHÍCULO DE SERVICIO DE AUXILIO EN VÍAS PÚBLICAS\nLa señal V-24 estará constituida por los siguientes elementos:\na) Una placa en el vehículo de auxilio ubicada en la parte frontal o posterior del mismo, según la configuración del vehículo. Será de material plástico o metálico de alta resistencia según el diseño y características que se indican a continuación:\nPlaca de vehículo de servicio de auxilio en vías públicas\nLÁMINA REFLECTANTE | Color Blanco NIVEL II\nMATERIAL DEL SUSTRATO | Placa Soporte: Plancha de aluminio de 1,4 mm Aleación 1200 H14 y/o H24 Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes, teniendo en cuenta su estabilidad temporal\nCARACTERES Y TINTAS | Tipo de tinta: Negro mate y Azul mate\nBORDÓN | Exteriormente a la superficie reflectante y en todo su contorno, las placas llevarán un reborde (bordón) según la figura 1\nb) Opcionalmente, una señal acústica a través de un aparato emisor de señales acústicas especiales. El sonido y tono de la señal acústica será por defecto tritonal discontinua tipo bip-bip-bip.\nLos aparatos emisores de señales acústicas deberán cumplir lo dispuesto en el Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas.",
+ "fingerprint": "sha256:c4d78d42417981943eda1e6dc32d02c3c555c556f7cc8af7e3783f79721ab5c1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-24"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a9",
+ "tipo": "precepto",
+ "titulo": "Artículo 9",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-24545",
+  "fecha_publicacion": "20251204",
+  "fecha_vigencia": "20251205"
+ },
+ "text": "Artículo 9. Conferencia Sectorial de Tráfico y Seguridad Vial.\n1. Se crea la Conferencia Sectorial de Tráfico y Seguridad Vial como órgano de cooperación entre la Administración General del Estado y las Administraciones de las comunidades autónomas que hayan asumido competencias para la protección de personas y bienes y el mantenimiento del orden público y que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor. La conferencia sectorial desarrollará una actuación coordinada en esta materia, con atención a los principios de lealtad institucional y respeto recíproco en el ejercicio de las competencias atribuidas a dichas Administraciones.\n2. La conferencia sectorial aprobará su reglamento interno, que regulará su organización y funcionamiento.",
+ "fingerprint": "sha256:3d04e2ef828803a6313bd9ca9bce50de04bc6966f623e88fe6c0726ab00bd3cf",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a9"
+}

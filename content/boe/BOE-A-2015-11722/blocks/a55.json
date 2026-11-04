@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a55",
+ "tipo": "precepto",
+ "titulo": "Artículo 55",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 55. Formato.\n1. Reglamentariamente se establecerá el Catálogo Oficial de Señales de la Circulación y Marcas Viales, de acuerdo con las reglamentaciones y recomendaciones internacionales en la materia.\n2. Dicho Catálogo especificará necesariamente la forma, color, diseño y significado de las señales, así como las dimensiones de las mismas en función de cada tipo de vía y sus sistemas de colocación.\n3. Las señales y marcas viales deberán cumplir las especificaciones que reglamentariamente se establezca.",
+ "fingerprint": "sha256:f74f6d18c26ec3f815e74e6a8886b8dabf835e032d85f253ddc4279063c60df7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a55"
+}

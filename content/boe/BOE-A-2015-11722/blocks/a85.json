@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a85",
+ "tipo": "precepto",
+ "titulo": "Artículo 85",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2022-14965",
+  "fecha_publicacion": "20220914",
+  "fecha_vigencia": "20220915"
+ },
+ "text": "Artículo 85. Actuaciones administrativas y jurisdiccionales penales.\n1. Cuando en un procedimiento sancionador se ponga de manifiesto un hecho que ofrezca indicios de delito perseguible de oficio, la autoridad administrativa lo pondrá en conocimiento del Ministerio Fiscal, por si procede el ejercicio de la acción penal, y acordará la suspensión de las actuaciones.\nEn todo caso, cuando se produzca un accidente de tráfico con resultado de lesión o muerte, la autoridad administrativa lo pondrá en conocimiento de la autoridad judicial, acompañando la comunicación del oportuno atestado.\n2. Concluido el proceso penal con sentencia condenatoria, se archivará el procedimiento sancionador sin declaración de responsabilidad.\n3. Si la sentencia es absolutoria o el procedimiento penal finaliza con otra resolución que le ponga fin sin declaración de responsabilidad, y siempre que la misma no esté fundada en la inexistencia del hecho, se podrá iniciar o continuar el procedimiento sancionador contra quien no haya sido condenado en vía penal.\nLa resolución que se dicte deberá respetar, en todo caso, la declaración de hechos probados en dicho procedimiento penal.",
+ "fingerprint": "sha256:68e517ca98edb78589a07b0c19caa2386ae6f8de8f064a76f014942679c01852",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a85"
+}

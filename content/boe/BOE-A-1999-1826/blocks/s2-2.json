@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "s2-2",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Sección 2.ª Permisos temporales para uso de empresas o entidades relacionadas con el vehículo",
+ "fingerprint": "sha256:dca80573116fb719a1296df8fb36d7af56dec0a71ce1260bead9fbb1c7881580",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#s2-2"
+}

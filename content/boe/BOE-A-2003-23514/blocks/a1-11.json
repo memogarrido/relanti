@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-11",
+ "tipo": "precepto",
+ "titulo": "Artículo 158",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 158. Caminos escolares seguros y otras medidas de protección a usuarios vulnerables.\n1. Los Ayuntamientos, o los titulares de las vías cuando sean competentes, podrán establecer caminos o zonas escolares seguros en los entornos escolares, implementando medidas de reducción de velocidad, calmado del tráfico o restricciones a los vehículos a motor y ciclomotores.\n2. En las proximidades de centros escolares, centros hospitalarios, centros de personas mayores o con discapacidad, o similares, se implementarán medidas específicas sobre limitaciones de velocidad, estacionamiento y cualquier otra destinada al calmado del tráfico que aumente el nivel de seguridad de los usuarios vulnerables, bien adoptando las medidas oportunas de ordenación viaria y regulación del tráfico o de acuerdo con lo que establezcan las ordenanzas municipales.",
+ "fingerprint": "sha256:81d204156e7f4af2854a79c50cff903f880d73de55c4e662c85b69b8380f55d6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-11"
+}

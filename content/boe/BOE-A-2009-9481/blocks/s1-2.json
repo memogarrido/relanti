@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s1-2",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 1.ª De la autorización especial para conducir vehículos que transporten mercancías peligrosas",
+ "fingerprint": "sha256:fe6bd255307e45e1b5d765b65ec074b9a4097d0fd0dc038119e7bd2c701a5e2c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s1-2"
+}

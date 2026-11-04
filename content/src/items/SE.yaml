@@ -1,0 +1,58 @@
+# Villaseñal.
+items:
+  # SE-101 Prioridad entre señales y agentes
+  - id: SE-101-01
+    question: ¿Qué tiene preferencia sobre cualquier otra señal de circulación?
+    correct: Las señales y órdenes de los agentes de tráfico
+    wrong: ["Los semáforos", "Las señales verticales"]
+    explanation: Lo primero son los agentes; luego la señalización circunstancial, los semáforos, las señales verticales y las marcas viales.
+    source: {law: RGC, block: a133, ref: art. 133.1 RGC}
+  - id: SE-101-02
+    question: En un cruce hay un semáforo en verde y, en el mismo poste, una señal de stop. ¿Qué obedeces?
+    correct: El semáforo
+    wrong: ["La señal de stop", "La que me parezca más prudente"]
+    explanation: Los semáforos van por delante de las señales verticales en el orden de preferencia.
+    source: {law: RGC, block: a133, ref: art. 133.1 RGC}
+  - id: SE-101-03
+    question: Una marca vial en el suelo y una señal vertical dicen cosas distintas. ¿Cuál prevalece?
+    correct: La señal vertical
+    wrong: ["La marca vial", "Ninguna, decide el conductor"]
+    explanation: Las marcas viales son lo último del orden de preferencia; la señal vertical va antes.
+    source: {law: RGC, block: a133, ref: art. 133.1 RGC}
+  - id: SE-101-04
+    question: Por unas obras, una señal circunstancial te indica algo distinto de lo que marca un semáforo. ¿Qué haces?
+    correct: Sigo la señalización circunstancial de las obras
+    wrong: ["Sigo el semáforo", "Sigo las marcas viales"]
+    explanation: La señalización circunstancial que cambia el uso normal de la vía va antes que los semáforos.
+    source: {law: RGC, block: a133, ref: art. 133.1.b) RGC}
+  - id: SE-101-05
+    question: Dos señales verticales parecen contradecirse. ¿Cuál cumples?
+    correct: La más restrictiva
+    wrong: ["La que esté más cerca", "La más permisiva"]
+    explanation: Entre señales del mismo tipo que se contradicen, manda la más restrictiva.
+    source: {law: RGC, block: a133, ref: art. 133.2 RGC}
+  - id: SE-101-06
+    question: ¿Cuál es el orden de preferencia correcto de las señales, de más a menos importante?
+    correct: Agentes, señalización circunstancial, semáforos, señales verticales y marcas viales
+    wrong: ["Semáforos, agentes, señales verticales, marcas viales y señalización circunstancial", "Agentes, semáforos, marcas viales, señales verticales y señalización circunstancial"]
+    explanation: Agentes, circunstancial y balizamiento, semáforos, verticales y, por último, marcas viales.
+    source: {law: RGC, block: a133, ref: art. 133.1 RGC}
+    truco: T-SE-101
+  - id: SE-101-07
+    question: Un agente te ordena detenerte en un cruce donde tienes el semáforo en verde. ¿Qué haces?
+    correct: Me detengo
+    wrong: ["Sigo, porque tengo el verde", "Sigo si no hay peatones cruzando"]
+    explanation: En un cruce regulado por un agente, te detienes cuando él lo ordena, aunque el semáforo diga otra cosa.
+    source: {law: RGC, block: a56, ref: art. 56.2 RGC}
+  - id: SE-101-08
+    question: Un coche de policía se coloca detrás de ti con las señales especiales y una luz roja intermitente hacia delante. ¿Qué haces?
+    correct: Me detengo con precaución a la derecha, delante del coche policial, y me quedo dentro
+    wrong: ["Me aparto a la derecha y sigo circulando", "Me detengo y salgo del coche para hablar con el agente"]
+    explanation: Esa luz roja hacia delante te pide parar a la derecha, delante de la policía, sin salir del vehículo.
+    source: {law: RGC, block: a69, ref: art. 69 RGC}
+  - id: SE-101-09
+    question: ¿Deben cumplir las órdenes de los agentes los vehículos prioritarios en servicio urgente?
+    correct: Sí, siempre
+    wrong: ["No, en servicio urgente quedan exentos", "Solo si circulan por poblado"]
+    explanation: Los prioritarios pueden saltarse otras normas con cuidado, pero las órdenes y señales de los agentes son siempre obligatorias.
+    source: {law: RGC, block: a68, ref: art. 68.1 RGC, quote: ["salvo las órdenes y señales de los agentes, que son siempre de obligado cumplimiento"]}

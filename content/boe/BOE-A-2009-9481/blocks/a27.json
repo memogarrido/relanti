@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a27",
+ "tipo": "precepto",
+ "titulo": "Artículo 27",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 27. Solicitud de la autorización especial y documentación a presentar.\n1. La expedición de la autorización especial se solicitará de la Jefatura Provincial de Tráfico en la que se desee obtener, en el modelo oficial suscrito por el interesado, acompañada de los documentos que se indican en el anexo III.\n2. La Jefatura Provincial de Tráfico a la que se dirija la solicitud, previas las actuaciones que en cada caso procedan y superadas las pruebas y ejercicios que correspondan, concederá o denegará lo solicitado, circunstancia que se hará constar en el Registro de conductores e infractores.\n3. La autorización especial se expedirá conforme al modelo que se recoge en el anexo II.",
+ "fingerprint": "sha256:7449e59de3137bf5b97018d10602b594f5b0a66b9eb2a76f2109dec70e1be3cc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a27"
+}

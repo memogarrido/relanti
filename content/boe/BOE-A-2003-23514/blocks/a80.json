@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a80",
+ "tipo": "precepto",
+ "titulo": "Artículo 80",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 80. Normas generales.\n1. Se prohíbe circular hacia atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha, y en las maniobras complementarias de otra que la exija, y siempre con el recorrido mínimo indispensable para efectuarla (artículo 31.1 del texto articulado).\n2. El recorrido hacia atrás, como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, no podrá ser superior a 15 metros ni invadir un cruce de vías.\n3. Se prohíbe la maniobra de marcha atrás en autovías y autopistas (artículo 31.3 del texto articulado).\n4. Las infracciones a las normas de este precepto, cuando constituyan un supuesto de circulación en sentido contrario al estipulado, tendrá la consideración de muy graves, conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:3af224ddb01da91705cfa8f115ee7057c1333a40f789c850910b14fa4d746199",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a80"
+}

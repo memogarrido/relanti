@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dtprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición transitoria primera. Régimen de vehículos sometidos a la normativa anterior.\nLos vehículos matriculados o puestos en circulación con anterioridad a la entrada en vigor del presente Reglamento podrán seguir circulando bajo las mismas condiciones técnicas con que fueron admitidos para su matriculación o puesta en circulación.",
+ "fingerprint": "sha256:e3832701f9a9731b35803269f3ce41fb36e1fcf9434ce0ac7fa25fed59dd1a54",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dtprimera"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a10-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 10",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 10. Servicios sanitarios.\n1. La organización dispondrá la existencia durante la celebración de la actividad de la presencia obligatoria, como mínimo, de una ambulancia y de un médico para la asistencia de todos los participantes, sin perjuicio de su ampliación con más personal sanitario en la medida que se estime necesario.\n2. En las pruebas cuya participación supere los 750 deportistas, se contará con un mínimo de dos médicos, dos socorristas y dos ambulancias, y deberá añadirse, como mínimo, una ambulancia y un médico por cada fracción suplementaria de 1.000 participantes.",
+ "fingerprint": "sha256:9ea7af9b4eb70c8311e4dcab3c32ebfe58e0c185a3f5dc10f59f00b94b8b2cae",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a10-2"
+}

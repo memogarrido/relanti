@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "ti",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "TÍTULO I\nDe las autorizaciones administrativas para conducir",
+ "fingerprint": "sha256:fd0630cb8b1796d317565c493a87461e0d1511063f1857fa37b69fd9d8f65cd7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#ti"
+}

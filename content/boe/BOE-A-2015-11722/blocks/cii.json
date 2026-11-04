@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "cii",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO II",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-24545",
+  "fecha_publicacion": "20251204",
+  "fecha_vigencia": "20251205"
+ },
+ "text": "CAPÍTULO II\nConsejo Superior de Tráfico y Seguridad Vial",
+ "fingerprint": "sha256:f01f4836c2320b214647e53a8ad3f3b4d3fa5eb6999bdbbd91f3ab71dd7cfc1d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#cii"
+}

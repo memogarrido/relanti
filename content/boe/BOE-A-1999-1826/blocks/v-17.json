@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-17",
+ "tipo": "precepto",
+ "titulo": "V-17",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "V-17. ALUMBRADO INDICADOR DE «LIBRE»\n1. Indica que los autotaxis circulan en condiciones de ser alquilados.\n2. Esta señal consistirá en una luz de color verde, homologada conforme a la reglamentación vigente que se recoge en el anexo I, no deslumbrante, colocada al exterior del vehículo y en su parte delantera derecha, en el sentido de la marcha.\nDeberá ser visible tanto desde la parte delantera como desde la trasera y, al menos, desde el lado derecho del vehículo en el sentido de la marcha.\n3. Además del alumbrado indicador de libre, los autotaxis podrán llevar colocada en el exterior y en su parte delantera un indicador luminoso de tarifas múltiples, claramente visible tanto de noche como de día, conforme a lo prescrito en la reglamentación vigente.",
+ "fingerprint": "sha256:1db688b5f0a81124e16d0794b3a61ea0fb8c67be12c46a6b0e9f6e076ee5b037",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-17"
+}

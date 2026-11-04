@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a49",
+ "tipo": "precepto",
+ "titulo": "Artículo 49",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 49. Peatones.\n1. El peatón debe transitar por la zona peatonal, salvo cuando ésta no exista o no sea practicable, en cuyo caso podrá hacerlo por el arcén o, en su defecto, por la calzada, en los términos que reglamentariamente se determine.\n2. Fuera de poblado, y en tramos de poblado incluidos en el desarrollo de una carretera que no dispongan de espacio especialmente reservado para peatones, siempre que sea posible, la circulación de los mismos se hará por su izquierda.\n3. Salvo en los casos y en las condiciones que reglamentariamente se determinen, queda prohibida la circulación de peatones por autopistas y autovías.",
+ "fingerprint": "sha256:1ea94675623baecf75af688f5f89fa02317510b65590770ab5f48cfff9a6dcee",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a49"
+}

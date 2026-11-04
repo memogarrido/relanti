@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "s1-2",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Sección 1.ª Permisos temporales para particulares",
+ "fingerprint": "sha256:aff9b759634d6f1c1d30dab22b7a0e44bc356496bd6918193b46b3774b019844",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#s1-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a52",
+ "tipo": "precepto",
+ "titulo": "Artículo 52",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 52. Forma de realizar las pruebas de control de conocimientos.\n1. Las pruebas de control de conocimientos se harán de modo que se garantice que el aspirante posee los conocimientos adecuados. Con carácter general, se realizarán por procedimientos informáticos.\nEl aspirante seleccionará las respuestas que considere correctas entre las propuestas para cada pregunta.\n2. El número de preguntas planteadas y de posibles respuestas correctas serán los que se indican en el anexo VI. B). 1.",
+ "fingerprint": "sha256:5f65dd3ee3f2906de1fc2893985afb0059b55516010c7cdd29eaede4be9fefcb",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a52"
+}

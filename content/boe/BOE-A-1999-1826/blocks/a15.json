@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a15",
+ "tipo": "precepto",
+ "titulo": "Artículo 15",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 15. Condiciones técnicas de los dispositivos de alumbrado y señalización óptica.\n1. Las luces y dispositivos reflectantes que, siendo dobles, tengan la misma finalidad, se corresponderán en color e intensidad y estarán situadas simétricamente, a ser posible, a la misma distancia de los bordes del vehículo.\n2. Ninguna luz instalada en un vehículo será intermitente o de intensidad variable, a excepción de las indicadas en la reglamentación que se recoge en el anexo I.\n3. Las luces posteriores de posición deberán encenderse automáticamente siempre que el vehículo tenga encendidas cualquiera de las de carretera, cruce, delanteras de posición, placa posterior de matrícula o las antiniebla.\nLas luces antiniebla traseras sólo podrán encenderse cuando lo estén también las de carretera, las de cruce o las antiniebla delanteras.\nLas luces de posición delanteras deben estar encendidas siempre que lo estén las de cruce, las de carretera o las antiniebla delanteras.\nEstas condiciones no se imponen para las luces de cruce o las de carretera cuando se utilizan para dar avisos luminosos.\n4. Todos los dispositivos de alumbrado y de señalización óptica de los vehículos de motor y remolcados deberán cumplir las exigencias especificadas en la reglamentación que se recoge en el anexo I.\n5. No se instalarán en los vehículos más luces que las autorizadas en el presente Reglamento, prohibiéndose expresamente el uso de pinturas o dispositivos luminosos o reflectantes no autorizados, salvo en los supuestos y condiciones previstos en la reglamentación que se recoge en los anexos I y XI.\nLa Jefatura Central de Tráfico podrá autorizar temporalmente, para la circulación dentro del territorio nacional y previo informe del órgano competente en materia de homologación de vehículos, la instalación de dispositivos o materiales retrorreflectantes en los vehículos ya matriculados con la finalidad de experimentar mejoras en la seguridad vial. Dicho informe tendrá por objeto comprobar su adecuación a la normativa nacional e internacional en la materia y amparará todas las autorizaciones que se concedan sobre dispositivos o materiasles retrorreflectantes que posean las mismas condiciones técnicas.",
+ "fingerprint": "sha256:9bb15124c7f4f45d8a9496e4a45d7676964e300b8a2af3973cad6885f2b7445b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a15"
+}

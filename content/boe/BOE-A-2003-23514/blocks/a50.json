@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a50",
+ "tipo": "precepto",
+ "titulo": "Artículo 50",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2020-13969",
+  "fecha_publicacion": "20201111",
+  "fecha_vigencia": "20210511"
+ },
+ "text": "Artículo 50. Límites de velocidad en vías urbanas y travesías.\n1. El límite genérico de velocidad en vías urbanas será de:\na) 20 km/h en vías que dispongan de plataforma única de calzada y acera.\nb) 30 km/h en vías de un único carril por sentido de circulación.\nc) 50 km/h en vías de dos o más carriles por sentido de circulación.\nA estos efectos, los carriles reservados para la circulación de determinados usuarios o uso exclusivo de transporte público no serán contabilizados.\n2. Las velocidades genéricas establecidas podrán ser rebajadas previa señalización específica, por la Autoridad municipal.\n3. Excepcionalmente, la Autoridad Municipal podrá aumentar la velocidad en vías de un único carril por sentido hasta una velocidad máxima de 50 km/h, previa señalización específica.\n4. En las vías urbanas a las que se refiere el apartado 1 c) y en travesías, los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h.\n5. El límite genérico de velocidad en travesías es de 50 km/h para todo tipo de vehículos. Este límite podrá ser rebajado por acuerdo de la Autoridad Municipal con el titular de la vía, previa señalización especifica.\n6. El límite genérico de velocidad en autopistas y autovías que transcurren dentro de poblado será de 80 km/h, no obstante podrá ser ampliados por acuerdo de la Autoridad Municipal y el titular de la vía, previa señalización específica, sin rebasar en ningún caso los límites genéricos establecidos para dichas vías fuera de poblado.\n7. Las autoridades municipales y titulares de la vía podrán adoptar las medidas necesarias para lograr el calmado del tráfico y facilitar la percepción de los límites de velocidad establecidos.\n8. Las infracciones a las normas de este precepto tendrán la consideración de graves conforme se prevé en el artículo 76. a), salvo que tengan la consideración de muy graves, de conformidad con lo dispuesto en el artículo 77.a), ambos del texto refundido de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:3203be5d80daa454d9025744faec651bfa3fa8a07a2be9979589963af44ae0f5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a50"
+}

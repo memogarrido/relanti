@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a110",
+ "tipo": "precepto",
+ "titulo": "Artículo 110",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 110. Cobro de multas.\n1. Una vez firme la sanción, el interesado dispondrá de un plazo final de quince días naturales para el pago de la multa. Finalizado el plazo establecido sin que se haya pagado la multa, se iniciará el procedimiento de apremio.\n2. Los órganos y procedimientos de la recaudación ejecutiva serán los establecidos en la normativa tributaria que le sea de aplicación, según las autoridades que las hayan impuesto.",
+ "fingerprint": "sha256:8a3b4793dc97dd5e3541756b733c75136dcbdfa02e09e45ea1261799c72893b1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a110"
+}

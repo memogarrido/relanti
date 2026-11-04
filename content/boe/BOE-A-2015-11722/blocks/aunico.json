@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "aunico",
+ "tipo": "precepto",
+ "titulo": "Artículo único",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo único. Aprobación del texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.\nSe aprueba el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, cuyo texto se inserta a continuación.",
+ "fingerprint": "sha256:e65e41d97f469f08585506d6a8cbd458e2e85033b72975c5042fd96fd11a3457",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#aunico"
+}

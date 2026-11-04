@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a33",
+ "tipo": "precepto",
+ "titulo": "Artículo 33",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 33. Normas generales.\n1. En todas las carreteras, como norma general, el adelantamiento debe efectuarse por la izquierda del vehículo que se pretenda adelantar.\n2. Por excepción, y si existe espacio suficiente para ello, el adelantamiento se efectuará por la derecha y adoptando las máximas precauciones, cuando el conductor del vehículo al que se pretenda adelantar esté indicando claramente su propósito de cambiar de dirección a la izquierda o parar en ese lado, así como en las vías con circulación en ambos sentidos, a los tranvías que marchen por la zona central.\n3. Reglamentariamente se establecerán otras posibles excepciones a la norma general señalada en el apartado 1 y particularidades de la maniobra de adelantamiento en función de las características de la vía.",
+ "fingerprint": "sha256:30aa26587a084f66b8cf815cdd56613444e4de1ecdbc6f4a3a1c238e297231c5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a33"
+}

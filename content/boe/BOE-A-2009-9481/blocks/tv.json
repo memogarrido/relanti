@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "tv",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO V",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "TÍTULO V\nDel Registro de Conductores e Infractores",
+ "fingerprint": "sha256:0c6970f33cbf486b621a45f7da58d1e57eb423e0fdf78806c5087b0f2aebd059",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#tv"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "da-5",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional decimocuarta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición adicional decimocuarta. Colaboración entre el Instituto Nacional de la Seguridad Social y la Jefatura Central de Tráfico.\nCuando con ocasión de la tramitación por el Instituto Nacional de la Seguridad Social de un procedimiento para el reconocimiento de una pensión de incapacidad permanente a un trabajador profesional de la conducción, el órgano competente para la emisión del dictamen-propuesta proponga la declaración de la situación de incapacidad permanente como consecuencia de limitaciones orgánicas o funcionales que disminuyan o anulen la capacidad de conducción de vehículos a motor, lo pondrá en conocimiento de la Dirección Provincial para que dé aviso de la situación del trabajador al Organismo Autónomo Jefatura Central de Tráfico, a efectos de la iniciación del procedimiento de declaración de pérdida de vigencia de alguna o de todas las clases del permiso o licencia de conducción del que sea titular dicho conductor profesional, por desaparición de los requisitos para su otorgamiento. En dicho aviso en ningún caso se harán constar historias clínicas, documentación u otros datos relativos a la salud del trabajador afectado.",
+ "fingerprint": "sha256:8e34de14e6c56c29d36a72af3d1e5f1386e9cd43738e94dfff16820b879da8e2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#da-5"
+}

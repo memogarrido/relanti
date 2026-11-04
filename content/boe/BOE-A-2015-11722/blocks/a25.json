@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a25",
+ "tipo": "precepto",
+ "titulo": "Artículo 25",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 25. Conductores, peatones y animales.\n1. El conductor de un vehículo tiene preferencia de paso respecto de los peatones, salvo en los casos siguientes:\na) En los pasos para peatones, en las aceras y en las demás zonas peatonales.\nb) Cuando vaya a girar con su vehículo para entrar en otra vía y haya peatones cruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando peatones que no dispongan de zona peatonal.\nd) Cuando los peatones vayan a subir o hayan bajado de un vehículo de transporte colectivo de viajeros, en una parada señalizada como tal, y se encuentren entre dicho vehículo y la zona peatonal o refugio más próximo.\ne) Cuando se trate de tropas en formación, filas escolares o comitivas organizadas.\n2. En las zonas peatonales, cuando el vehículo las cruce por los pasos habilitados al efecto, el conductor tiene la obligación de dejar pasar a los peatones que circulen por ellas.\n3. El conductor del vehículo tiene preferencia de paso, respecto de los animales, salvo en los casos siguientes:\na) En las cañadas señalizadas.\nb) Cuando vaya a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada.\n4. El conductor de una bicicleta tiene preferencia de paso respecto a otros vehículos:\na) Cuando circule por un carril-bici, paso para ciclistas o arcén debidamente autorizado para uso exclusivo de conductores de bicicletas.\nb) Cuando para entrar en otra vía el vehículo gire a derecha o izquierda, en los supuestos permitidos, existiendo un ciclista en sus proximidades.\nc) Cuando los conductores de bicicleta circulen en grupo, serán considerados como una única unidad móvil a los efectos de la preferencia de paso, y serán aplicables las normas generales sobre preferencia de paso entre vehículos.\nEn circulación urbana se estará a lo dispuesto por la ordenanza municipal correspondiente.\n5. Los vehículos de movilidad personal y las bicicletas y ciclos no podrán circular por las aceras. Reglamentariamente se fijarán las excepciones que se determinen.",
+ "fingerprint": "sha256:c086f4a1701b68fdc2ef544f4239a8ac6f2e26491e739c41ae00b4e3cb695515",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a25"
+}

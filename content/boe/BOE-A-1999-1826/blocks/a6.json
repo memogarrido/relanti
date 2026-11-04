@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a6",
+ "tipo": "precepto",
+ "titulo": "Artículo 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 6. Requisitos de los componentes y unidades técnicas independientes.\nSe prohíbe la puesta en servicio o venta para este fin de los componentes y unidades técnicas independientes que no cumplan con los requisitos de la legislación que les sea de aplicación, cuando vayan a ser montados en vehículos destinados a circular por las vías públicas.",
+ "fingerprint": "sha256:5ab554b08902941b93ac1bf2e62542a17f50a9ba0738e143deb4937b4b8f6592",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a6"
+}

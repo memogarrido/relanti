@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s4-5",
+ "tipo": "encabezado",
+ "titulo": "Sección 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Sección 4.ª Señales verticales de circulación",
+ "fingerprint": "sha256:2680bfd9ba72b7344690ee08cae0641a5b37f9cf9ea4fa9c37dda5345fed0755",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s4-5"
+}

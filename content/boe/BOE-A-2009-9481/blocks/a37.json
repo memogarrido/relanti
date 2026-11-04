@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a37",
+ "tipo": "precepto",
+ "titulo": "Artículo 37",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 37. Procedimiento para la declaración de pérdida de vigencia por la pérdida total de los puntos asignados.\n1. La Jefatura Provincial de Tráfico, una vez constatada la pérdida por el titular del permiso o de la licencia de conducción de la totalidad de los puntos asignados, iniciará el procedimiento para declarar su pérdida de vigencia mediante acuerdo que contendrá una relación detallada de las resoluciones sancionadoras firmes en vía administrativa que hubieran dado lugar a la pérdida de los puntos, con indicación del número de puntos que a cada una de ellas hubiera correspondido y se le dará vista del expediente al titular de la autorización, en los términos previstos en la Ley 30/1992, de 26 de noviembre. En dicho acuerdo se concederá al interesado un plazo máximo de diez días para formular las alegaciones que estime conveniente.\n2. Transcurrido el plazo indicado en el apartado anterior, el Jefe Provincial de Tráfico dictará resolución declarando la pérdida de vigencia del permiso o de la licencia de conducción, que se notificará al interesado en el plazo de quince días, en los términos previstos en la Ley 30/1992, de 26 noviembre.\nDeclarada la pérdida de vigencia, el interesado deberá entregar el permiso o licencia de conducción en la Jefatura Provincial de Tráfico la cual, de no hacerlo, ordenará su retirada por los Agentes de la autoridad.\n3. La competencia para declarar la pérdida de vigencia corresponde al Jefe de Tráfico de la provincia correspondiente al domicilio del titular de la autorización.",
+ "fingerprint": "sha256:596908d785c4cbec430f3b3ada968d7c5a6799bb01db02e13c1418fa244ea491",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a37"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a95",
+ "tipo": "precepto",
+ "titulo": "Artículo 95",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 95. Obligaciones de los usuarios y titulares de las vías.\n1. Todos los conductores deben extremar la prudencia y reducir la velocidad por debajo de la máxima permitida al aproximarse a un paso a nivel o a un puente móvil (artículo 40.1 del texto articulado).\n2. Los usuarios que al llegar a un paso a nivel o a un puente móvil lo encuentren cerrado o con la barrera o semibarrera en movimiento deberán detenerse uno detrás de otro en el carril correspondiente hasta que tengan paso libre (artículo 40.2 del texto articulado).\n3. El cruce de la vía férrea deberá realizarse sin demora y después de haberse cerciorado de que, por las circunstancias de la circulación o por otras causas, no existe riesgo de quedar inmovilizado dentro del paso (artículo 40.3 del texto articulado).\n4. Los pasos a nivel y puentes móviles estarán debidamente señalizados por el titular de la vía, del modo previsto en los artículos 142, 143 junto con el apartado 4 del anexo I respecto a los semáforos circulares para vehículos y 144.\n5. Los túneles de cualquier longitud y los pasos inferiores cuya longitud sea superior a 200 metros estarán debidamente señalizados.\n6. En los túneles o pasos inferiores, el conductor deberá aplicar rigurosamente todas las normas de circulación relativas a ellos contenidas en este reglamento y especialmente las referidas a la prohibición de parar, estacionar, cambiar el sentido de la marcha, marchar hacia atrás y adelantar. Además, deberá utilizar el alumbrado correspondiente.\nCuando no se pretenda adelantar, deberá mantenerse en todo momento una distancia de seguridad con el vehículo precedente de, al menos, 100 metros o un intervalo mínimo de cuatro segundos. En el caso de vehículos cuya masa máxima autorizada sea superior a 3.500 kilogramos, la distancia de seguridad que deberá guardar con el vehículo precedente será de, al menos, 150 metros o un intervalo mínimo de seguridad de seis segundos.\nEn los túneles o pasos inferiores con circulación en ambos sentidos, está prohibido el adelantamiento, salvo que exista más de un carril para su sentido de circulación, en los que se podrá adelantar sin invadir el sentido contrario.\n7. En todo momento, los conductores y usuarios que circulen por un túnel o paso inferior deberán obedecer las indicaciones de los semáforos y los paneles de mensaje variable, y seguir las instrucciones que les lleguen a través de megafonía o cualquier otro medio.",
+ "fingerprint": "sha256:d6346b671ef3de8a7b6418faa1194168ab7815a5724b89d803d00a5aa5f56568",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a95"
+}

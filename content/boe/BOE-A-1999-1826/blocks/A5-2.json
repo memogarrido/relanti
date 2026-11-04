@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A5-2",
+ "tipo": "precepto",
+ "titulo": "5. Especificaciones de color para las láminas fluorescentes",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "5. Especificaciones de color para las láminas fluorescentes\nLas láminas fluorescentes rojas deberán cumplir los requisitos que siguen en lo referente a coordenadas cromáticas y factor de luminancia, siendo las mediciones realizadas empleando el iluminante normalizado D65 de la CIE con un ángulo de 45° con la normal y visualizando según la misma (geometría 45/0).\nCoordenadas cromáticas de los puntos de intersección en el diagrama de cromaticidad CIE, que determinan el área de color permitida para las láminas fluorescentes rojas\nCoordenadas cromáticas | Factor de luminanciamínimo β\n | 1 | 2 | 3 | 4\nx | 0.690 | 0.595 | 0.569 | 0.655 | 0.3\ny | 0.310 | 0.315 | 0.341 | 0.345",
+ "fingerprint": "sha256:fc60778c3688ea5cdc99e89c269c395a2b83740e1fd3ef59916159bd7fc89dd6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A5-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A2-2",
+ "tipo": "precepto",
+ "titulo": "2. Retrovisores para vehículos de categorías M y N",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "2. Retrovisores para vehículos de categorías M y N\nPara los vehículos de las categorías M y N, los campos de visión especificados en la reglamentación vigente se proveerán con el número mínimo de retrovisores obligatorios y con el número máximo de retrovisores opcionales que se indica en la tabla siguiente:\nCategoría del vehículo | Retrovisores interiores | Retrovisores exteriores\nRetrovisores principales | Retrovisor gran angular | Retrovisor de proximidad\nClase I | Clase II | Clase III | Clase IV | Clase V\nM1 | 1 oblig. (1) | 1 opcional | 1 izq. oblig. (1 dcha.opcional) | – | –\nM2 | – | 2 oblig. (1 a la izq. y 1 a la dcha.) | – | 1 opcional | 1 opcional (2)\nM3 | – | 2 oblig. (1 a la izq. y 1 a la dcha.) | – | 1 opcional | 1 opcional (2)\nN1 | 1 oblig. (1) | – | 1 izq. oblig. (1 dcha.opcional) | – | –\nN2 ≤7,5 ton. | 1 opcional | 2 oblig. (1 a la izq. y 1 a la dcha.) | – | 1 opcional (3) | 1 opcional (2)\nN2 >7,5 ton. | 1 opcional | 2 oblig. (1 a la izq. y 1 a la dcha.) | – | 1 oblig. | 1 oblig. (2)\nN3 | 1 opcional | 2 oblig. (1 a la izq. y 1 a la dcha.) | – | 1 oblig. | 1 oblig. (2)\n(1) Cuando el retrovisor no permita la visión de una parte de la carretera plana y horizontal desde el horizonte hasta una distancia de 60 m por detrás y en una anchura de 20 m, éste será opcional y deberá colocarse un segundo retrovisor exterior en el lado derecho\n(2) Los retrovisores de la Clase V deben estar a más de 2 m del suelo, en todas las posiciones de regulación, incluidos todos sus puntos de regulación y amarres, cuando el vehículo esté cargado con toda su carga permisible. Caso de no poderse cumplir esta prescripción, estará prohibida su instalación.\n(3) Los vehículos que lleven un retrovisor obligatorio de clase II que no sea convexo deberán llevar además obligatoriamente un retrovisor de la Clase IV en el mismo lado.",
+ "fingerprint": "sha256:074674bc9c58aec625af66ed4ce1d3ef1547bdebee78f9f4980e8939b5eef616",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A2-2"
+}

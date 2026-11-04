@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "ddunica",
+ "tipo": "precepto",
+ "titulo": "Disposición derogatoria única",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición derogatoria única. Derogación normativa.\nQueda derogado el texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo, así como las leyes que lo han modificado, incluidas las disposiciones de las leyes modificativas que no se incorporaron a aquél.\nEn particular, queda derogada la disposición final quinta de la Ley 35/2015, de 22 de septiembre, de reforma del sistema para la valoración de los daños y perjuicios causados a las personas en accidentes de circulación, en lo que afecta a la entrada en vigor del contenido de la disposición final segunda de la misma Ley 35/ 2015, de 22 de septiembre.",
+ "fingerprint": "sha256:e1abc22035d490eca0957aed48b7279a9bb1e70dba662478b0a36e1475860f28",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ddunica"
+}

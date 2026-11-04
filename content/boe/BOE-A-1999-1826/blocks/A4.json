@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A4",
+ "tipo": "precepto",
+ "titulo": "4. Retrovisores para los vehículos especiales, incluidos los agrícolas",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "4. Retrovisores para los vehículos especiales, incluidos los agrícolas\nPara los vehículos especiales, incluidos los agrícolas, los campos de visión especificados en la reglamentación vigente se proveerán con el número mínimo de retrovisores obligatorios y con el número máximo de retrovisores opcionales que se indica en la tabla siguiente:\nCategoría del vehículo | Retrovisores interiores | Retrovisores exteriores\nIzquierdo | Derecho\nClase I | Clase II | Clase II\nTractor agrícola | 1 optativo (2) | 1 oblig. | 1 optativo\nMotocultor |  | 1 oblig. (1) | 1 optativo\nTractocarro | 1 optativo (2) | 1 oblig. | 1 optativo\nMaquinaria agrícola automotriz | 1 optativo (2) | 1 oblig | 1 optativo\nPortador | 1 optativo (2) | 1 oblig. | 1 optativo\nTractor de obras o de servicios | 1 optativo (2) | 1 oblig. | 1 optativo\nMáquina automotriz de obras o de servicios | 1 optativo (2) | 1 oblig. | 1 optativo\nPortador de obras o de servicios | 1 optativo (2) | 1 oblig. | 1 optativo\n(1) No es exigible cuando circulen solos o únicamente arrastren aperos.\n(2) Cuando dispone de cabina.",
+ "fingerprint": "sha256:569c9577490910ffb141bdf9b2aa2b107ae99fd48a203235ffba86828fa23557",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A4"
+}

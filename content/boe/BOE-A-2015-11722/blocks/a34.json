@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a34",
+ "tipo": "precepto",
+ "titulo": "Artículo 34",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 34. Precauciones previas.\n1. Antes de iniciar un adelantamiento que requiera desplazamiento lateral, el conductor que se proponga adelantar debe advertirlo con suficiente antelación, con las señales preceptivas, y comprobar que en el carril que pretende utilizar para el adelantamiento existe espacio libre suficiente para que la maniobra no ponga en peligro ni entorpezca a quienes circulen en sentido contrario, teniendo en cuenta la velocidad propia y la de los demás usuarios afectados. En caso contrario, debe abstenerse de efectuarla.\n2. También debe cerciorarse de que el conductor del vehículo que le precede en el mismo carril no ha indicado su propósito de iniciar el adelantamiento, en cuyo caso debe respetar la preferencia que le asiste. No obstante, si después de un tiempo prudencial, el conductor del citado vehículo no la ejerciera, podrá iniciar la maniobra de adelantamiento, advirtiéndole previamente con señal acústica u óptica.\n3. Asimismo debe asegurarse de que no se ha iniciado la maniobra de adelantar a su vehículo por parte de ningún conductor que le siga por el mismo carril, y de que dispone de espacio suficiente para volver a su carril cuando termine el adelantamiento.\n4. No se considera adelantamiento, a efectos de estas normas, los realizados entre ciclistas que circulen en grupo.",
+ "fingerprint": "sha256:f60fc19bc3f67fed402882da74801e2671fb7a801cd3e7338a3a58c66b453fca",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a34"
+}

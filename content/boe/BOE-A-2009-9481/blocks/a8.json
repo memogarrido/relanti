@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a8",
+ "tipo": "precepto",
+ "titulo": "Artículo 8",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 8. Solicitud del permiso o de la licencia de conducción. Documentación a presentar.\n1. La expedición del permiso o la licencia de conducción, se solicitará de la Jefatura Provincial de Tráfico en la que se desee obtener, en el modelo oficial suscrito por el interesado, acompañando los documentos que se indican en el anexo III.\n2. Si el solicitante es titular de un permiso o de una licencia de conducción, ya sea expedido en España, en otro Estado miembro de la Unión Europea o en un Estado parte del Acuerdo sobre el Espacio Económico Europeo, éste perderá su validez cuando su titular obtenga el permiso solicitado. Dicho documento deberá ser entregado en la Jefatura Provincial de Tráfico con carácter previo a la emisión del permiso y será, en su caso, remitido al Estado que lo hubiera expedido.",
+ "fingerprint": "sha256:e6c2d1fda1c2b28a29a7f4464761d1f4887aa2cfc9f4d3f0d92c0101c79da9c4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a8"
+}

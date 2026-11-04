@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dfunica",
+ "tipo": "precepto",
+ "titulo": "Disposición final única",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición final única. Entrada en vigor.\nEl presente real decreto legislativo y el texto refundido que aprueba entrarán en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado».\nNo obstante, el capítulo V «Intercambio transfronterizo de información sobre infracciones de tráfico» del Título V «Régimen Sancionador», así como los anexos V, VI y VII, entrarán en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».",
+ "fingerprint": "sha256:1cc4aea4fe22d0e39f2d8db78c55d090c140fe29ac2a4e517e41707e35689121",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dfunica"
+}

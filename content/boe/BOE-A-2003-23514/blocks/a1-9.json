@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-9",
+ "tipo": "precepto",
+ "titulo": "Artículo 156",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 156. Régimen de parada y estacionamiento.\n1. Los Ayuntamientos, mediante sus ordenanzas municipales, regularán la parada y estacionamiento de los vehículos en las vías urbanas y en particular:\na) Podrán establecer limitaciones horarias de estacionamiento, con objeto de favorecer la equitativa distribución de las plazas de estacionamiento, la movilidad, y evitar la congestión del tráfico.\nb) Podrán regular la retirada del vehículo o su inmovilización, como medida correctora de incumplimiento, cuando éste no disponga de título que autorice el estacionamiento en zonas limitadas en tiempo, o rebase el triple del tiempo abonado, hasta que se logre la identificación del conductor.\nc) Podrán establecer un régimen específico para la subida y bajada a los vehículos, de los niños y niñas, de las personas mayores, de movilidad reducida o con discapacidad, a fin de favorecer su accesibilidad y movilidad, incluyendo el acceso de los vehículos a zonas restringidas al tráfico, o regulando mayor tiempo del ordinario para que puedan completarse estas maniobras en términos de seguridad.\nd) Se permitirá la parada o el estacionamiento de los vehículos de auxilio en vías públicas por el tiempo indispensable para efectuar la retirada de los vehículos averiados o accidentados, siempre que con ello no se cree un nuevo peligro, ni se cause obstáculo a la circulación.\ne) El estacionamiento de los vehículos podrá ser objeto de tarificación por los Ayuntamientos en función de sus dimensiones y clasificación ambiental.\n2. Los Ayuntamientos, a través de ordenanza municipal, podrán regular la parada y el estacionamiento de los vehículos de dos ruedas sobre las aceras, paseos y demás zonas peatonales, siempre que no se perjudique ni se entorpezca el tránsito de los peatones por ellos, y atendiendo especialmente a la seguridad y movilidad de las personas con movilidad reducida o con discapacidad.",
+ "fingerprint": "sha256:a95ce3cd4ceaa9ff775bfbed25cc2bf501ed827d9468219a85fb72c26ea285a2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-9"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a125",
+ "tipo": "precepto",
+ "titulo": "Artículo 125",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 125. Normas relativas a circulación de peatones por autopistas y autovías.\n1. Los peatones no podrán circular por autopistas ni autovías, salvo en los casos y condiciones que se determinan en el artículo 130, y no podrán hacer peticiones de pasaje en ningún tramo de ellas, incluidas las explanadas de estaciones de peaje.\n2. Los ocupantes o trabajadores de los vehículos de los servicios de urgencia, de los vehículos de mantenimiento y conservación de carreteras, de los vehículos de auxilio en vías públicas y de los vehículos especiales podrán transitar por las autopistas y autovías siempre que sea estrictamente indispensable para la prestación del correspondiente servicio y adoptando las medidas oportunas para no comprometer ni su seguridad ni la del resto de los usuarios.",
+ "fingerprint": "sha256:b5130ba16610dff4e5375de8bbeca9df508522c5842fd30512babcea862ac42e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a125"
+}

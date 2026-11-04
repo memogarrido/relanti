@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "s4",
+ "tipo": "encabezado",
+ "titulo": "Sección 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Sección 4.ª Incorporación a la circulación",
+ "fingerprint": "sha256:be753c9c444e8c2954e1753be1f6b76ce7d9fe19a19a510b743cde3e32ba86b5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#s4"
+}

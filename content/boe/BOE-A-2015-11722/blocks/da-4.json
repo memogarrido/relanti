@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "da-4",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional decimotercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición adicional decimotercera. Protección de datos de carácter personal.\nEl tratamiento de los datos de carácter personal resultado de la aplicación de esta Ley se efectuará de conformidad con lo dispuesto en la normativa vigente en materia de protección de datos de carácter personal.",
+ "fingerprint": "sha256:ec412853f8287960235861dc879f9f93859ecb4978559fd2cb2cfad05b98fc7d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#da-4"
+}

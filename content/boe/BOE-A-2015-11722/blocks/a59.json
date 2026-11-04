@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a59",
+ "tipo": "precepto",
+ "titulo": "Artículo 59",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 59. Normas generales.\n1. Con objeto de garantizar la aptitud de los conductores para manejar los vehículos y la idoneidad de estos para circular con el mínimo de riesgo posible, la circulación de vehículos a motor y de ciclomotores requerirá de la obtención de la correspondiente autorización administrativa previa.\nReglamentariamente se fijarán los datos que han de constar en las autorizaciones de los conductores y de los vehículos.\nLa tenencia de la autorización administrativa podrá acreditarse mediante su presentación física o digital.\n2. El conductor de un vehículo a motor o ciclomotor queda obligado a estar en posesión y llevar consigo su permiso o licencia válidos para conducir, así como el permiso de circulación del vehículo y la tarjeta de inspección técnica, y deberá exhibirlos ante los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tienen encomendadas que se lo soliciten, en los términos que reglamentariamente se determine.\n3. En las autorizaciones administrativas de circulación únicamente constará un titular.",
+ "fingerprint": "sha256:b77b48503cc20874527ec7305c7ae45b6bf4f10d59e49ce723bee8adc804324e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a59"
+}

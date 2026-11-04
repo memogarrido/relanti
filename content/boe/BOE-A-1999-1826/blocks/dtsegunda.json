@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dtsegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición transitoria segunda. Fecha de aplicación de las condiciones técnicas.\nLas condiciones técnicas contempladas en este Reglamento se exigirán en las fechas que se indican en la reglamentación que se recoge en el anexo I a los vehículos matriculados o puestos en circulación desde el momento que la misma lo establezca.",
+ "fingerprint": "sha256:33bc2b542d37952e2f25cbe30b5211796ac01f8a9cb7b8e50425d1065b61d81e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dtsegunda"
+}

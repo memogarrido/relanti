@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "no",
+ "tipo": "nota_inicial",
+ "titulo": null,
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-2140",
+  "fecha_publicacion": "20260130",
+  "fecha_vigencia": "20260130"
+ },
+ "text": "Téngase en cuenta que todas las referencias al Registro General de Vehículos y al Registro de Vehículos contenidas en la normativa sobre tráfico, circulación de vehículos a motor y seguridad vial deberán entenderse realizadas al Registro Nacional de Vehículos y, en su caso, a sus secciones auxiliares u otros registros especiales relacionados con los vehículos dependientes del primero, según establece la disposición adicional única del Real Decreto 52/2026, de 28 de enero. Ref. BOE-A-2026-2140\nIncluye la corrección de errores publicada en BOE núm. 38, de 13 de febrero de 1999. Ref. BOE-A-1999-3698.",
+ "fingerprint": "sha256:44add901998f546ac7b98cd025f744d41b807581cecf516769af2c6215d4e704",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#no"
+}

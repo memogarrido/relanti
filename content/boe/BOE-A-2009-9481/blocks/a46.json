@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a46",
+ "tipo": "precepto",
+ "titulo": "Artículo 46",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 46. Permisos y licencias de conducción ordinarios y extraordinarios.\n1. Los permisos y licencias de conducción, en función de las aptitudes psicofísicas de los conductores, serán ordinarios o extraordinarios.\n2. Podrán obtener, prorrogar o ser titulares de permiso o licencia de conducción ordinarios, las personas que no estén afectadas por enfermedad o deficiencia que determine la obligatoriedad de adaptaciones, restricciones de circulación u otras limitaciones en personas, vehículos o de circulación durante la conducción, excepto cuando la limitación consista en la obligación de utilizar lentes correctoras o audífonos para adquirir, respectivamente, la agudeza visual o auditiva mínimas necesarias para obtener dichos permisos o licencias de conducción.\n3. Podrán obtener, prorrogar o ser titulares de permiso o licencia de conducción extraordinarios sujetos a condiciones restrictivas, las personas que reúnen las aptitudes psicofísicas requeridas para obtener permiso o licencia de conducción sujeto a las adaptaciones, restricciones u otras limitaciones en personas, vehículos o de circulación que en cada caso procedan conforme se indica en el anexo IV.",
+ "fingerprint": "sha256:14e921b043f21b5f1987b0bb1d6402bbfab5cb40b32838f59ba17bf7784676a6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a46"
+}

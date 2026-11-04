@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "s3",
+ "tipo": "encabezado",
+ "titulo": "Subsección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2024-18614",
+  "fecha_publicacion": "20240918",
+  "fecha_vigencia": "20241001"
+ },
+ "text": "Subsección 3.ª Permisos temporales para vehículos de museos y de colecciones museográficas",
+ "fingerprint": "sha256:f0a1fe018107e7848462dd942aa3c493a254e4e1135fef7c5896fc2a5fe6cee8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#s3"
+}

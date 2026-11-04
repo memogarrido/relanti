@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a64",
+ "tipo": "precepto",
+ "titulo": "Artículo 64",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 64. Normas generales y prioridad de paso de ciclistas.\n1. Como regla general, y siempre que sus trayectorias se corten, los conductores tienen prioridad de paso para sus vehículos en la calzada y en el arcén, respecto de los peatones y animales, salvo en los casos enumerados en los artículos 65 y 66 en que deberán dejarlos pasar, llegando a detenerse si fuera necesario.\n2. Los conductores de bicicletas tienen prioridad de paso respecto a otros vehículos:\na) Cuando circulen por un carril bici, paso para ciclistas o arcén debidamente señalizados.\nb) Cuando para entrar en otra vía el vehículo de motor o el ciclomotor gire a la derecha o izquierda, en los supuestos permitidos, y haya un ciclista en sus proximidades.\nc) Cuando circulando en grupo, el primero haya iniciado ya el cruce o haya entrado en una glorieta.\nEn los demás casos serán aplicables las normas generales de prioridad de paso entre vehículos.",
+ "fingerprint": "sha256:67f9b899ff7393e6492c9f737ebeb4266916f9b7dca1a83cfac130ef1bc28467",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a64"
+}

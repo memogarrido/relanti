@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a22-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 22",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 22. Señalización de itinerarios.\nLos itinerarios deben señalizarse en los lugares peligrosos, incluso con la presencia de personal de la organización habilitado y con instrucciones precisas del responsable de la organización. Las señalizaciones deberán ser retiradas o borradas una vez que pase el último participante y nunca serán colocadas de manera que provoquen confusión para la circulación rodada ajena a la actividad ciclista. Cuando las indicaciones se hagan sobre la calzada, se deberán utilizar materiales que se borren después de pocas horas.",
+ "fingerprint": "sha256:97443ad55fd229dd4aa34cae7cfda58640b5088bfdc7c7a99348771a6f8d4bb1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a22-2"
+}

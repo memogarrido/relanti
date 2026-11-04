@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a9",
+ "tipo": "precepto",
+ "titulo": "Artículo 9",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-4194",
+  "fecha_publicacion": "20210317",
+  "fecha_vigencia": "20210701"
+ },
+ "text": "Artículo 9. Conjuntos de vehículos.\n1. Los vehículos, en lo que respecta a su compatibilidad para formar conjuntos, deben cumplir la reglamentación que se recoge, a estos efectos, en el anexo I.\n2. Como norma general y salvo las excepciones reglamentariamente establecidas, ningún vehículo tractor podrá arrastrar a la vez más de un remolque o semirremolque.\n3. Las caravanas y remolques ligeros estarán dotados de una tarjeta de inspección técnica, expedida de acuerdo con lo dispuesto en la reglamentación vigente que se recoge en el anexo I.",
+ "fingerprint": "sha256:29bffa5d2b9a6c170a392a867cf293f83134afd18b4adcd1a3f8a756c4bdb771",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a9"
+}

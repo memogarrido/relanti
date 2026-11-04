@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dtprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición transitoria primera. Matriculación definitiva de vehículos en España.\nLo dispuesto en el artículo 68.2 en cuanto a la matriculación definitiva en España de vehículos no será efectivo hasta que se proceda a regular reglamentariamente aquellos aspectos que permitan su aplicación.",
+ "fingerprint": "sha256:43fdd6f9f79b47949527f2376fff0c9ae3a5aab47c391349aaaa5da5611f8cdd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dtprimera"
+}

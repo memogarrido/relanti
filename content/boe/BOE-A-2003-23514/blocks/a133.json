@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a133",
+ "tipo": "precepto",
+ "titulo": "Artículo 133",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 133. Orden de preferencia.\n1. El orden de preferencia entre los distintos tipos de señales de circulación es el siguiente:\na) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización y balizamiento circunstancial que modifique el régimen normal de utilización de la vía, dispositivos delimitadores y señales de balizamiento.\nc) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales.\n2. En el caso de que las prescripciones indicadas por diferentes señales parezcan estar en contradicción entre sí, prevalecerá la preferente, según el orden a que se refiere el apartado anterior, o la más restrictiva, si se trata de señales del mismo tipo.",
+ "fingerprint": "sha256:74c09c0e11ee1add3e13f53442faf732021b5f1a2fae4480c0b43746e31afecc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a133"
+}

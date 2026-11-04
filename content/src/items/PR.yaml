@@ -1,0 +1,115 @@
+# Cruce de la Prioridad.
+items:
+  # PR-101 Intersecciones sin señalizar
+  - id: PR-101-01
+    question: Llegas a un cruce sin ninguna señal. ¿A quién cedes el paso?
+    correct: A los vehículos que se acercan por mi derecha
+    wrong: ["A los vehículos que se acercan por mi izquierda", "Al vehículo más grande"]
+    explanation: Sin señales, se cede el paso a quien viene por la derecha, salvo las excepciones del art. 57.
+    source: {law: RGC, block: a57, ref: art. 57.1 RGC}
+    truco: T-PR-101
+  - id: PR-101-02
+    question: En un cruce sin señales tú vienes por un camino de tierra y otro coche por una carretera asfaltada, a tu izquierda. ¿Quién pasa primero?
+    correct: El coche que circula por la vía asfaltada
+    wrong: ["Yo, porque él viene por mi izquierda", "El que llegue antes al cruce"]
+    explanation: La vía pavimentada tiene preferencia sobre la que no lo está, venga por donde venga.
+    source: {law: RGC, block: a57, ref: art. 57.1.a) RGC}
+  - id: PR-101-03
+    question: En un cruce sin señales coincides con un tranvía. ¿Quién tiene prioridad?
+    correct: El tranvía
+    wrong: ["El que venga por la derecha", "El turismo, si va más rápido"]
+    explanation: Los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios.
+    source: {law: RGC, block: a57, ref: art. 57.1.b) RGC}
+  - id: PR-101-04
+    question: Ante una señal de ceda el paso, ¿a quién debes ceder?
+    correct: A todos los que circulen por la vía preferente, vengan por el lado que vengan
+    wrong: ["Solo a los que vienen por mi derecha", "Solo a camiones y autobuses"]
+    explanation: Con ceda el paso o stop, cedes siempre a quien va por la vía preferente, por cualquier lado.
+    source: {law: RGC, block: a56, ref: art. 56.5 RGC}
+  - id: PR-101-05
+    question: Llegas a un stop y no viene nadie por la vía preferente. ¿Qué haces?
+    correct: Me detengo por completo y luego continúo
+    wrong: ["Reduzco la velocidad y sigo sin parar", "Solo paro si hay tráfico"]
+    explanation: El stop obliga a detenerse del todo siempre, aunque no venga nadie.
+    source: {law: RGC, block: a56, ref: art. 56.5 RGC, quote: ["en todo caso, cuando así lo indique la señal correspondiente"]}
+  - id: PR-101-06
+    question: Tienes que ceder el paso. ¿Cómo lo muestras al otro conductor?
+    correct: Reduciendo poco a poco la velocidad con antelación
+    wrong: ["Frenando en el último momento", "Haciendo ráfagas con las luces"]
+    explanation: Quien cede debe mostrarlo a tiempo, sobre todo reduciendo la velocidad de forma paulatina.
+    source: {law: RGC, block: a58, ref: art. 58.1 RGC}
+  - id: PR-101-07
+    question: Tienes prioridad, pero el tráfico al otro lado del cruce está parado y te quedarías dentro. ¿Qué haces?
+    correct: Espero antes del cruce hasta que haya sitio para salir
+    wrong: ["Entro, porque tengo prioridad", "Entro y enciendo las luces de emergencia"]
+    explanation: Aunque tengas prioridad, no entres en un cruce o paso de peatones si vas a quedarte parado bloqueándolo.
+    source: {law: RGC, block: a59, ref: art. 59.1 RGC}
+  - id: PR-101-08
+    question: Te has quedado parado dentro de un cruce con semáforos y estás estorbando. ¿Qué haces?
+    correct: Salgo del cruce sin esperar a que se abra mi dirección, si no molesto a quien tiene paso
+    wrong: ["Espero a que el semáforo me dé paso", "Doy marcha atrás para dejar libre el cruce"]
+    explanation: Si eres un obstáculo dentro del cruce, sal de él, siempre que no entorpezcas a quien circula con paso.
+    source: {law: RGC, block: a59, ref: art. 59.2 RGC}
+  - id: PR-101-09
+    question: Circulas por una vía señalizada como calzada con prioridad. Un coche llega por tu derecha desde otra vía. ¿Quién pasa?
+    correct: Yo
+    wrong: ["El que viene por mi derecha", "El que llegó primero"]
+    explanation: Quien va por la calzada con prioridad pasa antes que los que llegan de otra vía, aunque vengan por la derecha.
+    source: {law: RGC, block: a56, ref: art. 56.4 RGC}
+
+  # PR-102 Glorietas, autopistas y caminos
+  - id: PR-102-01
+    question: En una glorieta sin señales, ¿quién tiene preferencia?
+    correct: Los que ya circulan dentro de la glorieta
+    wrong: ["Los que quieren entrar, si vienen por la derecha", "Los vehículos más grandes"]
+    explanation: En las glorietas, quien ya está en la vía circular tiene preferencia sobre quien quiere entrar.
+    source: {law: RGC, block: a57, ref: art. 57.1.c) RGC}
+    truco: T-PR-102
+  - id: PR-102-02
+    question: Te incorporas a una autovía desde el carril de aceleración. ¿Quién tiene preferencia?
+    correct: Los que ya circulan por la autovía
+    wrong: ["Yo, porque llego por su derecha", "El que vaya más rápido"]
+    explanation: Quien circula por la autopista o autovía tiene preferencia sobre quien quiere entrar.
+    source: {law: RGC, block: a57, ref: art. 57.1.d) RGC}
+  - id: PR-102-03
+    question: En un tramo estrecho sin señales no caben dos vehículos a la vez. ¿Quién pasa primero?
+    correct: El que haya entrado primero en el tramo
+    wrong: ["El que venga por la derecha", "El vehículo más pequeño"]
+    explanation: En estrechamientos sin señalizar, tiene preferencia quien entró primero.
+    source: {law: RGC, block: a60, ref: art. 60.1 RGC}
+  - id: PR-102-04
+    question: En ese tramo estrecho no está claro quién entró primero. ¿Quién tiene preferencia?
+    correct: El vehículo con más dificultades para maniobrar
+    wrong: ["El que vaya más rápido", "Siempre el turismo"]
+    explanation: En caso de duda, pasa el que tiene más dificultad de maniobra, según el orden del art. 62.
+    source: {law: RGC, block: a60, ref: art. 60.1 RGC}
+  - id: PR-102-05
+    question: En un estrechamiento, un turismo y un autobús de viajeros se encuentran y uno debe dar marcha atrás. ¿Quién tiene preferencia?
+    correct: El autobús
+    wrong: ["El turismo", "El que tenga que retroceder menos distancia"]
+    explanation: En el orden de preferencia, los de transporte colectivo de viajeros van antes que los turismos.
+    source: {law: RGC, block: a62, ref: art. 62.1 RGC}
+  - id: PR-102-06
+    question: Giras para entrar en otra calle y hay peatones cruzándola, aunque no haya paso de peatones. ¿Qué haces?
+    correct: Les dejo pasar
+    wrong: ["Paso yo, porque no hay paso de peatones", "Toco el claxon para avisarles y paso"]
+    explanation: Al girar, los peatones que cruzan la vía en la que entras tienen prioridad, haya o no paso señalizado.
+    source: {law: RGC, block: a65, ref: art. 65.1.b) RGC}
+  - id: PR-102-07
+    question: Unos peatones acaban de bajar de un autobús en su parada y están entre el autobús y la acera. ¿Quién tiene prioridad?
+    correct: Los peatones
+    wrong: ["Los vehículos que circulan", "Depende de si hay semáforo"]
+    explanation: Los peatones que suben o han bajado de un autobús en su parada, entre este y la acera, tienen prioridad.
+    source: {law: RGC, block: a65, ref: art. 65.1.d) RGC}
+  - id: PR-102-08
+    question: ¿Cuándo es un vehículo prioritario una ambulancia?
+    correct: En servicio urgente, avisando con la señal luminosa y la acústica a la vez
+    wrong: ["Siempre que lleve rotulado que es una ambulancia", "Cuando lleva un paciente, aunque no esté en servicio urgente"]
+    explanation: Es prioritaria en servicio urgente y avisando con luces y sirena especiales a la vez.
+    source: {law: RGC, block: a68, ref: art. 68.2 RGC}
+  - id: PR-102-09
+    question: Oyes detrás de ti la sirena de un vehículo prioritario. ¿Qué haces?
+    correct: Le facilito el paso, apartándome a la derecha o deteniéndome si hace falta
+    wrong: ["Acelero para no estorbarle", "Sigo igual y que me adelante él"]
+    explanation: Al percibir sus señales, apártate normalmente a la derecha o detente si es preciso para dejarle pasar.
+    source: {law: RGC, block: a69, ref: art. 69 RGC}

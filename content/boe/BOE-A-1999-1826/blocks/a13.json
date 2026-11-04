@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a13",
+ "tipo": "precepto",
+ "titulo": "Artículo 13",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 13. Condiciones técnicas de los dispositivos de acoplamiento y otros elementos de los remolques.\n1. Los elementos mecánicos, neumáticos y eléctricos de conexión entre un vehículo tractor y su remolque deben ser compatibles y cumplir las exigencias que se determinen en la reglamentación que se recoge en el anexo I.\n2. Los remolques estarán dotados de un dispositivo que obligue a sus ruedas a seguir una trayectoria análoga a la del vehículo tractor, según la reglamentación recogida en dicho anexo.\n3. El dispositivo de acoplamiento del remolque con el vehículo tractor estará dotado de un elemento que impida el desacoplamiento del mismo, de acuerdo con la reglamentación del repetido anexo.\n4. Los remolques cuya masa máxima autorizada sea menor o igual a 1.500 kilogramos, que no estén provistos de un sistema que asegure el frenado del remolque en caso de rotura del dispositivo de acoplamiento, deberán estar provistos, además del enganche principal, de un dispositivo de acoplamiento secundario (cadena, cable, etcétera) que, en caso de separación del enganche principal, pueda impedir que la barra del dispositivo de acoplamiento toque el suelo y que asegure, además, una cierta conducción residual del remolque.",
+ "fingerprint": "sha256:c8fdf61dc7c531f832eb7e52d9f99b5c686e5938a7c8401dd9e878742988fc03",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a13"
+}

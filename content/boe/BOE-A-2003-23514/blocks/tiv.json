@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tiv",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO IV",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "TÍTULO IV\nSeñalización",
+ "fingerprint": "sha256:b3fdcd6ac699a0bc29398436ad734837916b72fb356a8953b91901ec60222c96",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tiv"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a36",
+ "tipo": "precepto",
+ "titulo": "Artículo 36",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 36. Vehículo adelantado.\n1. El conductor que advierta que otro que le sigue tiene el propósito de adelantar a su vehículo estará obligado a ceñirse al borde derecho de la calzada, salvo en el supuesto de cambio de dirección a la izquierda o de parada en ese mismo lado a que se refiere el artículo 33.2, en que deberá ceñirse a la izquierda todo lo posible, pero sin interferir la marcha de los vehículos que puedan circular en sentido contrario.\n2. Se prohíbe al conductor del vehículo que va a ser adelantado aumentar la velocidad o efectuar maniobras que impidan o dificulten el adelantamiento. Asimismo está obligado a disminuir la velocidad de su vehículo cuando, una vez iniciada la maniobra de adelantamiento, se produzca alguna situación que entrañe peligro para su propio vehículo, para el vehículo que la está efectuando, para los que circulan en sentido contrario o para cualquier otro usuario de la vía.",
+ "fingerprint": "sha256:4ba796c2ca539689f0b01b89dce42db956170bad94bc45423959a8930edcbe99",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a36"
+}

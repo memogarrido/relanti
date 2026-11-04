@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a163",
+ "tipo": "precepto",
+ "titulo": "Artículo 163",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 163. Paneles complementarios.\nLos paneles complementarios precisan el significado de la señal que complementan. Su nomenclatura y significado son los siguientes:\nS-800. Distancia al comienzo del peligro o prescripción. Indica la distancia desde el lugar donde está la señal a aquél en que comienza el peligro o comienza a regir la prescripción de aquélla. En el caso de que esté colocada bajo la señal de advertencia de peligro por estrechamiento de calzada, puede indicar la anchura libre del citado estrechamiento.\nS-810. Longitud del tramo peligroso o sujeto a prescripción. Indica la longitud en que existe el peligro o en que se aplica la prescripción.\nS-820 y S-821. Extensión de la prohibición, a un lado. Colocada bajo una señal de prohibición, indica la distancia en que se aplica esta prohibición en el sentido de la flecha.\nS-830. Extensión de la prohibición, a ambos lados. Colocada bajo una señal de prohibición, indica las distancias en que se aplica esta prohibición en cada sentido indicado por las flechas.\nS-840. Preseñalización de detención obligatoria. Colocada bajo la señal de ceda el paso, indica la distancia a que se encuentra la señal de detención obligatoria o stop de la próxima intersección.\nS-850 a S-853. Itinerario con prioridad. Panel adicional de la señal R-3, que indica el itinerario con prioridad.\nS-860. Genérico. Panel para cualquier otra aclaración o delimitación de la señal o semáforo bajo el que este colocado.\nS-870. Aplicación de la señalización. Indica, bajo la señal de prohibición o prescripción, que la señal se refiere exclusivamente al ramal de salida cuya dirección coincide aproximadamente con la de la flecha. Colocada bajo otra señal, indica que ésta se aplica solamente en el ramal de salida.\nS-880. Aplicación de señalización a determinados vehículos. Indica, bajo la señal vertical correspondiente, que la señal se refiere exclusivamente a los vehículos que figuran en el panel, y que pueden ser camiones, vehículos con remolque, autobuses o ciclos.\nS-890. Panel complementario de una señal vertical. Indica, bajo otra señal vertical, que ésta se refiere a las circunstancias que se señalan en el panel como nieve, lluvia o niebla.",
+ "fingerprint": "sha256:c8c7c6d225f8347809a83ad504ef77195d2e9e1bbc52315765098c6f2b1005bd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a163"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "ddtercera",
+ "tipo": "precepto",
+ "titulo": "Disposición derogatoria tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición derogatoria tercera. General.\nSe derogan, asimismo, cuantos artículos del Código de la Circulación y disposiciones de igual o inferior rango se opongan a lo establecido en el presente Reglamento.",
+ "fingerprint": "sha256:e452bf1d1c8c1020d17afd755773d8832e249312a3041fa7b5c2a26186d9087c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#ddtercera"
+}

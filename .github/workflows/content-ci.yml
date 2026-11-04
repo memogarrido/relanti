@@ -1,0 +1,24 @@
+name: Content · validate pack
+
+# Validates every item, fact and truco (ids, 3 options, sources, quotes that
+# must appear verbatim in the cited BOE article, reviewed fingerprints) and
+# fails if content/packs/relanti-b.json was not rebuilt.
+on:
+  push:
+    paths: ["content/**", ".github/workflows/content-ci.yml"]
+  pull_request:
+    paths: ["content/**"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r content/requirements.txt
+      - working-directory: content
+        run: python -m unittest discover -s tests -v
+      - working-directory: content
+        run: python -m pipeline check

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a20",
+ "tipo": "precepto",
+ "titulo": "Artículo 20",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 20. Remisión del permiso canjeado.\nEfectuado el canje del permiso de conducción por otro español equivalente, ya sea de oficio o a solicitud de su titular, se remitirá el permiso canjeado por la Jefatura Provincial de Tráfico a las autoridades competentes del Estado que lo haya expedido, a través de la oficina diplomática o consular, indicando los motivos del canje efectuado.",
+ "fingerprint": "sha256:582e1333b7d3146662d66d3486a8564c29115958667be09044c77a1cdd52250a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a20"
+}

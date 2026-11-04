@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a75",
+ "tipo": "precepto",
+ "titulo": "Artículo 75",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 75. Infracciones y sanciones.\nLas infracciones a los preceptos del presente reglamento serán sancionadas de conformidad con lo dispuesto en el artículo 67 del texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.",
+ "fingerprint": "sha256:2b9b846b9938626c508091c52941a1f2c48ce60f2e9c76bd679d94ecf48d5062",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a75"
+}

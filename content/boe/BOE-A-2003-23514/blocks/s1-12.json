@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-12",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª De las señales y órdenes de los agentes de circulación",
+ "fingerprint": "sha256:3093a9b69950592fde17e107f8b2d1e82b4039c7ceddcd49d7d4edbe82661b10",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-12"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a10",
+ "tipo": "precepto",
+ "titulo": "Artículo 10",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 10. Inspecciones técnicas de vehículos.\n1. Los vehículos matriculados o puestos en circulación deberán someterse a inspección técnica en una de las Estaciones de Inspección Técnica de Vehículos al efecto autorizadas por el órgano competente en materia de Industria en los casos y con la periodicidad, requisitos y excepciones que se establecen en la reglamentación que se recoge en el anexo I.\nLa inspección técnica, una vez comprobada la identificación del vehículo, versará sobre las condiciones del vehículo relativas a seguridad vial, protección del medio ambiente, inscripciones reglamentarias, reformas y, en su caso, vigencia de los certificados para el transporte de mercancías peligrosas y perecederas.\n2. En lo no previsto en el presente artículo se estará a lo dispuesto en la reglamentación que se recoge en el anexo I.",
+ "fingerprint": "sha256:2f777fbf66804dc029c8918ff5dfbb0d1cecf4d22bd9ac0e954235015e254674",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a10"
+}

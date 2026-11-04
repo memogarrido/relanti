@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a31",
+ "tipo": "precepto",
+ "titulo": "Artículo 31",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 31. Cambios de sentido.\n1. El conductor de un vehículo que pretenda invertir el sentido de su marcha debe elegir un lugar adecuado para efectuar la maniobra, de forma que intercepte la vía el menor tiempo posible, advertir con la antelación suficiente su propósito con las señales preceptivas y cerciorarse de que no va a poner en peligro u obstaculizar a otros usuarios de la misma.\nEn caso de que no concurran estas circunstancias, debe abstenerse de realizar dicha maniobra y esperar el momento oportuno para efectuarla.\nCuando su permanencia en la calzada, mientras espera para efectuar la maniobra de cambio de sentido, impida continuar la marcha de los vehículos que circulan detrás del suyo, debe salir de la misma por su lado derecho, si fuera posible, hasta que las condiciones de la circulación le permitan efectuarlo.\n2. Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el apartado anterior, en los pasos a nivel y en los tramos de vía afectados por la señal túnel, así como en las autopistas y autovías, salvo en los lugares habilitados al efecto, y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, a menos que el cambio de sentido esté expresamente autorizado.",
+ "fingerprint": "sha256:6472af8240c0ac0a99b12c1a22d3d06fe95d11a175c8df92753d167ed902bced",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a31"
+}

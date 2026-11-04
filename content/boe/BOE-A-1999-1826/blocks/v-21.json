@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-21",
+ "tipo": "precepto",
+ "titulo": "V-21",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-21 CARTEL AVISADOR DE ACOMPAÑAMIENTO DE VEHÍCULO ESPECIAL O DE VEHÍCULOS EN RÉGIMEN DE TRANSPORTE ESPECIAL\n1. Indica la circulación próxima de un vehículo en régimen de transporte especial o vehículo especial.\n2. Deberán llevar en todo momento esta señal los vehículos cuando circulen solo en función y servicio de acompañamiento a la circulación de un vehículo especial o de un vehículo en régimen de transporte especial.\n3. Irá colocada en la parte superior del vehículo de acompañamiento, de forma vertical y sujeta de tal modo que se evite el riesgo de caída. Se instalará como elemento supletorio adicional (movible).\n4. En esta señal deberá figurar la palabra ESPECIAL, y sus dimensiones, color, contenido y características técnicas se ajustarán a lo que se indica a continuación:\n5. La señal V-2 podrá ir incorporada a esta señal formando un conjunto.",
+ "fingerprint": "sha256:025852b1ea1298b5d8d27b8db42ad98c19a7a65d974efd5ddb2df36cf18d272d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-21"
+}

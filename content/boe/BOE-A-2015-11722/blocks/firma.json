@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "firma",
+ "tipo": "firma",
+ "titulo": null,
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Dado en Madrid, el 30 de octubre de 2015.\nFELIPE R.\nEl Ministro del Interior,\nJORGE FERNÁNDEZ DÍAZ",
+ "fingerprint": "sha256:98800c3e7b2c73c0c67e1264a1daa6e7f4d74208b63ef23ee50560f2d4c1e511",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#firma"
+}

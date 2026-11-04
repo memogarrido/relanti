@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dfprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición final primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición final primera. Título competencial.\nEsta ley se dicta al amparo de la competencia exclusiva atribuida al Estado sobre tráfico y circulación de vehículos a motor por el artículo 149.1.21ª de la Constitución Española.",
+ "fingerprint": "sha256:c108e7e58919997a3d280d608d08cb70593895872953db1b5c2edf66b4571698",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dfprimera"
+}

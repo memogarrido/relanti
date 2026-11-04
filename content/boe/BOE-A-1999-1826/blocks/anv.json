@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "anv",
+ "tipo": "encabezado",
+ "titulo": "ANEXO V",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "ANEXO V\nCÁLCULO DE LA POTENCIA FISCAL\nEl cálculo de la potencia fiscal de los motores de vehículos de motor, expresado en caballos de vapor fiscales (CVF), se efectuará aplicando las fórmulas siguientes:\na) Para los motores de explosión o de combustión interna de cuatro tiempos:\nCVF = 0,08 • (0,785 • D2 • R)0,6 • N (1)\nb) Para los motores de explosión o de combustión interna de dos tiempos:\nCVF = 0,11 • (0,785 • D2 • R)0,6 • N (2)\nEn las fórmulas (1) y (2) se representa por:\nD = el diámetro del cilindro en centímetros.\nR = el recorrido del pistón en centímetros.\nN = el número de cilindros de que consta el motor.\nc) Para los motores de explosión rotativos\nCVF = Pe / 5,152 (3)\nd) Para los motores eléctricos:\nCVF = Pe / 5,152 (4)\nLa potencia efectiva Pe que se utiliza en las fórmulas (3) y (4), expresada en kilovatios (kw), será la que determine el Laboratorio Oficial que el Ministerio de Industria y Energía designe aplicando los métodos de ensayo que dicho Ministerio establezca.\nEn cualquier caso, la potencia fiscal del motor a consignar en la tarjeta de inspección técnica o en el certificado de características del vehículo, será la que resulte de aplicar la fórmula correspondiente, según el tipo del motor, expresada con dos cifras decimales aproximada por defecto.",
+ "fingerprint": "sha256:65c057272b2910811d0fb318af78b49d34143f6e83cc789f80078ad1ced28041",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#anv"
+}

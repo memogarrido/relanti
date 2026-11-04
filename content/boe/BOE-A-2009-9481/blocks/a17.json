@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a17",
+ "tipo": "precepto",
+ "titulo": "Artículo 17",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 17. Sustitución del permiso en caso de sustracción, extravío o deterioro del original por el correspondiente español.\n1. En caso de sustracción, extravío o deterioro del original, el titular de un permiso de conducción expedido en uno de estos Estados que tenga su residencia normal en España, podrá solicitar la expedición de un duplicado en cualquier Jefatura Provincial de Tráfico, que lo otorgará sobre la base de la información que, en su caso, conste en el Registro de conductores e infractores, completada o suplida, de ser necesario, con un certificado de las autoridades competentes del Estado que haya expedido aquél.\nCuando la causa sea el deterioro del original, el permiso sustituido será retirado por la Jefatura Provincial de Tráfico y remitido a las autoridades competentes del Estado que lo hubiera expedido a través de la oficina diplomática o consular.\nA la solicitud de duplicado se acompañarán los documentos que se indican en el anexo III.\n2. El titular de un permiso de conducción al que se le hubiera expedido duplicado por sustracción o extravío deberá devolver el original de éste, cuando lo encuentre, a la Jefatura Provincial de Tráfico que hubiere expedido el duplicado, la cual procederá a devolverlo a las autoridades competentes del Estado que lo haya expedido, a través de la oficina diplomática o consular, indicando los motivos por los que se ha sustituido.",
+ "fingerprint": "sha256:ca6ab7a67eec75c1ccb6c5a85042467331adab8fc8f626784eef180361c59658",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a17"
+}

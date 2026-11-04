@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a25-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 25",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 25. Comportamiento de los participantes.\nLos agentes de la autoridad y el personal auxiliar habilitado podrán impedir su continuidad en la actividad a aquellas personas que con sus acciones constituyan un peligro para el resto de los participantes o usuarios de las vías.",
+ "fingerprint": "sha256:7cdc18d02ce70fb0bdc856785a1de2b501dbdff7fa16c34fd0d7ef7cf8dfc6d5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a25-2"
+}

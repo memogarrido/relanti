@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Transporte de mercancías o cosas",
+ "fingerprint": "sha256:5dc74ad1ee40954f7b35c9d754102e73945e4aa3f3e27f43dddb821bf741c2c6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2"
+}

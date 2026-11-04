@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a89",
+ "tipo": "precepto",
+ "titulo": "Artículo 89",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 89. Obstáculos.\n1. Igualmente, en las circunstancias señaladas en el artículo anterior, todo vehículo que encuentre cualquier obstáculo en su camino que le obligue a ocupar el espacio dispuesto para el sentido contrario de su marcha podrá rebasarlo, siempre que se haya cerciorado de que puede efectuarlo sin peligro. La misma precaución se observará cuando el obstáculo o el vehículo inmovilizado se encuentren en un tramo de vía en el que esté permitido el adelantamiento.\n2. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.d) del texto articulado.",
+ "fingerprint": "sha256:5aec240aada511f75acc22915925e8129b537fa3dd5cc54a5f3fd450126e164d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a89"
+}

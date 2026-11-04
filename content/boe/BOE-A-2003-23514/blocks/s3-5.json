@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-5",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 3.ª Ejecución del adelantamiento",
+ "fingerprint": "sha256:6f31f2640239e5f77c8c5a09447cde7c09fec985a6c38f49d1b4e82a14bae24b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-5"
+}

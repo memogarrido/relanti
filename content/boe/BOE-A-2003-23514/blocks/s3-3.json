@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 3.ª Normas de comportamiento de los conductores respecto a los ciclistas, peatones y animales",
+ "fingerprint": "sha256:162b0174862093e10075161a4aade2f2eefb17032d1380b71c4c29194819ee4a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-3"
+}

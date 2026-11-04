@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a30",
+ "tipo": "precepto",
+ "titulo": "Artículo 30",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2017-12841",
+  "fecha_publicacion": "20171108",
+  "fecha_vigencia": "20180520"
+ },
+ "text": "Artículo 30. Duplicados y renovaciones del permiso o licencia de circulación.\n1. El titular de un vehículo cuyo permiso o licencia de circulación hubiese sido objeto de sustracción, deterioro o extravío, podrá solicitar un duplicado. Su expedición determinará por sí sola la anulación del original. En consecuencia, y en caso de recuperación posterior del original, se procederá a su inmediata destrucción.\n2. El titular de un vehículo que hubiera sufrido variación en cualquiera de los datos que consten en el Registro de Vehículos dispondrá de un plazo de 15 días desde que se produjera para comunicarla. En todo caso, se expedirá un nuevo permiso o licencia de circulación si la variación de datos comunicada afectase a los que deban ser consignados en dicho documento.\n3. Los trámites previstos en los apartados anteriores se practicarán ante la sede electrónica de la Dirección General de Tráfico, o en su defecto, en cualquier Jefatura Provincial u Oficina Local de Tráfico en los términos establecidos en el anexo XIII.",
+ "fingerprint": "sha256:008bcedb1dde1cb6d4adc5af7e0ec5819d8738cb0112c3b9ff5d07e42ce0043a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a30"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "iii-3",
+ "tipo": "precepto",
+ "titulo": "III. Número y ubicación de las placas",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2025-15231",
+  "fecha_publicacion": "20250723",
+  "fecha_vigencia": "20250724"
+ },
+ "text": "III. Número y ubicación de las placas\n1. Los automóviles, excepto las motocicletas y vehículos de tres ruedas deberán llevar dos placas de matrícula, de forma plana y rectangular. Una se colocará en la parte delantera de manera que su eje vertical esté situado en el plano longitudinal mediano del vehículo; y otra, en la parte posterior, que se colocará de manera que su eje vertical esté situado en aquel plano, y si no fuese posible, en el lado izquierdo del vehículo.\nExcepcionalmente, en aquellos automóviles en los que, por construcción, la placa delantera no puede ser colocada de manera que su eje vertical esté situado en el plano longitudinal mediano del vehículo, ésta se podrá situar en su lado izquierdo o derecho.\n2. Los ciclomotores, motocicletas, vehículos de tres ruedas y cuatriciclos ligeros y pesados llevarán una sola placa en la parte posterior, colocada en posición vertical o casi vertical. Los cuatriciclos ligeros y pesados podrán, además, llevar opcionalmente placa de matrícula delantera, que será de las mismas características que la placa de matrícula trasera.\n3. Los vehículos especiales agrícolas y de obras y servicios autopropulsados deberán llevar una placa de matrícula de forma plana y rectangular situada en la parte posterior y en el centro o en su lado izquierdo, colocada en posición vertical o casi vertical y perpendicular al plano longitudinal medio del vehículo.\n4. Los remolques, semirremolques, maquinaria agrícola remolcada y de obras y servicios, cuya masa máxima autorizada exceda de 750 kilogramos, deberán ir provistos en la parte posterior de su placa de matrícula situada en posición vertical o casi vertical y en el plano longitudinal mediano del vehículo y, además, en el lado derecho, de otra placa con la matrícula del vehículo remolcador.\nLos restantes remolques, semirremolques, maquinaria agrícola remolcada y de obras y servicios, llevarán en el lado izquierdo o en el centro una sola placa posterior, de igual contenido que la del vehículo remolcador.",
+ "fingerprint": "sha256:ac6f3043a2206f8e210ec32d6eda5e2dd32460f2a15f223c5d06de1d67559e93",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#iii-3"
+}

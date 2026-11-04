@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a44",
+ "tipo": "precepto",
+ "titulo": "Artículo 44",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 44. Personas obligadas a someterse a las pruebas.\n1. Deberán someterse a las pruebas y exploraciones necesarias para determinar si reúnen las aptitudes psicofísicas requeridas, todas las personas que pretendan obtener o prorrogar cualquier permiso o licencia de conducción y las que, en relación con las tareas de conducción o con su enseñanza, estén obligadas a ello.\nLas pruebas y exploraciones a que se refiere el párrafo anterior serán practicadas por los centros de reconocimiento de conductores autorizados, los cuales emitirán un informe de aptitud psicofísica.\nDicho informe podrá ser complementado por el reconocimiento efectuado por los servicios sanitarios competentes cuando la Jefatura Provincial de Tráfico así lo acuerde en los supuestos en que, con ocasión de la práctica de las pruebas de aptitud para obtener licencia o permiso o en cualquier otro momento del procedimiento, se adviertan en el aspirante indicios racionales de deficiencias psicofísicas que lo aconsejen.\n2. Las aptitudes psicofísicas requeridas para obtener o prorrogar el permiso o la licencia de conducción son las que se establecen en el anexo IV.\n3. No obstante lo dispuesto en el apartado anterior, si el centro que estuviese realizando el reconocimiento detectase que un solicitante, pese a no estar incluido en algunas de las deficiencias o enfermedades relacionadas en el anexo IV, no estuviese en condiciones para que le fuera expedido un permiso o licencia de conducción, o prorrogada su vigencia, lo comunicará, indicando las causas, a la Jefatura Provincial de Tráfico correspondiente para que resuelva, previo informe de los servicios sanitarios competentes, lo que proceda.",
+ "fingerprint": "sha256:9ff6f6033b27aa83d876010700676f4808682512d77df25da6f495533a87c54d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a44"
+}

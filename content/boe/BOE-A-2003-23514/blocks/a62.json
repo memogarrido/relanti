@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a62",
+ "tipo": "precepto",
+ "titulo": "Artículo 62",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 62. Orden de preferencia en ausencia de señalización.\n1. Sin perjuicio de lo que pueda ordenar el agente de la autoridad o, en su caso, indicar el personal de obras y el de acompañamiento de vehículos especiales o en régimen de transporte especial, el orden de preferencia entre los distintos tipos de vehículos cuando uno de ellos tenga que dar marcha atrás es el siguiente:\na) Vehículos especiales y en régimen de transporte especial que excedan de las masas o dimensiones establecidas en las normas reguladoras de los vehículos.\nb) Conjunto de vehículos, excepto los contemplados en el párrafo d).\nc) Vehículos de tracción animal.\nd) Turismos que arrastran remolques de hasta 750 kilogramos de masa máxima autorizada y autocaravanas.\ne) Vehículos destinados al transporte colectivo de viajeros.\nf) Camiones, tractocamiones y furgones.\ng) Turismos y vehículos derivados de turismos.\nh) Vehículos especiales que no excedan de las masas o dimensiones establecidas en las normas reguladoras de los vehículos, cuadriciclos y cuadriciclos ligeros.\ni) Vehículos de tres ruedas, motocicletas con sidecar y ciclomotores de tres ruedas.\nj) Motocicletas, ciclomotores de dos ruedas y bicicletas.\nCuando se trate de vehículos del mismo tipo o de supuestos no enumerados, la preferencia de paso se decidirá a favor del que tuviera que dar marcha atrás mayor distancia y, en caso de igualdad, del que tenga mayor anchura, longitud o masa máxima autorizada.\n2. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:9425b3b466a4333a9bd725783059c5f4177c8bba15194db2b0d44f3770e2078d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a62"
+}

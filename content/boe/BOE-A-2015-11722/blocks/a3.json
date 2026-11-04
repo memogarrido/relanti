@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a3",
+ "tipo": "precepto",
+ "titulo": "Artículo 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 3. Conceptos básicos.\nA los efectos de esta ley y sus disposiciones complementarias, los conceptos básicos sobre vehículos, vías públicas y usuarios de las mismas son los previstos en su anexo I.",
+ "fingerprint": "sha256:4564d9bb4cf5555242363f1a6e89ade9df1364c4a0fa683abb4ae354aead12dd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a3"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a96",
+ "tipo": "precepto",
+ "titulo": "Artículo 96",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 96. Barreras, semibarreras y semáforos.\n1. Ningún usuario de la vía deberá penetrar en un paso a nivel cuyas barreras o semibarreras estén atravesadas en la vía o en movimiento para levantarse o colocarse atravesadas, o cuando sus semáforos impidan el paso con sus indicaciones de detención.\n2. Ningún usuario de la vía deberá penetrar en un paso a nivel desprovisto de barreras, semibarreras o semáforos, sin antes haberse cerciorado de que no se acerca ningún vehículo que circule sobre raíles.\n3. Ningún usuario deberá penetrar en un túnel o paso inferior si en la boca de éste un semáforo no le permite el paso, con excepción de los equipos de los servicios de urgencia, asistencia mecánica y conservación de carreteras.",
+ "fingerprint": "sha256:e12d9cf16225119c04dd4cdbacc75f42a66efd9c23feaac439fe10e927023768",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a96"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "anvi",
+ "tipo": "encabezado",
+ "titulo": "ANEXO VI",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2025-24545",
+  "fecha_publicacion": "20251204",
+  "fecha_vigencia": "20251205"
+ },
+ "text": "ANEXO VI\nDatos que se facilitarán por los órganos competentes españoles\n1. Datos de los vehículos:\nEn todo caso, se facilitarán:\n– Número de matrícula.\n– Número de bastidor.\n– Estado miembro de matriculación.\n– Marca.\n– Modelo.\n– Código de categoría UE.\n– Clase de emisiones EURO [este dato se facilitará únicamente con respecto a la infracción contemplada en el párrafo i) del artículo 98].\n– Clase por emisiones de CO2 [se aplica a vehículos pesados].\n– Fecha de reclasificación.\n– CO2 en g/tkm [se aplica a vehículos pesados].\n– Masa máxima en carga técnicamente admisible del vehículo [se aplica a vehículos pesados].\n2. Datos de los titulares, conductores habituales o arrendatarios a largo plazo:\n– Apellidos o denominación social.\n– Nombre.\n– Dirección.\n– Fecha de nacimiento.\n– Sexo.\n– Personalidad jurídica, persona física o jurídica; particular, asociación, sociedad, etc.\n– Número identificador: Número del documento nacional de identidad, número de identificación de extranjero, número de identificación fiscal de personas jurídicas y entidades sin personalidad jurídica.",
+ "fingerprint": "sha256:8d09d5b16f99b27ef2093508fdee4c76e66a9af3fa3a99917e3747418cc82160",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anvi"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "texto",
+ "tipo": "encabezado",
+ "titulo": "TEXTO",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "TEXTO REFUNDIDO DE LA LEY SOBRE TRÁFICO, CIRCULACIÓN DE VEHÍCULOS A MOTOR Y SEGURIDAD VIAL",
+ "fingerprint": "sha256:1913b20ebca18b5fe4cf5e3084a8cf24aa60d9db4c0ab28918d1f1111aeaa1fc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#texto"
+}

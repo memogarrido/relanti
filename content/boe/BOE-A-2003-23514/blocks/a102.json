@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a102",
+ "tipo": "precepto",
+ "titulo": "Artículo 102",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 102. Deslumbramiento.\n1. El alumbrado de largo alcance o de carretera deberá ser sustituido por el de corto alcance o de cruce tan pronto como se aprecie la posibilidad de producir deslumbramiento a otros usuarios de la misma vía o de cualquier otra vía de comunicación, y muy especialmente a los conductores de vehículos que circulen en sentido contrario y aunque éstos no cumplan esta prescripción, y no se restablecerá el alumbrado de carretera hasta rebasar, en el cruce, la posición del vehículo cruzado.\n2. La misma precaución se guardará respecto a los vehículos que circulen en el mismo sentido y cuyos conductores puedan ser deslumbrados a través del espejo retrovisor.\n3. En caso de deslumbramiento, el conductor que lo sufra reducirá la velocidad lo necesario, incluso hasta la detención total, para evitar el alcance de vehículos o peatones que circulen en el mismo sentido.\n4. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.e) del texto articulado.",
+ "fingerprint": "sha256:9cd41e62cdc93c2d324448b4e3c7643e4171c1b1425fca048e9010d07d0cdda9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a102"
+}

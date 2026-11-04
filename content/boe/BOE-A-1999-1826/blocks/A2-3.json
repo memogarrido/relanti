@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A2-3",
+ "tipo": "precepto",
+ "titulo": "2. Definiciones",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "2. Definiciones\nA efectos del presente Anexo se entiende por:\n2.1 Anclajes para dispositivos de amarre o simplemente, puntos de amarre.\nSon aquellos puntos de fijación en el vehículo (por ejemplo: anillas, ganchos, refuerzos roscados, etc.) que sirven para la fijación de dispositivos de amarre.\n2.2 Dispositivo de amarre.\nSon aquellos dispositivos que permiten asegurar la carga en el vehículo (cintas, cables, etc.) y que su instalación dependerá del tipo de carga que manipule el usuario.\n2.3 Preinstalación o anclajes o fijaciones para los dispositivos de retención.\nSon aquellos puntos de fijación en el vehículo (refuerzos roscados, anillas, ganchos, remaches, etc.) que sirven para la fijación de los dispositivos de retención.\n2.4 Dispositivo de retención.\nEs aquel dispositivo (por ejemplo: red, reja, barras) que está situado detrás de los asientos que limitan directamente con el plano de carga y que separa total o parcialmente la zona de pasajeros del espacio de carga para proteger a los pasajeros de un desplazamiento eventual de la carga.\nEl asiento asumirá parcialmente la función de retención cuando el dispositivo de retención asegure únicamente la zona situada por encima del mismo.",
+ "fingerprint": "sha256:27c688c71378a64f05daa3eb980c89d731b99b49e9328ce4443a47f6733f9310",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A2-3"
+}

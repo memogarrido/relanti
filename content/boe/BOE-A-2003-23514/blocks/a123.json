@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a123",
+ "tipo": "precepto",
+ "titulo": "Artículo 123",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 123. Visibilidad del peatón.\n1. Los peatones que transiten por la calzada o por el arcén en vías interurbanas entre el ocaso y la salida del sol o en condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán hacer uso, al menos, de un elemento luminoso o reflectante conforme a la normativa de equipos de protección individual, que sea visible a una distancia mínima de 150 metros para los conductores que se les aproximen. Asimismo, podrán llevar para mejorar su visibilidad ante el resto de los usuarios de la vía, otros elementos luminosos adecuados.\n2. En las mismas circunstancias, los grupos de peatones llevarán, además, en el lado más próximo al centro de la calzada, las luces necesarias para precisar su situación y dimensiones, que serán de color blanco o amarillo hacia adelante y rojo hacia atrás y que, en su caso, podrán constituir un solo conjunto.",
+ "fingerprint": "sha256:69c59530470f6fc8502bb10b22ad8d77a9fc81ccef564f318fc688377735f8db",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a123"
+}

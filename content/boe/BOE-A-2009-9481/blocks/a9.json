@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a9",
+ "tipo": "precepto",
+ "titulo": "Artículo 9",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 9. Modelo del permiso y de la licencia de conducción.\nEl permiso y la licencia de conducción se expedirán conforme a los modelos que se recogen en los anexos I y II, respectivamente, y contendrán los datos que en los mismos se indican.",
+ "fingerprint": "sha256:6478b08e13745d5e2d7c4d6d820e8f00b3e4f7bdddb24c5c0546dee086f20c95",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a9"
+}

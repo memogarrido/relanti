@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a105",
+ "tipo": "precepto",
+ "titulo": "Artículo 105",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 105. Inmovilizaciones.\n1. Todo vehículo que, por cualquier circunstancia, se encuentre inmovilizado entre la puesta y la salida del sol o bajo las condiciones a que se refiere el artículo 106, en calzada o arcén de una vía, deberá tener encendidas las luces de posición y, en su caso, las de gálibo.\n2. Todo vehículo parado o estacionado entre la puesta y la salida del sol en calzada o arcén de una travesía insuficientemente iluminada deberá tener encendidas las luces de posición, que podrá sustituir por las de estacionamiento, o por las dos de posición del lado correspondiente a la calzada, cuando se halle estacionado en línea.\n3. En vías urbanas que no sean travesías no será obligatorio que los vehículos estacionados tengan encendidas las luces de posición cuando la iluminación permita a otros usuarios distinguirlos a una distancia suficiente.\n4. La inmovilización, la parada o el estacionamiento de un vehículo sin alumbrado en situaciones de falta o disminución de visibilidad tendrán la consideración de infracciones graves, conforme se prevé en el artículo 65.4.e) del texto articulado.",
+ "fingerprint": "sha256:f3b95c71973fd2b5d7c2e97f13de01ed50b25b21e88eb225647dff1690079ba3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a105"
+}

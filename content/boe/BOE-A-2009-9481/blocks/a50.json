@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a50",
+ "tipo": "precepto",
+ "titulo": "Artículo 50",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 50. Centro de exámenes en el que se realizarán las pruebas.\nLas pruebas se realizarán en la provincia a la que se haya dirigido la solicitud y en el centro de exámenes que, atendidas las circunstancias y las posibilidades del servicio, determine la Jefatura Provincial de Tráfico.",
+ "fingerprint": "sha256:2f949b5e5536df320dd53d92205e39108a46abbf26ddef849d0949370587dba2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a50"
+}

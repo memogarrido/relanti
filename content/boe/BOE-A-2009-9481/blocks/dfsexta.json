@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dfsexta",
+ "tipo": "precepto",
+ "titulo": "Disposición final sexta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición final sexta. Entrada en vigor.\nEl presente real decreto entrará en vigor a los seis meses de su publicación en el «Boletín Oficial del Estado».",
+ "fingerprint": "sha256:72f571ae4167b589b0011c82a015fd51e04dcfb86458a9fe57eb94788d8ea9ef",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dfsexta"
+}

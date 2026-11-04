@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a49",
+ "tipo": "precepto",
+ "titulo": "Artículo 49",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2020-12767",
+  "fecha_publicacion": "20201023",
+  "fecha_vigencia": "20210102"
+ },
+ "text": "Artículo 49. Caracteres, dimensiones y otros requisitos.\n1. Las placas de matrícula deben cumplir con lo establecido en el anexo XVIII del presente real decreto. Asimismo, deberán ser conformes con los requisitos técnicos establecidos en el Real Decreto 885/2020, de 6 de octubre, por el que se establecen los requisitos para la comercialización y puesta en servicio de placas de matrícula para vehículos de motor y remolques, y por el que se modifica el Reglamento General de Vehículos, aprobado por el Real Decreto 2822/1998, de 23 de diciembre.\nEl número de placas de matrícula que debe llevar cada vehículo, así como su ubicación en el mismo, se ajustarán a lo dispuesto en el citado anexo.\n2. El número de manipulador, asignado por el fabricante y dado de alta en el Registro de Vehículos de la Dirección General de Tráfico constará en el anverso de todas las placas, en el centro del borde izquierdo, en posición vertical, de acuerdo con lo especificado en el referido anexo.\n3. El nombre del fabricante o marca registrada aparecerá en el anverso de las placas de serie junto al centro del borde superior y dentro de un rectángulo horizontal de 5 milímetros de altura y 35 milímetros de ancho, en el mismo color que los caracteres impresos en la matrícula o en el bordón de la misma en el caso de placas embutidas.\n4. Queda prohibido que en las placas de matrícula se coloquen, inscriban o pinten adornos, signos u otros caracteres distintos de los señalados en el anexo XVIII, incluida la publicidad en el interior de las mismas. Se autoriza la utilización de un apéndice distinto de la propia placa y situado en la parte inferior a la misma o de un marco ajeno a la propia placa, el cual podrá ir grabado en la parte inferior con publicidad, siempre y cuando su contorno no exceda de 26 milímetros al borde del exterior de la placa. Asimismo, se prohíbe que en las partes anterior y posterior de los vehículos se coloquen placas complementarias no autorizadas o se fijen o pinten marcas o distintivos que por su forma, color y caracteres dificulten la legibilidad o puedan inducir a confusión con los caracteres reglamentarios de las placas de matrícula.",
+ "fingerprint": "sha256:890dda7c464160e2eaa3a5e750861893a28c789d4aec9f9a9a814c96499ebb28",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a49"
+}

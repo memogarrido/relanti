@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a74",
+ "tipo": "precepto",
+ "titulo": "Artículo 74",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 74. Disposiciones generales.\n1. Las acciones u omisiones contrarias a esta ley tendrán el carácter de infracciones administrativas y serán sancionadas en los términos previstos en la misma.\n2. Cuando las acciones u omisiones puedan ser constitutivas de delitos tipificados en las leyes penales, se estará a lo dispuesto en el artículo 85.\n3. Las infracciones se clasifican en leves, graves y muy graves.",
+ "fingerprint": "sha256:0c00f3f9412a9b00204cc8546eb38dd259601897dcde85d677b1e9c8cf8a1cf9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a74"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dtquinta",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria quinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición transitoria quinta. Permiso de conducción de la clase B.\nQuienes a la entrada en vigor de este reglamento sean titulares de un permiso de conducción de la clase B podrán conducir vehículos especiales no agrícolas o sus conjuntos cuya velocidad máxima no exceda de 40 km/h, con independencia de cual sea su masa máxima autorizada.",
+ "fingerprint": "sha256:851493533ddde3103ccca93e3203a791a126a18e115f9341b3641eacfdc95aa4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dtquinta"
+}

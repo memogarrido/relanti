@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a47",
+ "tipo": "precepto",
+ "titulo": "Artículo 47",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2020-13970",
+  "fecha_publicacion": "20201111",
+  "fecha_vigencia": "20201112"
+ },
+ "text": "Artículo 47. Pruebas de control de conocimientos.\n1. La prueba de control de conocimientos común a realizar por los solicitantes de permiso de conducción, excepto del de la clase AM, así como la de control de conocimientos específicos a realizar por los solicitantes de permiso o licencia de conducción, según su clase, tienen por objeto garantizar que éstos poseen un conocimiento razonado y una buena comprensión sobre las materias que, en cada caso, se indican en el anexo V. B). 1 y 2.\n2. Los titulares de permisos o licencias de conducción cuya pérdida de vigencia haya sido declarada por la pérdida total de los puntos asignados, tras la realización con aprovechamiento del correspondiente curso de sensibilización y reeducación vial, realizarán una prueba de control de conocimientos sobre las materias descritas en la normativa reguladora de los cursos de sensibilización y reeducación vial.",
+ "fingerprint": "sha256:26f778f60f4e5a0332a1ee3656294dab5a13fabb41c8d161d40bf400ddec8714",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a47"
+}

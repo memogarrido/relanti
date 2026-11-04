@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a9",
+ "tipo": "precepto",
+ "titulo": "Artículo 9",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2006-15406",
+  "fecha_publicacion": "20060905",
+  "fecha_vigencia": "20060906"
+ },
+ "text": "Artículo 9. Del transporte de personas.\n1. El número de personas transportadas en un vehículo no podrá ser superior al de las plazas que tenga autorizadas, que, en los de servicio público y en los autobuses, deberá estar señalado en placas colocadas en su interior, sin que, en ningún caso, pueda sobrepasarse, entre viajeros y equipaje, la masa máxima autorizada para el vehículo.\n2. A efectos de cómputo del número de personas transportadas en los vehículos autorizados para transporte escolar y de menores, se estará a lo establecido en la normativa específica sobre la materia.\n3. Las infracciones a este precepto en cuanto impliquen una ocupación excesiva del vehículo que suponga aumentar en un 50 por ciento el número de plazas autorizadas, excluida la del conductor, con excepción de los autobuses de líneas urbanas e interurbanas, tendrán la consideración de muy graves, de acuerdo con lo estipulado en el artículo 65.5. e) del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, y se procederá a la inmovilización del vehículo por los agentes de la autoridad, que lo mantendrán inmovilizado mientras subsista la causa de la infracción.",
+ "fingerprint": "sha256:25d488b90bd9f939ce9534d75de06016b1ba80de3926d3c1b251bafeb78de7e6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a9"
+}

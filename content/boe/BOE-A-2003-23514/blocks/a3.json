@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a3",
+ "tipo": "precepto",
+ "titulo": "Artículo 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 3. Conductores.\n1. Se deberá conducir con la diligencia y precaución necesarias para evitar todo daño, propio o ajeno, cuidando de no poner en peligro, tanto al mismo conductor como a los demás ocupantes del vehículo y al resto de los usuarios de la vía. Queda terminantemente prohibido conducir de modo negligente o temerario (artículo 9.2 del texto articulado).\n2. Las conductas referidas a la conducción negligente tendrán la consideración de infracciones graves y las referidas a la conducción temeraria tendrán la consideración de infracciones muy graves, de acuerdo con lo dispuesto en el artículo 65.4.a) y 5.c) del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, respectivamente",
+ "fingerprint": "sha256:4df2d7b7efac114d4b6199c883e94cc7a5d96207df8a4fc97a00a9c264905470",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3"
+}

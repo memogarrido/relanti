@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a23-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 23",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 23. Condiciones de la circulación.\n1. Todas las pruebas irán precedidas por un agente de la autoridad con una bandera roja y finalizadas por otro con una bandera verde, las cuales acotarán para los participantes y el resto de usuarios de la vía el inicio y el fin del espacio ocupado para la prueba. Entre una y otra el personal auxiliar habilitado que realice funciones de orden, control o seguridad irá provisto de una bandera de color amarillo en indicación de precaución.\n2. Sin perjuicio de ello, la organización incorporará vehículos piloto de protección que estarán dotados de carteles que anuncien el comienzo y el final de la prueba, y deberán, en su caso, situar el coche de apertura y cierre de la prueba como mínimo 200 metros por delante y por detrás del primer participante y del último, respectivamente.\n3. Las características de los vehículos piloto a los que se hace referencia en el apartado anterior serán las siguientes:\na) Vehículos de apertura:\nPortador de cartel con la inscripción «Atención:\nmarcha ciclista», sin que en ningún caso exceda la anchura del vehículo.\nBandera roja.\nRotativo de señalización de color naranja.\nLuces de avería y de cruce encendidas.\nb) Vehículo de cierre:\nPortador de cartel con la inscripción «Fin marcha ciclista», sin que en ningún caso exceda la anchura del vehículo.\nBandera verde.\nRotativo de señalización de color naranja.\nLuces de avería y de cruce encendidas.",
+ "fingerprint": "sha256:beddcea00c053d288a57cebe832d06ac14e4ca92b7e4147f1409668bf2feb22b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a23-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a13-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 13",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 13. Personal auxiliar.\nEl personal auxiliar para el mantenimiento del orden y control de la actividad deberá ser en número razonable, en función de las características de la actividad, dependerá del responsable de seguridad vial y deberá tener, como mínimo, las siguientes características:\na) Ser mayor de 18 años y poseer permiso de conducción.\nb) Disponer por escrito de las instrucciones precisas dadas por el responsable de seguridad vial de la prueba y que habrán sido explicadas previamente por éste o por los agentes de la autoridad que den cobertura a la prueba.\nc) Disponer de un sistema de comunicación eficaz que permita al responsable de seguridad vial entrar en contacto con el personal habilitado durante la celebración de la prueba.\nd) Disponer de material de señalización adecuado, integrado, como mínimo, por conos y banderas verde, amarilla y/o roja, para indicar a los usuarios si la ruta está o no libre, o una situación de peligrosidad.\ne) Deberá poder desplazarse de un punto a otro del recorrido para el ejercicio de sus funciones.",
+ "fingerprint": "sha256:be3f3e9bfb0cb3020fcef86fbfa8a8925719cf079b37b73a8ae201f983bb8e69",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a13-2"
+}

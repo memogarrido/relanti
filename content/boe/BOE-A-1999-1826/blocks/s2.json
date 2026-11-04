@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "s2",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Sección 2.ª Transmisiones en las que intervienen personas que se dedican a la compraventa de vehículos",
+ "fingerprint": "sha256:2968127e7467a24f005777bce9e012f18faf5003a858d9ab54aa1f1a541f2b4f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#s2"
+}

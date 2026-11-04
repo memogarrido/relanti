@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a98",
+ "tipo": "precepto",
+ "titulo": "Artículo 98",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20211222"
+ },
+ "text": "Artículo 98. Infracciones.\nEl intercambio transfronterizo de información se llevará a cabo sobre las siguientes infracciones de tráfico:\na) Exceso de velocidad.\nb) Conducción con tasas de alcohol superiores a las reglamentariamente establecidas.\nc) No utilización del cinturón de seguridad u otros sistemas de retención homologados.\nd) No detención ante un semáforo en rojo o en el lugar prescrito por la señal de «stop».\ne) Circulación por un carril prohibido, circulación indebida por el arcén o por un carril reservado para determinados usuarios.\nf) Conducción con presencia de drogas en el organismo.\ng) No utilización del casco de protección.\nh) Utilización del teléfono móvil o de cualquier otro dispositivo de comunicación durante la conducción cuando no esté permitido.\ni) El impago de peaje, tasa o precio público, cuando estos fueran exigibles.",
+ "fingerprint": "sha256:78804ab04138884a21f88204e2752759e332d7bf6e0d32899be0089a94c31dce",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a98"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a31-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 31",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 31. Formación y habilitación del personal auxiliar.\nPor los Ministerios del Interior y de Educación, Cultura y Deporte se fijarán las condiciones, formación y habilitación del personal auxiliar de los agentes de la autoridad que pueda actuar en competiciones deportivas en carretera y marchas ciclistas.",
+ "fingerprint": "sha256:a381cfaa215e3a328802d9ad409264abd257205913da244692a437f83a78a068",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a31-2"
+}

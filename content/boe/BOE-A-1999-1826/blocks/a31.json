@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a31",
+ "tipo": "precepto",
+ "titulo": "Artículo 31",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 31. Renovación del permiso o licencia.\nEl permiso o licencia de circulación habrán de renovarse cuando varíe la titularidad registral del vehículo.",
+ "fingerprint": "sha256:844cb75a665e7a06b8c5bbb5352614f7046f6aef129e93236ff28130dccab54a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a31"
+}

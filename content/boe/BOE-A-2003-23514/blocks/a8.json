@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a8",
+ "tipo": "precepto",
+ "titulo": "Artículo 8",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 8. Carga de vehículos y transporte de personas y mercancías o cosas.\nSe prohíbe cargar los vehículos o transportar en ellos personas, mercancías o cosas de forma distinta a la que se determina en este capítulo.",
+ "fingerprint": "sha256:ad1b40da7bfeeade43389981d0c86551d260ceefe5c90b1c28c670862b5559cd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a8"
+}

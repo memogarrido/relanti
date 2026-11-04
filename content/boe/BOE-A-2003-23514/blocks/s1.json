@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Transporte de personas",
+ "fingerprint": "sha256:6022ff0faf40f85c2a94b8ded881cb0003b47210a231c44cdd42559527930e34",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1"
+}

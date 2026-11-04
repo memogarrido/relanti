@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a108",
+ "tipo": "precepto",
+ "titulo": "Artículo 108",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 108. Obligación de advertir las maniobras.\n1. Los conductores están obligados a advertir al resto de los usuarios de la vía acerca de las maniobras que vayan a efectuar con sus vehículos (artículo 44.1 del texto articulado).\n2. Como norma general, dichas advertencias se harán utilizando la señalización luminosa del vehículo o, en su defecto, con el brazo (artículo 44.2 del texto articulado).\nLa validez de las realizadas con el brazo quedará subordinada a que sean perceptibles por los demás usuarios de la vía y se efectúen de conformidad con lo dispuesto en el artículo siguiente, y anularán cualquier otra indicación óptica que las contradiga.",
+ "fingerprint": "sha256:f1e8fe672fad551ef8a222213a1016901b18dd9ad946517bb330aebf9c3aa451",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a108"
+}

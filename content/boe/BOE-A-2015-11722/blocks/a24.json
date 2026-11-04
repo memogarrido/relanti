@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a24",
+ "tipo": "precepto",
+ "titulo": "Artículo 24",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 24. Tramos estrechos y de gran pendiente.\n1. En los tramos de la vía en los que, por su escasa anchura, sea imposible o muy difícil el paso simultáneo de dos vehículos que circulen en sentido contrario, donde no haya señalización expresa al efecto, tiene preferencia de paso el que haya entrado primero. En caso de duda sobre dicha circunstancia, tiene preferencia el vehículo con mayores dificultades de maniobra, en los términos que reglamentariamente se determine.\n2. En los tramos de gran pendiente, en los que se den las circunstancias señaladas en el apartado anterior, tiene preferencia de paso el vehículo que circule en sentido ascendente, salvo si éste pudiera llegar antes a una zona prevista para apartarse. En caso de duda se estará a lo establecido en el apartado anterior.",
+ "fingerprint": "sha256:f40545a614704c5aa3192220aed900d73644d9db8543d30900fab2fcef847421",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a24"
+}

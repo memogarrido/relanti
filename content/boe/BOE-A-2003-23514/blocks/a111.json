@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a111",
+ "tipo": "precepto",
+ "titulo": "Artículo 111",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 111. Normas generales.\nLos vehículos de servicios de urgencia, públicos o privados, vehículos especiales y transportes especiales podrán utilizar otras señales ópticas y acústicas en los casos y en las condiciones que se determinan en los artículos siguientes de esta sección.",
+ "fingerprint": "sha256:56612692cfa6772fe0b27fce4d3fc14a537d522e4b1c78eba993ece0fc6e9cb5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a111"
+}

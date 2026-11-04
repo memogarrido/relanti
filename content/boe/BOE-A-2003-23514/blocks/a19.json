@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a19",
+ "tipo": "precepto",
+ "titulo": "Artículo 19",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 19. Visibilidad en el vehículo.\n1. La superficie acristalada del vehículo deberá permitir, en todo caso, la visibilidad diáfana del conductor sobre toda la vía por la que circule, sin interferencias de láminas o adhesivos.\nÚnicamente se permitirá circular con láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores cuando el vehículo lleve dos espejos retrovisores exteriores que cumplan las especificaciones técnicas necesarias.\nNo obstante, la utilización de láminas adhesivas en los vehículos se permitirá en las condiciones establecidas en la reglamentación de vehículos.\nLa colocación de los distintivos previstos en la legislación de transportes o en otras disposiciones deberá realizarse de forma que no impidan la correcta visión del conductor.\n2. Queda prohibida, en todo caso, la colocación de vidrios tintados o coloreados no homologados.\n3. Las infracciones a las normas de este precepto serán sancionadas con arreglo a lo dispuesto en el artículo 67.2 del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:17a3772bb48ffbdbde4124541c4150032d9126b663b9ccc4bc487303c76b1f81",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a19"
+}

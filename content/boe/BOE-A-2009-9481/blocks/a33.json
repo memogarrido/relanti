@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a33",
+ "tipo": "precepto",
+ "titulo": "Artículo 33",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 33. Expedición del permiso internacional para conducir.\nLa expedición del permiso internacional para conducir se solicitará de la Jefatura Provincial de Tráfico en la que se desee obtener, en el modelo oficial suscrito por el interesado, acompañando a la solicitud los documentos que se indican en el anexo III.",
+ "fingerprint": "sha256:f8d2a2bdba167d9e4332230d4bc31d1f9c1cd73b5631a2179c72cd73d9025f0e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a33"
+}

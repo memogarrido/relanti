@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-15",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Sección 2.ª Señalización circunstancial que modifica el régimen normal de utilización de la vía, elementos de balizamiento y sistemas de contención de vehículos",
+ "fingerprint": "sha256:02ce55a3f7ea08229ae9344a20b1180a82d15db6cf87c92d5834fc74068e6204",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-15"
+}

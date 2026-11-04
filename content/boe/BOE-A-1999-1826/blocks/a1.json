@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a1",
+ "tipo": "precepto",
+ "titulo": "Artículo 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 1. Autorizaciones y sus efectos.\n1. La circulación de vehículos exigirá que éstos obtengan previamente la correspondiente autorización administrativa, dirigida a verificar que estén en perfecto estado de funcionamiento y se ajusten en sus características, equipos, repuestos y accesorios a las prescripciones técnicas que se fijan en este Reglamento. Se prohíbe la circulación de vehículos que no estén dotados de la citada autorización.\nEl Ministerio de Industria y Energía podrá establecer excepciones al cumplimiento de alguna de las condiciones técnicas previstas en este Reglamento a determinados vehículos, equipos, repuestos y accesorios.\n2. La circulación de un vehículo sin autorización, bien por no haberla obtenido o porque haya sido objeto de anulación o declarada su pérdida de vigencia, dará lugar a la inmovilización del mismo hasta que se disponga de dicha autorización, de acuerdo con lo que se establece en el presente Reglamento.\nAsimismo, la circulación de un vehículo durante el plazo de suspensión cautelar de la autorización de circulación que se haya acordado en el curso de los procedimientos de nulidad, anulación y pérdida de vigencia de dicha autorización dará lugar a la inmovilización del vehículo.",
+ "fingerprint": "sha256:1bc43a5c9a7ed742b2d38e30f173f9e28ddbe75c3a5098c65c3cd2add8ede224",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a1"
+}

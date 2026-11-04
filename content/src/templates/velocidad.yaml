@@ -1,0 +1,28 @@
+# Question templates over the fact table. Each row is one item with a fixed id.
+# When a fact changes, the text regenerates and the id stays.
+# Default wrong options: the two closest other values among the template's rows.
+templates:
+  - id: vmax-fuera-poblado
+    tramo: VE-101
+    truco: T-VE-101
+    question: Sin ninguna señal que diga otra cosa, ¿a qué velocidad máxima puede circular {quien} por {via}?
+    explanation: El límite genérico para {quien} en {via} es {value} (tabla del art. 48.1.a del RGC).
+    rows:
+      - {id: VE-101-01, fact: vmax.turismo.autopista, quien: un turismo, via: una autopista}
+      - {id: VE-101-02, fact: vmax.turismo.convencional, quien: un turismo, via: una carretera convencional}
+      - {id: VE-101-03, fact: vmax.camion.autopista, quien: un camión, via: una autovía}
+      - {id: VE-101-04, fact: vmax.camion.convencional, quien: una furgoneta, via: una carretera convencional}
+      - {id: VE-101-05, fact: vmax.autobus.autopista, quien: un autobús, via: una autovía}
+      - {id: VE-101-06, fact: vmax.autobus.convencional, quien: un autobús, via: una carretera convencional}
+
+  - id: vmax-urbana
+    tramo: VE-102
+    truco: T-VE-102
+    question: En poblado y sin señales específicas, ¿cuál es el límite de velocidad en {via}?
+    explanation: "{via_cap}: {value} (art. 50 del RGC)."
+    rows:
+      - {id: VE-102-01, fact: vmax.urbana.plataforma-unica, via: una calle de plataforma única donde calzada y acera están al mismo nivel, via_cap: Plataforma única}
+      - {id: VE-102-02, fact: vmax.urbana.un-carril, via: una calle con un solo carril por sentido, via_cap: Un carril por sentido}
+      - {id: VE-102-03, fact: vmax.urbana.dos-carriles, via: una avenida con dos carriles en cada sentido, via_cap: Dos o más carriles por sentido}
+      - {id: VE-102-04, fact: vmax.travesia, via: una travesía, via_cap: Travesía}
+      - {id: VE-102-05, fact: vmax.urbana.autopista, via: una autovía que pasa por dentro de la ciudad, via_cap: Autopista o autovía dentro de poblado}

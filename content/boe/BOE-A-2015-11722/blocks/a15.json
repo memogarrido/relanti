@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a15",
+ "tipo": "precepto",
+ "titulo": "Artículo 15",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 15. Sentido de la circulación.\nComo norma general y muy especialmente en las curvas y cambios de rasante de reducida visibilidad, el vehículo circulará en todas las vías objeto de esta Ley por la derecha y lo más cerca posible del borde de la calzada, con las excepciones que reglamentariamente se determinen, manteniendo en todo caso la separación lateral suficiente para realizar el cruce con seguridad.",
+ "fingerprint": "sha256:93f3b263cc2bb9ec4cd0748f00b839b92192d53aa001b57234a09d7f4552fa1a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a15"
+}

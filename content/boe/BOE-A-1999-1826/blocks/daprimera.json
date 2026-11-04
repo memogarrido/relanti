@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "daprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición adicional primera. Circulación con incumplimiento de las condiciones técnicas.\nLa circulación de un vehículo incumpliendo las condiciones técnicas contempladas en este Reglamento, cuando suponga un riesgo grave para la circulación, las personas o los bienes, dará lugar a la inmovilización del vehículo y a la iniciación del correspondiente expediente sancionador.",
+ "fingerprint": "sha256:4c5b770f6dd0bc30085a6ff01ee3a2c2871d6dafdca1c534e16f546d8401aff8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#daprimera"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a27",
+ "tipo": "precepto",
+ "titulo": "Artículo 27",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 27. Matriculación única. Excepciones.\n1. La matriculación ordinaria es única para cada vehículo.\n2. No obstante lo dispuesto en el apartado anterior, y en las condiciones fijadas en este Reglamento, podrá concederse una nueva matrícula ordinaria distinta a la inicialmente asignada en los casos siguientes:\na) Cuando se solicite simultáneamente una nueva matrícula y el cambio de titularidad por el adquirente de un vehículo en cuya matrícula figuren las siglas de la provincia donde se matriculó, siempre que tenga su domicilio en provincia distinta de aquélla. A la solicitud se acompañarán los documentos que se indican en el anexo XIV.\nb) En el caso de que el titular de un vehículo en cuya matrícula figuren siglas provinciales cambie su domicilio a provincia distinta de aquéllas, debiendo presentar la documentación que se establece en el anexo XIII.\nc) Cuando se pretenda legalizar en nuestro país la situación de un vehículo matriculado en el extranjero, pero que anteriormente ha estado matriculado en España y en cuya matrícula figuren siglas provinciales. La solicitud únicamente podrá hacerla el nuevo propietario siempre que sea distinto del último titular que figure inscrito en el Registro de Vehículos y acompañe los documentos que se indican en el anexo XIII.\n3. Asimismo, podrá concederse una nueva matrícula distinta de la que figure inicial o posteriormente asignada cuando así lo solicite el titular del vehículo por razones de seguridad personal debidamente acreditadas, con sujeción a las prescripciones que se indican en el anexo XIII. Este cambio de matrícula no estará sujeto al abono de la tasa de matriculación.\n4. Los vehículos pertenecientes al Estado, que deberán tener una matrícula oficial, podrán ser objeto además de matriculación ordinaria.\n5. Los vehículos adscritos al Cuerpo de Policía de una Comunidad Autónoma podrán utilizar, en el ámbito de la misma, placas de matrícula con una contraseña y numeración propias, sin perjuicio de su matriculación ordinaria en la Jefatura de Tráfico correspondiente.",
+ "fingerprint": "sha256:2b5c0e5fdc2a9bc7fa661616011eecf9dee59e232c83d772e903fe85198efa23",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a27"
+}

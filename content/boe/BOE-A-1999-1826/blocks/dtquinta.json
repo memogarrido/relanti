@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dtquinta",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria quinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición transitoria quinta. Reposición de placas de matrícula.\nLos titulares de vehículos matriculados con anterioridad a la entrada en vigor de este Reglamento, que se vean obligados a sustituir las placas de matrícula por pérdida, sustracción o deterioro, deberán necesariamente ajustar las dimensiones de las nuevas placas a las del modelo reglamentario contenido en el anexo XVIII, si bien conservarán el número de matrícula que tuvieran asignado.",
+ "fingerprint": "sha256:7b126799105a025c320864466c03a93655af27db03c810a36f19f65adae09371",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dtquinta"
+}

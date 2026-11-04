@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-6",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Normas generales del adelantamiento",
+ "fingerprint": "sha256:90ee435af1fdd82155fe1bfbdad95b1b12cdcb74f57097547588da72f052d9f5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-6"
+}

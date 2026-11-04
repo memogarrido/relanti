@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a58",
+ "tipo": "precepto",
+ "titulo": "Artículo 58",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 58. Lugar de realización de las pruebas de control de aptitudes y comportamientos.\n1. La prueba de control de aptitudes y comportamientos en circuito cerrado se realizará en un terreno o pista especial cerrado a la circulación y debidamente adaptado para ello.\nEn el terreno o pista especial únicamente podrán permanecer los aspirantes a quienes corresponda realizarla, el personal de la Dirección General de Tráfico y, cuando lo soliciten y sean autorizados, los responsables de la enseñanza de la conducción, si bien éstos en el lugar que se les indique y con la exclusiva finalidad de presenciar la realización de aquélla y, en su caso, colaborar con los funcionarios de la Jefatura Provincial de Tráfico en su realización.\nCuando se trate de aspirantes al permiso de la clase B, la prueba podrá realizarse durante el desarrollo de la de control de aptitudes y comportamientos en circulación en vías abiertas al tráfico general y, cuando las circunstancias lo aconsejen, en el terreno o pista a que se refiere el párrafo primero.\n2. La prueba de control de aptitudes y comportamientos en circulación en vías abiertas al tráfico general tendrá lugar, si fuera posible, en vías situadas fuera de poblado, en autopistas o autovías, así como en todo tipo de vías urbanas (zonas residenciales, zonas con limitaciones de 30 y 50 km/h), que deberán presentar los diferentes tipos de dificultades que puede encontrar un conductor.\nSiempre que sea posible, la prueba se desarrollará en diferentes condiciones de intensidad de tráfico. El tiempo de duración de la prueba deberá utilizarse de forma óptima con el fin de comprobar el comportamiento del aspirante en los diferentes tipos de tráfico que se puede encontrar, prestando especial atención a la transición de uno a otro.",
+ "fingerprint": "sha256:2ede2bb65cf18d2d4c5b5ecd41cd6d9286cae70494c22f53b47eb5174f2c3d40",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a58"
+}

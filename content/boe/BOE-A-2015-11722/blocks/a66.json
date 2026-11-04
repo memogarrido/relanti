@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a66",
+ "tipo": "precepto",
+ "titulo": "Artículo 66",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 66. Permisos de circulación.\n1. La circulación de vehículos exigirá que estos obtengan previamente el correspondiente permiso de circulación, dirigido a verificar que estén en perfecto estado de funcionamiento y se ajusten en sus características, equipos, repuestos y accesorios a las prescripciones técnicas que se fijen reglamentariamente.\nEn el caso de vehículos dotados de sistema de conducción automatizada, sus características, tanto de grado de automatización como del entorno operacional de uso, se consignarán en el permiso de circulación conforme se desarrolle reglamentariamente.\nSe prohíbe la circulación de vehículos que no estén dotados del citado permiso.\n2. El permiso de circulación debe renovarse cuando varíe la titularidad registral del vehículo, y queda extinguido cuando éste se dé de baja en el correspondiente registro, a instancia de parte o por comprobarse que no es apto para la circulación, en los términos que reglamentariamente se determine.\n3. La circulación de un vehículo sin el permiso de circulación, bien por no haberlo obtenido o porque haya sido objeto de declaración de pérdida de vigencia, de nulidad o anulada, da lugar a la inmovilización del mismo hasta que se disponga del mismo, en los términos que reglamentariamente se determine.",
+ "fingerprint": "sha256:fce4c21c8644b9903e1b621eba5b0765d2a02cf5e3e6fca434870ca82e8b30ed",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a66"
+}

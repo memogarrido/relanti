@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a100",
+ "tipo": "precepto",
+ "titulo": "Artículo 100",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 100. Alumbrado de largo alcance o carretera.\n1. Todo vehículo equipado con luz de largo alcance o carretera que circule a más de 40 kilómetros por hora, entre el ocaso y la salida del sol, fuera de poblado, por vías insuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) insuficientemente iluminados, la llevará encendida, excepto cuando haya de utilizarse la de corto alcance o de cruce, de acuerdo con lo previsto en los artículos 101 y 102, especialmente para evitar los deslumbramientos.\nLa luz de largo alcance o de carretera podrá utilizarse aisladamente o con la de corto alcance.\n2. Se prohíbe la utilización de la luz de largo alcance o de carretera siempre que el vehículo se encuentre parado o estacionado, así como el empleo alternativo, en forma de destellos de la luz de largo alcance o de carretera y de la luz de corto alcance o de cruce, con finalidades distintas a las previstas en este reglamento.\n3. Se entiende por vía insuficientemente iluminada aquella en la que, con vista normal, en algún punto de su calzada, no pueda leerse la placa de matrícula a 10 metros o no se distinga un vehículo pintado de oscuro a 50 metros de distancia.\n4. Los supuestos de circulación en los que se produzca deslumbramiento al resto de los usuarios de la vía y de circulación sin alumbrado en situaciones de falta o disminución de visibilidad tendrán la consideración de infracciones graves, conforme se prevé en el artículo 65.4.e) del texto articulado.",
+ "fingerprint": "sha256:547713667cd55b154f16cf7bf764bc5a7a626621fa851bbe29af14a29c83b9fe",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a100"
+}

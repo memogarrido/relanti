@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "no",
+ "tipo": "nota_inicial",
+ "titulo": null,
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2018-18002",
+  "fecha_publicacion": "20181229",
+  "fecha_vigencia": "20190129"
+ },
+ "text": "Téngase en cuenta que las referencias normativas efectuadas al texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo, se entenderán efectuadas a los preceptos correspondientes del texto refundido aprobado por Real Decreto Legislativo 6/2015, de 30 de octubre, según establece su disposición adicional primera. Ref. BOE-A-2015-11722#daprimera",
+ "fingerprint": "sha256:e3bc918bc45952912c7b586defbeb4863b2102c3df5970e16c7478f2308f34d7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#no"
+}

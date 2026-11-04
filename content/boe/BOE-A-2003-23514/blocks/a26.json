@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a26",
+ "tipo": "precepto",
+ "titulo": "Artículo 26",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 26. Obligaciones del personal sanitario.\n1. El personal sanitario vendrá obligado, en todo caso, a proceder a la obtención de muestras y remitirlas al laboratorio correspondiente, y a dar cuenta, del resultado de las pruebas que se realicen, a la autoridad judicial, a los órganos periféricos del organismo autónomo Jefatura Central de Tráfico y, cuando proceda, a las autoridades municipales competentes (artículo 12.2, párrafo tercero, del texto articulado).\nEntre los datos que comunique el personal sanitario a las mencionadas autoridades u órganos figurarán, en su caso, el sistema empleado en la investigación de la alcoholemia, la hora exacta en que se tomó la muestra, el método utilizado para su conservación y el porcentaje de alcohol en sangre que presente el individuo examinado.\n2. Las infracciones a las distintas normas de este capítulo, relativas a la conducción habiendo ingerido bebidas alcohólicas o a la obligación de someterse a las pruebas de detección alcohólica, tendrán la consideración de infracciones muy graves, conforme se prevé en el artículo 65.5.a) y b) del texto articulado.",
+ "fingerprint": "sha256:27dbddd331c8bba78a965315f77e7008221c93084fa071381ae98a414b45edc8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a26"
+}

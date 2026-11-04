@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a25",
+ "tipo": "precepto",
+ "titulo": "Artículo 25",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2020-13969",
+  "fecha_publicacion": "20201111",
+  "fecha_vigencia": "20210102"
+ },
+ "text": "Artículo 25. Normas generales.\n1. Para poner en circulación vehículos de motor, así como remolques y semirremolques de masa máxima autorizada superior a 750 kilogramos, será preciso matricularlos y que lleven las placas de matrícula con los caracteres que se les asigne, del modo que se establece en el anexo XVIII. Esta obligación será exigida a los ciclomotores y ciclos de motor de acuerdo con lo que se determina en el artículo 28 del presente Reglamento.\n2. Previamente a su matriculación, los vehículos citados en el apartado anterior deben estar dotados del correspondiente certificado oficial que acredite sus características técnicas esenciales y su aptitud para circular por las vías públicas, que se expedirá:\na) Por los órganos competentes de la Administración o entidades delegadas, si se trata de vehículos que corresponden a tipos homologados incompletos, no homologados, matriculados anteriormente en otro país, vehículos usados procedentes de subastas oficiales realizadas en España o vehículos nuevos adquiridos directamente en otro país y que posean un certificado de conformidad CE.\nb) Por un fabricante de la Unión Europea o por un importador o por sus representantes respectivos, si se trata de vehículo nuevo que corresponde a tipo homologado según la legislación nacional u homologación CE.\n3. No obstante lo dispuesto en los apartados anteriores, podrá autorizarse la puesta en circulación de determinados vehículos sin que sea preciso matricularlos, en los supuestos y condiciones contemplados en el capítulo VI de este Título.",
+ "fingerprint": "sha256:3d4b0cb9db0abca62394a26f03b4f34658b072bad6907c84b3fddf9aca5afc2d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a25"
+}

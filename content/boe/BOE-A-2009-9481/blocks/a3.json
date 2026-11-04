@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a3",
+ "tipo": "precepto",
+ "titulo": "Artículo 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 3. Deberes de los titulares de un permiso o de una licencia de conducción.\n1. El titular de un permiso o de una licencia de conducción, así como de cualquier otra autorización o documento que habilite para conducir, deberá hacerlo con sujeción a las menciones, adaptaciones, restricciones y otras limitaciones respecto de las personas, vehículos o de circulación que, en su caso, figuren en el permiso o licencia de conducción, de forma codificada según se determina en el anexo I.\n2. El conductor de un vehículo queda obligado a estar en posesión y llevar consigo su permiso o licencia de conducción, así como cualquier otro documento o autorización que, de acuerdo con la normativa vigente, necesite para poder conducir. Estos documentos deberán ser válidos, estar vigentes y se deberán exhibir ante los agentes de la autoridad que lo soliciten.",
+ "fingerprint": "sha256:cb377ec9808c839422fc2d1804828cf7f8ee70b20dd08bf4d7570cfc33b619ce",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a3"
+}

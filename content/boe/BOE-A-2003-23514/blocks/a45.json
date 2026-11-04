@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a45",
+ "tipo": "precepto",
+ "titulo": "Artículo 45",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 45. Adecuación de la velocidad a las circunstancias.\nTodo conductor está obligado a respetar los límites de velocidad establecidos y a tener en cuenta, además, sus propias condiciones físicas y psíquicas, las características y el estado de la vía, del vehículo y de su carga, las condiciones meteorológicas, ambientales y de circulación, y, en general, cuantas circunstancias concurran en cada momento, a fin de adecuar la velocidad de su vehículo a ellas, de manera que siempre pueda detenerlo dentro de los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse (artículo 19.1 del texto articulado).",
+ "fingerprint": "sha256:95768adfa8a55a8b1585bdc3808c3298a9ee7bcba5fa9960a1da420687154349",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a45"
+}

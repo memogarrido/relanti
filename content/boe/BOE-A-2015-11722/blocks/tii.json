@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "tii",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO II",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "TÍTULO II\nNormas de comportamiento en la circulación",
+ "fingerprint": "sha256:da1d6b721fea97d3f8460f79b62cdf76f4851850c7e832f0df29a524ab599cbc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#tii"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a48",
+ "tipo": "precepto",
+ "titulo": "Artículo 48",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 48. Prueba de control de aptitudes y comportamientos en circuito cerrado.\n1. El contenido de la prueba de control de aptitudes y comportamientos en circuito cerrado se orientará a comprobar la destreza y habilidad de los aspirantes en el dominio y manejo del vehículo y sus mandos.\n2. Los solicitantes de permiso o licencia de conducción, según su clase, realizarán las maniobras indicadas en el anexo V. B).3.",
+ "fingerprint": "sha256:d84dd61d5ef8ec06f9afe0c653bfc0a25483295772210a3d942f6dffecfc1022",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a48"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a15-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 15",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 15. Objeto y ámbito de aplicación.\n1. Esta normativa tiene por objeto establecer una regulación de las marchas ciclistas organizadas, concebidas como un ejercicio físico con fines deportivos, turísticos o culturales.\n2. Se entenderá por marchas ciclistas organizadas aquellas actividades de más de 50 ciclistas.",
+ "fingerprint": "sha256:a968eecc84d7a0d86a847a4c934d4b03051d66d1366190037f948c0dd4b8edbf",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a15-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a18",
+ "tipo": "precepto",
+ "titulo": "Artículo 18",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 18. Supuestos especiales del sentido de circulación y restricciones.\nCuando razones de seguridad o fluidez de la circulación lo aconsejen, o por motivos medioambientales, se podrá ordenar por la autoridad competente otro sentido de circulación, la prohibición total o parcial de acceso a partes de la vía, bien con carácter general o para determinados vehículos, el cierre de determinadas vías, el seguimiento obligatorio de itinerarios concretos, o la utilización de arcenes o carriles en sentido opuesto al normalmente previsto.",
+ "fingerprint": "sha256:8a352d675ac870d6125b189b0491faacd607c5caccbd4cb5c5c8d1a230668bca",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a18"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dfprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición final primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición final primera. Ejecución y desarrollo del presente reglamento.\nSe faculta al Ministro del Interior, previo informe de los Ministros competentes por razón de la materia, para dictar las disposiciones que requiera el desarrollo, ejecución, aclaración e interpretación del presente reglamento.",
+ "fingerprint": "sha256:d46d3874f993c9140081b49db1c13772c38baed9c73df39278e427b6e22c17e1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dfprimera"
+}

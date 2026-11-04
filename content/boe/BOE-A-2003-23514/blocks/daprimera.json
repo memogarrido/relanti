@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "daprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Disposición adicional primera. Comunidades autónomas.\nLo dispuesto en este reglamento, de conformidad con lo establecido en el artículo 4 de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, se entenderá sin perjuicio de las competencias que tengan asumidas las comunidades autónomas que ostentan y ejercen conforme a sus Estatutos.",
+ "fingerprint": "sha256:eda3a5c6d521e8df9964f5f1d06a59f798c7b6b5e413510476a68cdf81660f60",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#daprimera"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a70",
+ "tipo": "precepto",
+ "titulo": "Artículo 70",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 70. Exenciones.\nEstarán exentos de realizar la prueba teórica común de control de conocimientos, así como los ejercicios prácticos correspondientes a dicha prueba a que se refieren, respectivamente, los artículos 63 y 64 los titulares de una autorización especial en vigor que soliciten su ampliación para la conducción de vehículos que transporten materias y objetos explosivos (clase 1), o materias radiactivas (clase 7), o vehículos cisterna, vehículos batería o unidades de transporte que transporten cisternas o contenedores cisterna.",
+ "fingerprint": "sha256:0e0e37446c4740a9b3268eea4671c525a4c64bd49e71c94969c5ee4e9804b5ee",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a70"
+}

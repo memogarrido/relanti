@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "datercera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional tercera. Referencias a las Jefaturas Provinciales de Tráfico.\nSe entenderá que todas las referencias realizadas en este reglamento a la Jefatura Provincial de Tráfico incluyen también a las Jefaturas Locales de Tráfico de las Ciudades de Ceuta y Melilla.",
+ "fingerprint": "sha256:25b347c2f0c562f969515d8565df703458597e189f8a9162adf42e3f80875427",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#datercera"
+}

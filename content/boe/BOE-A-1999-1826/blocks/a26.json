@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a26",
+ "tipo": "precepto",
+ "titulo": "Artículo 26",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 26. Documentación de los vehículos.\n1. El conductor de un vehículo queda obligado a estar en posesión y llevar consigo, así como a exhibir ante los agentes de la autoridad que se lo soliciten, los siguientes documentos:\na) El permiso de circulación o licencia de circulación en el caso de ciclomotores. El permiso de circulación podrá ser sustituido por una autorización provisional expedida por la Jefatura de Tráfico, que surtirá los mismos efectos.\nb) La tarjeta de inspección técnica o el certificado de características técnicas en el supuesto de ciclomotores.\nc) En los conjuntos de vehículos formados por automóviles que arrastran remolques o semirremolques cuya masa máxima autorizada sea inferior o igual a 750 kilogramos, la tarjeta de inspección técnica del remolque o semirremolque y en el reverso de la tarjeta de inspección técnica del automóvil figurará que lleva instalado un sistema de acoplamiento compatible con el del remolque, de acuerdo con la legislación vigente.\n2. Los documentos a que se refiere el apartado 1 de este artículo serán originales, pudiendo ser sustituidos por fotocopias si están debidamente cotejadas.",
+ "fingerprint": "sha256:510779b9a0c97239bbb72ea79813b2515652fe70ce914356142a4b7585fce71b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a26"
+}

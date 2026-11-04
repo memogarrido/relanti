@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "A2",
+ "tipo": "encabezado",
+ "titulo": "2",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "2. Señalización circunstancial.\n1. Abierto.\n2. Animal(es) en la vía.\n3. Cerrado.\n4. Ciclistas en la vía.\n5. Circulación alterna.\n6. Circulación lenta.\n7. Condiciones difíciles de circulación.\n8. Corte intermitente.\n9. Corte móvil.\n10. Despeje de carril.\n11. Desvío obligatorio.\n12. Desvío trazado de carriles.\n13. Embolsamiento.\n14. Estrechamiento.\n15. Firme en malas condiciones.\n16. Grande(s) dimensiones en la vía.\n17. Itinerario alternativo.\n18. Obligatorio el uso de cadenas o neumáticos de invierno.\n19. Obligatorio neumáticos de invierno.\n20. Ocupación parking (%).\n21. Ocupación parking (n.º vehículos).\n22. Pavimento deslizante.\n23. Peatón(es) en la vía.\n24. Pérdida de prioridad de paso.\n25. Prohibido adelantar.\n26. Prohibido cambio a carril derecho.\n27. Prohibido cambio a carril izquierdo.\n28. Quitanieves/sal en la vía.\n29. Restricción temporal de altura.\n30. Restricción temporal de anchura.\n31. Restricción temporal de longitud.\n32. Restricción temporal de masa por eje.\n33. Restricción temporal de velocidad.\n34. Restricción temporal por masa total.\n35. Restringido.\n36. Tiempo espera embarque.\n37. Transitable con precaución.\n38. Vehículo(s) circulando en sentido contrario.\n39. Vehículo(s) lento(s) en la vía.\n40. Vehículo(s) prioritario(s) en la vía.\n41. Vehículos bloqueados.\n42. Velocidad recomendada.\n43. Visibilidad reducida.\n44. Limitación de velocidad máxima por episodio de contaminación.\n45. Prohibición de estacionamiento por episodio de contaminación.\n46. Prohibición de circulación de vehículos con clasificación ambiental determinada por episodio de contaminación.\n47. Otras ordenaciones temporales de tráfico por razones de interés general.\n1. Tiempos de recorrido.\n2. Campañas de seguridad vial.\n3. Ocupación parking (%).\n4. Ocupación parking (n.º vehículos).\n5. Tiempo espera embarque.\n6. Preaviso de episodios de contaminación.\n7. Previsión de lluvia. Recomendación transporte colectivo.\n8. Zona de Bajas Emisiones.\n9. Medidas limitativas de la circulación y/o el estacionamiento.\n10. Eventos de afluencia masiva.\nInstrucciones complementarias:\n1.º Cualquier mensaje diferente de los establecidos deberá ser expresamente aprobado por el organismo autónomo Jefatura Central de Tráfico o, en su caso, la autoridad autonómica de la regulación de tráfico.\n2.º En los paneles de mensaje variable nunca se utilizarán más de dos mensajes alternados.\n3.º En el caso de utilizarse paneles de mensajes variables que dispongan de dos áreas gráficas, se podrá complementar el mensaje incluyendo en la segunda otro de los pictogramas del tipo.",
+ "fingerprint": "sha256:41eca70dd55bc49be7075c4ae2fb175c7a0e81fdca69096c770f300b54d7d196",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#A2"
+}

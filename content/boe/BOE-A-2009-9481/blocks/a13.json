@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a13",
+ "tipo": "precepto",
+ "titulo": "Artículo 13",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 13. Solicitud de prórroga de la vigencia.\n1. La vigencia de los permisos y licencias de conducción podrá ser prorrogada, por los períodos respectivamente señalados en el artículo anterior, por las Jefaturas Provinciales de Tráfico, previa solicitud de los interesados, en el modelo oficial establecido, y una vez hayan acreditado que conservan las aptitudes psicofísicas exigidas para obtener el permiso o licencia de que se trate.\nLa prórroga de vigencia de un permiso de conducción de las clases correspondientes al grupo 2, según la clasificación establecida en el artículo 45, implicará la de las autorizaciones del grupo 1 de las que sea titular el interesado, por los plazos que a éstas correspondan.\nLa solicitud de prórroga de vigencia del permiso o licencia podrá presentarse con una antelación máxima de tres meses a su fecha de caducidad, computándose desde esta última fecha el nuevo período de vigencia de la autorización. En supuestos excepcionales debidamente justificados, se podrá solicitar con una antelación mayor, computándose el nuevo período de vigencia en estos casos desde la fecha en que se haya presentado la solicitud.\n2. A la solicitud de modelo oficial, que deberá estar suscrita por el interesado, se acompañarán los documentos que se indican en el anexo III.\n3. El titular de un permiso o licencia de conducción caducados podrá solicitar su prórroga acompañando los documentos a que se refiere el apartado anterior.\n4. Los titulares de un permiso o licencia de conducción expedidos en España que en la fecha de vencimiento de su vigencia se encuentren en el extranjero, bien en otro Estado miembro de la Unión Europea o en un Estado parte del Acuerdo sobre el Espacio Económico Europeo en los que no hayan adquirido la residencia normal, o bien en un país tercero, podrán solicitar la prórroga de su vigencia de cualquier Jefatura Provincial de Tráfico, en la forma y con los requisitos que se indican en el anexo III.",
+ "fingerprint": "sha256:447d4218a98bd60398c61d35fc8504d0a3bcce18a8ad04a1270c074508ad5cef",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a13"
+}

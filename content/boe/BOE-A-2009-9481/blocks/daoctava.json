@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "daoctava",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional octava",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional octava. Permisos y licencia de conducción expedidos en Comunidades Autónomas con lengua oficial propia.\nDe acuerdo con lo dispuesto en la Disposición adicional cuarta del texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, a las personas que tengan su domicilio en alguna de las Comunidades Autónomas que tengan una lengua cooficial, se les expedirá el permiso o la licencia de conducción redactado, además de en castellano, en dicha lengua.",
+ "fingerprint": "sha256:61f9ef4a61646c59286b1b73884fdbf9c2182ac1211a947912798280a9d28556",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#daoctava"
+}

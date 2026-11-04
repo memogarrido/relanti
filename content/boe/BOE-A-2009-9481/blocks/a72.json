@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a72",
+ "tipo": "precepto",
+ "titulo": "Artículo 72",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 72. Escuelas y Organismos autorizados para expedir permisos de conducción y la autorización especial para conducir vehículos que transporten mercancías peligrosas.\n1. Por el Ministro del Interior se determinarán las escuelas y Organismos militares y de la Dirección General de la Policía y de la Guardia Civil facultados para expedir permisos de conducción, así como la autorización especial para conducir vehículos que transporten mercancías peligrosas, que podrán ser canjeados por sus equivalentes previstos en los artículos 4 y 25, respectivamente.\n2. La formación impartida en las escuelas y organismos a que se refiere el apartado anterior y las pruebas realizadas se ajustarán, con carácter general, a lo dispuesto en los capítulos III y IV del título II sin perjuicio de las especialidades que correspondan a la naturaleza militar de los vehículos y que deberán ser tenidas en cuenta al otorgar la autorización de la escuela u organismo. También se ajustarán a lo dispuesto en dicho capítulo III los vehículos militares empleados en las referidas pruebas, en la medida en que lo permitan sus características especiales y los criterios operativos que rigen la dotación de material automóvil en las Fuerzas Armadas.\n3. El Organismo Autónomo Jefatura Central de Tráfico y su organización periférica, previa la correspondiente autorización de la dirección del centro, podrá inspeccionar las escuelas facultadas a que se refiere el apartado 1 con el fin de comprobar si los medios, programas, objetivos y métodos empleados son adecuados para la enseñanza de la conducción y si las pruebas de aptitud se realizan conforme a lo dispuesto en la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:645b6464befd5c3ec4e69913b027d91b81fad8d590ffa0f5fb355e9350aa4993",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a72"
+}

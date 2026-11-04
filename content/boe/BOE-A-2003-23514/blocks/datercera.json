@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "datercera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Disposición adicional tercera. Sistemas de retención infantiles.\nEl Gobierno, dentro del plazo previsto en la Directiva 2003/20/CE del Parlamento Europeo y del Consejo, de 8 de abril de 2003, por la que se modifica la Directiva 91/67/CEE del Consejo, sobre el uso obligatorio de cinturones de seguridad en vehículos de menos de 3,5 toneladas, continuará avanzando en el proceso de su transposición completa.",
+ "fingerprint": "sha256:e01c1f332b0fd90bc3df19b8acb2b92a6f879a279f748e350fc363e5b3fb69a4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#datercera"
+}

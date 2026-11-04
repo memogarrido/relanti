@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "tvi",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO VI",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "TÍTULO VI\nRegistro Nacional de Víctimas de Accidentes de Tráfico",
+ "fingerprint": "sha256:134add2b78f5c00405a4f528f01a47cb535c3195002dc75c5dd5bb07261c4446",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#tvi"
+}

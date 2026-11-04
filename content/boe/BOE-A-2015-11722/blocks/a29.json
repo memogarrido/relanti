@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a29",
+ "tipo": "precepto",
+ "titulo": "Artículo 29",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 29. Conducción de vehículos en tramo de incorporación.\nCon independencia de la obligación del conductor del vehículo que se incorpore a la circulación de cumplir las prescripciones del artículo anterior, los demás conductores facilitarán, en la medida de lo posible, dicha maniobra, especialmente si se trata de un vehículo de transporte colectivo de viajeros que pretende incorporarse a la circulación desde una parada señalizada.",
+ "fingerprint": "sha256:d18ab0b5f0db9b2b89356d0cac5382d18f8ad3a5dca465e417f24afa0ac39904",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a29"
+}

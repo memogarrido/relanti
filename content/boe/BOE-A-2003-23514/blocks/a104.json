@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a104",
+ "tipo": "precepto",
+ "titulo": "Artículo 104",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 104. Uso del alumbrado durante el día.\nDeberán llevar encendida durante el día la luz de corto alcance o cruce:\na) Las motocicletas que circulen por cualquier vía objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial.\nb) Todos los vehículos que circulen por un carril reversible, por un carril adicional circunstancial o por un carril habilitado para circular en sentido contrario al normalmente utilizado en la calzada donde se encuentre situado, bien sea un carril que les esté exclusivamente reservado, bien esté abierto excepcionalmente a la circulación en dicho sentido, así como aquellos obligados en virtud de lo establecido en los artículos 41 y 42.",
+ "fingerprint": "sha256:17fb0329b768328eb40c5555ca9ffaafe8012b5501c6d5b847709656550b1b77",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a104"
+}

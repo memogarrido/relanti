@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a75",
+ "tipo": "precepto",
+ "titulo": "Artículo 75",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20211222"
+ },
+ "text": "Artículo 75. Infracciones leves.\nSon infracciones leves las conductas tipificadas en esta ley referidas a:\na) Circular en una bicicleta sin hacer uso del alumbrado reglamentario.\nb) No hacer uso de los elementos y prendas reflectantes por parte de los usuarios de bicicletas.\nb) bis. El impago de peaje, tasa o precio público, cuando estos fueran exigibles.\nb) ter. Incumplir la obligación de los conductores de estar en todo momento en condiciones de controlar su vehículo.\nc) Incumplir las normas contenidas en esta Ley que no se califiquen expresamente como infracciones graves o muy graves en los artículos siguientes, especialmente en el caso de los conductores de bicicletas siempre que no comprometan la seguridad de los usuarios de la vía.",
+ "fingerprint": "sha256:8ebd58980eb86d3a7035f1364458c9b49b438467f3a759266b8e9073a42a87a1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a75"
+}

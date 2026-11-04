@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a29",
+ "tipo": "precepto",
+ "titulo": "Artículo 29",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 29. Modelos de permiso de circulación y de licencia de circulación.\nEl permiso de circulación y la licencia de circulación se ajustarán, en cuanto a su modelo y contenido, a lo que se indica en el anexo XIII.",
+ "fingerprint": "sha256:2d20686b3a91967314ea183b212ee3c9eb6471dfedb7d74d0dde75f8aa824287",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a29"
+}
