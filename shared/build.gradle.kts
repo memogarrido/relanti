@@ -12,7 +12,7 @@ kotlin {
     }
     listOf(iosArm64(), iosSimulatorArm64()).forEach { target ->
         target.binaries.framework {
-            baseName = "RelantiCore"
+            baseName = "RelantiShared"
             isStatic = true
         }
     }

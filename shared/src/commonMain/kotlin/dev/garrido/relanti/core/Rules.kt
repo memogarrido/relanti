@@ -55,6 +55,14 @@ object Rules {
 
     val GPS_NAME_SUGGESTIONS = listOf("Turbo", "Gepe", "Kilo", "Brújula")
 
+    // camelCase views of the constants above, which read better from Swift.
+    val gpsNameSuggestions: List<String> get() = GPS_NAME_SUGGESTIONS
+    val simQuestions: Int get() = SIM_QUESTIONS
+    val simMinutes: Int get() = SIM_SECONDS / 60
+    val simMaxMistakes: Int get() = SIM_MAX_MISTAKES
+    val maxPoints: Int get() = MAX_POINTS
+    val ticketDays: Int get() = TICKET_DAYS
+
     /** About 10 km per active minute, and never less than 2 km per answer. */
     fun kmFor(round: Round): Int = maxOf(round.answers.size * 2, (round.activeMs / 6_000).toInt())
 

@@ -1,0 +1,59 @@
+# Generates Relanti.xcodeproj. Run `xcodegen` in this folder (brew install xcodegen).
+name: Relanti
+options:
+  bundleIdPrefix: dev.garrido
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  Relanti:
+    type: application
+    platform: iOS
+    sources:
+      - path: Relanti
+      - path: ../content/packs/relanti-b.json
+        buildPhase: resources
+      - path: ../content/media/app
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.garrido.relanti
+        PRODUCT_NAME: Relanti
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Relanti
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        # The Gradle build phase reads and writes outside the sandbox.
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        FRAMEWORK_SEARCH_PATHS: $(inherited) $(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)
+        OTHER_LDFLAGS: $(inherited) -framework RelantiShared
+    preBuildScripts:
+      - name: Build Kotlin core
+        basedOnDependencyAnalysis: false
+        script: |
+          set -e
+          if [ -z "$JAVA_HOME" ]; then
+            if [ -d "/Applications/Android Studio.app/Contents/jbr/Contents/Home" ]; then
+              export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+            elif /usr/libexec/java_home >/dev/null 2>&1; then
+              export JAVA_HOME="$(/usr/libexec/java_home)"
+            fi
+          fi
+          cd "$SRCROOT/.."
+          ./gradlew :shared:embedAndSignAppleFrameworkForXcode -Prelanti.android=false
+schemes:
+  Relanti:
+    build:
+      targets:
+        Relanti: all
+    run:
+      config: Debug

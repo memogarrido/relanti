@@ -30,5 +30,8 @@ object Lines {
         if (passed) "¡Apto! $mistakes ${if (mistakes == 1) "fallo" else "fallos"}. Así se llega al examen."
         else "Esta vez $mistakes fallos. Repasamos cada uno y volvemos a intentarlo."
 
+    val recalculando: String get() = RECALCULANDO
+    val aprobado: String get() = APROBADO
+
     const val APROBADO = "Llegamos. Ahora conduces tú. Yo me quedo en el salpicadero por si me necesitas."
 }
