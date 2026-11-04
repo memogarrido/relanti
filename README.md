@@ -5,7 +5,7 @@ Native iOS and Android app for the Spanish DGT theory exam (permiso B). A road t
 - `shared/` Kotlin Multiplatform core: study rules, sessions, rewards, content pack loader. No UI.
 - `androidApp/` Jetpack Compose app.
 - `iosApp/` SwiftUI app (Xcode project generated with XcodeGen from `project.yml`).
-- `content/packs/relanti-b.json` the content pack both apps bundle. Right now it is a **placeholder** (`placeholder: true`, 40 test questions) written by `content/sample/make_sample_pack.py`.
+- `content/packs/relanti-b.json` the content pack both apps bundle. It is produced by the content pipeline (`cd content && python -m pipeline build` on the content branch). `content/sample/make_sample_pack.py` can still write a 40-question placeholder pack for testing.
 - `content/media/app/` renders used by both apps (GPS, cars, windscreen views).
 - `docs/` design and architecture (on their own branches for now).
 
