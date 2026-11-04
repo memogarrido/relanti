@@ -99,7 +99,7 @@ fun QuizScreen(session: QuizSession, onDone: () -> Unit, onExit: () -> Unit) {
             when (session.phase) {
                 SessionPhase.INTRO -> TrucoIntro(session) { session.start(); questionStart = System.currentTimeMillis(); tick++ }
                 SessionPhase.QUESTION, SessionPhase.FEEDBACK -> QuestionView(
-                    session, clock(secondsLeft),
+                    session, tick, clock(secondsLeft),
                     onAnswer = { choice ->
                         session.answer(choice, System.currentTimeMillis() - questionStart)
                         questionStart = System.currentTimeMillis()
@@ -148,7 +148,12 @@ private fun TrucoIntro(session: QuizSession, onGo: () -> Unit) {
 }
 
 @Composable
-private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int) -> Unit, onNext: () -> Unit) {
+private fun QuestionView(
+    session: QuizSession,
+    // The session is the same object after each answer; with strong skipping
+    // Compose would skip this view, so the tick is passed in to redraw it.
+    @Suppress("UNUSED_PARAMETER") version: Int,
+    clockText: String, onAnswer: (Int) -> Unit, onNext: () -> Unit) {
     val p = pal()
     val item = session.current
     val feedback = session.phase == SessionPhase.FEEDBACK
