@@ -23,6 +23,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.runtime.NonSkippableComposable
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -99,7 +100,7 @@ fun QuizScreen(session: QuizSession, onDone: () -> Unit, onExit: () -> Unit) {
             when (session.phase) {
                 SessionPhase.INTRO -> TrucoIntro(session) { session.start(); questionStart = System.currentTimeMillis(); tick++ }
                 SessionPhase.QUESTION, SessionPhase.FEEDBACK -> QuestionView(
-                    session, tick, clock(secondsLeft),
+                    session, clock(secondsLeft),
                     onAnswer = { choice ->
                         session.answer(choice, System.currentTimeMillis() - questionStart)
                         questionStart = System.currentTimeMillis()
@@ -147,12 +148,12 @@ private fun TrucoIntro(session: QuizSession, onGo: () -> Unit) {
     PrimaryButton("Entendido, ¡vamos!", onClick = onGo)
 }
 
+// The session is the same plain object after each answer, so with strong
+// skipping Compose would skip this view and the feedback would never show.
+@NonSkippableComposable
 @Composable
 private fun QuestionView(
     session: QuizSession,
-    // The session is the same object after each answer; with strong skipping
-    // Compose would skip this view, so the tick is passed in to redraw it.
-    @Suppress("UNUSED_PARAMETER") version: Int,
     clockText: String, onAnswer: (Int) -> Unit, onNext: () -> Unit) {
     val p = pal()
     val item = session.current
