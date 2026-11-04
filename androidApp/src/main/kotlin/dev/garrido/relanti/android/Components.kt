@@ -91,6 +91,7 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
     val blink = remember { Animatable(1f) }
     LaunchedEffect(mood) {
         blink.snapTo(1f)
+        if (TestHooks.still) return@LaunchedEffect
         if (mood == TurboMood.IDLE || mood == TurboMood.CURIOUS || mood == TurboMood.EXPLAIN) {
             while (true) {
                 delay(Random.nextLong(3_000, 5_000))
@@ -99,9 +100,13 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
             }
         }
     }
-    val spinner = rememberInfiniteTransition(label = "spin")
-    val angle by spinner.animateFloat(0f, 360f, infiniteRepeatable(tween(900, easing = LinearEasing)), label = "angle")
-    val bob by spinner.animateFloat(-1f, 1f, infiniteRepeatable(tween(1400), RepeatMode.Reverse), label = "bob")
+    var angle = 45f
+    var bob = 0f
+    if (!TestHooks.still) {
+        val spinner = rememberInfiniteTransition(label = "spin")
+        angle = spinner.animateFloat(0f, 360f, infiniteRepeatable(tween(900, easing = LinearEasing)), label = "angle").value
+        bob = spinner.animateFloat(-1f, 1f, infiniteRepeatable(tween(1400), RepeatMode.Reverse), label = "bob").value
+    }
     val glow = p.glow
 
     Box(modifier.aspectRatio(1f).clip(RoundedCornerShape(16.dp))) {

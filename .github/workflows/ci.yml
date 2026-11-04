@@ -34,10 +34,22 @@ jobs:
           java-version: "17"
       - uses: gradle/actions/setup-gradle@v4
       - run: ./gradlew :androidApp:assembleDebug
+      - name: Playthrough tests (Robolectric, with screenshots)
+        run: ./gradlew :androidApp:testDebugUnitTest
       - uses: actions/upload-artifact@v4
         with:
           name: relanti-debug-apk
           path: androidApp/build/outputs/apk/debug/*.apk
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-screenshots-playthrough
+          path: androidApp/build/screenshots/
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: android-test-reports
+          path: androidApp/build/reports/tests/
 
   ios:
     name: iOS app
@@ -60,21 +72,41 @@ jobs:
             -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build CODE_SIGNING_ALLOWED=NO build | tail -n 80
           exit ${PIPESTATUS[0]}
-      - name: Launch on a simulator and check it stays up
+      - name: Pick simulators
         run: |
-          set -e
-          UDID=$(xcrun simctl list devices available -j | python3 -c "import json,sys; d=json.load(sys.stdin)['devices']; print(next(x['udid'] for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')))")
-          xcrun simctl boot "$UDID"
-          xcrun simctl bootstatus "$UDID" -b
-          xcrun simctl install "$UDID" iosApp/build/Build/Products/Debug-iphonesimulator/Relanti.app
-          OUT=$(xcrun simctl launch "$UDID" dev.garrido.relanti)
-          echo "$OUT"
-          PID=${OUT##* }
-          sleep 15
-          mkdir -p screenshots
-          xcrun simctl io "$UDID" screenshot screenshots/ios-launch.png
-          if ! ps -p "$PID" > /dev/null; then echo "Relanti crashed after launch"; exit 1; fi
-          echo "Relanti is running (pid $PID)"
+          xcrun simctl list devices available -j | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)['devices']
+          phones=[x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')]
+          main=next((x for x in phones if 'Pro' in x['name'] and 'Max' not in x['name']), phones[0])
+          se=next((x for x in phones if 'SE' in x['name']), None) or next((x for x in phones if x['name'].endswith(('16e','17e'))), main)
+          print('SIM='+main['udid']); print('SIM_SE='+se['udid'])
+          print('main', main['name'], 'small', se['name'], file=sys.stderr)
+          " >> "$GITHUB_ENV"
+      - name: Playthrough UI tests (XCUITest, launches the app on a simulator)
+        run: |
+          cd iosApp
+          xcodebuild -project Relanti.xcodeproj -scheme Relanti -configuration Debug \
+            -destination "id=$SIM" -derivedDataPath build -resultBundlePath ../results/main.xcresult \
+            CODE_SIGNING_ALLOWED=NO test | tail -n 120
+          exit ${PIPESTATUS[0]}
+      - name: Small phone playthrough
+        run: |
+          cd iosApp
+          xcodebuild -project Relanti.xcodeproj -scheme Relanti -configuration Debug \
+            -destination "id=$SIM_SE" -derivedDataPath build -resultBundlePath ../results/small.xcresult \
+            -only-testing:RelantiUITests/PlaythroughUITests/testSecondGoodDayEarnsTheTollTicket \
+            CODE_SIGNING_ALLOWED=NO test | tail -n 60
+          exit ${PIPESTATUS[0]}
+      - name: Export screenshots
+        if: always()
+        run: |
+          for r in main small; do
+            [ -d "results/$r.xcresult" ] || continue
+            mkdir -p "screenshots/$r"
+            xcrun xcresulttool export attachments --path "results/$r.xcresult" --output-path "screenshots/$r" || true
+          done
+          ls -R screenshots || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:

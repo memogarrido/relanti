@@ -35,6 +35,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -157,6 +158,9 @@ private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int
         // The GPS always sits in the corner, watching the road with you.
         GpsFace(session.mood, Modifier.width(76.dp), clock = clockText)
     }
+    if (TestHooks.oracle) {
+        Text("${item.answer}", Modifier.testTag("quiz.oracle"), fontSize = 1.sp, color = Color.Transparent)
+    }
     if (item.novedad) {
         Text("NOVEDAD", color = p.sunset, fontWeight = FontWeight.Black, fontSize = 12.sp)
     }
@@ -170,6 +174,7 @@ private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int
         }
         Row(
             Modifier
+                .testTag("option.$i")
                 .fillMaxWidth()
                 .clip(RoundedCornerShape(14.dp))
                 .background(bg)

@@ -52,10 +52,28 @@ targets:
           fi
           cd "$SRCROOT/.."
           ./gradlew :shared:embedAndSignAppleFrameworkForXcode -Prelanti.android=false
+  RelantiUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: RelantiUITests
+    dependencies:
+      - target: Relanti
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.garrido.relanti.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Relanti
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": x86_64
 schemes:
   Relanti:
     build:
       targets:
         Relanti: all
+        RelantiUITests: [test]
     run:
       config: Debug
+    test:
+      config: Debug
+      targets:
+        - RelantiUITests

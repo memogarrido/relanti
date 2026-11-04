@@ -33,6 +33,12 @@ android {
 
     buildFeatures { compose = true }
 
+    // Compose screens render on the JVM (Robolectric, native graphics) for playthroughs and screenshots.
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+        unitTests.all { it.systemProperty("robolectric.pixelCopyRenderMode", "hardware") }
+    }
+
     // The content pack and the shared renders, read from the repo so both apps use the same files.
     sourceSets["main"].assets.srcDirs("../content/packs", "../content/media/app")
 }
@@ -55,4 +61,10 @@ dependencies {
 
     implementation("androidx.activity:activity-compose:1.10.1")
     implementation("androidx.core:core-ktx:1.16.0")
+
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.17")
+    testImplementation(composeBom)
+    testImplementation("androidx.compose.ui:ui-test-junit4")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
 }

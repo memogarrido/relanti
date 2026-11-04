@@ -1,5 +1,6 @@
 package dev.garrido.relanti.android
 
+import android.content.pm.ApplicationInfo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
@@ -24,8 +25,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import dev.garrido.relanti.core.Fixtures
 import dev.garrido.relanti.core.Llegada
 import dev.garrido.relanti.core.QuizSession
 import dev.garrido.relanti.core.RelantiCore
@@ -35,7 +38,15 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val core = (application as RelantiApplication).core
+        // Debug builds only: `adb shell am start -n dev.garrido.relanti/.android.MainActivity --es uitest_state midweek`
+        val debuggable = (applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) != 0
+        val state = intent.getStringExtra("uitest_state")?.takeIf { debuggable }
+        val core = if (state != null) {
+            TestHooks.oracle = true
+            Fixtures.core(assets.open("relanti-b.json").bufferedReader().use { it.readText() }, state)
+        } else {
+            (application as RelantiApplication).core
+        }
         setContent { RelantiRoot(core) }
     }
 }
@@ -136,6 +147,7 @@ fun MainTabs(model: AppModel) {
         NavigationBar(containerColor = pal().surface) {
             tabs.forEachIndexed { i, (label, icon) ->
                 NavigationBarItem(
+                    modifier = Modifier.testTag("tab.$label"),
                     selected = tab == i,
                     onClick = { tab = i },
                     icon = { Text(icon, fontSize = 20.sp) },
