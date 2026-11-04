@@ -43,14 +43,14 @@ def mk(s=1.0, cx=0, cy=0, rot=0):
 
 
 # ---------------------------------------------------------------- 1. Sat nav
-def satnav(expr="idle", s=1.0):
-    img = canvas()
+def satnav(expr="idle", s=1.0, bg=None, mount=True):
+    img = canvas() if bg is None else bg
     rot = {"curious": 7}.get(expr, 0)
     dy = -40 if expr == "happy" else 0
     E, R, Poly, Line, T = mk(s, 0, dy, rot)
-    img = paint(img, E(-560, 760, 560, 900).filter(ImageFilter.GaussianBlur(60 * s)), SHADOW + (255,), .3)
+    if mount: img = paint(img, E(-560, 760, 560, 900).filter(ImageFilter.GaussianBlur(60 * s)), SHADOW + (255,), .3)
     # suction mount
-    cup = E(-300, 660, 300, 820)
+    cup = E(-300, 660, 300, 820) if mount else newmask()
     img = inflate(img, cup, hx("A9B1BE"), depth=.8, soft=60 * s, shine=.5)
     arm = R(-70, 380, 70, 720, 60)
     img = inflate(img, arm, hx("3A3F48"), depth=1, soft=40 * s, shine=.4)
@@ -290,6 +290,49 @@ def relanti(kind="city", body_c=hx("E8574F"), kit=()):
     return img
 
 
+# ------------------------------------------------ Driver's view: Turbo on the dash
+def dashboard(expr="idle", sky=("FFD29A", "F58A5B"), car_c=hx("E8574F")):
+    """The road ahead at sunset, Relanti's dashboard, and Turbo mounted on it."""
+    top, bot = hx(sky[0]), hx(sky[1])
+    img = grad(hx("7FA8E0"), top, 90)
+    E, R, Poly, Line, T = mk(1.0, 0, 0, 0)
+    hz = -120
+    sun = E(-180, hz - 260, 180, hz + 100)
+    img = paint(img, sun.filter(ImageFilter.GaussianBlur(80)), hx("FFE7B0"), .9)
+    img = paint(img, sun, hx("FFF1C9"))
+    hills = smooth(Poly([(-1100, hz + 20), (-700, hz - 160), (-380, hz - 40), (-60, hz - 200), (320, hz - 60), (700, hz - 190), (1100, hz - 30), (1100, hz + 40), (-1100, hz + 40)]), 30)
+    img = paint(img, hills, hx("C77D6A"))
+    img = paint(img, Poly([(-1100, hz + 10), (1100, hz + 10), (1100, 1100), (-1100, 1100)]), hx("B7A274"))
+    road = Poly([(-60, hz + 10), (60, hz + 10), (900, 1100), (-900, 1100)])
+    img = paint(img, road, hx("3A3F48"))
+    for edge_x in (-1, 1):
+        img = paint(img, Poly([(edge_x * 52, hz + 10), (edge_x * 60, hz + 10), (edge_x * 900, 1100), (edge_x * 860, 1100)]), WHITE, .9)
+    y = hz + 30; L = 18
+    while y < 1100:
+        w = 4 + (y - hz) * .035; L = 14 + (y - hz) * .25
+        img = paint(img, Poly([(-w, y), (w, y), (w * 1.1, y + L), (-w * 1.1, y + L)]), WHITE, .95)
+        y += L * 2.1
+    # motorway gantry far ahead
+    g = R(-260, hz - 230, 260, hz - 110, 16)
+    img = paint(img, g, ROADBLUE); img = paint(img, R(-250, hz - 220, 250, hz - 120, 12), ROADBLUE)
+    img = paint(img, T("EXAMEN  12 km", 0, hz - 170, 64), WHITE)
+    for px_ in (-240, 240): img = paint(img, R(px_ - 8, hz - 110, px_ + 8, hz + 20, 4), hx("6B7280"))
+    # windscreen frame and dashboard
+    frame = ImageChops.subtract(R(-1100, -1100, 1100, 1100, 0), smooth(Poly([(-900, -760), (900, -760), (1040, 420), (-1040, 420)]), 80))
+    img = inflate(img, frame, car_c, depth=1.2, soft=120, shine=.35)
+    dash = smooth(ImageChops.lighter(E(-1300, 300, 1300, 900), R(-1100, 560, 1100, 1100, 0)), 30)
+    img = contact(img, dash, -30, 60, .35, SHADOW)
+    img = inflate(img, dash, hx("2E3138"), depth=1.2, soft=160, shine=.25, gloss_pow=18)
+    img = inflate(img, E(-900, 760, -300, 1300), hx("1F2227"), depth=1, soft=80, shine=.3)
+    img = inflate(img, ImageChops.subtract(E(-860, 800, -340, 1260), E(-760, 900, -440, 1160)), hx("3A3F48"), depth=1, soft=40, shine=.4)
+    # Turbo, rendered on a transparent layer and scaled onto the dash
+    layer = satnav(expr, 1.0, bg=Image.new("RGBA", (S, S), (0, 0, 0, 0)), mount=False)
+    k = .42
+    small = layer.resize((int(S * k), int(S * k)), Image.LANCZOS)
+    img.alpha_composite(small, (int(C + 300 - S * k / 2), int(C + 330 - S * k / 2)))
+    return img
+
+
 def save_small(img, name, px=640):
     img.convert("RGB").resize((px, px), Image.LANCZOS).save(f"{OUT}/{name}.jpg", quality=86)
     print("saved", name)
@@ -306,6 +349,8 @@ if __name__ == "__main__":
         for e in exprs: save_small(toycar(e), f"toy-{e}")
     if "windscreen" in which:
         for e in exprs: save_small(windscreen(e), f"windscreen-{e}")
+    if "dash" in which:
+        for e in ["idle", "happy", "recalc", "explain", "curious"]: save_small(dashboard(e), f"dash-{e}", 900)
     if "relanti" in which:
         save_small(relanti("city", hx("E8574F")), "relanti-city")
         save_small(relanti("estate", hx("4F8DF0"), ("roofbox",)), "relanti-estate")
