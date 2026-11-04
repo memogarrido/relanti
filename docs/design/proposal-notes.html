@@ -1,0 +1,193 @@
+<title>Relanti proposal notes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: five numbered answers to Guillermo's questions, one column, each with a clear recommendation box. */
+:root{
+  --bg:#EEF1F5;--surface:#FFFFFF;--ink:#1F232A;--ink2:#535A66;--ink3:#8A919C;--line:#D5DAE2;
+  --blue:#1A56B0;--blue-ink:#14438A;--blue-soft:#E2EBF8;--go:#1E8E52;--go-soft:#DDF2E6;--stop:#C8233A;--stop-soft:#F8DEE2;
+  --warn:#8A5A00;--warn-soft:#FDF0D2;--tarmac:#2B2F36;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;--body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;--warn:#F5C02E;--warn-soft:#3A2E12;--tarmac:#3A3F48;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;--warn:#F5C02E;--warn-soft:#3A2E12;--tarmac:#3A3F48;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:36px 64px}
+.wrap{max-width:1000px;margin:0 auto;display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0;text-wrap:balance}
+h1{font-size:clamp(42px,7vw,70px);font-weight:800}
+h2{font-size:clamp(30px,4.4vw,40px);font-weight:800}
+h3{font-size:21px;font-weight:700}
+p{margin:0}
+a{color:var(--blue-ink)}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.lede{font-size:20px;max-width:64ch}
+section{display:grid;gap:16px}
+.num{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.08em;color:var(--ink2)}
+.num b{background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:3px;padding:0 7px}
+.prose{max-width:68ch;color:var(--ink2)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.card p,.card li{color:var(--ink2)}
+.card ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.rec{background:var(--go-soft);border-radius:12px;padding:16px 18px;display:grid;gap:6px}
+.rec .eyebrow{color:var(--go)}
+.warn{background:var(--warn-soft);border-radius:12px;padding:14px 16px}
+.tag{justify-self:start;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px}
+.t-ok{background:var(--go-soft);color:var(--go)} .t-risk{background:var(--warn-soft);color:var(--warn)} .t-high{background:var(--stop-soft);color:var(--stop)}
+/* palettes */
+.pal{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid}
+.pal .bar{display:grid;grid-template-columns:3fr 1.2fr 1fr 1fr 1fr;height:84px}
+.pal .bar div{display:flex;align-items:flex-end;padding:6px 8px;font-size:12px;font-weight:600}
+.pal .body{padding:14px 16px;display:grid;gap:6px}
+.pal .body p{color:var(--ink2)}
+.mini{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btnx{border-radius:12px;padding:8px 14px;font-weight:700;font-size:14px}
+/* tips */
+.tips{display:grid;gap:12px}
+.tip{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:start}
+.tip .ic{width:52px;height:52px;border-radius:12px;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:20px;background:var(--blue-soft);color:var(--blue-ink);text-align:center;line-height:1}
+.tip p{color:var(--ink2)}
+.tip .say{color:var(--ink);font-weight:600}
+.tip small{color:var(--ink3);font-size:13px}
+.formula{display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap;font-family:var(--display);font-weight:700;font-size:22px;color:var(--ink)}
+.formula span{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:2px 10px;font-variant-numeric:tabular-nums}
+/* road diagram */
+.roadwrap{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;overflow-x:auto}
+.roadwrap svg{display:block;width:100%;min-width:560px;height:auto}
+.lbl{font-family:var(--display);font-weight:700;font-size:15px;fill:var(--ink)}
+.lbl2{font-family:var(--body);font-size:13px;fill:var(--ink2)}
+.src{font-size:14px;color:var(--ink3)}
+.src a{color:var(--ink2)}
+</style>
+
+<div class="wrap">
+<header style="display:grid;gap:14px">
+  <span class="eyebrow">Relanti · Proposal follow-ups · 4 Nov 2026</span>
+  <h1>Your five questions, answered</h1>
+  <p class="lede">Names, colours, one road or free choice, tips and tricks, and what goes in the Guantera. Each section ends with what I recommend.</p>
+</header>
+
+<!-- 1 Names -->
+<section id="nombres">
+  <span class="num"><b>1</b> Name check</span>
+  <h2>Relanti looks clear; Turbo is crowded</h2>
+  <div class="cards">
+    <div class="card"><span class="tag t-ok">Low risk so far</span><h3>Relanti</h3><p>Web searches found no app, company or trademark called Relanti, and nothing in our sector. The nearest hit is an unrelated US filing for "RELANT". The word is our own play on <em>ralentí</em>, which helps it stand out.</p></div>
+    <div class="card"><span class="tag t-high">Crowded</span><h3>Turbo</h3><p>"Turbo" is registered in many classes, and there are driving schools using it right in our sector: <em>Turbo Autoescuelas</em> in Navarra and <em>Autoescola Turbo</em> in Catalonia. A US education trademark, "TURBO AI" (Turbolearn), also exists.</p></div>
+  </div>
+  <div class="warn"><b>What I could not do from here:</b> the official databases (EUIPO's TMview and OEPM's Localizador) block automated access, so this is a web check, not a register search. Before launch, someone should run "Relanti" and "Turbo" in <a href="https://www.tmdn.org/tmview/">TMview</a> for classes 9 and 41, and check the domains.</div>
+  <div class="rec"><span class="eyebrow">Recommendation</span><p>Keep <b>Relanti</b> as the app name and register it early (OEPM national mark is about 150 €; an EU mark is about 850 €). Keep <b>Turbo</b> only as a character name inside the app, never on the store listing or the icon text. That's the same approach that saved Rumbo. If a school called Turbo ever objects, renaming a character is cheap.</p></div>
+</section>
+
+<!-- 2 Colours -->
+<section id="colores">
+  <span class="num"><b>2</b> Colour</span>
+  <h2>What the research says, and three palettes</h2>
+  <p class="prose">Popular colour psychology (blue means trust, red means danger) makes for good stories but has thin evidence. The best-known lab result, that seeing red lowers test scores, did not hold up: a 2020 meta-analysis of 38 samples found no reliable effect once publication bias was corrected (Gnambs, <i>Psychonomic Bulletin &amp; Review</i>). So I'd choose colours for reasons that do hold up:</p>
+  <div class="cards">
+    <div class="card"><h3>Meaning people already know</h3><p>On the road, blue signs inform, red frames warn or forbid, yellow marks roadworks, and green is "go". Using those meanings in the app reinforces the exam content.</p></div>
+    <div class="card"><h3>Contrast and colour blindness</h3><p>About 1 in 12 men can't tell red from green easily. Right and wrong always get an icon as well as a colour, and all text meets WCAG 4.5:1.</p></div>
+    <div class="card"><h3>Standing out</h3><p>Most DGT test apps look like government forms. A warm, road-trip palette is a choice none of them makes, which helps the store screenshots.</p></div>
+  </div>
+  <div class="cards">
+    <div class="pal">
+      <div class="bar"><div style="background:#1A56B0;color:#fff">Autopista</div><div style="background:#F2B705;color:#1F232A">Línea</div><div style="background:#EA5B2A;color:#fff">Atardecer</div><div style="background:#2B2F36;color:#fff">Asfalto</div><div style="background:#EEF1F5;color:#1F232A">Hormigón</div></div>
+      <div class="body"><span class="tag t-ok">A · The one you liked</span><h3>Autopista</h3><p>Motorway blue leads, with road-line yellow for rewards and sunset orange for streaks. Clear and calm, and it feels like the road.</p></div>
+    </div>
+    <div class="pal">
+      <div class="bar"><div style="background:#EA5B2A;color:#fff">Atardecer</div><div style="background:#14306B;color:#fff">Noche</div><div style="background:#F2B705;color:#1F232A">Línea</div><div style="background:#2B2F36;color:#fff">Asfalto</div><div style="background:#FBF3EC;color:#1F232A">Arena</div></div>
+      <div class="body"><span class="tag t-risk">B · Warmer</span><h3>Atardecer</h3><p>Sunset orange leads and night blue backs it up. This is the most "road trip" of the three and the most different from other apps. The catch: white text on orange needs a darker shade to pass contrast.</p></div>
+    </div>
+    <div class="pal">
+      <div class="bar"><div style="background:#22262D;color:#fff">Asfalto</div><div style="background:#F2B705;color:#1F232A">Línea</div><div style="background:#4F8DF0;color:#fff">Autopista</div><div style="background:#EA5B2A;color:#fff">Atardecer</div><div style="background:#F4F5F7;color:#1F232A">Pintura</div></div>
+      <div class="body"><span class="tag t-risk">C · Night drive</span><h3>Asfalto</h3><p>The app is dark first, like driving at night, with yellow road lines as the main colour. It looks premium and grown-up and is easy on the eyes when studying late. It's harder to make feel friendly.</p></div>
+    </div>
+  </div>
+  <div class="rec"><span class="eyebrow">Recommendation</span><p>Use <b>A, Autopista</b> as the base, since you already liked it, and borrow C's dark mode for evening study. None of the three copies the exact DGT sign colours. Red stays reserved for wrong answers and sign borders.</p></div>
+</section>
+
+<!-- 3 Path -->
+<section id="ruta">
+  <span class="num"><b>3</b> One road or free choice?</span>
+  <h2>A recommended road, with every exit open</h2>
+  <p class="prose">You're right to worry. Someone tired of speed limits should be able to go and do vehicle types. The research supports both halves of the answer:</p>
+  <div class="cards">
+    <div class="card"><h3>Choice helps motivation</h3><p>A meta-analysis of 41 studies (Patall, Cooper &amp; Robinson, 2008) found that giving learners a choice raises motivation, effort and performance, with the best results from a few meaningful options rather than many.</p></div>
+    <div class="card"><h3>Mixing topics helps the exam</h3><p>A meta-analysis of interleaved practice (Brunmair &amp; Richter, 2019) found a moderate benefit overall, and the biggest one for telling similar-looking visual categories apart. That's exactly signs. The real exam mixes topics too.</p></div>
+    <div class="card"><h3>But learn each thing once in order</h3><p>The same research shows that new material is easier in blocks. Some rules build on others: you need the signs before priority at junctions.</p></div>
+  </div>
+  <div class="roadwrap">
+    <svg viewBox="0 0 900 230" role="img" aria-label="Diagram: a main road with stops, side exits to any etapa, and a mixed review lane">
+      <rect x="20" y="96" width="860" height="38" rx="6" fill="var(--tarmac)"/>
+      <line x1="30" y1="115" x2="870" y2="115" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>
+      <g fill="var(--surface)" stroke="var(--blue)" stroke-width="4">
+        <circle cx="90" cy="115" r="14"/><circle cx="250" cy="115" r="14"/><circle cx="410" cy="115" r="14"/><circle cx="570" cy="115" r="14"/><circle cx="730" cy="115" r="14"/>
+      </g>
+      <rect x="820" y="97" width="56" height="36" rx="6" fill="var(--blue)"/><text x="848" y="121" text-anchor="middle" class="lbl" fill="#fff" style="fill:#fff">EX</text>
+      <text x="90" y="80" text-anchor="middle" class="lbl">Señales</text><text x="250" y="80" text-anchor="middle" class="lbl">Prioridad</text><text x="410" y="80" text-anchor="middle" class="lbl">Velocidad</text><text x="570" y="80" text-anchor="middle" class="lbl">Vehículos</text><text x="730" y="80" text-anchor="middle" class="lbl">Alcohol…</text>
+      <path d="M410 134 C410 175 560 165 570 134" fill="none" stroke="var(--sunset, #EA5B2A)" stroke-width="5" stroke-dasharray="2 9" stroke-linecap="round"/>
+      <text x="490" y="190" text-anchor="middle" class="lbl2">Desvío: jump to any etapa, keep your place</text>
+      <rect x="20" y="20" width="860" height="22" rx="5" fill="var(--blue-soft)"/>
+      <text x="450" y="36" text-anchor="middle" class="lbl2" style="fill:var(--blue-ink)">Retrovisor and simulacros mix every etapa you've started</text>
+      <text x="90" y="160" text-anchor="middle" class="lbl2">tramos in order</text><text x="90" y="176" text-anchor="middle" class="lbl2">inside each etapa</text>
+    </svg>
+  </div>
+  <div class="rec"><span class="eyebrow">Recommendation</span><p><b>One recommended road, but every etapa unlocked from day one.</b> The road follows the order of the DGT's simplified manual, so it makes sense to anyone coming from an autoescuela. Tapping any stop takes a <b>desvío</b>, Turbo says "Recalculando ruta", and your place on the main road is kept. Inside an etapa, tramos go in order. Retrovisor reviews and simulacros always mix topics. If you do three rounds of the same etapa, Turbo suggests "¿Cambiamos de aires?" with two other etapas to choose from.</p></div>
+</section>
+
+<!-- 4 Tips -->
+<section id="trucos">
+  <span class="num"><b>4</b> Tips and tricks</span>
+  <h2>Trucos de Turbo: our edge over other apps</h2>
+  <p class="prose">Other apps are mostly question banks. Relanti can teach how to read the exam, plus memory tricks for the numbers people forget. Each truco needs a source, and the exam-technique ones should be checked against real DGT questions before we ship them. Some first findings:</p>
+  <div class="tips">
+    <div class="tip"><div class="ic">g/l<br>mg/l</div><div style="display:grid;gap:6px"><p class="say">El aire es la mitad de la sangre.</p>
+      <div class="formula"><span>0,5 g/l sangre</span>→<span>0,25 mg/l aire</span></div>
+      <p>General limit: 0.5 g/l in blood, which is 0.25 mg/l in exhaled air. Novice drivers (under 2 years) and professionals: 0.3 g/l, which is 0.15 mg/l. To get the air number, halve the blood number.</p>
+      <small>Note: a proposal to lower the limit to 0.2 g/l passed its first vote on 29 Sep 2026 but lapsed when the Cortes were dissolved for the 29 Nov elections. This is exactly the kind of rule our content must track. Source: Motor16, 9 Oct 2026.</small></div></div>
+    <div class="tip"><div class="ic">!</div><div style="display:grid;gap:4px"><p class="say">"Siempre" y "nunca" son señales de peligro.</p><p>Answers with absolute words are often wrong, because traffic rules have exceptions: an agent's instructions override a light, and a sign overrides the general rule. Look for the exception before choosing.</p></div></div>
+    <div class="tip"><div class="ic" style="font-size:15px">FOTO</div><div style="display:grid;gap:4px"><p class="say">La foto da el contexto; la pregunta decide.</p><p>This is your hypothesis, and I think it's worth testing. Many questions with photos ask about a general rule or a detail the photo doesn't settle. The tip would be to read the question first, then use the photo only for road type, weather and signs. I'd validate it against a sample of real DGT questions before Turbo says it.</p></div></div>
+    <div class="tip"><div class="ic">≤</div><div style="display:grid;gap:4px"><p class="say">La velocidad máxima es un techo, no un objetivo.</p><p>Questions about rain, fog or a school exit often hide behind the speed limit. The right answer is usually "adapt", not the number on the sign.</p></div></div>
+    <div class="tip"><div class="ic">A·B·C</div><div style="display:grid;gap:4px"><p class="say">Lee las tres antes de elegir.</p><p>The options often differ by a single word. Rushing and not reading carefully are the two most common mistakes. You have about 1 minute per question, which is plenty.</p></div></div>
+    <div class="tip"><div class="ic">P·D·E</div><div style="display:grid;gap:4px"><p class="say">Detención, parada y estacionamiento no son lo mismo.</p><p>A detención is stopping because traffic requires it. A parada is up to 2 minutes without the driver leaving. Anything else is estacionamiento. Many questions turn on that word (definitions in the Ley de Tráfico annex; rules in RGC arts. 90 to 94).</p></div></div>
+    <div class="tip"><div class="ic">NEW</div><div style="display:grid;gap:4px"><p class="say">Ojo con las novedades.</p><p>Data from over a million practice tests (Instituto Pons de Seguridad Vial) shows that people fail most on signs and on recent rule changes: 20 km/h on single-level streets, the minimum number of occupants in VAO lanes, and personal mobility vehicles. Relanti can mark these questions "Novedad".</p></div></div>
+  </div>
+  <div class="rec"><span class="eyebrow">Recommendation</span><p>There are three kinds of truco. <b>Reading</b> trucos teach how to read the exam. <b>Memory</b> trucos are mnemonics for numbers: alcohol, speeds, distances, ages. <b>Novedades</b> flag recent rule changes. Each one has a source, a "checked on" date, and the questions it explains, as in Volantón. A "Trucos de Turbo" library in the Guantera lets people revise them before the exam.</p></div>
+</section>
+
+<!-- 5 Guantera -->
+<section id="guantera">
+  <span class="num"><b>5</b> The collection</span>
+  <h2>What do you bring back from a road trip?</h2>
+  <p class="prose">Volantón had two levels: a stamp per flight, and a visa or passport cover for bigger things. Relanti needs the same: something small and plentiful for each tramo, and something bigger for each etapa.</p>
+  <div class="cards">
+    <div class="card"><span class="tag t-ok">Per tramo</span><h3>Tickets de peaje</h3><p>Each tramo you master gives you a toll ticket with its road code, date and km. They stack up clipped to the sun visor, the way everyone keeps them. They're small, plentiful and very Spanish.</p></div>
+    <div class="card"><span class="tag t-ok">Per etapa</span><h3>Imanes de nevera</h3><p>Finish an etapa and you get the magnet from that stop: Villaseñal, Faro Nocturno and the rest. They live on a fridge door at home, so the collection reads as "places I've been". Each magnet can open to show its trucos.</p></div>
+    <div class="card"><span class="tag t-ok">Per etapa, alternative</span><h3>Llaveros</h3><p>A keyring per etapa, all hanging from Relanti's key. It gets fuller as you learn, and when you pass, Turbo hands you that bunch of keys.</p></div>
+    <div class="card"><span class="tag">Also possible</span><h3>Fotos del mirador</h3><p>A polaroid at each stop, with your car at that place. It's personal and shareable, but needs art for every stop and car.</p></div>
+    <div class="card"><span class="tag">Also possible</span><h3>Atlas de carreteras</h3><p>A paper road atlas where your route is drawn in highlighter, with notes in the margin, like Volantón's «Lo que aprendí». It's nostalgic and makes a good memory note.</p></div>
+    <div class="card"><span class="tag">Also possible</span><h3>Recuerdos de área de servicio</h3><p>Funny souvenirs from motorway service stations: a fan, a little bull, a botijo. Great for humour, but avoid real brand silhouettes such as the Osborne bull, which is a trademark.</p></div>
+  </div>
+  <div class="rec"><span class="eyebrow">Recommendation</span><p><b>Toll tickets for tramos, fridge magnets for etapas.</b> The Guantera becomes two things you open: the sun visor full of tickets ("38 de 96") and the fridge door of magnets ("5 de 12"). Your car's looks stay separate, as kit that Turbo fits at each rango. If you prefer the keyring, it could replace the magnets and ties in nicely with the final scene where you get the keys.</p></div>
+</section>
+
+<section>
+  <h3>Sources</h3>
+  <ul class="src" style="margin:0;padding-left:18px;display:grid;gap:4px">
+    <li><a href="https://link.springer.com/article/10.3758/s13423-020-01772-1">Gnambs (2020), Limited evidence for the effect of red color on cognitive performance, Psychonomic Bulletin &amp; Review</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/31556629/">Brunmair &amp; Richter (2019), Similarity matters: a meta-analysis of interleaved learning</a></li>
+    <li><a href="https://selfdeterminationtheory.org/wp-content/uploads/2019/10/2008_PatallCooperRobinson_PsychBulletin.pdf">Patall, Cooper &amp; Robinson (2008), The effects of choice on intrinsic motivation, Psychological Bulletin</a></li>
+    <li><a href="https://www.motor16.com/las-ultimas-noticias/tasa-alcohol-permitida-2026-dgt/">Motor16 (9 Oct 2026), alcohol limits and the lapsed 0.2 g/l proposal</a></li>
+    <li><a href="https://www.ondavasca.com/las-diez-preguntas-mas-falladas-del-carnet-de-conducir/">Onda Vasca, most-failed questions (Instituto Pons de Seguridad Vial data)</a></li>
+    <li><a href="https://practicatest.com/informacion/permisos-y-licencias/errores-mas-frecuentes-examen-teorico-dgt">Practicatest, most common mistakes in the theory exam</a></li>
+    <li><a href="https://www.learndrivingtheory.com/en/spain/article/spanish-dgt-exam-traps-always-never-questions">LearnDrivingTheory, always/never traps in the DGT exam</a></li>
+    <li><a href="https://trustlocal.es/navarra/berrioplano/autoescuela/turbo-autoescuelas-berriozar/">Turbo Autoescuelas, Navarra</a> · <a href="https://www.facebook.com/autoescolaturbo/">Autoescola Turbo</a> · <a href="https://uspto.report/TM/99208135">TURBO AI (Turbolearn), USPTO</a></li>
+  </ul>
+</section>
+</div>
