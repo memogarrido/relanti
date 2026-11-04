@@ -1,0 +1,226 @@
+<title>Turbo character options</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one column of option "lanes"; each lane = big portrait + four expressions + notes. */
+:root{
+  --bg:#EEF1F5;--surface:#FFFFFF;--ink:#1F232A;--ink2:#535A66;--ink3:#8A919C;--line:#D5DAE2;
+  --blue:#1A56B0;--blue-ink:#14438A;--blue-soft:#E2EBF8;--yellow:#F2B705;--sunset:#EA5B2A;--sunset-soft:#FCE6DC;
+  --go:#1E8E52;--go-soft:#DDF2E6;--stop:#C8233A;--tarmac:#2B2F36;--paint:#FFFFFF;
+  --stage:#F7F8FA;
+  /* car art (content, same in both themes) */
+  --c-orange:#EF6A32;--c-orange-d:#C24D1C;--c-white:#F4F5F7;--c-white-d:#C9CED6;--c-yellow:#E8574F;--c-yellow-d:#B83A33;
+  --c-mint:#4CBFA6;--c-mint-d:#2E8F7A;--glass:#BFD8F2;--glass-d:#8FB5DD;--tyre:#24272C;--chrome:#D8DCE2;--lamp:#FFF6D8;--led:#FFB020;--led-bg:#16181C;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;--body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stage:#222731;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;--blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;
+  --sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stage:#222731;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:36px 64px}
+.wrap{max-width:1040px;margin:0 auto;display:grid;gap:40px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0;text-wrap:balance}
+h1{font-size:clamp(44px,8vw,80px);font-weight:800}
+h2{font-size:clamp(30px,4.4vw,40px);font-weight:800}
+h3{font-size:20px;font-weight:700}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.lede{font-size:20px;max-width:64ch}
+.brief{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px}
+.brief div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--ink2);font-size:16px}
+.brief b{display:block;color:var(--ink);font-family:var(--display);font-size:18px}
+
+.opt{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+@media (max-width:820px){.opt{grid-template-columns:1fr}}
+.opt.rec{border:2px solid var(--go)}
+.stage{background:var(--stage);padding:22px;display:grid;gap:14px;align-content:start}
+.hero-car{display:grid;place-items:center;background:var(--surface);border-radius:12px;padding:10px;border:1px solid var(--line)}
+.hero-car svg{width:100%;max-width:300px;height:auto}
+.exprs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ex{display:grid;justify-items:center;gap:2px;font-size:13px;color:var(--ink2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px 4px}
+.ex svg{width:100%;max-width:90px;height:auto}
+.notes{padding:22px 24px;display:grid;gap:12px;align-content:start;min-width:0}
+.tag{justify-self:start;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue-ink)}
+.tag.go{background:var(--go-soft);color:var(--go)}
+.notes p{color:var(--ink2)}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:480px){.pc{grid-template-columns:1fr}}
+.pc ul{margin:0;padding-left:18px;color:var(--ink2);font-size:15.5px;display:grid;gap:4px}
+.pc h4{margin:0 0 4px;font-family:var(--display);font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+.pc .plus h4{color:var(--go)} .pc .minus h4{color:var(--stop)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:start}
+.card p{color:var(--ink2)}
+.foot{color:var(--ink3);font-size:14px}
+@media (prefers-reduced-motion:no-preference){
+  .hero-car svg .bob{animation:bob 2.4s ease-in-out infinite;transform-origin:50% 100%;transform-box:fill-box}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+}
+</style>
+
+<div class="wrap">
+<header style="display:grid;gap:16px">
+  <span class="eyebrow">Relanti · Character exploration · 4 Nov 2026</span>
+  <h1>Turbo, the car that teaches</h1>
+  <p class="lede">Turbo is a car with feelings but no human body: no arms, no legs, no face painted on the windscreen. He sits in the passenger seat in spirit only; in practice he <em>is</em> the autoescuela car you learn in, with the L sign on the roof. Four ways to give him a personality:</p>
+  <div class="brief">
+    <div><b>Humanized, not humanoid</b>Emotion comes from car parts: lights, bonnet, mirrors, suspension, wipers, horn.</div>
+    <div><b>Clear of Cars</b>No eyes in the windscreen and no mouth across the bumper, which is Pixar's look.</div>
+    <div><b>An invented model</b>No real brand's shape (a SEAT 600 or a Mini), so there is no trade dress problem.</div>
+    <div><b>Readable at 40 px</b>He has to work as a tiny face in the feedback sheet and as the app icon.</div>
+  </div>
+</header>
+
+<div id="options" style="display:grid;gap:22px"></div>
+
+<section style="display:grid;gap:16px">
+  <h2>What a car Turbo changes in the flow</h2>
+  <div class="cards">
+    <div class="card"><h3>You drive Turbo</h3><p>Every Spaniard learns in the autoescuela's car. Turbo is that car, so "Arrancar" literally starts him. On La Ruta, the vehicle moving along the road is Turbo, not a separate avatar.</p></div>
+    <div class="card"><h3>Your avatar becomes the driver's side</h3><p>The proposal had "Tu coche" as your avatar. With Turbo as the car, your identity moves to what you put in him: a keyring, seat cover, air freshener and dashboard figure, collected in the Guantera.</p></div>
+    <div class="card"><h3>Stickers go on Turbo's rear window</h3><p>Each mastered tramo is a sticker on his back window, so he fills up as you learn. Shareable cards show Turbo with your stickers.</p></div>
+    <div class="card"><h3>The ending gets better</h3><p>When you pass, Turbo takes off his L sign and hands you the keys: "Ahora conduces tú." You can pick your own first car as the last reward; Turbo stays as your co-driver for the novice year.</p></div>
+    <div class="card"><h3>Sounds are free</h3><p>Two short horn beeps for a right answer streak, a soft indicator tick while thinking, an engine purr on the Llegada. All synthesised, like Volantón.</p></div>
+    <div class="card"><h3>Never sad, never broken</h3><p>Same rule as Rumbo: no flat tyres, no breakdowns, no warning lights when you miss a day. A miss gets his curious tilt, nothing more.</p></div>
+  </div>
+</section>
+<p class="foot">Sketches only, drawn in code to compare directions. The final Turbo would be illustrated and rigged in layers, as Rumbo was.</p>
+</div>
+
+<script>
+(function(){
+const P=(s)=>s; // marker
+// ---------- Option A: Faros (headlight eyes) ----------
+function faros(e){
+  const t=e.tilt||0, dy=e.dy||0, look=e.look||0;
+  const lid = e.lid===undefined?0.2:e.lid;
+  const eye=(cx)=>{
+    let s=`<circle cx="${cx}" cy="80" r="12" fill="var(--chrome)"/><circle cx="${cx}" cy="80" r="10" fill="var(--lamp)"/>`;
+    if(e.happy){ s+=`<path d="M${cx-8} 83 Q${cx} 72 ${cx+8} 83" fill="none" stroke="#1F232A" stroke-width="3.5" stroke-linecap="round"/>`; }
+    else{ s+=`<circle cx="${cx+look}" cy="${81+(e.lookY||0)}" r="4.6" fill="#1F232A"/><circle cx="${cx+look+1.6}" cy="${79.4+(e.lookY||0)}" r="1.5" fill="#fff"/>`;
+      if(lid>0){ s+=`<path d="M${cx-11} 80 A11 11 0 0 1 ${cx+11} 80 L${cx+11} ${80-11+22*lid} L${cx-11} ${80-11+22*lid}Z" fill="var(--c-orange-d)"/>`; } }
+    return s;};
+  const brow=(cx,dir)=>{ const r=e.brow||0; return `<path d="M${cx-11} ${66-r*dir} L${cx+11} ${66+r*dir}" stroke="var(--c-orange-d)" stroke-width="3" stroke-linecap="round"/>`;};
+  const mirror=(x,s)=>`<ellipse cx="${x}" cy="60" rx="9" ry="6" fill="var(--c-orange)" stroke="var(--c-orange-d)" stroke-width="2" transform="rotate(${(e.ears||0)*s} ${x} 60)"/>`;
+  let g=`<rect x="64" y="99" width="32" height="6" rx="3" fill="var(--c-orange-d)" opacity=".7"/>`;
+  return `<svg viewBox="0 0 160 140" role="img" aria-label="Option A sketch"><ellipse cx="80" cy="132" rx="${58-(dy?-dy:0)}" ry="5" fill="#000" opacity=".12"/>
+  <g class="bob" transform="translate(0 ${dy}) rotate(${t} 80 120)">
+  <rect x="28" y="106" width="22" height="20" rx="6" fill="var(--tyre)"/><rect x="110" y="106" width="22" height="20" rx="6" fill="var(--tyre)"/>
+  ${mirror(26,-1)}${mirror(134,1)}
+  <path d="M42 68 L54 32 Q56 26 64 26 L96 26 Q104 26 106 32 L118 68Z" fill="var(--c-orange)"/>
+  <path d="M51 64 L61 36 L99 36 L109 64Z" fill="var(--glass)"/><path d="M64 38 L58 58" stroke="#fff" stroke-width="4" opacity=".6" stroke-linecap="round"/>
+  <rect x="62" y="12" width="36" height="16" rx="4" fill="var(--blue)" stroke="#fff" stroke-width="2"/><text x="80" y="25" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="#fff">L</text>
+  <rect x="20" y="64" width="120" height="48" rx="18" fill="var(--c-orange)"/>
+  ${brow(52,1)}${brow(108,-1)}
+  ${eye(52)}${eye(108)}
+  ${g}
+  <rect x="24" y="108" width="112" height="8" rx="4" fill="#3A3F48"/>
+  <rect x="68" y="109" width="24" height="6" rx="1" fill="#fff"/>
+  </g></svg>`;
+}
+// ---------- Option B: Placa (roof LED sign shows mood) ----------
+function placa(e){
+  const t=e.tilt||0, dy=e.dy||0;
+  const glyph={idle:`<text x="80" y="25" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="17" fill="var(--led)">L</text>`,
+    q:`<text x="80" y="26" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="19" fill="var(--led)">?</text>`,
+    happy:`<path d="M66 20 Q70 13 74 20 M86 20 Q90 13 94 20" fill="none" stroke="var(--led)" stroke-width="3" stroke-linecap="round"/>`,
+    idea:`<text x="80" y="26" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="19" fill="var(--led)">!</text>`}[e.g||'idle'];
+  const lamp=(x)=>`<rect x="${x-13}" y="72" width="26" height="14" rx="6" fill="var(--chrome)"/><rect x="${x-11}" y="74" width="22" height="10" rx="5" fill="var(--lamp)"/>`;
+  return `<svg viewBox="0 0 160 140" role="img" aria-label="Option B sketch"><ellipse cx="80" cy="132" rx="58" ry="5" fill="#000" opacity=".12"/>
+  <g class="bob" transform="translate(0 ${dy}) rotate(${t} 80 120)">
+  <rect x="28" y="106" width="22" height="20" rx="6" fill="var(--tyre)"/><rect x="110" y="106" width="22" height="20" rx="6" fill="var(--tyre)"/>
+  <path d="M40 70 L50 38 Q52 32 60 32 L100 32 Q108 32 110 38 L120 70Z" fill="var(--c-white)" stroke="var(--c-white-d)" stroke-width="1.5"/>
+  <path d="M49 66 L57 42 L103 42 L111 66Z" fill="var(--glass)"/>
+  <rect x="56" y="6" width="48" height="26" rx="5" fill="var(--led-bg)" stroke="var(--blue)" stroke-width="3"/>${glyph}
+  <rect x="18" y="66" width="124" height="46" rx="12" fill="var(--c-white)" stroke="var(--c-white-d)" stroke-width="1.5"/>
+  <rect x="18" y="90" width="124" height="7" fill="var(--blue)"/>
+  ${lamp(42)}${lamp(118)}
+  <rect x="60" y="74" width="40" height="12" rx="3" fill="#3A3F48"/>
+  <rect x="22" y="106" width="116" height="8" rx="4" fill="#3A3F48"/>
+  ${e.beam?`<g stroke="var(--yellow)" stroke-width="3" stroke-linecap="round"><path d="M14 72 L4 66"/><path d="M14 80 L2 80"/><path d="M146 72 L156 66"/><path d="M146 80 L158 80"/></g>`:''}
+  </g></svg>`;
+}
+// ---------- Option C: Sin cara (body language only, side view) ----------
+function sincara(e){
+  const t=e.tilt||0, dy=e.dy||0, wipe=e.wipe||0;
+  return `<svg viewBox="0 0 190 130" role="img" aria-label="Option C sketch"><ellipse cx="95" cy="122" rx="72" ry="5" fill="#000" opacity=".12"/>
+  ${e.lines?`<g stroke="var(--ink3)" stroke-width="3" stroke-linecap="round"><path d="M50 122 L40 126"/><path d="M140 122 L150 126"/></g>`:''}
+  <g class="bob" transform="translate(0 ${dy}) rotate(${t} ${t<0?150:40} 110)">
+  <path d="M22 96 Q20 76 36 72 L62 66 L80 40 Q84 34 92 34 L132 34 Q140 34 146 42 L162 66 Q172 70 172 84 L172 96 Q172 104 164 104 L30 104 Q22 104 22 96Z" fill="var(--c-yellow)"/>
+  <path d="M70 66 L86 42 L110 42 L110 66Z" fill="var(--glass)"/><path d="M116 42 L134 42 Q138 42 142 48 L152 66 L116 66Z" fill="var(--glass)"/>
+  <rect x="96" y="22" width="30" height="13" rx="3" fill="var(--blue)" stroke="#fff" stroke-width="2"/><text x="111" y="33" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="11" fill="#fff">L</text>
+  <path d="M66 68 L${66+18*Math.cos(wipe)} ${68-18*Math.sin(wipe)}" stroke="#3A3F48" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 78 Q24 82 26 88 L36 86 Q36 80 28 78Z" fill="var(--lamp)" stroke="var(--c-yellow-d)" stroke-width="1.5"/>
+  ${e.beam?`<path d="M24 80 L0 72 L0 96 L24 86Z" fill="var(--lamp)" opacity=".8"/>`:''}
+  <rect x="164" y="76" width="7" height="10" rx="2" fill="var(--stop)"/>
+  <path d="M110 70 L110 100" stroke="var(--c-yellow-d)" stroke-width="1.5"/>
+  <circle cx="54" cy="104" r="15" fill="var(--tyre)"/><circle cx="54" cy="104" r="6" fill="var(--chrome)"/>
+  <circle cx="142" cy="104" r="15" fill="var(--tyre)"/><circle cx="142" cy="104" r="6" fill="var(--chrome)"/>
+  </g>${e.note?`<text x="176" y="30" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="20" fill="var(--sunset)">${e.note}</text>`:''}</svg>`;
+}
+// ---------- Option D: Burbuja (micro car, brows from bonnet) ----------
+function burbuja(e){
+  const t=e.tilt||0, dy=e.dy||0, b=e.brow||0, look=e.look||0;
+  const eye=(cx,s)=> e.happy
+    ? `<circle cx="${cx}" cy="84" r="14" fill="var(--chrome)"/><circle cx="${cx}" cy="84" r="11.5" fill="var(--lamp)"/><path d="M${cx-8} 87 Q${cx} 76 ${cx+8} 87" fill="none" stroke="#1F232A" stroke-width="3.5" stroke-linecap="round"/>`
+    : `<circle cx="${cx}" cy="84" r="14" fill="var(--chrome)"/><circle cx="${cx}" cy="84" r="11.5" fill="var(--lamp)"/><circle cx="${cx+look}" cy="85" r="6" fill="#1F232A"/><circle cx="${cx+look+2}" cy="83" r="2" fill="#fff"/>`;
+  const brow=(cx,s)=>`<path d="M${cx-14} ${66+b*s} Q${cx} ${58-Math.abs(b)} ${cx+14} ${66-b*s}" fill="none" stroke="var(--c-mint-d)" stroke-width="4" stroke-linecap="round"/>`;
+  return `<svg viewBox="0 0 160 140" role="img" aria-label="Option D sketch"><ellipse cx="80" cy="132" rx="54" ry="5" fill="#000" opacity=".12"/>
+  <g class="bob" transform="translate(0 ${dy}) rotate(${t} 80 120)">
+  <rect x="34" y="108" width="20" height="18" rx="6" fill="var(--tyre)"/><rect x="106" y="108" width="20" height="18" rx="6" fill="var(--tyre)"/>
+  <path d="M26 96 Q24 40 80 30 Q136 40 134 96 Q134 116 112 116 L48 116 Q26 116 26 96Z" fill="var(--c-mint)"/>
+  <path d="M44 62 Q48 40 80 38 Q112 40 116 62 Z" fill="var(--glass)"/><path d="M58 46 Q54 52 54 58" stroke="#fff" stroke-width="4" opacity=".6" fill="none" stroke-linecap="round"/>
+  <rect x="64" y="18" width="32" height="14" rx="4" fill="var(--blue)" stroke="#fff" stroke-width="2"/><text x="80" y="29.5" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="12" fill="#fff">L</text>
+  ${brow(52,1)}${brow(108,-1)}
+  ${eye(52,1)}${eye(108,-1)}
+  <circle cx="80" cy="96" r="4" fill="var(--chrome)"/>
+  <path d="M30 108 Q80 118 130 108" fill="none" stroke="var(--chrome)" stroke-width="6" stroke-linecap="round"/>
+  </g></svg>`;
+}
+const options=[
+ {id:'A',name:'Faros',sub:'Headlights are his eyes',rec:true,draw:faros,
+  hero:{look:2},
+  ex:[['Atento',{look:0}],['Curioso',{tilt:-8,look:4,lid:0,ears:20,brow:3}],['¡Bien!',{happy:true,dy:-8,ears:-15}],['Explica',{lid:.35,look:-3,brow:-3}]],
+  how:'Round headlights with eyelids are his eyes, the bonnet crease lifts like eyebrows, and the side mirrors twitch like ears. No mouth: the grille stays a grille. Expressions come from lids, brows, mirrors and a body tilt.',
+  plus:['Reads instantly, even at 40 px and as an app icon','Widest range of feelings for trucos and celebrations','Familiar from road safety campaigns, feels friendly'],
+  minus:['Closest of the four to a "car with a face"','Needs care to stay clearly apart from Cars (eyes stay in the lights, never the windscreen)']},
+ {id:'B',name:'Placa',sub:'His roof sign shows his mood',draw:placa,
+  hero:{g:'idle'},
+  ex:[['Atento',{g:'idle'}],['Curioso',{g:'q',tilt:-7}],['¡Bien!',{g:'happy',dy:-8,beam:true}],['Explica',{g:'idea'}]],
+  how:'A clean white autoescuela car with a blue stripe. The roof L sign is an amber LED panel, like a motorway message sign, that switches between L, ?, ! and a smile. The body tilts and hops; the headlights flash on a win.',
+  plus:['Most original: nobody else has this','Ties straight into the Panel and road-sign look','No face at all, so no risk of looking like Cars'],
+  minus:['Emotion is coarser: one glyph at a time','Small sign is hard to read at 40 px; would need a close-up crop']},
+ {id:'C',name:'Sin cara',sub:'Pure body language, side view',draw:sincara,
+  hero:{},
+  ex:[['Atento',{}],['Curioso',{tilt:-6,note:'?'}],['¡Bien!',{dy:-10,lines:true,beam:true}],['Explica',{wipe:1.1,tilt:3}]],
+  how:'No face anywhere. Turbo talks with his suspension: he leans in, bounces on a win, crouches to think, waves a wiper to say hello and flashes his headlight to wink. Seen from the side, like a car on the road.',
+  plus:['Most mature, suits 17 to 25 year olds','Side view fits La Ruta: he drives along the road','Animation is simple squash and stretch'],
+  minus:['Weakest for a "guide who talks": no eye contact','Speech bubbles feel less personal']},
+ {id:'D',name:'Burbuja',sub:'A round micro car with big brows',draw:burbuja,
+  hero:{look:1},
+  ex:[['Atento',{}],['Curioso',{tilt:-8,look:5,brow:5}],['¡Bien!',{happy:true,dy:-8,brow:-2}],['Explica',{brow:-4,look:-4}]],
+  how:'A rounded, invented bubble car, warmer and more toy-like. Big chrome-rimmed headlights for eyes, and the bonnet edges move like eyebrows. The chrome bumper curves up a little but is never a mouth.',
+  plus:['Cutest and most memorable silhouette','Very good as an app icon','Retro feel suits the road-trip theme'],
+  minus:['Reads younger than the audience','Round retro cars sit near real classics; the shape must stay invented']},
+];
+const host=document.getElementById('options');
+host.innerHTML=options.map(o=>`
+ <article class="opt${o.rec?' rec':''}">
+  <div class="stage">
+   <div class="hero-car">${o.draw(o.hero)}</div>
+   <div class="exprs">${o.ex.map(([n,e])=>`<div class="ex">${o.draw(e)}<span>${n}</span></div>`).join('')}</div>
+  </div>
+  <div class="notes">
+   <span class="tag${o.rec?' go':''}">${o.rec?'Recommended · ':''}Option ${o.id}</span>
+   <h2>${o.name}</h2>
+   <p style="color:var(--ink);font-weight:600">${o.sub}</p>
+   <p>${o.how}</p>
+   <div class="pc"><div class="plus"><h4>Works</h4><ul>${o.plus.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="minus"><h4>Watch</h4><ul>${o.minus.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>
+  </div>
+ </article>`).join('');
+})();
+</script>
