@@ -1,0 +1,490 @@
+<title>Relanti architecture</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: same road-sign system as the design proposal. One reading column; each section is a kilometre post; diagrams and tables scroll inside their own boxes. */
+:root{
+  --bg:#EEF1F5;--surface:#FFFFFF;--ink:#1F232A;--ink2:#535A66;--ink3:#8A919C;--line:#D5DAE2;
+  --blue:#1A56B0;--blue-ink:#14438A;--blue-soft:#E2EBF8;--yellow:#F2B705;--yellow-soft:#FDF3D2;--yellow-ink:#7A5600;
+  --sunset:#EA5B2A;--sunset-soft:#FCE6DC;--go:#1E8E52;--go-soft:#DDF2E6;--stop:#C8233A;--stop-soft:#F8DEE2;
+  --tarmac:#2B2F36;--paint:#FFFFFF;--sign:#1A56B0;--sign-ink:#FFFFFF;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;
+  --blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;--yellow-soft:#3A2E12;--yellow-ink:#F5C02E;
+  --sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;--tarmac:#3A3F48;--sign:#1A56B0;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;
+  --blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;--yellow-soft:#3A2E12;--yellow-ink:#F5C02E;
+  --sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;--tarmac:#3A3F48;--sign:#1A56B0;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:1040px;margin:0 auto;display:grid;gap:0}
+h1,h2,h3{font-family:var(--display);line-height:1.05;text-wrap:balance;margin:0}
+h2{font-size:clamp(28px,4.2vw,40px);font-weight:800}
+h3{font-size:21px;font-weight:700}
+p{margin:0}
+a{color:var(--blue-ink)}
+code{font-family:var(--mono);font-size:.82em;background:var(--blue-soft);color:var(--blue-ink);padding:1px 5px;border-radius:4px}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+.prose{max-width:68ch;color:var(--ink2)}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+
+.hero{padding-block:36px 8px;display:grid;gap:20px}
+.gantry{background:var(--sign);color:var(--sign-ink);border-radius:10px;padding:22px clamp(18px,4vw,40px) 24px;box-shadow:inset 0 0 0 4px #fff,inset 0 0 0 7px var(--sign)}
+.gantry .route{display:inline-flex;gap:8px;align-items:center;font-family:var(--display);font-weight:700;font-size:17px}
+.shield{background:#fff;color:#14438A;border-radius:5px;padding:1px 9px;font-weight:800}
+.gantry h1{font-size:clamp(46px,9vw,92px);font-weight:800;color:#fff;margin-top:8px}
+.gantry .sub{font-family:var(--display);font-weight:600;font-size:clamp(18px,2.4vw,24px);opacity:.92;margin-top:4px}
+.lede{font-size:19px;max-width:66ch}
+.answer{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px}
+.answer ol{margin:0;padding-left:22px;display:grid;gap:6px;color:var(--ink2)}
+.answer b{color:var(--ink)}
+
+.road{height:16px;margin:46px 0 32px;background:var(--tarmac);border-radius:3px;position:relative;overflow:hidden}
+.road::after{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;background:repeating-linear-gradient(90deg,var(--paint) 0 30px,transparent 30px 54px)}
+section{display:grid;gap:18px}
+.sec-head{display:grid;gap:8px}
+.pk{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.08em;color:var(--ink2)}
+.pk b{display:inline-block;background:#fff;color:#1F232A;border:2px solid var(--ink);border-radius:3px;padding:0 7px;font-size:14px}
+
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.card p,.card li{color:var(--ink2)}
+.card ul{margin:0;padding-left:18px;display:grid;gap:5px}
+.card ul b,.card p b{color:var(--ink)}
+.tag{justify-self:start;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue-ink)}
+.t-ok{background:var(--go-soft);color:var(--go)} .t-warn{background:var(--yellow-soft);color:var(--yellow-ink)} .t-no{background:var(--stop-soft);color:var(--stop)}
+.decided{background:var(--go-soft);border-radius:12px;padding:14px 18px;display:grid;gap:5px}
+.decided .eyebrow{color:var(--go)}
+.note{background:var(--yellow-soft);border-radius:12px;padding:13px 16px;font-size:15.5px}
+
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:660px;font-size:15.5px}
+th,td{text-align:left;padding:9px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--display);font-weight:700;font-size:13.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.r{font-weight:700;color:var(--ink)}
+tr.pick td{background:var(--go-soft)}
+tr.pick td:first-child::after{content:" recommended";font-family:var(--display);font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--go)}
+
+.diagram{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;overflow-x:auto}
+.diagram svg{display:block;width:100%;min-width:720px;height:auto}
+.d-box{fill:var(--surface);stroke:var(--line);stroke-width:1.5}
+.d-native{fill:var(--blue-soft);stroke:var(--blue);stroke-width:1.5}
+.d-shared{fill:var(--yellow-soft);stroke:var(--yellow);stroke-width:2}
+.d-cloud{fill:var(--bg);stroke:var(--ink3);stroke-width:1.5;stroke-dasharray:5 4}
+.d-opt{fill:var(--sunset-soft);stroke:var(--sunset);stroke-width:1.5}
+.d-t{font-family:var(--display);font-weight:700;font-size:16px;fill:var(--ink)}
+.d-s{font-family:var(--body);font-size:12.5px;fill:var(--ink2)}
+.d-l{stroke:var(--ink3);stroke-width:1.6;fill:none}
+.d-lo{stroke:var(--sunset);stroke-width:1.6;fill:none;stroke-dasharray:4 4}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--ink2);padding:8px 4px 0}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+
+pre{margin:0;font-family:var(--mono);font-size:13.5px;line-height:1.55;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow-x:auto;color:var(--ink)}
+pre .c{color:var(--ink3)}
+
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+@media (max-width:720px){.split{grid-template-columns:1fr}}
+.side{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.side.sh{border-top:6px solid var(--yellow)} .side.na{border-top:6px solid var(--blue)}
+.side ul{margin:0;padding-left:18px;display:grid;gap:5px;color:var(--ink2)}
+.side b{color:var(--ink)}
+
+.steps{display:grid;max-width:860px}
+.st{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:13px 0;border-top:1px solid var(--line)}
+.st:first-child{border-top:0}
+.st > b{font-family:var(--display);font-size:18px;color:var(--blue-ink)}
+.st p{color:var(--ink2)}
+@media (max-width:560px){.st{grid-template-columns:1fr;gap:3px}}
+.sources{margin:0;padding-left:18px;display:grid;gap:4px;font-size:14px;color:var(--ink3)}
+.sources a{color:var(--ink2)}
+.foot{color:var(--ink3);font-size:14px;margin-top:32px}
+.themebar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;justify-content:flex-end;padding-block:10px 0}
+.themebar div{display:inline-flex;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;box-shadow:0 4px 14px -8px rgba(0,0,0,.3)}
+.themebar button{font:600 13px var(--body);border:0;background:transparent;color:var(--ink2);padding:5px 12px;border-radius:999px;cursor:pointer}
+.themebar button[aria-pressed="true"]{background:var(--blue);color:#fff}
+</style>
+
+<div class="wrap">
+<div class="themebar"><div role="group" aria-label="Theme"><button type="button" data-t="light">Claro</button><button type="button" data-t="dark">Oscuro</button><button type="button" data-t="" aria-pressed="true">Sistema</button></div></div>
+
+<header class="hero">
+  <div class="gantry">
+    <div class="route"><span class="shield">ARQ</span> Relanti · v0.1</div>
+    <h1>Architecture</h1>
+    <div class="sub">Two native apps, one Kotlin core, as little personal data as possible</div>
+  </div>
+  <p class="lede">This turns design proposal v0.3 into a technical plan. It covers where the shared logic lives, accounts with Firebase, Sentry, analytics and the GDPR position. It also covers payments, the content pipeline from the BOE, the animated GPS and the evolving car. Each section recommends one option, and the decisions that are yours are listed at the end.</p>
+  <div class="answer">
+    <span class="eyebrow">The short answer</span>
+    <ol>
+      <li><b>Shared logic in a Kotlin Multiplatform core.</b> Study rules, scheduling, points, the Semáforo, content loading, sync and entitlements are written once. SwiftUI and Compose stay fully native and only draw what the core tells them.</li>
+      <li><b>Local-first, account optional.</b> The app works fully with no account and no network, like Volantón. An account only backs up and syncs progress.</li>
+      <li><b>Firebase for sign-in and backup:</b> Auth with Sign in with Apple and Google, plus Firestore in an EU region. No Firebase Analytics, Crashlytics or push.</li>
+      <li><b>Sentry in its EU region for crashes, and TelemetryDeck for anonymous analytics.</b> Both are off until the learner says yes once, with no identifiers and no IP storage.</li>
+      <li><b>Progress is stored as an append-only log of rounds.</b> Points, upgrades, reviews and the Semáforo are computed from it, so sync is a simple merge, nothing ever goes down, and the account holds almost nothing personal.</li>
+      <li><b>Native StoreKit 2 and Play Billing</b> for the one-time payment, with the free-tier rules in the shared core.</li>
+    </ol>
+  </div>
+</header>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="principios">
+  <div class="sec-head"><span class="pk"><b>PK 1</b> Principles</span><h2>Four rules every component follows</h2></div>
+  <div class="cols">
+    <div class="card"><h3>The device is the source of truth</h3><p>Progress lives in a local SQLite database. The cloud is a copy for backup and a second device. If Firebase disappeared tomorrow, nobody would lose a single tramo.</p></div>
+    <div class="card"><h3>Collect only facts we can't compute</h3><p>We store what happened (which questions, right or wrong, when) and derive everything else. There are no profiles, names, ages or locations.</p></div>
+    <div class="card"><h3>Nothing leaves the phone without a reason</h3><p>With no account and no consent, the only network call is the optional content pack download, which carries no identifier. Every other request is tied to a choice the learner made.</p></div>
+    <div class="card"><h3>Logic once, pixels twice</h3><p>Anything that decides something lives in the shared core and is tested there. Anything you see or hear is native, so the apps feel at home on each platform.</p></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="sistema">
+  <div class="sec-head"><span class="pk"><b>PK 2</b> System</span><h2>The whole system on one page</h2></div>
+  <div class="diagram">
+    <svg viewBox="0 0 1000 520" role="img" aria-label="Two native apps on top of a shared Kotlin core with a local database. Optional cloud services: Firebase Auth and Firestore EU, Sentry EU, TelemetryDeck, a static content CDN, the app stores. A GitHub repo with the content compiler and the weekly BOE law watch builds the content pack.">
+      <!-- apps -->
+      <rect x="30" y="20" width="300" height="118" rx="12" class="d-native"/>
+      <text x="48" y="48" class="d-t">iOS app · SwiftUI</text>
+      <text x="48" y="72" class="d-s">Screens, GPS eyes (Canvas), car compositing</text>
+      <text x="48" y="92" class="d-s">StoreKit 2 · Sign in with Apple · AVSpeech</text>
+      <text x="48" y="112" class="d-s">Local notifications · Firebase iOS SDK</text>
+      <rect x="350" y="20" width="300" height="118" rx="12" class="d-native"/>
+      <text x="368" y="48" class="d-t">Android app · Compose</text>
+      <text x="368" y="72" class="d-s">Screens, GPS eyes (Canvas), car compositing</text>
+      <text x="368" y="92" class="d-s">Play Billing · Credential Manager · TTS</text>
+      <text x="368" y="112" class="d-s">Local notifications · Firebase Android SDK</text>
+      <!-- shared -->
+      <rect x="30" y="170" width="620" height="186" rx="12" class="d-shared"/>
+      <text x="48" y="198" class="d-t">Relanti core · Kotlin Multiplatform (shared/)</text>
+      <g class="d-s">
+        <text x="48" y="226">study: tramos, rounds, two-day mastery, Salidas</text>
+        <text x="48" y="248">review: Retrovisor 1·3·7·14·30, Puntos negros</text>
+        <text x="48" y="270">exam: simulacro rules, scoring, Semáforo</text>
+        <text x="48" y="292">rewards: km, días al volante, licence points, upgrades</text>
+        <text x="350" y="226">content: pack loader, signature check, item ids</text>
+        <text x="350" y="248">gps: Turbo mood state machine and timings</text>
+        <text x="350" y="270">access: free tier, entitlement rules</text>
+        <text x="350" y="292">sync: outbox, merge, consent and telemetry API</text>
+      </g>
+      <rect x="48" y="310" width="584" height="32" rx="7" class="d-box"/>
+      <text x="62" y="331" class="d-s">SQLDelight · SQLite on device: rounds log, settings, cached snapshot, content pack</text>
+      <!-- links apps->core -->
+      <path d="M180 138 V170" class="d-l"/><path d="M500 138 V170" class="d-l"/>
+      <!-- cloud -->
+      <rect x="690" y="20" width="280" height="336" rx="12" class="d-cloud"/>
+      <text x="708" y="46" class="d-t">Cloud · all optional</text>
+      <rect x="706" y="60" width="248" height="56" rx="8" class="d-opt"/>
+      <text x="720" y="82" class="d-t" style="font-size:15px">Firebase Auth + Firestore</text>
+      <text x="720" y="102" class="d-s">Only with an account · EU region</text>
+      <rect x="706" y="126" width="248" height="56" rx="8" class="d-opt"/>
+      <text x="720" y="148" class="d-t" style="font-size:15px">Sentry · EU (Frankfurt)</text>
+      <text x="720" y="168" class="d-s">Only with consent · no PII</text>
+      <rect x="706" y="192" width="248" height="56" rx="8" class="d-opt"/>
+      <text x="720" y="214" class="d-t" style="font-size:15px">TelemetryDeck · EU</text>
+      <text x="720" y="234" class="d-s">Only with consent · anonymous</text>
+      <rect x="706" y="258" width="248" height="40" rx="8" class="d-box"/>
+      <text x="720" y="283" class="d-s"><tspan class="d-t" style="font-size:15px">Content CDN</tspan>  signed packs, no ID</text>
+      <rect x="706" y="306" width="248" height="40" rx="8" class="d-box"/>
+      <text x="720" y="331" class="d-s"><tspan class="d-t" style="font-size:15px">App Store · Play</tspan>  one-time toll</text>
+      <path d="M650 88 H706" class="d-lo"/><path d="M650 154 H706" class="d-lo"/><path d="M650 220 H706" class="d-lo"/><path d="M650 278 H706" class="d-l"/><path d="M650 326 H706" class="d-l"/>
+      <!-- repo -->
+      <rect x="30" y="392" width="940" height="110" rx="12" class="d-box"/>
+      <text x="48" y="420" class="d-t">GitHub · memogarrido/relanti</text>
+      <g class="d-s">
+        <text x="48" y="446">content/  fact tables, templates, items, trucos, copy/es.json, each with its BOE block</text>
+        <text x="48" y="468">tools/contentc  JVM CLI built on the same core: validates and compiles content into a signed pack</text>
+        <text x="48" y="490">.github/workflows  CI for core, both apps · weekly BOE law watch opens an issue · Claude drafts the PR, a person approves</text>
+      </g>
+      <path d="M840 392 V346" class="d-l"/><text x="848" y="376" class="d-s">publishes pack</text>
+      <path d="M340 392 V356" class="d-l"/><text x="348" y="378" class="d-s">bundled in each release</text>
+    </svg>
+    <div class="legend"><span><i style="background:var(--blue-soft);border:1.5px solid var(--blue)"></i>Native, per platform</span><span><i style="background:var(--yellow-soft);border:2px solid var(--yellow)"></i>Shared Kotlin</span><span><i style="background:var(--sunset-soft);border:1.5px solid var(--sunset)"></i>Needs an account or consent</span></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="compartir">
+  <div class="sec-head"><span class="pk"><b>PK 3</b> Shared logic</span><h2>Kotlin Multiplatform for the core, native for everything you see</h2>
+    <p class="prose">Volantón shared only data: <code>content/</code> and the <code>spec/</code> cases that both apps had to pass, with the rules written twice. That worked for a kids app with simple rules. Relanti has much more logic: spaced review, two-day mastery, licence points, the Semáforo, the free tier, sync merging and template-generated questions. Writing that twice means two sets of bugs, and these are the bugs that cost a learner their progress.</p></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Option</th><th>What is shared</th><th>Native UI?</th><th>Cost for us</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td class="r">Write it twice + spec cases</td><td>Data and tests only</td><td>Yes</td><td>Every rule written in Swift and Kotlin, and every change made twice</td><td>Fine for Volantón, too much logic here</td></tr>
+      <tr class="pick"><td class="r">Kotlin Multiplatform core</td><td>Domain, rules, persistence, sync, content</td><td>Yes, SwiftUI and Compose</td><td>A Gradle build in front of Xcode, and a little Swift interop work</td><td>Recommended</td></tr>
+      <tr><td class="r">KMP + Compose Multiplatform UI</td><td>Also the screens</td><td>Only on Android</td><td>Least code, but iOS gets a non-native feel, text and accessibility</td><td>Keep as a later option for a single screen</td></tr>
+      <tr><td class="r">Rust core + UniFFI</td><td>Domain and rules</td><td>Yes</td><td>A third language and toolchain, with generated bindings on both sides</td><td>No gain over Kotlin, which Android already speaks</td></tr>
+      <tr><td class="r">Flutter / React Native</td><td>Everything</td><td>No</td><td>Rewrites the decided native approach and the GPS animation stack</td><td>Off the table</td></tr>
+    </tbody></table></div>
+  <div class="split">
+    <div class="side sh"><span class="tag t-warn">Shared · shared/</span><h3>Decides</h3><ul>
+      <li><b>Domain models</b>: etapa, tramo, item, truco, round, car config.</li>
+      <li><b>Feature state machines</b> exposed as <code>StateFlow&lt;UiState&gt;</code> plus intents: TramoSession, Simulacro, ITV, Retrovisor, Ruta.</li>
+      <li><b>Rules</b>: good round (≤1 mistake), two different days for a ticket, review intervals, Puntos negros, licence points, upgrade thresholds 3·6·8·12·15.</li>
+      <li><b>Turbo's mood</b>: which expression to show for each event, and blink and spinner timings.</li>
+      <li><b>Access</b>: what is free, and "never lock what you started".</li>
+      <li><b>Sync engine, consent state and a telemetry API</b> with an allow-list of events.</li>
+    </ul></div>
+    <div class="side na"><span class="tag">Native · iosApp/ androidApp/</span><h3>Draws and talks to the OS</h3><ul>
+      <li><b>Every screen</b>, navigation, Dynamic Type, VoiceOver and TalkBack.</li>
+      <li><b>GPS eyes</b> as SwiftUI and Compose Canvas shapes, driven by the shared mood.</li>
+      <li><b>Car compositing</b> from layered renders.</li>
+      <li><b>StoreKit 2 and Play Billing</b>, behind a shared <code>Store</code> interface.</li>
+      <li><b>Firebase SDKs</b> (official ones), behind shared <code>AuthGateway</code> and <code>RemoteLog</code> interfaces.</li>
+      <li><b>Text to speech</b>, local notifications and share cards.</li>
+    </ul></div>
+  </div>
+  <div class="cols">
+    <div class="card"><h3>How iOS consumes it</h3><p>Gradle builds <code>RelantiCore.xcframework</code>, which the Xcode project embeds through a build phase. <a href="https://skie.touchlab.co/">SKIE</a> makes the Kotlin API feel like Swift: sealed classes become Swift enums, flows become <code>AsyncSequence</code>, and suspend functions become <code>async</code>. A thin <code>@Observable</code> wrapper per feature feeds SwiftUI. When Kotlin's own Swift export is stable we can drop SKIE.</p></div>
+    <div class="card"><h3>Libraries in the core</h3><p>Only small, multiplatform, well-kept ones: <code>kotlinx.coroutines</code>, <code>kotlinx.serialization</code>, <code>kotlinx-datetime</code> for "two different days" in the learner's time zone, and <code>SQLDelight</code> for the database. There is no DI framework: one <code>RelantiCore</code> object wires everything, and each app gives it its platform pieces at start-up.</p></div>
+    <div class="card"><h3>Tests</h3><p>Volantón's <code>spec/</code> cases become <code>commonTest</code> fixtures that run on JVM and iOS simulators in CI. One example: "8 questions, 1 miss, on 3 Nov and again on 5 Nov earns ticket SE-101". UI gets snapshot tests per platform (Paparazzi, swift-snapshot-testing) in light and dark.</p></div>
+  </div>
+  <p class="note"><b>The cost:</b> the iOS build depends on Gradle and a JDK, the first build is slow, and debugging Kotlin from Xcode needs the xcode-kotlin plugin. The framework adds a few MB to the app. All of this is manageable for a two-app team, and it pays back the first time a rule changes.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="repo">
+  <div class="sec-head"><span class="pk"><b>PK 4</b> Repository</span><h2>One monorepo, one version of the truth</h2></div>
+<pre><span class="c"># memogarrido/relanti</span>
+shared/              <span class="c">KMP core: commonMain, androidMain, iosMain, commonTest</span>
+  study/ review/ exam/ rewards/ content/ gps/ access/ sync/ telemetry/
+androidApp/          <span class="c">Compose app, Play Billing, Firebase Android SDK</span>
+iosApp/              <span class="c">SwiftUI app (Xcode project), StoreKit 2, Firebase iOS SDK via SPM</span>
+content/             <span class="c">source of every question, fact table, truco and copy/es.json</span>
+  facts/ templates/ items/ trucos/ media/ copy/
+tools/contentc/      <span class="c">JVM CLI on the shared core: validate, generate, sign the pack</span>
+backend/             <span class="c">firestore.rules, one Cloud Function for account deletion</span>
+docs/                <span class="c">design/ (proposal), architecture/ (this page)</span>
+Scripts/turbo/       <span class="c">existing render scripts for the GPS and cars</span>
+.github/workflows/   <span class="c">core tests, Android build, iOS build (macOS runner), law-watch weekly</span></pre>
+  <p class="prose">The content compiler reuses the core's models and validators, so a pack that compiles is a pack both apps can load. This is a quiet benefit of KMP: the tool, the tests and the two apps share one definition of a question.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="datos">
+  <div class="sec-head"><span class="pk"><b>PK 5</b> Progress data</span><h2>Store what happened, compute the rest</h2>
+    <p class="prose">The core keeps an append-only log of <b>rounds</b>. A round is one tramo, Retrovisor session, ITV or simulacro, with its answers. Everything the learner sees is a pure function of that log plus the content pack.</p></div>
+<pre><span class="c">// what is stored and synced (per learner)</span>
+Round(id: Uuid, kind: TRAMO|RETROVISOR|ITV|SIMULACRO, tramo: "SE-101"?,
+      startedAt: Instant, tz: "Europe/Madrid", contentVersion: 42,
+      answers: [Answer(item: "SE-101-07", choice: B, correct: false, ms: 9400)])
+Milestone(id, kind: POINT|UPGRADE|APROBADO, key: "etapa:SE", at)   <span class="c">// once earned, kept</span>
+Settings(car: {body, colour, name}, gpsName, examDate?, dailyTime, voice, updatedAt)
+
+<span class="c">// computed by the core, never stored remotely</span>
+tickets, magnets, licence points, upgrades, km, días al volante,
+Retrovisor queue, Puntos negros, Semáforo, Hoja de ruta</pre>
+  <div class="cols">
+    <div class="card"><h3>Why a log</h3><ul>
+      <li><b>Sync is a union.</b> Rounds have UUIDs and never change, so two phones merge without conflicts. Settings are one small record, where the latest write wins.</li>
+      <li><b>Rules can change safely.</b> If we tune the review intervals, the core recomputes from history.</li>
+      <li><b>Nothing goes down.</b> Points and upgrades are recorded as milestones the first time they're earned, so a retired question or a rule change never takes one away.</li>
+      <li><b>Export is trivial.</b> "Descargar mis datos" writes the log as JSON.</li>
+    </ul></div>
+    <div class="card"><h3>Stable ids</h3><p>Items are named <code>tramo-number</code>, and a template-generated item keeps its id when a fact changes, because the id comes from the template and its parameter key, not from the text. Codes are never renumbered. A retired item stays in the log and drops out of reviews.</p><p>A full year of daily study comes to a few thousand rounds, under 5 MB. That's trivial on the device and well inside Firestore's free quota.</p></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="cuentas">
+  <div class="sec-head"><span class="pk"><b>PK 6</b> Accounts</span><h2>Firebase, used narrowly</h2>
+    <p class="prose">Firebase is a good fit for sign-in and backup: it's cheap at this scale, has mature native SDKs and handles Sign in with Apple well. The GDPR position comes from using only the two pieces we need and keeping personal data out of them.</p></div>
+  <div class="cols">
+    <div class="card"><span class="tag t-ok">Use</span><h3>Firebase Auth</h3><ul>
+      <li><b>Sign in with Apple</b> and <b>Google</b> only, so there are no passwords to store or reset. Apple users can hide their email.</li>
+      <li>It's offered after the first etapa, as "Guarda tu progreso", and on a second device. It never blocks study.</li>
+      <li>On sign-in the local log uploads, and a log already in the cloud merges in.</li>
+    </ul></div>
+    <div class="card"><span class="tag t-ok">Use</span><h3>Firestore, EU region</h3><ul>
+      <li>Create the project with <code>eur3</code> (Belgium and Netherlands) or <code>europe-southwest1</code> (Madrid). The region can't be changed later.</li>
+      <li>Path <code>users/{uid}/rounds/{roundId}</code> and <code>users/{uid}/meta/settings</code>. Security rules allow each uid to touch only its own documents.</li>
+      <li>The core's outbox pushes new rounds in batches, offline-safe.</li>
+      <li>App Check (App Attest and Play Integrity) keeps scripts out of the database.</li>
+    </ul></div>
+    <div class="card"><span class="tag t-no">Don't add</span><h3>The rest of Firebase</h3><ul>
+      <li><b>Google Analytics for Firebase</b>: it ties into Google's ad stack, so it needs consent and makes the privacy labels harder.</li>
+      <li><b>Crashlytics</b>: Sentry covers it, in the EU.</li>
+      <li><b>Cloud Messaging</b>: the one daily nudge is a local notification, so no push token is needed.</li>
+      <li><b>Remote Config and A/B testing</b> aren't needed for v1.</li>
+    </ul></div>
+  </div>
+  <div class="cols">
+    <div class="card"><h3>Deleting an account</h3><p>Apple requires in-app deletion. "Borrar cuenta" calls one Cloud Function that deletes <code>users/{uid}</code> and the Auth user. Local progress stays on the phone unless the learner also chooses "Borrar todo". Accounts with no activity for 24 months get an email warning and are then deleted.</p></div>
+    <div class="card"><h3>Cross-platform purchases (later)</h3><p>In v1 a purchase unlocks that store's app and is restored from the store. Later, a second Cloud Function can verify a receipt and write an entitlement to the account, so buying on iPhone also unlocks Android. Apple's rules allow this for content bought on another platform.</p></div>
+    <div class="card"><h3>If you'd rather stay EU-only</h3><p>Firebase Auth isn't region-pinned, so Google processes it under its DPA and the EU-US Data Privacy Framework. If you want everything hosted in the EU, Supabase in Frankfurt is the alternative. Auth and sync sit behind the core's interfaces, so switching later only touches those two adapters.</p></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="monitor">
+  <div class="sec-head"><span class="pk"><b>PK 7</b> Monitoring and analytics</span><h2>Sentry for crashes, TelemetryDeck for usage, both by consent</h2></div>
+  <div class="cols">
+    <div class="card"><h3>Sentry</h3><ul>
+      <li>An organisation in the <b>EU data region</b> (Frankfurt).</li>
+      <li><b>sentry-kotlin-multiplatform</b> in the core, so Kotlin exceptions on iOS get proper stack traces. It wraps the native Cocoa and Android SDKs.</li>
+      <li><code>sendDefaultPii = false</code>, "Prevent storing of IP addresses" on, no user set, and no session replay or screenshots.</li>
+      <li>A <code>beforeSend</code> hook strips breadcrumbs down to screen names and drops any free text.</li>
+      <li>Release health on, tracing at 5% or less, and the shortest retention on the plan.</li>
+    </ul></div>
+    <div class="card"><h3>TelemetryDeck</h3><ul>
+      <li>A Germany-based, privacy-first analytics service with Swift and Kotlin SDKs. It uses no IDFA or ad ID, and only a salted hash per install.</li>
+      <li>It's called through the core's <code>Telemetry</code> API, which accepts only events on a reviewed allow-list. Nobody can log a question's text or a name by accident.</li>
+      <li>Events cover the funnel (onboarding done, first ticket, first simulacro, Aprobado), paywall seen and bought, and <b>item difficulty</b>: item id, right or wrong. That last one is what tells us which questions are badly worded.</li>
+    </ul></div>
+    <div class="card"><h3>Why not PostHog or Firebase</h3><p>PostHog EU is the stronger option if you later want session-level funnels or feature flags. Its SDKs are heavier, though, and default to person profiles we would have to switch off. Firebase Analytics is ruled out above. TelemetryDeck answers the questions a study app has, with the least data.</p></div>
+  </div>
+  <div class="decided"><span class="eyebrow">Proposed · one consent card</span><p>After choosing the car, Turbo asks once: "¿Me ayudas a mejorar?" There are two switches, <b>Informes de errores</b> and <b>Estadísticas anónimas</b>, both off, with buttons "Activar las dos" and "Ahora no" of equal weight. It can be changed any time in Yo › Privacidad. Spain's LSSI art. 22.2 and the AEPD's guidance treat SDK storage on the device like cookies, and opt-in removes the argument. The core only initialises Sentry and TelemetryDeck after a yes. If a lawyer confirms that crash reports with no identifiers count as strictly necessary, that one switch can default to on.</p></div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="gdpr">
+  <div class="sec-head"><span class="pk"><b>PK 8</b> GDPR</span><h2>The whole data inventory</h2>
+    <p class="prose">This table is the core of the privacy policy, the record of processing and both store privacy labels. If a new row doesn't fit it, it needs a decision first.</p></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Data</th><th>Where</th><th>When</th><th>Legal basis</th><th>Kept</th></tr></thead>
+    <tbody>
+      <tr><td class="r">Progress log, settings</td><td>On the device only</td><td>Always</td><td>Not processed by us</td><td>Until the app is deleted</td></tr>
+      <tr><td class="r">Account id, email or Apple relay email</td><td>Firebase Auth (Google, DPA + DPF)</td><td>Only if they sign in</td><td>Contract, art. 6.1.b</td><td>Until deletion, or 24 months inactive</td></tr>
+      <tr><td class="r">Synced rounds and settings</td><td>Firestore, EU region</td><td>Only if they sign in</td><td>Contract, art. 6.1.b</td><td>Same as the account</td></tr>
+      <tr><td class="r">Crash reports, no IP or user</td><td>Sentry EU</td><td>Only with consent</td><td>Consent, art. 6.1.a</td><td>Plan's shortest retention</td></tr>
+      <tr><td class="r">Anonymous usage events</td><td>TelemetryDeck (EU)</td><td>Only with consent</td><td>Consent, art. 6.1.a</td><td>Aggregated</td></tr>
+      <tr><td class="r">Purchase</td><td>Apple and Google, as their own controllers</td><td>If they buy</td><td>Contract</td><td>We only see "entitled: yes"</td></tr>
+      <tr><td class="r">Content pack download</td><td>Static CDN</td><td>Optional, no identifier</td><td>Legitimate interest</td><td>CDN logs, short</td></tr>
+    </tbody></table></div>
+  <div class="cols">
+    <div class="card"><h3>What this buys you</h3><ul>
+      <li><b>No ATT prompt</b> on iOS, because nothing tracks.</li>
+      <li><b>Short privacy labels</b>: with an account, email and user id are linked; diagnostics and usage are not linked and only collected with consent.</li>
+      <li><b>No special categories</b> and no minors' data issues: learners are 17 or older, above Spain's digital consent age of 14 (LOPDGDD art. 7).</li>
+      <li><b>Easy rights requests</b>: access and portability are the in-app export, and erasure is the delete button.</li>
+    </ul></div>
+    <div class="card"><h3>Paperwork, once</h3><ul>
+      <li>Accept the Google Cloud, Sentry and TelemetryDeck DPAs.</li>
+      <li>A short privacy policy in Spanish built from the table above, linked from Yo and from both stores.</li>
+      <li>A one-page record of processing (art. 30). With this little data, a DPIA isn't required.</li>
+      <li>Have a lawyer review the policy and the consent card once before launch.</li>
+    </ul></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="pago">
+  <div class="sec-head"><span class="pk"><b>PK 9</b> The toll</span><h2>One non-consumable purchase per store</h2></div>
+  <div class="cols">
+    <div class="card"><h3>Stores</h3><p>One non-consumable product, <code>autopista</code>, on each store. On iOS, StoreKit 2 verifies the signed transaction on the device and <code>Transaction.currentEntitlements</code> restores it. On Android, Play Billing returns the purchase, which we acknowledge, and <code>queryPurchasesAsync</code> restores it. Both report to the core as <code>Entitlement.Autopista</code> or <code>Entitlement.Free</code>.</p></div>
+    <div class="card"><h3>Rules live in the core</h3><p>The free tier (the first 3 etapas, 1 simulacro a day, points up to 3 and the first upgrade) and "anything you started stays open" are shared code with tests. The paywall is just one more state a screen can be in: the grey "Autopista de peaje" exit sign.</p></div>
+    <div class="card"><h3>Why not RevenueCat</h3><p>For one product with no subscriptions it adds a processor and a customer id for no gain. It's worth reconsidering only if subscriptions or cross-platform entitlements without accounts ever come up.</p></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="contenido">
+  <div class="sec-head"><span class="pk"><b>PK 10</b> Content pipeline</span><h2>From the BOE to a signed pack</h2>
+    <p class="prose">This is v0.3's content plan expressed as components.</p></div>
+  <div class="steps">
+    <div class="st"><b>Source</b><p><code>content/</code> holds YAML: fact tables (speeds, alcohol limits, distances, points), question templates over them, hand-written items, trucos and media. Each record has its BOE block (for example <code>BOE-A-2003-23514 · a48</code>), a fingerprint of that article's text, and a "checked on" date.</p></div>
+    <div class="st"><b>Compile</b><p><code>tools/contentc</code> uses the core's own models to expand the templates, check ids, sources, images and copy keys, and write <code>content-&lt;version&gt;.db</code> (SQLite) plus a manifest. The pack is signed with an Ed25519 key that lives only in CI secrets.</p></div>
+    <div class="st"><b>Watch</b><p>A weekly GitHub Action reads the three laws from the BOE's consolidated legislation API, compares the fingerprints and opens an issue listing the affected items with the old and new text. A DGT news watch feeds the "Novedad" trucos.</p></div>
+    <div class="st"><b>Fix</b><p>Claude drafts the updated items in a pull request and a person approves it. CI recompiles and runs every spec case against the new pack.</p></div>
+    <div class="st"><b>Ship</b><p>Every app release bundles the latest pack. Optionally, the app checks <code>manifest.json</code> on a static CDN about once a day. It downloads a newer pack only if the signature verifies and its schema version matches the app, and the request carries no identifier. Firebase Hosting or Cloudflare R2 both work.</p></div>
+  </div>
+  <p class="note">Progress refers to item ids and records the <code>contentVersion</code> for each round, so a new pack never breaks history. A changed item counts as new for the Retrovisor, but tickets and points already earned stay.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="personajes">
+  <div class="sec-head"><span class="pk"><b>PK 11</b> GPS and car</span><h2>Characters as data plus native drawing</h2></div>
+  <div class="cols">
+    <div class="card"><h3>The animated GPS</h3><ul>
+      <li>The device is a rendered image from <code>Scripts/turbo/turbo.py</code>. The eyes are vector shapes drawn on top: SwiftUI <code>Canvas</code> with <code>TimelineView</code>, and Compose <code>Canvas</code> with <code>animate*AsState</code>.</li>
+      <li>The core's <code>TurboMood</code> state machine turns events into expressions: idle (blink every 3 to 5 s), curious (on a Salida), happy (on a right answer), explain (on a truco), recalculando (on a miss), and silent with only a clock in simulacros.</li>
+      <li>Shapes and timings come from one <code>gps-eyes.json</code> in the content pack, so both platforms match and a designer can tune them without a release.</li>
+      <li>It respects Reduce Motion. Voice uses on-device TTS, with no network.</li>
+    </ul></div>
+    <div class="card"><h3>The evolving car</h3><ul>
+      <li>Each body type (utilitario, familiar, furgo) ships as layers: a greyscale paint mask, fixed parts, and one overlay per upgrade.</li>
+      <li>The app tints the paint mask with the chosen colour and stacks the unlocked overlays. That's 3 bodies × 6 overlays instead of 108 flat images.</li>
+      <li>Which overlays show is computed by the core from licence-point milestones, so they can't drift between devices.</li>
+      <li>Share cards ask the core for a "no upgrades" car, so a shared image never reveals your level.</li>
+      <li>New bodies or upgrades are just new layers plus a row in <code>rewards.yaml</code>.</li>
+    </ul></div>
+  </div>
+  <p class="prose">If we later want animation a designer authors, such as the car driving off at Aprobado, Rive has runtimes for both platforms and can sit alongside the code-drawn eyes.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="etapas">
+  <div class="sec-head"><span class="pk"><b>PK 12</b> Build order</span><h2>Offline first, cloud last</h2></div>
+  <div class="steps">
+    <div class="st"><b>1 · Skeleton</b><p>Monorepo, core with the content loader, one etapa of content, both apps rendering a tramo end to end, CI green on all three builds.</p></div>
+    <div class="st"><b>2 · Offline v1</b><p>The full study loop, rewards, GPS eyes, the car, simulacros and the Semáforo, with no network at all. This is a complete, shippable app.</p></div>
+    <div class="st"><b>3 · Toll + consent</b><p>StoreKit 2 and Play Billing, the free tier, the consent card, Sentry EU and TelemetryDeck.</p></div>
+    <div class="st"><b>4 · Accounts</b><p>Firebase Auth, Firestore EU, sync, export, and the deletion function.</p></div>
+    <div class="st"><b>5 · Content packs</b><p>The signed CDN pack between releases, and the weekly law watch running in production.</p></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="decisiones">
+  <div class="sec-head"><span class="pk"><b>PK 13</b> Your call</span><h2>Decisions this design needs</h2></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Decision</th><th>Recommended</th><th>Alternative</th></tr></thead>
+    <tbody>
+      <tr><td class="r">Where shared logic lives</td><td>KMP core, native UI</td><td>Write it twice with spec cases, as Volantón did</td></tr>
+      <tr><td class="r">Accounts</td><td>Optional, Firebase Auth (Apple + Google) and Firestore EU</td><td>Supabase Frankfurt, for EU-only hosting</td></tr>
+      <tr><td class="r">Firestore region</td><td><code>eur3</code> multi-region</td><td><code>europe-southwest1</code> Madrid, cheaper but single region</td></tr>
+      <tr><td class="r">Analytics</td><td>TelemetryDeck</td><td>PostHog EU, more power and more data</td></tr>
+      <tr><td class="r">Consent</td><td>One card, both switches opt-in</td><td>Crash reports on by default, after legal advice</td></tr>
+      <tr><td class="r">Content packs between releases</td><td>Yes, signed, from v1.1</td><td>Only with app releases</td></tr>
+      <tr><td class="r">Minimum OS</td><td>iOS 17, Android 8 (API 26)</td><td>iOS 16, which loses <code>@Observable</code></td></tr>
+    </tbody></table></div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="fuentes">
+  <div class="sec-head"><span class="pk"><b>PK 14</b> Sources</span><h2>References</h2></div>
+  <ul class="sources">
+    <li><a href="https://claude.ai/artifact/3WoUq6TPgozAciXQaVoCtn">Relanti design proposal v0.3</a> (4 Nov 2026), and <code>docs/design/</code></li>
+    <li><a href="https://kotlinlang.org/docs/multiplatform.html">Kotlin Multiplatform documentation</a> · <a href="https://skie.touchlab.co/">SKIE by Touchlab</a> · <a href="https://sqldelight.github.io/sqldelight/">SQLDelight</a></li>
+    <li><a href="https://firebase.google.com/docs/firestore/locations">Firestore locations</a> · <a href="https://firebase.google.com/support/privacy">Privacy and security in Firebase</a></li>
+    <li><a href="https://docs.sentry.io/platforms/kotlin/guides/kotlin-multiplatform/">Sentry Kotlin Multiplatform SDK</a> · <a href="https://docs.sentry.io/organization/data-storage-location/">Sentry data storage location</a></li>
+    <li><a href="https://telemetrydeck.com/privacy/">TelemetryDeck privacy</a></li>
+    <li><a href="https://developer.apple.com/app-store/review/guidelines/">App Store Review Guidelines</a>: 4.8 sign-in options, 5.1.1(v) account deletion, 3.1.3(b) multiplatform services</li>
+    <li><a href="https://www.aepd.es/guias/guia-cookies.pdf">AEPD guide on cookies and similar technologies</a> · LSSI art. 22.2 · LOPDGDD art. 7</li>
+    <li><a href="https://www.boe.es/datosabiertos/">BOE datos abiertos</a>: consolidated legislation API</li>
+  </ul>
+  <p class="foot">Architecture v0.1, 4 Nov 2026. The legal points describe the design's intent and are not legal advice, so check them with a lawyer before launch. Library choices should be re-checked against current releases when the skeleton is built.</p>
+</section>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement, tb=document.querySelectorAll('.themebar button');
+  tb.forEach(function(b){b.addEventListener('click',function(){
+    var t=b.getAttribute('data-t'); if(t) root.setAttribute('data-theme',t); else root.removeAttribute('data-theme');
+    tb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+  })});
+})();
+</script>
