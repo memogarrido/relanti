@@ -1,0 +1,16 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+captures/
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+iosApp/Relanti.xcodeproj/
+DerivedData/
+__pycache__/
+# Firebase config files are kept out of git until we decide otherwise
+google-services.json
+GoogleService-Info.plist
