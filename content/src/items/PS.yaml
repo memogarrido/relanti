@@ -1,0 +1,58 @@
+# Área PAS.
+items:
+  # PS-101 Cinturón y sillas infantiles
+  - id: PS-101-01
+    question: ¿Hay que llevar el cinturón abrochado en ciudad?
+    correct: Sí, en vías urbanas e interurbanas
+    wrong: ["No, solo en carretera", "Solo en los asientos delanteros"]
+    explanation: Conductor y ocupantes llevan el cinturón abrochado tanto en vías urbanas como interurbanas.
+    source: {law: RGC, block: a117, ref: art. 117.1 RGC}
+  - id: PS-101-02
+    question: ¿Hasta qué estatura deben usar los menores un sistema de retención infantil?
+    correct: Hasta {fact:sri.estatura}, inclusive
+    wrong: ["Hasta 150 cm", "Hasta 120 cm"]
+    explanation: Los menores de {fact:sri.estatura} o menos deben usar un sistema de retención infantil homologado.
+    source: {law: RGC, block: a117, ref: art. 117.1 RGC}
+    truco: T-PS-101
+  - id: PS-101-03
+    question: En un turismo, ¿dónde deben ir los niños que necesitan sistema de retención infantil?
+    correct: En los asientos traseros, salvo excepciones
+    wrong: ["Donde decida el conductor", "Delante, para tenerlos a la vista"]
+    explanation: En vehículos de hasta nueve plazas van detrás. Solo pueden ir delante en los casos que fija el art. 117.3.
+    source: {law: RGC, block: a117, ref: art. 117.3 RGC}
+  - id: PS-101-04
+    question: ¿En cuál de estos casos puede ir delante un niño en su silla homologada?
+    correct: Cuando todos los asientos traseros están ocupados por otros menores
+    wrong: ["Cuando el viaje es corto", "Cuando el niño lo prefiere"]
+    explanation: Puede ir delante si no hay asientos traseros, si están ocupados por otros menores o si no caben más sillas detrás.
+    source: {law: RGC, block: a117, ref: art. 117.3 RGC}
+  - id: PS-101-05
+    question: Un niño viaja delante en una silla orientada hacia atrás. ¿Qué es obligatorio?
+    correct: Que el airbag frontal esté desactivado
+    wrong: ["Que el airbag frontal esté activado", "Nada más, si la silla está homologada"]
+    explanation: Una silla hacia atrás en el asiento delantero solo se puede usar con el airbag frontal desactivado.
+    source: {law: RGC, block: a117, ref: art. 117.3 RGC}
+  - id: PS-101-06
+    question: ¿Cómo se debe instalar un sistema de retención infantil?
+    correct: Siguiendo las instrucciones de su fabricante
+    wrong: ["Como recomiende cualquier taller", "Siempre con el cinturón, nunca con anclajes"]
+    explanation: La silla se instala siempre según el manual o las instrucciones del fabricante.
+    source: {law: RGC, block: a117, ref: art. 117.4 RGC}
+  - id: PS-101-07
+    question: ¿Cuándo puede el conductor ir sin el cinturón abrochado?
+    correct: Al hacer marcha atrás o al estacionar
+    wrong: ["En trayectos de menos de un kilómetro", "Cuando circula por debajo de 30 km/h"]
+    explanation: El conductor está exento solo al hacer la maniobra de marcha atrás o de estacionamiento.
+    source: {law: RGC, block: a119, ref: art. 119.1.a) RGC}
+  - id: PS-101-08
+    question: En un taxi que circula por ciudad, ¿puede viajar sin silla un niño que no llega a {fact:sri.estatura}?
+    correct: Sí, si va en un asiento trasero
+    wrong: ["No, nunca", "Sí, en cualquier asiento"]
+    explanation: Los taxis en tráfico urbano pueden llevarlo sin sistema de retención, siempre en un asiento trasero.
+    source: {law: RGC, block: a119, ref: art. 119.2 RGC, quote: ["siempre que ocupen un asiento trasero"]}
+  - id: PS-101-09
+    question: ¿Cuántos puntos se pierden por no llevar puesto el cinturón de seguridad?
+    correct: "{fact:puntos.cinturon}"
+    wrong: ["2 puntos", "6 puntos"]
+    explanation: No usar, o usar mal, el cinturón, la silla infantil o el casco quita {fact:puntos.cinturon}.
+    source: {law: LSV, block: anii, ref: anexo II.15 LSV}

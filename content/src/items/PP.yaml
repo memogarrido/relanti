@@ -1,0 +1,64 @@
+# Oficina de Puntos.
+items:
+  # PP-101 El permiso por puntos
+  - id: PP-101-01
+    question: Obtienes tu primer permiso de conducir. ¿Con cuántos puntos empiezas?
+    correct: "{fact:puntos.novel}"
+    wrong: ["12 puntos", "6 puntos"]
+    explanation: Un permiso con {fact:puntos.novel.anos} o menos de antigüedad empieza con {fact:puntos.novel}, salvo que ya tuvieras otro permiso con esa antigüedad.
+    source: {law: LSV, block: a63, ref: art. 63.2.a) LSV}
+    truco: T-PP-101
+  - id: PP-101-02
+    question: ¿Cuál es el crédito inicial de puntos que se asigna con carácter general?
+    correct: "{fact:puntos.inicial}"
+    wrong: ["8 puntos", "15 puntos"]
+    explanation: Con carácter general se asignan {fact:puntos.inicial}; los permisos nuevos empiezan con {fact:puntos.novel}.
+    source: {law: LSV, block: a63, ref: art. 63.1 LSV}
+  - id: PP-101-03
+    question: ¿Cuántos puntos puede llegar a acumular como máximo un conductor?
+    correct: "{fact:puntos.maximo}"
+    wrong: ["12 puntos", "20 puntos"]
+    explanation: Sin sanciones se ganan bonificaciones hasta un máximo de {fact:puntos.maximo}.
+    source: {law: LSV, block: a63, ref: art. 63.4 LSV}
+  - id: PP-101-04
+    question: Un conductor novel con {fact:puntos.novel} pasa {fact:puntos.recuperar.anos} sin ninguna sanción firme que quite puntos. ¿Cuántos tiene ahora?
+    correct: "{fact:puntos.inicial}"
+    wrong: ["{fact:puntos.novel}", "{fact:puntos.maximo}"]
+    explanation: Tras {fact:puntos.recuperar.anos} sin sanciones que quiten puntos, el novel pasa a tener {fact:puntos.inicial}.
+    source: {law: LSV, block: a65, ref: art. 65.2 LSV}
+  - id: PP-101-05
+    question: Has perdido algunos puntos. ¿Cuándo recuperas los {fact:puntos.inicial}?
+    correct: Tras {fact:puntos.recuperar.anos} sin sanciones firmes que quiten puntos
+    wrong: ["Tras 1 año, pase lo que pase", "Tras 5 años"]
+    explanation: Si pasan {fact:puntos.recuperar.anos} sin sanciones firmes que quiten puntos, recuperas todo el crédito de {fact:puntos.inicial}.
+    source: {law: LSV, block: a65, ref: art. 65.1 LSV}
+  - id: PP-101-06
+    question: ¿Cuántos puntos puedes recuperar con un curso de sensibilización y reeducación vial?
+    correct: Hasta {fact:puntos.curso.recupera}
+    wrong: ["Hasta 4 puntos", "Todos los perdidos"]
+    explanation: El curso devuelve hasta {fact:puntos.curso.recupera}, y solo se puede hacer una vez cada dos años (cada año los profesionales).
+    source: {law: LSV, block: a65, ref: art. 65.4 LSV}
+  - id: PP-101-07
+    question: Cometes varias infracciones el mismo día, ninguna de las muy graves que lo excluyen. ¿Cuántos puntos puedes perder como máximo?
+    correct: "{fact:puntos.max-dia}"
+    wrong: ["12 puntos", "6 puntos"]
+    explanation: Por acumulación en un solo día no se pierden más de {fact:puntos.max-dia}, salvo ciertas infracciones muy graves.
+    source: {law: LSV, block: a64, ref: art. 64.4 LSV}
+  - id: PP-101-08
+    question: Tienes el permiso B y el de moto A2. ¿Cuántos saldos de puntos tienes?
+    correct: Uno solo para todos los permisos
+    wrong: ["Uno por cada permiso", "Uno para el coche y otro para la moto, pero se suman"]
+    explanation: El crédito de puntos es único para todas las autorizaciones de un mismo conductor.
+    source: {law: LSV, block: a63, ref: art. 63.3 LSV}
+  - id: PP-101-09
+    question: ¿Qué te aporta superar un curso de conducción segura y eficiente?
+    correct: "{fact:puntos.curso.seguro} más, sin pasar de {fact:puntos.maximo}"
+    wrong: ["Recuperar todos los puntos perdidos", "Nada, solo es formación"]
+    explanation: El curso suma {fact:puntos.curso.seguro}, si tienes saldo positivo, hasta un máximo de {fact:puntos.maximo}.
+    source: {law: LSV, block: a63, ref: art. 63.5 LSV}
+  - id: PP-101-10
+    question: ¿Cuántos puntos quita pasar un semáforo en rojo?
+    correct: "{fact:puntos.stop-rojo}"
+    wrong: ["2 puntos", "6 puntos"]
+    explanation: Saltarse un stop, un ceda el paso o un semáforo en rojo quita {fact:puntos.stop-rojo}.
+    source: {law: LSV, block: anii, ref: anexo II.10 LSV}

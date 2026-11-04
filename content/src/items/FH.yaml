@@ -1,0 +1,127 @@
+# Mirador Alerta.
+items:
+  # FH-101 Alcohol
+  - id: FH-101-01
+    question: Tienes el permiso desde hace más de dos años y conduces un turismo. ¿Cuál es tu tasa máxima de alcohol en aire espirado?
+    correct: "{fact:alcohol.general.aire}"
+    wrong: ["0,15 mg/l", "0,5 mg/l"]
+    explanation: La tasa general es {fact:alcohol.general.aire} en aire espirado, que equivale a {fact:alcohol.general.sangre} en sangre.
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+    truco: T-FH-101
+  - id: FH-101-02
+    question: Para un conductor de turismo con más de dos años de permiso, ¿cuál es la tasa máxima de alcohol en sangre?
+    correct: "{fact:alcohol.general.sangre}"
+    wrong: ["0,3 g/l", "0,8 g/l"]
+    explanation: En sangre, el límite general es {fact:alcohol.general.sangre}.
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+  - id: FH-101-03
+    question: Acabas de sacarte el permiso B. ¿Qué tasa máxima de alcohol en aire espirado tienes?
+    correct: "{fact:alcohol.especial.aire}"
+    wrong: ["0,25 mg/l", "0,3 mg/l"]
+    explanation: Durante los dos primeros años del permiso, el máximo es {fact:alcohol.especial.aire} en aire ({fact:alcohol.especial.sangre} en sangre).
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+  - id: FH-101-04
+    question: ¿Durante cuánto tiempo tiene un conductor novel la tasa de alcohol reducida?
+    correct: Los {fact:alcohol.noveles.anos} siguientes a obtener el permiso
+    wrong: ["El primer año tras obtener el permiso", "Los 3 años siguientes a obtener el permiso"]
+    explanation: La tasa reducida se aplica los {fact:alcohol.noveles.anos} siguientes a la obtención del permiso.
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+  - id: FH-101-05
+    question: ¿Qué tasa máxima de alcohol en sangre tiene el conductor de un autobús de más de nueve plazas?
+    correct: "{fact:alcohol.especial.sangre}"
+    wrong: ["0,5 g/l", "0,25 g/l"]
+    explanation: Los conductores de viajeros de más de nueve plazas, mercancías de más de 3.500 kg y otros servicios tienen {fact:alcohol.especial.sangre}.
+    source: {law: RGC, block: a20, ref: art. 20 RGC}
+  - id: FH-101-06
+    question: ¿Se aplican las tasas máximas de alcohol a quien conduce una bicicleta?
+    correct: Sí, igual que a los conductores de vehículos
+    wrong: ["No, solo a los vehículos a motor", "Solo si circula por autovía"]
+    explanation: El límite de alcohol se aplica también a los conductores de bicicletas.
+    source: {law: RGC, block: a20, ref: art. 20 RGC, quote: ["ni los conductores de bicicletas"]}
+  - id: FH-101-07
+    question: ¿Está obligado a hacer la prueba de alcohol un peatón implicado en un accidente?
+    correct: Sí
+    wrong: ["No, solo los conductores", "Solo si ha resultado herido"]
+    explanation: Además de los conductores, cualquier usuario de la vía implicado en un accidente debe someterse a la prueba.
+    source: {law: RGC, block: a21, ref: art. 21 RGC, quote: ["Igualmente quedan obligados los demás usuarios de la vía cuando se hallen implicados en algún accidente"]}
+  - id: FH-101-08
+    question: Si das positivo y te hacen una segunda prueba de aire, ¿cuánto tiempo mínimo debe pasar entre las dos?
+    correct: "{fact:alcohol.segunda-prueba.minutos}"
+    wrong: ["2 minutos", "30 minutos"]
+    explanation: Tienes derecho a que entre la primera y la segunda prueba pasen al menos {fact:alcohol.segunda-prueba.minutos}.
+    source: {law: RGC, block: a23, ref: art. 23.2 RGC}
+  - id: FH-101-09
+    question: La primera prueba da por debajo del límite, pero muestras síntomas evidentes de haber bebido. ¿Qué ocurre?
+    correct: El agente te hace una segunda prueba
+    wrong: ["Nada, porque has dado por debajo", "Te retiran el permiso en el momento"]
+    explanation: Con síntomas evidentes, aunque no se llegue al límite, el agente hace una segunda prueba de contraste.
+    source: {law: RGC, block: a23, ref: art. 23.1 RGC}
+  - id: FH-101-10
+    question: ¿Puedes pedir que se contraste el resultado del etilómetro?
+    correct: Sí, con un análisis de sangre, orina u otro parecido
+    wrong: ["No, el etilómetro es definitivo", "Sí, soplando en un etilómetro propio"]
+    explanation: A petición del interesado se pueden repetir las pruebas con análisis de sangre, orina u otros análogos.
+    source: {law: RGC, block: a22, ref: art. 22.1 RGC}
+
+  # FH-102 Drogas, pruebas y distracciones
+  - id: FH-102-01
+    question: ¿Puedes conducir después de tomar un medicamento que altera tu estado físico o mental?
+    correct: No
+    wrong: ["Sí, si es con receta", "Sí, en trayectos cortos"]
+    explanation: No se puede circular bajo el efecto de medicamentos u otras sustancias que alteren el estado para conducir sin peligro.
+    source: {law: RGC, block: a27, ref: art. 27.1 RGC, quote: ["los medicamentos u otras sustancias bajo cuyo efecto se altere el estado físico o mental"]}
+  - id: FH-102-02
+    question: ¿Puedes hablar por el móvil mientras conduces?
+    correct: Solo si no usas las manos ni auriculares
+    wrong: ["Sí, si vas despacio", "Sí, con un auricular en un solo oído"]
+    explanation: Solo se permite comunicarse sin emplear las manos ni usar cascos, auriculares o similares.
+    source: {law: RGC, block: a18, ref: art. 18.2 RGC, quote: ["sin emplear las manos ni usar cascos, auriculares o instrumentos similares"]}
+    truco: T-FH-102
+  - id: FH-102-03
+    question: ¿Se puede conducir con auriculares conectados a un reproductor de música?
+    correct: No
+    wrong: ["Sí, a volumen bajo", "Sí, si solo llevas uno"]
+    explanation: Está prohibido conducir con cualquier auricular conectado a un aparato de sonido.
+    source: {law: RGC, block: a18, ref: art. 18.2 RGC}
+  - id: FH-102-04
+    question: Con el vehículo en marcha, ¿cuál de estas pantallas puedes usar?
+    correct: El navegador GPS
+    wrong: ["Un reproductor de vídeo", "Una pantalla con acceso a internet"]
+    explanation: Pantallas con internet, televisión o vídeo son incompatibles con la atención; el GPS es una excepción.
+    source: {law: RGC, block: a18, ref: art. 18.1 RGC, quote: ["así como el dispositivo GPS"]}
+  - id: FH-102-05
+    question: ¿Cuál de estos aparatos se permite llevar en el coche?
+    correct: Un avisador que informa de dónde están los radares
+    wrong: ["Un detector de radares", "Un inhibidor de radares"]
+    explanation: Inhibidores y detectores están prohibidos. Los avisadores de la posición de los radares están permitidos.
+    source: {law: RGC, block: a18, ref: art. 18.3 RGC, quote: ["Quedan excluidos de esta prohibición los mecanismos de aviso"]}
+  - id: FH-102-06
+    question: ¿Cuántos puntos se pierden por conducir sujetando el móvil con la mano?
+    correct: "{fact:puntos.movil-mano}"
+    wrong: ["3 puntos", "4 puntos"]
+    explanation: Usar el móvil sujetándolo con la mano quita {fact:puntos.movil-mano}.
+    source: {law: LSV, block: anii, ref: anexo II.8 LSV}
+  - id: FH-102-07
+    question: ¿Cuántos puntos se pierden por conducir con presencia de drogas en el organismo?
+    correct: "{fact:puntos.drogas}"
+    wrong: ["4 puntos", "2 puntos"]
+    explanation: Conducir con presencia de drogas en el organismo quita {fact:puntos.drogas}.
+    source: {law: LSV, block: anii, ref: anexo II.2 LSV}
+  - id: FH-102-08
+    question: Un agente te para por una infracción. ¿Te puede hacer también la prueba de alcohol?
+    correct: Sí
+    wrong: ["No, solo si hay un accidente", "Solo si nota olor a alcohol"]
+    explanation: Los agentes pueden hacer la prueba a quien sea denunciado por cualquier infracción del reglamento.
+    source: {law: RGC, block: a21, ref: art. 21.c) RGC, quote: ["A los conductores que sean denunciados por la comisión de alguna de las infracciones"]}
+  - id: FH-102-09
+    question: En un control preventivo, sin infracción ni síntomas, ¿te pueden hacer la prueba de alcohol?
+    correct: Sí
+    wrong: ["No, necesitan un motivo", "Solo de noche"]
+    explanation: Los controles preventivos de alcoholemia ordenados por la autoridad pueden hacerse a cualquier conductor.
+    source: {law: RGC, block: a21, ref: art. 21.d) RGC, quote: ["programas de controles preventivos de alcoholemia"]}
+  - id: FH-102-10
+    question: ¿Cuántos puntos quita negarse a hacer la prueba de alcohol o drogas?
+    correct: "{fact:puntos.negarse-pruebas}"
+    wrong: ["4 puntos", "3 puntos"]
+    explanation: Negarse a las pruebas de alcohol o drogas quita {fact:puntos.negarse-pruebas}, lo mismo que dar la tasa más alta.
+    source: {law: LSV, block: anii, ref: anexo II.3 LSV}

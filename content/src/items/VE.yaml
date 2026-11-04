@@ -1,0 +1,140 @@
+# Recta de la Velocidad. Our own wording; numbers come from facts/ via {fact:id}.
+items:
+  # VE-101 Límites fuera de poblado (01-06 come from templates/velocidad.yaml)
+  - id: VE-101-07
+    question: En una carretera convencional con los dos sentidos separados físicamente, ¿qué límite puede fijar el titular de la vía para turismos y motos?
+    correct: "{fact:vmax.convencional.separacion}"
+    wrong: ["110 km/h", "120 km/h"]
+    explanation: Con separación física entre sentidos, el titular puede subir el límite de turismos y motos hasta {fact:vmax.convencional.separacion}.
+    source: {law: RGC, block: a48, ref: art. 48.1.a).1.º RGC}
+  - id: VE-101-08
+    question: Un autobús lleva pasajeros de pie, porque está autorizado. ¿A qué velocidad máxima puede ir por una autovía?
+    correct: "{fact:vmax.autobus.de-pie}"
+    wrong: ["90 km/h", "100 km/h"]
+    explanation: Con pasajeros de pie, o sin cinturones, un autobús no pasa de {fact:vmax.autobus.de-pie} en ninguna vía fuera de poblado.
+    source: {law: RGC, block: a48, ref: art. 48.1.b) RGC}
+  - id: VE-101-09
+    question: ¿Cómo cambia la velocidad máxima de un vehículo que hace transporte escolar?
+    correct: Se reduce en {fact:vmax.reduccion.escolar}
+    wrong: ["Se reduce en 20 km/h", "No cambia"]
+    explanation: El transporte escolar y de menores, y el de mercancías peligrosas, resta {fact:vmax.reduccion.escolar} al límite de su vehículo y vía.
+    source: {law: RGC, block: a48, ref: art. 48.1.b) RGC}
+  - id: VE-101-10
+    question: ¿Cuál es la velocidad máxima en un camino sin pavimentar?
+    correct: "{fact:vmax.sin-pavimentar}"
+    wrong: ["40 km/h", "50 km/h"]
+    explanation: En vías sin pavimentar el máximo es {fact:vmax.sin-pavimentar}, para cualquier vehículo.
+    source: {law: RGC, block: a48, ref: art. 48.1.f) RGC}
+  - id: VE-101-11
+    question: ¿A qué velocidad máxima puede circular un ciclomotor de dos ruedas fuera de poblado?
+    correct: "{fact:vmax.ciclomotor}"
+    wrong: ["40 km/h", "50 km/h"]
+    explanation: Ciclos, ciclomotores y cuadriciclos ligeros tienen un máximo de {fact:vmax.ciclomotor} fuera de poblado.
+    source: {law: RGC, block: a48, ref: art. 48.1.e) RGC}
+  - id: VE-101-12
+    question: Vas a adelantar a un camión en una carretera convencional. ¿Puedes superar el límite de velocidad mientras adelantas?
+    correct: No, el límite se respeta también durante el adelantamiento
+    wrong: ["Sí, hasta 20 km/h más", "Sí, si el vehículo adelantado va por debajo del límite"]
+    explanation: Las velocidades máximas no deben rebasarse. El margen de 20 km/h para adelantar se suprimió en 2022.
+    source: {law: RGC, block: a48, ref: art. 48.1 RGC, note: El art. 51 RGC, que permitía 20 km/h más al adelantar, está derogado desde el 21 de marzo de 2022.}
+  - id: VE-101-13
+    question: Conduces un turismo que arrastra un remolque. ¿Cuál es tu velocidad máxima en autopista?
+    correct: "{fact:vmax.camion.autopista}"
+    wrong: ["100 km/h", "120 km/h"]
+    explanation: Un automóvil con remolque va en la misma columna que camiones y furgonetas, {fact:vmax.camion.autopista} en autopista.
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC}
+
+  # VE-102 Ciudad y travesías (01-05 come from templates/velocidad.yaml)
+  - id: VE-102-06
+    question: Una calle tiene dos carriles en tu sentido, pero uno es exclusivo para el autobús. ¿Cuál es el límite genérico?
+    correct: "{fact:vmax.urbana.un-carril}"
+    wrong: ["50 km/h", "40 km/h"]
+    explanation: Los carriles reservados o de transporte público no se cuentan, así que es una calle de un carril por sentido.
+    source: {law: RGC, block: a50, ref: art. 50.1 RGC}
+  - id: VE-102-07
+    question: ¿Puede el ayuntamiento aumentar el límite de una calle con un único carril por sentido?
+    correct: Sí, hasta {fact:vmax.urbana.ampliable}, con señalización específica
+    wrong: ["No, nunca puede superar 30 km/h", "Sí, hasta 60 km/h, sin necesidad de señalizarlo"]
+    explanation: Excepcionalmente, la autoridad municipal puede subirlo hasta {fact:vmax.urbana.ampliable}, siempre con señales.
+    source: {law: RGC, block: a50, ref: art. 50.3 RGC}
+  - id: VE-102-08
+    question: ¿A qué velocidad máxima circula por una travesía un vehículo que transporta mercancías peligrosas?
+    correct: "{fact:vmax.urbana.mercancias-peligrosas}"
+    wrong: ["50 km/h", "30 km/h"]
+    explanation: En travesías y en calles de dos o más carriles por sentido, las mercancías peligrosas van como máximo a {fact:vmax.urbana.mercancias-peligrosas}.
+    source: {law: RGC, block: a50, ref: art. 50.4 RGC}
+  - id: VE-102-09
+    question: ¿Quién puede rebajar los límites genéricos de velocidad de las calles de una ciudad?
+    correct: La autoridad municipal, con señalización específica
+    wrong: ["Solo la Dirección General de Tráfico", "Cada conductor, según el tráfico que haya"]
+    explanation: Los límites urbanos genéricos los puede rebajar el ayuntamiento, siempre que lo señalice.
+    source: {law: RGC, block: a50, ref: art. 50.2 RGC}
+
+  # VE-103 Velocidad adecuada y distancia
+  - id: VE-103-01
+    question: Además de respetar el límite, ¿cómo debes ajustar tu velocidad?
+    correct: De forma que siempre puedas detenerte dentro de tu campo de visión
+    wrong: ["Yendo al límite máximo para no entorpecer", "Solo reduciendo si hay agentes en la vía"]
+    explanation: La velocidad se adapta a ti, la vía, el vehículo, el tiempo y el tráfico, para poder parar ante cualquier obstáculo que veas.
+    source: {law: RGC, block: a45, ref: art. 45 RGC}
+    truco: T-VE-103
+  - id: VE-103-02
+    question: Si nada lo impide, ¿cuál es la velocidad mínima de un vehículo a motor en una autovía?
+    correct: "{fact:vmin.autopista}"
+    wrong: ["50 km/h", "70 km/h"]
+    explanation: En autopistas y autovías no se puede ir por debajo de {fact:vmin.autopista} sin causa justificada.
+    source: {law: RGC, block: a49, ref: art. 49.1 RGC}
+  - id: VE-103-03
+    question: Fuera de autopistas y autovías, ¿qué velocidad mínima tienes que mantener?
+    correct: La mitad de la velocidad genérica de esa vía para tu vehículo
+    wrong: ["Un tercio de la máxima de la vía", "Ninguna, si no circulan otros vehículos"]
+    explanation: En las demás vías la mínima es la mitad de la genérica, aunque no haya más tráfico.
+    source: {law: RGC, block: a49, ref: art. 49.1 RGC, quote: ["a una velocidad inferior a la mitad de la genérica", "aunque no circulen otros vehículos"]}
+  - id: VE-103-04
+    question: Tu vehículo no puede alcanzar la velocidad mínima y hay peligro de que te alcancen. ¿Qué debes hacer?
+    correct: Circular con las luces de emergencia encendidas
+    wrong: ["Circular por el arcén con las luces de cruce", "Avisar con el claxon a quien te siga"]
+    explanation: Si no llegas a la mínima y hay riesgo de alcance, enciende la señal de emergencia mientras circulas.
+    source: {law: RGC, block: a49, ref: art. 49.3 RGC}
+  - id: VE-103-05
+    question: Te acercas a una intersección señalizada y la visibilidad es prácticamente nula. ¿A qué velocidad máxima puedes ir?
+    correct: "{fact:vmax.visibilidad-nula}"
+    wrong: ["40 km/h", "60 km/h"]
+    explanation: En ese caso la velocidad no debe superar {fact:vmax.visibilidad-nula}, y antes que eso, modera.
+    source: {law: RGC, block: a46, ref: art. 46.1.h) RGC}
+  - id: VE-103-06
+    question: Te acercas a un autobús escolar que está parado. ¿Qué haces?
+    correct: Moderar la velocidad y, si hace falta, detenerte
+    wrong: ["Mantener la velocidad, porque tienes prioridad", "Adelantarlo rápido para no esperar"]
+    explanation: Junto a un autobús parado, sobre todo si es escolar, se modera la velocidad y se para si es preciso.
+    source: {law: RGC, block: a46, ref: art. 46.1.e) RGC}
+  - id: VE-103-07
+    question: ¿Qué distancia debes dejar con el vehículo que llevas delante?
+    correct: La que te permita detenerte sin chocar si frena de golpe
+    wrong: ["Siempre 50 metros", "Un coche de largo por cada 10 km/h"]
+    explanation: Depende de la velocidad, la adherencia y los frenos. La medida es poder parar sin chocar si frena bruscamente.
+    source: {law: RGC, block: a54, ref: art. 54.1 RGC}
+  - id: VE-103-08
+    question: Fuera de poblado, un camión de más de 3.500 kg va detrás de otro y no quiere adelantarlo. ¿Qué separación mínima debe dejar?
+    correct: "{fact:distancia.pesados}"
+    wrong: ["25 m", "100 m"]
+    explanation: Los de más de 3.500 kg o 10 m dejan {fact:distancia.pesados} para que quien les siga pueda adelantarlos.
+    source: {law: RGC, block: a54, ref: art. 54.2 RGC}
+  - id: VE-103-09
+    question: ¿En cuál de estos casos no se exige a un camión la separación de {fact:distancia.pesados} con el vehículo de delante?
+    correct: En poblado
+    wrong: ["En una carretera convencional de un carril por sentido", "Por la noche"]
+    explanation: No se exige en poblado, donde está prohibido adelantar, con más de un carril en su sentido o con el tráfico saturado.
+    source: {law: RGC, block: a54, ref: art. 54.3 RGC}
+  - id: VE-103-10
+    question: ¿Quién puede circular en grupo sin guardar la distancia de seguridad entre sí?
+    correct: Los ciclistas, extremando la atención
+    wrong: ["Los turismos que viajan en caravana", "Las motocicletas de una misma ruta"]
+    explanation: Solo a los ciclistas en grupo se les permite ir sin esa separación, con atención extra para no alcanzarse.
+    source: {law: RGC, block: a54, ref: art. 54.1 RGC}
+  - id: VE-103-11
+    question: Una señal fija un límite distinto del genérico de la vía. ¿Cuál cumples?
+    correct: El de la señal
+    wrong: ["El genérico de la vía", "El más alto de los dos"]
+    explanation: Las velocidades que fijan las señales prevalecen sobre las máximas genéricas.
+    source: {law: RGC, block: a52, ref: art. 52.1.a) RGC}

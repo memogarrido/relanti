@@ -1,0 +1,113 @@
+facts:
+  - id: puntos.inicial
+    value: 12
+    unit: puntos
+    label: Crédito inicial de puntos
+    source: {law: LSV, block: a63, ref: art. 63.1 LSV, quote: ["se le asignará un crédito inicial de doce puntos"]}
+  - id: puntos.novel
+    value: 8
+    unit: puntos
+    label: Crédito inicial de un permiso con tres años o menos de antigüedad
+    source: {law: LSV, block: a63, ref: art. 63.2 LSV, quote: ["se asignará un crédito inicial de ocho puntos"]}
+  - id: puntos.novel.anos
+    value: 3
+    unit: años
+    label: Antigüedad del permiso hasta la que se empieza con 8 puntos
+    source: {law: LSV, block: a63, ref: art. 63.2.a) LSV, quote: ["con una antigüedad no superior a tres años"]}
+  - id: puntos.maximo
+    value: 15
+    unit: puntos
+    label: Máximo de puntos acumulables con bonificaciones
+    source: {law: LSV, block: a63, ref: art. 63.4 LSV, quote: ["hasta un máximo de quince puntos en lugar de los doce iniciales"]}
+  - id: puntos.max-dia
+    value: 8
+    unit: puntos
+    label: Máximo de puntos que se pierden en un solo día (salvo ciertas muy graves)
+    source: {law: LSV, block: a64, ref: art. 64.4 LSV, quote: ["no perderán más de ocho puntos por acumulación de infracciones en un solo día"]}
+  - id: puntos.recuperar.anos
+    value: 2
+    unit: años
+    label: Años sin sanción para recuperar los 12 puntos
+    source: {law: LSV, block: a65, ref: art. 65.1 LSV, quote: ["Transcurridos dos años sin haber sido sancionados en firme"]}
+  - id: puntos.curso.recupera
+    value: 6
+    unit: puntos
+    label: Puntos que devuelve un curso de sensibilización y reeducación vial
+    source: {law: LSV, block: a65, ref: art. 65.4 LSV, quote: ["hasta un máximo de seis puntos, por una sola vez cada dos años"]}
+  - id: puntos.movil-mano
+    group: baremo
+    value: 6
+    unit: puntos
+    label: Usar el móvil sujetándolo con la mano
+    source: {law: LSV, block: anii, ref: anexo II.8 LSV, quote: ["Utilizar, sujetando con la mano, dispositivos de telefonía móvil mientras se conduce. | 6"]}
+  - id: puntos.drogas
+    group: baremo
+    value: 6
+    unit: puntos
+    label: Conducir con presencia de drogas en el organismo
+    source: {law: LSV, block: anii, ref: anexo II.2 LSV, quote: ["Conducir con presencia de drogas en el organismo. | 6"]}
+  - id: puntos.negarse-pruebas
+    group: baremo
+    value: 6
+    unit: puntos
+    label: Negarse a las pruebas de alcohol o drogas
+    source: {law: LSV, block: anii, ref: anexo II.3 LSV, quote: ["presencia de drogas en el organismo. | 6"]}
+  - id: puntos.ciclista
+    group: baremo
+    value: 6
+    unit: puntos
+    label: Adelantar a ciclistas poniéndolos en peligro o sin dejar 1,5 m
+    source: {law: LSV, block: anii, ref: anexo II.12 LSV, quote: ["sin dejar la separación mínima de 1,5 metros. | 6"]}
+  - id: puntos.alcohol.alto
+    group: baremo
+    value: 6
+    unit: puntos
+    label: Alcohol en aire de más de 0,50 mg/l (general)
+    source: {law: LSV, block: anii, ref: anexo II.1 LSV, quote: ["más de 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,30 mg/l). | 6"]}
+  - id: puntos.alcohol.medio
+    group: baremo
+    value: 4
+    unit: puntos
+    label: Alcohol en aire de más de 0,25 hasta 0,50 mg/l (general)
+    source: {law: LSV, block: anii, ref: anexo II.1 LSV, quote: ["superior a 0,25 hasta 0,50 (profesionales y titulares de permisos de conducción con menos de dos años de antigüedad más de 0,15 hasta 0,30 mg/l). | 4"]}
+  - id: puntos.cinturon
+    group: baremo
+    value: 4
+    unit: puntos
+    label: No usar cinturón, sistema de retención infantil o casco
+    source: {law: LSV, block: anii, ref: anexo II.15 LSV, quote: ["casco y demás elementos de protección obligatorios. | 4"]}
+  - id: puntos.distancia
+    group: baremo
+    value: 4
+    unit: puntos
+    label: No mantener la distancia de seguridad
+    source: {law: LSV, block: anii, ref: anexo II.14 LSV, quote: ["No mantener la distancia de seguridad con el vehículo que le precede. | 4"]}
+  - id: puntos.stop-rojo
+    group: baremo
+    value: 4
+    unit: puntos
+    label: Saltarse un stop, un ceda el paso o un semáforo en rojo
+    source: {law: LSV, block: anii, ref: anexo II.10 LSV, quote: ["ceda el paso y en los semáforos con luz roja encendida. | 4"]}
+  - id: puntos.cambio-sentido
+    group: baremo
+    value: 3
+    unit: puntos
+    label: Cambio de sentido indebido
+    source: {law: LSV, block: anii, ref: anexo II.19 LSV, quote: ["Efectuar el cambio de sentido incumpliendo las disposiciones recogidas en esta Ley y en los términos establecidos reglamentariamente. | 3"]}
+  - id: puntos.auriculares
+    group: baremo
+    value: 3
+    unit: puntos
+    label: Conducir con auriculares o manipulando el navegador
+    source: {law: LSV, block: anii, ref: anexo II.20 LSV, quote: ["Conducir utilizando cualquier tipo de casco de audio o auricular", "en condiciones distintas a las previstas en el ordinal 8. | 3"]}
+  - id: puntos.detector-radar
+    group: baremo
+    value: 3
+    unit: puntos
+    label: Llevar detector de radares
+    source: {law: LSV, block: anii, ref: anexo II.21 LSV, quote: ["Conducir vehículos que lleven mecanismos de detección de radares o cinemómetros. | 3"]}
+  - id: puntos.curso.seguro
+    value: 2
+    unit: puntos
+    label: Puntos que suma un curso de conducción segura y eficiente
+    source: {law: LSV, block: a63, ref: art. 63.5 LSV, quote: ["compensará con dos puntos adicionales hasta un máximo de quince puntos"]}

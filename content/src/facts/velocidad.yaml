@@ -1,0 +1,124 @@
+# Numeric values table: speeds. Every number used in a question lives here.
+# quote: lines must appear word for word in the cited BOE article (checked on build).
+facts:
+  # RGC art. 48, fuera de poblado (table in 48.1.a), as amended in force 1 Oct 2026)
+  - id: vmax.turismo.autopista
+    group: vmax-fuera
+    value: 120
+    unit: km/h
+    label: Turismos y motocicletas, autopista y autovía
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Autopista y autovía | 120 | 90 | 100"]}
+  - id: vmax.turismo.convencional
+    group: vmax-fuera
+    value: 90
+    unit: km/h
+    label: Turismos y motocicletas, carretera convencional
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Convencional | 90 | 80 | 90"]}
+  - id: vmax.camion.autopista
+    group: vmax-fuera
+    value: 90
+    unit: km/h
+    label: Camiones, furgonetas y automóviles con remolque, autopista y autovía
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Autopista y autovía | 120 | 90 | 100"]}
+  - id: vmax.camion.convencional
+    group: vmax-fuera
+    value: 80
+    unit: km/h
+    label: Camiones, furgonetas y automóviles con remolque, carretera convencional
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Convencional | 90 | 80 | 90"]}
+  - id: vmax.autobus.autopista
+    group: vmax-fuera
+    value: 100
+    unit: km/h
+    label: Autobuses y derivados de turismo, autopista y autovía
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Autopista y autovía | 120 | 90 | 100"]}
+  - id: vmax.autobus.convencional
+    group: vmax-fuera
+    value: 90
+    unit: km/h
+    label: Autobuses y derivados de turismo, carretera convencional
+    source: {law: RGC, block: a48, ref: art. 48.1.a) RGC, quote: ["Convencional | 90 | 80 | 90"]}
+  - id: vmax.convencional.separacion
+    value: 100
+    unit: km/h
+    label: Límite que puede fijar el titular en convencional con separación física de sentidos (turismos, motos)
+    source: {law: RGC, block: a48, ref: art. 48.1.a).1.º RGC, quote: ["podrá fijar un límite máximo de 100 km/h para turismos"]}
+  - id: vmax.reduccion.escolar
+    value: 10
+    unit: km/h
+    label: Reducción para transporte escolar y de menores o mercancías peligrosas
+    source: {law: RGC, block: a48, ref: art. 48.1.b) RGC, quote: ["se reducirá en 10 kilómetros por hora"]}
+  - id: vmax.autobus.de-pie
+    value: 80
+    unit: km/h
+    label: Autobús con pasajeros de pie o sin cinturones, cualquier vía fuera de poblado
+    source: {law: RGC, block: a48, ref: art. 48.1.b) RGC, quote: ["será de 80 kilómetros por hora"]}
+  - id: vmax.ciclomotor
+    value: 45
+    unit: km/h
+    label: Ciclos, ciclomotores y cuadriciclos ligeros
+    source: {law: RGC, block: a48, ref: art. 48.1.e) RGC, quote: ["cuadriciclos ligeros: 45 kilómetros por hora"]}
+  - id: vmax.sin-pavimentar
+    value: 30
+    unit: km/h
+    label: Vías sin pavimentar
+    source: {law: RGC, block: a48, ref: art. 48.1.f) RGC, quote: ["En las vías sin pavimentar el límite de velocidad máximo será de 30 km/h."]}
+
+  # RGC art. 50, vías urbanas y travesías
+  - id: vmax.urbana.plataforma-unica
+    group: vmax-urbana
+    value: 20
+    unit: km/h
+    label: Vía urbana con plataforma única de calzada y acera
+    source: {law: RGC, block: a50, ref: art. 50.1.a) RGC, quote: ["20 km/h en vías que dispongan de plataforma única de calzada y acera."]}
+  - id: vmax.urbana.un-carril
+    group: vmax-urbana
+    value: 30
+    unit: km/h
+    label: Vía urbana de un único carril por sentido
+    source: {law: RGC, block: a50, ref: art. 50.1.b) RGC, quote: ["30 km/h en vías de un único carril por sentido de circulación."]}
+  - id: vmax.urbana.dos-carriles
+    group: vmax-urbana
+    value: 50
+    unit: km/h
+    label: Vía urbana de dos o más carriles por sentido
+    source: {law: RGC, block: a50, ref: art. 50.1.c) RGC, quote: ["50 km/h en vías de dos o más carriles por sentido de circulación."]}
+  - id: vmax.travesia
+    group: vmax-urbana
+    value: 50
+    unit: km/h
+    label: Travesías, todo tipo de vehículos
+    source: {law: RGC, block: a50, ref: art. 50.5 RGC, quote: ["El límite genérico de velocidad en travesías es de 50 km/h para todo tipo de vehículos."]}
+  - id: vmax.urbana.autopista
+    group: vmax-urbana
+    value: 80
+    unit: km/h
+    label: Autopistas y autovías dentro de poblado
+    source: {law: RGC, block: a50, ref: art. 50.6 RGC, quote: ["que transcurren dentro de poblado será de 80 km/h"]}
+  - id: vmax.urbana.mercancias-peligrosas
+    value: 40
+    unit: km/h
+    label: Mercancías peligrosas en vías urbanas de dos o más carriles y travesías
+    source: {law: RGC, block: a50, ref: art. 50.4 RGC, quote: ["los vehículos que transporten mercancías peligrosas circularán como máximo a 40 km/h"]}
+  - id: vmax.urbana.ampliable
+    value: 50
+    unit: km/h
+    label: Máximo al que el ayuntamiento puede subir una vía de un carril por sentido
+    source: {law: RGC, block: a50, ref: art. 50.3 RGC, quote: ["hasta una velocidad máxima de 50 km/h, previa señalización específica"]}
+
+  # Mínimas, moderación y distancia
+  - id: vmin.autopista
+    value: 60
+    unit: km/h
+    label: Velocidad mínima en autopistas y autovías
+    source: {law: RGC, block: a49, ref: art. 49.1 RGC, quote: ["a una velocidad inferior a 60 kilómetros por hora"]}
+  - id: vmax.visibilidad-nula
+    value: 50
+    unit: km/h
+    label: Máximo al acercarse a intersecciones señalizadas con visibilidad prácticamente nula
+    source: {law: RGC, block: a46, ref: art. 46.1.h) RGC, quote: ["la velocidad de los vehículos no deberá exceder de 50 kilómetros por hora"]}
+  - id: distancia.pesados
+    value: 50
+    unit: m
+    label: Separación mínima fuera de poblado de vehículos de más de 3.500 kg o 10 m, para dejar adelantar
+    source: {law: RGC, block: a54, ref: art. 54.2 RGC, quote: ["deberán guardar, a estos efectos, una separación mínima de 50 metros"]}

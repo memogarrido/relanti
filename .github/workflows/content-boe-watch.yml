@@ -1,0 +1,46 @@
+name: Content · weekly BOE change check
+
+# Every Monday, compare the live consolidated text of each BOE article our
+# content cites with the version we last reviewed. If any changed (or an
+# amendment has been published that enters into force later), open or update
+# one issue with the old and new text and the affected item ids. A person
+# (or Claude) then updates the content in a PR and runs `pipeline accept`.
+# Schedules only run from the default branch.
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r content/requirements.txt
+      - name: Compare live BOE with reviewed texts
+        id: watch
+        working-directory: content
+        run: |
+          python -m pipeline watch --report ../boe-report.md 2> ../watch.log
+          cat ../watch.log
+          grep -q "changed=0 upcoming=0" ../watch.log && echo "found=false" >> "$GITHUB_OUTPUT" || echo "found=true" >> "$GITHUB_OUTPUT"
+      - name: Open or update the issue
+        if: steps.watch.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create boe-change --color FBCA04 --description "A cited BOE article changed" 2>/dev/null || true
+          title="BOE change check: cited articles changed"
+          num=$(gh issue list --label boe-change --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file boe-report.md
+          else
+            gh issue create --title "$title" --label boe-change --body-file boe-report.md
+          fi

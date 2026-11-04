@@ -1,0 +1,6 @@
+facts:
+  - id: sri.estatura
+    value: 135
+    unit: cm
+    label: Estatura hasta la que los menores usan sistema de retención infantil
+    source: {law: RGC, block: a117, ref: art. 117.1 RGC, quote: ["los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil"]}
