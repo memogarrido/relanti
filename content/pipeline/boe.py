@@ -75,23 +75,26 @@ def _text_of(el: ET.Element) -> list[str]:
 
 
 def law_metadata(law: str) -> dict:
-    raw = json.loads(_get(f"{API}/id/{law}/metadatos", "application/json"))
-    data = raw.get("data", raw)
-    if isinstance(data, list):
-        data = data[0]
-    return data
+    root = ET.fromstring(_get(f"{API}/id/{law}/metadatos", "application/xml"))
+    pick = lambda tag: (root.findtext(f".//{tag}") or "").strip()
+    return {"titulo": pick("titulo"), "fecha_actualizacion": pick("fecha_actualizacion")}
 
 
 def law_index(law: str) -> list[dict]:
-    raw = json.loads(_get(f"{API}/id/{law}/texto/indice", "application/json"))
-    data = raw.get("data", raw)
-    blocks = data.get("bloque", data) if isinstance(data, dict) else data
-    if isinstance(blocks, dict):
-        blocks = [blocks]
-    return [
-        {"id": b["id"], "titulo": b.get("titulo", ""), "fecha_actualizacion": str(b.get("fecha_actualizacion", ""))}
-        for b in blocks
-    ]
+    root = ET.fromstring(_get(f"{API}/id/{law}/texto/indice", "application/xml"))
+    out = []
+    for b in root.iter("bloque"):
+        bid = (b.findtext("id") or b.get("id") or "").strip()
+        if not bid:
+            continue
+        out.append({
+            "id": bid,
+            "titulo": (b.findtext("titulo") or "").strip(),
+            "fecha_actualizacion": (b.findtext("fecha_actualizacion") or "").strip(),
+        })
+    if not out:
+        raise RuntimeError(f"{law}: empty block index")
+    return out
 
 
 def block(law: str, block_id: str) -> dict:
