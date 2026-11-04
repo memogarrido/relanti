@@ -1,0 +1,709 @@
+<title>Relanti design proposal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: a long road. Sections are "tramos" down one column, hero is a motorway gantry sign, screens sit in a wrapping row of phones. */
+:root{
+  --bg:#EEF1F5;          /* cool concrete */
+  --surface:#FFFFFF;
+  --ink:#1F232A;         /* asphalt */
+  --ink2:#535A66;
+  --ink3:#8A919C;
+  --line:#D5DAE2;
+  --blue:#1A56B0;        /* autopista blue: primary */
+  --blue-ink:#14438A;
+  --blue-soft:#E2EBF8;
+  --yellow:#F2B705;      /* road line yellow: rewards */
+  --yellow-ink:#7A5600;
+  --sunset:#EA5B2A;      /* road trip warmth: streak, review */
+  --sunset-soft:#FCE6DC;
+  --go:#1E8E52;          /* correct */
+  --go-soft:#DDF2E6;
+  --stop:#C8233A;        /* wrong */
+  --stop-soft:#F8DEE2;
+  --tarmac:#2B2F36;      /* road surface in drawings */
+  --paint:#FFFFFF;       /* road paint, sign white */
+  --led:#FFB020;         /* variable message panel */
+  --led-bg:#16181C;
+  --fur:#D9964A; --fur2:#A8682B; --cream:#F6E2C3;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;
+  --blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;--yellow:#F5C02E;--yellow-ink:#F5C02E;
+  --sunset:#F27447;--sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;
+  --tarmac:#3A3F48;--led-bg:#0B0C0E;--cream:#EBD3AE;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111419;--surface:#1A1E25;--ink:#E9ECF1;--ink2:#AEB5C0;--ink3:#7B8390;--line:#2C323C;
+  --blue:#4F8DF0;--blue-ink:#8DB6F7;--blue-soft:#18273F;--yellow:#F5C02E;--yellow-ink:#F5C02E;
+  --sunset:#F27447;--sunset-soft:#3A2219;--go:#3DBB78;--go-soft:#15301F;--stop:#F0566B;--stop-soft:#3A1A20;
+  --tarmac:#3A3F48;--led-bg:#0B0C0E;--cream:#EBD3AE;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:1080px;margin:0 auto}
+.prose{max-width:68ch}
+h1,h2,h3{font-family:var(--display);line-height:1.05;text-wrap:balance;margin:0}
+h2{font-size:clamp(30px,4.4vw,44px);font-weight:800;letter-spacing:.005em}
+h3{font-size:22px;font-weight:700}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+code{font-size:.88em;background:var(--blue-soft);color:var(--blue-ink);padding:1px 5px;border-radius:4px}
+a{color:var(--blue-ink)}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+
+/* Hero: gantry sign */
+.hero{padding-block:40px 24px}
+.gantry{position:relative;background:var(--blue);color:#fff;border-radius:10px;padding:28px clamp(18px,4vw,44px) 30px;
+  box-shadow:inset 0 0 0 4px #fff,inset 0 0 0 7px var(--blue);overflow:hidden}
+.gantry .row{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.gantry h1{font-size:clamp(56px,11vw,120px);font-weight:800;letter-spacing:-.01em;color:#fff}
+.gantry .km{font-family:var(--display);font-weight:700;font-size:clamp(28px,5vw,52px);color:#fff;font-variant-numeric:tabular-nums;white-space:nowrap}
+.gantry .sub{font-family:var(--display);font-weight:600;font-size:clamp(18px,2.6vw,26px);color:#fff;opacity:.92;margin-top:6px}
+.gantry .route{display:inline-flex;align-items:center;gap:8px;margin-bottom:14px;font-family:var(--display);font-weight:700;font-size:18px}
+.shield{background:#fff;color:var(--blue-ink);border-radius:5px;padding:1px 9px;font-weight:800}
+.posts{display:flex;justify-content:space-between;padding:0 12%}
+.posts i{display:block;width:14px;height:34px;background:var(--ink3);opacity:.6}
+.lede{margin-top:28px;font-size:20px;color:var(--ink);max-width:62ch}
+.lede strong{font-weight:700}
+
+/* Road divider between sections */
+.road{height:22px;margin:56px 0 40px;background:var(--tarmac);border-radius:3px;position:relative;overflow:hidden}
+.road::after{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;
+  background:repeating-linear-gradient(90deg,var(--paint) 0 34px,transparent 34px 60px)}
+section{display:grid;gap:22px}
+.sec-head{display:grid;gap:8px}
+.pk{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.08em;color:var(--ink2)}
+.pk b{display:inline-block;background:var(--paint);color:#1F232A;border:2px solid var(--ink);border-radius:3px;padding:0 7px;font-size:14px}
+
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:10px;align-content:start;min-width:0}
+.card p{color:var(--ink2)}
+.card h3{color:var(--ink)}
+.tag{display:inline-block;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue-ink);justify-self:start}
+.tag.rec{background:var(--go-soft);color:var(--go)}
+
+/* Glossary table */
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:16px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.r{font-weight:700;color:var(--blue-ink)}
+td.v{color:var(--ink3)}
+
+/* Turbo */
+.turbo-grid{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:28px;align-items:center}
+@media (max-width:700px){.turbo-grid{grid-template-columns:1fr}}
+.turbo-portrait{background:var(--sunset-soft);border-radius:16px;padding:18px;display:grid;place-items:center}
+.turbo-portrait svg{width:100%;max-width:220px;height:auto}
+.poses{display:flex;gap:12px;flex-wrap:wrap}
+.pose{display:grid;gap:4px;justify-items:center;font-size:14px;color:var(--ink2);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:104px}
+.pose svg{width:64px;height:64px}
+.rules{display:grid;gap:8px;padding-left:20px;margin:0;color:var(--ink2)}
+.rules li::marker{color:var(--sunset)}
+
+/* Identity */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.sw{border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.sw .chip{height:64px}
+.sw div:last-child{padding:8px 10px;font-size:14px;line-height:1.35}
+.sw b{display:block;font-size:15px;color:var(--ink)}
+.sw span{color:var(--ink2)}
+.typespec{display:grid;gap:14px}
+.typespec .d{font-family:var(--display);font-weight:800;font-size:48px;line-height:1}
+.typespec .b{font-size:18px;color:var(--ink2)}
+.logo-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo-row svg{width:120px;height:auto}
+
+/* Phones */
+.phones{display:grid;grid-template-columns:repeat(auto-fill,minmax(264px,1fr));gap:28px 22px;justify-items:center}
+.ph{display:grid;gap:10px;justify-items:center;width:100%;max-width:290px}
+.ph figcaption{font-size:15px;color:var(--ink2);text-align:center;max-width:270px}
+.ph figcaption b{color:var(--ink);font-family:var(--display);font-size:18px;display:block}
+figure{margin:0}
+.phone{width:100%;max-width:272px;height:560px;border-radius:38px;background:var(--ink);padding:9px;box-shadow:0 18px 40px -22px rgba(0,0,0,.45)}
+.scr{position:relative;height:100%;border-radius:30px;background:var(--bg);overflow:hidden;display:flex;flex-direction:column;font-size:13px;line-height:1.35}
+.status{height:30px;flex:none;display:flex;justify-content:space-between;align-items:center;padding:0 22px;font-size:11px;font-weight:600;color:var(--ink)}
+.notch{position:absolute;top:8px;left:50%;width:80px;height:22px;margin-left:-40px;background:var(--ink);border-radius:12px}
+.body{flex:1;padding:6px 12px 0;display:flex;flex-direction:column;gap:9px;min-height:0}
+.tabs{flex:none;display:flex;justify-content:space-around;padding:8px 6px 14px;border-top:1px solid var(--line);background:var(--surface);font-size:10px;color:var(--ink3);font-weight:600}
+.tabs span{display:grid;justify-items:center;gap:2px}
+.tabs span.on{color:var(--blue)}
+.tabs i{display:block;width:18px;height:18px;border-radius:5px;border:2px solid currentColor}
+.tabs span.on i{background:currentColor}
+.hdr{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.hdr h4{margin:0;font-family:var(--display);font-size:24px;font-weight:800}
+.pills{display:flex;gap:5px}
+.pill{font-family:var(--display);font-weight:700;font-size:13px;padding:2px 8px;border-radius:999px;background:var(--surface);border:1px solid var(--line);white-space:nowrap}
+.pill.s{color:var(--sunset)}
+.pill.k{color:var(--blue-ink)}
+.mini{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:9px 10px;display:grid;gap:4px}
+.mini .lbl{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.btn{display:block;text-align:center;background:var(--blue);color:#fff;font-weight:700;border-radius:14px;padding:11px;font-size:14px}
+.btn.go{background:var(--go)}
+.btn.ghost{background:transparent;color:var(--blue-ink);border:1.5px solid var(--line)}
+.light{display:flex;gap:4px;align-items:center}
+.light i{width:12px;height:12px;border-radius:50%;background:var(--line)}
+.light i.a{background:var(--yellow);box-shadow:0 0 0 3px color-mix(in srgb,var(--yellow) 30%,transparent)}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar b{display:block;height:100%;background:var(--blue)}
+.body>*{flex:none}
+.body>.mapbox{flex:1 1 auto}
+.mapbox{min-height:0;border-radius:14px;background:var(--surface);border:1px solid var(--line);position:relative;overflow:hidden}
+.mapbox svg{position:absolute;inset:0;width:100%;height:100%}
+.stopname{font-family:var(--display);font-weight:700;font-size:12.5px;fill:var(--ink2)}
+/* board */
+.board{background:var(--led-bg);border-radius:12px;padding:6px 0;display:grid}
+.brow{display:grid;grid-template-columns:52px 1fr auto;gap:6px;align-items:center;padding:6px 10px;border-bottom:1px solid rgba(255,255,255,.07);font-family:var(--display);font-weight:600;font-size:13px;color:#E8EAEE}
+.brow:last-child{border-bottom:0}
+.brow .c{color:var(--led);font-weight:700;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.st{font-weight:800;font-size:11px;letter-spacing:.08em;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.st.ok{color:#7BE3A6}.st.now{background:var(--led);color:#16181C}.st.ret{color:#FF9A6B}.st.flu{color:#A9C8FF}.st.esp{color:#8A919C}.st.pea{color:#8A919C;border:1px dashed #8A919C}
+.gantry-mini{background:var(--blue);color:#fff;border-radius:10px;padding:8px 10px;box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 4px var(--blue);font-family:var(--display);font-weight:700;display:flex;justify-content:space-between;font-size:15px}
+.chips{display:flex;gap:5px;flex-wrap:wrap}
+.chips span{font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--ink2)}
+.chips span.on{background:var(--blue);border-color:var(--blue);color:#fff}
+/* question */
+.trail{position:relative;height:14px;background:var(--tarmac);border-radius:7px}
+.trail::after{content:"";position:absolute;left:8px;right:8px;top:6px;height:2px;background:repeating-linear-gradient(90deg,var(--paint) 0 8px,transparent 8px 14px);opacity:.8}
+.trail .car{position:absolute;top:-5px;width:24px;height:24px;border-radius:7px;background:var(--sunset);border:2px solid var(--surface);z-index:1}
+.trail .done{position:absolute;left:0;top:0;bottom:0;background:var(--blue);border-radius:7px}
+.q{font-weight:600;font-size:15px;line-height:1.3}
+.signbox{display:grid;place-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.opt{display:grid;grid-template-columns:24px 1fr;gap:8px;align-items:center;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:10px;font-weight:500;min-height:46px}
+.opt b{display:grid;place-items:center;width:24px;height:24px;border-radius:6px;background:var(--bg);font-family:var(--display);font-size:14px}
+.opt.sel{border-color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+.opt.sel b{background:var(--blue);color:#fff}
+.opt.wrong{border-color:var(--stop);background:var(--stop-soft)}
+.opt.wrong b{background:var(--stop);color:#fff}
+.opt.right{border-color:var(--go);box-shadow:inset 0 0 0 1px var(--go)}
+.opt.right b{background:var(--go);color:#fff}
+.sheet{margin:auto -12px 0;background:var(--surface);border-top:1px solid var(--line);border-radius:20px 20px 0 0;padding:12px 14px 14px;display:grid;gap:8px}
+.sheet .t{font-family:var(--display);font-weight:800;font-size:20px;color:var(--stop)}
+.say{display:grid;grid-template-columns:40px 1fr;gap:8px;align-items:start}
+.say svg{width:40px;height:40px}
+.bubble{background:var(--sunset-soft);border-radius:4px 12px 12px 12px;padding:7px 9px;font-size:12.5px;color:var(--ink)}
+.src{justify-self:start;font-size:11px;font-weight:600;color:var(--blue-ink);background:var(--blue-soft);border-radius:4px;padding:2px 6px}
+/* results */
+.big{font-family:var(--display);font-weight:800;font-size:40px;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:7px;text-align:center;display:grid;gap:1px}
+.stat b{font-family:var(--display);font-size:20px;font-variant-numeric:tabular-nums}
+.stat span{font-size:10px;color:var(--ink3);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+/* exam */
+.dots{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}
+.dots i{aspect-ratio:1;border-radius:4px;background:var(--line);max-width:100%}
+.dots i.o{background:var(--blue)} .dots i.x{background:var(--stop)} .dots i.c{background:var(--surface);box-shadow:inset 0 0 0 2px var(--blue)}
+.timer{font-family:var(--display);font-weight:800;font-size:22px;font-variant-numeric:tabular-nums}
+/* glovebox */
+.window{position:relative;height:168px;border-radius:40px 40px 14px 14px;background:linear-gradient(180deg,var(--blue-soft),var(--surface));border:3px solid var(--ink2);overflow:hidden}
+.stk{position:absolute;display:grid;place-items:center;text-align:center;font-family:var(--display);font-weight:800;font-size:10.5px;line-height:1.05;letter-spacing:.02em;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+
+/* flow */
+.flow{display:grid;gap:0;counter-reset:f;max-width:820px}
+.step{display:grid;grid-template-columns:44px 1fr;gap:16px;padding-bottom:22px;position:relative}
+.step::before{counter-increment:f;content:counter(f);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--surface);border:3px solid var(--blue);font-family:var(--display);font-weight:800;font-size:20px;color:var(--blue-ink);z-index:1}
+.step::after{content:"";position:absolute;left:20px;top:44px;bottom:0;width:4px;background:repeating-linear-gradient(180deg,var(--ink3) 0 8px,transparent 8px 14px);opacity:.6}
+.step:last-child::after{display:none}
+.step:last-child::before{content:"L";background:var(--blue);color:#fff}
+.step h3{font-size:21px;margin-top:8px}
+.step p{color:var(--ink2);margin-top:4px}
+
+ul.plain{margin:0;padding-left:20px;display:grid;gap:6px;color:var(--ink2)}
+ul.plain b{color:var(--ink)}
+.callout{background:var(--sunset-soft);border-radius:12px;padding:16px 18px;color:var(--ink)}
+.foot{color:var(--ink3);font-size:14px;margin-top:40px}
+@media (prefers-reduced-motion:no-preference){
+  .trail .car{transition:left .4s}
+}
+</style>
+
+<!-- Reusable Turbo drawing -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="turbo">
+      <ellipse cx="24" cy="62" rx="14" ry="26" transform="rotate(18 24 62)" fill="var(--fur2)"/>
+      <ellipse cx="96" cy="62" rx="14" ry="26" transform="rotate(-18 96 62)" fill="var(--fur2)"/>
+      <circle cx="60" cy="64" r="36" fill="var(--fur)"/>
+      <path d="M38 34 Q60 22 82 34 L82 44 Q60 36 38 44Z" fill="var(--fur2)" opacity=".55"/>
+      <ellipse cx="60" cy="84" rx="20" ry="15" fill="var(--cream)"/>
+      <rect x="26" y="38" width="68" height="7" rx="3.5" fill="#3B3226"/>
+      <circle cx="46" cy="41" r="10" fill="#9CC4F2" stroke="#3B3226" stroke-width="4"/>
+      <circle cx="74" cy="41" r="10" fill="#9CC4F2" stroke="#3B3226" stroke-width="4"/>
+      <circle cx="43" cy="38" r="3" fill="#fff" opacity=".8"/><circle cx="71" cy="38" r="3" fill="#fff" opacity=".8"/>
+      <circle cx="47" cy="62" r="4.5" fill="#1F232A"/><circle cx="73" cy="62" r="4.5" fill="#1F232A"/>
+      <circle cx="48.5" cy="60.5" r="1.5" fill="#fff"/><circle cx="74.5" cy="60.5" r="1.5" fill="#fff"/>
+      <ellipse cx="60" cy="76" rx="7" ry="5" fill="#1F232A"/>
+      <path d="M52 86 Q60 93 68 86" fill="none" stroke="#1F232A" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M32 100 Q60 112 88 100 L86 106 Q60 118 34 106Z" fill="#1A56B0"/>
+      <rect x="52" y="104" width="16" height="15" rx="2" fill="#1A56B0" stroke="#fff" stroke-width="2"/>
+      <text x="60" y="116" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="800" font-size="13" fill="#fff">L</text>
+    </g>
+    <g id="curve-sign">
+      <path d="M50 6 L94 84 L6 84Z" fill="#fff" stroke="#C8233A" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M44 72 L44 52 Q44 40 56 34 L56 28 L66 38 L56 47 L56 41 Q50 44 50 52 L50 72Z" fill="#1F232A"/>
+    </g>
+  </defs>
+</svg>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="gantry" role="img" aria-label="Motorway sign reading Relanti, Examen teórico B, 30 preguntas">
+    <div class="route"><span class="shield">DGT·B</span> Examen teórico</div>
+    <div class="row">
+      <h1>Relanti</h1>
+      <div class="km">30 preg · 3 fallos</div>
+    </div>
+    <div class="sub">Tu road trip hasta el permiso, con Turbo de copiloto</div>
+  </div>
+  <div class="posts" aria-hidden="true"><i></i><i></i></div>
+  <p class="lede"><strong>Design proposal, v0.1 (4 Nov 2026).</strong> Relanti is a native iOS and Android app for passing the Spanish DGT theory exam for the B licence. It reuses Volantón's flow (one shell, levels you land twice, calm rewards, content as data) and swaps the airport for a road trip: the temario is a road, every topic is a stop on it, and the road ends at the exam centre. Turbo rides in the passenger seat as your instructor.</p>
+</header>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="idea">
+  <div class="sec-head">
+    <span class="pk"><b>PK 1</b> The idea</span>
+    <h2>A road trip with a clear destination</h2>
+  </div>
+  <div class="cols">
+    <div class="card">
+      <h3>Why a road, not a planet</h3>
+      <p>Volantón invented a planet because it had to hold any school subject. Relanti has one destination, the exam, so the metaphor can be literal: a single road with stops, kilometres and road signs. The exam material is itself about roads, so the theme teaches while it decorates. Every sign drawn in the chrome is a real sign from the catalogue.</p>
+    </div>
+    <div class="card">
+      <h3>The name carries the tone</h3>
+      <p><em>Relanti</em> echoes <em>ralentí</em>, the engine at idle. The promise is calm, steady study with no rush and no panic before the exam. Turbo is the counterweight: the friend who gets you moving when it's time. "Sin prisa, pero con Turbo."</p>
+    </div>
+    <div class="card">
+      <h3>Who it's for</h3>
+      <p>People preparing the B licence theory test: mostly 17 to 25, plus adults coming back to it. They are not kids, so there is no parent gate and the tone is direct <em>tú</em>. They want one thing: to pass. Everything is measured against the real exam (30 questions, 30 minutes, at most 3 mistakes).</p>
+    </div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="glosario">
+  <div class="sec-head">
+    <span class="pk"><b>PK 2</b> Glossary</span>
+    <h2>Rename everything for the road</h2>
+    <p class="prose" style="color:var(--ink2)">Volantón's best lesson was that the glossary is the product. Here is the same list on the road. It would live in one copy file both apps read, like <code>content/copy/es.json</code>.</p>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Generic</th><th>Relanti</th><th>Meaning</th><th>Volantón had</th></tr></thead>
+      <tbody>
+        <tr><td>Home</td><td class="r">La Ruta</td><td>the road map of your trip</td><td class="v">Aeropuerto</td></tr>
+        <tr><td>Topic (tema)</td><td class="r">Etapa</td><td>a stop on the road, e.g. Villaseñal</td><td class="v">Continente</td></tr>
+        <tr><td>Level</td><td class="r">Tramo (SE-104)</td><td>a stretch of road with a road number</td><td class="v">Vuelo (MT 204)</td></tr>
+        <tr><td>Current level</td><td class="r">En marcha</td><td>engine running</td><td class="v">Embarcando</td></tr>
+        <tr><td>Results screen</td><td class="r">Llegada</td><td>arrival at the end of the tramo</td><td class="v">Aterrizaje</td></tr>
+        <tr><td>Level mastered</td><td class="r">Pegatina</td><td>a sticker on your car's rear window</td><td class="v">Sello</td></tr>
+        <tr><td>XP</td><td class="r">Kilómetros</td><td>km driven, about 10 per active minute</td><td class="v">Millas</td></tr>
+        <tr><td>Streak</td><td class="r">Días al volante</td><td>days behind the wheel</td><td class="v">Días de ruta</td></tr>
+        <tr><td>Streak freeze</td><td class="r">Área de descanso</td><td>a rest stop that keeps the streak</td><td class="v">Escala</td></tr>
+        <tr><td>Daily goal</td><td class="r">Hoja de ruta</td><td>today's plan</td><td class="v">Plan de vuelo</td></tr>
+        <tr><td>Rank</td><td class="r">Rango</td><td>Copiloto → Leyenda de la carretera</td><td class="v">Pasajero → Leyenda del cielo</td></tr>
+        <tr><td>Badges</td><td class="r">Postales</td><td>postcards from milestones</td><td class="v">Visados</td></tr>
+        <tr><td>Spaced review</td><td class="r">Retrovisor</td><td>looking back at what you passed</td><td class="v">Vuelo de vuelta</td></tr>
+        <tr><td>Most-missed questions</td><td class="r">Puntos negros</td><td>the DGT term for accident black spots</td><td class="v">(new)</td></tr>
+        <tr><td>Placement</td><td class="r">Pasar la ITV</td><td>a quick check of what you already know</td><td class="v">Facturación</td></tr>
+        <tr><td>Mock exam</td><td class="r">Simulacro</td><td>the real format at the Centro de examen</td><td class="v">(new)</td></tr>
+        <tr><td>Exam readiness</td><td class="r">Semáforo</td><td>red, amber, green: are you ready?</td><td class="v">(new)</td></tr>
+        <tr><td>Level board</td><td class="r">Panel</td><td>a motorway variable-message panel</td><td class="v">Salidas</td></tr>
+        <tr><td>Collection</td><td class="r">Guantera</td><td>the glovebox: stickers, looks, postcards</td><td class="v">Maleta</td></tr>
+        <tr><td>Avatar</td><td class="r">Tu coche</td><td>your own car, drawn in code, grows with you</td><td class="v">Tu volantón</td></tr>
+        <tr><td>Settings</td><td class="r">Taller</td><td>the garage</td><td class="v">(inside Yo)</td></tr>
+        <tr><td>Reminder</td><td class="r">Hora de arrancar</td><td>one nudge a day at most</td><td class="v">Aviso de embarque</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Etapa (stop)</th><th>Code</th><th>DGT topics it covers</th></tr></thead>
+      <tbody>
+        <tr><td class="r">Villaseñal</td><td>SE</td><td>Vertical signs, road markings, traffic lights, agents, beacons</td></tr>
+        <tr><td class="r">Cruce de la Prioridad</td><td>PR</td><td>Right of way, intersections, roundabouts, merging</td></tr>
+        <tr><td class="r">Recta de la Velocidad</td><td>VE</td><td>Speed limits, safety distance, braking</td></tr>
+        <tr><td class="r">Paso del Adelanto</td><td>AD</td><td>Overtaking, lane changes, motorways and dual carriageways</td></tr>
+        <tr><td class="r">Plaza del Aparcamiento</td><td>PA</td><td>Stopping, parking, reversing, U-turns</td></tr>
+        <tr><td class="r">Faro Nocturno</td><td>AL</td><td>Lights, signals, visibility, bad weather</td></tr>
+        <tr><td class="r">Taller Turbo</td><td>VH</td><td>The vehicle: documents, ITV, maintenance, tyres, loads, insurance</td></tr>
+        <tr><td class="r">Mirador Alerta</td><td>FH</td><td>Alcohol, drugs, medicines, fatigue, distractions</td></tr>
+        <tr><td class="r">Área PAS</td><td>PS</td><td>Passive safety, belts and child seats, accidents, first aid (Proteger, Avisar, Socorrer)</td></tr>
+        <tr><td class="r">Oficina de Puntos</td><td>PP</td><td>Licences, points system, offences and penalties</td></tr>
+        <tr><td class="r">Valle Eco</td><td>EC</td><td>Efficient driving and the environment</td></tr>
+        <tr><td class="r">Centro de examen</td><td>EX</td><td>Simulacros in the real format, at the end of the road</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="turbo">
+  <div class="sec-head">
+    <span class="pk"><b>PK 3</b> The guide</span>
+    <h2>Turbo, your instructor in the passenger seat</h2>
+  </div>
+  <div class="turbo-grid">
+    <div class="turbo-portrait"><svg viewBox="0 0 120 124" role="img" aria-label="Turbo, a scruffy dog with driving goggles and a collar with an L tag"><use href="#turbo"/></svg></div>
+    <div style="display:grid;gap:14px;min-width:0">
+      <p class="prose">Turbo is a scruffy road-trip dog with old driving goggles pushed up on his head and an <b>L</b> tag on his collar. Every Spanish road trip has a dog with its head out of the window; Turbo is that dog, except he has read the whole Reglamento. He plays the autoescuela instructor: sits on your right, explains the rule, and is happy when you get it.</p>
+      <ul class="rules">
+        <li>Turbo tells the <b>truco</b> at the start of a tramo and again after a miss, always in one line, and always with the article it comes from (for example <em>RGC art. 57</em>).</li>
+        <li>He is never sad, never disappointed and never needs care. A miss gets his curious head tilt.</li>
+        <li>He hands over each rango's gift: keyring, driving gloves, sunglasses, paper road map, roof box, golden keys.</li>
+        <li>Like Rumbo, he is a rendered image cut into layers with a shared rig, so both apps play the same reactions.</li>
+      </ul>
+      <div class="poses" aria-label="Turbo reactions">
+        <div class="pose"><svg viewBox="0 0 120 124"><use href="#turbo"/></svg>Idle</div>
+        <div class="pose"><svg viewBox="0 0 120 124"><g transform="rotate(-12 60 64)"><use href="#turbo"/></g></svg>Curious tilt</div>
+        <div class="pose"><svg viewBox="0 0 120 124"><g transform="translate(0 -8)"><use href="#turbo"/></g></svg>Hop</div>
+        <div class="pose"><svg viewBox="0 0 120 124"><g transform="rotate(10 60 64)"><use href="#turbo"/></g></svg>Nod</div>
+      </div>
+    </div>
+  </div>
+  <div class="cols">
+    <div class="card"><span class="tag rec">Recommended</span><h3>A. Turbo the road-trip dog</h3><p>Warm, instantly readable, and the obvious companion on a road trip. Easy to animate (ears, tail, goggles). Leaves the car free to be the user's own avatar.</p></div>
+    <div class="card"><span class="tag">Option</span><h3>B. Turbo the tortoise</h3><p>A slow tortoise called Turbo plays on the name Relanti: steady wins the exam. Funny, but closer to the DreamWorks film <em>Turbo</em> (a racing snail), and slower to animate.</p></div>
+    <div class="card"><span class="tag">Option</span><h3>C. Turbo the camper van</h3><p>The van is the guide and the vehicle in one. Charming, but a vehicle with a face lands very near Pixar's <em>Cars</em>, and the user loses their own car avatar.</p></div>
+  </div>
+  <p class="callout prose"><b>Name check before we commit.</b> Volantón lost "Rumbo" to an existing class 41 trademark. Before the store listings, search OEPM and EUIPO for "Relanti" and "Turbo" in classes 9 and 41. A character name is lower risk than an app name, but the check is cheap.</p>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="identidad">
+  <div class="sec-head">
+    <span class="pk"><b>PK 4</b> Visual identity</span>
+    <h2>Motorway blue, road-line yellow, sunset orange</h2>
+    <p class="prose" style="color:var(--ink2)">The palette comes from the road itself. As in Volantón, there is one action colour, and green and red are kept only for right and wrong. Signs and the road are drawn as content, so they can be rich; the chrome around them stays quiet.</p>
+  </div>
+  <div class="swatches">
+    <div class="sw"><div class="chip" style="background:var(--blue)"></div><div><b>Azul autopista</b><span>Primary: the only action, selection and progress colour</span></div></div>
+    <div class="sw"><div class="chip" style="background:var(--yellow)"></div><div><b>Amarillo línea</b><span>Rewards: km, stickers, rango. Never text</span></div></div>
+    <div class="sw"><div class="chip" style="background:var(--sunset)"></div><div><b>Atardecer</b><span>Días al volante and Retrovisor; your car on the map</span></div></div>
+    <div class="sw"><div class="chip" style="background:var(--tarmac)"></div><div><b>Asfalto</b><span>Text, the road, the variable-message panel</span></div></div>
+    <div class="sw"><div class="chip" style="background:var(--go)"></div><div><b>Verde</b><span>Right answers and the green light only</span></div></div>
+    <div class="sw"><div class="chip" style="background:var(--stop)"></div><div><b>Rojo</b><span>Wrong answers and sign borders only</span></div></div>
+  </div>
+  <div class="cols">
+    <div class="card typespec">
+      <span class="eyebrow">Display · signage</span>
+      <div class="d">Villaseñal 12 km</div>
+      <p>A condensed grotesk in the spirit of Spanish road signs (the DGT's own face is <em>Carretera Convencional</em>). Proposal: Barlow Condensed, open licence, on both platforms. Used for titles, codes, numbers and the Panel.</p>
+    </div>
+    <div class="card typespec">
+      <span class="eyebrow">Body · questions</span>
+      <div class="b" style="font-size:20px;color:var(--ink)">¿Quién tiene preferencia en una glorieta?</div>
+      <p>Questions must read fast and unambiguously, like the exam. Body text uses the system face (SF Pro on iOS, Roboto on Android) with Dynamic Type, or Barlow if we want one face everywhere. Minimum 15 pt for question text.</p>
+    </div>
+    <div class="card">
+      <span class="eyebrow">Logo idea</span>
+      <div class="logo-row">
+        <svg viewBox="0 0 120 120" role="img" aria-label="App icon idea: a rev counter with the needle resting at idle">
+          <rect width="120" height="120" rx="28" fill="var(--blue)"/>
+          <path d="M22 80 A40 40 0 1 1 98 80" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+          <path d="M22 80 A40 40 0 0 1 30 44" fill="none" stroke="var(--yellow)" stroke-width="8" stroke-linecap="round"/>
+          <line x1="60" y1="72" x2="33" y2="58" stroke="var(--sunset)" stroke-width="7" stroke-linecap="round"/>
+          <circle cx="60" cy="72" r="8" fill="#fff"/>
+          <text x="60" y="104" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="800" font-size="18" fill="#fff">RELANTI</text>
+        </svg>
+        <p style="flex:1;min-width:160px">A rev counter with the needle resting at idle, the yellow arc marking ralentí. The final icon would probably be Turbo's face, as Rumbo became Volantón's icon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="pantallas">
+  <div class="sec-head">
+    <span class="pk"><b>PK 5</b> Key screens</span>
+    <h2>Seven screens, one app</h2>
+    <p class="prose" style="color:var(--ink2)">Tabs: <b>Ruta · Examen · Guantera · Yo</b>. Every tramo runs in the same question frame and ends in the same Llegada, like Volantón's session scaffold. Copy is in Castilian Spanish, as it would ship.</p>
+  </div>
+  <div class="phones">
+
+    <!-- 1 Ruta -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="hdr"><h4>La Ruta</h4><div class="pills"><span class="pill s">5 días</span><span class="pill k">1.240 km</span></div></div>
+          <div class="mini">
+            <div style="display:flex;justify-content:space-between;align-items:center"><span class="lbl">Semáforo de examen</span><span class="light"><i></i><i class="a"></i><i></i></span></div>
+            <div style="font-weight:600">Casi listo: 2 simulacros más sin pasar de 3 fallos</div>
+          </div>
+          <div class="mapbox">
+            <svg viewBox="0 0 280 300" preserveAspectRatio="xMidYMid meet" aria-label="Winding road with seven stops">
+              <path d="M140 285 C40 270 40 210 140 195 C240 180 240 120 140 105 C40 90 40 30 140 15" fill="none" stroke="var(--tarmac)" stroke-width="22" stroke-linecap="round"/>
+              <path d="M140 285 C40 270 40 210 140 195 C240 180 240 120 140 105 C40 90 40 30 140 15" fill="none" stroke="var(--paint)" stroke-width="2" stroke-dasharray="7 7"/>
+              <g fill="var(--go)" stroke="var(--surface)" stroke-width="3">
+                <circle cx="140" cy="285" r="9"/><circle cx="65" cy="240" r="9"/><circle cx="140" cy="195" r="9"/>
+              </g>
+              <circle cx="215" cy="150" r="12" fill="var(--sunset)" stroke="var(--surface)" stroke-width="3"/>
+              <g fill="var(--surface)" stroke="var(--ink3)" stroke-width="2.5"><circle cx="140" cy="105" r="8"/><circle cx="65" cy="60" r="8"/></g>
+              <rect x="126" y="2" width="28" height="22" rx="4" fill="var(--blue)" stroke="var(--surface)" stroke-width="2"/>
+              <text x="140" y="18" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="12" fill="#fff">EX</text>
+              <text class="stopname" x="160" y="289">Villaseñal</text>
+              <text class="stopname" x="82" y="244">Prioridad</text>
+              <text class="stopname" x="160" y="199">Velocidad</text>
+              <text class="stopname" x="196" y="154" text-anchor="end">Adelanto</text>
+              <text class="stopname" x="160" y="109">Aparcamiento</text>
+              <text class="stopname" x="80" y="64">Faro Nocturno</text>
+              <text class="stopname" x="160" y="28">Centro de examen</text>
+              <g transform="translate(222 120) scale(.26)"><use href="#turbo"/></g>
+            </svg>
+          </div>
+          <div class="mini">
+            <span class="lbl">Siguiente tramo · AD-102</span>
+            <div style="font-weight:600">Adelantar en carretera convencional</div>
+            <div class="bar"><b style="width:40%"></b></div>
+          </div>
+          <span class="btn">Arrancar</span>
+        </div>
+        <div class="tabs"><span class="on"><i></i>Ruta</span><span><i></i>Examen</span><span><i></i>Guantera</span><span><i></i>Yo</span></div>
+      </div></div>
+      <figcaption><b>1 · La Ruta (home)</b>The road map of the temario, your car at the current stop, the exam centre at the top. One main button. The traffic light answers "am I ready?"</figcaption>
+    </figure>
+
+    <!-- 2 Panel -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="gantry-mini"><span>Panel</span><span>12 etapas · 96 tramos</span></div>
+          <div class="chips"><span class="on">Todas</span><span>Señales</span><span>Prioridad</span><span>Velocidad</span></div>
+          <div class="board">
+            <div class="brow"><span class="c">SE-101</span><span>Señales de peligro</span><span class="st ok">LLEGADO ✓</span></div>
+            <div class="brow"><span class="c">SE-102</span><span>Prohibición</span><span class="st ok">LLEGADO ✓</span></div>
+            <div class="brow"><span class="c">SE-103</span><span>Obligación</span><span class="st ret">RETENCIÓN</span></div>
+            <div class="brow"><span class="c">PR-101</span><span>Cruces sin señal</span><span class="st ok">LLEGADO ✓</span></div>
+            <div class="brow"><span class="c">PR-102</span><span>Glorietas</span><span class="st flu">FLUIDO</span></div>
+            <div class="brow"><span class="c">AD-102</span><span>Adelantar</span><span class="st now">EN MARCHA</span></div>
+            <div class="brow"><span class="c">AD-103</span><span>Autovías</span><span class="st esp">ESPERA</span></div>
+            <div class="brow"><span class="c">AL-101</span><span>Alumbrado</span><span class="st esp">ESPERA</span></div>
+            <div class="brow"><span class="c">PP-104</span><span>Pérdida de puntos</span><span class="st pea">PEAJE</span></div>
+          </div>
+        </div>
+        <div class="tabs"><span class="on"><i></i>Ruta</span><span><i></i>Examen</span><span><i></i>Guantera</span><span><i></i>Yo</span></div>
+      </div></div>
+      <figcaption><b>2 · Panel (level board)</b>Volantón's departures board becomes a motorway variable-message panel, amber LED on black. RETENCIÓN means the Retrovisor wants it back; PEAJE appears only if we lock content.</figcaption>
+    </figure>
+
+    <!-- 3 Question -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="hdr"><span style="font-size:18px;color:var(--ink2)">✕</span><span class="eyebrow" style="font-size:12px">SE-101 · 3 de 8</span><span style="width:14px"></span></div>
+          <div class="trail"><div class="done" style="width:34%"></div><div class="car" style="left:calc(34% - 12px)"></div></div>
+          <div class="signbox"><svg viewBox="0 0 100 92" width="120" height="110" role="img" aria-label="Warning sign: dangerous bend to the right"><use href="#curve-sign"/></svg></div>
+          <div class="q">¿Qué indica esta señal?</div>
+          <div class="opt"><b>A</b>Obligación de girar a la derecha</div>
+          <div class="opt sel"><b>B</b>Curva peligrosa hacia la derecha</div>
+          <div class="opt"><b>C</b>Estrechamiento de la calzada por la derecha</div>
+          <span class="btn" style="margin-top:auto;margin-bottom:12px">Comprobar</span>
+        </div>
+      </div></div>
+      <figcaption><b>3 · Tramo (question)</b>The DGT format: one question, three answers, often a sign or a road photo. Progress is a road with your car on it. Tiles are at least 46 pt with letters, so colour is never the only cue.</figcaption>
+    </figure>
+
+    <!-- 4 Feedback -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="hdr"><span style="font-size:18px;color:var(--ink2)">✕</span><span class="eyebrow" style="font-size:12px">PR-102 · 5 de 8</span><span style="width:14px"></span></div>
+          <div class="trail"><div class="done" style="width:56%"></div><div class="car" style="left:calc(56% - 12px)"></div></div>
+          <div class="q">En una glorieta, ¿quién tiene preferencia de paso?</div>
+          <div class="opt wrong"><b>A</b>Los vehículos que pretenden entrar</div>
+          <div class="opt right"><b>B</b>Los vehículos que ya circulan por ella</div>
+          <div class="opt"><b>C</b>El vehículo de mayor tamaño</div>
+          <div class="sheet">
+            <div class="t">Casi.</div>
+            <div class="say"><svg viewBox="0 0 120 124"><g transform="rotate(-12 60 64)"><use href="#turbo"/></g></svg>
+              <div class="bubble"><b>Truco de Turbo:</b> dentro manda. Quien ya circula por la glorieta pasa primero.</div></div>
+            <span class="src">RGC, art. 57.1 c)</span>
+            <span class="btn" style="background:var(--stop)">Continuar</span>
+          </div>
+        </div>
+      </div></div>
+      <figcaption><b>4 · Feedback</b>A miss is quiet: a soft wobble, the right answer outlined, Turbo's tilt and his one-line truco. Every answer cites the article it comes from, which builds trust and makes content checkable.</figcaption>
+    </figure>
+
+    <!-- 5 Llegada -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body" style="gap:11px">
+          <span class="eyebrow" style="text-align:center;margin-top:6px">Llegada · SE-101</span>
+          <div style="display:grid;place-items:center"><svg viewBox="0 0 120 124" width="96" height="100"><g transform="translate(0 -6)"><use href="#turbo"/></g></svg></div>
+          <div style="text-align:center;display:grid;gap:2px"><div class="big">+72 km</div><div style="color:var(--ink2)">7 de 8 a la primera</div></div>
+          <div class="statrow"><div class="stat"><b>5</b><span>Días</span></div><div class="stat"><b>1.240</b><span>km</span></div><div class="stat"><b>Nv 6</b><span>Rodando</span></div></div>
+          <div class="mini" style="border-color:var(--yellow)">
+            <span class="lbl" style="color:var(--yellow-ink)">Primer buen día</span>
+            <div style="font-weight:600">Vuelve mañana y la pegatina de Señales de peligro es tuya.</div>
+          </div>
+          <div class="mini"><span class="lbl">Hoja de ruta</span><div style="font-weight:600;color:var(--go)">Cumplida por hoy ✓</div></div>
+          <span class="btn" style="margin-top:auto;margin-bottom:12px">Seguir</span>
+        </div>
+      </div></div>
+      <figcaption><b>5 · Llegada (results)</b>Km for effort, a clear result, and the two-day rule: a tramo needs good rounds on two different days before its sticker, so the rules stick instead of being crammed.</figcaption>
+    </figure>
+
+    <!-- 6 Simulacro -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="hdr"><span class="eyebrow" style="font-size:12px">Simulacro 4 · Permiso B</span><span class="timer">18:42</span></div>
+          <div class="dots" aria-label="Question 17 of 30, one mistake so far">
+            <i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="x"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i>
+            <i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="o"></i><i class="c"></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-weight:600"><span>Pregunta 17 de 30</span><span style="color:var(--stop)">Fallos 1 de 3</span></div>
+          <div class="q">Circulando por autovía, la velocidad máxima para un turismo es de…</div>
+          <div class="opt"><b>A</b>100 km/h</div>
+          <div class="opt sel"><b>B</b>120 km/h</div>
+          <div class="opt"><b>C</b>130 km/h</div>
+          <span class="btn" style="margin-top:auto;margin-bottom:12px">Siguiente</span>
+        </div>
+        <div class="tabs"><span><i></i>Ruta</span><span class="on"><i></i>Examen</span><span><i></i>Guantera</span><span><i></i>Yo</span></div>
+      </div></div>
+      <figcaption><b>6 · Simulacro (mock exam)</b>The real format: 30 questions, 30 minutes, pass with 3 mistakes or fewer. Answers are revealed at the end, as in the real exam. The only timed screen in the app, and the clock can be turned off.</figcaption>
+    </figure>
+
+    <!-- 7 Guantera -->
+    <figure class="ph">
+      <div class="phone"><div class="scr"><div class="notch"></div>
+        <div class="status"><span>9:41</span><span>●●●</span></div>
+        <div class="body">
+          <div class="hdr"><h4>Guantera</h4><span class="pill">14 de 96</span></div>
+          <div class="window" aria-label="Rear window with stickers">
+            <span class="stk" style="left:14px;top:26px;width:64px;height:64px;border-radius:50%;background:var(--sunset);color:#fff;transform:rotate(-10deg)">VILLA<br>SEÑAL</span>
+            <span class="stk" style="left:86px;top:18px;width:80px;height:44px;border-radius:8px;background:var(--blue);color:#fff;transform:rotate(6deg)">GLORIETAS<br>PR-102</span>
+            <span class="stk" style="left:176px;top:30px;width:58px;height:58px;border-radius:12px;background:var(--yellow);color:#1F232A;transform:rotate(-4deg)">PELIGRO<br>SE-101</span>
+            <span class="stk" style="left:64px;top:84px;width:70px;height:52px;border-radius:26px;background:var(--go);color:#fff;transform:rotate(-3deg)">CRUCES<br>PR-101</span>
+            <span class="stk" style="left:146px;top:96px;width:76px;height:40px;border-radius:6px;background:#fff;color:#1F232A;border-color:var(--ink);transform:rotate(8deg)">PROHIBIDO<br>SE-102</span>
+          </div>
+          <div class="mini"><span class="lbl">Puntos negros</span><div style="font-weight:600">6 preguntas que fallas a menudo</div><span class="btn ghost" style="padding:7px;font-size:13px">Repasarlas</span></div>
+          <div class="mini"><span class="lbl">Postales</span><div style="font-weight:600">Primer simulacro aprobado · 7 días al volante</div></div>
+          <div class="mini"><span class="lbl">Tu coche</span><div style="font-weight:600">Color, baca, llavero: 3 nuevos</div></div>
+        </div>
+        <div class="tabs"><span><i></i>Ruta</span><span><i></i>Examen</span><span class="on"><i></i>Guantera</span><span><i></i>Yo</span></div>
+      </div></div>
+      <figcaption><b>7 · Guantera (collection)</b>Each mastered tramo is a sticker on your car's rear window, with a visible total so collecting has an end. Puntos negros live here too: the questions you keep missing.</figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="flujo">
+  <div class="sec-head">
+    <span class="pk"><b>PK 6</b> Study flow</span>
+    <h2>From first launch to the L plate</h2>
+  </div>
+  <div class="flow">
+    <div class="step"><div><h3>Subir al coche (onboarding)</h3><p>Pick the licence (B first; others later), an optional exam date and a daily time. With a date, the Hoja de ruta sizes itself to finish the road a week before, with room for simulacros. No account needed.</p></div></div>
+    <div class="step"><div><h3>Pasar la ITV (placement)</h3><p>A short check per etapa, like Volantón's Facturación: a few questions climbing until the first miss. What you already know is shown as travelled road, never as a pass or fail.</p></div></div>
+    <div class="step"><div><h3>Tramo by tramo</h3><p>Each tramo opens with Turbo's truco, the one-paragraph rule from the official text, then a round of 8 questions in the DGT format. A good round is at most 1 mistake. Good rounds on 2 different days earn the pegatina.</p></div></div>
+    <div class="step"><div><h3>Retrovisor and Puntos negros</h3><p>Spaced review across every etapa at 1, 3, 7, 14 and 30 days; a miss comes back tomorrow. Questions you miss often become Puntos negros, with their own short practice.</p></div></div>
+    <div class="step"><div><h3>Centro de examen (simulacros)</h3><p>Opens once the first etapas are done. 30 questions mixed in the real topic weights, results shown at the end, every mistake linked back to its tramo and article.</p></div></div>
+    <div class="step"><div><h3>Semáforo en verde</h3><p>Green means ready: recent simulacros at 3 mistakes or fewer and no open Puntos negros in key etapas. Amber says exactly what is missing. It never says "you will fail".</p></div></div>
+    <div class="step"><div><h3>¡Ya tienes la L!</h3><p>After the real exam, the user can mark "Aprobado" for the biggest celebration in the app, the L sticker on the back of the car, and a shareable postcard. Then the practical exam tips and the novice-driver rules unlock.</p></div></div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="recompensas">
+  <div class="sec-head">
+    <span class="pk"><b>PK 7</b> Rewards</span>
+    <h2>Calm rewards for adults with a deadline</h2>
+  </div>
+  <div class="cols">
+    <div class="card">
+      <h3>Kept from Volantón</h3>
+      <ul class="plain">
+        <li><b>Three layers that never mix:</b> effort (km, rango, días al volante), mastery (stickers per etapa), real level (ITV and results).</li>
+        <li><b>Two-day mastery</b>, so cramming doesn't pay and the rule is still there on exam day.</li>
+        <li><b>No guilt copy.</b> A broken streak shows "Nueva ruta: día 1". Áreas de descanso keep it automatically.</li>
+        <li><b>Nothing goes down</b> that the user sees: km, rango and stickers only grow.</li>
+        <li><b>One nudge a day at most</b>, never at night, and it stops after 3 days with no answer.</li>
+        <li><b>No loot boxes, no random prizes</b>, no limited-time offers.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Changed for this audience</h3>
+      <ul class="plain">
+        <li><b>A timer exists</b>, only in simulacros, because the real exam has one. It can be turned off.</li>
+        <li><b>The exam date drives the plan</b>, but it never turns into a countdown that pressures. It shows as km left on the road.</li>
+        <li><b>No parent gate</b>; age rules follow the user (17+ to take the exam).</li>
+        <li><b>The avatar is your car</b>, not a pet. It never needs care and never decays.</li>
+        <li><b>Mistakes are honest</b> in simulacros (the exam is strict), but still quiet in tramos.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="contenido">
+  <div class="sec-head">
+    <span class="pk"><b>PK 8</b> Content</span>
+    <h2>Built from the official texts</h2>
+    <p class="prose" style="color:var(--ink2)">Design comes first, so this is a plan to confirm in its own step, not research done. The idea: write our own questions from the official sources, and keep the source on every item.</p>
+  </div>
+  <div class="cols">
+    <div class="card">
+      <h3>Primary sources</h3>
+      <ul class="plain">
+        <li><b>Reglamento General de Circulación</b> (RD 1428/2003), including the official sign catalogue.</li>
+        <li><b>Ley sobre Tráfico y Seguridad Vial</b> (RDL 6/2015), for points, offences and penalties.</li>
+        <li><b>Reglamento General de Conductores</b> (RD 818/2009), for licences and the exam itself.</li>
+        <li><b>DGT material:</b> the sample exams and published guides on dgt.es and sede.dgt.gob.es, Revista DGT for current topics.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Rules for the content pipeline</h3>
+      <ul class="plain">
+        <li>Laws and regulations in the BOE are not covered by copyright in Spain (LPI art. 13), so we can quote them. DGT website material needs its reuse terms checked first.</li>
+        <li>Never copy question banks from autoescuelas or other apps. We write our own items in the DGT style.</li>
+        <li>Each item stores its source (for example <code>RGC art. 57.1 c)</code>) and the date it was checked, so rule changes can be found and updated.</li>
+        <li>Content is data, as in Volantón: a build script produces <code>content/</code> and <code>spec/</code> cases that both apps must pass. Codes like SE-101 are never renumbered.</li>
+        <li>Road-scene images are our own illustrations, drawn in one style, not photos from the DGT.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="road" aria-hidden="true"></div>
+
+<section id="abierto">
+  <div class="sec-head">
+    <span class="pk"><b>PK 9</b> Next stops</span>
+    <h2>Open decisions</h2>
+  </div>
+  <div class="cols">
+    <div class="card"><h3>Turbo's form</h3><p>Dog (recommended), tortoise or camper van. Everything else in this proposal works with any of them.</p></div>
+    <div class="card"><h3>Business model</h3><p>Volantón chose one parent-only unlock. Here the buyer is the learner: a one-time unlock, an exam-season pass, or fully free. This decides whether PEAJE exists on the Panel.</p></div>
+    <div class="card"><h3>Scope of v1</h3><p>B licence only, or room for AM and A licences from day one. The content model handles more licences; the first release probably shouldn't.</p></div>
+    <div class="card"><h3>Repo setup</h3><p>Same as Volantón: SwiftUI and Jetpack Compose, a shared <code>content/</code> and <code>spec/</code>, on-device first. The repo is empty today, so this can start as a skeleton once the design is agreed.</p></div>
+  </div>
+  <p class="foot">Based on "How Volantón works: design report" (4 Nov 2026). Mockups are illustrative; sign drawings are simplified, and the article references are examples to verify during content work.</p>
+</section>
+
+</div>
