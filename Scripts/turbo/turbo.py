@@ -368,6 +368,117 @@ def dashboard(expr="idle", sky=("FFD29A", "F58A5B"), car_c=hx("E8574F")):
     img.alpha_composite(small, (int(C + 300 - S * k / 2), int(C + 330 - S * k / 2)))
     return img
 
+# ------------------------------------------------ La Ruta: the home windscreen in different states
+TOD = {  # sky top, sky at horizon, sun/moon colour, sun height, light multiplier
+    "amanecer": ("8FA6DA", "FFC4A0", "FFE1C2", 60, .9),
+    "dia": ("4E8FE6", "BFE0FF", "FFF8E0", -380, 1.0),
+    "atardecer": ("7FA8E0", "FFB27A", "FFF1C9", -100, .85),
+    "noche": ("0B1330", "26355E", "E6ECFF", -420, .38),
+}
+
+
+def shade(c, k):
+    return tuple(int(min(255, v * k)) for v in c[:3]) + (255,)
+
+
+def ruta(land="meseta", tod="atardecer", km=12, car_c=hx("E8574F"), dull=False, lplate=False, expr="idle"):
+    """Home screen view: the windscreen. Landscape follows the etapa, light follows the clock,
+    the gantry counts km to the exam, and the frame is your own car."""
+    top, hor, sunc, sun_y, k = TOD[tod]
+    img = grad(hx(top), hx(hor), 90)
+    E, R, Poly, Line, T = mk(1.0, 0, 0, 0)
+    hz = -120
+    night = tod == "noche"
+    if night:
+        for (x, y) in [(-700, -600), (-420, -700), (-150, -560), (260, -680), (520, -590), (760, -720), (-860, -420), (640, -440), (60, -760)]:
+            img = paint(img, E(x - 8, y - 8, x + 8, y + 8), WHITE, .85)
+        img = paint(img, E(520, -560, 660, -420), hx("F2F4FF"))
+        img = paint(img, E(560, -590, 700, -450), hx(top))
+    else:
+        sx = -420 if tod == "amanecer" else (0 if tod == "atardecer" else 420)
+        sun = E(sx - 150, sun_y - 150, sx + 150, sun_y + 150)
+        img = paint(img, sun.filter(ImageFilter.GaussianBlur(80)), hx("FFE7B0"), .7)
+        img = paint(img, sun, hx(sunc))
+    ground = hx({"ciudad": "8E9A8A", "meseta": "C9A86A", "costa": "C7B98A", "montana": "7FA06A"}[land])
+    if land == "ciudad":
+        x = -1100
+        hs = [160, 260, 120, 340, 200, 420, 180, 300, 140, 380, 220, 280, 160]
+        for i, h in enumerate(hs):
+            w = 150 + (i % 3) * 30
+            if abs(x + w / 2) > 140:
+                img = paint(img, R(x, hz - h, x + w - 12, hz + 20, 6), shade(hx("6F7C93"), k))
+                if night:
+                    for wy in range(int(hz - h + 30), hz - 10, 60):
+                        for wx in range(int(x + 20), int(x + w - 40), 50):
+                            if (wx * 7 + wy * 3) % 5 < 2: img = paint(img, R(wx, wy, wx + 22, wy + 30, 3), hx("FFD27A"), .9)
+            x += w
+    elif land == "montana":
+        peaks = smooth(Poly([(-1100, hz + 20), (-820, hz - 420), (-560, hz - 180), (-300, hz - 520), (-40, hz - 120), (240, hz - 460), (560, hz - 200), (860, hz - 560), (1100, hz - 260), (1100, hz + 40), (-1100, hz + 40)]), 30)
+        img = paint(img, peaks, shade(hx("7C86A6"), k))
+        for (px_, py_) in [(-820, -420), (-300, -520), (240, -460), (860, -560)]:
+            img = paint(img, smooth(Poly([(px_, hz + py_), (px_ - 90, hz + py_ + 120), (px_ + 90, hz + py_ + 120)]), 20), shade(WHITE, k))
+    elif land == "costa":
+        img = paint(img, Poly([(80, hz - 6), (1100, hz - 6), (1100, hz + 400), (80, hz + 60)]), shade(hx("2F7FC1"), k))
+        img = paint(img, smooth(Poly([(-1100, hz + 20), (-760, hz - 150), (-420, hz - 60), (-120, hz - 30), (-120, hz + 40), (-1100, hz + 40)]), 30), shade(hx("B9846A"), k))
+    else:  # meseta
+        hills = smooth(Poly([(-1100, hz + 20), (-700, hz - 90), (-380, hz - 20), (-60, hz - 110), (320, hz - 30), (700, hz - 100), (1100, hz - 20), (1100, hz + 40), (-1100, hz + 40)]), 30)
+        img = paint(img, hills, shade(hx("C77D6A"), k))
+        for mx in (-640, 520):  # windmills
+            img = paint(img, R(mx - 6, hz - 260, mx + 6, hz, 3), shade(WHITE, k))
+            for a in (90, 210, 330):
+                r_ = math.radians(a)
+                img = paint(img, Line([(mx, hz - 260), (mx + 110 * math.cos(r_), hz - 260 - 110 * math.sin(r_))], 8), shade(WHITE, k))
+    gnd = Poly([(-1100, hz + 10), (1100, hz + 10), (1100, 1100), (-1100, 1100)])
+    if land == "costa":
+        gnd = Poly([(-1100, hz + 10), (80, hz + 10), (900, 1100), (-1100, 1100)])
+        img = paint(img, Poly([(80, hz + 10), (1100, hz + 10), (1100, 1100), (900, 1100)]), shade(hx("2F7FC1"), k * .95))
+    img = paint(img, gnd, shade(ground, k))
+    road = Poly([(-60, hz + 10), (60, hz + 10), (900, 1100), (-900, 1100)])
+    img = paint(img, road, shade(hx("3A3F48"), max(k, .6)))
+    if night:  # headlight pool
+        img = paint(img, Poly([(-40, hz + 120), (40, hz + 120), (700, 1100), (-700, 1100)]).filter(ImageFilter.GaussianBlur(90)), hx("FFF0C0"), .35)
+    for edge_x in (-1, 1):
+        img = paint(img, Poly([(edge_x * 52, hz + 10), (edge_x * 60, hz + 10), (edge_x * 900, 1100), (edge_x * 860, 1100)]), WHITE, .9)
+    y = hz + 30
+    while y < 1100:
+        w = 4 + (y - hz) * .035; L = 14 + (y - hz) * .25
+        img = paint(img, Poly([(-w, y), (w, y), (w * 1.1, y + L), (-w * 1.1, y + L)]), WHITE, .95)
+        y += L * 2.1
+    # gantry: closer (bigger) as km drops
+    sc = 1.0 + (1 - min(km, 60) / 60) * .7
+    gw, gh, gy = 260 * sc, 60 * sc, hz - 170 * sc
+    img = paint(img, R(-gw, gy - gh, gw, gy + gh, 16), ROADBLUE)
+    img = paint(img, T(f"EXAMEN  {km} km", 0, gy, int(64 * sc)), WHITE)
+    for px_ in (-gw + 10, gw - 10): img = paint(img, R(px_ - 8 * sc, gy + gh, px_ + 8 * sc, hz + 20, 4), hx("6B7280"))
+    # windscreen frame in the learner's own car colour
+    frame = ImageChops.subtract(R(-1100, -1100, 1100, 1100, 0), smooth(Poly([(-900, -760), (900, -760), (1040, 420), (-1040, 420)]), 80))
+    if dull:  # the chosen colour, faded and dusty until Pintura nueva
+        car_c = tuple(int(a * .45 + b * .55) for a, b in zip(car_c[:3], hx("C9C2B8")[:3])) + (255,)
+    img = inflate(img, frame, shade(car_c, .95 if night else 1), depth=1.2, soft=120, shine=.08 if dull else .35, gloss_pow=8 if dull else 22, ambient=.52 if dull else .42)
+    if dull:  # dust and a primer patch on the pillar
+        img = paint(img, smooth(Poly([(-1100, -900), (-880, -760), (-1000, 400), (-1100, 420)]), 20), hx("9EA3A8"), .9)
+    if lplate:
+        img = paint(img, R(700, -700, 840, -560, 16), hx("1A56B0"))
+        img = paint(img, T("L", 770, -630, 110), WHITE)
+    dash = smooth(ImageChops.lighter(E(-1300, 300, 1300, 900), R(-1100, 560, 1100, 1100, 0)), 30)
+    img = contact(img, dash, -30, 60, .35, SHADOW)
+    img = inflate(img, dash, hx("2E3138"), depth=1.2, soft=160, shine=.25, gloss_pow=18)
+    img = inflate(img, E(-900, 760, -300, 1300), hx("1F2227"), depth=1, soft=80, shine=.3)
+    img = inflate(img, ImageChops.subtract(E(-860, 800, -340, 1260), E(-760, 900, -440, 1160)), hx("3A3F48"), depth=1, soft=40, shine=.4)
+    layer = satnav(expr, 1.0, bg=Image.new("RGBA", (S, S), (0, 0, 0, 0)), mount=False)
+    kk = .42
+    small = layer.resize((int(S * kk), int(S * kk)), Image.LANCZOS)
+    img.alpha_composite(small, (int(C + 300 - S * kk / 2), int(C + 330 - S * kk / 2)))
+    return img
+
+
+RUTA_STATES = [
+    ("ruta-start", dict(land="ciudad", tod="amanecer", km=58, car_c=hx("E8574F"), dull=True)),
+    ("ruta-meseta", dict(land="meseta", tod="dia", km=40, car_c=hx("E8574F"), lplate=True)),
+    ("ruta-costa", dict(land="costa", tod="atardecer", km=22, car_c=hx("E8574F"), lplate=True, expr="happy")),
+    ("ruta-montana", dict(land="montana", tod="noche", km=6, car_c=hx("E8574F"), lplate=True, expr="explain")),
+]
+
 
 def save_small(img, name, px=640):
     img.convert("RGB").resize((px, px), Image.LANCZOS).save(f"{OUT}/{name}.jpg", quality=86)
@@ -388,6 +499,10 @@ if __name__ == "__main__":
     if "stages" in which:
         for name, col, kit in STAGES:
             save_small(relanti("city", col or hx("E8574F"), kit), f"stage-{name}")
+    if "ruta" in which:
+        for name, kw in RUTA_STATES: save_small(ruta(**kw), name, 900)
+    if "stagefaded" in which:
+        save_small(relanti("city", hx("C98E86"), ("dull", "primer", "steel")), "stage-copiloto")
     if "blank" in which:
         save_small(satnav("blank"), "satnav-blank", 900)
     if "dash" in which:

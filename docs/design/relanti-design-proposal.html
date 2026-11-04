@@ -271,9 +271,11 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
     <div class="sub">Tu road trip hasta el permiso, con Turbo en el salpicadero</div>
   </div>
   <div class="posts" aria-hidden="true"><i></i><i></i></div>
-  <p class="lede"><strong>Design proposal, v0.3 (4 Nov 2026).</strong> Relanti is a native iOS and Android app for passing the Spanish DGT theory exam for the B licence. It reuses Volantón's flow (one shell, levels you land on two different days, calm rewards, content as data) and replaces the airport with a road trip: one road with a stop for every topic, ending at the exam centre. You drive your own car, Relanti, and the GPS on its dashboard guides you there. Use the switch at the top to see the mocks in light or dark.</p>
+  <p class="lede"><strong>Design proposal, v0.4 (4 Nov 2026).</strong> Relanti is a native iOS and Android app for passing the Spanish DGT theory exam for the B licence. It reuses Volantón's flow (one shell, levels you land on two different days, calm rewards, content as data) and replaces the airport with a road trip: one road with a stop for every topic, ending at the exam centre. You drive your own car, Relanti, and the GPS on its dashboard guides you there. Use the switch at the top to see the mocks in light or dark.</p>
   <div class="changes">
-    <div><b>New in v0.3: Puntos del carnet</b>You earn 15 licence points as you master etapas, mirroring the real points system.</div>
+    <div><b>New in v0.4: La Ruta is alive</b>The windscreen changes with the etapa, the time of day and the km left to the exam.</div>
+    <div><b>New: your colour from day one</b>You pick it at the start and see it faded and dusty until Pintura nueva.</div>
+    <div><b>v0.3: Puntos del carnet</b>You earn 15 licence points as you master etapas, mirroring the real points system.</div>
     <div><b>New: your car evolves</b>From a faded second-hand car to fully done up, one upgrade per points milestone.</div>
     <div><b>New: animated GPS</b>His eyes are drawn in code on his screen, so they move smoothly in the app. Try the demo.</div>
     <div><b>New: exit signs</b>Desvíos look like motorway exits. Paid etapas are toll roads.</div>
@@ -335,7 +337,7 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <li><b>Optional voice</b>, read aloud like a real sat nav.</li></ul></div>
     <div class="card"><h3>What do we call him?</h3><p>"Turbo" is crowded (there are driving schools called Turbo), and a GPS doesn't need a car-part name. Options:</p>
       <div class="names">
-        <div class="rec"><b>Tú decides</b><span>The learner names their GPS during setup. "Turbo" is just the default, and the working name in these mocks.</span></div>
+        <div class="rec"><b>Tú decides</b><span>Decided: in setup the learner taps a suggestion or types their own. "Turbo" is the working name in these mocks.</span></div>
         <div><b>Gepe</b><span>How many people say "GPS" out loud</span></div>
         <div><b>Kilo</b><span>Short for kilómetro; counts your km</span></div>
         <div><b>Brújula</b><span>The compass; warm and Spanish</span></div>
@@ -345,14 +347,14 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
   <div class="card" style="gap:12px"><h3>Relanti, tu coche: it evolves as you study</h3>
     <p>As with Volantón's owlet, you can see your car grow. You start with a faded second-hand car, and each points milestone fits one upgrade, so studying is how you do it up. Body, colour and name are yours from day one, and nothing is ever taken away.</p>
     <div class="evo">
-      <figure><img src="img/stage-copiloto.jpg" alt="Faded beige second-hand car with a primer door and steel wheels"><span class="pts">0 pts</span><b>De segunda mano</b><span>Faded paint, primer door</span></figure>
+      <figure><img src="img/stage-copiloto.jpg" alt="Second-hand car in a faded version of the chosen coral, with a primer door and steel wheels"><span class="pts">0 pts</span><b>De segunda mano</b><span>Your colour, faded; primer door</span></figure>
       <figure><img src="img/stage-aprendiz.jpg" alt="Car painted coral with an L sticker"><span class="pts">3 pts</span><b>Pintura nueva</b><span>Your colour and the L</span></figure>
       <figure><img src="img/stage-rodando.jpg" alt="Coral car with gold alloy wheels"><span class="pts">6 pts</span><b>Llantas</b><span>Alloy wheels</span></figure>
       <figure><img src="img/stage-conductor.jpg" alt="Coral car with tinted windows and a white stripe"><span class="pts">8 pts</span><b>Listo para el examen</b><span>Tinted windows, stripe</span></figure>
       <figure><img src="img/stage-rutalarga.jpg" alt="Coral car with roof box and fog lamps"><span class="pts">12 pts</span><b>Ruta larga</b><span>Roof box, fog lamps</span></figure>
       <figure><img src="img/stage-leyenda.jpg" alt="Fully done up coral car with spoiler and blue underglow"><span class="pts">15 pts</span><b>Carnet completo</b><span>Spoiler, underglow, L off</span></figure>
     </div>
-    <p style="font-size:15px">Body types (utilitario, familiar, furgo) and colours are chosen at the start. Later we could unlock extra bodies, like a convertible or a classic, at milestones. Share cards show the car without its upgrades, so a shared picture never reveals your level.</p>
+    <p style="font-size:15px">Body types (utilitario, familiar, furgo) and colours are chosen at the start. Your colour shows from day one, but faded and dusty, so the first upgrade (Pintura nueva) makes your own choice shine. Later we could unlock extra bodies, like a convertible or a classic, at milestones. Share cards show the car without its upgrades, so a shared picture never reveals your level.</p>
   </div>
   <div class="card"><h3>How we got here</h3><div class="journey"><span>Dog co-pilot</span><span>Car with headlight eyes</span><span>Burbuja micro car</span><span>Soft toy car</span><span>Windscreen eyes</span><span>Road-sign pictogram</span><span class="on">Sat nav</span></div><p>Every direction is rendered on the <a href="https://claude.ai/artifact/QzTS5JLRR8AY8vsmqGY3MG">Turbo renders</a> page, and the full flow with the GPS is on <a href="https://claude.ai/artifact/Fq3rTgrc8SFdeYPtRndkpJ">Turbo on the dashboard</a>.</p></div>
   <div class="cols">
@@ -597,6 +599,15 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <span class="btn">Compartir postal</span></div></div></div>
       <figcaption><b>12 · ¡Aprobado!</b>You tell the app you passed and the road reaches the exam sign. Turbo stays on for your novice year.</figcaption></figure>
   </div>
+  <div class="card" style="margin-top:18px"><h3>La Ruta is never the same picture</h3>
+    <p>Home is the view through your own windscreen, and four things change it. The <b>landscape</b> follows the etapa you're driving (ciudad, meseta, costa, montaña). The <b>light</b> follows your phone's clock (amanecer, día, atardecer, noche). The <b>EXAMEN sign</b> gets closer as km go down. The <b>frame is your car</b>: your colour, faded at the start, then the L sticker and later upgrades. The GPS's face reacts to how your last session went.</p>
+    <div class="evo" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+      <figure><img src="img/ruta-start.jpg" alt="Dawn over a city skyline seen through a faded coral windscreen, sign Examen 58 km"><span class="pts">día 1</span><b>Ciudad · amanecer</b><span>58 km, faded paint</span></figure>
+      <figure><img src="img/ruta-meseta.jpg" alt="Midday on the meseta with windmills, sign Examen 40 km, L sticker on the glass"><span class="pts">3 pts</span><b>Meseta · día</b><span>40 km, new paint and L</span></figure>
+      <figure><img src="img/ruta-costa.jpg" alt="Sunset by the sea, sign Examen 22 km, GPS smiling"><span class="pts">7 pts</span><b>Costa · atardecer</b><span>22 km, GPS happy</span></figure>
+      <figure><img src="img/ruta-montana.jpg" alt="Night in the mountains with stars and moon, headlights on the road, sign Examen 6 km close"><span class="pts">11 pts</span><b>Montaña · noche</b><span>6 km, sign close</span></figure>
+    </div>
+    <p style="margin-top:10px;font-size:14px;color:var(--ink2)">In the app these are layers (sky, landscape, sign, frame, GPS), not fixed pictures, so each etapa only needs one landscape layer and the light is a tint. Reduced motion keeps the road still.</p></div>
 </section>
 
 <div class="road" aria-hidden="true"></div>
@@ -730,15 +741,17 @@ tr.new td:first-child::after{content:" new";font-family:var(--display);font-size
       <li>Relanti is your car, and it evolves as you study</li>
       <li>Colours: Autopista, Línea, Atardecer, Asfalto</li>
       <li>Trucos as our edge; the GPS is on every question</li>
-      <li>One-time payment with a free part</li></ul></div>
+      <li>One-time payment with a free part</li>
+      <li>The learner names the GPS: suggestions or their own</li>
+      <li>v1 is the B licence only</li>
+      <li>La Ruta changes with etapa, time of day and km</li></ul></div>
     <div class="card"><span class="tag t-risk">To confirm</span><ul>
-      <li>The GPS's name: you decide, Gepe, Kilo, Brújula or Turbo</li>
+      <li>Segunda mano shows your colour faded until Pintura nueva</li>
       <li>Licence points (0 to 15) as the mastery total</li>
       <li>Free tier: 3 etapas plus a daily simulacro</li>
       <li>Price between 9,99 € and 14,99 €</li>
       <li>Content packs between releases (network use)</li></ul></div>
     <div class="card"><span class="tag">Open</span><ul>
-      <li>v1 scope: B licence only?</li>
       <li>Formal TMview and OEPM search; register Relanti</li>
       <li>Test the photo tip on real DGT questions</li>
       <li>Repo skeleton: SwiftUI, Compose, shared content and spec, the law watch Action</li></ul></div>
