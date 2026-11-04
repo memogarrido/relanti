@@ -1,0 +1,30 @@
+# Laws the questions are built on. Every item, fact and truco cites one of these
+# by its short key plus a BOE block id (the article anchor, e.g. a48).
+# Only BOE texts are reused. See content/SOURCES.md for licences.
+laws:
+  RGC:
+    boe: BOE-A-2003-23514
+    title: Real Decreto 1428/2003, Reglamento General de Circulación
+    feeds: [SE, PR, VE, AD, PA, AL, FH, PS]
+  LSV:
+    boe: BOE-A-2015-11722
+    title: Real Decreto Legislativo 6/2015, Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial
+    feeds: [PP, VH, FH]
+  RGCond:
+    boe: BOE-A-2009-9481
+    title: Real Decreto 818/2009, Reglamento General de Conductores
+    feeds: [PP, EX]
+  RGV:
+    boe: BOE-A-1999-1826
+    title: Real Decreto 2822/1998, Reglamento General de Vehículos
+    feeds: [VH]
+
+# Reference material we read but do not copy (no reuse licence). Cited in
+# trucos and docs as "see also", never as the source of an item.
+references:
+  dgt-manual-lectura-facil:
+    title: DGT, Manual básico para obtener el permiso B (lectura fácil), 2023
+    url: https://www.dgt.es/comunicacion/notas-de-prensa/la-dgt-publica-el-primer-manual-basico-para-obtener-el-permiso-b-en-base-a-la-norma-de-lectura-facil
+  dgt-cuadernillo-b:
+    title: DGT, Cuadernillo de formación permiso B
+    url: https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nuestros_servicios/para-colaboradores-y-empresas/autoescuelas/CUADERNILLO-FORMACION-DGT-B.pdf
