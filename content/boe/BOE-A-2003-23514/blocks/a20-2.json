@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a20-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 20",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 20. Obligaciones de los participantes.\nTodos los participantes de una actividad ciclista organizada, con las excepciones previstas en este reglamento, podrán circular y agruparse libremente, siempre por su carril, excepto que por seguridad el responsable de la prueba o la autoridad competente puntualmente indique otro criterio durante el desarrollo de la marcha.\nEn general, los participantes deberán cumplir la normativa de circulación, especialmente cuando marchen desagrupados de los demás.",
+ "fingerprint": "sha256:2e8e1526f7f73cb612dab89bc461f5236a06fac0df69d84f01a6dae80c11df78",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a20-2"
+}

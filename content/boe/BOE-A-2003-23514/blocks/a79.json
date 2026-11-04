@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a79",
+ "tipo": "precepto",
+ "titulo": "Artículo 79",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 79. Prohibiciones.\n1. Se prohíbe efectuar el cambio de sentido en toda situación que impida comprobar las circunstancias a que alude el artículo anterior, en los pasos a nivel, en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5), así como en las autopistas y autovías, salvo en los lugares habilitados al efecto y, en general, en todos los tramos de la vía en que esté prohibido el adelantamiento, salvo que el cambio de sentido esté expresamente autorizado (artículo 30 del texto articulado).\n2. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:7dd26ecf8b2f472d4a5d14226d1b5ae820a74536a4682975289996c79f0f3c71",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a79"
+}

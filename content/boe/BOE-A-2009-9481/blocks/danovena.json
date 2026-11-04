@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "danovena",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional novena",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional novena. Documentación del certificado de aptitud profesional.\nEl código comunitario 95, acreditativo del cumplimiento de la obligación de obtención del certificado de aptitud profesional prevista en el artículo 3 de la Directiva 2003/59/CE, se sustituirá por la tarjeta de cualificación del conductor, expedida de acuerdo con el modelo del anexo VI del Real Decreto 1032/2007, de 20 de julio, por el que se regula la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte por carretera.",
+ "fingerprint": "sha256:b40e2046f9b17d4378fd891d4182b6cacace83b4f893c6c6a239f26cc121e8a0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#danovena"
+}

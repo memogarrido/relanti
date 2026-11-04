@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a158",
+ "tipo": "precepto",
+ "titulo": "Artículo 158",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 158. Objeto y tipos.\n1. Las señales de indicación tienen por objeto facilitar al usuario de las vías ciertas indicaciones que pueden serle de utilidad.\n2. Las señales de indicación pueden ser:\na) Señales de indicaciones generales.\nb) Señales de carriles.\nc) Señales de servicio.\nd) Señales de orientación.\ne) Paneles complementarios.\nf) Otras señales.\n3. Los paneles complementarios colocados debajo de una señal de indicación podrán expresar la distancia entre dicha señal y el lugar así señalado. La indicación de esta distancia podrá figurar también, en su caso, en la parte inferior de la propia señal.",
+ "fingerprint": "sha256:92542bf2e126b2b74e721ef9ebe446cb856d1e9aa394fd80dbcf82d43342e752",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a158"
+}

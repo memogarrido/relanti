@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tv-3",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO VI",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "TÍTULO VI\nNormas de circulación específicas en zonas urbanas",
+ "fingerprint": "sha256:8d78f14651ad39b2f4a35f8cb75660c14298c3b5e6e20cdb7fb48b544acb3bb0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tv-3"
+}

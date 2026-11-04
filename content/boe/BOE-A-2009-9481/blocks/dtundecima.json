@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dtundecima",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria undécima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición transitoria undécima. Aplicación de las nuevas características de la prueba de conocimientos.\nEl número de preguntas planteadas y de posibles respuestas correctas a que se refieren el artículo 52.2 y el anexo VI. B). 1, así como los criterios de calificación previstos en el artículo 53.2 y el anexo VI. B). 3, del reglamento, se aplicarán a las pruebas que se celebren a partir de la fecha que se fije por Orden del Ministro del Interior.",
+ "fingerprint": "sha256:5ba739966165b0f22d150b3ec583b4fbcc651bab5c68226f1fff20870a797e5f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dtundecima"
+}

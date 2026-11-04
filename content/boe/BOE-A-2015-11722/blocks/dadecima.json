@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dadecima",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional décima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional décima. Actividades industriales y seguridad vial.\nSin perjuicio de lo dispuesto en esta ley, las actividades industriales que afecten directamente a la seguridad vial se regirán por lo previsto en la normativa sobre seguridad industrial.",
+ "fingerprint": "sha256:9fb57ccec540cc45f2089f7589afe60165e1788a4df3ac2fd2373d875924a91c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dadecima"
+}

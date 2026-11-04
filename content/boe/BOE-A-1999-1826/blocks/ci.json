@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "ci",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "CAPÍTULO I\nHomologación e inspección técnica",
+ "fingerprint": "sha256:a68a33d31b269c98ec6cdc0497ef9bd71956b7be16b71658786269b3dab91fff",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#ci"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a39",
+ "tipo": "precepto",
+ "titulo": "Artículo 39",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 39. Normas generales.\n1. La parada o el estacionamiento de un vehículo en vías interurbanas debe efectuarse siempre fuera de la calzada, en el lado derecho de la misma y dejando libre, cuando exista, la parte transitable del arcén.\n2. Cuando en vías urbanas tenga que realizarse en la calzada o en el arcén se situará el vehículo lo más cerca posible de su borde derecho, salvo en las vías de único sentido, en las que se podrá situar también en el lado izquierdo.\n3. La parada y el estacionamiento deben efectuarse de tal manera que el vehículo no obstaculice la circulación ni constituya un riesgo para el resto de los usuarios de la vía, cuidando especialmente la colocación del mismo y evitando que pueda ponerse en movimiento en ausencia del conductor, de acuerdo con las normas que reglamentariamente se establezcan.\nEn vías urbanas se permite la parada o el estacionamiento de las grúas de auxilio en carretera por el tiempo indispensable para efectuar la retirada de los vehículos averiados o accidentados, siempre que no se cree un nuevo peligro, ni se cause obstáculo a la circulación.\n4. El régimen de parada y estacionamiento en vías urbanas se regulará por ordenanza municipal, pudiendo adoptarse las medidas necesarias para evitar el entorpecimiento del tráfico, entre ellas, limitaciones horarias de duración del estacionamiento, así como las medidas correctoras precisas, incluida la retirada del vehículo o su inmovilización cuando no disponga de título que autorice el estacionamiento en zonas limitadas en tiempo o exceda del tiempo autorizado hasta que se logre la identificación del conductor.",
+ "fingerprint": "sha256:6d5a47479697370bf6562aed5ef15eb265515c3e3567dcdf7d101539a8e9aa23",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a39"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a18-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 18",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Artículo 18. Comunicación a las autoridades competentes.\nLa organización estará obligada a comunicar la celebración de la marcha ciclista a los ayuntamientos de las localidades por los que aquélla discurra. Adicionalmente, la organización del evento será responsable de comunicar, por los medios electrónicos que el órgano competente en materia de tráfico y seguridad vial haga constar en la autorización, el inicio y fin efectivo del uso excepcional de la vía, a la autoridad responsable de la gestión del Punto de Acceso Nacional en materia de tráfico y movilidad.",
+ "fingerprint": "sha256:7f641b5197c6132d8f7ac478a05f0a72952145f32e29d7c3b450438a49c1b187",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a18-2"
+}

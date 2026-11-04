@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a44",
+ "tipo": "precepto",
+ "titulo": "Artículo 44",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 44. Utilización de las calzadas.\n1. En las vías divididas en dos calzadas, en el sentido de su longitud, por medianas, separadores o dispositivos análogos los vehículos deben utilizar la calzada de la derecha, en relación con el sentido de su marcha.\n2. Cuando la división determine tres calzadas, la central podrá estar destinada a la circulación en los dos sentidos, o en un sentido único, permanente o temporal, según se disponga mediante las correspondientes señales, y las laterales para la circulación en uno sólo, sin perjuicio de que el organismo autónomo Jefatura Central de Tráfico o, en su caso, la autoridad autonómica o local responsable de la regulación del tráfico pueda establecer para estas últimas o para alguno de los carriles otro sentido de circulación, que habrá de estar convenientemente señalizado.\n3. Los supuestos de circulación en sentido contrario al estipulado tendrán la consideración de infracciones muy graves, conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:39a7fc0d6364a1a9543db4faaf67a7b6a089ed1dc85c69095f8fbec77b269e43",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a44"
+}

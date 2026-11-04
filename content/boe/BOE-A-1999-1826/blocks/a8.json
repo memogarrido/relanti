@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a8",
+ "tipo": "precepto",
+ "titulo": "Artículo 8",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 8. Marcas.\n1. A efectos de identificación, todo vehículo matriculado o puesto en circulación deberá llevar, de acuerdo con lo que se determine en la reglamentación que se recoge en el anexo I, en forma fácilmente legible, y de manera que sea difícil su modificación, además de las placas e inscripciones reglamentarias:\na) Un número de identificación, grabado, troquelado o inscrito de forma indeleble en el bastidor o estructura autoportante.\nb) Una placa del fabricante.\nc) En los vehículos de motor, las marcas o siglas que identifiquen el tipo de motor, situadas sobre el mismo.\n2. Queda prohibido efectuar cambios o retoques en los números de identificación del bastidor, así como en las placas e inscripciones reglamentarias.\nNo se podrá realizar la sustitución total o parcial del bastidor o de la estructura autoportante que afecte a su número de identificación, salvo en las condiciones establecidas en la reglamentación que se recoge en el anexo I, bajo el control del órgano competente en materia de industria.",
+ "fingerprint": "sha256:3eb4e5b80d3fe1835533ac2379a4da5e9bdf04461658baeef4997e2b808d0397",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a8"
+}

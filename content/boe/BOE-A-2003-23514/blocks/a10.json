@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a10",
+ "tipo": "precepto",
+ "titulo": "Artículo 10",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 10. Emplazamiento y acondicionamiento de las personas.\n1. Está prohibido transportar personas en emplazamiento distinto al destinado y acondicionado para ellas en los vehículos.\n2. No obstante lo dispuesto en el apartado anterior, en los vehículos de transporte de mercancías o cosas podrán viajar personas en el lugar reservado a la carga, en las condiciones que se establecen en las disposiciones que regulan la materia.\n3. Los vehículos autorizados a transportar simultáneamente personas y carga deberán estar provistos de una protección adecuada a la carga que transporten, de manera que no estorbe a los ocupantes ni pueda dañarlos en caso de ser proyectada.\nDicha protección se ajustará a lo previsto en la legislación reguladora de los vehículos.\n4. El hecho de no llevar instalada la protección a que se refiere el apartado anterior será sancionado con arreglo a lo dispuesto en el artículo 67.2 del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:a02231bac131e6089a010cbf9cdb98481913435c0ce0b2f482392b4f25a272d6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a10"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a15",
+ "tipo": "precepto",
+ "titulo": "Artículo 15",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2015-12572",
+  "fecha_publicacion": "20151121",
+  "fecha_vigencia": "20151231"
+ },
+ "text": "Artículo 15. Validez del permiso de conducción en España.\n1. Los permisos de conducción expedidos en cualquier Estado miembro de la Unión Europea o en Estados Parte del Acuerdo sobre el Espacio Económico Europeo con arreglo a la normativa comunitaria mantendrán su validez en España, en las condiciones en que hubieran sido expedidos en su lugar de origen, con la salvedad de que la edad requerida para la conducción corresponderá a la exigida para obtener el permiso español equivalente.\n2. No obstante, no serán válidos para conducir en España los permisos de conducción expedidos por alguno de dichos Estados que estén restringidos, suspendidos o retirados en cualquiera de ellos o en España.\n3. Tampoco serán válidos los permisos de conducción expedidos en cualquiera de esos Estados a quien hubiera sido titular de otro permiso de conducción expedido en alguno de ellos que haya sido retirado, suspendido o declarada su nulidad, lesividad o pérdida de vigencia en España.\n4. El titular de un permiso de conducción expedido en uno de estos Estados que haya adquirido su residencia normal en España quedará sometido a las disposiciones españolas relativas a su período de vigencia, de control de sus aptitudes psicofísicas y de asignación de un crédito de puntos.\nCuando se trate de un permiso de conducción no sujeto a un período de vigencia determinado, su titular deberá proceder a su renovación, una vez transcurridos dos años desde que establezca su residencia normal en España, a los efectos de aplicarle los plazos de vigencia previstos en el artículo 12.",
+ "fingerprint": "sha256:c24195c59346ead65e259cc18415c67fbd77dd813a5acc741b1f23712fa8eb1c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a15"
+}

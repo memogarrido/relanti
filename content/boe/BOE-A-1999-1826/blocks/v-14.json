@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-14",
+ "tipo": "precepto",
+ "titulo": "V-14",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-14. APRENDIZAJE DE LA CONDUCCIÓN\n1. Indica que el vehículo circula en función del aprendizaje de la conducción o de las pruebas de aptitud.\n2. Los vehículos adscritos a la enseñanza de la conducción en Escuelas de Conductores deberán llevar esta señal en la parte delantera y trasera, que será únicamente visible cuando el vehículo circule en función de la enseñanza de las pruebas de aptitud.\n3. Los turismos que se utilicen para la enseñanza de la conducción al amparo de una licencia de aprendizaje, deberán llevar esta señal en la parte delantera y trasera.\n4. Esta señal llevará la letra L en la parte superior y la palabra PRACTICAS en la inferior, debiendo ajustarse sus dimensiones, color y características técnicas a lo que se indica a continuación:\nPara Escuela de Conductores, en la parte inferior (sin pintar) llevará troquelado a la izquierda las siglas de la provincia y el número de la escuela, en el centro el número de matrícula, y a la derecha el sello de la Jefatura de Tráfico.\nPara Licencia de aprendizaje, en la parte inferior llevará troquelada la matrícula y el sello de la Jefatura de Tráfico.\nLÁMINA REFLECTANTE | Color: BLANCO NIVEL 2. Color: AZUL NIVEL 2 para Escuela de Conductores Color: Rojo nivel 2 para Licencia de Aprendizaje.\nMATERIAL DEL SUSTRATO | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.\nCARACTERES Y SUS TINTAS | Impresos sobre el material reflectante. Tipo de tinta: Blanco mate y rojo.\nBORDÓN | Exteriormente a la superficie reflectante y en todo su contorno, las placas llevarán un reborde (bordón) redondeado según la figura adjunta.",
+ "fingerprint": "sha256:89b4bfd34efda33ab80aa2e521fe378005a94133e3f34be78b4047e4def51892",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-14"
+}

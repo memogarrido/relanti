@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a1-3",
+ "tipo": "precepto",
+ "titulo": "Artículo 100 bis",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20211222"
+ },
+ "text": "Artículo 100 bis. Cesión de datos a las entidades responsables de la recaudación de los peajes, tasas, o precios públicos.\n1. En relación a la infracción prevista en la letra i) del artículo 98, y a los efectos de posibilitar la reclamación de los importes de peajes, tasas o precios públicos no abonados, el organismo autónomo Jefatura Central de Tráfico, podrá facilitar a las entidades responsables de recaudar el peaje, tasa o precio público, los datos sobre los posibles responsables de los impagos producidos en territorio nacional, obtenidos mediante el procedimiento de búsqueda contemplado en el anexo V.\nLos datos trasferidos se limitarán a los estrictamente necesarios para la reclamación del importe de peaje, tasa o precio público adeudado. El organismo autónomo Jefatura Central de Tráfico establecerá a tal fin el oportuno sistema de colaboración con las entidades responsables de la recaudación, para canalizar el suministro de los datos.\n2. Los datos facilitados a la entidad cesionaria, solo podrán ser utilizados en el procedimiento de reclamación del importe del peaje, tasa o precio público adeudado, cualquiera que sea la vía de reclamación, debiendo ser suprimidos una vez haya sido recuperado el importe de peaje, tasa o precio público adeudado y, en todo caso, transcurrido un plazo de tres años desde que dichos datos fueran facilitados, salvo que existiera en curso un procedimiento judicial.\nEn este caso, el procedimiento para la obtención del importe de peaje, tasa o precio público, se ajustará a lo previsto en el artículo 101, siendo la entidad cesionaria la responsable de la ejecución del mismo.\n3. El cumplimiento de la orden de pago emitida por la entidad cesionaria, pondrá fin al procedimiento de reclamación del importe del peaje, tasa o precio público impagado.\n4. Las comunicaciones de estos datos se realizarán exclusivamente por medios electrónicos, de acuerdo con las especificaciones técnicas que establezca el organismo autónomo Jefatura Central de Tráfico.",
+ "fingerprint": "sha256:7e53dca29330672990046157711af44c53f71559b3e3f4490182a5cfbd712bd2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a1-3"
+}

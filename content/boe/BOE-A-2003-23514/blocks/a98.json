@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a98",
+ "tipo": "precepto",
+ "titulo": "Artículo 98",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 98. Normas generales.\n1. Todos los vehículos que circulen entre el ocaso y la salida del sol o a cualquier hora del día en los túneles, pasos inferiores y tramos de vía afectados por la señal «Túnel» (S-5) deben llevar encendido el alumbrado que corresponda de acuerdo con lo que se determina en esta sección.\n2. La regulación de los sistemas de alumbrado que no estén prohibidos, o en todo lo que no esté expresamente previsto en este capítulo o en otros preceptos de este reglamento, se ajustará a lo dispuesto en las normas reguladoras de los vehículos.\n3. (Suprimido)",
+ "fingerprint": "sha256:e575a09662323c4c66b7bcd8471a33e0f4cbbf5ab0fd3e993b7ea40377b6225c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a98"
+}

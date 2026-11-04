@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a59",
+ "tipo": "precepto",
+ "titulo": "Artículo 59",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 59. Requisitos generales.\n1. Los vehículos a utilizar en la realización de las pruebas de control de aptitudes y comportamientos deberán cumplir las prescripciones contenidas en la reglamentación de vehículos y en el anexo VII. A).\n2. Además, los vehículos y, en su caso, los sistemas de comunicación, deberán encontrarse en buen estado de limpieza e higiene, conservación, mantenimiento, eficacia y seguridad, al corriente en las inspecciones técnicas periódicas, provistos de toda la documentación reglamentaria y estar señalizados en la parte delantera y trasera con una placa de las dimensiones y características establecidas en la normativa reguladora de las escuelas particulares de conductores así como en la reglamentación de vehículos.",
+ "fingerprint": "sha256:3ddba4fa8ce46c6226d1fda688d3f774a7969cc14e90eeb876d94a0cecc50858",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a59"
+}

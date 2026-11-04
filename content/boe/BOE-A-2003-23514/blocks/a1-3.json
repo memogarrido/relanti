@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-3",
+ "tipo": "precepto",
+ "titulo": "Artículo 14 bis",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Artículo 14 bis. Comunicación.\nLa organización del evento será responsable de comunicar, por los medios electrónicos que el órgano competente en materia de tráfico y seguridad vial haga constar en la autorización, el inicio y fin efectivo del uso excepcional de la vía, a la autoridad responsable de la gestión del Punto de Acceso Nacional en materia de tráfico y movilidad.",
+ "fingerprint": "sha256:6d637d13f457b4effb0b57495088e786998b24c1308940e13cc36af0209eb0d7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-3"
+}

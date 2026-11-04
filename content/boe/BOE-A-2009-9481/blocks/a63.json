@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a63",
+ "tipo": "precepto",
+ "titulo": "Artículo 63",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 63. Pruebas de control de conocimientos sobre formación teórica.\nTodo conductor que solicite la autorización administrativa especial a que se refiere el artículo 25, o su ampliación, deberá demostrar que posee los conocimientos razonados, la comprensión y las aptitudes necesarias para conducir vehículos que transporten mercancías peligrosas. Para ello, realizará una prueba teórica común y una prueba teórica específica de control de conocimientos que versarán sobre los temas que se indican en el anexo V. C). 1.",
+ "fingerprint": "sha256:cecd7538037fe5617c7143005b854d04a77c66ed6aee9b3b5b124b8c8ab9377a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a63"
+}

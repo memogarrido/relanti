@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A6",
+ "tipo": "precepto",
+ "titulo": "6. Ensayos de homologación para las placas correspondientes a las señales V-3 a V-15, V-20 y V-24",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "6. Ensayos de homologación para las placas correspondientes a las señales V-3 a V-15, V-20 y V-24.\nResistencia a la temperatura:\nSe mantendrá una unidad de muestra, en una atmósfera seca a una temperatura de 65 ± 2 °C, durante un período de 12 horas, después de lo cual se dejará enfriar la muestra durante 1 hora a una temperatura de 23 ± 2 °C. Después se le mantendrá durante 12 horas a una temperatura de -20 ± 2 °C.\nLa muestra será examinada después de un período de recuperación de 4 horas en condiciones normales de laboratorio.\nDespués de esta prueba no deberá presentarse evidencia alguna de fisura o deterioro apreciable en las superficies. El coeficiente de retrorreflexión R´ medido a 5° de ángulo de entrada y 0,33° de ángulo de observación no será menor que el 80% del valor especificado.\nResistencia al agua:\nSe sumergirá una muestra en agua destilada a una temperatura de 23 ± 5 °C durante un período de 18 horas; después se le dejará secar durante 2 horas en condiciones normales de laboratorio.\nUna vez terminada la prueba, se examinará la muestra. Ninguna parte interior, desde 10 mm del borde, deberá mostrar evidencia alguna de deterioro que pudiera reducir el rendimiento de la lámina.\nLimpieza:\nLa muestra, untada con una mezcla de aceite lubricante detergente y grafito, deberá poderse limpiar fácilmente sin dañar las superficies reflectantes o fluorescentes cuando se le limpia con un disolvente alifático suave, como el n-heptano, seguida de un lavado con un detergente neutro.",
+ "fingerprint": "sha256:bdb0f8bf73bbc5185ad530fa724740ee19e0845d75492366c6fe71f67e0c0490",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A6"
+}

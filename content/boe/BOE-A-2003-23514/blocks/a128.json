@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a128",
+ "tipo": "precepto",
+ "titulo": "Artículo 128",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 128. Normas relativas a autopistas y autovías.\nSe prohíbe la circulación de animales por autopistas o autovías (artículo 50.2 del texto articulado).\nDicha prohibición incluye la circulación de vehículos de tracción animal.",
+ "fingerprint": "sha256:3b82c18edddba15e49f44df59f76741b106e242298df31af47ac1e4acb609145",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a128"
+}

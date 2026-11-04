@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a108",
+ "tipo": "precepto",
+ "titulo": "Artículo 108",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 108. Ejecución.\nUna vez firme la sanción en vía administrativa, se procederá a su ejecución conforme a lo previsto en esta ley.",
+ "fingerprint": "sha256:1334d29b22e89de965c06ab6df5de9ff94a0978f809b27a441ecb4a12e46346f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a108"
+}

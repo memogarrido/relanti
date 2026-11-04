@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a7-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 7",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 7. Vehículos de apoyo.\nLa organización dispondrá de vehículos de apoyo suficientes, banderines y medios adecuados para la señalización del recorrido, tanto por lo que respecta a los participantes como al resto de usuarios de la vía, así como de los servicios necesarios para retirar la señalización al terminar la actividad, y desperdicios que ocasionen los avituallamientos, dejando la vía y sus alrededores en el mismo estado que antes de su celebración.",
+ "fingerprint": "sha256:f2ebc69a8f6b759d6471b38140ac11b4b48b67a6520a2262164ed65c98ccd03a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a7-2"
+}

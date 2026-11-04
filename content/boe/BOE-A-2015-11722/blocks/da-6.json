@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "da-6",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional decimoquinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición adicional decimoquinta. Uso de dispositivos alcoholímetros antiarranque.\nA partir del 6 de julio de 2022, los vehículos de categoría M2 y M3 que dispongan de interface normalizada para la instalación de alcoholímetros antiarranque destinados al transporte de viajeros deberán disponer de alcoholímetros antiarranque. Los conductores de estos vehículos vendrán obligados a utilizar estos dispositivos de control del vehículo.",
+ "fingerprint": "sha256:2748d233d5d3918bde684505691c17eb1f9eed8ba7d0545e8ebad3cdc07bd6b3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#da-6"
+}

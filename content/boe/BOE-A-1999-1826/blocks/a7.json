@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a7",
+ "tipo": "precepto",
+ "titulo": "Artículo 7",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-11154",
+  "fecha_publicacion": "20100714",
+  "fecha_vigencia": "20110114"
+ },
+ "text": "Artículo 7. Reformas de importancia.\n1. Como reformas de importancia se entenderán las que se relacionan en la reglamentación que se recoge en el anexo I.\n2. El titular de un vehículo de motor, remolque o semirremolque en el que se haya efectuado una reforma de importancia deberá regularizarla ante el órgano de la Administración competente en materia de industria.\nLa tramitación y regularización de las reformas de importancia se ajustarán a la reglamentación que se recoge en el anexo I.\n3. No se podrán sustituir, añadir o suprimir piezas, elementos o conjuntos sujetos al cumplimiento de algún Reglamento técnico por otros que no cumplan dicha reglamentación o bien no correspondan al vehículo, salvo en los casos contemplados en la reglamentación que se recoge en el anexo I.",
+ "fingerprint": "sha256:d9018b9597736913ee37a6653f5f535aa15fc86ea28a6a0ab20b4ae6bb56617c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a7"
+}

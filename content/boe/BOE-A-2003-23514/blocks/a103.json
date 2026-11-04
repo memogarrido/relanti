@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a103",
+ "tipo": "precepto",
+ "titulo": "Artículo 103",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 103. Alumbrado de placa de matricula.\nTodo vehículo que se encuentre en las circunstancias aludidas en los artículos 99 ó 106 debe llevar siempre iluminada la placa posterior de matrícula y, en su caso, las otras placas o distintivos iluminados de los que reglamentariamente haya de estar dotado, teniendo en cuenta sus características o el servicio que preste.",
+ "fingerprint": "sha256:d238034fcc1601fa70461fb7b546aae4f1cfa5189ad5584a2900dda2c67d22a0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a103"
+}

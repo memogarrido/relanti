@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a45",
+ "tipo": "precepto",
+ "titulo": "Artículo 45",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 45. Boletines de circulación.\n1. Los conductores de los vehículos amparados por el permiso temporal a que se refiere el artículo 44 de este Reglamento deberán llevar, en unión de dicho documento, el correspondiente «Boletín de Circulación», sin el cual aquél carecerá de validez.\n2. Dicho boletín se integrará en libros-talonarios foliados y reconocidos por la Jefatura de Tráfico que expidió el permiso al que correspondan, y su modelo y contenido se ajustarán a lo dispuesto en el anexo XVII.\n3. Los titulares del permiso temporal extenderán por duplicado el boletín correspondiente a cada viaje, datado y con su firma o la del apoderado o encargado autorizado; el original deberá llevarlo el conductor y la copia quedará encuadernada como matriz en su libro-talonario.\n4. Independientemente del control que corresponde efectuar a los agentes de la autoridad en materia de tráfico y circulación de vehículos a motor, las Jefaturas de Tráfico podrán solicitar en cualquier momento del titular del permiso la presentación del libro- talonario que posea en unión de los boletines originales utilizados y sus copias, hasta seis meses después de haber caducado el permiso de que dimanen.",
+ "fingerprint": "sha256:fd94c6a257cb2b8de97f59efeffae465e65c50a175e109e35bbbcb19b0fd104c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a45"
+}

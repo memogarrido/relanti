@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-23",
+ "tipo": "precepto",
+ "titulo": "V-23",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-23 DISTINTIVO DE VEHÍCULOS DE TRANSPORTE DE MERCANCÍAS\n1. Señaliza vehículos largos y pesados, así como sus remolques, tanto en la parte trasera del vehículo como en el lateral del mismo, en función de las masas máximas, longitudes y categorías, conforme se establece en el Reglamento CEPE/ONU 48R.\n2. Estará constituido por un marcado reflectante, homologado según el Reglamento CEPE/ONU 104R e instalado en el vehículo según los requisitos del Reglamento CEPE/ONU 48R, utilizados para incrementar la visibilidad y el reconocimiento de los vehículos de motor o conjuntos de vehículos o sus cargas citados en el apartado 1. Se entiende por distintivo una franja regular o una serie de dichas franjas colocadas de manera tal que identifiquen el contorno o, en su defecto, la longitud y anchura total de un vehículo de motor o conjunto de vehículos o sus cargas cuando sea visto desde un lado o desde atrás.\n3. Ejemplos de distintivos retrorreflectantes.",
+ "fingerprint": "sha256:bbd12e7538c5192b9d102ce7c3d11f092bda555f677381637ae4f9ec18502d52",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-23"
+}

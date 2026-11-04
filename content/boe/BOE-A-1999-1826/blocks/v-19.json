@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-19",
+ "tipo": "precepto",
+ "titulo": "V-19",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2008-5378",
+  "fecha_publicacion": "20080320",
+  "fecha_vigencia": "20080321"
+ },
+ "text": "V-19. DISTINTIVO DE INSPECCIÓN TÉCNICA PERIÓDICA DEL VEHÍCULO\n1. Indica que el vehículo ha superado favorablemente la inspección técnica periódica, así como la fecha en que debe pasar la próxima inspección.\n2. En el caso de vehículos que tengan parabrisas, el distintivo se colocará en el ángulo superior derecho del parabrisas por su cara interior. La cara impresa del distintivo será autoadhesiva.\nEn el resto de los vehículos, el distintivo se colocará en sitio bien visible. La cara sin imprimir del distintivo será autoadhesiva.\n3. Las dimensiones, color y características técnicas de esta señal deberán cumplir lo dispuesto en la reglamentación vigente que se recoge en el anexo I y, en particular, se ajustarán a lo indicado a continuación:\nLas cifras serán del tamaño siguiente (en milímetros):\nAltura de las cifras en los números del mes | 4\nAltura de las cifras en los números del año | 12\nGrosor del trazo en los números del mes | 0,7\nGrosor del trazo en los números del año | 2\nLos colores del fondo y los de los caracteres se determinarán de acuerdo con el año civil en que caduque el plazo de validez de la inspección. Dichos colores son para cada año los que se indican a continuación:\nAño | Fondo | Caracteres\n1998 | Verde | Rojo\n1999 | Amarillo | Rojo\n2000 | Rojo | Amarillo\ny cambiarán sucesivamente según esta secuencia en los años siguientes.\nLos colores de las siglas ITV serán siempre azules.",
+ "fingerprint": "sha256:49c2546a8df768bc3eee4115441a62acbc5a98b8a41bce598a88da4dba76e20b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-19"
+}

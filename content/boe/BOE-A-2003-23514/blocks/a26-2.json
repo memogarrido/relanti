@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a26-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 26",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 26. Requisitos de los responsables de la marcha.\nEl director ejecutivo y el responsable de seguridad vial de la prueba deportiva deberán ser mayores de edad.\nEste último deberá conocer las normas de circulación, para lo cual deberá poseer permiso de conducción en vigencia.\nEl responsable de seguridad vial deberá indicar de modo preciso a cada uno de los miembros del personal auxiliar habilitado la función que deban desempeñar, de acuerdo con el reglamento particular aprobado por la autoridad gubernativa competente.",
+ "fingerprint": "sha256:bca13ac1b1fdf2f783b81e7b04e04e0b946d77d4bbbacb75f4f1da2fe774cad0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a26-2"
+}

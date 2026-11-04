@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a19",
+ "tipo": "precepto",
+ "titulo": "Artículo 19",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 19. Refugios, isletas o dispositivos de guía.\nCuando en la vía existan refugios, isletas o dispositivos de guía, se circulará por la parte de la calzada que quede a la derecha de los mismos, en el sentido de la marcha, salvo cuando estén situados en una vía de sentido único o dentro de la parte correspondiente a un solo sentido de circulación, en cuyo caso podrá hacerse por cualquiera de los dos lados.",
+ "fingerprint": "sha256:862f3b104ff7c845acf3bb3b82ab340bf423d59e09cf74458a62389cdaf652a7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a19"
+}

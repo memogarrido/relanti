@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a69",
+ "tipo": "precepto",
+ "titulo": "Artículo 69",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 69. Nulidad y lesividad.\nLas autorizaciones administrativas reguladas en este título podrán ser objeto de declaración de nulidad o lesividad cuando concurra alguno de los supuestos previstos y de acuerdo con el procedimiento regulado en la normativa sobre procedimiento administrativo común.",
+ "fingerprint": "sha256:5349907ddf68225be49c96d815ee74f9e82ccb4765899468d135edb33a076d2d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a69"
+}

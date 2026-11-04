@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-4",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 3.ª Marcha hacia atrás",
+ "fingerprint": "sha256:890d794ac3973ac0fb4fffb43e0b7b3c9921cdbf60128f6f9a2c167720678a85",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-4"
+}

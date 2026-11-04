@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a24-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 24",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 24. Servicios sanitarios.\n1. La organización dispondrá durante la celebración de la actividad de la presencia obligatoria, como mínimo, de una ambulancia y de un médico para la asistencia de todos los participantes, sin perjuicio de su ampliación con más personal sanitario en la medida que se estime necesario.\n2. En las pruebas cuya participación supere los 750 ciclistas, se contará con un mínimo de dos médicos, dos socorristas y dos ambulancias, y deberá añadirse, como mínimo, una ambulancia y un médico por cada fracción suplementaria de 1.000 participantes.",
+ "fingerprint": "sha256:3d9a9e2d5c130f4861334ac63d397284f9936f19ff45c53a00d7ebbf9c255a1d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a24-2"
+}

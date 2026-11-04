@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "daquinta",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional quinta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional quinta. Condiciones básicas y de accesibilidad para las personas con discapacidad.\nEn todos los ámbitos regulados en el presente reglamento se cumplirán los requisitos exigidos por las disposiciones relativas a la accesibilidad universal de las personas con discapacidad.",
+ "fingerprint": "sha256:c4a79d54ed37dc2dfc32a733e06d37bf74e8932000c9933eab442d50d07d66b8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#daquinta"
+}

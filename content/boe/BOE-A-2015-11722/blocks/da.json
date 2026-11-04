@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "da",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional tercera bis",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición adicional tercera bis. Control de consumo de sustancias que puedan perturbar el desempeño de la conducción profesional.\nEl Gobierno, mediante Real Decreto, en un plazo de veinticuatro meses desde la entrada en vigor de la Ley, previa audiencia del Comité Nacional del Transporte por Carretera, regulará los procedimientos para la realización de controles iniciales, periódicos o aleatorios, durante el ejercicio de la actividad profesional, de alcohol, drogas de abuso y sustancias psicoactivas y medicamentos, al personal que ostente el puesto de conductor de vehículo de transporte de viajeros y mercancías por carretera.\nEn cualquier caso, se deberá garantizar el tratamiento de las muestras y de los resultados de los controles realizados, y regular la actuación en el supuesto de pruebas con resultado positivo.",
+ "fingerprint": "sha256:a61be3367e50dbd3fdf8e35adbcf59506cbeecc82fa460cee669cfc8d715d536",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#da"
+}

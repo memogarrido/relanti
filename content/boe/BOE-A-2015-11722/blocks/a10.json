@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a10",
+ "tipo": "precepto",
+ "titulo": "Artículo 10",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 10. Usuarios, conductores y titulares de vehículos.\n1. El usuario de la vía está obligado a comportarse de forma que no entorpezca indebidamente la circulación, ni cause peligro, perjuicios o molestias innecesarias a las personas o daños a los bienes o al medioambiente.\n2. El conductor debe utilizar el vehículo con la diligencia, precaución y atención necesarias para evitar todo daño, propio o ajeno, cuidando de no poner en peligro, tanto a sí mismo como a los demás ocupantes del vehículo y al resto de usuarios de la vía, especialmente a aquellos cuyas características les hagan más vulnerables.\nEl conductor debe verificar que las placas de matrícula del vehículo no presentan obstáculos que impidan o dificulten su lectura e identificación.\n3. El titular y, en su caso, el arrendatario de un vehículo tiene el deber de actuar con la máxima diligencia para evitar los riesgos que conlleva su utilización, mantenerlo en las condiciones legal y reglamentariamente establecidas, someterlo a los reconocimientos e inspecciones que correspondan e impedir que sea conducido por quien nunca haya obtenido el permiso o la licencia de conducción correspondiente.",
+ "fingerprint": "sha256:4aa7fd56818ebb46d8ce0b210093525a396fc47ec8b0da4b8fb6a1defbdf29bb",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a10"
+}

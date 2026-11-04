@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ss3",
+ "tipo": "encabezado",
+ "titulo": "Subsección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Subsección 3.ª De las señales de indicación",
+ "fingerprint": "sha256:a66b3cb2ec0ed7e7ffe79dc1c624da8de927e11f9d8ed5a098dd6cf8b6a1ce6c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ss3"
+}

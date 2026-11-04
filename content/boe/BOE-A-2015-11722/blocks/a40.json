@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a40",
+ "tipo": "precepto",
+ "titulo": "Artículo 40",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 40. Prohibiciones.\n1. Queda prohibido parar en los siguientes casos:\na) En las curvas y cambios de rasante de visibilidad reducida, en sus proximidades y en los túneles.\nb) En los pasos a nivel, pasos para ciclistas y pasos para peatones.\nc) En los carriles o partes de la vía reservados exclusivamente para la circulación o para el servicio de determinados usuarios.\nd) En las intersecciones y en sus proximidades.\ne) Sobre los raíles de tranvías o tan cerca de ellos que pueda entorpecerse su circulación.\nf) En los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes les afecte u obligue a hacer maniobras.\ng) En autovías o autopistas, salvo en las zonas habilitadas para ello.\nh) En los carriles destinados al uso exclusivo del transporte público urbano, o en los reservados para las bicicletas.\ni) En las zonas destinadas para estacionamiento y parada de uso exclusivo para el transporte público urbano.\nj) En zonas señalizadas para uso exclusivo de personas con discapacidad y pasos para peatones.\n2. Queda prohibido estacionar en los siguientes casos:\na) En todos los descritos en el apartado anterior.\nb) En los lugares habilitados por la autoridad municipal como de estacionamiento con limitación horaria, conforme a la regulación del sistema utilizado para ello, sin disponer del título que lo autorice o cuando, disponiendo de él, se mantenga estacionado el vehículo en exceso sobre el tiempo máximo permitido por la autorización.\nc) En zonas señalizadas para carga y descarga.\nd) En zonas señalizadas para uso exclusivo de personas con discapacidad.\ne) Sobre las aceras, paseos y demás zonas destinadas al paso de los peatones. No obstante, los municipios, a través de ordenanza municipal, podrán regular la parada y el estacionamiento de los vehículos de dos ruedas sobre las aceras y paseos siempre que no se perjudique ni se entorpezca el tránsito de los peatones por ellas, atendiendo a las necesidades de aquellos que puedan llevar algún objeto voluminoso y, especialmente, las de aquellas personas que tengan alguna discapacidad.\nf) Delante de los vados señalizados correctamente.\ng) En doble fila.",
+ "fingerprint": "sha256:1cb63231f3f2ae9a6f698e6c4396c2b75ee3610266e5dcd23304480b445be7ac",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a40"
+}

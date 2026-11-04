@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dfsegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición final segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición final segunda. Habilitación para la modificación de los anexos.\nSe faculta al Ministro del Interior, previo informe de los Ministros competentes por razón de la materia, para modificar por Orden los anexos de este reglamento. La modificación del anexo IV se hará por Orden de la Ministra de la Presidencia a propuesta conjunta de los Ministros del Interior y de Sanidad y Política Social.",
+ "fingerprint": "sha256:d674ca3c44d22fbdeb7d00c0f350223bde8728481edb768c79fcad052a89aded",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dfsegunda"
+}

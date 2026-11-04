@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a5",
+ "tipo": "precepto",
+ "titulo": "Artículo 5",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 5. Homologación de tipo de vehículos de motor, remolques y semirremolques y exenciones.\n1. Todos los vehículos de motor, sus remolques y semirremolques, como condición indispensable para su matriculación ordinaria o turística, deberán corresponder a tipos previamente homologados según la reglamentación que se recoge en el anexo I. En particular, deberán estar homologados en España de acuerdo con el Real Decreto 2140/1985, de 9 de octubre, o en la Unión Europea conforme a las Directivas 70/156/CEE, 74/150/CEE o 92/61/CEE, o en el Espacio Económico Europeo cuando éstas les sean de aplicación.\n2. No obstante lo anterior, quedan eximidos de la homologación de tipo nacional y/o de algunas de las homologaciones parciales, antes de su matriculación ordinaria o turística, los vehículos que se especifican en la reglamentación que se recoge en el anexo I.\n3. El procedimiento para obtener la homologación de tipo y, en su caso, para someterse a la inspección técnica unitaria, se fijará por el Ministerio de Industria y Energía, según se recoge en el citado anexo, teniendo en cuenta, en su caso, los Acuerdos o Tratados Internacionales.",
+ "fingerprint": "sha256:9c6b74c6d542adaa161ca69eeda1d76a64d6f0935e6fbc6f8d6b1870667e5bc6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a5"
+}

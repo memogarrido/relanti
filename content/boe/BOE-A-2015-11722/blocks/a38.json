@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a38",
+ "tipo": "precepto",
+ "titulo": "Artículo 38",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 38. Supuestos especiales.\nCuando un vehículo se encuentre inmovilizado en un tramo de vía en que esté prohibido el adelantamiento, ocupando en todo o en parte la calzada en el carril del sentido de la marcha, y siempre que la inmovilización no responda a las necesidades del tráfico, puede ser rebasado, aunque para ello haya que ocupar parte del carril izquierdo de la calzada. En todo caso, hay que cerciorarse previamente de que la maniobra se puede realizar sin peligro.\nEn estas mismas circunstancias se podrá adelantar a las bicicletas.",
+ "fingerprint": "sha256:2a6e2e6f890f1f7f1b1db5e89cc7414ed38069ebfc7d8492c8159d2648740388",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a38"
+}

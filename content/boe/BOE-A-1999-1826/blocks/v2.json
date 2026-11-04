@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v2",
+ "tipo": "precepto",
+ "titulo": "V-25",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2018-10856",
+  "fecha_publicacion": "20180731",
+  "fecha_vigencia": "20180801"
+ },
+ "text": "V-25 DISTINTIVO AMBIENTAL\n1. Identifica la clasificación ambiental que el vehículo tiene en el Registro de Vehículos: 0 emisiones, ECO, C y B. No se crea distintivo para la categoría A.\n2. La Administración competente podrá establecer la obligatoriedad de la colocación del distintivo en el vehículo, mediante su inclusión expresa en el instrumento normativo que corresponda por razón de su competencia.\n3. Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado en el ángulo inferior derecho del mismo, por su cara interior. La cara impresa del distintivo será autoadhesiva.\nEn el caso de que el vehículo no disponga de parabrisas, el distintivo se colocará en sitio bien visible. En este supuesto, la cara sin imprimir será autoadhesiva.\n4. Los distintivos ambientales son circulares y tienen un diámetro de un máximo de 97 mm para los vehículos que disponen de parabrisas y de un máximo de 87 mm para el resto de vehículos.\n5. Tipos de distintivos ambientales:\na) Distintivo “0 emisiones”:\nSe utilizará por los vehículos clasificados como “0 emisiones”. Se identifica con el siguiente adhesivo, que tiene fondo de color azul:\nb) Distintivo “ECO”:\nSe utilizará por los vehículos clasificados como “ECO”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde y azul:\nc) Distintivo “C”:\nSe utilizará por los vehículos clasificados como “C”. Se identifica con el siguiente adhesivo, que tiene fondo de color verde:\nd) Distintivo “B”\nSe utilizará por los vehículos clasificados como “B”. Se identifica con el siguiente adhesivo, que tiene fondo de color amarillo:",
+ "fingerprint": "sha256:8cdad94b8fe5b9314401d75eb343f5c4408e9bf41f1b1a66b32339a2bb9d94ec",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v2"
+}

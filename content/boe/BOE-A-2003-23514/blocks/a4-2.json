@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a4-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 4. Uso de las vías.\nLas pruebas deportivas se disputarán con el tráfico completamente cerrado a los usuarios ajenos a dicha prueba, y gozarán del uso exclusivo de las vías en el espacio comprendido entre el vehículo de apertura con bandera roja y el de cierre con bandera verde.",
+ "fingerprint": "sha256:e6c1259b562c9d0ae1a48b4b0b7059d190c0d9db4705da365bd59d68257691f1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a4-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a31",
+ "tipo": "precepto",
+ "titulo": "Artículo 31",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 31. Utilización de los carriles, fuera de poblado, en calzadas con más de un carril para el mismo sentido de marcha.\n1. El conductor de un automóvil o de un vehículo especial con masa máxima autorizada superior a 3.500 kilogramos circulará por la calzada y no por el arcén, salvo por razones de emergencia. Además, fuera de poblado, en las calzadas con más de un carril reservado para su sentido de marcha, circulará normalmente por el situado más a su derecha, si bien podrá utilizar el resto de los de dicho sentido cuando las circunstancias del tráfico o de la vía lo aconsejen, a condición de que no entorpezca la marcha de otro vehículo que le siga.\n2. Cuando una de dichas calzadas tenga tres o más carriles en el sentido de su marcha, los conductores de camiones o furgones con masa máxima autorizada superior a 3.500 kilogramos, los de vehículos especiales que no estén obligados a circular por el arcén y los de conjuntos de vehículos de más de siete metros de longitud circularán normalmente por el situado más a la derecha, y podrán utilizar el inmediato con igual condición y en las mismas circunstancias citadas en el apartado anterior.",
+ "fingerprint": "sha256:f3b676cc8073af662c21086045385096211675b0dd60e4ed83f3bd008bfe1659",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a31"
+}

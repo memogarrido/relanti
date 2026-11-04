@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a66",
+ "tipo": "precepto",
+ "titulo": "Artículo 66",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 66. Prioridad de paso de los conductores sobre los animales.\n1. Los conductores tienen prioridad de paso para sus vehículos, respecto de los animales, salvo en los casos siguientes:\na) En las cañadas debidamente señalizadas.\nb) Cuando vayan a girar con su vehículo para entrar en otra vía y haya animales cruzándola, aunque no exista paso para éstos.\nc) Cuando el vehículo cruce un arcén por el que estén circulando animales que no dispongan de cañada (artículo 23.4 del texto articulado).\n2. Las cañadas o pasos de ganado de carácter general se señalizarán por medio de paneles complementarios con la inscripción “cañada”, que se colocarán debajo de la señal “paso de animales domésticos”, recogida en el Catálogo dentro de las “señales de advertencia de peligro”, con su plano perpendicular a la dirección de la circulación y al lado derecho de esta de forma fácilmente visible para los conductores de los vehículos afectados.\nDicha señalización deberá ser complementada con las correspondientes señales de limitación de velocidad.\n3. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:277a59a4157534028d5641f0c5b84dc17def89bd696a63bab616ba28c3b079a2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a66"
+}

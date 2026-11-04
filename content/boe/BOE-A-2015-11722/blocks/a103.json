@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a103",
+ "tipo": "precepto",
+ "titulo": "Artículo 103",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 103. Medidas provisionales.\nEl órgano competente que haya ordenado la incoación del procedimiento sancionador podrá adoptar, mediante acuerdo motivado y en cualquier momento de la instrucción, las medidas provisionales que aseguren la eficacia de la resolución final que pudiera recaer.",
+ "fingerprint": "sha256:370a1cacc4a11a981c3ab45ebfe57837dd7c347991b50468c7e9a8164579c0dd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a103"
+}

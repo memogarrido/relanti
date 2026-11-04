@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a4",
+ "tipo": "precepto",
+ "titulo": "Artículo 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 4. Clasificación de los vehículos.\nLas definiciones, clasificación y categorías de los vehículos a efectos de homologación y de cumplimentación de las tarjetas de inspección técnica o de la documentación necesaria para la matriculación se ajustarán a la reglamentación recogida en los anexos I y II.",
+ "fingerprint": "sha256:ee24f5a021d5bea1e1ed13bb06c30a517e35a34f5e80c031f9ba12744233917f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a4"
+}

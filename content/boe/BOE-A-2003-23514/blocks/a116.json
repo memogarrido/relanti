@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a116",
+ "tipo": "precepto",
+ "titulo": "Artículo 116",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2006-15406",
+  "fecha_publicacion": "20060905",
+  "fecha_vigencia": "20060906"
+ },
+ "text": "Artículo 116. Obligatoriedad de su uso y excepciones.\n1. Los conductores y ocupantes de vehículos a motor y ciclomotores están obligados a utilizar el cinturón de seguridad, el casco y demás elementos de protección en los casos y condiciones que se determinan en este capítulo y en las normas reguladoras de los vehículos, con las excepciones que igualmente se fijan en dicho capítulo, de acuerdo con las recomendaciones internacionales en la materia y atendiendo a las especiales condiciones de los conductores discapacitados.\n2. Las infracciones a las normas de utilización de los cinturones de seguridad, el casco y otros dispositivos de seguridad de uso obligatorio previstos en este capítulo tendrán la consideración de graves, conforme se establece en el artículo 65.4.h) del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.",
+ "fingerprint": "sha256:16aa52c82bf3e1679023ec47a88f1b8773a7d0e551dbdd895109c39618afa9a4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a116"
+}

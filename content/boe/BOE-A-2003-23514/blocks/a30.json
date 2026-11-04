@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a30",
+ "tipo": "precepto",
+ "titulo": "Artículo 30",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 30. Utilización de los carriles en calzadas con doble sentido de circulación.\n1. El conductor de un automóvil o de un vehículo especial con masa máxima autorizada superior a 3.500 kilogramos circulará por la calzada y no por el arcén, salvo por razones de emergencia. Además, deberá atenerse a las reglas siguientes:\na) En las calzadas con doble sentido de circulación y dos carriles, separados o no por marcas viales, circulará por el de su derecha.\nb) En calzadas con doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, circulará también por el de su derecha y, en ningún caso, por el situado más a su izquierda.\nEn dichas calzadas, el carril central tan sólo se utilizará para efectuar los adelantamientos precisos y para cambiar de dirección hacia la izquierda.\n2. Los supuestos de circulación por la izquierda, en sentido contrario al estipulado, tendrán la consideración de infracciones muy graves conforme se prevé en el artículo 65.5.f) del texto articulado.",
+ "fingerprint": "sha256:560233e7616fb6dc7b970f0e0c69cafbbb7c77786836bb589014b50ed2909d91",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a30"
+}

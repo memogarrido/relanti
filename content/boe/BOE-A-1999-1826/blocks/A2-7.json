@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A2-7",
+ "tipo": "precepto",
+ "titulo": "2. Especificaciones",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "2. Especificaciones\n1. Dimensiones de las señales.\nLas dimensiones de las señales, de sus caracteres y de sus impresiones, se ajustarán a las correspondientes en cada figura.\n2. Contraseña de homologación.\nSe marcará en cada señal en el lugar y emplazamiento según consta en las figuras y estará formada por los caracteres Vxx (donde xx corresponde al número asignado a la señal, del 1 al 24, en este anexo XI) y un número correlativo que comenzará con el 001, dentro de un rectángulo de 5 mm de altura por 35 mm de largo.\nSe admitirán señales V-1, V-2, V-3, V-5, V-6, V-16 y V-23, homologadas conforme a los Reglamentos CEPE/ONU números 27, 65, 69, 70 ó 104, siempre que dichas homologaciones hayan sido concedidas por cualquier Parte contratante del Acuerdo de 1958 revisado.",
+ "fingerprint": "sha256:bf3bb87793030a0a0dec57c33f6ba40ee1e3e9ebb43ec99af572fe8d63df2452",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A2-7"
+}

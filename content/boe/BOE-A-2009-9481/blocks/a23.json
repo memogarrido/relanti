@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a23",
+ "tipo": "precepto",
+ "titulo": "Artículo 23",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 23. Procedimiento para solicitar el canje de los permisos de conducción por su permiso equivalente español.\n1. El interesado en proceder al canje de su permiso de conducción por su equivalente español deberá dirigir a la Jefatura Provincial del Tráfico que lo desee, su solicitud en el modelo oficial suscrita por el mismo, acompañada de los documentos que se indican en el anexo III.\n2. A fin de comprobar la autenticidad, validez y vigencia del permiso de conducción, la Jefatura Provincial de Tráfico podrá solicitar los informes que, en atención a las circunstancias, estime procedentes, incluido el certificado emitido por el organismo que lo hubiera expedido, visado y traducido, en su caso, por la correspondiente oficina diplomática o consular, en el que se especifiquen los vehículos cuya conducción autoriza y demás características del permiso.\n3. La Jefatura Provincial de Tráfico a la que se dirija la solicitud, previos los trámites que estime oportunos, concederá o denegará, según proceda, el canje solicitado, circunstancia que, con indicación del país que haya expedido el permiso, los datos de éste y de su titular, se hará constar en el Registro de conductores e infractores. Si en el convenio que, en su caso, existiera no se dispusiera otra cosa, el permiso de conducción original será devuelto al país de expedición.\n4. En el permiso de conducción español expedido como consecuencia del canje, así como en las sucesivas prórrogas de vigencia, duplicados o cualquier otro trámite que se realice con éste, se hará constar la circunstancia de que procede del canje de otro permiso de conducción expedido en un país no comunitario.",
+ "fingerprint": "sha256:5d1388df4434f5cdf768d90b64c1bcaa711dc58fc3c25366cc96f6f37ce5e07f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a23"
+}

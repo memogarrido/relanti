@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a22",
+ "tipo": "precepto",
+ "titulo": "Artículo 22",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2020-13969",
+  "fecha_publicacion": "20201111",
+  "fecha_vigencia": "20210102"
+ },
+ "text": "Artículo 22. Ciclos y bicicletas.\n1. Los ciclos, para poder circular, deberán disponer de:\nUn sistema adecuado de frenado que actúe sobre las ruedas delanteras y traseras.\nUn timbre, prohibiéndose el empleo de otro aparato acústico distinto de aquél.\n2. Además, para circular de noche, por tramos de vías señalizados con la señal de «túnel» o cuando existan condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, los ciclos, exceptuando las bicicletas, deberán disponer de:\nLuz de posición delantera y trasera.\nCatadióptricos traseros y laterales no triangulares.\nCatadióptricos en los pedales.\n3. Los ciclos y las bicicletas de pedales con pedaleo asistido quedan exceptuados de obtener la autorización administrativa a la que se hace referencia en el apartado 1 del artículo 1.\n4. Las bicicletas, para circular de noche, por tramos de vías señalizados con la señal de «túnel» o cuando existan condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, deberán disponer de los siguientes dispositivos: Luz de posición delantera y trasera, catadióptrico trasero, y podrán disponer de: catadióptricos en los radios de las ruedas y en los pedales.",
+ "fingerprint": "sha256:2cd0bf3771296cd404eb165711e796d6057ad12e527ab2828c56de7f7f41c3b4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a22"
+}

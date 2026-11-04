@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "ss1",
+ "tipo": "encabezado",
+ "titulo": "Subsección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Subsección 1.ª Permisos temporales para vehículos no matriculados en España",
+ "fingerprint": "sha256:cdbff0249c2065177732b6eef9d85342aa9e05149d8b0514813e7ba3f2c04207",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#ss1"
+}

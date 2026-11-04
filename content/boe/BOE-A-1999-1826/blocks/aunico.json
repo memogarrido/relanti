@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "aunico",
+ "tipo": "precepto",
+ "titulo": "Artículo único",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo único.\nSe aprueba el Reglamento General de Vehículos cuyo texto se inserta a continuación.",
+ "fingerprint": "sha256:be6b97a5fbcb432a03fce528c10ed65a98285dfb43a6372df239403c64ecc453",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#aunico"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a39",
+ "tipo": "precepto",
+ "titulo": "Artículo 39",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 39. Suspensión cautelar de la vigencia del permiso o de la licencia de conducción.\n1. En el curso de los procedimientos de declaración de nulidad o lesividad o de pérdida de vigencia de las autorizaciones administrativas, se acordará la suspensión cautelar de la vigencia de la autorización de que se trate cuando su mantenimiento entrañe un grave peligro para la seguridad del tráfico o perjudique notoriamente el interés público.\n2. En este caso, el Jefe Provincial de Tráfico acordará, mediante resolución motivada, la intervención inmediata de la autorización, procediendo al mismo tiempo a la práctica de cuantas medidas sean necesarias para impedir el efectivo ejercicio de la conducción, siguiéndose en todo caso el procedimiento, requisitos y exigencias de la Ley 30/1992, de 26 de noviembre, y solicitando el auxilio de las Fuerzas y Cuerpos de Seguridad del Estado cuando fuera necesaria la compulsión sobre las personas.\nLa intervención se llevará a efecto por el agente de la autoridad correspondiente que procederá a la retirada de la autorización al mismo tiempo que notifica al interesado la resolución en que se haya acordado aquélla.\n3. La conducción durante el período de suspensión cautelar de la autorización administrativa será considerada como conducir con la autorización administrativa correspondiente suspendida por sanción.",
+ "fingerprint": "sha256:24a7c52a62200645e4b7353738f1b5dcbcb05d21799f64ceaf7156cd89889218",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a39"
+}

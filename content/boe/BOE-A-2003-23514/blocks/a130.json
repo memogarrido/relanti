@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a130",
+ "tipo": "precepto",
+ "titulo": "Artículo 130",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-4194",
+  "fecha_publicacion": "20210317",
+  "fecha_vigencia": "20210701"
+ },
+ "text": "Artículo 130. Inmovilización del vehículo y caída de la carga.\n1. Si por causa de accidente o avería el vehículo o su carga obstaculizasen la calzada, los conductores, tras señalizar convenientemente el vehículo o el obstáculo creado, adoptarán las medidas necesarias para que sea retirado en el menor tiempo posible, deberán sacarlo de la calzada y situarlo cumpliendo las normas de estacionamiento siempre que sea factible (artículo 51.2 del texto refundido).\n2. Los vehículos que habiendo sufrido un accidente o avería puedan continuar su marcha, lo harán de forma inmediata, asegurándose de circular con seguridad. Si precisaran de un servicio de auxilio, deberán abandonar lo antes posible los carriles de circulación y dirigirse hacia la primera salida disponible utilizando para ello el arcén derecho. Si ello no fuera posible, deberán detenerse en el arcén derecho de la vía o en el lugar donde cause menor obstáculo a la circulación.\n3. En el caso de accidente o avería, como norma general, si el vehículo está inmovilizado sin posibilidad de reemprender la marcha, los ocupantes deberán abandonar el vehículo, siempre que exista un lugar seguro fuera de la plataforma de circulación y, en todo caso, deberán salir del vehículo por el lado contrario al flujo de tráfico sin transitar o permanecer en los carriles y arcenes que conforman dicha plataforma. Si las condiciones de circulación no permitieran a los ocupantes abandonar el vehículo con seguridad, permanecerán en el habitáculo con el cinturón abrochado.\n4. En los supuestos a los que se refieren los apartados anteriores, sin perjuicio de encender la luz de emergencia si el vehículo la lleva y, cuando proceda, las luces de posición y de gálibo, en tanto se deja expedita la vía, todo conductor deberá emplear el dispositivo de preseñalización de peligro reglamentario para advertir dicha circunstancia.\n5. Se prohíbe a los usuarios de las vías cuyo vehículo haya sufrido un accidente cumplimentar el parte de accidente en la plataforma de circulación. Este proceso se llevará a cabo en un lugar seguro fuera de la vía.",
+ "fingerprint": "sha256:a0f08b7c04b63b4ec2415d111b2c6ca09b13ad828f9346b1e642da210221ed45",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a130"
+}

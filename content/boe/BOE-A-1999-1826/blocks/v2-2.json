@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v2-2",
+ "tipo": "precepto",
+ "titulo": "V-26",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2018-10856",
+  "fecha_publicacion": "20180731",
+  "fecha_vigencia": "20180801"
+ },
+ "text": "V-26 DISTINTIVO DE USO COMPARTIDO\n1. Identifica la clasificación del vehículo en el Registro de Vehículos como vehículo de uso compartido.\n2. La Administración competente podrá establecer la obligatoriedad de la colocación del distintivo en el vehículo, mediante su inclusión expresa en el instrumento normativo que corresponda por razón de su competencia.\n3. Si el vehículo dispone de parabrisas delantero, el distintivo irá colocado preferentemente en el ángulo superior izquierdo del mismo, por su cara interior.\nEn el caso de que el vehículo no disponga de parabrisas, el distintivo se colocará en sitio bien visible. En este supuesto, la cara sin imprimir será autoadhesiva.\n4. El distintivo es circular y tiene un diámetro de un máximo de 97 mm para los vehículos que disponen de parabrisas y de un máximo de 87 mm para el resto de vehículos. El modelo es el siguiente, que tiene fondo de color azul:",
+ "fingerprint": "sha256:31eec993680313ae5859fd84a67ea86040b9d91c8689a0d9bb085445fd45367a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v2-2"
+}

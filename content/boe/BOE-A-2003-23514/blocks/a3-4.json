@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a3-4",
+ "tipo": "precepto",
+ "titulo": "Artículo 35",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Artículo 35. Eventos que precisan autorización.\nEn el supuesto de que la actividad precisara el cierre total o parcial a la circulación de una vía [párrafo d) del apartado 2 anterior], el organismo autónomo Jefatura Central de Tráfico o, en su caso, la autoridad autonómica o local responsable de la regulación del tráfico deberá emitir resolución expresa autorizando o denegando dicho cierre, a la que se acompañarán las instrucciones de ordenación y regulación del tráfico correspondientes. Esta resolución se podrá emitir como máximo hasta el día antes del inicio de la actividad y el silencio administrativo tendrá efecto desestimatorio en relación con su impacto sobre el dominio y servicio público de las vías de circulación.",
+ "fingerprint": "sha256:03286f0682343900bb9911b06d0496861f5acdabcf058dd53a24055d5462fb04",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3-4"
+}

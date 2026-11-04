@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a100",
+ "tipo": "precepto",
+ "titulo": "Artículo 100",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20151101"
+ },
+ "text": "Artículo 100. Intercambio de datos.\n1. El organismo autónomo Jefatura Central de Tráfico, salvo que se constate que la petición de datos no es conforme a lo establecido en este capítulo, facilitará a los órganos competentes para sancionar en materia de tráfico los datos relativos al propietario o titular del vehículo con el que se cometió la infracción en territorio nacional con un vehículo matriculado en otro Estado miembro de la Unión Europea, así como los relativos al propio vehículo que se encuentren disponibles en el registro correspondiente del Estado de matriculación, obtenidos a partir de los datos de búsqueda contemplados en el anexo V.\n2. Las comunicaciones de datos se realizarán exclusivamente por medios electrónicos, de acuerdo con las especificaciones técnicas que establezca el organismo autónomo Jefatura Central de Tráfico.",
+ "fingerprint": "sha256:85be632220cb51c38141af89eed63726ac5431a8774838d53699211e59b1e7a6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a100"
+}

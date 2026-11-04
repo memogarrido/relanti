@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a97",
+ "tipo": "precepto",
+ "titulo": "Artículo 97",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20151101"
+ },
+ "text": "Artículo 97. Procedimiento para el intercambio transfronterizo de información.\n1. Se establece el procedimiento para el intercambio transfronterizo de información sobre infracciones de tráfico cuando se cometan con un vehículo matriculado en un Estado miembro de la Unión Europea distinto de aquél en el que se cometió la infracción.\n2. El tratamiento de los datos de carácter personal derivado del intercambio transfronterizo de información se efectuará conforme a lo dispuesto en la normativa sobre protección de datos de carácter personal.",
+ "fingerprint": "sha256:5c406f17b0863655c391396b26fdf4f3efc76f56c9e1fcc0e9baccce3ecbf59e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a97"
+}

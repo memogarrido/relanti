@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a90",
+ "tipo": "precepto",
+ "titulo": "Artículo 90",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 90. Práctica de la notificación de las denuncias.\n1. Las Administraciones con competencias sancionadoras en materia de tráfico notificarán las denuncias que no se entreguen en el acto y las demás notificaciones a que dé lugar el procedimiento sancionador en la Dirección Electrónica Vial (DEV).\nEn el caso de que el denunciado no la tuviese, la notificación se efectuará en el domicilio que expresamente hubiese indicado para el procedimiento, y en su defecto, en el domicilio que figure en los registros del organismo autónomo Jefatura Central de Tráfico.\n2. La notificación en la Dirección Electrónica Vial (DEV) permitirá acreditar la fecha y hora en que se produzca la puesta a disposición del denunciado del acto objeto de notificación, así como el acceso a su contenido, momento a partir del cual la notificación se entenderá practicada a todos los efectos legales.\nSi existiendo constancia de la recepción de la notificación en la Dirección Electrónica Vial (DEV), transcurrieran diez días naturales sin que se acceda a su contenido, se entenderá que aquélla ha sido rechazada, salvo que de oficio o a instancia del destinatario se compruebe la imposibilidad técnica o material del acceso. El rechazo se hará constar en el procedimiento sancionador, especificándose las circunstancias del intento de notificación, y se tendrá por efectuado el trámite, continuándose el procedimiento.\n3. Cuando la notificación se practique en el domicilio del interesado, de no hallarse presente éste en el momento de entregarse, podrá hacerse cargo de la misma cualquier persona que se encuentre en el domicilio y haga constar su identidad.\nSi nadie se hiciera cargo de la notificación, se dejará constancia de esta circunstancia en el procedimiento sancionador, junto con el día y la hora en que se intentó, y se practicará de nuevo dentro de los tres días siguientes. Si tampoco fuera posible la entrega, se dará por cumplido el trámite, procediéndose a la publicación en el Boletín Oficial del Estado.\nSi estando el interesado en el domicilio rechazase la notificación, se hará constar en el procedimiento sancionador, especificándose las circunstancias del intento de notificación, teniéndose por efectuado el trámite y continuándose el procedimiento.",
+ "fingerprint": "sha256:e151d704afa1001ecdb12fb4824d23447980ae2d4ce8c38410c9c6ca2a1c17d6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a90"
+}

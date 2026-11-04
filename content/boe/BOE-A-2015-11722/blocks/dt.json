@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dt",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria cuarta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición transitoria cuarta. Recuperación o bonificación de puntos por la superación de cursos de conducción segura y eficiente.\nLa superación de cursos de conducción segura y eficiente no conllevará la recuperación o bonificación de dos puntos en los términos previstos en el artículo 63.5, hasta que entre en vigor la orden por la que se determine su contenido y requisitos de acuerdo con lo dispuesto en el anexo VIII.",
+ "fingerprint": "sha256:1e1064e8c4edd2c87c9510adb2bf61d62631a108699c5502832c138fed5ab6e7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dt"
+}

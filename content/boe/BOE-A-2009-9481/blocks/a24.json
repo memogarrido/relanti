@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a24",
+ "tipo": "precepto",
+ "titulo": "Artículo 24",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 24. Obtención de permiso de conducción español.\n1. Los miembros de las Misiones Diplomáticas, de las Oficinas Consulares y de las organizaciones internacionales con sede u oficina en España de países no comunitarios acreditados en España, así como sus ascendientes, descendientes y cónyuge, siempre que sean titulares de un permiso de conducción equivalente, podrán obtener cualquiera de los permisos enumerados en el artículo 4 sin necesidad de abonar tasas ni realizar las correspondientes pruebas de aptitud para verificar sus conocimientos teóricos y prácticos, a condición de reciprocidad.\n2. A la solicitud, que se dirigirá al Ministerio de Asuntos Exteriores y de Cooperación, se acompañarán los documentos indicados en el anexo III. Este Departamento, una vez comprobado que concurren los requisitos exigidos, la remitirá a la Jefatura Provincial de Tráfico de Madrid para su tramitación, en unión de la documentación requerida.",
+ "fingerprint": "sha256:086ae92c571501e531e559f956042441deded539ff9c12e858fe408338d2c0de",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a24"
+}

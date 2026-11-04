@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a81",
+ "tipo": "precepto",
+ "titulo": "Artículo 81",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 81. Ejecución de la maniobra.\n1. La maniobra de marcha hacia atrás deberá efectuarse lentamente, después de haberlo advertido con las señales preceptivas y de haberse cerciorado, incluso apeándose o siguiendo las indicaciones de otra persona, si fuera necesario, de que, por las circunstancias de visibilidad, espacio y tiempo necesarios para efectuarla, no va a constituir peligro para los demás usuarios de la vía (artículo 31.2 del texto articulado).\n2. El conductor de un vehículo que pretenda dar marcha hacia atrás deberá advertir su propósito en la forma prevista en el artículo 109.\n3. Igualmente, deberá efectuar la maniobra con la máxima precaución y detendrá el vehículo con toda rapidez si oyera avisos indicadores o se apercibiera de la proximidad de otro vehículo o de una persona o animal, o tan pronto lo exija la seguridad, desistiendo de la maniobra si fuera preciso.",
+ "fingerprint": "sha256:5ee5b96393dfa94f7bb871d357c31e56857a92271da42c619cc7a59704114999",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a81"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s1",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 1.ª De los permisos expedidos en Estados miembros de la Unión Europea o en Estados Parte del Acuerdo sobre el Espacio Económico Europeo",
+ "fingerprint": "sha256:7867ef6baf35cfe9692be61a32fa74daf5daaf9c9f2b516065c577e9a4a64d10",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s1"
+}

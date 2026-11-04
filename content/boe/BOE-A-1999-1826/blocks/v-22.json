@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-22",
+ "tipo": "precepto",
+ "titulo": "V-22",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-22 CARTEL AVISADOR DE ACOMPAÑAMIENTO DE CICLISTA\n1. Indica la circulación próxima de ciclistas.\n2. Deberán llevar en todo momento esta señal los vehículos cuando circulen solo en función y servicio de acompañamiento a la circulación de ciclistas.\n3. Irá colocada en la parte superior del vehículo de acompañamiento, de forma vertical y sujeta de tal modo que se evite el riesgo de caída. Se instalará como elemento supletorio adicional (movible).\n4. Esta señal tendrá inscrita en la parte izquierda la señal P-22 y en la parte derecha, la palabra CICLISTAS, debiendo ajustarse sus dimensiones, color, contenido y características técnicas a lo que se indica a continuación:\n5. La señal V-2 podrá ir incorporada a esta señal formando un conjunto.",
+ "fingerprint": "sha256:871e08e8c49f199dbe9bd51a5f67988478680c1f4d656b28ced8306f04ee4365",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-22"
+}

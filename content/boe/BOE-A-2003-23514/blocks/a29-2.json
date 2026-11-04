@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a29-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 29",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 29. Prohibiciones.\nComo norma general, está prohibido el seguimiento de coches de los participantes. Sólo los vehículos autorizados expresamente y con la autorización situada en lugar visible pueden circular detrás de los grupos de ciclistas.",
+ "fingerprint": "sha256:cf2d67f605a2e536f6180f8c1f3505046dbc66c432fe99f69104d38486f1998b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a29-2"
+}

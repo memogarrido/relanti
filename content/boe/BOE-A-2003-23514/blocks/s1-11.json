@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-11",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Generalidades",
+ "fingerprint": "sha256:54492fd691f7c1ceeb8ba345a2af42d6119c4a6206e014a124a4d868d1c53da8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-11"
+}

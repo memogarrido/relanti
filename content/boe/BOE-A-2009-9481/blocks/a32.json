@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a32",
+ "tipo": "precepto",
+ "titulo": "Artículo 32",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 32. Requisitos para obtener el permiso internacional para conducir.\nPara obtener el permiso internacional para conducir se requerirá:\na) Tener la residencia normal en España.\nb) Ser titular de un permiso de conducción nacional de igual clase que la del internacional que solicita, válido y en vigor, o de un permiso expedido en otro Estado miembro de la Unión Europea o en otro Estado parte del Acuerdo sobre el Espacio Económico Europeo que previamente ha de ser inscrito en el Registro de conductores e infractores.\nc) No estar privado por resolución judicial del derecho a conducir vehículos de motor y ciclomotores, ni hallarse sometido a suspensión o intervención administrativa del permiso nacional que se posea.",
+ "fingerprint": "sha256:23740a6ee749a43a40cb7bfce206466a019f0b7d8aea45f2b9b849deb205f0fa",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a32"
+}

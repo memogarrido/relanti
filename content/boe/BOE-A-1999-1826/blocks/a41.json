@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a41",
+ "tipo": "precepto",
+ "titulo": "Artículo 41",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 41. Vehículos históricos.\nLas normas que regulan los requisitos y el procedimiento para que un vehículo sea declarado histórico, así como para su matriculación y circulación por las vías públicas, están contenidas en la reglamentación que se recoge en el anexo I.",
+ "fingerprint": "sha256:798fe393433e8008de5b3bbf345414e4c01e97f3e03ad7124fcbc419f84fb160",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a41"
+}

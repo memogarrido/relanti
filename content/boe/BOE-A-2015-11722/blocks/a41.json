@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a41",
+ "tipo": "precepto",
+ "titulo": "Artículo 41",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 41. Normas generales.\n1. El conductor debe extremar la prudencia y reducir la velocidad al aproximarse a un paso a nivel o a un puente levadizo.\n2. El usuario que al llegar a un paso a nivel o a un puente levadizo lo encuentre cerrado o con la barrera o semibarrera en movimiento, debe detenerse en el carril correspondiente hasta que tenga paso libre.\n3. El cruce de la vía férrea debe realizarse sin demora y después de haberse cerciorado de que, por las circunstancias de la circulación o por otras causas, no existe riesgo de quedar inmovilizado dentro del paso.\n4. Los pasos a nivel y puentes levadizos estarán debidamente señalizados por el titular de la vía.",
+ "fingerprint": "sha256:511acaa83fb27c60e9dd29a558d60d3f653f98b37dc1ec2c96182da534c3414f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a41"
+}

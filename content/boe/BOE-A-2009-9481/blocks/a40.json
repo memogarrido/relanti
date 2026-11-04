@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a40",
+ "tipo": "precepto",
+ "titulo": "Artículo 40",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 40. Efectos de la declaración de nulidad, lesividad, pérdida de vigencia o suspensión cautelar del permiso o de la licencia de conducción.\n1. La declaración de nulidad o lesividad, de pérdida de vigencia por la desaparición de alguno de los requisitos exigidos para su otorgamiento, la suspensión cautelar y, en su caso, la intervención, podrá afectar a una o más clases del permiso o licencia de conducción que posea el titular. En todo caso, en el procedimiento que se instruya deberá indicarse claramente la clase o las clases del permiso o licencia de conducción afectados.\nDe no afectar a todas ellas, la Jefatura Provincial de Tráfico, de oficio, entregará al interesado un nuevo documento en el que conste la clase o clases del permiso o de la licencia de conducción no afectados.\n2. La declaración de nulidad o lesividad, de pérdida de vigencia por la desaparición de alguno de los requisitos exigidos para su otorgamiento, o la suspensión cautelar y, en su caso, la intervención, llevará consigo la de cualquier otro certificado, autorización administrativa o documento cuyo otorgamiento dependa de la vigencia de la clase o las clases del permiso o licencia de conducción objeto del procedimiento.\n3. La declaración de pérdida de vigencia por haber perdido el titular del permiso o de la licencia de conducción la totalidad del crédito de puntos, o por haber sido condenado a la pena de privación del derecho a conducir vehículos de motor y ciclomotores por tiempo superior a dos años, afectará a todas las clases del permiso o licencia de conducción de que sea titular, así como a cualquier otro certificado, autorización administrativa o documento cuyo otorgamiento dependa de la vigencia de la clase o de las clases del permiso o licencia de conducción objeto del procedimiento.\nNo obstante, una vez obtenido nuevamente un permiso o licencia de conducción de la misma clase de la que era titular, siguiendo el procedimiento establecido en su caso, también se obtendrán de nuevo, siempre que no haya transcurrido el plazo de vigencia otorgado cuando le fueron expedidos, los certificados, autorizaciones administrativas o documentos cuyo otorgamiento dependan de la vigencia de la clase o de las clases del permiso o licencia de conducción recuperados.",
+ "fingerprint": "sha256:796b248f7c6582318ef61c8246af4ec177b2dbf17af02f738a4087fcc3513a31",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a40"
+}

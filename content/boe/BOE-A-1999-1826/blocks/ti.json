@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "ti",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "TÍTULO I\nNormas generales",
+ "fingerprint": "sha256:db9fc02e6e468a462689a38558cb2f3439904c515d593d142e8c2e35fe37e319",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#ti"
+}

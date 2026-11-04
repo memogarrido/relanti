@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a33",
+ "tipo": "precepto",
+ "titulo": "Artículo 33",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 33. Utilización de los carriles, en poblado, en calzadas con más de un carril reservado para el mismo sentido de marcha.\nCuando se circule por calzadas de poblados con al menos dos carriles reservados para el mismo sentido, delimitados por marcas longitudinales, excepto si se trata de autopistas o autovías, el conductor de un automóvil o de un vehículo especial podrá utilizar el que mejor convenga a su destino, siempre que no sea un obstáculo a la circulación de los demás vehículos, y no deberá abandonarlo más que para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+ "fingerprint": "sha256:06966ac23f6f28ebad1877da1dab569e6e591ad2e5f79a02dea3879d0af60f0b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a33"
+}

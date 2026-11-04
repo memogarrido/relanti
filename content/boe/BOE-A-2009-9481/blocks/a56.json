@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a56",
+ "tipo": "precepto",
+ "titulo": "Artículo 56",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 56. Duración de las pruebas.\nEl tiempo destinado a la realización de las pruebas de control de conocimientos y de control de aptitudes y comportamientos será el que se establece en el anexo VI. B).2 y C).2.",
+ "fingerprint": "sha256:29048fcbac10b5de8c10652e68433f0a51599d79c1044de583778f43c060db16",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a56"
+}

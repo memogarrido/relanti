@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a20",
+ "tipo": "precepto",
+ "titulo": "Artículo 20",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 20. Circulación en autopistas y autovías.\n1. Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores, vehículos de movilidad personal y vehículos para personas de movilidad reducida.\nNo obstante lo dispuesto en el párrafo anterior, los conductores de bicicletas podrán circular por los arcenes de las autovías, salvo que, por razones de seguridad vial, se prohíba mediante la señalización correspondiente.\n2. La circulación por autopistas o autovías sujetas a peaje, tasa o precio público requerirá el pago del correspondiente peaje, tasa o precio público.",
+ "fingerprint": "sha256:1be8900b9e4176308e708b588ad4f42205cc7cd0cce1800b41dbb3c65f373e70",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a20"
+}

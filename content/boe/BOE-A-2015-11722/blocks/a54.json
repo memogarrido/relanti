@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a54",
+ "tipo": "precepto",
+ "titulo": "Artículo 54",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 54. Preferencia.\n1. El orden de preferencia entre los distintos tipos de señales de circulación es el siguiente:\na) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tengan encomendadas.\nb) Señalización circunstancial que modifique el régimen normal de utilización de la vía.\nc) Semáforos.\nd) Señales verticales de circulación.\ne) Marcas viales.\n2. En el caso de que las prescripciones indicadas por diferentes señales parezcan estar en contradicción entre sí, prevalecerá la preferente, según el orden a que se refiere el apartado anterior, o la más restrictiva si se trata de señales del mismo tipo.",
+ "fingerprint": "sha256:1412faa0aa7ddbaec01cd040bc707e3b6789452006f366fee19c490676100b03",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a54"
+}

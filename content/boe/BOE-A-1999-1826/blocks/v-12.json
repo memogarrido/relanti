@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-12",
+ "tipo": "precepto",
+ "titulo": "V-12",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-12. PLACA DE ENSAYO O INVESTIGACIÓN\n1. Indica que el vehículo está efectuando pruebas especiales o ensayos de investigación.\n2. Esta señal se colocará, una en la parte anterior y otra en la posterior del vehículo, al lado de la placa de matrícula.\n3. En la señal deberán figurar las letras F.V. embutidas, y sus dimensiones, color características técnicas se ajustarán a lo dispuesto a continuación:\nDimensiones (mm) de las placas anterior y posterior | Motocicletas, vehículos para personas de movilidad reducida y vehículos de tres ruedas y cuatriciclos | Demás vehículos\nLongitud de la placa | 150 | 187,5\nAltura de la placa | 75 | 100\nAltura de las letras | 50 | 66,5\nAnchura de las letras | 45 | 50\nEspacio entre letras | 20 | 29\nGrueso uniforme del trazo | 6 | 6,5\nLÁMINA RETRORREFLECTANTE | Fondo: ROJO NIVEL 2 Caracteres: BLANCO MATE.\nMATERIAL DEL SUSTRATO | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.\nBORDÓN | Exteriormente a la superfície reflectante y en todo su contorno, las placas llevarán un reborde (bordón) con una embutición de 08 ± 0.2 mm, pintado en negro, plano de 5 mm.",
+ "fingerprint": "sha256:fcc697f9088390da2bb6e9e9096787fc8c91bcaa054e19be22faaf310a34aa82",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-12"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a33-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 33",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Artículo 33. Eventos que precisan autorización.\nLos eventos de vehículos a los que se refiere el artículo anterior que precisen el cierre total o parcial a la circulación de una vía serán considerados pruebas deportivas y deberán ser autorizados conforme a lo dispuesto en el artículo 2 de la sección 1.ª, si bien, sólo será exigible el seguro de responsabilidad civil.\nEl responsable del evento está obligado a comunicar por los medios electrónicos que el órgano competente en materia de tráfico y seguridad vial haga constar en la autorización, o por cualquier otro medio, a la autoridad competente en materia de tráfico y seguridad vial, el inicio y fin efectivo de la afección a la circulación de la vía a la autoridad responsable de la gestión del Punto de Acceso Nacional en materia de tráfico y movilidad.",
+ "fingerprint": "sha256:c5dbb99a18d5995f155218e7aa3c777f309085cf7c7cefc6525a74c26c4e9df3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a33-2"
+}

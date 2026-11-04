@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A1-7",
+ "tipo": "precepto",
+ "titulo": "1. Materiales",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "1. Materiales\n1. El conjunto de la señal estará formado por los materiales que se especifican en cada una de las figuras desarrolladas.\n2. En aquellas señales con recubrimiento o lámina reflectante de nivel 2, éste será aplicado a un sustrato pintado o no.\n3. Cuando por las características mecánicas del material de sustrato sea exigible un reborde (bordón) en la placa, éste se ajustará a lo dispuesto para el reborde en la figura de la señal correspondiente.\n4. Cuando en alguna de las señales deban figurar caracteres embutidos, el relieve tendrá una altura sobre el fondo de 0,9+0,3/–0,4 mm. Se pintará antes o después de la embutición, utilizando exclusivamente tintas de secado forzado.\nSe efectuará un ensayo de frotamiento con las siguientes características:\nResistencia del pintado al frotamiento:\nCon una muestra de 100 × 100 mm pintada del color de los caracteres, en plano, se sitúa un algodón empapado en acetona y encima un peso de 4 kg, efectuándose un deslizamiento de 10 cm a derecha e izquierda consecutivamente hasta superar 30 pasadas. El ensayo se considerará superado si una vez finalizado no aparecen signos apreciables de deterioro de la pintura.\n5. Si se trata de caracteres sin embutición efectuados en el reflectante, se podrán realizar con cualquier medio de impresión que garantice los requisitos de color y retrorreflexión exigidos.\n6. En el caso de las balizas de la señal V-24 grúa de servicio de auxilio en carretera, el ensayo de la resistencia de la impresión en la señal se hará de acuerdo con el siguiente procedimiento:\nCon una muestra de 200 × 100 mm. pintada como la señal, en plano, se sitúa un algodón empapado en acetona y encima un peso de 4 kg, efectuándose un deslizamiento de 10 cm. a derecha e izquierda consecutivamente hasta superar 30 pasadas. El ensayo se considerará superado si una vez finalizado no aparecen signos apreciables de deterioro de la pintura.",
+ "fingerprint": "sha256:0410555a804d90d87433314ef2fad5d8b3a0e699971dee5b4fb8680bc8c79c2a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A1-7"
+}

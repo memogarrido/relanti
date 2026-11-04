@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a65",
+ "tipo": "precepto",
+ "titulo": "Artículo 65",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 65. Recuperación de puntos.\n1. Transcurridos dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que lleven aparejada la pérdida de puntos, el titular de un permiso o licencia de conducción afectado por la pérdida parcial de puntos recuperará la totalidad del crédito inicial de doce puntos.\n2. Los titulares de un permiso o licencia de conducción a los que se hace referencia en los párrafos a) y b) del apartado 2 del artículo 63, transcurrido el plazo de dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que impliquen la pérdida de puntos, pasarán a disponer de un total de doce puntos.\n3. La pérdida de puntos únicamente se producirá cuando el hecho del que se deriva la detracción de puntos se produzca con ocasión de la conducción de un vehículo para el que se exija permiso o licencia de conducción.\n4. El titular de un permiso o licencia de conducción que haya perdido una parte del crédito inicial de puntos asignado, podrá optar a su recuperación parcial, hasta un máximo de seis puntos, por una sola vez cada dos años, realizando y superando con aprovechamiento un curso de sensibilización y reeducación vial, con la excepción de los conductores profesionales que podrán realizar el citado curso con frecuencia anual.\nEn todo caso, la duración de los citados cursos será como máximo de quince horas.",
+ "fingerprint": "sha256:2dce932bc419c4cd2a7ee5730fa06cad9681e1333b1ebc19c06b4fa4430b3112",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a65"
+}

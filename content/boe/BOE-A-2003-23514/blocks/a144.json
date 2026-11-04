@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a144",
+ "tipo": "precepto",
+ "titulo": "Artículo 144",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 144. Señales de advertencia de peligro. Objeto y tipos.\n1. Las señales de advertencia de peligro tienen por objeto indicar a los usuarios de la vía la proximidad y naturaleza de un peligro difícil de ser percibido a tiempo con objeto de que se cumplan las normas de comportamiento que, en cada caso, sean procedentes.\n2. La distancia entre la señal y el principio del tramo peligroso podrá indicarse en un panel complementario.\n3. Asimismo mediante un panel complementario podrá indicarse la longitud a lo largo de la cual existe el peligro indicado por la señal.\n4. Cuando se trate de señales luminosas, podrá admitirse que los símbolos aparezcan iluminados en blanco sobre fondo oscuro no luminoso.\n5. La forma, color, diseño y significado de las señales, así como las dimensiones de las mismas en función de cada tipo de vía y sistemas de colocación se regulan en el apartado 5 del anexo I.",
+ "fingerprint": "sha256:02bdb2ead22d35030474c5ca51c6dd2be3a620440892a067dd3907e1591c6c02",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a144"
+}

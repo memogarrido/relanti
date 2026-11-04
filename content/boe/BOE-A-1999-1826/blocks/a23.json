@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a23",
+ "tipo": "precepto",
+ "titulo": "Artículo 23",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 23. Vehículos de tracción animal.\n1. Los vehículos de tracción animal, cualquiera que sea el uso a que se destinen, sólo podrán circular por las vías públicas cuando vayan provistos de ruedas neumáticas o de elasticidad similar.\n2. Los vehículos de tracción animal que lleven galgas tendrán éstas dispuestas de tal manera que en ningún caso sobresalgan más de 10 centímetros de la parte más saliente del vehículo.\n3. Las cadenas y demás accesorios movibles o colgantes deben ir sujetos al vehículo en forma que en sus oscilaciones no puedan salir del contorno del mismo ni arrastrar por el suelo.\n4. Los vehículos de tracción animal de dos ruedas deben llevar tentemozos adecuados.\n5. Los dispositivos obligatorios de alumbrado y señalización óptica, que se regulan en la reglamentación que se recoge en los anexos I y X, para los vehículos de tracción animal cuando circulen de noche, por tramos de vías señalizados con la señal de «túnel» o con condiciones meteorológicas o ambientales que disminuyan sensiblemente la visibilidad, son los especificados a continuación:\nLuz de posición delantera.\nLuz de posición trasera.\nCatadióptricos traseros no triangulares.\nSi el vehículo de tracción animal llevase luces a ambos lados, serán iguales y simétricas, y si las tuviese en un solo lado, irán situadas en el izquierdo del sentido de la marcha.\nLos catadióptricos estarán situados lo más cerca que sea posible a los extremos del vehículo.",
+ "fingerprint": "sha256:ad8350ccc30047bfcba485da68817ea6b7e9454b0819a326b37515904405f9c6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a23"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a119",
+ "tipo": "precepto",
+ "titulo": "Artículo 119",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 119. Exenciones.\n1. No obstante lo dispuesto en el artículo 117, podrán circular sin los cinturones u otros sistemas de retención homologados:\na) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento.\nb) Las personas provistas de un certificado de exención por razones médicas graves o discapacitadas. Este certificado deberá ser presentado cuando lo requiera cualquier agente de la autoridad responsable del tráfico.\nTodo certificado de este tipo expedido por la autoridad competente de un Estado miembro de la Unión Europea será válido en España acompañado de su traducción oficial.\n2. La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia.\nNo obstante, lo dispuesto en el párrafo anterior, los pasajeros de las ambulancias asistenciales, acondicionadas para permitir asistencia técnico-sanitaria en ruta, estarán exentos de la utilización del cinturón de seguridad en todo tipo de vías cuando, en servicio de urgencia, ocupen el habitáculo del paciente para prestar asistencia sanitaria en ruta.\nCuando los taxis circulen en tráfico urbano o áreas urbanas de grandes ciudades podrán transportar a personas cuya estatura no alcance los 135 centímetros sin utilizar un dispositivo de retención homologado adaptado a su talla y a su peso, siempre que ocupen un asiento trasero.\n3. (Suprimido)",
+ "fingerprint": "sha256:73e9cfde3496c391b7277c2b6689390f5e0bfa384584c95060a512a95c500192",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a119"
+}

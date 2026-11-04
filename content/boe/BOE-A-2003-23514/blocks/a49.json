@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a49",
+ "tipo": "precepto",
+ "titulo": "Artículo 49",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 49. Velocidades mínimas en poblado y fuera de poblado.\n1. No se deberá entorpecer la marcha normal de otro vehículo circulando sin causa justificada a velocidad anormalmente reducida. A estos efectos, se prohíbe la circulación en autopistas y autovías de vehículos a motor a una velocidad inferior a 60 kilómetros por hora, y en las restantes vías, a una velocidad inferior a la mitad de la genérica señalada para cada categoría de vehículos de cada una de ellas en este capítulo, aunque no circulen otros vehículos.\n2. Se podrá circular por debajo de los límites mínimos de velocidad en los casos de vehículos especiales y de vehículos en régimen de transporte especial o cuando las circunstancias del tráfico, del vehículo o de la vía impidan el mantenimiento de una velocidad superior a la mínima sin riesgo para la circulación, así como en los supuestos de protección o acompañamiento a otros vehículos en que se adecuará la velocidad a la del vehículo acompañado.\nEn estos casos los vehículos de acompañamiento deberán llevar en la parte superior las señales V-21 o V-22, según proceda, previstas en el anexo XI del Reglamento General de Vehículos.\n3. Cuando un vehículo no pueda alcanzar la velocidad mínima exigida y exista peligro de alcance, se deberán utilizar durante la circulación las luces indicadoras de dirección con señal de emergencia.\n4. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en los artículos 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:17c0d9a5ad6c49048d64b9036da1c46c20f09e861df187d69dcc42c98c5d1671",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a49"
+}

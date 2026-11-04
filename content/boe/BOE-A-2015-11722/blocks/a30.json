@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a30",
+ "tipo": "precepto",
+ "titulo": "Artículo 30",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 30. Cambios de vía, calzada y carril.\n1. El conductor de un vehículo que pretenda girar a la derecha o a la izquierda para utilizar una vía distinta de aquella por la que circula, para incorporarse a otra calzada de la misma vía o para salir de la misma, debe advertirlo previamente y con suficiente antelación a los conductores de los vehículos que circulan detrás del suyo y cerciorarse de que la velocidad y la distancia de los vehículos que se acerquen en sentido contrario le permiten efectuar la maniobra sin peligro, absteniéndose de realizarla de no darse estas circunstancias. También debe abstenerse de realizar la maniobra cuando se trate de un cambio de dirección a la izquierda y no exista visibilidad suficiente.\n2. Toda maniobra de desplazamiento lateral que implique cambio de carril debe llevarse a efecto respetando la preferencia del que circule por el carril que se pretende ocupar.\n3. Reglamentariamente se establecerá la manera de efectuar las maniobras necesarias para los distintos supuestos de cambio de dirección.",
+ "fingerprint": "sha256:7673f3089f0bfd7cfa179a6a3f1f9aa8129142991e434c58ca144ff1dd788d7d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a30"
+}

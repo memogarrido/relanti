@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "daprimera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional primera. Licencias de conducción de ciclomotores expedidas con anterioridad a la entrada en vigor del Reglamento General de Conductores, aprobado por Real Decreto 772/1997, de 30 de mayo.\nLas licencias de conducción de ciclomotores expedidas con anterioridad a la entrada en vigor del Reglamento General de Conductores, aprobado por Real Decreto 772/1997, de 30 de mayo, estarán sujetas a los períodos de vigencia que se establecen en el artículo 12.2 del presente reglamento.",
+ "fingerprint": "sha256:968194a6a51eec11b3d7c9f85c29c329cb8cd6c1a7aae61914c46f8bd1ed3200",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#daprimera"
+}

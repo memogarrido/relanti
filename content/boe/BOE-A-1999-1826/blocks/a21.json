@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a21",
+ "tipo": "precepto",
+ "titulo": "Artículo 21",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 21. Homologación y características técnicas.\n1. Los ciclomotores, como condición indispensable para su matriculación ordinaria o turística, deberán corresponder a tipos previamente homologados, según la reglamentación que se recoge en el anexo I. En particular, deberán estar homologados en España de acuerdo con el Real Decreto 2140/1985, de 9 de octubre, o en la Unión Europea conforme a la Directiva 92/61/CEE, o en el Espacio Económico Europeo cuando ésta le sea de aplicación.\nLos ciclomotores deberán cumplir lo dispuesto para las motocicletas y vehículos de tres ruedas en los artículos 5, 6, 7, 8, 11 (apartados 1 al 11, 19 y 20), 15 y 20 de este Reglamento.\nDel artículo 12 les será de aplicación lo dispuesto para las motocicletas, salvo la exigencia de freno de estacionamiento del apartado 8.5.\n2. Los dispositivos de alumbrado y señalización óptica deberán cumplir lo dispuesto en los siguientes apartados y en la reglamentación que se recoge en los anexos I y X.\n2.1 Todo ciclomotor de dos ruedas deberá estar provisto de:\nLuz de cruce.\nLuz de posición trasera.\nLuz de frenado.\nCatadióptrico trasero no triangular.\nCatadióptricos en los pedales cuando éstos existan y no sean retráctiles.\nCatadióptricos laterales no triangulares.\n2.2 Todo ciclomotor de tres ruedas y cuatriciclo ligero deberá estar provisto de:\nLuz de cruce.\nLuz de posición delantera.\nLuz de posición trasera.\nLuz de frenado.\nUn catadióptrico trasero no triangular en los vehículos con anchura hasta 1.000 milímetros, a partir de la cual deberán estar equipados de dos.\nCatadióptricos en los pedales cuando éstos existan y no sean retráctiles.\nLuces indicadoras de dirección para vehículos de carrocería cerrada.\n2.3 Todo ciclomotor de dos ruedas puede llevar:\nLuz de carretera.\nLuces indicadoras de dirección.\nLuz de posición delantera.\nCatadióptricos delanteros no triangulares.\nLuz de la placa trasera de matrícula.\n2.4 Todo ciclomotor de tres ruedas y cuatriciclo ligero puede llevar:\nLuz de carretera.\nLuces indicadoras de dirección para vehículos sin carrocería cerrada.\nCatadióptricos laterales no triangulares.\nLuz de la placa trasera de matrícula.\n3. Los ciclomotores no podrán arrastrar remolque o semirremolque alguno.",
+ "fingerprint": "sha256:2aa5da0f98c411512f3e420e192b514ca22676a4d838d1992be861f15f8aae03",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a21"
+}

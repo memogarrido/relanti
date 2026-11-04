@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-6",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 3.ª De los semáforos",
+ "fingerprint": "sha256:3338d7af80197433c195c3832ad3cd363692605bf5065947604b3d4f874a8325",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-6"
+}

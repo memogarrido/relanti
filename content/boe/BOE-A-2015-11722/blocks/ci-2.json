@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "ci-2",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO I",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-24545",
+  "fecha_publicacion": "20251204",
+  "fecha_vigencia": "20251205"
+ },
+ "text": "CAPÍTULO I\nNormas de comportamiento en la circulación",
+ "fingerprint": "sha256:630c0bd06ed499a0190b084922ce782a7cbbc7c603429455eb7591b9717087f0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#ci-2"
+}

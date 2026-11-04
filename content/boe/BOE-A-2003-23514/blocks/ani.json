@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ani",
+ "tipo": "encabezado",
+ "titulo": "ANEXO I",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "ANEXO I\nSeñales de circulación\nÍndice\n1. Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico.\n1.1 Señales con el brazo y otras.\n1.2 Señales desde los vehículos.\n1.3 Dimensiones señales y bastidores.\n2. Señalización circunstancial.\n2.1 Grupo 1. Vialidades.\n2.2 Grupo 2. Otros mensajes.\n3. Elementos de balizamiento y sistemas de contención de vehículos.\n3.1 Elementos de balizamiento.\n3.1.1 Dispositivos delimitadores.\n3.1.2 Dispositivos de guía.\n3.1.3 Otros elementos de balizamiento.\n3.1.4 Señales de balizamiento.\n3.2 Sistemas de contención de vehículos.\n4. Semáforos.\n4.1 Semáforos reservados para peatones.\n4.2 Semáforos circulares para vehículos.\n4.3 Semáforos cuadrados para vehículos o de carril.\n4.4 Semáforos reservados a determinados vehículos.\n5. Catálogo oficial de señales de la circulación y marcas viales.\n5.1 Catálogo de señales verticales de circulación tomos I y II.\n5.2 Catálogo de marcas viales.\nEl desarrollo de la información de cada uno de los apartados del índice del anexo I se muestra a continuación:",
+ "fingerprint": "sha256:6bd6bd9e7f9a8138d0ed9933f1f916d76e190758c70db7c795854958e36b96fd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ani"
+}

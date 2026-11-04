@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Límites de velocidad",
+ "fingerprint": "sha256:6eb6283695e0e41650b0533908dcce5e6a658caeca3931489db436493cf7792a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-3"
+}

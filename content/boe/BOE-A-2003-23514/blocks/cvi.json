@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "cvi",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO VI",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "CAPÍTULO VI\nCambios de dirección y de sentido, y marcha atrás",
+ "fingerprint": "sha256:d546097f71a49b2735bbd55d967d3cec8d88aa960dccf402bace00caf73331ff",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#cvi"
+}

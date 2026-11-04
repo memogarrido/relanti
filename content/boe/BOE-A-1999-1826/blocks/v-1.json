@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-1",
+ "tipo": "precepto",
+ "titulo": "V-1",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2018-10856",
+  "fecha_publicacion": "20180731",
+  "fecha_vigencia": "20180801"
+ },
+ "text": "V-1. VEHÍCULO PRIORITARIO\n1. La utilización de la señal V-1 en un vehículo indica la prestación de un servicio de policía, extinción de incendios, protección civil y salvamento, o de asistencia sanitaria, en servicio urgente. La señal V-1 podrá utilizarse simultáneamente con el aparato emisor de señales acústicas especiales.\n2. La utilización de la señal V-1 no requerirá autorización administrativa alguna, ya se encuentre instalado como elemento supletorio adicional o como elemento constructivo.\n3. La señal luminosa de vehículo prioritario V-1 estará constituida por un dispositivo luminoso, con una o varias luces, de color azul, homologadas conforme al Reglamento CEPE/ONU número 65.\nEste dispositivo se instalará en la parte delantera del plano superior del vehículo, por encima de la luz más alta, o a lo largo del perímetro de la zona más alta de la parte delantera y trasera del vehículo.\nEn las motocicletas el dispositivo irá situado en la parte trasera, sobre un cabezal telescópico que permita elevarlo por encima de la parte más alta de ésta, o incrustado en la parte delantera y trasera de las motocicletas sin sobresalir del carenado.\nEn ningún caso la señal luminosa V-1 afectará a la visibilidad del conductor, y deberá ser visible en todas las direcciones a una distancia mínima de 50 metros.\n4. Los vehículos de policía, además, podrán utilizar con carácter voluntario un sistema auxiliar constituido por dos fuentes luminosas (intermitentes o estroboscópicas), de color azul. Este sistema estará instalado en el frontal del vehículo, a la altura de las luces de cruce, o por encima de ellas en el caso de las motocicletas.\n5. Queda prohibido el montaje y la utilización de la señal V-1 en vehículos que no sean prioritarios, por no prestar los servicios que se indican en el apartado 1.",
+ "fingerprint": "sha256:badbcb4dfd6938b70d0b22c5a0fb0e49b5bb03f66a43b801fccc014eeabb7924",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-1"
+}

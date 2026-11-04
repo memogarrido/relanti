@@ -1,0 +1,717 @@
+{
+ "law": "BOE-A-2009-9481",
+ "titulo": "Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores.",
+ "fecha_actualizacion": "20251219T120350Z",
+ "blocks": [
+  {
+   "id": "preambulo",
+   "titulo": "",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "aunico",
+   "titulo": "Artículo único",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ddunica",
+   "titulo": "Disposición derogatoria única",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dfprimera",
+   "titulo": "Disposición final primera",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dfsegunda",
+   "titulo": "Disposición final segunda",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dftercera",
+   "titulo": "Disposición final tercera",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dfcuarta",
+   "titulo": "Disposición final cuarta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dfquinta",
+   "titulo": "Disposición final quinta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dfsexta",
+   "titulo": "Disposición final sexta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "firma",
+   "titulo": "",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "reglamentogeneraldeconductores",
+   "titulo": "REGLAMENTO GENERAL DE CONDUCTORES",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ti",
+   "titulo": "TÍTULO I",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ci",
+   "titulo": "CAPÍTULO I",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a1",
+   "titulo": "Artículo 1",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a2",
+   "titulo": "Artículo 2",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a3",
+   "titulo": "Artículo 3",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a4",
+   "titulo": "Artículo 4",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a5",
+   "titulo": "Artículo 5",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a6",
+   "titulo": "Artículo 6",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a7",
+   "titulo": "Artículo 7",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "a8",
+   "titulo": "Artículo 8",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a9",
+   "titulo": "Artículo 9",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a10",
+   "titulo": "Artículo 10",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a11",
+   "titulo": "Artículo 11",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a12",
+   "titulo": "Artículo 12",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "a13",
+   "titulo": "Artículo 13",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a14",
+   "titulo": "Artículo 14",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "cii",
+   "titulo": "CAPÍTULO II",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s1",
+   "titulo": "Sección 1",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a15",
+   "titulo": "Artículo 15",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "a16",
+   "titulo": "Artículo 16",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a17",
+   "titulo": "Artículo 17",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a18",
+   "titulo": "Artículo 18",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a19",
+   "titulo": "Artículo 19",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a20",
+   "titulo": "Artículo 20",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s2",
+   "titulo": "Sección 2",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a21",
+   "titulo": "Artículo 21",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a22",
+   "titulo": "Artículo 22",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a23",
+   "titulo": "Artículo 23",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s3",
+   "titulo": "Sección 3",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a24",
+   "titulo": "Artículo 24",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ciii",
+   "titulo": "CAPÍTULO III",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s1-2",
+   "titulo": "Sección 1",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a25",
+   "titulo": "Artículo 25",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a26",
+   "titulo": "Artículo 26",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a27",
+   "titulo": "Artículo 27",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a28",
+   "titulo": "Artículo 28",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a29",
+   "titulo": "Artículo 29",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a30",
+   "titulo": "Artículo 30",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s2-2",
+   "titulo": "Sección 2",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a31",
+   "titulo": "Artículo 31",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a32",
+   "titulo": "Artículo 32",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a33",
+   "titulo": "Artículo 33",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "civ",
+   "titulo": "CAPÍTULO IV",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a34",
+   "titulo": "Artículo 34",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a35",
+   "titulo": "Artículo 35",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a36",
+   "titulo": "Artículo 36",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a37",
+   "titulo": "Artículo 37",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a38",
+   "titulo": "Artículo 38",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a39",
+   "titulo": "Artículo 39",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a40",
+   "titulo": "Artículo 40",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "tii",
+   "titulo": "TÍTULO II",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ci-2",
+   "titulo": "CAPÍTULO I",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a41",
+   "titulo": "Artículo 41",
+   "fecha_actualizacion": "20231206"
+  },
+  {
+   "id": "a42",
+   "titulo": "Artículo 42",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a43",
+   "titulo": "Artículo 43",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "cii-2",
+   "titulo": "CAPÍTULO II",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a44",
+   "titulo": "Artículo 44",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a45",
+   "titulo": "Artículo 45",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "a46",
+   "titulo": "Artículo 46",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ciii-2",
+   "titulo": "CAPÍTULO III",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s1-3",
+   "titulo": "Sección 1",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a47",
+   "titulo": "Artículo 47",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a48",
+   "titulo": "Artículo 48",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a49",
+   "titulo": "Artículo 49",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a50",
+   "titulo": "Artículo 50",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a51",
+   "titulo": "Artículo 51",
+   "fecha_actualizacion": "20231206"
+  },
+  {
+   "id": "a52",
+   "titulo": "Artículo 52",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a53",
+   "titulo": "Artículo 53",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a54",
+   "titulo": "Artículo 54",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "a55",
+   "titulo": "Artículo 55",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a56",
+   "titulo": "Artículo 56",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a57",
+   "titulo": "Artículo 57",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a58",
+   "titulo": "Artículo 58",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "s2-3",
+   "titulo": "Sección 2",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a59",
+   "titulo": "Artículo 59",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a60",
+   "titulo": "Artículo 60",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a61",
+   "titulo": "Artículo 61",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "a62",
+   "titulo": "Artículo 62",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "civ-2",
+   "titulo": "CAPÍTULO IV",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a63",
+   "titulo": "Artículo 63",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a64",
+   "titulo": "Artículo 64",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a65",
+   "titulo": "Artículo 65",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a66",
+   "titulo": "Artículo 66",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a67",
+   "titulo": "Artículo 67",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a68",
+   "titulo": "Artículo 68",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "a69",
+   "titulo": "Artículo 69",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a70",
+   "titulo": "Artículo 70",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a71",
+   "titulo": "Artículo 71",
+   "fecha_actualizacion": "20130708"
+  },
+  {
+   "id": "tiii",
+   "titulo": "TÍTULO III",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a72",
+   "titulo": "Artículo 72",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a73",
+   "titulo": "Artículo 73",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a74",
+   "titulo": "Artículo 74",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "tiv",
+   "titulo": "TÍTULO IV",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a75",
+   "titulo": "Artículo 75",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "tv",
+   "titulo": "TÍTULO V",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a76",
+   "titulo": "Artículo 76",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a77",
+   "titulo": "Artículo 77",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a78",
+   "titulo": "Artículo 78",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "a79",
+   "titulo": "Artículo 79",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "daprimera",
+   "titulo": "Disposición adicional primera",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dasegunda",
+   "titulo": "Disposición adicional segunda",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "datercera",
+   "titulo": "Disposición adicional tercera",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dacuarta",
+   "titulo": "Disposición adicional cuarta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "daquinta",
+   "titulo": "Disposición adicional quinta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dasexta",
+   "titulo": "Disposición adicional sexta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "daseptima",
+   "titulo": "Disposición adicional séptima",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "daoctava",
+   "titulo": "Disposición adicional octava",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "danovena",
+   "titulo": "Disposición adicional novena",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dadecima",
+   "titulo": "Disposición adicional décima",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "daundecima",
+   "titulo": "Disposición adicional undécima",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtprimera",
+   "titulo": "Disposición transitoria primera",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "dtsegunda",
+   "titulo": "Disposición transitoria segunda",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "dttercera",
+   "titulo": "Disposición transitoria tercera",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "dtcuarta",
+   "titulo": "Disposición transitoria cuarta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtquinta",
+   "titulo": "Disposición transitoria quinta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtsexta",
+   "titulo": "Disposición transitoria sexta",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtseptima",
+   "titulo": "Disposición transitoria séptima",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtoctava",
+   "titulo": "Disposición transitoria octava",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtnovena",
+   "titulo": "Disposición transitoria novena",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "dtdecima",
+   "titulo": "Disposición transitoria décima",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "dtundecima",
+   "titulo": "Disposición transitoria undécima",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "dtduodecima",
+   "titulo": "Disposición transitoria duodécima",
+   "fecha_actualizacion": "20090608"
+  },
+  {
+   "id": "ani",
+   "titulo": "ANEXO I",
+   "fecha_actualizacion": "20161021"
+  },
+  {
+   "id": "anii",
+   "titulo": "ANEXO II",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "aniii",
+   "titulo": "ANEXO III",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "aniv",
+   "titulo": "ANEXO IV",
+   "fecha_actualizacion": "20230526"
+  },
+  {
+   "id": "anv",
+   "titulo": "ANEXO V",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "anvi",
+   "titulo": "ANEXO VI",
+   "fecha_actualizacion": "20201111"
+  },
+  {
+   "id": "anvii",
+   "titulo": "ANEXO VII",
+   "fecha_actualizacion": "20210225"
+  },
+  {
+   "id": "anviii",
+   "titulo": "ANEXO VIII",
+   "fecha_actualizacion": "20151121"
+  },
+  {
+   "id": "ai",
+   "titulo": "ANEXO IX",
+   "fecha_actualizacion": "20231206"
+  }
+ ]
+}

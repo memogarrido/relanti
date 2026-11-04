@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a62",
+ "tipo": "precepto",
+ "titulo": "Artículo 62",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2023-15135",
+  "fecha_publicacion": "20230629",
+  "fecha_vigencia": "20230630"
+ },
+ "text": "Artículo 62. Centros de formación y reconocimiento de conductores.\n1. La enseñanza de los conocimientos y técnica necesarios para la conducción, así como el posterior perfeccionamiento y renovación de conocimientos se ejercerán por centros de formación, que podrán constituir secciones o sucursales con la misma titularidad y denominación.\nLos centros de formación requerirán autorización previa, que tendrá validez en todo el territorio español en el caso de que se establezcan secciones o sucursales.\n2. A los fines de garantizar la seguridad vial, se regularán reglamentariamente los elementos personales y materiales mínimos para la formación y el reconocimiento de conductores siguiendo lo establecido en la normativa sobre libre acceso a las actividades de servicios y su ejercicio.\nEn particular, reglamentariamente se regulará el régimen docente y de funcionamiento de los centros de formación. La titulación y acreditación de los profesores y directores se basará en pruebas objetivas, que valorarán los conocimientos, la aptitud pedagógica y la experiencia práctica. Las pruebas se convocarán periódicamente.\n3. Se podrá autorizar la enseñanza no profesional en los términos que reglamentariamente se determine.\n4. La constatación de las aptitudes psicofísicas de los conductores se ejercerá por centros, que necesitarán autorización previa de la autoridad competente para desarrollar su actividad.\nSe regulará reglamentariamente el funcionamiento de los centros de reconocimiento de conductores, así como sus medios personales y materiales mínimos.\n5. Los cursos de sensibilización y reeducación vial se impartirán por centros que requerirán autorización administrativa previa, de acuerdo con lo que se determine sobre su funcionamiento y sus medios personales y materiales.\nLa determinación de la duración, el contenido y los requisitos personales y materiales de los cursos de sensibilización y reeducación vial, así como de los mecanismos de certificación y control de los mismos, se determinará por orden de la persona titular del Ministerio del Interior.",
+ "fingerprint": "sha256:c8fee240d2768019da17f99e845c6ff9206f6f07bfffa2be3e16c29c6a6d4c4e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a62"
+}

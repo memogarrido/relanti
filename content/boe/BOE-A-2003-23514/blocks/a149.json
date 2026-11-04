@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a149",
+ "tipo": "precepto",
+ "titulo": "Artículo 149",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 149. Uso de señales en obra y otras actuaciones.\nEn cualquier tipo de obra, actividad en la vía o tramos en servicio dispuestos como tramos de ensayo se usará la señalización recogida en el anexo I.\nÚnicamente de forma justificada se podrán utilizar señales distintas a las recogidas en el anexo I.",
+ "fingerprint": "sha256:aa78a6733f3c7247046bf419306d9d3341aad0a239dbb7cdb97afd801b6df150",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a149"
+}

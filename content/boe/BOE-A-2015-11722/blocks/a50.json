@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a50",
+ "tipo": "precepto",
+ "titulo": "Artículo 50",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 50. Animales.\n1. Sólo se permite el tránsito de animales de tiro, carga o silla, cabezas de ganado aisladas, en manada o rebaño, cuando no exista itinerario practicable por vía pecuaria y siempre que vayan custodiados por alguna persona.\nDicho tránsito se efectuará por la vía alternativa que tenga menor intensidad de circulación de vehículos en los términos que reglamentariamente se determine.\n2. Se prohíbe la circulación de animales por autopistas y autovías.",
+ "fingerprint": "sha256:a97e87da4bca7de454aadda7e2ea7e07ac203ef72d1e96426c006ba5ba720536",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a50"
+}

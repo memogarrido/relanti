@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "A6",
+ "tipo": "encabezado",
+ "titulo": "6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "6. SEÑALIZACIÓN HORIZONTAL Y MARCAS VIALES\n6.1. MARCAS BLANCAS LONGITUDINALES\nMarca longitudinal continua | Marca longitudinal discontinua\nMarcas longitudinalesdiscontinuas dobles | Marcas longitudinalescontinuas adosadasa discontinuas | Marca de guíaen la intersección\n6.2. MARCAS BLANCAS TRANSVERSALES\nMarca transversal continua | Marca transversal discontinua\nMarca de paso para peatones | Marca de paso para ciclistas\n6.3. SEÑALES HORIZONTALES DE CIRCULACIÓN\nCeda el paso | Detención obligatoria o STOP | Señal de limitación de velocidad | Flechas de selección de carriles\nFlecha de salida | Flecha de fin de carril | Flecha de retorno\n6.4. OTRAS MARCAS E INCRIPCIONES DE COLOR BLANCO\nMarca de bifurcación | Marca de paso a nivel\nInscripción de carril o marca reservada | Marcas de estacionamiento\nMarca de comienzo de carril reservado | Marca de vía ciclista\nCebreado | Línea de borde | Otras marcas\n6.5. MARCAS DE OTROS COLORES\nMarca amarilla en zigzag | Marca amarillalongitudinal continua | Marca amarillalongitudinal discontinua\nCuadrículade marcas amarillas | Damero blanco y rojo\nMarcas azules",
+ "fingerprint": "sha256:39991884a81c4893b46059d9adb91371049d75ba58d3dc2c2df46d196725c4e1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#A6"
+}

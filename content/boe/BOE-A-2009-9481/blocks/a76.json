@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a76",
+ "tipo": "precepto",
+ "titulo": "Artículo 76",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 76. El Registro de Conductores e Infractores.\n1. El Registro de conductores e infractores a que se refiere el artículo 5.h) del texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, será llevado y gestionado por la Dirección General de Tráfico.\n2. En el Registro de conductores e infractores se recogerán y gestionarán de forma automatizada los datos de carácter personal de los solicitantes y titulares de autorizaciones administrativas para conducir, así como su comportamiento y sanciones por hechos relacionados con el tráfico y la seguridad vial, con la finalidad de controlar el cumplimiento por los titulares de las autorizaciones administrativas para conducir de las exigencias previstas por la normativa vigente.\n3. El titular del órgano responsable del Registro o fichero automatizado adoptará las medidas de gestión y organización que sean necesarias para asegurar, en todo caso, la confidencialidad, seguridad e integridad de los datos automatizados de carácter personal existentes en el Registro y su uso para las finalidades para las que fueron recogidos.\n4. Serán de aplicación al Registro las medidas de seguridad de nivel alto previstas en el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, aprobado por Real Decreto 1720/2007, de 21 de diciembre.",
+ "fingerprint": "sha256:b34e50895d6899501970305f15c61e0f2b680f503584f44761080ca676c25521",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a76"
+}

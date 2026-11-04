@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a42",
+ "tipo": "precepto",
+ "titulo": "Artículo 42",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 42. Carriles adicionales circunstanciales de circulación.\n1. En las calzadas con doble sentido de la circulación y arcenes, cuando la anchura de la plataforma lo permita, la autoridad encargada de la regulación del tráfico podrá habilitar un carril adicional de circulación en uno de los sentidos de la marcha, mediante la utilización de elementos provisionales de señalización y balizamiento, que modifiquen la zona de rodadura de los vehículos en el centro de la calzada.\nLa habilitación de este carril adicional circunstancial de circulación supone, mediante la utilización de ambos arcenes, disponer de dos carriles en un sentido de circulación y de uno en el otro. En cualquier caso, esta circunstancia estará debidamente señalizada. Los vehículos que circulen por los arcenes y por dicho carril adicional lo harán a una velocidad máxima de 80 kilómetros por hora y a una mínima de 60, o inferiores si así estuviera establecido o específicamente señalizado, deberán utilizar al menos el alumbrado de corto alcance o de cruce tanto de día como de noche y deberán observarse, en cuanto sean aplicables, las normas contenidas en el artículo anterior.\n2. Los supuestos de circulación en sentido contrario al estipulado o con vulneración de los límites de velocidad tendrán la consideración de infracciones muy graves, en el primer caso, y de infracciones graves o muy graves, según corresponda, por el exceso de velocidad, conforme se prevé en los artículos 65.5.f), 65.4.c) y 65.5.e), respectivamente, todos ellos del texto articulado.",
+ "fingerprint": "sha256:7f39b03bcb6739080c2d28c3f9dd26234fda39de43bcf85faa40cbb94c5f2fd6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a42"
+}

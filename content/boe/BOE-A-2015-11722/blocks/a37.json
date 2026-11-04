@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a37",
+ "tipo": "precepto",
+ "titulo": "Artículo 37",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 37. Prohibiciones.\nQueda prohibido adelantar:\na) En las curvas y cambios de rasante de visibilidad reducida y, en general, en todo lugar o circunstancia en que la visibilidad disponible no sea suficiente para poder efectuar la maniobra o desistir de ella una vez iniciada, a no ser que los dos sentidos de circulación estén claramente delimitados y la maniobra pueda efectuarse sin invadir la zona reservada al sentido contrario.\nb) En los pasos para peatones señalizados como tales y en los pasos a nivel y en sus proximidades.\nc) En las intersecciones y en sus proximidades, salvo cuando:\n1.º Se trate de una glorieta.\n2.º El adelantamiento deba efectuarse por la derecha, según lo previsto en el artículo 33.2.\n3.º La calzada en que se realice tenga preferencia en la intersección y haya señal expresa que lo indique.\n4.º El adelantamiento se realice a vehículos de dos ruedas.",
+ "fingerprint": "sha256:c57d2c46f4a35e87f2283160a18337ccef2026c9462bc048b5f84d9daf1a4a02",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a37"
+}

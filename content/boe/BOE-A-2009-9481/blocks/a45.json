@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a45",
+ "tipo": "precepto",
+ "titulo": "Artículo 45",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2015-12572",
+  "fecha_publicacion": "20151121",
+  "fecha_vigencia": "20151231"
+ },
+ "text": "Artículo 45. Grupos de conductores.\n1. A efectos de lo dispuesto en el anexo IV, los conductores se clasifican en los dos grupos siguientes:\na) Grupo 1. Comprende los que sean titulares o soliciten la obtención o prórroga de la licencia o del permiso de conducción de las clases AM, A1, A2, A, B o B + E.\nb) Grupo 2. Comprende los que sean titulares o soliciten la obtención o prórroga del permiso de conducción de las clases C1, C1 + E, C, C + E, D1, D1 + E, D o D + E.\n2. Se equipara a los señalados en el grupo 2 a los profesionales de la enseñanza de la conducción, sin perjuicio de las especialidades que se puedan determinar en su reglamentación específica.",
+ "fingerprint": "sha256:f539099de192c1e8a5ec46fa3f56b636e171292e2f9996c93814987e36d62d8d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a45"
+}

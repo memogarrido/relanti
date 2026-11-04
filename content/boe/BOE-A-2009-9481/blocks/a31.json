@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a31",
+ "tipo": "precepto",
+ "titulo": "Artículo 31",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 31. El permiso internacional para conducir.\n1. De acuerdo con lo dispuesto en el Convenio Internacional de Ginebra, de 19 de septiembre de 1949, sobre circulación por carretera, el permiso internacional autoriza para conducir temporalmente por el territorio de todos los Estados contratantes, con excepción del Estado que lo ha expedido.\n2. El permiso internacional para conducir, que tendrá una validez de un año, se ajustará al modelo establecido en el Convenio a que se hace referencia en el apartado anterior y que se recoge en el anexo II.",
+ "fingerprint": "sha256:37d1cc1fc4529830ececc715d06136cac75869a9cac8c62dc479cfaa4faa46e3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a31"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a57",
+ "tipo": "precepto",
+ "titulo": "Artículo 57",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2020-13970",
+  "fecha_publicacion": "20201111",
+  "fecha_vigencia": "20201112"
+ },
+ "text": "Artículo 57. Interrupción de las pruebas.\n1. Procederá la interrupción y suspensión de las pruebas de control de conocimientos y de control de aptitudes y comportamientos, y la declaración de no apto en la convocatoria de que se trate, de los aspirantes que perturben el orden en cualquiera de ellas o cometan o intenten cometer fraude en su realización.\nAdemás de la declaración de no apto en la convocatoria de que se trate, podrá acordarse la interrupción y suspensión de las pruebas de control de aptitudes y comportamientos cuando los aspirantes denoten manifiesta impericia o carencia del dominio del vehículo o sus mandos y cometan errores o faltas que, individualmente consideradas o por acumulación con otras, impliquen dicha calificación o se den los supuestos contemplados en el artículo 55.3.\n2. No se iniciarán las pruebas o, en su caso, serán interrumpidas, en el supuesto de que el aspirante o el profesor no presenten la documentación requerida para ser identificados o cuando el aspirante carezca del equipo de protección adecuado o no lleve las correcciones, prótesis o adaptaciones en la persona o en el vehículo o las que lleve sean inadecuadas.\nSe procederá de la misma manera cuando el profesor o el acompañante no presten la colaboración debida al examinador para que la prueba se pueda desarrollar o iniciar con las debidas garantías, cuando existan indicios racionales de que, por las circunstancias que concurren, las pruebas no pueden desarrollarse con la normalidad o seguridad debidas, o cuando la circulación en las condiciones apreciadas constituyese infracción a los preceptos del texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, y disposiciones complementarias.\nEn cualquiera de los supuestos descritos en los dos párrafos anteriores, la no iniciación o la interrupción de la prueba no implicará la pérdida de la convocatoria para el aspirante.",
+ "fingerprint": "sha256:6bf9cb7dd5a7f482b338957b5b1beec922ab207add785be349f445e18a9908a0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a57"
+}

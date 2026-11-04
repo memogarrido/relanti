@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "tiii",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO III",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "TÍTULO III\nCiclomotores, ciclos, vehículos de tracción animal y tranvías",
+ "fingerprint": "sha256:210367d0a896b1bb32d7516e87d156dae2c3b4a96a3a11291bbce7b1f9b95c33",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#tiii"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "tii",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO II",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "TÍTULO II\nDe la enseñanza de la conducción y de las pruebas de aptitud a realizar para obtener autorizaciones administrativas para conducir",
+ "fingerprint": "sha256:692931ea3b2d200f20a60f9a1d37744de0fcb1176965bcf31901cfecc1b8d2d5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#tii"
+}

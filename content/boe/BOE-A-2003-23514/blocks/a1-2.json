@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 1. Objeto.\nEsta normativa tiene por objeto establecer una regulación de la utilización de la vía para la realización de pruebas deportivas competitivas organizadas.",
+ "fingerprint": "sha256:46f749d7c768bff06246a543d3a5a77ce1da746d2e406278d8d026e0bb2b8071",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-2"
+}

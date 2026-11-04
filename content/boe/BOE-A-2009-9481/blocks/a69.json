@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a69",
+ "tipo": "precepto",
+ "titulo": "Artículo 69",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 69. Duración de las pruebas.\nEl tiempo destinado a la realización de las pruebas teóricas de control de conocimientos y los ejercicios prácticos será el que se establece en el anexo VI. D). 2.",
+ "fingerprint": "sha256:a12e5a750eb827e1d1eb1d086f177f5e102327bbfdc45fddf416aa53473ac0a3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a69"
+}

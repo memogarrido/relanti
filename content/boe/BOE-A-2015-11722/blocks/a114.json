@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a114",
+ "tipo": "precepto",
+ "titulo": "Artículo 114",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 114. Creación.\n1. Se crea el Registro Nacional de Víctimas de Accidentes de Tráfico del organismo autónomo Jefatura Central de Tráfico.\n2. Las comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor podrán crear, respecto a sus ámbitos territoriales, sus propios Registros de Víctimas de Accidentes de Tráfico.",
+ "fingerprint": "sha256:0dd9a14d6093f0d89641616c82298063b7374abe5c30b2f4e1376e8e875fc2fc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a114"
+}

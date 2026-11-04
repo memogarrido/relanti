@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dfsegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición final segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Disposición final segunda. Vehículos de las Fuerzas Armadas.\nSe faculta a los Ministros de Defensa, del Interior y de Industria y Energía y, en su caso, a los demás Ministros competentes, para regular las peculiaridades del régimen de autorizaciones de circulación y características técnicas de los vehículos pertenecientes a las Fuerzas Armadas, así como de sus partes y piezas y placas de matrícula.",
+ "fingerprint": "sha256:e8497f65a1f584d1768c877f7efd42c2fb83f82dee6d0755e8de280936138acb",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dfsegunda"
+}

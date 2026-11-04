@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a142",
+ "tipo": "precepto",
+ "titulo": "Artículo 142",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 142. Señalización circunstancial, elementos de balizamiento y sistemas de contención de vehículos.\n1. La señalización circunstancial tiene por objeto regular la circulación adaptándola a las circunstancias cambiantes del tráfico. Se utilizarán para dar información a los conductores, advertirles de posibles peligros y dar recomendaciones o instrucciones de obligado cumplimiento.\nLas modificaciones que la señalización circunstancial introduce respecto de la habitual señalización vertical y horizontal terminan cuando lo establezca la propia señalización, o las causas que motivaron su imposición, momento a partir del cual aquellas vuelven a regir.\n2. Los símbolos utilizados en la señalización circunstancial se ajustarán al Catálogo oficial de señales de la circulación y marcas viales. Justificadamente y siempre que no exista equivalente en el Catálogo se podrán usar otros símbolos.\n3. El anexo I, apartado 2, recoge el listado de vialidades consecuencia de incidentes e información y medidas que generará la señalización circunstancial, sin perjuicio de la señalización de otras circunstancias de tráfico, circulación de vehículos y seguridad vial.\n4. Entre los elementos de balizamiento se distinguen:\na) Dispositivos delimitadores: prohíben el paso a la parte de la vía que delimitan.\nb) Dispositivos de guía: tienen por finalidad indicar el borde de la calzada, la presencia de una curva y el sentido de circulación; indicar los límites de obras de fábrica u otros obstáculos; delimitar carriles y advertir de riesgos.\nc) Otros elementos de balizamiento: tienen por finalidad advertir de riesgos.\nd) Señales de balizamiento: orientar la circulación, delimitar las zonas de incorporación a carriles, restringir los cambios de carril y advertir riesgos.\n5. Sistemas de contención de vehículos. Son elementos de las carreteras cuya función es mitigar las consecuencias de un accidente de circulación por salida de la vía, haciéndolas más predecibles y menos graves, pero no evitan que el mismo se produzca, ni están exentas de algún tipo de riesgo para los ocupantes del vehículo.\n6. Los tipos y significado de los elementos de balizamiento y de los sistemas de contención de vehículos se regulan en el apartado 3 del anexo I.",
+ "fingerprint": "sha256:18d2304aef668332eb471875c2093779af6b1e3ae19dc598d29035cf133130c9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a142"
+}

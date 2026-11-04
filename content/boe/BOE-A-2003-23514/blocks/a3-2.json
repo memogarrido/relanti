@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a3-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 3. Normativa aplicable.\nLa actividad de las pruebas deportivas se regirá por las normas establecidas en esta normativa especial, por los reglamentos deportivos y demás normas que resulten de aplicación.",
+ "fingerprint": "sha256:2d24321f29f4dde97336bb31109e0d157dc13aa427936a73487bedb391d3e49d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a3-2"
+}

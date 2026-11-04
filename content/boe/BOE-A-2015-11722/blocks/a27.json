@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a27",
+ "tipo": "precepto",
+ "titulo": "Artículo 27",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 27. Vehículos en servicio de urgencia.\nTienen preferencia de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicio de urgencia, cuando se hallen en servicio de tal carácter, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía y los vehículos que acudan a realizar un servicio de auxilio en carretera. Pueden circular por encima de los límites de velocidad establecidos y están exentos de cumplir otras normas o señales, en los términos que reglamentariamente se determine.",
+ "fingerprint": "sha256:d14f363daa957d627811b5129cff79a29c66ff9e4edee0e6b249cd0be9959fc1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a27"
+}

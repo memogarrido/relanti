@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a28",
+ "tipo": "precepto",
+ "titulo": "Artículo 28",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 28. Vigencia de la autorización especial y prórroga de la misma.\n1. La autorización especial para conducir vehículos que transporten mercancías peligrosas tendrá un período de vigencia de cinco años.\n2. La vigencia de esta autorización especial podrá ser prorrogada por nuevos períodos de cinco años, en cualquier Jefatura Provincial de Tráfico, previa solicitud en el modelo oficial suscrito por el interesado, a la que se acompañarán los documentos que se indican en el anexo III.\n3. Para prorrogar la vigencia de la autorización su titular deberá reunir los siguientes requisitos:\na) No estar privado por resolución judicial del derecho a conducir vehículos de motor y ciclomotores, ni hallarse sometido a suspensión o intervención administrativa del permiso que posea.\nb) Haber realizado con aprovechamiento un curso de reciclaje básico o, en su lugar, a elección de su titular, un curso de formación inicial básico.\nSi además se quiere prorrogar la vigencia de la ampliación de la autorización se deberá realizar un curso de reciclaje de especialización o, en su lugar, a elección de su titular, un curso de formación inicial de especialización.\nc) Superar las pruebas correspondientes al curso realizado, de acuerdo con lo dispuesto en el capítulo IV del título II.\n4. Cuando se haya realizado el curso y superado las pruebas correspondientes a que se refieren los párrafos b) y c) del apartado anterior dentro los doce meses anteriores a la fecha de caducidad de la autorización, el período de vigencia de la nueva autorización se iniciará a partir de la fecha de caducidad.\nEn el supuesto de que se haya realizado el curso y superado las pruebas con una antelación superior a la indicada en párrafo anterior, el período de vigencia de la nueva autorización comenzará a partir de la fecha en que se hayan aprobado las correspondientes pruebas para obtener la prórroga.",
+ "fingerprint": "sha256:43a7290d5e3898053ed2cd8421adee6f95c321b3aefcc13c6b86b1d8535fb400",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a28"
+}

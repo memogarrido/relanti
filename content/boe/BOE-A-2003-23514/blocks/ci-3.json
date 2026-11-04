@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ci-3",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "CAPÍTULO I\nPuertas y apagado de motor",
+ "fingerprint": "sha256:a5fb8446073f1ae5cab127c140451349394bbf069db20ca5282315dfa667c7b3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ci-3"
+}

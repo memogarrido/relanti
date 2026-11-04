@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a53",
+ "tipo": "precepto",
+ "titulo": "Artículo 53",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 53. Reducción de velocidad.\n1. Salvo en caso de inminente peligro, todo conductor, para reducir considerablemente la velocidad de su vehículo, deberá cerciorarse de que puede hacerlo sin riesgo para otros conductores y estará obligado a advertirlo previamente del modo previsto en el artículo 109, sin que pueda realizarlo de forma brusca, para que no produzca riesgo de colisión con los vehículos que circulan detrás del suyo.\n2. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:d7a1df0e9c8bd9451e3c31c9e75d6a1c4b0b08bacec28e7a4e31172728894048",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a53"
+}

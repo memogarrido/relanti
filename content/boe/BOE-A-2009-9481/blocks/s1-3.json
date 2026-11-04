@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s1-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 1.ª De las pruebas a realizar para comprobar los conocimientos, las aptitudes y los comportamientos",
+ "fingerprint": "sha256:646a857fb991103f928322f48689fcbc825a50068b074c572a1305246c5eb56a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s1-3"
+}

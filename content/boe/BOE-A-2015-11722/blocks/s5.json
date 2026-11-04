@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "s5",
+ "tipo": "encabezado",
+ "titulo": "Sección 5",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Sección 5.ª Cambios de dirección, de sentido y marcha atrás",
+ "fingerprint": "sha256:c52f02fdc064966a6664dc62da5ce2dfff04ffa594425f201b120b6302866b59",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#s5"
+}

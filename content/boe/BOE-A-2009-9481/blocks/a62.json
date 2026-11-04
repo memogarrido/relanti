@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a62",
+ "tipo": "precepto",
+ "titulo": "Artículo 62",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 62. Verificaciones.\nLos examinadores podrán verificar, en cualquier momento de las pruebas o antes de que se inicien, si los vehículos presentados para la realización de éstas responden a las normas establecidas y reúnen los requisitos administrativos, técnicos y de seguridad necesarios. En caso contrario, el examinador podrá no iniciar las pruebas o suspender su realización, sin que ello implique la pérdida de la convocatoria para el aspirante.",
+ "fingerprint": "sha256:ee9b464585ae9e7b4bb1520e8de2779caf017e11e17d6b23b338e069a3a81bca",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a62"
+}

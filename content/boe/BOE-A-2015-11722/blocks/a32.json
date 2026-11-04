@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a32",
+ "tipo": "precepto",
+ "titulo": "Artículo 32",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 32. Marcha atrás.\n1. Se prohíbe circular marcha atrás, salvo en los casos en que no sea posible marchar hacia adelante ni cambiar de dirección o sentido de marcha, y en las maniobras complementarias de otra que las exija, y siempre con el recorrido mínimo indispensable para efectuarla.\n2. La maniobra de marcha atrás debe efectuarse lentamente, después de haberlo advertido con las señales preceptivas y de haberse cerciorado, incluso apeándose o siguiendo las indicaciones de otra persona si fuera necesario, de que, por las circunstancias de visibilidad, espacio y tiempo necesarios para efectuarla, no va a constituir peligro para los demás usuarios de la vía.\n3. Se prohíbe la maniobra de marcha atrás en autovías y autopistas.",
+ "fingerprint": "sha256:8e3904b6f6460c99525997987c1181f1d7e82d81230adbd2a923ad37f87f6a42",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a32"
+}

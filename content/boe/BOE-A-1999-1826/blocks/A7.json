@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "A7",
+ "tipo": "precepto",
+ "titulo": "7. Longitud máxima de vehículos o conjuntos de vehículos con mejoras aerodinámicas",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2017-6173",
+  "fecha_publicacion": "20170602",
+  "fecha_vigencia": "20170603"
+ },
+ "text": "7. Longitud máxima de vehículos o conjuntos de vehículos con mejoras aerodinámicas.\nLos vehículos o conjuntos de vehículos que cuenten con cabinas homologadas que mejoren el rendimiento aerodinámico, la eficiencia energética y la seguridad vial, así como los equipados con dispositivos aerodinámicos homologados en la parte trasera, podrán rebasar, a tal efecto, la longitud máxima establecida. Cualquier rebasamiento de las longitudes máximas no implicará un aumento de la capacidad de carga de dichos vehículos.\nLos dispositivos aerodinámicos deberán reunir las siguientes condiciones operativas:\na) cuando la seguridad de otros usuarios de la carretera o del conductor esté en peligro, el conductor los plegará, replegará o desmontará;\nb) su uso en vías urbanas e interurbanas tendrá en cuenta las características especiales de las zonas donde el límite de velocidad sea inferior o igual a 50 km/h y donde la probabilidad de que haya usuarios de la carretera vulnerables sea mayor, y\nc) su uso será compatible con las operaciones de transporte intermodal y, en particular, cuando se replieguen o plieguen, no deberán aumentar la longitud máxima autorizada en más de 20 cm.",
+ "fingerprint": "sha256:fc4aaa92f3444dd5387daa1b89ee21d34be9b31ce0b0339d63bad9714f792d41",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#A7"
+}

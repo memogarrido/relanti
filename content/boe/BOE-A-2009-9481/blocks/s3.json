@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s3",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 3.ª Permiso de conducción de los diplomáticos acreditados en España",
+ "fingerprint": "sha256:b96ccdf676d279dd76fc50525cb175aedc522917dc59101c77449c66ceda00b6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s3"
+}

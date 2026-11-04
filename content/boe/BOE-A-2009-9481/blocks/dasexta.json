@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dasexta",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional sexta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional sexta. Datos personales.\nLas disposiciones contenidas en este reglamento que afecten al tratamiento de los datos personales se aplicarán de acuerdo con lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+ "fingerprint": "sha256:f2c71f7d00068adeabb61a21d69ab5da89d283601b1aefa90f565da9d9d90b18",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dasexta"
+}

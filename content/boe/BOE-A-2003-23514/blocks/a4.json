@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a4",
+ "tipo": "precepto",
+ "titulo": "Artículo 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 4. Actividades que afectan a la seguridad de la circulación.\n1. La realización de obras, instalaciones, colocación de contenedores, mobiliario urbano o cualquier otro elemento u objeto de forma permanente o provisional en las vías o terrenos objeto de aplicación de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial necesitará la autorización previa de su titular y se regirán por lo dispuesto en la legislación de carreteras y en sus reglamentos de desarrollo, y en las normas municipales. Las mismas normas serán aplicables a la interrupción de las obras en razón de las circunstancias o características especiales de tráfico, que podrán llevarse a efecto a petición del organismo autónomo Jefatura Central de Tráfico (artículo 10.1 del texto articulado).\n2. Se prohíbe arrojar, depositar o abandonar sobre la vía objetos o materias que puedan entorpecer la libre circulación, parada o estacionamiento, hacerlos peligrosos o deteriorar aquélla o sus instalaciones, o producir en ella o en sus inmediaciones efectos que modifiquen las condiciones apropiadas para circular, parar o estacionar (artículo 10.2 del texto articulado).\n3. No se instalará en vías o terrenos objeto del ámbito de aplicación de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial ningún aparato, instalación o construcción, ni se realizarán actuaciones como rodajes, encuestas o ensayos, aunque sea con carácter provisional o temporal, que pueda entorpecer la circulación.",
+ "fingerprint": "sha256:f89c62c9aa5a06dab7fff727d2e17ad76f24dcb4111d1cedc0494b5717c7a3b6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a4"
+}

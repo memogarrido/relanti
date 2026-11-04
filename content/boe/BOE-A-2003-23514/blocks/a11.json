@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a11",
+ "tipo": "precepto",
+ "titulo": "Artículo 11",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 11. Transporte colectivo de personas.\n1. El conductor deberá efectuar las paradas y arrancadas sin sacudidas ni movimientos bruscos, lo más cerca posible del borde derecho de la calzada, y se abstendrá de realizar acto alguno que le pueda distraer durante la marcha; el conductor y, en su caso, el encargado, tanto durante la marcha como en las subidas y bajadas, velarán por la seguridad de los viajeros.\n2. En los vehículos destinados al servicio público de transporte colectivo de personas se prohíbe a los viajeros:\na) Distraer al conductor durante la marcha del vehículo.\nb) Entrar o salir del vehículo por lugares distintos a los destinados, respectivamente, a estos fines.\nc) Entrar en el vehículo cuando se haya hecho la advertencia de que está completo.\nd) Dificultar innecesariamente el paso en los lugares destinados al tránsito de personas.\ne) Llevar consigo cualquier animal, salvo que exista en el vehículo lugar destinado para su transporte. Se exceptúan de esta prohibición, siempre bajo su responsabilidad, a los invidentes acompañados de perros, especialmente adiestrados como lazarillos.\nf) Llevar materias u objetos peligrosos en condiciones distintas de las establecidas en la regulación específica sobre la materia.\ng) Desatender las instrucciones que, sobre el servicio, den el conductor o el encargado del vehículo.\nEl conductor y, en su caso, el encargado de los vehículos destinados al servicio público de transporte colectivo de personas deben prohibir la entrada y ordenar su salida a los viajeros que incumplan los preceptos establecidos en este apartado.",
+ "fingerprint": "sha256:2e54a8a175c12f89a8b6a6b10ad62417174aa91534dced89a7777f61f58953f3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a11"
+}

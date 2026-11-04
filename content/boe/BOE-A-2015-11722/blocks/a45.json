@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a45",
+ "tipo": "precepto",
+ "titulo": "Artículo 45",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 45. Puertas.\nSe prohíbe llevar abiertas las puertas del vehículo, abrirlas antes de su completa inmovilización y abrirlas o apearse del mismo sin haberse cerciorado previamente de que ello no implica peligro o entorpecimiento para otros usuarios, especialmente cuando se refiere a conductores de bicicletas.",
+ "fingerprint": "sha256:dda74a451a031ce45df7592fb5969afb93d54e192d1502527d119ff749400ac4",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a45"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a57",
+ "tipo": "precepto",
+ "titulo": "Artículo 57",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 57. Mantenimiento.\n1. Corresponde al titular de la vía la responsabilidad del mantenimiento de la misma en las mejores condiciones posibles de seguridad para la circulación, y de la instalación y conservación en ella de las adecuadas señales y marcas viales. También corresponde al titular de la vía la autorización previa para la instalación en ella de otras señales de circulación. En caso de emergencia, los agentes de la autoridad encargados de la vigilancia del tráfico, en el ejercicio de las funciones que tengan encomendadas, podrán instalar señales circunstanciales sin autorización previa.\n2. La autoridad encargada de la regulación, ordenación y gestión del tráfico será responsable de la señalización de carácter circunstancial en razón de las contingencias del mismo y de la señalización variable necesaria para su control, de acuerdo con la normativa de carreteras.\n3. La responsabilidad de la señalización de las obras que se realicen en las vías corresponderá a los organismos que las realicen o a las empresas adjudicatarias de las mismas, en los términos que reglamentariamente se determine. Los usuarios de la vía están obligados a seguir las indicaciones del personal destinado a la regulación del tráfico en dichas obras.",
+ "fingerprint": "sha256:61470e3e06c66400ed88e24cd2991bb850d3beb790b072519ad55fd13bb5cad6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a57"
+}

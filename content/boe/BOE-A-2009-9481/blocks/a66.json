@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a66",
+ "tipo": "precepto",
+ "titulo": "Artículo 66",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 66. Convocatorias.\n1. Cada solicitud de pruebas teóricas de control de conocimientos dará derecho a realizar las pruebas en dos convocatorias. Entre convocatorias de un mismo expediente no deberá mediar más de seis meses.\nLas fechas de las pruebas a que se refiere el párrafo anterior serán fijadas, a petición del interesado, por la Jefatura Provincial de Tráfico que hubiera aprobado el curso, teniendo en cuenta las posibilidades del servicio. La no presentación a cualquiera de las pruebas en las fechas fijadas dará lugar, salvo casos debidamente justificados, a la pérdida de la convocatoria.\n2. Las fechas de los ejercicios prácticos individuales que no puedan realizarse en el aula a la que se refiere el artículo 65.2, párrafo segundo, serán fijadas, a petición del Director del centro de formación, por la Jefatura Provincial de Tráfico al aprobar el curso.",
+ "fingerprint": "sha256:68e0ebf4072a159015d2d31157f7090eb14a0af98e7b6be8300cdf3fe277d09b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a66"
+}

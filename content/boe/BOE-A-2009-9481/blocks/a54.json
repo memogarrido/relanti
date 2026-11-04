@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a54",
+ "tipo": "precepto",
+ "titulo": "Artículo 54",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2015-12572",
+  "fecha_publicacion": "20151121",
+  "fecha_vigencia": "20151231"
+ },
+ "text": "Artículo 54. Exenciones.\n1. Estarán exentos de realizar la prueba de control de conocimientos común quienes sean titulares de un permiso de conducción en vigor para cuya obtención haya sido preciso superar dicha prueba, o la hayan superado para la obtención de cualquier otra clase de permiso, siempre que esté dentro del período de vigencia de dos años a que se refiere el artículo 53.1.\n2. Estarán exentos de realizar la prueba de control de conocimientos específicos correspondiente los que sean titulares de un permiso de conducción en vigor, o hayan superado esta prueba para su obtención, de acuerdo con lo que se expresa a continuación:\na) Los que soliciten el permiso de la clase A2 y sean titulares del de la clase A1.\nb) Los que soliciten el permiso de la clase C, y sean titulares del de la clase C1.\nc) Los que soliciten el permiso de la clase D, y sean titulares del de la clase D1.\nd) Los que soliciten el permiso de la clase C + E, y sean titulares del de las clases C1 + E o D1 + E.\ne) Los que soliciten el permiso de la clase D1 + E o D + E, y sean titulares del de la clase C1 + E.",
+ "fingerprint": "sha256:da7d3dde5a05857252ff96059af58125008b4952305cdcea2eb9391c16ca9a09",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a54"
+}

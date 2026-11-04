@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a14-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 14",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 14. Obligaciones de los participantes.\nTodos los participantes de la prueba deben estar cubiertos por un seguro de responsabilidad civil que cubra los posibles daños a terceros hasta los mismos límites que para daños personales y materiales establece el Real Decreto 7/2001, de 12 de enero, para el seguro de responsabilidad civil de vehículos a motor de suscripción obligatoria, y un seguro de accidentes que tenga, como mínimo, las coberturas del seguro obligatorio deportivo regulado en el Real Decreto 849/1993, de 4 de junio, sin cuya preceptiva contratación no se podrá celebrar prueba alguna.",
+ "fingerprint": "sha256:bd02cdba24bca4ed3a816ed7b9e3b1308aa1767c29479df7f73a960730235b39",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a14-2"
+}

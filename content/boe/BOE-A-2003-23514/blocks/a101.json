@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a101",
+ "tipo": "precepto",
+ "titulo": "Artículo 101",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 101. Alumbrado de corto alcance o de cruce.\n1. Todo vehículo de motor y ciclomotor que circule entre el ocaso y la salida del sol por vías urbanas o interurbanas suficientemente iluminadas, o a cualquier hora del día por túneles, pasos inferiores y tramos de vías afectados por la señal «Túnel» (S-5) suficientemente iluminados, llevará encendido, además del alumbrado de posición, el alumbrado de corto alcance o de cruce.\nIgualmente, llevará encendido dicho alumbrado en los poblados, cuando la vía esté insuficientemente iluminada.\n2. Todo vehículo de motor y ciclomotor debe llevar encendido el alumbrado de corto alcance o de cruce al circular entre el ocaso y la salida del sol por vías interurbanas insuficientemente iluminadas o a cualquier hora del día por túneles, pasos inferiores y demás tramos afectados por la señal de «Túnel» insuficientemente iluminados, cuando concurra alguna de las siguientes circunstancias:\na) No disponer de alumbrado de largo alcance.\nb) Circular a velocidad no superior a 40 kilómetros por hora y no estar utilizando el alumbrado de largo alcance.\nc) Posibilidad de producir deslumbramiento a otros usuarios de la vía pública.\n3. Los supuestos de circulación en los que se produzca deslumbramiento al resto de los usuarios de la vía y de circulación sin alumbrado en situación de falta o disminución de visibilidad tendrán la consideración de infracciones graves, conforme se prevé en el artículo 65.4.e) del texto articulado.",
+ "fingerprint": "sha256:3674951c44ac32cfaa0d4e9fca915cc29f85ee7e33aa2f5e7bb6e9edfca48915",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a101"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "anxii",
+ "tipo": "encabezado",
+ "titulo": "ANEXO XII",
+ "versions": 5,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "ANEXO XII\nACCESORIOS, REPUESTOS Y HERRAMIENTAS DE LOS VEHÍCULOS\nLos vehículos de motor y los conjuntos de vehículos en circulación deben llevar los siguientes accesorios, repuestos y herramientas:\n1. Los turismos, así como los vehículos mixtos y los automóviles destinados al transporte de mercancías, estos dos últimos de masa máxima autorizada no superior a 3.500 kg, excepto los vehículos de tres ruedas y cuatriciclos, llevarán la siguiente dotación:\na) El dispositivo luminoso de preseñalización de peligro V-16.\nb) Un chaleco reflectante de alta visibilidad, certificado según el Real Decreto 1407/1992, de 20 de noviembre, por el que se regulan las condiciones para la comercialización y libre circulación intracomunitaria de los equipos de protección individual, que exige el marcado CE, y que deberá ser conforme con la norma UNE EN 471, mínimo clase 2 (tanto en superficie mínima de materiales como en nivel de retrorreflexión de las bandas).\nEn el caso de que se realicen funciones de vehículo piloto de protección y acompañamiento, se deberán llevar chalecos tanto para el conductor como para cada uno de los miembros del personal auxiliar.\nc) Una rueda completa de repuesto o una rueda de uso temporal, con las herramientas necesarias para el cambio de ruedas, o un sistema alternativo al cambio de las mismas que ofrezca suficientes garantías para la movilidad del vehículo. En estos casos se circulará respetando las limitaciones propias de cada alternativa.\n2. Los autobuses, así como los vehículos mixtos y los automóviles destinados al transporte de mercancías, estos dos últimos de masa máxima autorizada superior a 3.500 kg, y los conjuntos de vehículos no especiales, deberán llevar, además de la dotación que se establece en el apartado 1 a) y b), un equipo homologado de extinción de incendios, adecuado y en condiciones de uso.\n3. Las motocicletas deberán llevar un chaleco reflectante de alta visibilidad que reúna los requisitos de los equipos de protección individual.",
+ "fingerprint": "sha256:0cc3d260bcbe6477311c2e2c3990775652f8816d00f5de53c1f0aa246ea9132c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#anxii"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a113",
+ "tipo": "precepto",
+ "titulo": "Artículo 113",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 113. Advertencias de otros vehículos.\nDe conformidad con lo dispuesto en el artículo 71, los conductores de vehículos destinados a obras o servicios y los de tractores y maquinaria agrícola y demás vehículos, transportes especiales o vehículos destinados al servicio de auxilio en vías públicas, advertirán su presencia mediante la utilización de la señal luminosa V-2 a que se refiere el anexo XI del Reglamento General de Vehículos.",
+ "fingerprint": "sha256:d85ea720f1b6cc3c6cd15c00c6e5d439c9a2ff4880c0c4a3b6407fa12822f555",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a113"
+}

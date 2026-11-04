@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-8",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Normas generales sobre pasos a nivel, puentes móviles y túneles",
+ "fingerprint": "sha256:7910262ba65e133c246a7a23b72b7b56b8363b6253cbd7183d7d463440f25dd5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-8"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a124",
+ "tipo": "precepto",
+ "titulo": "Artículo 124",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 124. Pasos para peatones y cruce de calzadas.\n1. En zonas donde existen pasos para peatones, los que se dispongan a atravesar la calzada deberán hacerlo precisamente por ellos, sin que puedan efectuarlo por las proximidades, y cuando tales pasos sean a nivel, se observarán, además, las reglas siguientes:\na) Si el paso dispone de semáforos para peatones, obedecerán sus indicaciones.\nb) Si no existiera semáforo para peatones pero la circulación de vehículos estuviera regulada por agente o semáforo, no penetrarán en la calzada mientras la señal del agente o del semáforo permita la circulación de vehículos por ella.\nc) En los restantes pasos para peatones señalizados mediante la correspondiente marca vial, aunque tienen preferencia, sólo deben penetrar en la calzada cuando la distancia y la velocidad de los vehículos que se aproximen permitan hacerlo con seguridad.\n2. Para atravesar la calzada fuera de un paso para peatones, deberán cerciorarse de que pueden hacerlo sin riesgo ni entorpecimiento indebido.\n3. Al atravesar la calzada, deben caminar perpendicularmente al eje de ésta, no demorarse ni detenerse en ella sin necesidad y no entorpecer el paso a los demás.\n4. Los peatones no podrán atravesar las plazas y glorietas por su calzada, debiendo rodearlas, a no ser que exista un paso para peatones habilitado.",
+ "fingerprint": "sha256:e7c4284c7399ca1aa1a2aac12463956605a299698c13973b0a17c682eef782ea",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a124"
+}

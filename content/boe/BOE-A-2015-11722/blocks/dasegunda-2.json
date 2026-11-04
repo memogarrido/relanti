@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dasegunda-2",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional segunda",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Disposición adicional segunda. Comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor.\nLas Comunidades autónomas que hayan recibido el traspaso de funciones y servicios en materia de tráfico y circulación de vehículos a motor serán las encargadas, en su ámbito territorial, de determinar el modo de impartir los cursos de sensibilización y reeducación vial y los cursos de conducción segura y eficiente, de acuerdo con la duración, el contenido y los requisitos de aquéllos que se determinen con carácter general.",
+ "fingerprint": "sha256:e884cb74f1f03ab68e7d51b7c81808a03b4051a36b1746f039241ef43524513b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dasegunda-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-5",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Cambio de sentido",
+ "fingerprint": "sha256:af1ca14e5fd9b762477b48fbd2d061742668a902b728c022745efe024ac744f7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-5"
+}

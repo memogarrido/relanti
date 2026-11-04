@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "firma",
+ "tipo": "firma",
+ "titulo": null,
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Dado en Madrid, el 8 de mayo de 2009.\nJUAN CARLOS R.\nEl Ministro del Interior,\nALFREDO PÉREZ RUBALCABA",
+ "fingerprint": "sha256:28908af55313da37e35d9de45c25da9572e942b7143cebfd1ffe64267467c374",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#firma"
+}

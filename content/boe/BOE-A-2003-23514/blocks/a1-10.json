@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-10",
+ "tipo": "precepto",
+ "titulo": "Artículo 157",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 157. Restricciones por motivos medioambientales.\nLas autoridades competentes podrán establecer medidas de restricción total o parcial de entrada y circulación de vehículos en las zonas de bajas emisiones, en zonas de prioridad residencial, o cualquiera otra vía que se hallase dentro de su competencia, de acuerdo con los criterios medioambientales que se establezcan.",
+ "fingerprint": "sha256:3cc378e0e64d5d740b49696ddcfa4fd3dd3e5abce07cdf3cac6f6d163e3daf43",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-10"
+}

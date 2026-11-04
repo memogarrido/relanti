@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a52",
+ "tipo": "precepto",
+ "titulo": "Artículo 52",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 52. Velocidades prevalentes.\n1. Sobre las velocidades máximas indicadas en los artículos anteriores prevalecerán las que se fijen:\na) A través de las correspondientes señales.\nb) A determinados conductores en razón a sus circunstancias personales.\nc) A los conductores noveles.\nd) A determinados vehículos o conjuntos de vehículos por sus especiales características o por la naturaleza de su carga.\n2. En los supuestos comprendidos en el párrafo b) del apartado anterior y en el artículo 48.1.c) y d), será obligatorio llevar en la parte posterior del vehículo, visible en todo momento, la señal de limitación de velocidad a que se refiere el anexo XI del Reglamento General de Vehículos.\n3. Las infracciones a las normas de este precepto tendrán la consideración de graves o muy graves, según corresponda por el exceso de velocidad, conforme se prevé en los artículos 65.4.c) y 65.5.e), ambos del texto articulado.",
+ "fingerprint": "sha256:33e83827421f795816585c55ffe9f43079baa2d2632b52e70558f8df8ab7765f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a52"
+}

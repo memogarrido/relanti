@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a76",
+ "tipo": "precepto",
+ "titulo": "Artículo 76",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 76. Supuestos especiales.\n1. Por excepción, si, por las dimensiones del vehículo o por otras circunstancias que lo justificaran, no fuera posible realizar el cambio de dirección con estricta sujeción a lo dispuesto en el artículo anterior, el conductor deberá adoptar las precauciones necesarias para evitar todo peligro al llevarlo a cabo.\n2. En vías interurbanas, los ciclos y ciclomotores de dos ruedas, si no existe un carril especialmente acondicionado para el giro a la izquierda, deberán situarse a la derecha, fuera de la calzada siempre que sea posible, e iniciarlo desde ese lugar.\n3. Las infracciones a las normas de este precepto tendrán la consideración de graves, conforme se prevé en el artículo 65.4.c) del texto articulado.",
+ "fingerprint": "sha256:e6309611fb2aba80f877416bb56cb6637089b688dec201c329a0fafcc258d722",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a76"
+}

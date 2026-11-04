@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a2",
+ "tipo": "precepto",
+ "titulo": "Artículo 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 2. Competencia para expedir los permisos y las licencias de conducción.\nLos permisos y licencias de conducción, así como las autorizaciones administrativas que provisionalmente los sustituyan, serán expedidos por las Jefaturas Provinciales de Tráfico, con excepción de los que autorizan a conducir vehículos de las Fuerzas Armadas o de la Dirección General de Policía y de la Guardia Civil.\nAsimismo, será expedido por las Jefaturas Provinciales de Tráfico el permiso internacional para conducir regulado en la sección 2.ª del capítulo III del título I.",
+ "fingerprint": "sha256:daef1f7fc2115f24e4f7c2ac7b0c4fea56c0e9dd1badcb127a711ed0a5fdd2b2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a107",
+ "tipo": "precepto",
+ "titulo": "Artículo 107",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 107. Inutilización o avería del alumbrado.\nSi, por inutilización o avería irreparable en ruta del alumbrado correspondiente, se hubiera de circular con alumbrado de intensidad inferior, se deberá reducir la velocidad hasta la que permita la detención del vehículo dentro de la zona iluminada.",
+ "fingerprint": "sha256:812a81c9134f2f04431bc6ccf7109c9bdb90eff20153b2e0ea218b0f9a082d22",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a107"
+}

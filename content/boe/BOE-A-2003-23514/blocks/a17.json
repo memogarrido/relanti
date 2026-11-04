@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a17",
+ "tipo": "precepto",
+ "titulo": "Artículo 17",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 17. Control del vehículo o de animales.\n1. Los conductores deberán estar en todo momento en condiciones de controlar sus vehículos o animales.\nAl aproximarse a otros usuarios de la vía, deberán adoptar las precauciones necesarias para su seguridad, especialmente cuando se trate de niños, ancianos, invidentes u otras personas manifiestamente impedidas (artículo 11.1 del texto articulado).\n2. A los conductores de caballerías, ganados y vehículos de carga de tracción animal les está prohibido llevarlos corriendo por la vía en las inmediaciones de otros de la misma especie o de las personas que van a pie, así como abandonar su conducción, dejándoles marchar libremente por el camino o detenerse en él.",
+ "fingerprint": "sha256:f90c33fca38035356c8e878b39f5b6da581ad9bc0e635dc24ffefb2212e05988",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a17"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a91",
+ "tipo": "precepto",
+ "titulo": "Artículo 91",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 91. Notificaciones en el «Boletín Oficial del Estado» (BOE).\nLas notificaciones que no puedan efectuarse en la Dirección Electrónica Vial (DEV) y, en caso de no disponer de la misma, en el domicilio expresamente indicado para el procedimiento o, de no haber indicado ninguno, en el domicilio que figure en los registros del organismo autónomo Jefatura Central de Tráfico, se practicarán en el «Boletín Oficial del Estado» (BOE). Transcurrido el período de veinte días naturales desde que la notificación se hubiese publicado en el BOE se entenderá que ésta ha sido practicada, dándose por cumplido dicho trámite.",
+ "fingerprint": "sha256:3222dec6feebada4fd7b3b30825af294b39f80053393b33e90f8903736337f9d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a91"
+}

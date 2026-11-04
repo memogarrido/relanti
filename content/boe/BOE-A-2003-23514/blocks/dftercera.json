@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "dftercera",
+ "tipo": "precepto",
+ "titulo": "Disposición final tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Disposición final tercera. Vehículos de las Fuerzas Armadas.\nSe faculta a los Ministros de Defensa y del Interior y, en su caso, a los demás ministros competentes, para regular las peculiaridades del régimen de autorizaciones y circulación de los vehículos pertenecientes a las Fuerzas Armadas.",
+ "fingerprint": "sha256:646734f7d6762bf37210db6af85eca146c9e156645d568ffd066a6691e08aa71",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#dftercera"
+}

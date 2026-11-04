@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a157",
+ "tipo": "precepto",
+ "titulo": "Artículo 157",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 157. Formato de las señales de reglamentación.\n1. La forma, color, diseño, símbolos, significado y dimensiones de las señales de reglamentación son los que figuran en el Catálogo oficial de señales de circulación. La forma, símbolos y nomenclatura figuran también en el anexo I de este reglamento.\n2. Cuando las señales a que se refieren los artículos 151, 152, 153, 154 y 156 sean luminosas, podrá admitirse que los símbolos aparezcan iluminados en blanco sobre fondo oscuro no luminoso.",
+ "fingerprint": "sha256:dd0437f42c69856e2941d6f69206d4f038a148ad6c9b151ec703083e1fff559b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a157"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tpreliminar",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO PRELIMINAR",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "TÍTULO PRELIMINAR\nÁmbito de aplicación de las normas sobre tráfico, circulación de vehículos a motor y seguridad vial",
+ "fingerprint": "sha256:234f51a68860d6f31ef9a610c0a3f557165c78bddbfe72aae101cde737f3ee98",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tpreliminar"
+}

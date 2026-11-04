@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a24",
+ "tipo": "precepto",
+ "titulo": "Artículo 24",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 24. Diligencias del agente de la autoridad.\nSi el resultado de la segunda prueba practicada por el agente, o el de los análisis efectuados a instancia del interesado, fuera positivo, o cuando el que condujese un vehículo de motor presentara síntomas evidentes de hacerlo bajo la influencia de bebidas alcohólicas o apareciera presuntamente implicado en una conducta delictiva, el agente de la autoridad, además de ajustarse, en todo caso, a lo establecido en la Ley de Enjuiciamiento Criminal, deberá:\na) Describir con precisión, en el boletín de denuncia o en el atestado de las diligencias que practique, el procedimiento seguido para efectuar la prueba o pruebas de detección alcohólica, haciendo constar los datos necesarios para la identificación del instrumento o instrumentos de detección empleados, cuyas características genéricas también detallará.\nb) Consignar las advertencias hechas al interesado, especialmente la del derecho que le asiste a contrastar los resultados obtenidos en las pruebas de detección alcohólica por el aire espirado mediante análisis adecuados, y acreditar en las diligencias las pruebas o análisis practicados en el centro sanitario al que fue trasladado el interesado.\nc) Conducir al sometido a examen, o al que se negase a someterse a las pruebas de detección alcohólica, en los supuestos en que los hechos revistan caracteres delictivos, de conformidad con lo dispuesto en la Ley de Enjuiciamiento Criminal, al juzgado correspondiente a los efectos que procedan.",
+ "fingerprint": "sha256:1e5542a704645b731e6e56e43552963ef836f506e6f810811211cd9b599ee0c5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a24"
+}

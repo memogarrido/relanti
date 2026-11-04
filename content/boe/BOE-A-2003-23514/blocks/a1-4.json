@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-4",
+ "tipo": "precepto",
+ "titulo": "Artículo 151",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 151. Marco general.\n1. El presente título tiene por objeto regular aspectos específicos de la circulación en el ámbito urbano, sin perjuicio de lo dispuesto en otros preceptos que sean de aplicación en lo no regulado en este título.\n2. Los Municipios, a través de sus ordenanzas municipales y en el ámbito de sus competencias, podrán desarrollar aspectos de las normas del presente título.\n3. Las ordenanzas municipales no podrán oponerse, alterar, desvirtuar o inducir a confusión con los preceptos de este reglamento.",
+ "fingerprint": "sha256:88bd7c93919ff25f8bea9b55a0ec5410a6028428f77aaf6cbe313315769a0f61",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-4"
+}

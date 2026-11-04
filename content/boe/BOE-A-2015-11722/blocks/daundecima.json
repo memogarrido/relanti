@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "daundecima",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional undécima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional undécima. Integración y coordinación de notificaciones a través del Tablón Edictal de Sanciones de Tráfico (TESTRA) y de la Dirección Electrónica Vial (DEV).\nEl Tablón Edictal de Sanciones de Tráfico (TESTRA) podrá integrarse en el Tablón Edictal Único cuando razones justificadas de eficiencia en la prestación del servicio así lo aconsejen para los anuncios de notificaciones edictales de los procedimientos sancionadores en materia de tráfico. Por estos mismos motivos, y cumpliendo las funciones que la ley recoge, la Dirección Electrónica Vial (DEV) podrá integrarse o coordinarse con la Dirección Electrónica Habilitada (DEH).",
+ "fingerprint": "sha256:7ff41d25d77f167a55394fd3513ebd332662546cdcb1e85fa9a8c8c146e4dc4f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#daundecima"
+}

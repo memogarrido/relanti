@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s2-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 2.ª De los vehículos a utilizar en las pruebas",
+ "fingerprint": "sha256:7d127bb7f3fca34442e853afb3bcc30ba0192f98fab05924f76b4c36a94e43a6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s2-3"
+}

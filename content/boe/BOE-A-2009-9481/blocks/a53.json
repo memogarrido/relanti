@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a53",
+ "tipo": "precepto",
+ "titulo": "Artículo 53",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 53. Calificación de las pruebas.\n1. Las pruebas, tanto las de control de conocimientos como las de control de aptitudes y comportamientos, serán calificadas de apto o no apto. La declaración de aptitud en una prueba tendrá un período de vigencia de dos años contado desde el día siguiente a aquél en que el aspirante fue declarado apto en la prueba.\nCuando el aspirante, dentro del plazo señalado en el párrafo anterior, supere la prueba siguiente, el plazo de vigencia comenzará a contarse de nuevo.\nLas pruebas serán eliminatorias. Quienes no hayan superado las de control de conocimientos no podrán realizar la de control de aptitudes y comportamientos en circuito cerrado y, quienes no hayan superado ésta, no podrán realizar la de control de aptitudes y comportamientos en circulación en vías abiertas al tráfico general.\n2. El personal examinador encargado de calificar las pruebas de control de aptitudes y comportamientos deberá reunir unos requisitos mínimos de cualificación, de acuerdo con lo establecido en el anexo VIII.\nSu actuación deberá ser controlada y supervisada por el Organismo Autónomo Jefatura Central de Tráfico y su organización periférica, de acuerdo con lo previsto en el anexo VIII, con el fin de garantizar la aplicación correcta y homogénea de las disposiciones relativas a la valoración de las faltas con arreglo a las normas que establece este reglamento.\nAdemás, a efectos de lo dispuesto en el apartado anterior, la calificación de las pruebas se ajustará a los criterios que se establecen en el anexo VI. B). 3 y C). 3.",
+ "fingerprint": "sha256:797b92eac4abc46d5c7977863f80bb4a6e21113bae2f3d7c9c57060e02fcdf4d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a53"
+}

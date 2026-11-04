@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a148",
+ "tipo": "precepto",
+ "titulo": "Artículo 148",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 148. Señalización de tramos con obras o tareas de conservación.\nLas obras y tareas de conservación que alteren de cualquier modo la circulación vial deberán hallarse señalizadas, tanto de día como de noche, y balizadas luminosamente durante las horas nocturnas, o cuando las condiciones meteorológicas o ambientales lo exijan, a cargo del realizador de la obra.",
+ "fingerprint": "sha256:c386a864fab264116c510f1392cdad9764a0b4ad0aee8f78d99472b151d38ed7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a148"
+}

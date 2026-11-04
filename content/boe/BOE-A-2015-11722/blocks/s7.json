@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "s7",
+ "tipo": "encabezado",
+ "titulo": "Sección 7",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Sección 7.ª Parada y estacionamiento",
+ "fingerprint": "sha256:06b1bd84a03c8a7269ba10013986e4d4a72a15fc97fc60a877158318c0e06d44",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#s7"
+}

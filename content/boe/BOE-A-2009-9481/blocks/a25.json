@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a25",
+ "tipo": "precepto",
+ "titulo": "Artículo 25",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 25. Autorización especial para conducir vehículos que transporten mercancías peligrosas.\n1. Para conducir vehículos que transporten mercancías peligrosas, cuando así lo requieran las disposiciones del Acuerdo Europeo sobre Transporte Internacional de mercancías peligrosas por carretera (ADR), hecho en Ginebra el 30 de septiembre de 1957, se exigirá una autorización administrativa especial que habilite para ello.\n2. Dicha autorización especial, que por sí sola no autoriza a conducir si no va acompañada del permiso de conducción ordinario en vigor requerido para el vehículo de que se trate, deberá llevarla consigo su titular, en unión del correspondiente permiso de conducción, y exhibirla ante la autoridad o sus agentes cuando lo soliciten.",
+ "fingerprint": "sha256:5b0d337ebbd1dc9d19e6beb492fa032af6aa9834f492c533a0d7b28c4c2f7246",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a25"
+}

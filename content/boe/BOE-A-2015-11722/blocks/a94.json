@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a94",
+ "tipo": "precepto",
+ "titulo": "Artículo 94",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 94. Procedimiento sancionador abreviado.\nUna vez realizado el pago voluntario de la multa, ya sea en el acto de entrega de la denuncia o dentro del plazo de veinte días naturales contados desde el día siguiente al de su notificación, concluirá el procedimiento sancionador con las siguientes consecuencias:\na) La reducción del 50 por ciento del importe de la sanción.\nb) La renuncia a formular alegaciones. En el caso de que se formulen se tendrán por no presentadas.\nc) La terminación del procedimiento, sin necesidad de dictar resolución expresa, el día en que se realice el pago.\nd) El agotamiento de la vía administrativa, siendo recurrible únicamente ante el orden jurisdiccional contencioso-administrativo.\ne) El plazo para interponer el recurso contencioso-administrativo se iniciará el día siguiente a aquel en que tenga lugar el pago.\nf) La firmeza de la sanción en la vía administrativa desde el momento del pago, produciendo plenos efectos desde el día siguiente.\ng) La sanción no computará como antecedente en el Registro de Conductores e Infractores del organismo autónomo Jefatura Central de Tráfico, siempre que se trate de infracciones graves que no lleven aparejada pérdida de puntos.",
+ "fingerprint": "sha256:fb1cdc10a4c0adf6f692617f75c73bf9cb291f0401041c2548287f29d079707f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a94"
+}

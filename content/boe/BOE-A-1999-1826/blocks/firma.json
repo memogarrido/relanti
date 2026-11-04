@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "firma",
+ "tipo": "firma",
+ "titulo": null,
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Dado en Madrid a 23 de diciembre de 1998.\nJUAN CARLOS R.\nEl Vicepresidente Primero del Gobierno y Ministro de la Presidencia,\nFRANCISCO ÁLVAREZ-CASCOS FERNÁNDEZ",
+ "fingerprint": "sha256:659cb8a693820abf8c01478b4f81241a4a61b9a1edfe99dda5b7797db5fd4a20",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#firma"
+}

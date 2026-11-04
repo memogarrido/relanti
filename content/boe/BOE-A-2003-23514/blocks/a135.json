@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a135",
+ "tipo": "precepto",
+ "titulo": "Artículo 135",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 135. Aplicación.\nToda señal se aplicará a toda la anchura de la calzada que estén autorizados a utilizar los conductores a quienes se dirija esa señal. No obstante, su aplicación podrá limitarse a uno o más carriles, mediante marcas en la calzada.",
+ "fingerprint": "sha256:5fece85f9246eee057021d2de6ecdb59d3b660519629c98a97dff030827065f7",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a135"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a35",
+ "tipo": "precepto",
+ "titulo": "Artículo 35",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 35. Ejecución.\n1. Durante la ejecución del adelantamiento, el conductor que lo efectúe debe llevar su vehículo a una velocidad notoriamente superior a la del que pretende adelantar y dejar entre ambos una separación lateral suficiente para realizarlo con seguridad.\n2. Si después de iniciar la maniobra de adelantamiento advierte que se producen circunstancias que puedan hacer difícil la finalización del mismo sin provocar riesgos, reducirá rápidamente su marcha y volverá de nuevo a su carril, advirtiéndolo a los que le siguen con las señales preceptivas.\n3. El conductor del vehículo que ha efectuado el adelantamiento debe volver a su carril tan pronto como le sea posible y de modo gradual, sin obligar a otros usuarios a modificar su trayectoria o velocidad y advirtiéndolo a través de las señales preceptivas.\n4. El conductor de un vehículo que pretenda realizar un adelantamiento a un ciclo o ciclomotor, o conjunto de ellos, debe realizarlo ocupando parte o la totalidad del carril contiguo o contrario, en su caso, de la calzada y guardando una anchura de seguridad de, al menos, 1,5 metros, salvo cuando la calzada cuente con más de un carril por sentido, en cuyo caso será obligatorio el cambio completo de carril. Queda prohibido adelantar poniendo en peligro o entorpeciendo a ciclistas que circulen en sentido contrario, incluso si estos ciclistas circulan por el arcén.",
+ "fingerprint": "sha256:3861f7d01a7627efdab9974d10d4fbe3b233ae23ae575a8849bd3a5380ebed97",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a35"
+}

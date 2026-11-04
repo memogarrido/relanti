@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a18",
+ "tipo": "precepto",
+ "titulo": "Artículo 18",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Artículo 18. Señales en los vehículos.\n1. Las señales en los vehículos que tengan por objeto dar a conocer a los usuarios de la vía determinadas circunstancias o características del vehículo en que están colocadas, del servicio que presta, de la carga que transporta o de su propio conductor, se ajustarán en cuanto a sus características y colocación a lo dispuesto en el anexo XI.\n2. No obstante lo anterior, las señales en los vehículos exigidas en otras reglamentaciones específicas se ajustarán a lo dispuesto en el anexo I.",
+ "fingerprint": "sha256:27ed103ba53c3dad6a03b793b31b565783930bdb6aeaed2b4da16949e1d38dd1",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a18"
+}

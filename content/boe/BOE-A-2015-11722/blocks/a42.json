@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a42",
+ "tipo": "precepto",
+ "titulo": "Artículo 42",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 42. Bloqueo de pasos a nivel.\nCuando por razones de fuerza mayor un vehículo quede detenido en un paso a nivel o se produzca la caída de su carga dentro del mismo, el conductor está obligado a adoptar las medidas adecuadas para el rápido desalojo de los ocupantes del vehículo y para dejar el paso libre en el menor tiempo posible.\nSi no lo consigue, adoptará inmediatamente todas las medidas a su alcance para que tanto los maquinistas de los vehículos que circulen por raíles, como los conductores del resto de los vehículos que se aproximen sean advertidos de la existencia del peligro con la suficiente antelación.",
+ "fingerprint": "sha256:385874d63d2f24987ab0b2003d3f75b8bf15010c26856026e2d42ee908af85a9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a42"
+}

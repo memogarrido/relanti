@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a165",
+ "tipo": "precepto",
+ "titulo": "Artículo 165",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 165. Formato de las señales de indicación.\nLa forma, color, diseño, símbolos, significado y dimensiones de las señales de indicación figuran en el Catálogo oficial de señales de circulación. La forma, símbolos y nomenclatura de las correspondientes señales figuran también en el anexo I de este reglamento.",
+ "fingerprint": "sha256:849e749f23ee5c824ee6c5fee735c14207e2c0baa51e74d6ecd028cb87bbb2da",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a165"
+}

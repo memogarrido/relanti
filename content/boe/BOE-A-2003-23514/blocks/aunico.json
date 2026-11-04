@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "aunico",
+ "tipo": "precepto",
+ "titulo": "Artículo único",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo único. Aprobación del Reglamento General de Circulación.\nSe aprueba el Reglamento General de Circulación para la aplicación y desarrollo del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo, cuyo texto se inserta a continuación.",
+ "fingerprint": "sha256:2b9c252278f0352134d9eff1c7ac74ca25d61451d5d6a4438e5b61b1281c5625",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#aunico"
+}

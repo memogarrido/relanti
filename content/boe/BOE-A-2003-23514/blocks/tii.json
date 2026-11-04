@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tii",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO II",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "TÍTULO II\nDe la circulación de vehículos",
+ "fingerprint": "sha256:085d47787fc7ae7c7a47a20e9c9c40705a0170aeecfbd5b1591f2acb031ac5f9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tii"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a34",
+ "tipo": "precepto",
+ "titulo": "Artículo 34",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 34. Declaración de nulidad o lesividad.\n1. Las autorizaciones administrativas para conducir reguladas en este título podrán ser objeto de declaración de nulidad o lesividad cuando concurra alguno de los supuestos previstos en los artículos 62 y 63, respectivamente, de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común.\n2. El procedimiento para la declaración de nulidad o lesividad se ajustará a lo establecido en el capítulo I del título VII de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, así como a la Disposición Adicional Decimosexta de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, en cuanto a la competencia para la revisión de oficio de los actos nulos.",
+ "fingerprint": "sha256:f6f088bed84fe65b32b7f4912f86d865077341cd1e4d0a14f80f1dd4139a010a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a34"
+}

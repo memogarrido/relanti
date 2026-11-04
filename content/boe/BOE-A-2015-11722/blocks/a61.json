@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a61",
+ "tipo": "precepto",
+ "titulo": "Artículo 61",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 61. Permisos y licencias de conducción.\n1. La conducción de vehículos a motor y ciclomotores exigirá haber obtenido previamente el preceptivo permiso o licencia de conducción dirigido a verificar que el conductor tenga los requisitos de capacidad, conocimientos y habilidad necesarios para la conducción del vehículo, en los términos que se determine reglamentariamente.\n2. El permiso y la licencia de conducción podrán tener vigencia limitada en el tiempo, cuyos plazos podrán ser revisados en los términos que reglamentariamente se determine.\n3. Su vigencia estará también condicionada a que su titular no haya perdido el crédito de puntos asignado.",
+ "fingerprint": "sha256:44be93ad3e060c1d246ad2ad51fe927ca4d0a6191c6335703240546a835b0c04",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a61"
+}

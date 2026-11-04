@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a150",
+ "tipo": "precepto",
+ "titulo": "Artículo 150",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 150. Objeto, significado y clases.\n1. Las señales en los vehículos están destinadas a dar a conocer a los usuarios de la vía determinadas circunstancias o características del vehículo en que están colocadas, del servicio que presta, de la carga que transporta o de su propio conductor.\n2. La forma, color, diseño, símbolos, dimensiones, significado y colocación de las señales en los vehículos se ajustarán a lo establecido en el anexo XI del Reglamento General de Vehículos.",
+ "fingerprint": "sha256:a0caa764ec91caab27ce6270a846378cc40324f4c3ea59427227a5c34372bf19",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a150"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a136",
+ "tipo": "precepto",
+ "titulo": "Artículo 136",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 136. Visibilidad.\nCon el fin de que sean más visibles y legibles por la noche, las señales viales deben estar provistas de materiales o dispositivos retrorreflectantes, según lo dispuesto en la normativa técnica básica de interés general establecida a estos fines por el Ministerio de Transportes y Movilidad Sostenible.",
+ "fingerprint": "sha256:facd2bf7b4f6f466deee279d6d424aa47e789705994af3d69c6d7811abc9771d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a136"
+}

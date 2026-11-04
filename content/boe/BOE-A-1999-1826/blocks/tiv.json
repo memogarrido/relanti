@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "tiv",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO IV",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "TÍTULO IV\nAutorizaciones de circulación de los vehículos",
+ "fingerprint": "sha256:50c56fba4c94df36c007c9cc810de052d0996bf12b4cc4aae227f2c930bafb53",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#tiv"
+}

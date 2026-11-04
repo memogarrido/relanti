@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a23",
+ "tipo": "precepto",
+ "titulo": "Artículo 23",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 23. Normas generales.\n1. La preferencia de paso en las intersecciones se ajustará a la señalización que la regule.\n2. En defecto de señal, el conductor está obligado a ceder el paso a los vehículos que se aproximen por su derecha, salvo en los siguientes supuestos:\na) Los vehículos que circulen por una vía pavimentada sobre los que procedan de otra sin pavimentar.\nb) Los vehículos que circulen por raíles sobre los demás usuarios.\nc) Los que se hallen dentro de las glorietas sobre los que pretendan acceder a ellas.\n3. Reglamentariamente se podrán establecer otras excepciones.",
+ "fingerprint": "sha256:3f5313424ae8d6245d04597cfd01166d3d58c69da2f7b9ed9edb72024ff2a6c2",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a23"
+}

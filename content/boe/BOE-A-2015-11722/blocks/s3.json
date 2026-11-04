@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "s3",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Sección 3.ª Preferencia de paso",
+ "fingerprint": "sha256:451874996ac0cba891e6007f8281dcdb3ed8bfaaafac3407d5fb816b1ff5743b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#s3"
+}

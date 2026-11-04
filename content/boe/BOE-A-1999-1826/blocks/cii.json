@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "cii",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO II",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "CAPÍTULO II\nCondiciones técnicas",
+ "fingerprint": "sha256:e2f20749c00aebcd4559ab08da1e96613a44fd92514a6772cfbc4bafee8dc4aa",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#cii"
+}

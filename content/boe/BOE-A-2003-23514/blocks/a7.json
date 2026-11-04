@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a7",
+ "tipo": "precepto",
+ "titulo": "Artículo 7",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 7. Emisión de perturbaciones y contaminantes.\n1. Los vehículos no podrán circular por las vías o terrenos objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial si emiten perturbaciones electromagnéticas, con niveles de emisión de ruido superiores a los límites establecidos por las normas específicamente reguladoras de la materia, así como tampoco podrán emitir gases o humos en valores superiores a los límites establecidos ni en los supuestos de haber sido objeto de una reforma de importancia no autorizada, todo ello de acuerdo con lo dispuesto en el anexo I del Reglamento General de Vehículos.\nTodos los conductores de vehículos quedan obligados a colaborar en las pruebas de detección que permitan comprobar las posibles deficiencias indicadas.\n2. Tanto en las vías públicas urbanas como en las interurbanas se prohíbe la circulación de vehículos a motor y ciclomotores con el llamado escape libre, sin el preceptivo dispositivo silenciador de las explosiones.\nSe prohíbe, asimismo, la circulación de los vehículos mencionados cuando los gases expulsados por los motores, en lugar de atravesar un silenciador eficaz, salgan desde el motor a través de uno incompleto, inadecuado, deteriorado o a través de tubos resonadores, y la de los de motor de combustión interna que circulen sin hallarse dotados de un dispositivo que evite la proyección descendente al exterior de combustible no quemado, o lancen humos que puedan dificultar la visibilidad a los conductores de otros vehículos o resulten nocivos.\nLos agentes de la autoridad podrán inmovilizar el vehículo en el caso de que supere los niveles de gases, humos y ruidos permitidos reglamentariamente, según el tipo de vehículo, conforme al artículo 70.2 del texto articulado de la Ley sobre tráfico, circulación de vehículos a motor y seguridad vial.\n3. Queda prohibida la emisión de los contaminantes a que se refiere el apartado 1 producida por vehículos a motor por encima de las limitaciones previstas en las normas reguladoras de los vehículos.\n4. Igualmente, queda prohibida dicha emisión por otros focos emisores de contaminantes distintos de los producidos por vehículos a motor, cualquiera que fuese su naturaleza, por encima de los niveles que el Gobierno establezca con carácter general.\nQuedan prohibidos, en concreto, los vertederos de basuras y residuos dentro de la zona de afección de las carreteras, en todo caso, y fuera de ella cuando exista peligro de que el humo producido por la incineración de las basuras o incendios ocasionales pueda alcanzar la carretera.",
+ "fingerprint": "sha256:cd035fd34fee1a586162a9bdec27b10879217a2bbb3bc57c7e961cc9f2679e73",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a7"
+}

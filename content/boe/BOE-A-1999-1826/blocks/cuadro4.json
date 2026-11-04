@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "cuadro4",
+ "tipo": "precepto",
+ "titulo": "Cuadro 4",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "Cuadro 4",
+ "fingerprint": "sha256:e5377de19940adc5e21f37f1288ff57bbc056e4dbbd92374ec73ede4b86eafcd",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#cuadro4"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "cuadro5",
+ "tipo": "precepto",
+ "titulo": "Cuadro 5",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "Cuadro 5\nDIMENSIONES Y COLORES DEL DISTINTIVO COMUNITARIO\n(Dimensiones en mm.)",
+ "fingerprint": "sha256:76696862563753cc963d540efac0f64385ad2a4227809509a801ed10417feace",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#cuadro5"
+}

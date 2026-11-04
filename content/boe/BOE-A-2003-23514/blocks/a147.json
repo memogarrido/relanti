@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a147",
+ "tipo": "precepto",
+ "titulo": "Artículo 147",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 147. Marcas viales. Objeto y clases.\n1. Las marcas viales, tienen por objeto regular la circulación y advertir o guiar a los usuarios de la vía, y pueden emplearse solas o con otros medios de señalización, a fin de reforzar o precisar sus indicaciones.\n2. Las marcas viales se clasifican del siguiente modo:\na) Marcas viales longitudinales: delimitan los carriles por los que circulan los usuarios de la vía y ordenan sus movimientos tanto en sentido longitudinal como transversal.\nb) Marcas viales transversales: se trata bien de líneas o conjunto de ellas dispuestas a lo ancho de uno o varios carriles que tienen como objeto indicar a los usuarios de la vía ciertas obligaciones, limitaciones o prohibiciones previas a franquearlas.\nc) Flechas: indican el movimiento o los movimientos permitidos u obligados a los conductores que circulan por el carril en el que están dispuestas, o si la señalización lo permite, cambiarse a otro carril. También pueden estar colocadas aproximadamente en el eje de una calzada de doble sentido de circulación.\nd) Líneas paralelas oblicuas (cebreado): se trata de una zona marcada por franjas oblicuas paralelas enmarcadas por una línea continua. Significa que ningún conductor debe entrar con su vehículo o animal en la citada zona, excepto los obligados a circular por el arcén.\ne) Señales horizontales de circulación: las señales horizontales son señales pintadas sobre la calzada con el mismo significado que sus homólogas verticales. La obligación de las señales horizontales situadas en un carril delimitado por líneas longitudinales se aplica exclusivamente a los vehículos que circulen por dicho carril.\nf) Inscripciones y otras marcas viales: tienen como objeto proporcionar una información complementaria al conductor, imponer una determinada prescripción o advertir que se encuentran en un tramo con características especiales.\n3. La forma, color, diseño y significado de las señales, así como las dimensiones de las mismas en función de cada tipo de vía se regulan en el apartado 5 del anexo I.",
+ "fingerprint": "sha256:bd0c2ebc0877f75d0ac2dbf3fde7aef5a7632c4ceb21a9e77d7ed0186b86830d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a147"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a9-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 9",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 9. Condiciones de la circulación.\n1. Todas las pruebas irán precedidas por un agente de la autoridad con una bandera roja y finalizadas por otro con una bandera verde, las cuales acotarán para los participantes y el resto de usuarios de la vía el inicio y fin del espacio ocupado para la prueba. Estará prohibida la circulación de vehículos en el espacio comprendido entre la bandera roja y la verde, excepto los vehículos autorizados expresamente y con la autorización situada en lugar visible.\nEntre una y otra bandera, el personal auxiliar habilitado que realice funciones de orden, control o seguridad irá provisto de una bandera de color amarillo en indicación de atención o peligro, así como con vestimenta de alta visibilidad homologada y que responda a las prescripciones técnicas contenidas en el Real Decreto 1407/1992, de 20 de noviembre.\n2. Sin perjuicio de ello, la organización incorporará vehículos pilotos de protección que estarán dotados de carteles que anuncien el comienzo y el final de la prueba, y deberán, en su caso, situar el coche de apertura y cierre de la prueba como mínimo 200 metros por delante y por detrás del primer participante y del último, respectivamente.\n3. Las características de los vehículos piloto a que se hace referencia en el apartado anterior serán las siguientes:\na) Vehículos de apertura:\nPortador de cartel con la inscripción «Atención: prueba deportiva. STOP», sin que en ningún caso exceda la anchura del vehículo.\nBandera roja.\nRotativo de señalización de color naranja.\nLuces de avería y de cruce encendidas.\nb) Vehículo de cierre:\nPortador de cartel con la inscripción «Fin de carrera. CONTINÚE», sin que en ningún caso exceda la anchura del vehículo.\nBandera verde.\nRotativo de señalización de color naranja.\nLuces de avería y de cruce encendidas.",
+ "fingerprint": "sha256:bf372d0857d40c228ae333edbb34bbf35e8a7742d791e94850957fe234b6b6fa",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a9-2"
+}

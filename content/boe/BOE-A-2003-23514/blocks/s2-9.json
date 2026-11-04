@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-9",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Supuestos especiales de alumbrado",
+ "fingerprint": "sha256:e66753ef1c2f8723c935803c13f3693157e67a745c6d2ce56030b78451f0c3c8",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-9"
+}

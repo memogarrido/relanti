@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-4",
+ "tipo": "precepto",
+ "titulo": "V-4",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-4. LIMITACIÓN DE VELOCIDAD\n1. Indica que el vehículo no debe circular a velocidad superior, en kilómetros por hora, a la cifra que figura en la señal.\n2. Será obligatorio llevar en la parte posterior del vehículo, visible en todo momento, esta señal en los casos siguientes:\na) Para determinados conductores, en razón a sus circunstancias personales.\nb) Para vehículos especiales y conjuntos de vehículos, también especiales, aunque sólo tenga tal naturaleza uno de los que integran el conjunto.\nc) Para vehículos que precisen autorización especial para circular.\n3. Las dimensiones, color y características técnicas de esta señal son las que se indican a continuación:\nAquellos vehículos que por sus dimensiones no permitan colocar la señal del tamaño indicado llevarán otra de dimensiones reducidas de 100 mm de diámetro con una altura de caracteres de 70 mm.\nLÁMINA REFLECTANTE. | Color: Blanco nivel 2.\nMATERIAL DEL SUSTRATO. | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.\nCARACTERES Y SUS TINTAS. | Pintado antes o después de la embutición. Tipo de tinta: Negro mate. Embutidos en relieve.\nBORDÓN. | Exteriormente a la superficie reflectante y en todo su contorno, las placas llevarán un reborde (bordón) con una embutición de 0.8 ± 0.2 mm pintado en negro, plano de 5 mm.",
+ "fingerprint": "sha256:adba21d5578c0ea19e3331234f7b9607a1dc2b4bdf6897b0ced7186314fdcfff",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-4"
+}

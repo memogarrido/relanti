@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a89",
+ "tipo": "precepto",
+ "titulo": "Artículo 89",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 89. Notificación de la denuncia.\n1. Las denuncias se notificarán en el acto al denunciado.\n2. No obstante, la notificación podrá efectuarse en un momento posterior siempre que se dé alguna de las siguientes circunstancias:\na) Que la denuncia se formule en circunstancias en que la detención del vehículo pueda originar un riesgo para la circulación. En este caso, el agente deberá indicar los motivos concretos que la impiden.\nb) Que la denuncia se formule estando el vehículo estacionado, cuando el conductor no esté presente.\nc) Que se haya tenido conocimiento de la infracción a través de medios de captación y reproducción de imágenes que permitan la identificación del vehículo.\nd) Que el agente denunciante se encuentre realizando labores de vigilancia, control, regulación o disciplina del tráfico y carezca de medios para proceder al seguimiento del vehículo.",
+ "fingerprint": "sha256:ec1f99ca10a5ce18d95fd452286fafd2f9994e599dd8a73f6ca825a1df4c608e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a89"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a63",
+ "tipo": "precepto",
+ "titulo": "Artículo 63",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 63. Asignación de puntos.\n1. Al titular de un permiso o licencia de conducción se le asignará un crédito inicial de doce puntos.\n2. Excepcionalmente se asignará un crédito inicial de ocho puntos en los siguientes casos:\na) Titular de un permiso o licencia de conducción con una antigüedad no superior a tres años, salvo que ya fuera titular de otro permiso de conducción con aquella antigüedad.\nb) Titular de un permiso o licencia de conducción que, tras perder su asignación total de puntos, ha obtenido nuevamente el permiso o la licencia de conducción.\n3. El crédito de puntos es único para todas las autorizaciones administrativas de las que sea titular el conductor.\n4. Quienes mantengan la totalidad de los puntos al no haber sido sancionados en firme en vía administrativa por la comisión de infracciones, recibirán como bonificación dos puntos durante los tres primeros años y un punto por los tres siguientes, pudiendo llegar a acumular hasta un máximo de quince puntos en lugar de los doce iniciales.\n5. La superación de cursos de conducción segura y eficiente a los que se hace referencia en el anexo VIII, siempre que se cumplan los requisitos establecidos y se tenga saldo positivo, compensará con dos puntos adicionales hasta un máximo de quince puntos y con una frecuencia máxima de un curso de cada tipo cada dos años.",
+ "fingerprint": "sha256:3ff0d47321c6735726758392ffd615a4506286aa999fb24e66d2f85ef5b5995f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a63"
+}

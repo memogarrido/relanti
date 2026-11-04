@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a18",
+ "tipo": "precepto",
+ "titulo": "Artículo 18",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 18. Canje del permiso por otro español equivalente.\n1. El titular de un permiso de conducción vigente expedido en cualquiera de estos Estados, que haya establecido su residencia normal en España, podrá solicitar en cualquier momento de la Jefatura Provincial de Tráfico en la que desee obtenerlo, el canje de su permiso de conducción por otro español equivalente.\nA la solicitud en el modelo oficial, suscrita por el interesado, se acompañarán los documentos que se indican en el anexo III.\n2. La Jefatura Provincial de Tráfico a la que se dirija la solicitud, después de comprobar, en su caso, la autenticidad, validez y vigencia del permiso presentado, concederá o denegará, según proceda, el canje solicitado.\n3. La resolución a que se refiere el apartado anterior, con indicación del Estado que haya expedido el permiso y los datos que figuren en el mismo, se harán constar en el Registro de conductores e infractores.",
+ "fingerprint": "sha256:27170fcb4e98e511b02bfcfa0457511950160c5fc32fdf43f46d128bb10e72f9",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a18"
+}

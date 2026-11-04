@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a25",
+ "tipo": "precepto",
+ "titulo": "Artículo 25",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 25. Inmovilización del vehículo.\n1. En el supuesto de que el resultado de las pruebas y de los análisis, en su caso, fuera positivo, el agente podrá proceder, además, a la inmediata inmovilización del vehículo, mediante su precinto u otro procedimiento efectivo que impida su circulación, a no ser que pueda hacerse cargo de su conducción otra persona debidamente habilitada, y proveerá cuanto fuese necesario en orden a la seguridad de la circulación, la de las personas transportadas en general, especialmente si se trata de niños, ancianos, enfermos o inválidos, la del propio vehículo y la de su carga.\n2. También podrá inmovilizarse el vehículo en los casos de negativa a efectuar las pruebas de detección alcohólica (artículo 70, in fine, del texto articulado).\n3. Salvo en los casos en que la autoridad judicial hubiera ordenado su depósito o intervención, en los cuales se estará a lo dispuesto por dicha autoridad, la inmovilización del vehículo se dejará sin efecto tan pronto como desaparezca la causa que la motivó o pueda sustituir al conductor otro habilitado para ello que ofrezca garantía suficiente a los agentes de la autoridad y cuya actuación haya sido requerida por el interesado.\n4. Los gastos que pudieran ocasionarse por la inmovilización, traslado y depósito del vehículo serán de cuenta del conductor o de quien legalmente deba responder por él.",
+ "fingerprint": "sha256:0a211be7d82c3ffadb9396e7ccf6a1aadbd2804c81f8ae488137b27ae5f7516c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a25"
+}

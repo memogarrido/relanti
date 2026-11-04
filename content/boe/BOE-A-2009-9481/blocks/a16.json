@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a16",
+ "tipo": "precepto",
+ "titulo": "Artículo 16",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 16. Inscripción de los permisos de conducción en el Registro de Conductores e Infractores.\n1. Los titulares de permisos de conducción expedidos en cualquiera de estos Estados que hubieran adquirido su residencia normal en España, sin perjuicio de lo dispuesto en el artículo anterior, podrán solicitar voluntariamente en cualquier Jefatura Provincial de Tráfico la anotación de los datos de su permiso en el Registro de conductores e infractores.\n2. A la solicitud de inscripción en el modelo oficial, suscrita por el interesado, se acompañarán los documentos que se indican en el anexo III.",
+ "fingerprint": "sha256:3aa56281ee94b647810391de068e27248b03cd23bd80e8a3babb8308ab9bba4f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a16"
+}

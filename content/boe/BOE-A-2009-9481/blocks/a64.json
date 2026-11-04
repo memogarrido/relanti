@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a64",
+ "tipo": "precepto",
+ "titulo": "Artículo 64",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 64. Pruebas de control sobre formación práctica.\nTodo el que solicite la autorización especial a que se hace referencia en el artículo anterior, o su ampliación, deberá demostrar, además, que posee una formación práctica, mediante la realización de unos ejercicios individuales sobre las materias que se indican en el anexo V. C). 2.",
+ "fingerprint": "sha256:6bc9ff822b0a45bfd99d8bb8e7beadeb55e74c3759374cee152594081abb1197",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a64"
+}

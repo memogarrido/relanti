@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a67",
+ "tipo": "precepto",
+ "titulo": "Artículo 67",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 67. Forma de realizar las pruebas.\n1. Las pruebas teóricas de control de conocimientos se harán de forma que se garantice que el aspirante posee unos conocimientos adecuados. Con carácter general, se realizarán por procedimientos informáticos. Para la realización de las pruebas, la Jefatura Provincial de Tráfico facilitará a los aspirantes cuestionarios cuyas preguntas se extraerán de una relación elaborada por la Dirección General de Tráfico.\nEl número de preguntas de las que estarán formados los cuestionarios será el que se indica en el anexo VI. D). 1. Las preguntas podrán tener un grado variable de dificultad y se les podrá asignar una evaluación diferente.\n2. Los ejercicios prácticos individuales se realizarán, según proceda, en instalaciones adecuadas o en el aula donde se impartan las clases teóricas y con los medios y equipos adecuados que requiera la naturaleza de la prueba. En su desarrollo y ejecución será necesaria la participación activa de todos y cada uno de los aspirantes.",
+ "fingerprint": "sha256:859620ce702e3fae75f4b1d52f6b2580392071770d2cd240f38025cbaa8ebcf5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a67"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "dadecima",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional décima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Disposición adicional décima. Ejercicio de los derechos reconocidos en la Ley 11/2007, de 22 de junio, de Acceso Electrónico de los Ciudadanos a los Servicios Públicos.\nLos derechos reconocidos en el artículo 6 de la Ley 11/2007, de 22 de junio, de Acceso Electrónico de los Ciudadanos a los Servicios Públicos, podrán ejercerse en relación con los procedimientos y actuaciones que se regulan en el presente Reglamento, conforme a los plazos establecidos en la disposición final tercera de la citada Ley.",
+ "fingerprint": "sha256:e44e5ff600c2ea7c80847887a59582362e6959aa8bcddfc47401cb7904689ce3",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#dadecima"
+}

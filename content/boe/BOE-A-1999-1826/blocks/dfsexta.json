@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dfsexta",
+ "tipo": "precepto",
+ "titulo": "Disposición final sexta",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-1999-24787",
+  "fecha_publicacion": "19991230",
+  "fecha_vigencia": "19991231"
+ },
+ "text": "Disposición final sexta. Entrada en vigor.\nEl presente Real Decreto y el Reglamento que por el mismo se aprueba entrarán en vigor a los seis meses de su publicación en el «Boletín Oficial del Estado».",
+ "fingerprint": "sha256:331ba987d2e3749b8c29b2521e8344239bdb2cdb82020fd71feb21deefc8b8e6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dfsexta"
+}

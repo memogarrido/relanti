@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a21",
+ "tipo": "precepto",
+ "titulo": "Artículo 21",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 21. Investigación de la alcoholemia. Personas obligadas.\nTodos los conductores de vehículos y de bicicletas quedan obligados a someterse a las pruebas que se establezcan para la detección de las posibles intoxicaciones por alcohol. Igualmente quedan obligados los demás usuarios de la vía cuando se hallen implicados en algún accidente de circulación (artículo 12.2, párrafo primero, del texto articulado).\nLos agentes de la autoridad encargados de la vigilancia del tráfico podrán someter a dichas pruebas:\na) A cualquier usuario de la vía o conductor de vehículo implicado directamente como posible responsable en un accidente de circulación.\nb) A quienes conduzcan cualquier vehículo con síntomas evidentes, manifestaciones que denoten o hechos que permitan razonablemente presumir que lo hacen bajo la influencia de bebidas alcohólicas.\nc) A los conductores que sean denunciados por la comisión de alguna de las infracciones a las normas contenidas en este reglamento.\nd) A los que, con ocasión de conducir un vehículo, sean requeridos al efecto por la autoridad o sus agentes dentro de los programas de controles preventivos de alcoholemia ordenados por dicha autoridad.",
+ "fingerprint": "sha256:2b41b5b1cd369e916bbac271de849766958c452f932c59cf2a39d33e6539e75d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a21"
+}

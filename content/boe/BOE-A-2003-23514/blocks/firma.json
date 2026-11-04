@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "firma",
+ "tipo": "firma",
+ "titulo": null,
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Dado en Madrid, a 21 de noviembre de 2003.\nJUAN CARLOS R.\nEl Vicepresidente Segundo del Gobierno y Ministro de la Presidencia,\nJAVIER ARENAS BOCANEGRA",
+ "fingerprint": "sha256:71eecd8ed070b8c4e1db2eae4b47f327534b24261a5676f86cb96007b1b4cb5e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#firma"
+}

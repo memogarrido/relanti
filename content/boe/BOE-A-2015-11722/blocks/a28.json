@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a28",
+ "tipo": "precepto",
+ "titulo": "Artículo 28",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 28. Incorporación de vehículos a la circulación.\nEl conductor de un vehículo parado o estacionado en una vía o procedente de las vías de acceso a la misma, de sus zonas de servicio o de una propiedad colindante que pretenda incorporarse a la circulación debe cerciorarse de que puede hacerlo sin peligro para los demás usuarios. Debe advertirlo con las señales obligatorias para estos casos y ceder el paso a los otros vehículos, teniendo en cuenta la posición, trayectoria y velocidad de éstos.\nSi la vía a la que se accede está dotada de un carril de aceleración, el conductor debe incorporarse a aquélla a la velocidad adecuada.",
+ "fingerprint": "sha256:b6986c57adcafedf60001da0755d69578bcf76ad19073412e910d69f4497bab0",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a28"
+}

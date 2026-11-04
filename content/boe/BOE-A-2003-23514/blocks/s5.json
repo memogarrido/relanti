@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s5",
+ "tipo": "encabezado",
+ "titulo": "Sección 5",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 5.ª Refugios, isletas o dispositivos de guía o análogos",
+ "fingerprint": "sha256:8cba8d252d06474fe6c8ff138be3f0174c929ac6d655e7fc9675944ed3da3719",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s5"
+}

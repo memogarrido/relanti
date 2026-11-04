@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a21-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 21",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 21. Vehículos piloto de apoyo.\nLa organización dispondrá de vehículos piloto de apoyo suficiente, banderines y medios adecuados para la señalización del recorrido, tanto por lo que respecta a los participantes como al resto de usuarios de la vía, así como de los servicios necesarios para retirar la señalización al término de la actividad, y desperdicios que ocasionen los avituallamientos, dejando la carretera y sus alrededores en el mismo estado que antes de su celebración.",
+ "fingerprint": "sha256:ad1685fa2fde32d6b4bbe6b17aff90f9b2e10844ff233fbe1f0c8c18e5b66721",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a21-2"
+}

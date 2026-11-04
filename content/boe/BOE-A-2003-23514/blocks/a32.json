@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a32",
+ "tipo": "precepto",
+ "titulo": "Artículo 32",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 32. Carriles de emergencia.\n1. En autopistas y autovías, cuando con motivo de una retención los vehículos circulen a paso de peatón o se detengan, deberán orillarse de manera que dejen un espacio libre para permitir el paso ante la aproximación de vehículos prioritarios. Este espacio libre se denominará carril de emergencia.\nEn las autopistas y autovías que tengan dos carriles en el mismo sentido, el carril de emergencia deberá formarse en el centro de la vía, entre esos dos carriles.\nEn las autopistas y autovías que tengan tres o más carriles en el mismo sentido, el carril de emergencia deberá formarse entre el carril situado más a la izquierda y el carril contiguo a él. Los vehículos que circulen en el carril situado más a la izquierda deberán moverse lo más a la izquierda posible y los vehículos que circulen en los demás carriles deberán moverse lo más a la derecha posible.\n2. En autopistas y autovías, cuando la circulación se vea dificultada por las condiciones de la calzada a causa de la nieve, estará prohibido adelantar y será obligatorio circular por el carril situado más a la derecha, pudiendo utilizar su contiguo en tramos con tres o más carriles por sentido, dejando expeditos para la circulación de vehículos de emergencia y quitanieves el resto de carriles a la izquierda.",
+ "fingerprint": "sha256:914790e00ec8010e5f7b6a1bcfdcf0717c23d7ec98253356cda5e05625dbe8ac",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32"
+}

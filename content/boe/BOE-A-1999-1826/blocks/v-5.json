@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-5",
+ "tipo": "precepto",
+ "titulo": "V-5",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2010-1011",
+  "fecha_publicacion": "20100123",
+  "fecha_vigencia": "20100723"
+ },
+ "text": "V-5. VEHÍCULO LENTO\n1. Indica que se trata de un vehículo de motor o conjunto de vehículos, que, por construcción, no puede sobrepasar la velocidad de 40 kilómetros por hora.\n2. Esta señal, que se instalará en la parte posterior del vehículo, será optativa para los vehículos de motor o conjuntos de vehículos que deban llevar la señal V-4 de limitación de velocidad.\n3. Las dimensiones, color y características técnicas de esta señal son las que se indican a continuación:\nLÁMINA REFLECTANTE O CATADIÓPTRICO. | Color: Rojo nivel 2.\nLÁMINA FLUORESCENTE. | Color: Rojo.\nMATERIAL DEL SUSTRATO. | Placa soporte: Plancha de aluminio de 1,4 ± 0.1 mm. Aleación 1.200 H14 y/o H24. Se autoriza cualquier otro material que presente características mecánicas o físicas equivalentes teniendo en cuenta su estabilidad temporal.",
+ "fingerprint": "sha256:4fb6dd7ca074fdfe66546e26bc9b0052bc2449267b0e1208f09e5379b88677cc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-5"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a79",
+ "tipo": "precepto",
+ "titulo": "Artículo 79",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 79. Derechos de los interesados.\n1. Los interesados podrán ejercitar ante el Registro los derechos de acceso, rectificación, cancelación u oposición previstos en las normas vigentes en materia de protección de datos.\n2. La Dirección General de Tráfico podrá facilitar al interesado la consulta de todo o parte del contenido del Registro, y, en particular, de su saldo de puntos, a través de medios telemáticos. En este caso, se adoptarán las medidas que permitan garantizar la identidad del afectado, tales como la remisión al mismo de una clave de acceso.",
+ "fingerprint": "sha256:2835e3fa9d32bf4c5e7ca9b5dbea28e929d72e32968cdb75eb0f6283cc803203",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a79"
+}

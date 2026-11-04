@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a55",
+ "tipo": "precepto",
+ "titulo": "Artículo 55",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 55. Pruebas deportivas, marchas ciclistas y otros eventos.\n1. La celebración de pruebas deportivas cuyo objeto sea competir en espacio o tiempo por las vías o terrenos objeto de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial, así como la realización de marchas ciclistas u otros eventos, requerirá autorización previa que será expedida conforme a las normas indicadas en el anexo II de este reglamento, las cuales regularán dichas actividades.\n2. Se prohíbe entablar competiciones de velocidad en las vías públicas o de uso público, salvo que, con carácter excepcional, se hubieran acotado para ello por la autoridad competente (artículo 20.5 del texto articulado).\n3. Las infracciones a las normas de este precepto tendrán la consideración de muy graves, conforme se prevé en el artículo 65.5.g) del texto articulado, sin perjuicio de las medidas que adopten los agentes encargados de la vigilancia del tráfico para suspender, interrumpir o disolver las pruebas deportivas no autorizadas.",
+ "fingerprint": "sha256:c02258cb1c1d55d6e9bb1209edefeb5d7e471a42474f2769f619a1e839963a2e",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a55"
+}

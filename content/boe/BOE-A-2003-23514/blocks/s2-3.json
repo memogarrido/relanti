@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-3",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Reducción de velocidad y distancias entre vehículos",
+ "fingerprint": "sha256:139e941fcafd0405e12393975aeb94879be281de1c751bea89d1d149f29680be",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-3"
+}

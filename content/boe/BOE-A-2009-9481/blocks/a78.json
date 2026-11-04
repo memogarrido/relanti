@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a78",
+ "tipo": "precepto",
+ "titulo": "Artículo 78",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 78. Tratamiento y cesión de datos.\n1. El tratamiento y la cesión de los datos contenidos en el Registro se someterán a lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y su Reglamento de desarrollo, aprobado por Real Decreto 1720/2007, de 21 de diciembre.\n2. Los datos del Registro, que en ningún caso tendrá carácter público, únicamente serán objeto de cesión cuando así lo autorice una norma con rango de Ley.\nEn particular, la cesión a otras Administraciones Públicas sólo podrá tener lugar cuando las mismas ejerzan competencias sobre tráfico, circulación de vehículos a motor y seguridad vial o cuando la cesión se realice en el marco de la normativa estatal o autonómica reguladora de la función estadística pública.",
+ "fingerprint": "sha256:49e70dc6e025169cf4e9b52fc50f13fabfe97b3c13000ff78a932bfadb75fdec",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a78"
+}

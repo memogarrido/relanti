@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a56",
+ "tipo": "precepto",
+ "titulo": "Artículo 56",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 56. Lengua.\nLas indicaciones escritas que se incluyan o acompañen a los paneles de señalización de las vías públicas, e inscripciones, figurarán en idioma castellano y, además, en la lengua oficial de la Comunidad autónoma reconocida en el respectivo estatuto de autonomía, cuando la señal esté ubicada en el ámbito territorial de dicha comunidad.",
+ "fingerprint": "sha256:93b8d5d954b7a19f24cd4a6e9187a2634f37fcb2cff4ce575740419aa8b77203",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a56"
+}

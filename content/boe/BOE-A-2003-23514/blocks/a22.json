@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a22",
+ "tipo": "precepto",
+ "titulo": "Artículo 22",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 22. Pruebas de detección alcohólica mediante el aire espirado.\n1. Las pruebas para detectar la posible intoxicación por alcohol se practicarán por los agentes encargados de la vigilancia de tráfico y consistirán, normalmente, en la verificación del aire espirado mediante etilómetros que, oficialmente autorizados, determinarán de forma cuantitativa el grado de impregnación alcohólica de los interesados.\nA petición del interesado o por orden de la autoridad judicial, se podrán repetir las pruebas a efectos de contraste, que podrán consistir en análisis de sangre, orina u otros análogos (artículo 12.2, párrafo segundo, in fine, del texto articulado).\n2. Cuando las personas obligadas sufrieran lesiones, dolencias o enfermedades cuya gravedad impida la práctica de las pruebas, el personal facultativo del centro médico al que fuesen evacuados decidirá las que se hayan de realizar.",
+ "fingerprint": "sha256:8979d57d1eff827a256d050a4e542102c3757a8d51342f6c665f4b784220b292",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a22"
+}

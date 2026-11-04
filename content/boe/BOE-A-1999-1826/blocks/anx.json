@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "anx",
+ "tipo": "encabezado",
+ "titulo": "ANEXO X",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "ANEXO X\nDISPOSITIVOS DE ALUMBRADO Y SEÑALIZACIÓN ÓPTICA",
+ "fingerprint": "sha256:3db6e842aca7bc8189845208014620d6d62c31039af361c3acdfaeceaa3e8218",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#anx"
+}

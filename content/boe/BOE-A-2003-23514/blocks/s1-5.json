@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s1-5",
+ "tipo": "encabezado",
+ "titulo": "Sección 1",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 1.ª Cambios de vía, calzada y carril",
+ "fingerprint": "sha256:d3d3fdcb10bce6c3be70938dabd9f1bde9a104c4c0dcd5972e465ef167f37d65",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s1-5"
+}

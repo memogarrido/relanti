@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s2-10",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 2.ª Advertencias de los vehículos de servicios de urgencia y de otros servicios especiales",
+ "fingerprint": "sha256:61b3cb2634c024ba154b42a03b693243a9100ccf49439c0feec1aa0a97a12186",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s2-10"
+}

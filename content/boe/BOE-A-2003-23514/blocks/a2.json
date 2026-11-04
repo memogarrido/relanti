@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a2",
+ "tipo": "precepto",
+ "titulo": "Artículo 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 2. Usuarios.\nLos usuarios de la vía están obligados a comportarse de forma que no entorpezcan indebidamente la circulación ni causen peligro, perjuicios o molestias innecesarias a las personas, o daños a los bienes (artículo 9.1 del texto articulado).",
+ "fingerprint": "sha256:3bacdf143baafd1e672ae6311a8afe5efb5284363764859c453802d618aa1b55",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a2"
+}

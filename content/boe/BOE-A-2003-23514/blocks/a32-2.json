@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a32-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 32",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-12035",
+  "fecha_publicacion": "20260605",
+  "fecha_vigencia": "20260606"
+ },
+ "text": "Artículo 32. Participación de vehículos históricos. Comunicación previa.\nLos eventos en que participen vehículos históricos conceptuados como tales de acuerdo con el Real Decreto 892/2024, de 10 de septiembre, por el que se aprueba el Reglamento de Vehículos Históricos, o de más de treinta años de antigüedad en número superior a 15 vehículos, en los que se establezca una clasificación de velocidad o regularidad inferior a 50 kilómetros por hora de media, así como otros eventos consistentes en acontecimientos o manifestaciones turísticas, concentraciones, concursos de conservación o elegancia y, en general, cualquier clase de evento en los que no se establezca clasificación alguna sobre la base del movimiento de los vehículos, ya sea en función de su velocidad o de la regularidad, deberán ser comunicados con una antelación previa de veinte días hábiles a su inicio, a la autoridad encargada de la regulación, gestión y vigilancia del tráfico.\nCuando los eventos de vehículos a los que se refiere el párrafo anterior no precisen el cierre total o parcial a la circulación de la vía, bastará con realizar la comunicación a la autoridad encargada de la regulación, gestión y vigilancia del tráfico, que requerirá la aportación de la siguiente información o documentación:\na) Nombre del evento y, en su caso, número cronológico de la edición.\nb) Fecha de celebración y horario.\nc) Identificación del responsable de la organización.\nd) Número aproximado de participantes previstos.\nLa autoridad competente acusará recibo de la comunicación recordando la obligación de cumplir las normas de circulación.",
+ "fingerprint": "sha256:bf9da60ceb72d6b0648bce110be901cf32691112b0c4d9426f77361093f49901",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a32-2"
+}

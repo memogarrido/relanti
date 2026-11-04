@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a6-2",
+ "tipo": "precepto",
+ "titulo": "Artículo 6",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 6. Obligaciones de los participantes.\n1. Todos los participantes en una prueba deportiva, con las excepciones previstas en este reglamento, están obligados al cumplimiento de las normas particulares del reglamento de la prueba y a las que en un momento determinado establezca o adopte, por seguridad, el responsable de la prueba o la autoridad competente, no obstante estar eximidos del cumplimiento de las normas generales de circulación.\n2. Cuando un participante no se encuentre en condiciones para mantener el horario previsto para el último de los participantes o sobrepase el tiempo previsto de cierre de control de la actividad, será superado por el vehículo con bandera verde, que indica el final de la zona de competición, por lo que deberá abandonar la prueba con el fin de no entorpecer el tráfico automovilístico y el desarrollo de la propia actividad. En caso de continuar deberá cumplir las normas y señales, y será considerado un usuario más de la vía.",
+ "fingerprint": "sha256:c46963de5ec23afc65c8bce686ff93b1f20a9441b9783d9274a40c788f225201",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a6-2"
+}

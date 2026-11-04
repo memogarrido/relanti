@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a77",
+ "tipo": "precepto",
+ "titulo": "Artículo 77",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Artículo 77. Datos que han de figurar en el Registro.\nEn el Registro de conductores e infractores figurarán los siguientes datos:\na) Nombre, apellidos, nacionalidad y domicilio del titular de la autorización, el Número de su Documento Nacional de Identidad si es español o, en su caso, el Número de Identidad de Extranjero.\nb) Fecha, lugar de nacimiento y sexo del titular de la autorización.\nc) Clases de permiso o licencia de conducción y otras autorizaciones administrativas o documentos necesarios para conducir o relacionados con la conducción.\nd) Condición de profesional de la enseñanza de la conducción, de formador o de psicólogo - formador en cursos de sensibilización y reeducación vial.\ne) Historial y resultados de las distintas pruebas de aptitud realizadas para obtener autorizaciones administrativas para conducir.\nf) Historial, menciones y períodos de vigencia de las distintas autorizaciones o documentos que autoricen a conducir.\ng) Menciones, incidencias, restricciones y limitaciones relacionadas con la propia autorización, la persona titular de ésta, el vehículo o la circulación.\nh) Identificación del servicio sanitario o centro de reconocimiento que realizó la exploración del conductor y emitió el correspondiente informe de aptitud psicofísica, así como el resultado final de dicho informe.\ni) Condenas judiciales que afecten a la autorización administrativa para conducir y las sanciones administrativas que sean firmes impuestas por infracciones graves y muy graves.\nj) Nulidad o lesividad, pérdida de vigencia, procesos y sentencias de anulación, medidas cautelares adoptadas y, en su caso, la intervención de las autorizaciones administrativas para conducir.\nk) Crédito de puntos de que se dispone.\nl) Resultado del curso de sensibilización y reeducación vial y fecha de realización del mismo.\nm) Fecha de la resolución denegando el canje solicitado, con indicación del Estado que haya expedido el permiso.\nn) Otras incidencias relacionadas con las autorizaciones administrativas para conducir.",
+ "fingerprint": "sha256:7718828eb03c0dc055a382b394219c894fd48ba1dd792de440e71160eca65659",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a77"
+}

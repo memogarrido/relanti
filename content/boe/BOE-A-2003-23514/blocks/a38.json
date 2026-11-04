@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a38",
+ "tipo": "precepto",
+ "titulo": "Artículo 38",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 38. Circulación en autopistas, autovías y otras vías.\n1. Se prohíbe circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida (artículo 18.1 del texto articulado).\nNo obstante lo dispuesto en el párrafo anterior, los conductores de bicicletas mayores de 14 años podrán circular por los arcenes de las autovías, salvo que por razones justificadas de seguridad vial se prohíba mediante la señalización correspondiente. Dicha prohibición se complementará con un panel que informe del itinerario alternativo.\n2. Todo conductor que, por razones de emergencia, se vea obligado a circular con su vehículo por una autopista o autovía a velocidad anormalmente reducida, regulada en el artículo 49.1, deberá abandonarla por la primera salida.\n3. Los vehículos especiales o en régimen de transporte especial que excedan de las masas o dimensiones establecidas en el Reglamento General de Vehículos podrán circular, excepcionalmente, por autopistas y autovías cuando así se indique en la autorización complementaria de la que deben ir provistos, y los que no excedan de dichas masas o dimensiones, cuando, con arreglo a sus características, puedan desarrollar una velocidad superior a 60 km/h en llano y cumplan las condiciones que se señalan en el anexo III de este reglamento.\n4. Se prohíbe circular con vehículos de movilidad personal:\na) Por autopistas y autovías.\nb) Por travesías.\nc) Por vías interurbanas y por túneles urbanos, salvo que se trate de vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías en las que esté prohibida la circulación de vehículos de motor, siempre que no esté prohibido por la señalización.",
+ "fingerprint": "sha256:8eb25ac153d4ef741b1bf7651df92d17de20a95f472ff2e393298ed2f883c6bc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a38"
+}

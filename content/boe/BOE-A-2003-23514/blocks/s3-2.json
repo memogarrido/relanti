@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "s3-2",
+ "tipo": "encabezado",
+ "titulo": "Sección 3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Sección 3.ª Competiciones",
+ "fingerprint": "sha256:590803def403bf9e0429e0da4006b971db427993e816d9743ef5a992c26955ab",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#s3-2"
+}

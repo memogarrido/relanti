@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "dftercera",
+ "tipo": "precepto",
+ "titulo": "Disposición final tercera",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2026-2140",
+  "fecha_publicacion": "20260130",
+  "fecha_vigencia": "20260130"
+ },
+ "text": "Disposición final tercera. Habilitación para la modificación de los anexos del Reglamento General de Vehículos.\nSe faculta a las personas titulares de los Ministerios del Interior, de Industria y Turismo y para la Transición Ecológica y el Reto Demográfico para modificar mediante orden los anexos de este Reglamento. La modificación del anexo IX requerirá, además, la conformidad de la persona titular del Ministerio de Transportes y Movilidad Sostenible.\nNo obstante lo dispuesto en el párrafo anterior, el anexo XX se modificará mediante real decreto del Consejo de Ministros.\nLa actualización, modificación o derogación de las normas relacionadas en el anexo I habrá de hacerse o promoverse por los organismos competentes y a través de los procedimientos que correspondan, de acuerdo con la naturaleza y el rango de cada una de ellas.",
+ "fingerprint": "sha256:67b9d2c04db56e472415f0cc277212f16ba82c5811fc4a3a9915d421e754a4ff",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#dftercera"
+}

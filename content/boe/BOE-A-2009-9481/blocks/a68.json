@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "a68",
+ "tipo": "precepto",
+ "titulo": "Artículo 68",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2013-7422",
+  "fecha_publicacion": "20130708",
+  "fecha_vigencia": "20130709"
+ },
+ "text": "Artículo 68. Calificación y vigencia de las pruebas de aptitud.\n1. Las pruebas teóricas de control de conocimientos, tanto la común como cada una de las específicas, y los ejercicios prácticos individuales se calificarán de apto o no apto y con sujeción a los criterios establecidos en el anexo VI. D). 3.\n2. Las pruebas teóricas de control de conocimientos serán controladas y calificadas por los funcionarios de la Jefatura Provincial de Tráfico que hubiera aprobado el curso.\nLos ejercicios prácticos individuales serán calificados por personal del centro de formación, empresa o entidad que haya impartido la formación práctica.\n3. No obstante lo dispuesto en el apartado anterior, funcionarios de la Dirección General de Tráfico o de la Jefatura Provincial de Tráfico que hubiera aprobado el curso podrán presenciar e intervenir en la valoración y calificación de los ejercicios prácticos individuales.\n4. La declaración de aptitud en las pruebas de control de conocimientos o en los ejercicios prácticos individuales para obtener o ampliar la autorización especial tendrá un período de vigencia de seis meses, contado desde el día siguiente a aquel en que el interesado fue declarado apto en la prueba o ejercicio de que se trate.\nLa declaración de aptitud en las pruebas o en los ejercicios prácticos individuales para prorrogar la vigencia de la autorización caducará en la misma fecha que la autorización que se pretende prorrogar.",
+ "fingerprint": "sha256:06e06c5c7a8bce64f7650b49748ae811eb8a3b205925ea5d96d43c80ded3d668",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#a68"
+}

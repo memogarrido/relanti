@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a122",
+ "tipo": "precepto",
+ "titulo": "Artículo 122",
+ "versions": 3,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 122. Circulación por la calzada o el arcén.\n1. En los supuestos en los que no exista zona peatonal practicable, los peatones deberán circular por el arcén izquierdo en el sentido de su marcha, si existe y es practicable o, en su defecto, por la calzada. En ambos casos, deberán hacerlo lo más alejados posible del tránsito de los vehículos.\nExcepcionalmente, los peatones podrán circular por el lado derecho en el sentido de su marcha cuando existan razones de seguridad que así lo justifiquen.\n2. En todo caso, será obligatorio circular por la derecha, y estarán obligados a cumplir las órdenes de los agentes de la autoridad y las señales de tráfico que se encuentren a su paso:\na) Quienes empujen o arrastren un ciclo, ciclomotor de dos ruedas, vehículo de movilidad personal o vehículos de similares características.\nb) Todo grupo de peatones dirigido por una persona.\nc) Los peatones que, por razones de seguridad, no deban circular por la izquierda.\n3. Los peatones que deban transitar por el arcén o por la calzada deberán hacerlo aproximándose cuanto sea posible al borde exterior de éstos, con precaución, sin entorpecer la circulación y marchando unos detrás de otros.\n4. Cuando exista refugio, zona peatonal u otro espacio adecuado a tal fin, ningún peatón permanecerá detenido ni en la calzada ni en el arcén, ni siquiera en espera de un vehículo. En este último caso, tan solo podrá invadir la calzada para subir a éste y sólo cuando ya se encontrase a su altura.\n5. Al apercibirse de las señales ópticas o acústicas de los vehículos prioritarios, los peatones deberán despejar la calzada y permanecer en los refugios o zonas peatonales, si existen, o, en su defecto, alejarse de la zona de circulación de los vehículos.",
+ "fingerprint": "sha256:ce7363e5237e1af746d18389db9936c1107c8ab325645f8167a77ab880117a18",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a122"
+}

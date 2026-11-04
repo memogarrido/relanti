@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a1-5",
+ "tipo": "precepto",
+ "titulo": "Artículo 152",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 152. Normas básicas relativas a movilidad y estancia de peatones en la vía pública.\n1. Las aceras son el espacio de la vía reservado para la movilidad y estancia de los peatones, estando prohibida la circulación por ellas de cualquier tipo de vehículo. En el resto de zonas peatonales, la autoridad municipal podrá autorizar, mediante ordenanza, la coexistencia de peatones con ciclistas y usuarios de vehículos de movilidad personal, respetando la prioridad de los peatones.\nLas ordenanzas municipales podrán permitir la circulación por las aceras de niños de hasta doce años en bicicletas, siempre que vayan a cargo de un adulto que circule a pie.\n2. En caso de no existir zona peatonal transitable, los peatones podrán circular por el arcén o, si éste no existe o no es transitable, por la calzada, debiendo extremar la precaución y sin entorpecer la circulación. Los conductores de los vehículos, a su vez, adecuarán su comportamiento, especialmente la velocidad y la distancia, para no poner en peligro la integridad de los peatones.\n3. Las autoridades municipales podrán establecer zonas o áreas de prioridad residencial, que podrán incluir la regulación de restricciones al acceso, circulación o estacionamiento de determinados vehículos en la zona, el régimen de carga y descarga, sistemas y requisitos para la distribución urbana de mercancías diurna o nocturna, los límites de velocidad, y otras medidas que favorezcan el uso sostenible de la zona.",
+ "fingerprint": "sha256:033155e22a266a04d48bffc0647d8a00f1658f2fec6bcbaf67fb140d88bec27b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a1-5"
+}

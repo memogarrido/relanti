@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "dasegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional segunda",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2006-15406",
+  "fecha_publicacion": "20060905",
+  "fecha_vigencia": "20060906"
+ },
+ "text": "Disposición adicional segunda. Uso obligatorio de cinturones de seguridad u otros sistemas de retención homologados.\nEl cumplimiento de la obligación de utilizar cinturones de seguridad u otros sistemas de retención homologados, correctamente abrochados o colocados, tanto en la circulación por vías urbanas como interurbanas, impuesta a los conductores y a los pasajeros en el artículo 117.1, 2 y 3 sólo será exigible respecto de aquellos vehículos que, de acuerdo con la normativa vigente en el momento de su matriculación, deban llevar instalados cinturones de seguridad u otros sistemas de retención homologados.\nNo obstante, en aquellos vehículos que aun no estando obligados, llevasen instalados cinturones de seguridad u otros sistemas de retención homologados, será obligatoria su utilización en las condiciones establecidas por este reglamento.",
+ "fingerprint": "sha256:12d09f83ab0b8c412278d149e9bc85a044db454996253552140d6e42cea057d5",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#dasegunda"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a86",
+ "tipo": "precepto",
+ "titulo": "Artículo 86",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 86. Incoación.\n1. El procedimiento sancionador se incoará de oficio por la autoridad competente que tenga noticia de los hechos que puedan constituir infracciones tipificadas en esta ley, por iniciativa propia o mediante denuncia de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tienen encomendadas o de cualquier persona que tenga conocimiento de los hechos.\n2. No obstante, la denuncia formulada por los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tienen encomendadas, y notificada en el acto al denunciado, constituye el acto de iniciación del procedimiento sancionador, a todos los efectos.",
+ "fingerprint": "sha256:ab7e3e93263a2fdfe4932e5d64644aedb2c75033a2203c19185c8211100c2a4c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a86"
+}

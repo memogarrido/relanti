@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a21",
+ "tipo": "precepto",
+ "titulo": "Artículo 21",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20220321"
+ },
+ "text": "Artículo 21. Límites de velocidad.\n1. El conductor está obligado a respetar los límites de velocidad establecidos y a tener en cuenta, además, sus propias condiciones físicas y psíquicas, las características y el estado de la vía, del vehículo y de su carga, las condiciones meteorológicas, ambientales y de circulación y, en general, cuantas circunstancias concurran en cada momento, a fin de adecuar la velocidad de su vehículo a las mismas, de manera que siempre pueda detenerlo dentro de los límites de su campo de visión y ante cualquier obstáculo que pueda presentarse.\n2. Las velocidades máximas y mínimas autorizadas para la circulación de vehículos serán las fijadas de acuerdo con las condiciones que reglamentariamente se determinen, con carácter general, para los conductores, los vehículos y las vías objeto de esta ley, en función de sus propias características. Los lugares con prohibiciones u obligaciones específicas de velocidad serán señalizados, con carácter permanente o temporal. En defecto de señalización específica se cumplirá la genérica establecida para cada vía.\n3. Se establecerá también reglamentariamente un límite máximo, con carácter general, para la velocidad autorizada en las vías urbanas y en travesías. Este límite podrá ser rebajado en las travesías especialmente peligrosas, por acuerdo de la autoridad municipal con el titular de la vía, y en las vías urbanas, por decisión del órgano competente de la corporación municipal.\n4. (Suprimido)\n5. Se podrá circular por debajo de los límites mínimos de velocidad en los casos los ciclos, vehículos de tracción animal, transportes y vehículos especiales, o cuando las circunstancias de tráfico impidan el mantenimiento de una velocidad superior a la mínima sin riesgo para la circulación, así como en los supuestos de protección o acompañamiento a otros vehículos, en los términos que reglamentariamente se determine.\n6. El titular de la vía deberá comunicar a las autoridades competentes en materia de gestión del tráfico, con una antelación mínima de un mes, los cambios que realice en las limitaciones de velocidad.",
+ "fingerprint": "sha256:8344583a0a5cb9b44f41546c4cabbfbf4153824b8ba1d874b95d4afaa5ce0035",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a21"
+}

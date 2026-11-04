@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "a35",
+ "tipo": "precepto",
+ "titulo": "Artículo 35",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-5868",
+  "fecha_publicacion": "20210414",
+  "fecha_vigencia": "20210415"
+ },
+ "text": "Artículo 35. Bajas definitivas.\nLos vehículos matriculados causarán baja definitiva en el Registro de Vehículos en los casos siguientes:\n1. Cuando sus titulares o terceras personas que acrediten suficientemente su propiedad manifiesten expresamente la voluntad de retirarlos permanentemente de la circulación.\nLa solicitud de baja se dirigirá a cualquier Jefatura Provincial de Tráfico, acompañada de los documentos que se indican en el anexo XV.\n2. En el caso de que cualquier Jefatura de Tráfico acuerde de oficio mediante la oportuna resolución su retirada definitiva de la circulación, previo informe del órgano competente en materia de Industria acreditativo de que el estado del vehículo constituye, por desgaste o deterioro de sus elementos mecánicos, un evidente peligro para sus ocupantes o para la seguridad de la circulación en general.\n3. Cuando cualquier Jefatura de Tráfico acuerde de oficio, mediante la oportuna resolución, la retirada definitiva de la circulación respecto de los vehículos que hayan sido retirados de las vías públicas por los agentes encargados de la vigilancia y regulación del tráfico, una vez comprobado que han sido abandonados por sus titulares, de acuerdo con la normativa prevista en el anexo I, supuesto en que podrá procederse a su desguace.\n4. A petición del titular o de tercera persona que acredite su propiedad, por traslado del vehículo a otro país donde vaya a ser matriculado, debiendo acompañarse los documentos que se establecen en el anexo XV.\nUna vez tramitada la baja por traslado a otro país, el traslado efectivo del vehículo deberá llevarse a cabo en los siguientes 3 meses. En caso de que, pasados 3 meses, exista constancia de que el vehículo continúa circulando en España, se procederá de oficio a la rehabilitación del vehículo.\n5. En el caso de que cualquier Jefatura de Tráfico acuerde la baja definitiva de oficio, mediante la oportuna resolución, por existir la presunción de que el vehículo no existe o no circula al no haberse cumplido las exigencias en materia de inspección ITV obligatoria y de seguro de responsabilidad civil de suscripción obligatoria en los últimos diez años. Esta baja definitiva de oficio, en cualquier caso, no impide que si el vehículo cumple a posteriori las condiciones para poder volver a obtener la autorización administrativa para circular, pueda ser rehabilitado.",
+ "fingerprint": "sha256:1d705daa7c4cbd4de1361917bd3a546c060c56f8306caa6d0d82a64f488552ce",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#a35"
+}

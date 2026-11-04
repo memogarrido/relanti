@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "daseptima",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional séptima",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional séptima. Responsabilidad en accidentes de tráfico por atropellos de especies cinegéticas.\nEn accidentes de tráfico ocasionados por atropello de especies cinegéticas en las vías públicas será responsable de los daños a personas o bienes el conductor del vehículo, sin que pueda reclamarse por el valor de los animales que irrumpan en aquéllas.\nNo obstante, será responsable de los daños a personas o bienes el titular del aprovechamiento cinegético o, en su defecto, el propietario del terreno cuando el accidente de tráfico sea consecuencia directa de una acción de caza colectiva de una especie de caza mayor llevada a cabo el mismo día o que haya concluido doce horas antes de aquél.\nTambién podrá ser responsable el titular de la vía pública en la que se produzca el accidente como consecuencia de no haber reparado la valla de cerramiento en plazo, en su caso, o por no disponer de la señalización específica de animales sueltos en tramos con alta accidentalidad por colisión de vehículos con los mismos.",
+ "fingerprint": "sha256:ac85e5fca1a0140858c6f87d62582424b55779705980c34cf470cfd20d345088",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#daseptima"
+}

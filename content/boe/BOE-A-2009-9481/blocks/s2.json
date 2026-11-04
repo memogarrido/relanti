@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2009-9481",
+ "id": "s2",
+ "tipo": "encabezado",
+ "titulo": "Sección 2",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2009-9481",
+  "fecha_publicacion": "20090608",
+  "fecha_vigencia": "20091208"
+ },
+ "text": "Sección 2.ª De los permisos expedidos en terceros países",
+ "fingerprint": "sha256:b862cf01aea396fc9ab607b3aeff7085d8d4e2726219da0bfac873f5ca79d20a",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481#s2"
+}

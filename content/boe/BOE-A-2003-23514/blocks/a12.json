@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a12",
+ "tipo": "precepto",
+ "titulo": "Artículo 12",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2026-13889",
+  "fecha_publicacion": "20260626",
+  "fecha_vigencia": "20261001"
+ },
+ "text": "Artículo 12. Normas relativas a ciclomotores y motocicletas.\n1. En los ciclomotores y en las motocicletas, además del conductor y, en su caso, del ocupante del sidecar de éstas, puede viajar, siempre que así conste en su licencia o permiso de circulación, un pasajero que sea mayor de doce años, utilice casco de protección homologado y cumpla las siguientes condiciones:\na) Que vaya a horcajadas y con los pies apoyados en los reposapiés laterales.\nb) Que utilice el asiento correspondiente detrás del conductor.\nEn ningún caso podrá situarse el pasajero en lugar intermedio entre la persona que conduce y el manillar de dirección del ciclomotor o motocicleta.\n2. Excepcionalmente, los mayores de siete años podrán circular en motocicletas o ciclomotores conducidos por su padre, madre o tutor o por personas mayores de edad por ellos autorizadas, siempre que utilicen casco de protección homologado y se cumplan las prescripciones del apartado anterior (artículo 13.5 del texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial).\n3. Las motocicletas, los vehículos de tres ruedas y los ciclomotores podrán arrastrar un remolque o semirremolque, siempre que no superen el 50 por ciento de la masa en vacío del vehículo tractor y se cumplan las siguientes condiciones:\na) Que la circulación sea de día y en condiciones que no disminuyan la visibilidad.\nb) Que la velocidad a que se circule en estas condiciones quede reducida en un 10 por ciento respecto a las velocidades genéricas que para estos vehículos se establecen en el artículo 48.\nc) Que en ningún caso transporten personas en el vehículo remolcado.\nEn circulación urbana se estará a lo dispuesto por las ordenanzas municipales correspondientes.",
+ "fingerprint": "sha256:386a6ed6047a4a94044633c8ebd2ce741cfc1629374f9e3c20e26a71d11c5324",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a12"
+}

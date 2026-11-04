@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a170",
+ "tipo": "precepto",
+ "titulo": "Artículo 170",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 170. Otras marcas e inscripciones de color blanco.\nLa nomenclatura y significado de otras marcas e inscripciones de color blanco son los siguientes:\na) Marca de bifurcación. Anuncia al conductor que se aproxima a una bifurcación en la calzada por la que transita, con posible reajuste del número total de carriles antes y después de ella.\nb) Marca de paso a nivel. Las letras «P» y «N», una a cada lado de un aspa, indican la proximidad de un paso a nivel.\nc) Inscripción de carril o zona reservada. Indica que un carril o zona de la vía están reservados, temporal o permanentemente, para la circulación, parada o estacionamiento de determinados vehículos tales como autobuses (bus), taxis y ciclos.\nd) Marca de comienzo de carril reservado. Indica el comienzo de un carril reservado para determinados vehículos.\ne) Marca de vía ciclista. Indica una vía ciclista o senda ciclable.\nf) Líneas y marcas de estacionamiento. Delimitan los lugares o zonas de estacionamiento, así como la forma en que los vehículos deben ocuparlos.\ng) Cebreado. Una zona marcada por franjas oblicuas paralelas enmarcadas por una línea continua significa que ningún conductor debe entrar con su vehículo o animal en la citada zona, excepto los obligados a circular por el arcén.\nh) Línea de borde de calzada. Delimita para hacerlo más visible el borde de la calzada.\ni) Otras marcas o inscripciones de color blanco en la calzada repiten indicaciones de señales o proporcionan a los usuarios indicaciones útiles.",
+ "fingerprint": "sha256:6fdc9f3dab0d114c8703c47dffe9734e36aa49caac56ad232f8104636df9892d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a170"
+}

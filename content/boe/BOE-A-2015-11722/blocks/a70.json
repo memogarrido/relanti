@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "a70",
+ "tipo": "precepto",
+ "titulo": "Artículo 70",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Artículo 70. Pérdida de vigencia por desaparición de los requisitos para su otorgamiento.\n1. Con independencia de lo dispuesto en el artículo anterior, la vigencia de las autorizaciones administrativas reguladas en este título estará subordinada a que se mantengan los requisitos exigidos para su otorgamiento.\n2. El organismo autónomo Jefatura Central de Tráfico podrá declarar la pérdida de vigencia de las autorizaciones reguladas en este título cuando se acredite la desaparición de los requisitos sobre conocimientos, habilidades o aptitudes psicofísicas exigidas para su autorización.\nPara acordar la pérdida de vigencia, la Administración deberá notificar la presunta carencia del requisito exigido al interesado, a quien se concederá la facultad de acreditar su existencia en los términos que reglamentariamente se determine.\n3. El titular de una autorización cuya pérdida de vigencia haya sido declarada de acuerdo con lo dispuesto en el apartado anterior podrá obtenerla de nuevo siguiendo el procedimiento, superando las pruebas y acreditando los requisitos que reglamentariamente se determinen.",
+ "fingerprint": "sha256:19f100bdf661d67ec16a8e79f58209bca6fb8bc875513239d5cee446e7b1ebec",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#a70"
+}

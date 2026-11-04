@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "dfprimera-2",
+ "tipo": "precepto",
+ "titulo": "Disposición final primera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Disposición final primera. Obligación de utilizar los chalecos reflectantes de alta visibilidad.\nLa obligación de que los conductores de turismos deban utilizar el chaleco reflectante de alta visibilidad, impuesta en el artículo 118.3, será exigible transcurridos seis meses desde su entrada en vigor. Para los restantes conductores aludidos en dicho precepto, así como para los conductores y personal auxiliar de los vehículos pilotos de protección y acompañamiento, será exigible al día siguiente de su entrada en vigor.",
+ "fingerprint": "sha256:fd247b5c266a2a382d245abcf72d800b688c7fcc3f6ded096edd63f01155bc58",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#dfprimera-2"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a112",
+ "tipo": "precepto",
+ "titulo": "Artículo 112",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 112. Advertencias de los vehículos de servicios de urgencia.\nLos conductores de vehículos de los servicios de policía, extinción de incendios, protección civil y salvamento, y asistencia sanitaria, pública o privada, cuando circulen en servicio urgente, advertirán su presencia de conformidad con lo dispuesto en el artículo 68.2.",
+ "fingerprint": "sha256:ffa51b039689c95413c05ebf731a320f2e4efbf0e40f83674a0ecabb011c6251",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a112"
+}

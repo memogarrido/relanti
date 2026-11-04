@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "datercera",
+ "tipo": "precepto",
+ "titulo": "Disposición adicional tercera",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición adicional tercera. Cursos para conductores profesionales.\nLa realización de cursos de obligado cumplimiento por los conductores profesionales llevará aparejada la recuperación de hasta un máximo de cuatro puntos, en las condiciones que se determinen por orden del Ministro del Interior. Esta recuperación será compatible con la recuperación de los puntos obtenidos mediante la realización de un curso de sensibilización y reeducación vial.",
+ "fingerprint": "sha256:e072665e57fffa027ebd6f0e8ab1902cecf66389a18db73494d98629b96d2245",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#datercera"
+}

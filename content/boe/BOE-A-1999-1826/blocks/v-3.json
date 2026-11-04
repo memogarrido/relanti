@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-1999-1826",
+ "id": "v-3",
+ "tipo": "precepto",
+ "titulo": "V-3",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-1999-1826",
+  "fecha_publicacion": "19990126",
+  "fecha_vigencia": "19990726"
+ },
+ "text": "V-3. VEHÍCULO DE POLICÍA\n1. Señaliza un vehículo de esta clase en servicio no urgente.\n2. Estará constituida por una rotulación, reflectante o no, en los costados del vehículo, que incorpora la denominación del cuerpo policial y su imagen corporativa.\n3. Además de la señal descrita en el número anterior, podrá llevar:\na) Al menos, una línea de contorno longitudinal en material reflectante que se dispondrá por todo el perímetro del vehículo, la cual cumplirá los requisitos especificados para el nivel 2 y será de las siguientes anchuras mínimas:\nVehículos con M.M.A. menor o igual a 3.500 kg: 7 cm.\nVehículos con M.M.A. mayor de 3.500 kg: 10 cm.\nEl color de las citadas líneas de contorno podrá ser cualquiera de los especificados en la tabla de coordenadas cromáticas o combinaciones de los mismos, con la excepción del blanco hacia atrás.\nLa ubicación de las líneas de contorno deberá realizarse de modo que se garantice la señalización del vehículo en toda su longitud (laterales) y anchura (trasera y delantera), así como la forma y dimensiones del contorno total en el caso de que se empleen varias líneas o bandas.\nLos materiales reflectantes cumplirán los requisitos especificados y habrán de superar los ensayos igualmente descritos para los mismos.\nb) Un alumbrado de posición o crucero, ubicado en el interior del sistema de señalización prioritaria, situado en la parte delantera del plano superior del vehículo, del mismo color que la señal V-1, homologada conforme al Reglamento ECE número 65, así como un cartel con la misma iluminación y rotulación del Cuerpo a que pertenece.",
+ "fingerprint": "sha256:874879aa673a19b2cc1d8c231fe1970033a93612851daa8b7963c358d6564efc",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-1826#v-3"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "dtsegunda",
+ "tipo": "precepto",
+ "titulo": "Disposición transitoria segunda",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2015-11722",
+  "fecha_publicacion": "20151031",
+  "fecha_vigencia": "20160131"
+ },
+ "text": "Disposición transitoria segunda. Práctica de las notificaciones en la Dirección Electrónica Vial (DEV).\nLas administraciones locales practicarán las notificaciones en la Dirección Electrónica Vial (DEV) antes del 25 de mayo de 2016, siempre que lo permitan sus disponibilidades presupuestarias y sus medios técnicos.",
+ "fingerprint": "sha256:d8c5dde43b76dfe94051b8fe87ffb0b0698b6582c18c81fe256eaef771da8c0b",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#dtsegunda"
+}

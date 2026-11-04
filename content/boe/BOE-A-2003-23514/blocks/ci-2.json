@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "ci-2",
+ "tipo": "encabezado",
+ "titulo": "CAPÍTULO I",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "CAPÍTULO I\nLugar en la vía",
+ "fingerprint": "sha256:342a7563f5cc1f5335d5f2323036d80f84d964d5a4d16e403b0c9a8e355b6f78",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#ci-2"
+}

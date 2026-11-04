@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "tiii",
+ "tipo": "encabezado",
+ "titulo": "TÍTULO III",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "TÍTULO III\nOtras normas de circulación",
+ "fingerprint": "sha256:d3b27ad7b772af1316e95f4efc22c4256109a96036621e5cb2de39a993d70b50",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#tiii"
+}

@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2015-11722",
+ "id": "anv",
+ "tipo": "encabezado",
+ "titulo": "ANEXO V",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2021-21006",
+  "fecha_publicacion": "20211221",
+  "fecha_vigencia": "20211222"
+ },
+ "text": "ANEXO V\nDatos de búsqueda a los que podrán acceder los órganos competentes españoles\n1. Datos relativos al vehículo:\nNúmero de matrícula.\nEstado miembro de matriculación.\n2. Datos relativos a la infracción:\nEstado miembro de la infracción.\nFecha de la infracción.\nHora de la infracción.\nCódigo del tipo de infracción que corresponda según el cuadro siguiente:\nCódigo | Tipo de infracción\nCódigo 1 | Exceso de velocidad.\nCódigo 2 | Conducción con tasas de alcohol superiores a las reglamentariamente establecidas.\nCódigo 3 | No utilización del cinturón de seguridad u otros sistemas de retención homologados.\nCódigo 4 | No detención ante un semáforo en rojo o en el lugar prescrito por la señal de «stop».\nCódigo 5 | Circulación por un carril prohibido, circulación indebida por el arcén o por un carril reservado para determinados usuarios.\nCódigo 10 | Conducción con presencia de drogas en el organismo.\nCódigo 11 | No utilización del casco de protección.\nCódigo 12 | Utilización del teléfono móvil o de cualquier otro dispositivo de comunicación durante la conducción cuando no esté permitido.\nCódigo 51 | Impago de peaje, tasa o precio público, cuando estos fueran exigibles.",
+ "fingerprint": "sha256:259a5df38b6c52d4d4a03842fd71b5afa805c940699096852ba6f3ef2dbed17c",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722#anv"
+}

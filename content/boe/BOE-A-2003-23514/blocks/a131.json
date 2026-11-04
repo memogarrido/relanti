@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a131",
+ "tipo": "precepto",
+ "titulo": "Artículo 131",
+ "versions": 2,
+ "latest": {
+  "id_norma": "BOE-A-2025-12199",
+  "fecha_publicacion": "20250617",
+  "fecha_vigencia": "20250701"
+ },
+ "text": "Artículo 131. Concepto.\nLa señalización es el conjunto de señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico, señales circunstanciales que modifican el régimen normal de utilización de la vía y elementos de balizamiento, semáforos, señales verticales de circulación y marcas viales, destinadas a los usuarios de la vía y que tienen por misión advertir e informar a estos u ordenar o reglamentar su comportamiento con la necesaria antelación de determinadas circunstancias de la vía o de la circulación.",
+ "fingerprint": "sha256:6c2fc939f623821fe45db41dee0a9705f6c77719587999084bd7b052e12c57a6",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a131"
+}

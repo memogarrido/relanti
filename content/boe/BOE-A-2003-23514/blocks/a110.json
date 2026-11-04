@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a110",
+ "tipo": "precepto",
+ "titulo": "Artículo 110",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 110. Advertencias acústicas.\n1. Excepcionalmente o cuando así lo prevea alguna norma de la legislación sobre tráfico, circulación de vehículos a motor y seguridad vial, podrán emplearse señales acústicas de sonido no estridente, y queda prohibido su uso inmotivado o exagerado.\n2. Las advertencias acústicas sólo se podrán hacer por los conductores de vehículos no prioritarios:\na) Para evitar un posible accidente y, de modo especial, en vías estrechas con muchas curvas.\nb) Para advertir, fuera de poblado, al conductor de otro vehículo el propósito de adelantarlo.\nc) Para advertir su presencia a los demás usuarios de la vía, de conformidad con lo dispuesto en el artículo 70.",
+ "fingerprint": "sha256:0bcb001ab1d4a279c17e69ae0b8c5ffde28249108a59c89c5dfd872bb150d291",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a110"
+}

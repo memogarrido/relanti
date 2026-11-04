@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "a153",
+ "tipo": "precepto",
+ "titulo": "Artículo 153",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2003-23514",
+  "fecha_publicacion": "20031223",
+  "fecha_vigencia": "20040123"
+ },
+ "text": "Artículo 153. Señales de restricción de paso.\nLas señales de restricción de paso, para quienes se las encuentren de frente en el sentido de su marcha y a partir del lugar en que están situadas, prohíben o limitan el acceso de los vehículos en la forma que a continuación se detalla:\nR-200. Prohibición de pasar sin detenerse. Indica el lugar donde es obligatoria la detención por la proximidad, según la inscripción que contenga, de un puesto de aduana, de policía, de peaje u otro, y que tras ellos pueden estar instalados medios mecánicos de detención.\nEn todo caso, el conductor así detenido no podrá reanudar su marcha hasta haber cumplido la prescripción que la señal establece.\nR-201. Limitación de masa. Prohibición de paso de los vehículos cuya masa en carga supere la indicada en toneladas.\nR-202. Limitación de masa por eje. Prohibición de paso a los vehículos cuya masa por eje transmitida por la totalidad de las ruedas acopladas a algún eje supere a la indicada en la señal.\nR-203. Limitación de longitud. Prohibición de paso de los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada.\nR-204. Limitación de anchura. Prohibición de paso de los vehículos cuya anchura máxima, incluida la carga, supere la indicada.\nR-205. Limitación de altura. Prohibición de paso de los vehículos cuya altura máxima, incluida la carga, supere la indicada.",
+ "fingerprint": "sha256:6ec8b51b20e0625d193a39bcf390ac1f5185323496aca2207f8ff0aac135fd5f",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#a153"
+}

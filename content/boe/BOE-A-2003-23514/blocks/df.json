@@ -1,0 +1,15 @@
+{
+ "law": "BOE-A-2003-23514",
+ "id": "df",
+ "tipo": "precepto",
+ "titulo": "Disposición final cuarta",
+ "versions": 1,
+ "latest": {
+  "id_norma": "BOE-A-2018-18002",
+  "fecha_publicacion": "20181229",
+  "fecha_vigencia": "20190129"
+ },
+ "text": "Disposición final cuarta. Título competencial.\nEste reglamento se dicta al amparo de la competencia exclusiva atribuida al Estado sobre tráfico y circulación de vehículos a motor, por el artículo 149.1.21.ª de la Constitución Española.",
+ "fingerprint": "sha256:602ef8bc7c13ad121fa952f3c062fc5938da10880438060aae6d0ffdf71b530d",
+ "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514#df"
+}
