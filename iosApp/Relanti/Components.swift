@@ -87,14 +87,15 @@ struct GpsFace: View {
             p.addArc(center: c, radius: r, startAngle: .degrees(start), endAngle: .degrees(start + 270), clockwise: false)
             ctx.stroke(p, with: .color(Palette.glow), style: StrokeStyle(lineWidth: w * 0.03, lineCap: .round))
             // An arrowhead at the end, so it reads as "recalculating", not a letter C.
-            let e = (start + 270) * .pi / 180
-            let end = CGPoint(x: c.x + r * cos(e), y: c.y + r * sin(e))
-            let t = CGPoint(x: -sin(e), y: cos(e)), n = CGPoint(x: cos(e), y: sin(e))
+            let e: Double = (Double(start) + 270) * Double.pi / 180
+            let end = CGPoint(x: c.x + r * Foundation.cos(e), y: c.y + r * Foundation.sin(e))
+            let tg = CGPoint(x: -Foundation.sin(e), y: Foundation.cos(e))
+            let n = CGPoint(x: Foundation.cos(e), y: Foundation.sin(e))
             let a = w * 0.05
             var head = Path()
-            head.move(to: CGPoint(x: end.x + t.x * a, y: end.y + t.y * a))
-            head.addLine(to: CGPoint(x: end.x - t.x * a * 0.3 + n.x * a, y: end.y - t.y * a * 0.3 + n.y * a))
-            head.addLine(to: CGPoint(x: end.x - t.x * a * 0.3 - n.x * a, y: end.y - t.y * a * 0.3 - n.y * a))
+            head.move(to: CGPoint(x: end.x + tg.x * a, y: end.y + tg.y * a))
+            head.addLine(to: CGPoint(x: end.x - tg.x * a * 0.3 + n.x * a, y: end.y - tg.y * a * 0.3 + n.y * a))
+            head.addLine(to: CGPoint(x: end.x - tg.x * a * 0.3 - n.x * a, y: end.y - tg.y * a * 0.3 - n.y * a))
             head.closeSubpath()
             ctx.fill(head, with: .color(Palette.glow))
         case .silent:
