@@ -35,7 +35,7 @@ struct GpsFace: View {
     var body: some View {
         ZStack {
             bundleImage("satnav-blank.jpg").resizable().scaledToFill()
-            TimelineView(.animation(paused: reduceMotion)) { context in
+            TimelineView(.animation(paused: reduceMotion || UITest.active)) { context in
                 Canvas { ctx, size in
                     draw(ctx, size, t: context.date.timeIntervalSinceReferenceDate)
                 }
@@ -55,7 +55,8 @@ struct GpsFace: View {
         let eh = w * 0.14
         // Blink for 0.18 s every 4 s.
         let phase = t.truncatingRemainder(dividingBy: 4.0)
-        let blink: Double = reduceMotion ? 1 : (phase < 0.18 ? max(0.08, abs(phase - 0.09) / 0.09) : 1)
+        let still = reduceMotion || UITest.active
+        let blink: Double = still ? 1 : (phase < 0.18 ? max(0.08, abs(phase - 0.09) / 0.09) : 1)
 
         func eye(_ c: CGPoint, _ scaleY: Double, dx: Double = 0, dy: Double = 0, grow: Double = 1) {
             let h = eh * scaleY * grow
@@ -68,7 +69,7 @@ struct GpsFace: View {
             eye(left, blink, dx: w * 0.015, dy: -w * 0.015)
             eye(right, blink, dx: w * 0.015, dy: -w * 0.02, grow: 1.15)
         case .explain:
-            let bob = reduceMotion ? 0 : sin(t * 2.2) * w * 0.004
+            let bob = still ? 0 : sin(t * 2.2) * w * 0.004
             eye(left, blink * 0.8, dx: -w * 0.02 + bob)
             eye(right, blink * 0.8, dx: -w * 0.02 + bob)
         case .happy:
@@ -81,10 +82,22 @@ struct GpsFace: View {
         case .recalculando:
             let r = w * 0.09
             let c = CGPoint(x: w * 0.51, y: cy)
-            let start = reduceMotion ? 0 : (t * 400).truncatingRemainder(dividingBy: 360)
+            let start = still ? 45 : (t * 400).truncatingRemainder(dividingBy: 360)
             var p = Path()
             p.addArc(center: c, radius: r, startAngle: .degrees(start), endAngle: .degrees(start + 270), clockwise: false)
             ctx.stroke(p, with: .color(Palette.glow), style: StrokeStyle(lineWidth: w * 0.03, lineCap: .round))
+            // An arrowhead at the end, so it reads as "recalculating", not a letter C.
+            let e: Double = (Double(start) + 270) * Double.pi / 180
+            let end = CGPoint(x: c.x + r * Foundation.cos(e), y: c.y + r * Foundation.sin(e))
+            let tg = CGPoint(x: -Foundation.sin(e), y: Foundation.cos(e))
+            let n = CGPoint(x: Foundation.cos(e), y: Foundation.sin(e))
+            let a = w * 0.05
+            var head = Path()
+            head.move(to: CGPoint(x: end.x + tg.x * a, y: end.y + tg.y * a))
+            head.addLine(to: CGPoint(x: end.x - tg.x * a * 0.3 + n.x * a, y: end.y - tg.y * a * 0.3 + n.y * a))
+            head.addLine(to: CGPoint(x: end.x - tg.x * a * 0.3 - n.x * a, y: end.y - tg.y * a * 0.3 - n.y * a))
+            head.closeSubpath()
+            ctx.fill(head, with: .color(Palette.glow))
         case .silent:
             ctx.draw(
                 Text(clock).font(.system(size: w * 0.13, weight: .bold, design: .rounded)).foregroundColor(Palette.glow),

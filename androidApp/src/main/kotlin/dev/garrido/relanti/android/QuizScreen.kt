@@ -23,6 +23,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.runtime.NonSkippableComposable
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -35,6 +36,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -146,8 +148,13 @@ private fun TrucoIntro(session: QuizSession, onGo: () -> Unit) {
     PrimaryButton("Entendido, ¡vamos!", onClick = onGo)
 }
 
+// The session is the same plain object after each answer, so with strong
+// skipping Compose would skip this view and the feedback would never show.
+@NonSkippableComposable
 @Composable
-private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int) -> Unit, onNext: () -> Unit) {
+private fun QuestionView(
+    session: QuizSession,
+    clockText: String, onAnswer: (Int) -> Unit, onNext: () -> Unit) {
     val p = pal()
     val item = session.current
     val feedback = session.phase == SessionPhase.FEEDBACK
@@ -156,6 +163,9 @@ private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int
         Spacer(Modifier.width(10.dp))
         // The GPS always sits in the corner, watching the road with you.
         GpsFace(session.mood, Modifier.width(76.dp), clock = clockText)
+    }
+    if (TestHooks.oracle) {
+        Text("${item.answer}", Modifier.testTag("quiz.oracle"), fontSize = 1.sp, color = Color.Transparent)
     }
     if (item.novedad) {
         Text("NOVEDAD", color = p.sunset, fontWeight = FontWeight.Black, fontSize = 12.sp)
@@ -170,6 +180,7 @@ private fun QuestionView(session: QuizSession, clockText: String, onAnswer: (Int
         }
         Row(
             Modifier
+                .testTag("option.$i")
                 .fillMaxWidth()
                 .clip(RoundedCornerShape(14.dp))
                 .background(bg)

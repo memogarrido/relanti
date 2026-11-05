@@ -225,3 +225,31 @@ class CoreTest {
         assertEquals(Days.parseIso("2026-11-05"), Days.dayOf(utc, 120))
     }
 }
+
+class FixturesTest {
+    @Test
+    fun everyFixtureBuildsOnTheTestPack() {
+        Fixtures.names.forEach { name ->
+            val snap = Fixtures.core(TestPack.json, name).snapshot()
+            assertEquals(name != Fixtures.FRESH, snap.onboarded, name)
+        }
+    }
+
+    @Test
+    fun ticketReadyEarnsTheTicketWithAGoodRoundToday() {
+        val core = Fixtures.core(TestPack.json, Fixtures.TICKET_READY)
+        val next = core.snapshot().next
+        assertEquals("SE-101", next.tramo?.code)
+        val l = Fixtures.play(core, core.startTramo("SE-101"), 1)!!
+        assertTrue(l.ticketEarned)
+    }
+
+    @Test
+    fun midweekHasHistory() {
+        val snap = Fixtures.core(TestPack.json, Fixtures.MIDWEEK).snapshot()
+        assertTrue(snap.km > 0)
+        assertTrue(snap.retrovisorDue > 0)
+        assertEquals(1, snap.simulacros.size)
+        assertEquals(1, snap.tickets.size)
+    }
+}

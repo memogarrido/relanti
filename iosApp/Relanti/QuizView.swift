@@ -110,6 +110,9 @@ struct QuizView: View {
             // The GPS always sits in the corner, watching the road with you.
             GpsFace(mood: session.mood, clock: clock).frame(width: 76)
         }
+        if UITest.active {
+            Text("\(item.answer)").font(.system(size: 1)).opacity(0.01).accessibilityIdentifier("quiz.oracle")
+        }
         if item.novedad {
             Text("NOVEDAD").font(.caption.weight(.black)).foregroundStyle(Palette.sunset)
         }
@@ -139,7 +142,8 @@ struct QuizView: View {
                 .overlay(RoundedRectangle(cornerRadius: 14).stroke(border, lineWidth: feedback && (isAnswer || isChoice) ? 2 : 1))
             }
             .buttonStyle(.plain)
-            .disabled(feedback)
+            .allowsHitTesting(!feedback)
+            .accessibilityIdentifier("option.\(i)")
         }
         if feedback {
             Tile(color: session.lastCorrect ? Palette.goSoft : Palette.blueSoft) {

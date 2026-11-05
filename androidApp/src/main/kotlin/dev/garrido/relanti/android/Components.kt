@@ -47,6 +47,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -91,6 +92,7 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
     val blink = remember { Animatable(1f) }
     LaunchedEffect(mood) {
         blink.snapTo(1f)
+        if (TestHooks.still) return@LaunchedEffect
         if (mood == TurboMood.IDLE || mood == TurboMood.CURIOUS || mood == TurboMood.EXPLAIN) {
             while (true) {
                 delay(Random.nextLong(3_000, 5_000))
@@ -99,9 +101,13 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
             }
         }
     }
-    val spinner = rememberInfiniteTransition(label = "spin")
-    val angle by spinner.animateFloat(0f, 360f, infiniteRepeatable(tween(900, easing = LinearEasing)), label = "angle")
-    val bob by spinner.animateFloat(-1f, 1f, infiniteRepeatable(tween(1400), RepeatMode.Reverse), label = "bob")
+    var angle = 45f
+    var bob = 0f
+    if (!TestHooks.still) {
+        val spinner = rememberInfiniteTransition(label = "spin")
+        angle = spinner.animateFloat(0f, 360f, infiniteRepeatable(tween(900, easing = LinearEasing)), label = "angle").value
+        bob = spinner.animateFloat(-1f, 1f, infiniteRepeatable(tween(1400), RepeatMode.Reverse), label = "bob").value
+    }
     val glow = p.glow
 
     Box(modifier.aspectRatio(1f).clip(RoundedCornerShape(16.dp))) {
@@ -150,6 +156,18 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
                             glow, 0f, 270f, false,
                             topLeft = Offset(c.x - r, c.y - r), size = Size(r * 2, r * 2),
                             style = Stroke(width = w * 0.03f, cap = StrokeCap.Round),
+                        )
+                        // An arrowhead at the end, so it reads as "recalculating", not a letter C.
+                        val a = w * 0.05f
+                        val tip = Offset(c.x + a, c.y - r)
+                        drawPath(
+                            Path().apply {
+                                moveTo(tip.x, tip.y)
+                                lineTo(c.x - a * 0.3f, c.y - r - a)
+                                lineTo(c.x - a * 0.3f, c.y - r + a)
+                                close()
+                            },
+                            glow,
                         )
                     }
                 }

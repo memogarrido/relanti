@@ -43,6 +43,17 @@ final class DeviceClock: PlatformClock {
     }
 }
 
+/// Test launch arguments (a stable contract, like accessibility ids):
+/// `--uitest-state=<fresh|onboarded|ticket-ready|midweek|autopista>` starts from a shared fixture.
+enum UITest {
+    static let state: String? = ProcessInfo.processInfo.arguments
+        .first { $0.hasPrefix("--uitest-state=") }
+        .map { String($0.dropFirst("--uitest-state=".count)) }
+    static var active: Bool { state != nil }
+    /// --uitest-dark: dark mode for screenshots, whatever the simulator uses.
+    static let dark = ProcessInfo.processInfo.arguments.contains("--uitest-dark")
+}
+
 enum Screen {
     case onboarding
     case taller
@@ -65,7 +76,12 @@ final class AppModel {
     init() {
         let url = Bundle.main.url(forResource: "relanti-b", withExtension: "json")!
         let pack = try! String(contentsOf: url, encoding: .utf8)
-        core = RelantiCore(packJson: pack, storage: FileStorage(), clock: DeviceClock())
+        if let state = UITest.state {
+            // UI tests: in-memory storage and a pinned clock, from the shared fixtures.
+            core = Fixtures.shared.core(packJson: pack, state: state)
+        } else {
+            core = RelantiCore(packJson: pack, storage: FileStorage(), clock: DeviceClock())
+        }
         snapshot = core.snapshot()
         screen = core.isOnboarded ? .home : .onboarding
     }
@@ -157,6 +173,7 @@ struct RootView: View {
     }
 
     private var scheme: ColorScheme? {
+        if UITest.dark { return .dark }
         switch model.snapshot.settings?.theme {
         case "light": return .light
         case "dark": return .dark
