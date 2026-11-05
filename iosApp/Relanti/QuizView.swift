@@ -142,7 +142,7 @@ struct QuizView: View {
                 .overlay(RoundedRectangle(cornerRadius: 14).stroke(border, lineWidth: feedback && (isAnswer || isChoice) ? 2 : 1))
             }
             .buttonStyle(.plain)
-            .disabled(feedback)
+            .allowsHitTesting(!feedback)
             .accessibilityIdentifier("option.\(i)")
         }
         if feedback {

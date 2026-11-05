@@ -12,7 +12,7 @@ final class PlaythroughUITests: XCTestCase {
 
     private func launch(_ state: String, dark: Bool = false) {
         app.launchArguments = ["--uitest-state=\(state)"]
-        if dark { app.launchArguments += ["-AppleInterfaceStyle", "Dark"] }
+        if dark { app.launchArguments += ["--uitest-dark"] }
         app.launch()
     }
 

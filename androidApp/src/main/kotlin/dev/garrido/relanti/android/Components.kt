@@ -47,6 +47,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -155,6 +156,18 @@ fun GpsFace(mood: TurboMood, modifier: Modifier = Modifier, clock: String = "") 
                             glow, 0f, 270f, false,
                             topLeft = Offset(c.x - r, c.y - r), size = Size(r * 2, r * 2),
                             style = Stroke(width = w * 0.03f, cap = StrokeCap.Round),
+                        )
+                        // An arrowhead at the end, so it reads as "recalculating", not a letter C.
+                        val a = w * 0.05f
+                        val tip = Offset(c.x + a, c.y - r)
+                        drawPath(
+                            Path().apply {
+                                moveTo(tip.x, tip.y)
+                                lineTo(c.x - a * 0.3f, c.y - r - a)
+                                lineTo(c.x - a * 0.3f, c.y - r + a)
+                                close()
+                            },
+                            glow,
                         )
                     }
                 }

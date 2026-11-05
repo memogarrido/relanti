@@ -50,6 +50,8 @@ enum UITest {
         .first { $0.hasPrefix("--uitest-state=") }
         .map { String($0.dropFirst("--uitest-state=".count)) }
     static var active: Bool { state != nil }
+    /// --uitest-dark: dark mode for screenshots, whatever the simulator uses.
+    static let dark = ProcessInfo.processInfo.arguments.contains("--uitest-dark")
 }
 
 enum Screen {
@@ -171,6 +173,7 @@ struct RootView: View {
     }
 
     private var scheme: ColorScheme? {
+        if UITest.dark { return .dark }
         switch model.snapshot.settings?.theme {
         case "light": return .light
         case "dark": return .dark

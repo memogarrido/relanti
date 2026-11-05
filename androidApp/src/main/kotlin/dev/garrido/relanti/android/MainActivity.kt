@@ -134,7 +134,7 @@ fun RelantiRoot(core: RelantiCore) {
 @Composable
 fun MainTabs(model: AppModel) {
     var tab by rememberSaveable { mutableIntStateOf(0) }
-    val tabs = listOf("Ruta" to "🛣", "Examen" to "🚦", "Guantera" to "🎫", "Yo" to "🪪")
+    val tabs = listOf("Ruta" to "🛣", "Examen" to "🚦", "Guantera" to "🎫", "Yo" to "🙂")
     Column(Modifier.fillMaxSize()) {
         Box(Modifier.weight(1f)) {
             when (tab) {
