@@ -14,15 +14,29 @@ android {
         applicationId = "dev.garrido.relanti"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
+        versionCode = (providers.gradleProperty("relanti.versionCode").orNull ?: "1").toInt()
         versionName = "0.1.0"
+    }
+
+    // Play upload key. Lives outside the repo; the paths and password come from
+    // ~/.gradle/gradle.properties (RELANTI_UPLOAD_*). Without them, release falls back to the
+    // debug key so local release builds still work (Play rejects those uploads).
+    val uploadStore = providers.gradleProperty("RELANTI_UPLOAD_STORE_FILE").orNull
+    signingConfigs {
+        if (uploadStore != null) {
+            create("upload") {
+                storeFile = file(uploadStore)
+                storePassword = providers.gradleProperty("RELANTI_UPLOAD_STORE_PASSWORD").get()
+                keyAlias = providers.gradleProperty("RELANTI_UPLOAD_KEY_ALIAS").get()
+                keyPassword = providers.gradleProperty("RELANTI_UPLOAD_STORE_PASSWORD").get()
+            }
+        }
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
-            // Test builds only: signed with the debug key until we set up Play signing.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.findByName("upload") ?: signingConfigs.getByName("debug")
         }
     }
 
